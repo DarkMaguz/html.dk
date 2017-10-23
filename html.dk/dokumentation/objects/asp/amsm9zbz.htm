@@ -1,0 +1,197 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Recipients Collection Object (CDONTS Library)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_denali_recipients_collection_object_cdonts_library_"></a>Recipients Collection Object (CDONTS Library)</h2>
+<p>
+The Recipients collection object contains zero or more Recipient objects and specifies the recipients of a message. </p>
+<h4>At a Glance </h4>
+<table>
+<tr valign=top>
+<td>
+Specified in type library: </td>
+<td>
+CDONTS.DLL </td>
+</tr>
+<tr valign=top>
+<td>
+First available in: </td>
+<td>
+CDO for NTS Library version 1.2 </td>
+</tr>
+<tr valign=top>
+<td>
+Parent objects: </td>
+<td>
+<a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> </td>
+</tr>
+<tr valign=top>
+<td>
+Child objects: </td>
+<td>
+<a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm">Recipient</a> </td>
+</tr>
+<tr valign=top>
+<td>
+Default property: </td>
+<td>
+<a href="amsm2j8f.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2j8f.htm"><b>Item</b></a> </td>
+</tr>
+</table><br>
+<p>
+ </p>
+<h4>Properties </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Type </b></td>
+<td>
+<b> <BR>Access </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm23rz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm23rz.htm"><b>Application</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm9hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9hpb.htm"><b>Count</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long</td>
+<td>
+Read-only</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm2j8f.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2j8f.htm"><b>Item</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Recipient object</td>
+<td>
+Read-only</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8snz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8snz.htm"><b>Parent</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Message object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6iov.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6iov.htm"><b>Session</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Session object </td>
+<td>
+Read-only </td>
+</tr>
+</table><br>
+<h4>Methods </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Parameters </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8hjz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hjz.htm"><b>Add</b></a> </td>
+<td>
+1.2 </td>
+<td>
+(optional) <i>name</i> as <b>String</b>, <BR>(optional) <i>address</i> as <b>String</b>, <BR>(optional) <i>type</i> as <b>Long</b> </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm2man.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2man.htm"><b>Delete</b></a> </td>
+<td>
+1.2 </td>
+<td>
+(none)</td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table><br>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

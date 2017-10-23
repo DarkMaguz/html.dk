@@ -1,0 +1,138 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Cross platform login system</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af James Olsen den 22. juni 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Cross platform login system" />
+<meta name="language" content="dan" />
+<meta name="Date" content="22-06-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=20016291337912A6?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=20016291337912A6?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=20016291337912A6?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C9gumf5%242d1s%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> James&nbsp;Olsen&nbsp;&nbsp;<a href='mailto:james_olsen@vip.cybercity.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='james_olsen@vip.cybercity.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> CyberCity Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 22. juni 2001 kl. 07:51</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Cross platform login system</strong></li></ul>
+
+<p><span class='normal'>&quot;Jens Jackson&quot; &lt;<a href='http://en_lille_kop_tis@sugekop.dk'>en_lille_kop_tis@sugekop.dk</a>> wrote in message </span><br /><span class='normal'><a href='http://news:9gukbq$8kd$1@news.inet.tele.dk'>news:9gukbq$8kd$1@news.inet.tele.dk</a>... </span><br /><span class='citat'>> Hej </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg har et site som er spredt over to servere; en Win2k Server med IIS5 og </span><br /><span class='citat'>> en Linux Red Hat med Apache. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg vil gerne implementere et login system men er lidt i tvivl om hvordan </span><br /><span class='citat'>> jeg skal gribe det an. </span><br /><span class='citat'>> </span><br /><span class='citat'>> P&#229; win2k maskinen kan jeg altid sp&#248;rge til brugerens session for at afg&#248;re </span><br /><span class='citat'>> om vedkommede er gyldigt logget ind men hvad n&#229;r han klikker sig ind p&#229; en </span><br /><span class='citat'>> side som ligger p&#229; linux maskinen? Hvordan kan jeg s&#229; verificere hans </span><br /><span class='normal'>login? </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg har brug for noget kommunikation mellem windows og linux. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg t&#230;nker noget i retning af XML. </span><br /><span class='normal'> </span><br /><span class='normal'>Du skal nok fors&#248;ge at implementere det her ved at kommunikere de to servere </span><br /><span class='normal'>imellem og hvad XML ang&#229;r s&#229; kan det ikke tilf&#248;re dig noget &quot;ekstra&quot;. </span><br /><span class='normal'> </span><br /><span class='normal'>Nu kommer det ogs&#229; meget an p&#229;, hvor skudsikkert dit system skal v&#230;re, for </span><br /><span class='normal'>du har egentligt brug for at lave en global-session og det er desv&#230;rre ikke </span><br /><span class='normal'>et helt banalt projekt at begive sig ud i. Men du kan jo n&#229;r brugeren har </span><br /><span class='normal'>f&#229;et en session p&#229; din IIS s&#248;rge for at sende en eller anden besv&#230;rgelse med </span><br /><span class='normal'>hver request, som indikation af at brugeren har en valid session. Det bliver </span><br /><span class='normal'>nok bare aldrig nogen s&#230;rlig k&#248;n l&#248;sning. </span><br /><span class='normal'> </span><br /><span class='normal'>Ligeledes er det jo ogs&#229; meget afh&#230;ngigt hvad der ligger p&#229; din apache </span><br /><span class='normal'>server. For hvis du prim&#230;rt server statisk indhold s&#229; som billder og ligende </span><br /><span class='normal'>fra den, s&#229; vil det jo typisk v&#230;re s&#229;dan at disse ressourcer skal tilg&#229;es </span><br /><span class='normal'>via andre sider som kunne ligge p&#229; den platform du kan validere p&#229;. Men det </span><br /><span class='normal'>er ogs&#229; en meget stor foruds&#230;tning at g&#248;re. </span><br /><span class='normal'> </span><br /><span class='normal'>S&#229; er der jo altid den rigtig lette l&#248;sning, nemlig at sl&#229; enten IIS'en </span><br /><span class='normal'>eller Apache serveren ihjel og konsolidere p&#229; en enkelt platform. Det er </span><br /><span class='normal'>selvf&#248;lgelig en drastisk l&#248;sning, men det ville ikke v&#230;re unaturligt, hvis </span><br /><span class='normal'>der er et st&#230;rkt b&#229;nd mellem de to servere, hvad man nok m&#229; sige n&#229;r du skal </span><br /><span class='normal'>dele sessions. Du skal lige v&#230;re opm&#230;rksom p&#229; at blot fordi du har to IIS s&#229; </span><br /><span class='normal'>kan de ikke bare dele sessions, med mindre du har for eksempel DataCenter </span><br /><span class='normal'>Server. </span><br /><span class='normal'> </span><br /><span class='normal'>Sidst men ikke mindst kan du jo lave et centralt respository over sessions, </span><br /><span class='normal'>du laver en abstraktion som b&#229;de IIS og Apache delen kan tilg&#229; og se hvad </span><br /><span class='normal'>brugeren er for en. Det vil kr&#230;ve at du har endnu en maskine og igen skal du </span><br /><span class='normal'>sende en eller anden information med hvert request, som s&#229; skal valideres </span><br /><span class='normal'>mod dit repository. En s&#229;dan l&#248;sning er let nok med et forholdsvis lille </span><br /><span class='normal'>load p&#229; dit site, men det kan v&#230;re noget sv&#230;rt noget at f&#229; til at skalere. </span><br /><span class='normal'> </span><br /><span class='normal'>Det var s&#229; lidt ideer til hvad du har af muligheder, men husk at afstem med </span><br /><span class='normal'>de behov du har i forhold til sikkerhed og skalering. Jeg har ikke eksempler </span><br /><span class='normal'>p&#229; k&#248;be software, men det skulle da undre mig om der ikke er nogen som har </span><br /><span class='normal'>haft dit problem tidligere. </span><br /><span class='normal'> </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Smokie Spartacus </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9gukbq%248kd%241%40news%2Einet%2Etele%2Edk%3E' title='Cross platform login system'>Cross platform login system</a>&nbsp;<small class='newslist'>(22-06-01&nbsp;-&nbsp;Jens&nbsp;Jackson)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9gumf5%242d1s%241%40news%2Ecybercity%2Edk%3E' title='Re: Cross platform login system'>Re: Cross platform login system</a>&nbsp;<small class='newslist'>(22-06-01&nbsp;-&nbsp;James&nbsp;Olsen)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C9gumf5%242d1s%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;html.dk</a></div>
+<hr />
+
+<div style="float:right;">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<a href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=2" /></a>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Cross platform login system</span></div>
+
+</body>
+</html>
+

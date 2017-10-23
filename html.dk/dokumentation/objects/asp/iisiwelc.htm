@@ -1,0 +1,59 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Server-Side Includes</title>
+
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Welcome page for server-side includes topics."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">
+
+<h1><a name="serversideincludes">Server-Side Includes</a></h1>
+
+<p>Server-side include (SSI) directives instruct the Web server to insert the contents of another file into an HTML page.  Using included files is a convenient way to store information used on many pages in a single file.  For example, you could use SSI directives to insert a copyright notice into all of the documents in your Web site.</p>
+
+<p>This section contains:</p>
+<ul>
+<li><strong>About Server-Side Includes</strong>: Briefly describes how the Web server processes SSI
+  directives; see <a href="iisiabt.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisiabt.htm">About Server-Side
+  Includes</a></li>
+<li><strong>Enabling Server-Side Includes</strong>: Explains how to turn on the processing of SSI
+  directives; see <a href="iisienab.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisienab.htm">Enabling
+  Server-Side Includes</a></li>
+<li><strong>Using Server-Side Include Directives</strong>: Explains how to insert SSI directives into your HTML
+  pages; see <a href="iisincf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisincf.htm">Using Server-Side
+  includes Directives</a></li>
+</ul>
+
+<p>This section does <em>not</em> contain information on:</p>
+
+<ul>
+<li>Reference pages for SSI directives; see <a href="iissiref.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iissiref.htm">Server-Side Includes Reference</a>.</li>
+</ul>
+
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+</font>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Randomize Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmrandomize"></A>Randomize Statement</H1>
+
+<P>Initializes the random-number generator.</P>
+
+<P><CODE><B>Randomize</B> [<I>number</I>]</CODE></P>
+
+<P>The <I>number</I> argument can be any valid <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P><B>Randomize</B> uses <I>number</I> to initialize the <B>Rnd</B> function's random-number generator, giving it a new <A HREF="vtglossary.htm#defseedvbs">seed</A> value. If you omit <I>number, </I>the value returned by the system timer is used as the new seed value.</P>
+
+<P>If <B>Randomize</B> is not used, the <B>Rnd</B> function (with no arguments) uses the same number as a seed the first time it is called, and thereafter uses the last generated number as a seed value.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>To repeat sequences of random numbers, call <B>Rnd</B> with a negative argument immediately before using <B>Randomize</B> with a numeric argument. Using <B>Randomize</B> with the same value for <I>number</I> does not repeat the previous sequence.</P>
+
+<P>The following example illustrates use of the <B>Randomize</B> statement. </P>
+
+<PRE><CODE>Dim MyValue, Response
+<span class=cfe><B>Randomize</B></span>&nbsp;&nbsp;&nbsp;' Initialize random-number generator.
+Do Until Response = vbNo
+&nbsp;&nbsp;&nbsp;MyValue = Int((6 * Rnd) + 1)&nbsp;&nbsp;&nbsp;' Generate random value between 1 and 6.
+&nbsp;&nbsp;&nbsp;MsgBox MyValue
+&nbsp;&nbsp;&nbsp;Response = MsgBox ("Roll again? ", vbYesNo)
+Loop</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctrnd.htm">Rnd Function</A> | <A HREF="vsfcttimer.htm">Timer Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,114 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Request Object</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_request_object"></a>Request Object</h2>
+<p>
+The <b>Request </b>object retrieves the values that the client browser passed to the server during an HTTP request.</p>
+<h4>Syntax</h4>
+<pre><b>Request</b>[<b>.</b><i>collection|property|method</i>]<b>(</b><i>variable</i><b>) 
+ </b></pre>
+<h4>Collections</h4>
+<table>
+<tr valign=top>
+<td>
+<a href="intr8q5h.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8q5h.htm"><b>ClientCertificate</b></a> </td>
+<td>
+The values of fields stored in the client certificate that is sent in the HTTP request.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="intr0z3o.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr0z3o.htm"><b>Cookies</b></a></td>
+<td>
+The values of cookies sent in the HTTP request. </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="intr4fl9.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr4fl9.htm"><b>Form</b></a></td>
+<td>
+The values of form elements in the HTTP request body. </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="intr53hj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr53hj.htm"><b>QueryString</b></a></td>
+<td>
+The values of variables in the HTTP query string. </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="intr5vsj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5vsj.htm"><b>ServerVariables</b></a></td>
+<td>
+The values of predetermined environment variables. </td>
+</tr>
+</table><br>
+<h4>Properties</h4>
+<table>
+<tr valign=top>
+<td>
+<a href="intr1whf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr1whf.htm"><b>TotalBytes</b></a></td>
+<td>
+Read-only. Specifies the total number of bytes the client is sending in the body of the request.</td>
+</tr>
+</table><br>
+<h4>Methods</h4>
+<table>
+<tr valign=top>
+<td>
+<a href="intr8rl0.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8rl0.htm"><b>BinaryRead</b></a></td>
+<td>
+Retrieves data sent to the server from the client as part of a POST request. </td>
+</tr>
+</table><br>
+<p>
+Variable parameters are strings that specify the item to be retrieved from a collection or to be used as input for a method or property. For more information about the <i>variable</i> parameter, see the individual collection descriptions.</p>
+<h4>Remarks</h4>
+<p>
+If the specified variable is not in one of the preceding five collections, the <b>Request</b> object returns EMPTY.</p>
+<p>
+All variables can be accessed directly by calling <b>Request(</b><i>variable</i><b>)</b> without the collection name. In this case, the Web server searches the collections in the following order.
+<ol>
+<li>
+<b>QueryString</b><br><br></li>
+<li>
+<b>Form</b><br><br></li>
+<li>
+<b>Cookies</b><br><br></li>
+<li>
+<b>ClientCertificate</b><br><br></li>
+<li>
+<b>ServerVariables</b></li>
+</ol>
+<p>
+If a variable with the same name exists in more than one collection, the <b>Request </b>object returns the first instance that the object encounters. </p>
+<p>
+It is strongly recommended that when referring to members of the <b>ServerVariables</b> collection the full name be used. For example, rather than <b>Request</b>.(AUTH_USER) use <b>Request.ServerVariables</b>(AUTH_USER).</p>
+<h4>See Also</h4>
+<p>
+<a href="intr5sj8.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5sj8.htm"><b>Response </b>Object</a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

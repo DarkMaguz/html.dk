@@ -1,0 +1,95 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Tools Component</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_tools_component"></a>Tools Component</h1>
+<p>
+The Tools<b> </b>component creates a <b>Tools</b> object that provides utilities that enable you to easily add sophisticated functionality to your Web pages. </p>
+<h2>File Names</h2>
+<table>
+<tr valign=top>
+<td>
+tools.dll</td>
+<td>
+The Tools component.</td>
+</tr>
+</table><br>
+<h2>Syntax</h2>
+<pre><b>Set </b><i>Tools</i><b> = Server.CreateObject(&quot;MSWC.Tools&quot;)
+ 
+ </b></pre>
+<h2>Parameters</h2>
+<dl>
+<dt>
+<i>Tools</i></dt>
+<dd>
+Specifies the name of the <b>Tools</b> object created by the call to <b>Server.CreateObject</b>.</dd>
+</dl>
+<h2>Registry Entries</h2>
+<p>
+None.</p>
+<h2>Remarks</h2>
+<p>
+In Personal Web Server for Windows&reg; 95, the <b>Tools</b> object has already been included in the global.asa file in the default virtual directory. You can work with the <b>Tools</b> object as if it were a built-in object by calling <b>Tools.FileExists</b>, <b>Tools.ProcessForm</b>, and <b>Tools.Random</b>.</p>
+<h2>Methods</h2>
+<table>
+<tr valign=top>
+<td>
+<a href="macc1d9v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc1d9v.htm"><b>FileExists</b></a> </td>
+<td>
+Checks for the existence of a file. </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="macc4ng2.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc4ng2.htm"><b>Owner</b></a> </td>
+<td>
+Checks if the current user is the site owner.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="macc2mer.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc2mer.htm"><b>PluginExists</b></a> </td>
+<td>
+Checks the existence of a server plug-in (on Macintosh only). </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="macc0gkt.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc0gkt.htm"><b>ProcessForm</b></a> </td>
+<td>
+Processes an HTML form.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="macc8kdp.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc8kdp.htm"><b>Random</b></a> </td>
+<td>
+Generates a random integer.</td>
+</tr>
+</table><br>
+<p>
+<b>Note</b>  You can obtain this component from the CD included with the IIS Resource Kit.</p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

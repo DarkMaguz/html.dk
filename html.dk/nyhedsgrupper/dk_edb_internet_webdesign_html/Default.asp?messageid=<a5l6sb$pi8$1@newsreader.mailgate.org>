@@ -1,0 +1,174 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>RE: CSS positioning fejl</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Lars Hoffmann den 28. februar 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="RE: CSS positioning fejl" />
+<meta name="language" content="dan" />
+<meta name="Date" content="28-02-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<script language="JavaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+   </a>
+</noscript>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Ca5l6sb%24pi8%241%40newsreader%2Emailgate%2Eorg%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Lars&nbsp;Hoffmann&nbsp;&nbsp;<a href='mailto:lars@intercambiodvd.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='lars@intercambiodvd.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Mailgate.ORG Server - http://www.Mailgate.ORG</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 28. februar 2002 kl. 14:13</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>RE: CSS positioning fejl</strong></li></ul>
+
+<p><span class='normal'>Kasper Kyndsberg &lt;<a href='http://nospam@kyndsberg.dk'>nospam@kyndsberg.dk</a>> escribi&#243; en el mensaje de </span><br /><span class='normal'>noticias <a href='http://a5l592$g4e$1@sunsite.dk'>a5l592$g4e$1@sunsite.dk</a>... </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg kan desv&#230;rre ikke forklare dig hvorfor position relative ikke </span><br /><span class='normal'>virker i </span><br /><span class='citat'>> dit eksempel. Position absolute b&#248;r efter min logik placere dit </span><br /><span class='normal'>element som </span><br /><span class='citat'>> den g&#248;r. Absolute skal positionere efter browserens indre m&#229;l, mens </span><br /><span class='normal'>relative </span><br /><span class='citat'>> skal placere et element ud fra dens oprindeligeg placering. </span><br /><span class='normal'> </span><br /><span class='normal'>Men ifoelge W3 skal position:absolute placere efter &quot;moder&quot;-blokken, men </span><br /><span class='normal'>som du siger placeres der efter hele browserwinduet </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg synes ogs&#229; det er ret m&#230;rkeligt, men har ofte problemer med at f&#229; </span><br /><span class='citat'>> position til at virke. Mange browsere underst&#248;tter desv&#230;rre ikke </span><br /><span class='normal'>position </span><br /><span class='citat'>> ordentligt, hvorfor det ofte er bedre at bruge float, som Thomas ogs&#229; </span><br /><span class='normal'>er </span><br /><span class='citat'>> inde p&#229;. </span><br /><span class='normal'> </span><br /><span class='normal'>Position kan vaere ret traels, specielt med Netscape 4 og 6 (6'eren </span><br /><span class='normal'>understoetter der rimeligt, men placerer blokkene anderledes end andre </span><br /><span class='normal'>browsere). 4'eren placerer fint nok, saalaenge din left og top er </span><br /><span class='normal'>defineret inline, er det derimod defineret som en class eller endnu </span><br /><span class='normal'>vaerrere, i et ekstert stylesheat, gaar NS4 helt bananas. Heldigvis er </span><br /><span class='normal'>den browser da snart foejet af markedet <img src='/site/graphics/smileys/smiley3.gif' alt=';o)'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='citat'>> S&#229; snart du fjerner position fra den yderste boks vil denne heller </span><br /><span class='normal'>ikke </span><br /><span class='citat'>> virke. </span><br /><span class='normal'> </span><br /><span class='normal'>Paa W3 siger de </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;citat> </span><br /><span class='normal'>Absolutely positioned boxes are taken out of the normal flow. This means </span><br /><span class='normal'>they have </span><br /><span class='normal'>no impact on the layout of later siblings. </span><br /><span class='normal'>&lt;/citat> </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg tror at det er netop det som browserne tager fejl af. De lader ikke </span><br /><span class='normal'>absolutte boxe have inflydelse paa &quot;siblings&quot;, men _heller_ikke_ paa </span><br /><span class='normal'>boxe der indeholdes i samme. (Det er ret saa svaert at beskrive disse </span><br /><span class='normal'>problemer paa dansk, haaber det er forstaaeligt hvad jeg skriver.) </span><br /><span class='normal'> </span><br /><span class='normal'>Med venlig hilsen </span><br /><span class='normal'>Lars Hoffmann </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='citat'>> Som du er inde p&#229;, burde den indre boks positioneres med relative, men </span><br /><span class='normal'>det </span><br /><span class='citat'>> virker heller ikke. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Som sagt har jeg ikke nogen fornuftige forklaringer, men h&#229;ber du kan </span><br /><span class='normal'>bruge </span><br /><span class='citat'>> eksemplet til at arbejde videre ud fra </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg m&#229; indr&#248;mme min nysgerrighed ogs&#229; er vagt nu, s&#229; hvis du selv </span><br /><span class='normal'>finder ud </span><br /><span class='citat'>> af noget, m&#229; du meget gerne poste et svar... </span><br /><span class='citat'>> </span><br /><span class='citat'>> > Lars Hoffmann </span><br /><span class='citat'>> </span><br /><span class='citat'>> -- </span><br /><span class='citat'>> /Kasper </span><br /><span class='citat'>> <a href='http://www.kyndsberg.dk'>http://www.kyndsberg.dk</a> </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ca5kv48%24i4d%241%40newsreader%2Emailgate%2Eorg%3E' title='CSS positioning fejl'>CSS positioning fejl</a>&nbsp;<small class='newslist'>(28-02-02&nbsp;-&nbsp;Lars&nbsp;Hoffmann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ca5l0q7%241la5%241%40news%2Ecybercity%2Edk%3E' title='Re: CSS positioning fejl'>Re: CSS positioning fejl</a>&nbsp;<small class='newslist'>(28-02-02&nbsp;-&nbsp;Thomas&nbsp;Lindgaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ca5l2b5%24mhk%241%40newsreader%2Emailgate%2Eorg%3E' title='RE: CSS positioning fejl'>RE: CSS positioning fejl</a>&nbsp;<small class='newslist'>(28-02-02&nbsp;-&nbsp;Lars&nbsp;Hoffmann)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ca5l592%24g4e%241%40sunsite%2Edk%3E' title='Re: CSS positioning fejl'>Re: CSS positioning fejl</a>&nbsp;<small class='newslist'>(28-02-02&nbsp;-&nbsp;Kasper&nbsp;Kyndsberg)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ca5l6sb%24pi8%241%40newsreader%2Emailgate%2Eorg%3E' title='RE: CSS positioning fejl'>RE: CSS positioning fejl</a>&nbsp;<small class='newslist'>(28-02-02&nbsp;-&nbsp;Lars&nbsp;Hoffmann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C7koxxztw%2Efsf%40hotpop%2Ecom%3E' title='Re: CSS positioning fejl'>Re: CSS positioning fejl</a>&nbsp;<small class='newslist'>(28-02-02&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Ca5l6sb%24pi8%241%40newsreader%2Emailgate%2Eorg%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" tabindex="1" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" tabindex="2" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" tabindex="3" class="menulink" title="Bliv gratis medlem af HTML.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" tabindex="4" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" tabindex="5" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" tabindex="6" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" tabindex="7" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" tabindex="8" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" tabindex="9" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" tabindex="10" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+
+<div id="sponsor"><br />
+<a href='/editor/default.asp'><img src='/site/graphics/sponsorater/125x125editor.gif' alt='Fortæl os hvordan din drømmeeditor ser ud og vind luksus webhoteller fra Wannafind' /></a>
+</div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3ca5l6sb$pi8$1@newsreader.mailgate.org%3e' method='post'><p class='pollheader'>Bør dybe links være ulovlige?</p><div><input type='hidden' name='tst' value='08-03-02 15:39:50' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+						<!-- DoubleClick start -->
+
+						<center>
+						<script language="JavaScript">
+						<!--
+						   var time = new Date();
+						   randnum = (time.getTime());
+						   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+						   document.write('<\/scr'+'ipt>');
+						//-->
+						</script>
+						<noscript>
+						   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+						   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+						   </a>
+						</noscript>
+						</center>
+
+						<!-- DoubleClick end -->
+
+						
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<a href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=2" /></a>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: CSS positioning fejl</span></div>
+
+</body>
+</html>
+

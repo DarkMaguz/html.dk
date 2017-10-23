@@ -1,0 +1,191 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Session Object</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_session_object"></a>Session Object</h2>
+<p>
+You can use the <b>Session</b> object to store information needed for a particular user-session. Variables stored in the <b>Session </b>object are not discarded when the user jumps between pages in the application; instead, these variables persist for the entire user-session. </p>
+<p>
+The Web server automatically creates a <b>Session </b>object when a Web page from the application is requested by a user who does not already have a session. The server destroys the <b>Session </b>object when the session expires or is abandoned. </p>
+<p>
+One common use for the <b>Session </b>object is to store user preferences. For example, if a user indicates that they prefer not to view graphics, you could store that information in the <b>Session</b> object. For more information on using the <b>Session </b>object, see <a href="iiapsess.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iiapsess.htm">Managing Sessions</a> in the ASP Applications section.</p>
+<p>
+<b>Note</b>  Session state is only maintained for browsers that support cookies.</p>
+<h4>Syntax</h4>
+<pre><b>Session.</b><i>collection</i>|<i>property</i>|<i>method
+ </i></pre>
+<h4>Collections</h4>
+<table>
+<tr valign="top">
+<td>
+<a href="intr8my6.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8my6.htm"><b>Contents</b></a></td>
+<td>
+Contains the items that you have added to the session with script commands. </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="intr5ovi.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5ovi.htm"><b>StaticObjects</b></a></td>
+<td>
+Contains the objects created with the &lt;OBJECT&gt; tag and given session scope.</td>
+</tr>
+</table><br>
+<h4>Properties</h4>
+<table>
+<tr valign="top">
+<td>
+<a href="intr4ht1.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr4ht1.htm"><b>CodePage</b></a></td>
+<td>
+The codepage that will be used for symbol mapping.</td>
+</tr>
+<tr valign="top">
+<td>
+<a href="intr72uc.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr72uc.htm"><b>LCID</b></a></td>
+<td>
+The locale identifier.</td>
+</tr>
+<tr valign="top">
+<td>
+<a href="intr8b6s.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8b6s.htm"><b>SessionID</b></a></td>
+<td>
+Returns the session identification for this user. </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="intr04vo.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr04vo.htm"><b>Timeout</b></a></td>
+<td>
+The timeout period for the session state for this application, in minutes.</td>
+</tr>
+</table><br>
+<h4>Methods</h4>
+<table>
+<tr valign="top">
+<td>
+<a href="intr5tpq.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5tpq.htm"><b>Abandon</b></a></td>
+<td>
+This method destroys a <b>Session</b> object and releases its resources.</td>
+</tr>
+</table><br>
+<h4>Events </h4>
+<p>
+Scripts for the following events are declared in the global.asa file. </p>
+<table>
+<tr valign="top">
+<td>
+<a href="glob2y90.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob2y90.htm"><b>Session_OnEnd</b></a></td>
+</tr>
+<tr valign="top">
+<td>
+<a href="glob6t84.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob6t84.htm"><b>Session_OnStart</b></a></td>
+</tr>
+</table><br>
+<p>
+For more information about these events and the global.asa file, see the <a href="glob63vp.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob63vp.htm"><b>Global.asa Reference</b></a>.</p>
+<h4>Remarks</h4>
+<p>
+You can store values in the <b>Session </b>object. Information stored in the <b>Session </b>object is available throughout the session and has session scope. The following script demonstrates storage of two types of variables.</p>
+<pre>&lt;% 
+Session(&quot;username&quot;) = &quot;Janine&quot;
+Session(&quot;age&quot;) = 24
+%&gt;
+ </pre>
+<p>
+However, if you store an object in the <b>Session</b> object and use VBScript as your primary scripting language, you must use the <b>Set</b> keyword. This is illustrated in the following script.</p>
+<pre>&lt;% Set Session(&quot;Obj1&quot;) = Server.CreateObject(&quot;MyComponent.class1&quot;) %&gt;
+ </pre>
+<p>
+You can then call the methods and properties exposed by <code>MyComponent.class1</code><i> </i>on subsequent Web pages, by using the following.</p>
+<pre>&lt;% Session(&quot;Obj1&quot;).MyMethod %&gt;
+ </pre>
+<p>
+Or by extracting a local copy of the object and using the following.</p>
+<pre>&lt;% 
+Set MyLocalObj1 = Session(&quot;Obj1&quot;) 
+MyLocalObj1.MyObjMethod
+%&gt;
+ </pre>
+<p>
+Another way to create objects with session scope is to use the &lt;OBJECT&gt; tags in the global.asa file. </p>
+<p>
+You cannot, however, store a built-in object in a <b>Session </b>object. For example, each of the following lines would return an error.</p>
+<pre>&lt;%
+Set Session(&quot;var1&quot;) = Session
+Set Session(&quot;var2&quot;) = Request
+Set Session(&quot;var3&quot;) = Response
+Set Session(&quot;var4&quot;) = Server
+Set Session(&quot;var5&quot;) = Application
+%&gt;
+ </pre>
+<p>
+Before you store an object in the <b>Session </b>object, you should know what threading model it uses. Only objects marked as both can be stored in the <b>Session</b> object without locking the session to a single thread. For more information, see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc2pbg.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc2pbg.htm'" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc2pbg.htm"><b>Selecting a</b> <b>Threading Model</b></a> in <a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc88c0.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc88c0.htm'" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc88c0.htm"><b>Creating Components for ASP</b></a>.</p>
+<p>
+If you store an array in a <b>Session</b> object, you should not attempt to alter the elements of the stored array directly. For example, the following script will not work.</p>
+<pre>&lt;% Session(&quot;StoredArray&quot;)(3) = &quot;new value&quot; %&gt;
+ </pre>
+<p>
+This is because the <b>Session</b> object is implemented as a collection. The array element <code>StoredArray(3)</code> does not receive the new value. Instead, the value is indexed into the collection, overwriting any information stored at that location. </p>
+<p>
+It is strongly recommended that if you store an array in the <b>Session </b>object, you retrieve a copy of the array before retrieving or changing any of the elements of the array. When you are done with the array, you should store the array in the <b>Session </b>object all over again so that any changes you made are saved. This is demonstrated in the following example.</p>
+<pre>---file1.asp---
+&lt;%
+'Creating and initializing the array
+Dim MyArray()
+Redim MyArray(5)
+MyArray(0) = &quot;hello&quot;
+MyArray(1) = &quot;some other string&quot;
+
+'Storing the array in the Session object
+Session(&quot;StoredArray&quot;) = MyArray
+
+Response.Redirect(&quot;file2.asp&quot;)
+%&gt;
+
+---file2.asp---
+&lt;%
+'Retrieving the array from the Session Object
+'and modifying its second element
+LocalArray = Session(&quot;StoredArray&quot;)
+LocalArray(1) = &quot; there&quot;
+
+'printing out the string &quot;hello there&quot;
+Response.Write(LocalArray(0)&amp;LocalArray(1))
+
+'Re-storing the array in the Session object
+'This overwrites the values in StoredArray with the new values
+Session(&quot;StoredArray&quot;) = LocalArray
+%&gt;
+ </pre>
+<h4>Examples</h4>
+<p>
+The following code assigns the string <code>MyName</code> to a session variable called <code>name</code>, assigns a value to a session variable called <code>year,</code> and assigns an instance of the <code>some.Obj</code> component to a variable called <code>myObj</code>. </p>
+<pre>Session(&quot;name&quot;) = &quot;MyName&quot; 
+Session(&quot;year&quot;) = 96 
+Set Session(&quot;myObj&quot;) = Server.CreateObject(&quot;someObj&quot;) 
+ %&gt; 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

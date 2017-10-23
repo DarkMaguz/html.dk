@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>ActiveX component can't create object</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vserractivexcomponentcantcreateobject"></A>ActiveX component can't create object</H1>
+
+<P>The VBScript 5.5 runtime could not instantiate the object for you because the object’s class is not registered in the system registry, or one or more of the associated dynamic-link libraries (DLLs) are not available. Alternately, a DLL required by the object may be unusable, either because it can't be found, or it is corrupted.</P>
+
+<P class=label><B>To correct this error</B>
+
+<UL>
+	<LI>Make sure all associated DLLs are available. For example, the Data Access Object (DAO) requires supporting DLLs that vary among platforms. You may have to rerun the setup program for such an object.</li>
+
+	<LI>Internet Explorer may be trying to create an object for you, but you do not have the correct security permissions set in Internet Explorer. Reset the Internet Explorer security setting and try again.</li>
+</UL>
+
+<H4>See Also</H4>
+
+<P><A HREF="vbsobjs.htm">Using VBScript with Objects</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<polls>
+	<poll id="53" style="" createdby="1" createddate="08-12-2004 12:34:06" editedby="1" editeddate="08-12-2004 12:34:06" contact="1"><question>Overvejer du at købe en bærbar computer inden for det næste år?</question><answers><answer id="1"><text>Ja</text><votes>210</votes></answer><answer id="2"><text>Nej</text><votes>191</votes></answer></answers></poll><poll id="52" style="" createdby="1" createddate="24-10-2004 19:10:45" editedby="1" editeddate="24-10-2004 19:10:45" contact="1"><question>Bruger du HTML.dk's &lt;a href="/rss/"&gt;RSS-feeds&lt;/a&gt;?</question><answers><answer id="1"><text>Ja</text><votes>152</votes></answer><answer id="2"><text>Nej</text><votes>799</votes></answer></answers></poll><poll id="51" style="" createdby="1" createddate="02-10-2004 12:45:51" editedby="1" editeddate="02-10-2004 12:45:51" contact="1"><question>Hvilken type internetforbindelse har du?</question><answers><answer id="1"><text>Modem</text><votes>64</votes></answer><answer id="2"><text>ISDN</text><votes>37</votes></answer><answer id="3"><text>Bredbånd</text><votes>1040</votes></answer></answers></poll><poll id="49" style="" createdby="1" createddate="17-09-2004 08:29:45" editedby="1" editeddate="17-09-2004 08:29:45" contact="1"><question>Har du en 3G-telefon?</question><answers><answer id="1"><text>Ja</text><votes>81</votes></answer><answer id="2"><text>Nej</text><votes>718</votes></answer><answer id="3"><text>Nej, men overvejer at købe</text><votes>121</votes></answer></answers></poll><poll id="48" style="" createdby="" createddate="" editedby="" editeddate="16-08-2004 22:11:17" contact=""><question>Er du interesseret i foredrag om webudvikling?</question><answers><answer id="1"><text>Ja, men det skal være gratis</text><votes>699</votes></answer><answer id="2"><text>Ja, og jeg vil gerne betale feks. kr. 150 for det</text><votes>233</votes></answer><answer id="3"><text>Nej</text><votes>195</votes></answer></answers></poll><poll id="47" style="" createdby="" createddate="" editedby="" editeddate="24-06-2004 13:27:09" contact=""><question>Følger du med i nyhedsgrupperne her på HTML.dk?</question><answers><answer id="1"><text>Ja</text><votes>321</votes></answer><answer id="2"><text>Nej</text><votes>950</votes></answer></answers></poll><poll id="46" style="" createdby="1" createddate="25-05-2004 13:20:48" editedby="1" editeddate="25-05-2004 13:20:48" contact="1"><question>Benytter du et spam-filter?</question><answers><answer id="1"><text>Ja</text><votes>591</votes></answer><answer id="2"><text>Nej</text><votes>571</votes></answer></answers></poll><poll id="45" style="" createdby="1" createddate="01-04-2004 21:27:22" editedby="1" editeddate="01-04-2004 21:27:22" contact="1"><question>Hvor længe har du kodet HTML?</question><answers><answer id="1"><text>over 5 år</text><votes>700</votes></answer><answer id="2"><text>3-5 år</text><votes>500</votes></answer><answer id="3"><text>1-3 år</text><votes>761</votes></answer><answer id="4"><text>under 1 år</text><votes>807</votes></answer><answer id="5"><text>Kan ikke kode HTML (endnu)</text><votes>1082</votes></answer></answers></poll><poll id="44" style="" createdby="" createddate="" editedby="" editeddate="03-03-04 03:20:05" contact=""><question>Hvor mange spam-mails modtager du dagligt?</question><answers><answer id="1"><text>Ingen</text><votes>503</votes></answer><answer id="2"><text>1 til 10</text><votes>962</votes></answer><answer id="3"><text>10 til 30</text><votes>358</votes></answer><answer id="4"><text>Flere end 30</text><votes>330</votes></answer></answers></poll><poll id="43" style="" createdby="1" createddate="28-01-04 09:58:43" editedby="1" editeddate="28-01-04 09:58:43" contact="1"><question>Koder du i ASP?</question><answers><answer id="1"><text>Ja</text><votes>885</votes></answer><answer id="2"><text>Nej, men overvejer at lære det</text><votes>1111</votes></answer><answer id="3"><text>Nej</text><votes>1064</votes></answer></answers></poll><poll id="42" style="" createdby="1" createddate="11-01-04 17:37:27" editedby="1" editeddate="11-01-04 17:37:27" contact="1"><question>Hvor meget betaler du om måneden for dit webhotel?</question><answers><answer id="1"><text>0 - 10 kr.</text><votes>784</votes></answer><answer id="2"><text>10 - 50 kr.</text><votes>317</votes></answer><answer id="3"><text>50 - 100 kr.</text><votes>104</votes></answer><answer id="4"><text>100 - 200 kr.</text><votes>42</votes></answer><answer id="5"><text>over 200 kr.</text><votes>78</votes></answer><answer id="6"><text>Har ikke webhotel</text><votes>401</votes></answer></answers></poll><poll id="41" style="" createdby="" createddate="" editedby="" editeddate="13-12-03 17:23:41" contact=""><question>Regner du med at flytte dit webhotel eller købe nyt i 2004?</question><answers><answer id="1"><text>Ja</text><votes>808</votes></answer><answer id="2"><text>Nej</text><votes>793</votes></answer></answers></poll><poll id="40" style="1" createdby="1" createddate="19-11-03 12:35:51" editedby="1" editeddate="19-11-03 12:35:51" contact="2"><question>Har du søgt nyt job i 2003?</question><answers><answer id="1"><text>Ja</text><votes>758</votes></answer><answer id="2"><text>Nej</text><votes>756</votes></answer></answers></poll><poll id="39" style="" createdby="1" createddate="29-09-03 22:55:48" editedby="1" editeddate="29-09-03 22:55:48" contact="1"><question>I hvilken forbindelse bruger du HTML.dk?</question><answers><answer id="1"><text>Privat</text><votes>2020</votes></answer><answer id="2"><text>Arbejde</text><votes>415</votes></answer><answer id="3"><text>Uddannelse</text><votes>575</votes></answer></answers></poll><poll id="38" style="" createdby="1" createddate="08-09-03 22:34:01" editedby="1" editeddate="08-09-03 22:34:01" contact="3"><question>Forsøger du at overholde W3Cs standarder i din kodning?</question><answers><answer id="1"><text>Ja, altid</text><votes>277</votes></answer><answer id="2"><text>Så vidt det er muligt</text><votes>437</votes></answer><answer id="3"><text>Nej</text><votes>212</votes></answer><answer id="4"><text>Hvad er W3Cs standarder?</text><votes>619</votes></answer></answers></poll><poll id="37" style="" createdby="1" createddate="23-08-03 14:00:28" editedby="1" editeddate="23-08-03 14:00:28" contact="1"><question>Har du været ramt af Blaster-ormen?</question><answers><answer id="1"><text>Ja</text><votes>352</votes></answer><answer id="2"><text>Nej</text><votes>1239</votes></answer><answer id="3"><text>Ved ikke</text><votes>105</votes></answer></answers></poll><poll id="36" style="" createdby="" createddate="" editedby="" editeddate="31-07-03 13:35:37" contact=""><question>Skal Danmark udskifte kronen med euro?</question><answers><answer id="1"><text>Ja</text><votes>1332</votes></answer><answer id="2"><text>Nej</text><votes>934</votes></answer><answer id="3"><text>Ved ikke</text><votes>96</votes></answer></answers></poll><poll id="35" style="" createdby="1" createddate="03-07-03 01:10:07" editedby="1" editeddate="03-07-03 01:10:07" contact="3"><question>Hvor er du mobilkunde?</question><answers><answer id="1"><text>TDC</text><votes>468</votes></answer><answer id="2"><text>Sonofon</text><votes>404</votes></answer><answer id="3"><text>Orange</text><votes>213</votes></answer><answer id="4"><text>Telia</text><votes>224</votes></answer><answer id="5"><text>TELMORE</text><votes>725</votes></answer><answer id="6"><text>CBB</text><votes>147</votes></answer><answer id="7"><text>Debitel</text><votes>70</votes></answer><answer id="8"><text>Tele2</text><votes>34</votes></answer><answer id="9"><text>Andet selskab</text><votes>40</votes></answer><answer id="10"><text>Har ikke mobiltelefon</text><votes>126</votes></answer></answers></poll><poll id="34" style="" createdby="1" createddate="21-05-03 14:47:20" editedby="1" editeddate="21-05-03 14:47:20" contact="1"><question>Har du dit eget domænenavn?</question><answers><answer id="1"><text>Ja</text><votes>1787</votes></answer><answer id="2"><text>Nej</text><votes>779</votes></answer></answers></poll><poll id="33" style="" createdby="" createddate="" editedby="" editeddate="26-04-03 14:37:46" contact=""><question>Hvornår har du sidst brugt dit betalingskort på nettet?</question><answers><answer id="1"><text>Inden for den sidste måned</text><votes>755</votes></answer><answer id="2"><text>Inden for det sidste ½ år</text><votes>205</votes></answer><answer id="3"><text>Længere tid siden</text><votes>66</votes></answer><answer id="4"><text>Aldrig</text><votes>468</votes></answer></answers></poll><poll id="32" style="" createdby="1" createddate="29-03-03 00:02:03" editedby="1" editeddate="29-03-03 00:02:03" contact="1"><question>Hvor ofte besøger du HTML.dk?</question><answers><answer id="1"><text>Dagligt</text><votes>239</votes></answer><answer id="2"><text>Ugentligt</text><votes>577</votes></answer><answer id="3"><text>Månedligt</text><votes>474</votes></answer><answer id="4"><text>Første gang jeg er her</text><votes>522</votes></answer></answers></poll><poll id="31" style="" createdby="1" createddate="27-02-03 23:43:12" editedby="1" editeddate="27-02-03 23:43:12" contact="1"><question>Har du en PDA?</question><answers><answer id="1"><text>Ja</text><votes>431</votes></answer><answer id="2"><text>Nej</text><votes>1396</votes></answer></answers></poll><poll id="30" style="" createdby="1" createddate="04-02-03 21:28:31" editedby="1" editeddate="04-02-03 21:28:31" contact="1"><question>Overvejer du at søge nyt job i 2003?</question><answers><answer id="1"><text>Ja</text><votes>964</votes></answer><answer id="2"><text>Nej</text><votes>535</votes></answer></answers></poll><poll id="29" style="" createdby="1" createddate="19-01-03 18:28:52" editedby="1" editeddate="19-01-03 18:28:52" contact="1"><question>Hvor lærte du HTML?</question><answers><answer id="1"><text>Her på HTML.dk</text><votes>544</votes></answer><answer id="2"><text>Andet dansk website</text><votes>115</votes></answer><answer id="3"><text>Udenlandsk website</text><votes>70</votes></answer><answer id="4"><text>Bog / hæfte</text><votes>244</votes></answer><answer id="5"><text>Software / cd-rom</text><votes>43</votes></answer><answer id="6"><text>Kursus / skole</text><votes>189</votes></answer><answer id="7"><text>Har ikke lært HTML</text><votes>250</votes></answer></answers></poll><poll id="28" style="1" createdby="1" createddate="25-12-02 00:52:45" editedby="1" editeddate="25-12-02 00:52:45" contact="2"><question>Købte du julegaver online?</question><answers><answer id="1"><text>Ja</text><votes>280</votes></answer><answer id="2"><text>Nej</text><votes>1241</votes></answer></answers></poll><poll id="27" style="" createdby="1" createddate="05-12-02 17:02:36" editedby="1" editeddate="05-12-02 17:02:36" contact="1"><question>Hvor ofte modtager du spam-mail?</question><answers><answer id="1"><text>Aldrig</text><votes>201</votes></answer><answer id="2"><text>Ugentligt</text><votes>275</votes></answer><answer id="3"><text>Dagligt</text><votes>326</votes></answer><answer id="4"><text>Flere gange dagligt</text><votes>592</votes></answer></answers></poll><poll id="26" style="" createdby="" createddate="" editedby="" editeddate="07-11-02 00:32:37" contact=""><question>Hvad synes du om forbruger­- ombudsmandens forslag om at forbyde visse typer annoncer på internettet?</question><answers><answer id="1"><text>God idé</text><votes>1128</votes></answer><answer id="2"><text>Dårlig idé</text><votes>459</votes></answer><answer id="3"><text>Ved ikke</text><votes>267</votes></answer></answers></poll><poll id="25" style="" createdby="" createddate="" editedby="" editeddate="27-10-02 17:28:16" contact=""><question>Hvilken bredbåndsudbyder benytter du derhjemme?</question><answers><answer id="1"><text>Cybercity</text><votes>150</votes></answer><answer id="2"><text>TDC</text><votes>651</votes></answer><answer id="3"><text>Telia</text><votes>29</votes></answer><answer id="4"><text>Tiscali</text><votes>88</votes></answer><answer id="5"><text>Stofanet</text><votes>143</votes></answer><answer id="6"><text>Tele2</text><votes>23</votes></answer><answer id="7"><text>Anden udbyder</text><votes>132</votes></answer><answer id="8"><text>Har ikke bredbånd</text><votes>120</votes></answer></answers></poll><poll id="24" style="" createdby="" createddate="" editedby="" editeddate="14-10-02 00:21:23" contact=""><question>Har du en laptop?</question><answers><answer id="1"><text>Ja</text><votes>426</votes></answer><answer id="2"><text>Nej</text><votes>606</votes></answer></answers></poll><poll id="23" style="" createdby="1" createddate="28-08-02 02:57:26" editedby="1" editeddate="28-08-02 02:57:26" contact="1"><question>Har du brugt Valus og/eller CoinClick til mikrobetalinger?</question><answers><answer id="1"><text>Ja</text><votes>93</votes></answer><answer id="2"><text>Nej</text><votes>1495</votes></answer></answers></poll><poll id="22" style="" createdby="1" createddate="25-07-02 21:05:02" editedby="1" editeddate="25-07-02 21:05:02" contact="1"><question>Har du dit eget firma?</question><answers><answer id="1"><text>Ja</text><votes>391</votes></answer><answer id="2"><text>Nej</text><votes>781</votes></answer><answer id="3"><text>Overvejer</text><votes>364</votes></answer></answers></poll><poll id="21" style="" createdby="1" createddate="20-06-02 21:51:23" editedby="1" editeddate="20-06-02 21:51:23" contact="1"><question>Hvordan fandt du første gang HTML.dk?</question><answers><answer id="1"><text>Søgemaskine /-index</text><votes>238</votes></answer><answer id="2"><text>Link fra anden side</text><votes>209</votes></answer><answer id="3"><text>Link i Nyhedsgruppe</text><votes>86</votes></answer><answer id="4"><text>Anbefaling fra ven</text><votes>450</votes></answer><answer id="5"><text>Gennem undervisning</text><votes>40</votes></answer><answer id="6"><text>Bannerreklame</text><votes>26</votes></answer><answer id="7"><text>Andet</text><votes>189</votes></answer><answer id="8"><text>Kan ikke huske</text><votes>216</votes></answer></answers></poll><poll id="20" style="" createdby="" createddate="" editedby="" editeddate="25-05-02 16:24:55" contact=""><question>Hvor ofte opdaterer du din viden ved at tage til konferencer, messer, udstillinger, workshops og lignende?</question><answers><answer id="1"><text>Ugentligt</text><votes>53</votes></answer><answer id="2"><text>Månedtligt</text><votes>60</votes></answer><answer id="3"><text>Et par gange om året</text><votes>231</votes></answer><answer id="4"><text>Sjældnere</text><votes>812</votes></answer></answers></poll><poll id="19" style="" createdby="" createddate="" editedby="" editeddate="15-04-02 20:32:57" contact=""><question>Hvor ofte besøger du udenlandske websites om Internetudvikling eller webdesign?</question><answers><answer id="1"><text>Hver dag</text><votes>243</votes></answer><answer id="2"><text>Ugentligt</text><votes>449</votes></answer><answer id="3"><text>Månedligt</text><votes>215</votes></answer><answer id="4"><text>Sjældnere</text><votes>248</votes></answer><answer id="5"><text>Aldrig</text><votes>211</votes></answer></answers></poll><poll id="18" style="" createdby="1" createddate="02-04-02 00:24:40" editedby="1" editeddate="02-04-02 00:24:40" contact="1"><question>Har du prøvet at handle på Internettet?</question><answers><answer id="1"><text>Ja</text><votes>707</votes></answer><answer id="2"><text>Nej</text><votes>174</votes></answer></answers></poll><poll id="17" style="" createdby="" createddate="" editedby="" editeddate="17-03-02 15:40:53" contact=""><question>Hvilken teksteditor er din foretrukne?</question><answers><answer id="1"><text>Notepad</text><votes>757</votes></answer><answer id="2"><text>EditPlus</text><votes>111</votes></answer><answer id="3"><text>UltraEdit</text><votes>117</votes></answer><answer id="4"><text>CuteHTML</text><votes>38</votes></answer><answer id="5"><text>WebCoder Int.</text><votes>42</votes></answer><answer id="6"><text>Stones WebWriter</text><votes>230</votes></answer><answer id="7"><text>NoteTab</text><votes>21</votes></answer><answer id="8"><text>CoffeeCup</text><votes>23</votes></answer><answer id="9"><text>Anden</text><votes>419</votes></answer><answer id="10"><text>Bruger ikke teksteditor</text><votes>101</votes></answer></answers></poll><poll id="16" style="" createdby="1" createddate="19-02-02 10:56:55" editedby="1" editeddate="19-02-02 10:56:55" contact="1"><question>Bør dybe links være ulovlige?</question><answers><answer id="1"><text>Ja</text><votes>313</votes></answer><answer id="2"><text>Nej</text><votes>666</votes></answer><answer id="3"><text>Ved ikke</text><votes>361</votes></answer></answers></poll><poll id="15" style="1" createdby="1" createddate="05-02-02 02:09:59" editedby="1" editeddate="05-02-02 04:07:58" contact="1"><question>Bruger du et anti-virus program?</question><answers><answer id="1"><text>Ja</text><votes>678</votes></answer><answer id="2"><text>Nej</text><votes>242</votes></answer></answers></poll><poll id="14" style="1" createdby="1" createddate="01-02-02 00:00:06" editedby="1" editeddate="01-02-02 00:00:06" contact="3"><question>Er regeringens foreslåede besparelser på uddannelseområdet acceptable?</question><answers><answer id="1"><text>Ja</text><votes>34</votes></answer><answer id="2"><text>Nej</text><votes>258</votes></answer><answer id="3"><text>Ved ikke</text><votes>24</votes></answer></answers></poll><poll id="13" style="2" createdby="1" createddate="24-01-02 17:08:11" editedby="1" editeddate="27-01-02 03:11:23" contact="1"><question>Skal Danmark udskifte kronen med euro?</question><answers><answer id="1"><text>Ja</text><votes>646</votes></answer><answer id="2"><text>Nej</text><votes>473</votes></answer><answer id="3"><text>Ved ikke</text><votes>73</votes></answer></answers></poll><poll id="12" style="1" createdby="1" createddate="10-01-02 02:23:59" editedby="1" editeddate="10-01-02 21:15:20" contact="1"><question>Hvilken skærmopløsning bruger du?</question><answers><answer id="1"><text>640 x 480</text><votes>25</votes></answer><answer id="2"><text>800 x 600</text><votes>302</votes></answer><answer id="3"><text>1024 x 768</text><votes>1373</votes></answer><answer id="4"><text>1152 x 864</text><votes>243</votes></answer><answer id="5"><text>1280 x 960</text><votes>94</votes></answer><answer id="6"><text>1280 x 1024</text><votes>467</votes></answer><answer id="7"><text>1600 x 1200</text><votes>154</votes></answer><answer id="8"><text>Andet</text><votes>20</votes></answer></answers></poll><poll id="11" style="1" createdby="1" createddate="01-12-01 16:06:26" editedby="1" editeddate="01-12-01 16:14:52" contact="1"><question>Forsøger du at overholde W3Cs standarder i din kodning?</question><answers><answer id="1"><text>Ja, altid</text><votes>332</votes></answer><answer id="2"><text>Så vidt det er muligt</text><votes>545</votes></answer><answer id="3"><text>Nej</text><votes>212</votes></answer><answer id="4"><text>Hvad er W3Cs standarder?</text><votes>779</votes></answer></answers></poll><poll id="10" style="1" createdby="1" createddate="21-11-01 00:31:05" editedby="1" editeddate="21-11-01 00:33:55" contact="1"><question>Mener du at den kommende regering skal have et IT-ministerium?</question><answers><answer id="1"><text>Ja</text><votes>509</votes></answer><answer id="2"><text>Nej</text><votes>109</votes></answer><answer id="3"><text>Ved ikke</text><votes>58</votes></answer></answers></poll><poll id="9" style="1" createdby="1" createddate="07-11-01 14:03:18" editedby="1" editeddate="07-11-01 14:17:59" contact="1"><question>Hvad vil du stemme til det kommende folketingsvalg?</question><answers><answer id="1"><text>Socialdemokratiet</text><votes>295</votes></answer><answer id="2"><text>Det Radikale Venstre</text><votes>91</votes></answer><answer id="3"><text>De Konservative</text><votes>89</votes></answer><answer id="4"><text>CD</text><votes>30</votes></answer><answer id="5"><text>SF</text><votes>132</votes></answer><answer id="6"><text>Dansk Folkeparti</text><votes>134</votes></answer><answer id="7"><text>Kristeligt Folkeparti</text><votes>54</votes></answer><answer id="8"><text>Venstre</text><votes>426</votes></answer><answer id="9"><text>Fremskridtspartiet</text><votes>24</votes></answer><answer id="10"><text>Enhedslisten</text><votes>81</votes></answer><answer id="11"><text>Vil/kan ikke stemme</text><votes>97</votes></answer><answer id="12"><text>Ved ikke</text><votes>79</votes></answer></answers></poll><poll id="8" style="1" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Hvor henter du primært dine IT-nyheder?</question>
+		<answers>
+			<answer id="1">
+				<text>På Nettet</text>
+				<votes>250</votes></answer>
+			<answer id="2">
+				<text>Magasiner</text>
+				<votes>25</votes></answer>
+			<answer id="3">
+				<text>Aviser</text>
+				<votes>13</votes></answer>
+			<answer id="4">
+				<text>TV/radio</text>
+				<votes>19</votes></answer>
+			<answer id="5">
+				<text>Andet</text>
+				<votes>10</votes></answer>
+		</answers>
+	</poll>
+	<poll id="7" style="2" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Er du villig til at betale for tjenester og indhold på Internettet?</question>
+		<answers>
+			<answer id="1">
+				<text>Selvfølgelig</text>
+				<votes>75</votes></answer>
+			<answer id="2">
+				<text>Måske</text>
+				<votes>200</votes></answer>
+			<answer id="3">
+				<text>Sikkert ikke</text>
+				<votes>326</votes></answer>
+			<answer id="4">
+				<text>Aldrig</text>
+				<votes>552</votes></answer>
+			<answer id="5">
+				<text>Ved ikke</text>
+				<votes>27</votes></answer>
+		</answers>
+	</poll>
+	<poll id="6" style="3" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Hvilken type forbindelse bruger du?</question>
+		<answers>
+			<answer id="1">
+				<text>Modem</text>
+				<votes>205</votes></answer>
+			<answer id="2">
+				<text>ISDN</text>
+				<votes>194</votes></answer>
+			<answer id="3">
+				<text>ADSL</text>
+				<votes>893</votes></answer>
+			<answer id="4">
+				<text>Hurtigere</text>
+				<votes>312</votes></answer>
+		</answers>
+	</poll>
+	<poll id="5" style="1" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Er du villig til at bruge dit Dankort på Internettet?</question>
+		<answers>
+			<answer id="1">
+				<text>Ja</text>
+				<votes>692</votes></answer>
+			<answer id="2">
+				<text>Nej</text>
+				<votes>313</votes></answer>
+			<answer id="3">
+				<text>Ved ikke</text>
+				<votes>80</votes></answer>
+		</answers>
+	</poll>
+	<poll id="4" style="1" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Overvejer du at registrere domænenavne under de nye domæner .info .biz og .name?</question>
+		<answers>
+			<answer id="1">
+				<text>Ja</text>
+				<votes>190</votes></answer>
+			<answer id="2">
+				<text>Nej</text>
+				<votes>438</votes></answer>
+			<answer id="3">
+				<text>Ved ikke</text>
+				<votes>90</votes></answer>
+		</answers>
+	</poll>
+	<poll id="3" style="1" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Hvad synes du er den bedste betegnelse?</question>
+		<answers>
+			<answer id="1">
+				<text>en hjemmeside</text>
+				<votes>356</votes></answer>
+			<answer id="2">
+				<text>et websted</text>
+				<votes>55</votes></answer>
+			<answer id="3">
+				<text>et website</text>
+				<votes>271</votes></answer>
+			<answer id="4">
+				<text>en website</text>
+				<votes>94</votes></answer>
+			<answer id="5">
+				<text>et netsted</text>
+				<votes>17</votes></answer>
+			<answer id="6">
+				<text>en homepage</text>
+				<votes>98</votes></answer>
+		</answers>
+	</poll>
+	<poll id="2" style="1" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Hvornår vender nedturen i IT-branchen?</question>
+		<answers>
+			<answer id="1">
+				<text>mindre end 1 år</text>
+				<votes>183</votes></answer>
+			<answer id="2">
+				<text>mellem 1-2 år</text>
+				<votes>217</votes></answer>
+			<answer id="3">
+				<text>mere end 2 år</text>
+				<votes>134</votes></answer>
+			<answer id="4">
+				<text>aldrig</text>
+				<votes>193</votes></answer>
+		</answers>
+	</poll>
+	<poll id="1" style="1" createdby="1" createddate="04-11-01 19:09:52" editedby="1" editeddate="04-11-01 19:09:52" contact="1">
+		<question>Hvordan ser du Danmarks chancer for at blive verdens bedste IT-nation?</question>
+		<answers>
+			<answer id="1">
+				<text>Gode</text>
+				<votes>366</votes></answer>
+			<answer id="2">
+				<text>Dårlige</text>
+				<votes>296</votes></answer>
+			<answer id="3">
+				<text>Ved ikke</text>
+				<votes>113</votes></answer>
+		</answers>
+	</poll>
+</polls>

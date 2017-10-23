@@ -1,0 +1,63 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>SetLocaleIDs Method (CDONTS Session Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_setlocaleids_method_cdonts_session_object_"></a>SetLocaleIDs Method (CDONTS Session Object)  <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>SetLocaleIDs</b> method sets identifiers that define a messaging user's locale. </p>
+<h4>Syntax </h4>
+<pre><i>objSession</i>.<b>SetLocaleIDs(</b><i>CodePageID</i><b>) 
+ </b></pre>
+<dl>
+<dt>
+<i>objSession </i></dt>
+<dd>
+Required. The Session object. <br>
+</dd>
+<dt>
+<i>CodePageID </i></dt>
+<dd>
+Required. Long. The code page identifier to be used for this messaging user. </dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+A locale is the set of features of a messaging user's environment that are dependent on language, country, culture, and conventions. These features include the character selection, the collating sequence and sort order, and the date, time, and currency formats. The <b>SetLocaleIDs</b> method sets identifiers that determine the behavior of locale-sensitive operations. </p>
+<p>
+A code page identifier is a long integer specifying the ordered character set to use when displaying text. Information about a code page can be obtained from the Windows NT <b>GetCPInfo</b> function. </p>
+<p>
+Before <b>SetLocaleIDs</b> is called, the locale and code page are set to the values in the user's registry. </p>
+<p>
+If <b>SetLocaleIDs</b> is to be called, it must be called before the Session object's <a href="amsm3yvz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3yvz.htm"><b>LogonSMTP</b></a> method is called. This allows the messaging user's profile to be set for the appropriate locale. A call to <b>SetLocaleIDs</b> following logon returns <b>CdoE_CALL_FAILED</b>. </p>
+<p>
+Note that the <b>SetLocaleIDs</b> method is the sole exception to the rule that a call to a session's <b>LogonSMTP</b> method must precede any other access to that session. </p>
+<p>
+Every new message you create within the current session uses the locale established by your most recent call to the Session object's <b>SetLocaleIDs</b> method, or the default settings if you have never called <b>SetLocaleIDs</b>. A <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object created by the <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection's <a href="amsm8vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8vhb.htm"><b>Add</b></a> method cannot subsequently change its locale, even if <b>SetLocaleIDs</b> is called again. However, you can change a <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm">NewMail</a> object's locale after its creation by calling the NewMail object's <a href="amsm2jmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2jmn.htm"><b>SetLocaleIDs</b></a> method. Such a call does not affect the locale of any other Message or NewMail object, nor does it alter the settings established by the Session object's <b>SetLocaleIDs</b> method. </p>
+<p>
+<b>SetLocaleIDs</b> tests the validity of the code page specified by the <i>CodePageID</i> parameter before actually setting the locale identifiers. If the code page is not valid, <b>CdoE_INVALID_PARAMETER</b> is returned. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

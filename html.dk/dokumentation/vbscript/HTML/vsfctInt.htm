@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Int, Fix Functions</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctint"></A>Int, Fix Functions</H1>
+
+<P>Returns the integer portion of a number.</P>
+
+<P><CODE>Int(number)</CODE></P>
+
+<P><CODE><B>Fix(</B>number<B>)</B></CODE></P>
+
+<P>The <I>number</I> argument can be any valid <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expression</A>. If <I>number</I> contains <A HREF="vtglossary.htm#defnullvbs">Null</A>, <B>Null</B> is returned.</P>
+
+<H4>Remarks</H4>
+
+<P>Both <B>Int</B> and <B>Fix</B> remove the fractional part of <I>number</I> and return the resulting integer value.</P>
+
+<P>The difference between <B>Int</B> and <B>Fix</B> is that if <I>number</I> is negative, <B>Int</B> returns the first negative integer less than or equal to <I>number,</I> whereas <B>Fix</B> returns the first negative integer greater than or equal to <I>number.</I> For example, <B>Int</B> converts -8.4 to -9, and <B>Fix</B> converts -8.4 to -8.</P>
+
+<P><B>Fix(</B><I>number</I><B>)</B> is equivalent to: </P>
+
+<PRE><CODE>Sgn(<I>number</I>) * <span class=cfe><B>Int(</B></span>Abs(<I>number</I>)<span class=cfe><B>)</B></span></CODE></PRE>
+
+<P>The following examples illustrate how the <B>Int</B> and <B>Fix</B> functions return integer portions of numbers: </P>
+
+<PRE><CODE>MyNumber = <span class=cfe><B>Int(</B></span>99.8<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;' Returns 99.
+MyNumber = <span class=cfe><B>Fix(</B></span>99.2<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;' Returns 99.
+MyNumber = <span class=cfe><B>Int(</B></span>-99.8<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns -100.
+MyNumber = <span class=cfe><B>Fix(</B></span>-99.8<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns -99.
+MyNumber = <span class=cfe><B>Int(</B></span>-99.2<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns -100.
+MyNumber = <span class=cfe><B>Fix(</B></span>-99.2<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns -99.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcint.htm">CInt Function</A> | <A HREF="vsfctround.htm">Round Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

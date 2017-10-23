@@ -1,0 +1,188 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Re: C5bning?= i frame mv.</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af Lasse Reichstein Nielsen den 23. august 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: C5bning?= i frame mv." />
+<meta name="language" content="dan" />
+<meta name="Date" content="23-08-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=418891549111?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3Cd6ewi913%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Lasse&nbsp;Reichstein&nbsp;Nielsen&nbsp;&nbsp;<a href='mailto:lrn@hotpop.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='lrn@hotpop.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 23. august 2003 kl. 19:22</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: C5bning?= i frame mv.</strong></li></ul>
+
+<p><span class='normal'>Mette Christiansen &lt;<a href='http://mettechristiansen@sol.dk'>mettechristiansen@sol.dk</a>> writes: </span><br /><span class='normal'> </span><br /><span class='citat'>> N&#229;r du skriver: &quot;Du skal blot huske at s&#230;tte  </span><br /><span class='citat'>> >  target=&quot;Teksti&quot;  </span><br /><span class='citat'>> > p&#229; linksene. Det er de links der st&#229;r i strengen der bliver  </span><br /><span class='citat'>> > tildelt Op.innerHTML etc&quot;  </span><br /><span class='normal'> </span><br /><span class='citat'>> skal jeg s&#229; bare slette Op.innerHTML  og </span><br /><span class='citat'>> erstatte dem med  target=&quot;Teksti?? eller hvad mener du...jeg er ikke s&#229; </span><br /><span class='citat'>> stiv i det her pjat ;D </span><br /><span class='normal'> </span><br /><span class='normal'>Det kan jeg h&#248;re :) </span><br /><span class='normal'> </span><br /><span class='normal'>Der st&#229;r (jeg tager Ud some eksempel fordi strengen er kortere): </span><br /><span class='normal'> </span><br /><span class='normal'> Ud.innerHTML = '&lt;A HREF=&quot;#&quot; onclick=&quot;Udfordring_menu(); return false;&quot; TITLE=&quot;Klik her for at lukke menupunktet&quot;>Billeder&lt;/A> &lt;UL TYPE=&quot;disc&quot;>	&lt;LI>&lt;a href=&quot;gallery_puppie.htm&quot;  TITLE=&quot;Se billeder af Mille, da hun var hvalp&quot;>Mille som hvalp&lt;/a>&lt;LI>&lt;A HREF=&quot;Spoergsmaal.htm&quot;  TITLE=&quot;Se billeder af Milles hvalpe&quot;>Milles hvalpe&lt;/a>&lt;li>&lt;a href=&quot;Bog.php&quot;  TITLE=&quot;Skriv i min g&#230;stebog, eller snak med nogle andre over internettet&quot;>Malte&lt;/a>&lt;/UL>' </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg skriver det lige lidt p&#230;nere: </span><br /><span class='normal'> </span><br /><span class='normal'> Ud.innerHTML =  </span><br /><span class='normal'>  '&lt;A HREF=&quot;#&quot; onclick=&quot;Udfordring_menu(); return false;&quot; TITLE=&quot;Klik her for at lukke menupunktet&quot;>Billeder&lt;/A>' + </span><br /><span class='normal'>  '&lt;UL TYPE=&quot;disc&quot;> ' +  </span><br /><span class='normal'>  '&lt;LI>&lt;a href=&quot;gallery_puppie.htm&quot;  TITLE=&quot;Se billeder af Mille, da hun var hvalp&quot;>Mille som hvalp&lt;/a> '+ </span><br /><span class='normal'>  '&lt;LI>&lt;A HREF=&quot;Spoergsmaal.htm&quot;  TITLE=&quot;Se billeder af Milles hvalpe&quot;>Milles hvalpe&lt;/a>' + </span><br /><span class='normal'>  '&lt;li>&lt;a href=&quot;Bog.php&quot;  TITLE=&quot;Skriv i min g&#230;stebog, eller snak med nogle andre over internettet&quot;>Malte&lt;/a>' + </span><br /><span class='normal'>  '&lt;/UL>'; </span><br /><span class='normal'> </span><br /><span class='normal'>Her er der tre links, en for hver &quot;&lt;LI>&quot;. For at tilf&#248;je en </span><br /><span class='normal'>target-attribut skriver man blot: </span><br /><span class='normal'> </span><br /><span class='normal'> Ud.innerHTML =  </span><br /><span class='normal'>  '&lt;A HREF=&quot;#&quot; onclick=&quot;Udfordring_menu(); return false;&quot; TITLE=&quot;Klik her for at lukke menupunktet&quot;>Billeder&lt;/A>' + </span><br /><span class='normal'>  '&lt;UL TYPE=&quot;disc&quot;> ' +  </span><br /><span class='normal'>  '&lt;LI>&lt;a target=&quot;Teksti&quot; href=&quot;gallery_puppie.htm&quot;  TITLE=&quot;Se billeder af Mille, da hun var hvalp&quot;>Mille som hvalp&lt;/a> '+ </span><br /><span class='normal'>  '&lt;LI>&lt;A target=&quot;Teksti&quot; HREF=&quot;Spoergsmaal.htm&quot;  TITLE=&quot;Se billeder af Milles hvalpe&quot;>Milles hvalpe&lt;/a>' + </span><br /><span class='normal'>  '&lt;li>&lt;a target=&quot;Teksti&quot; href=&quot;Bog.php&quot;  TITLE=&quot;Skriv i min g&#230;stebog, eller snak med nogle andre over internettet&quot;>Malte&lt;/a>' + </span><br /><span class='normal'>  '&lt;/UL>'; </span><br /><span class='normal'> </span><br /><span class='normal'>(lige efter hvert &quot;a&quot;-tags start).  </span><br /><span class='normal'> </span><br /><span class='normal'>*Nemmere l&#248;sning:* </span><br /><span class='normal'>Hvis du ikke har andre links p&#229; siden, end dem i menuen, s&#229; kan du n&#248;jes </span><br /><span class='normal'>med at tilf&#248;je </span><br /><span class='normal'> &lt;base target=&quot;Teksti&quot;> </span><br /><span class='normal'>i toppen af &lt;head>-elementet. S&#229; vil *alle* links p&#229; siden &#229;bne i </span><br /><span class='normal'>framen, og du beh&#248;ver ikke pille ved Javascripten (ikke af den grund, </span><br /><span class='normal'>i hvert fald, men den er alts&#229; ikke s&#230;rlig god, og vil fx ikke virke i </span><br /><span class='normal'>Mozilla/Netscape 7). </span><br /><span class='normal'> </span><br /><span class='citat'>> N&#229;r du trykker p&#229; de links som er ude i siden, og de s&#229; folder sig </span><br /><span class='citat'>> ud (h&#229;ber du forst&#229;r!!!), s&#229; nogle af linksene som kommer, de er med </span><br /><span class='citat'>> fed, og andre ikke.  </span><br /><span class='normal'> </span><br /><span class='normal'>Dem der ikke er med fed, er dem som man har bes&#248;gt f&#248;r. Det styres af </span><br /><span class='normal'>CSS-reglerne: </span><br /><span class='normal'> A:link 	{color: #0C7299; font-weight: bold; text-decoration: none;} </span><br /><span class='normal'> A:visited	{color: #0C7299; text-decoration: none;} </span><br /><span class='normal'> A:hover	{color: #0C7299; font-weight: bold; text-decoration;} </span><br /><span class='normal'>Hvis det er et link man har bes&#248;g, s&#229; er det ikke &quot;bold&quot;, ellers er det. </span><br /><span class='normal'> </span><br /><span class='citat'>> Nogle bliver fremh&#230;vet og der bliver lavet mellemrum mellem </span><br /><span class='citat'>> bokstaverne n&#229;r mark&#248;ren kommer over dem, og nogle ikke. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg kan ikke se mellemrummet, men det er nok en sideffekt af at </span><br /><span class='normal'>teksten bliver Bold. </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg vil bare gerne have dem til IKKE at v&#230;re markeret og ikke </span><br /><span class='citat'>> lave mellemrum HELE tiden - s&#229; der alts&#229; ikke sker noget med dem, </span><br /><span class='citat'>> n&#229;r mark&#248;ren kommer over dem...og s&#229; m&#229; skriften godt v&#230;re i </span><br /><span class='citat'>> &quot;verdana&quot;... </span><br /><span class='normal'> </span><br /><span class='normal'>S&#229; skift de tre regler ud med: </span><br /><span class='normal'> </span><br /><span class='normal'> A:link, A:visited { </span><br /><span class='normal'>   color: #0C7299;  </span><br /><span class='normal'>   text-decoration: none;  </span><br /><span class='normal'>   font-family: verdana, sans-serif;  </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'>Husk at ikke alle har fontent Verdana. </span><br /><span class='normal'> </span><br /><span class='citat'>> Beklager mit sprog... </span><br /><span class='normal'> </span><br /><span class='normal'>Det er skam fint nok. Det er slet ikke nemt at forklare hvordan </span><br /><span class='normal'>noget g&#229;r galt. </span><br /><span class='normal'>/L </span><br /><span class='normal'>--  </span><br /><span class='normal'>Lasse Reichstein Nielsen  -  <a href='http://lrn@hotpop.com'>lrn@hotpop.com</a> </span><br /><span class='normal'> Art D'HTML: &lt;URL:<a href='http://www.infimum.dk/HTML/randomArtSplit.html'>http://www.infimum.dk/HTML/randomArtSplit.html</a>> </span><br /><span class='normal'>  'Faith without judgement merely degrades the spirit divine.'</span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbi7mom%24i20%241%40sunsite%2Edk%3E' title='&#197;bning i frame mv.'>&#197;bning i frame mv.</a>&nbsp;<small class='newslist'>(23-08-03&nbsp;-&nbsp;Mette&nbsp;Christiansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cu188il5k%2Efsf%40hotpop%2Ecom%3E' title='Re: C5bning?= i frame mv.'>Re: C5bning?= i frame mv.</a>&nbsp;<small class='newslist'>(23-08-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbi80ce%244gg%241%40sunsite%2Edk%3E' title='Re: C5bning?= i frame mv.'>Re: C5bning?= i frame mv.</a>&nbsp;<small class='newslist'>(23-08-03&nbsp;-&nbsp;Mette&nbsp;Christiansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbi80hi%2454b%241%40sunsite%2Edk%3E' title='Re: C5bning?= i frame mv.'>Re: C5bning?= i frame mv.</a>&nbsp;<small class='newslist'>(23-08-03&nbsp;-&nbsp;Mette&nbsp;Christiansen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cd6ewi913%2Efsf%40hotpop%2Ecom%3E' title='Re: C5bning?= i frame mv.'>Re: C5bning?= i frame mv.</a>&nbsp;<small class='newslist'>(23-08-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3Cd6ewi913%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cd6ewi913%2Efsf%40hotpop%2Ecom%3E' method='post'><p class='pollheader'>Koder du i ASP?</p><div><input type='hidden' name='tst' value='25-02-04 17:33:53' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej, men overvejer at lære det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: C5bning?= i frame mv.</span></div>
+
+
+
+</body>
+</html>
+

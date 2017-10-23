@@ -1,0 +1,215 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Re: G&#229;r amok! hj&#230;lp til position med CSS</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af FB den 8. august 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: G&#229;r amok! hj&#230;lp til position med CSS" />
+<meta name="language" content="dan" />
+<meta name="Date" content="08-08-2003" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<meta name="CZ.Type" content="Forum" />
+<meta name="CZ.Category" content="HTML" />
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=350379586220?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3f340840%240%2448901%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> FB&nbsp;&nbsp;<a href='mailto:.'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='.' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 8. august 2003 kl. 22:30</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: G&#229;r amok! hj&#230;lp til position med CSS</strong></li></ul>
+
+<p><span class='normal'>&quot;jopa&quot; &lt;<a href='http://johns@paradis.dk'>johns@paradis.dk</a>> wrote in message <a href='http://news:bh0t57$c72$1@sunsite.dk'>news:bh0t57$c72$1@sunsite.dk</a>... </span><br /><span class='citat'>> Pr&#248;v at smide det hele i en div som denne </span><br /><span class='citat'>> &lt;div id=&quot;frame&quot;>   husk at afslutte den til sidst <img src='/site/graphics/smileys/smiley3.gif' alt=';-)' /> </span><br /><span class='citat'>> </span><br /><span class='citat'>> og CSS </span><br /><span class='citat'>> #frame { </span><br /><span class='citat'>>   width:755px; </span><br /><span class='citat'>>   margin-right:auto; </span><br /><span class='citat'>>   margin-left:auto; </span><br /><span class='citat'>>   margin-top: 5px; </span><br /><span class='citat'>>   padding:0px; </span><br /><span class='citat'>>   text-align:left; </span><br /><span class='citat'>>   } </span><br /><span class='citat'>> </span><br /><span class='citat'>> leg med den m&#229;ske kan det bruges </span><br /><span class='normal'> </span><br /><span class='normal'>Desv&#230;rre. </span><br /><span class='normal'> </span><br /><span class='normal'>Har nu smidt det i en tabel. S&#229; virker det. </span><br /><span class='normal'>Vil gerne give en kold bajer til den som kan f&#229; det til at virke med CSS </span><br /><span class='normal'>alligevel. </span><br /><span class='normal'> </span><br /><span class='normal'>Nu har jeg kun brugt 5 timer p&#229; det ! :( </span><br /><span class='normal'>Tror ikke p&#229; det kan lade sig g&#248;re. </span><br /><span class='normal'> </span><br /><span class='normal'>Mvh </span><br /><span class='normal'>FB </span><br /><span class='normal'>-- </span><br /><span class='normal'>Gratis SMS? Gratis Unlock? Gratis Java spil til din mobil? </span><br /><span class='normal'>--> <a href='http://mobil.dontdoit.dk'>http://mobil.dontdoit.dk</a> &lt;-- Lidt af hvert til din mobil </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f33c478%240%2448901%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='G&#229;r amok! hj&#230;lp til position med CSS'>G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;FB)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f33c536%240%2448898%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;FB)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f33f012%240%2448902%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;FB)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cbh0rl8%2491%241%40sunsite%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;jopa)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f33f542%240%2448894%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;FB)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cbh0t57%24c72%241%40sunsite%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;jopa)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f340840%240%2448901%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;FB)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cbh136a%24g8k%241%40sunsite%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f3410ec%240%2448887%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: G&#229;r amok! hj&#230;lp til position med CSS'>Re: G&#229;r amok! hj&#230;lp til position med CSS</a>&nbsp;<small class='newslist'>(08-08-2003&nbsp;-&nbsp;FB)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3f340840%240%2448901%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=661275207997?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f340840%240%2448901%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' method='post'><p class='pollheader'>Er du interesseret i foredrag om webudvikling?</p><div><input type='hidden' name='tst' value='11-09-2004 22:47:56' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, men det skal være gratis</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Ja, og jeg vil gerne betale feks. kr. 150 for det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: G&#229;r amok! hj&#230;lp til position med CSS</span></div>
+
+
+
+</body>
+</html>
+

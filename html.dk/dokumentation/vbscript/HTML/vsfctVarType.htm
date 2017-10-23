@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>VarType Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctvartype"></A>VarType Function</H1>
+
+<P>Returns a value indicating the subtype of a variable.</P>
+
+<P><CODE>VarType(<I>varname</I>)</CODE></P>
+
+<P>The <I>varname</I> argument can be any <A HREF="vtglossary.htm#defvariablevbs">variable</A>. </P>
+
+<H4>Return Values</H4>
+
+<P>The <B>VarType</B> function returns the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=29%>Constant</TH>
+<TH width=9%>Value</TH>
+<TH width=62%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbEmpty</TD>
+<TD width=9%>0</TD>
+<TD width=62%><A HREF="vtglossary.htm#defemptyvbs">Empty</A> (uninitialized)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbNull</TD>
+<TD width=9%>1</TD>
+<TD width=62%><A HREF="vtglossary.htm#defnullvbs">Null</A> (no valid data)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbInteger</TD>
+<TD width=9%>2</TD>
+<TD width=62%>Integer</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbLong</TD>
+<TD width=9%>3</TD>
+<TD width=62%>Long integer</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbSingle</TD>
+<TD width=9%>4</TD>
+<TD width=62%>Single-precision floating-point number</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbDouble</TD>
+<TD width=9%>5</TD>
+<TD width=62%>Double-precision floating-point number</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbCurrency</TD>
+<TD width=9%>6</TD>
+<TD width=62%>Currency</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbDate</TD>
+<TD width=9%>7</TD>
+<TD width=62%>Date</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbString</TD>
+<TD width=9%>8</TD>
+<TD width=62%>String</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbObject</TD>
+<TD width=9%>9</TD>
+<TD width=62%><A HREF="vtglossary.htm#defautomationvbs">Automation object</A><U> </U></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbError</TD>
+<TD width=9%>10</TD>
+<TD width=62%>Error</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbBoolean</TD>
+<TD width=9%>11</TD>
+<TD width=62%>Boolean</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbVariant</TD>
+<TD width=9%>12</TD>
+<TD width=62%>Variant (used only with arrays of Variants)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbDataObject</TD>
+<TD width=9%>13</TD>
+<TD width=62%>A data-access object</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbByte</TD>
+<TD width=9%>17</TD>
+<TD width=62%>Byte</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>vbArray</TD>
+<TD width=9%>8192</TD>
+<TD width=62%>Array</TD>
+</TR>
+</TABLE><BR>
+
+<P class=indent><B><B>Note</B>&nbsp;&nbsp;&nbsp;</B>These <A HREF="vtglossary.htm#defconstantvbs">constants</A> are specified by VBScript. As a result, the names can be used anywhere in your code in place of the actual values.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>VarType</B> function never returns the value for Array by itself. It is always added to some other value to indicate an array of a particular type. The value for Variant is only returned when it has been added to the value for Array to indicate that the argument to the <B>VarType</B> function is an array. For example, the value returned for an array of integers is calculated as 2 + 8192, or 8194. If an object has a default <A HREF="vtglossary.htm#defpropertyvbs">property</A>, <B>VarType</B> <B>(</B><I>object</I><B>)</B> returns the type of its default property.</P>
+
+<P>The following example uses the <B>VarType</B> function to determine the subtype of a variable. </P>
+
+<PRE><CODE>Dim MyCheck
+MyCheck = <span class=cfe><B>VarType(</B></span>300<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Returns 2.
+MyCheck = <span class=cfe><B>VarType(</B></span>#10/19/62#<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 7.
+MyCheck = <span class=cfe><B>VarType(</B></span>"VBScript"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 8.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctisarray.htm">IsArray Function</A> | <A HREF="vsfctisdate.htm">IsDate Function</A> | <A HREF="vsfctisempty.htm">IsEmpty Function</A> | <A HREF="vsfctisnull.htm">IsNull Function</A> | <A HREF="vsfctisnumeric.htm">IsNumeric Function</A> | <A HREF="vsfctisobject.htm">IsObject Function</A> | <A HREF="vsfcttypename.htm">TypeName Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

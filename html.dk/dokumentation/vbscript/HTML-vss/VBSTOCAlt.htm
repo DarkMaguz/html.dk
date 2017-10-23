@@ -1,0 +1,758 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN" "html.dtd">
+<HTML>
+<head>
+
+<TITLE>VBScript Language Reference</TITLE>
+<META NAME="MS-HKWD" CONTENT="VBScript language reference">
+<META NAME="MS-HKWD" CONTENT="contents">
+<META NAME=MS-HAID CONTENT="VBSTOCAlt">
+ 
+<META NAME="CATEGORY" CONTENT="Language Reference"> 
+<META NAME="MS.LOCALE" CONTENT="EN-US">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso8859-1">
+<META NAME="PRODUCT" CONTENT="Visual Basic Scripting Edition">
+<META NAME="TECHNOLOGY" CONTENT="SCRIPTING">
+<META NAME="Keywords" CONTENT="VBScript language reference; contents">
+
+<META NAME="Description" CONTENT="VBScript Language Reference">
+<SCRIPT LANGUAGE="VBScript">
+<!--
+Sub writeVBScript
+    document.writeln "<SCRIPT LANGUAGE=""VBScript"">"
+    document.writeln "Sub DisplayTopic(ByVal URL)"
+    document.writeln "Window.Open URL, ""_self"""
+    document.writeln "End Sub"
+    document.writeln "</SCRIPT>"
+End Sub
+-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+    var browser;
+    function DoJavaScript( )
+        {
+        document.writeln('<SCRIPT LANGUAGE="JavaScript">');
+        document.writeln('function Form1_onclick(){');
+        document.writeln('DisplayTopic(window.event.srcElement.options[window.event.srcElement.selectedIndex].value);');
+        document.writeln('}');
+        document.writeln('function displayTopic(url){');
+        document.writeln('window.open(url, "_self");');
+        document.writeln('}');
+        document.writeln('</SCRIPT>');
+        }
+    function DoVBScript( )
+        {
+         writeVBScript();
+        }
+    if (navigator.appName != "Microsoft Internet Explorer"){
+        browser = 0;
+        DoJavaScript( );
+    }
+    else {
+        browser = 1;
+        DoVBScript( );
+    }
+// -->  
+</SCRIPT>
+
+</HEAD><BODY BGCOLOR="#FFFFFF" LINK="#0033CC">
+
+
+<!--TOOLBAR_START-->
+<!--TOOLBAR_EXEMPT-->
+<!--TOOLBAR_END-->
+
+<FONT FACE="Verdana, Arial, Helvetica" SIZE=2>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100%><TR VALIGN=TOP><TD WIDTH=360>
+<FONT SIZE=1 COLOR="#000000">Microsoft&#174; Visual Basic&#174; Scripting Edition</FONT><br>
+<FONT SIZE=5 COLOR="#000000"><B>VBScript Language Reference</B></FONT> 
+
+</TD>
+<TD ALIGN=Right>
+</TD></TR>
+</TABLE> 
+
+<P>
+
+&nbsp;<BR><!-- extra space -->
+
+<!-- TABLE G -->
+<TABLE CELLPADDING=3 BORDER=0 CELLSPACING=0>
+
+<TR VALIGN=TOP><TD WIDTH=120 HEIGHT=40><FONT SIZE=2><B>Feature <BR>Information</B></FONT></TD>
+	<TD VALIGN=TOP>
+         <FORM NAME="Form1" ACTION="">
+		<SELECT NAME="Target1">
+		<OPTION VALUE="../HTML/vbsVersion.htm">Version Information
+		<OPTION VALUE="../HTML/vsgrpFeatures.htm">VBScript Features
+		<OPTION VALUE="../HTML/vsgrpNonFeatures.htm">VBA Features not in VBScript
+		<OPTION VALUE="../HTML/vsgrpVBSFeatures.htm">VBScript Features not in VBA
+		<OPTION VALUE="../HTML/vsgrpruntimefeatures.htm">Microsoft Scripting Run-Time Features
+		<OPTION VALUE="../HTML/vbstoc.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                   </SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form1.Target1.options(Target1.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form1.Target1.options[Target1.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>
+</TR>
+
+
+<TR VALIGN=TOP><TD WIDTH=120 HEIGHT=40><FONT SIZE=2><B>Alphabetic<BR>Keyword List</B></FONT></TD>
+	<TD VALIGN=TOP>
+	<FORM NAME="Form2" ACTION="">
+	<SELECT NAME="Target2">
+		<OPTION VALUE="../HTML/vsfctAbs.htm" SELECTED>Abs Function
+		<OPTION VALUE="../HTML/vsoprAdd.htm">Addition Operator (+)
+		<OPTION VALUE="../HTML/vsoprAnd.htm">And Operator
+		<OPTION VALUE="../HTML/vsfctArray.htm">Array Function
+		<OPTION VALUE="../HTML/vsfctAsc.htm">Asc Function
+		<OPTION VALUE="../HTML/vsoprAssignment.htm">Assignment Operator (=)
+		<OPTION VALUE="../HTML/vsfctAtn.htm">Atn Function
+
+		<OPTION VALUE="../HTML/vsstmCall.htm">Call Statement
+		<OPTION VALUE="../HTML/vsfctCBool.htm">CBool Function
+		<OPTION VALUE="../HTML/vsfctCByte.htm">CByte Function
+		<OPTION VALUE="../HTML/vsfctCCur.htm">CCur Function
+		<OPTION VALUE="../HTML/vsfctCDate.htm">CDate Function
+		<OPTION VALUE="../HTML/vsfctCDbl.htm">CDbl Function
+		<OPTION VALUE="../HTML/vsfctChr.htm">Chr Function
+		<OPTION VALUE="../HTML/vsfctCInt.htm">CInt Function
+		<OPTION VALUE="../HTML/vsobjClass.htm">Class Object
+		<OPTION VALUE="../HTML/vsstmClass.htm">Class Statement
+		<OPTION VALUE="../HTML/vsmthClear.htm">Clear Method
+		<OPTION VALUE="../HTML/vsfctCLng.htm">CLng Function
+		<OPTION VALUE="../HTML/vsconColor.htm">Color Constants
+		<OPTION VALUE="../HTML/vsconCompare.htm">Comparison Constants
+		<OPTION VALUE="../HTML/vsoprConcatenation.htm">Concatenation Operator (&)
+		<OPTION VALUE="../HTML/vsstmConst.htm">Const Statement
+		<OPTION VALUE="../HTML/vsfctCos.htm">Cos Function
+		<OPTION VALUE="../HTML/vsfctCreateObject.htm">CreateObject Function
+		<OPTION VALUE="../HTML/vsfctCSng.htm">CSng Function
+		<OPTION VALUE="../HTML/vsfctCstr.htm">CStr Function
+
+		<OPTION VALUE="../HTML/vsconDateTime.htm">Date and Time Constants
+		<OPTION VALUE="../HTML/vsconDateFormat.htm">Date Format Constants
+		<OPTION VALUE="../HTML/vsfctDate.htm">Date Function
+		<OPTION VALUE="../HTML/vsfctDateAdd.htm">DateAdd Function
+		<OPTION VALUE="../HTML/vsfctDateDiff.htm">DateDiff Function
+		<OPTION VALUE="../HTML/vsfctDatePart.htm">DatePart Function
+		<OPTION VALUE="../HTML/vsfctDateSerial.htm">DateSerial Function
+		<OPTION VALUE="../HTML/vsfctDateValue.htm">DateValue Function
+
+		<OPTION VALUE="../HTML/vsfctDay.htm">Day Function
+		<OPTION VALUE="../HTML/vsproDescription.htm">Description Property
+		<OPTION VALUE="../HTML/vsobjdictionary.htm">Dictionary Object
+		<OPTION VALUE="../HTML/vsstmDim.htm">Dim Statement
+		<OPTION VALUE="../HTML/vsoprDivide.htm">Division Operator (/)
+		<OPTION VALUE="../HTML/vsstmDo.htm">Do...Loop Statement
+
+		<OPTION VALUE="../HTML/vskeyEmpty.htm">Empty
+		<OPTION VALUE="../HTML/vsoprEqv.htm">Eqv Operator
+		<OPTION VALUE="../HTML/vsstmErase.htm">Erase Statement
+		<OPTION VALUE="../HTML/vsobjErr.htm">Err Object
+		<OPTION VALUE="../HTML/vsfctEval.htm">Eval Function
+		<OPTION VALUE="../HTML/vsmthExecute.htm">Execute Method
+		<OPTION VALUE="../HTML/vsstmExecute.htm">Execute Statement
+		<OPTION VALUE="../HTML/vsstmExit.htm">Exit Statement
+		<OPTION VALUE="../HTML/vsfctExp.htm">Exp Function
+		<OPTION VALUE="../HTML/vsoprExponentiation.htm">Exponentiation Operator (^)
+
+		<OPTION VALUE="../HTML/vskeyFalse.htm">False
+		<OPTION VALUE="../HTML/vsfilesystem.htm">FileSystemObject Object
+		<OPTION VALUE="../HTML/vsfctFilter.htm">Filter Function
+		<OPTION VALUE="../HTML/vsproFirstIndex.htm">FirstIndex Property
+		<OPTION VALUE="../HTML/vsfctInt.htm">Fix Function
+		<OPTION VALUE="../HTML/vsstmFor.htm">For...Next Statement
+		<OPTION VALUE="../HTML/vsstmForEach.htm">For Each...Next Statement
+		<OPTION VALUE="../HTML/vsfctFormatCurrency.htm">FormatCurrency Function
+		<OPTION VALUE="../HTML/vsfctFormatDateTime.htm">FormatDateTime Function
+		<OPTION VALUE="../HTML/vsfctFormatNumber.htm">FormatNumber Function
+		<OPTION VALUE="../HTML/vsfctFormatPercent.htm">FormatPercent Function
+		<OPTION VALUE="../HTML/vsstmFunction.htm">Function Statement
+
+		<OPTION VALUE="../HTML/vsfctGetLocale.htm">GetLocale Function
+		<OPTION VALUE="../HTML/vsfctGetObject.htm">GetObject Function
+		<OPTION VALUE="../HTML/vsfctGetRef.htm">GetRef Function
+		<OPTION VALUE="../HTML/vsproGlobal.htm">Global Property
+		<OPTION VALUE="../HTML/vsfctHex.htm">Hex Function
+		<OPTION VALUE="../HTML/vsproHelpContext.htm">HelpContext Property
+		<OPTION VALUE="../HTML/vsproHelpFile.htm">HelpFile Property
+		<OPTION VALUE="../HTML/vsfctHour.htm">Hour Function
+
+		<OPTION VALUE="../HTML/vsstmIf.htm">If...Then...Else Statement
+		<OPTION VALUE="../HTML/vsproIgnoreCase.htm">IgnoreCase Property
+		<OPTION VALUE="../HTML/vsoprImp.htm">Imp Operator
+		<OPTION VALUE="../HTML/vsevtInitialize.htm">Initialize Event
+
+		<OPTION VALUE="../HTML/vsfctInputBox.htm">InputBox Function
+		<OPTION VALUE="../HTML/vsfctInStr.htm">InStr Function
+		<OPTION VALUE="../HTML/vsfctInStrRev.htm">InStrRev Function
+		<OPTION VALUE="../HTML/vsfctInt.htm">Int Function
+		<OPTION VALUE="../HTML/vsoprIntegerDivide.htm">Integer Division Operator (\)
+		<OPTION VALUE="../HTML/vsoprIs.htm">Is Operator
+		<OPTION VALUE="../HTML/vsfctIsArray.htm">IsArray Function
+		<OPTION VALUE="../HTML/vsfctIsDate.htm">IsDate Function
+		<OPTION VALUE="../HTML/vsfctIsEmpty.htm">IsEmpty Function
+		<OPTION VALUE="../HTML/vsfctIsNull.htm">IsNull Function
+		<OPTION VALUE="../HTML/vsfctIsNumeric.htm">IsNumeric Function
+		<OPTION VALUE="../HTML/vsfctIsObject.htm">IsObject Function
+
+		<OPTION VALUE="../HTML/vsfctJoin.htm">Join Function
+
+		<OPTION VALUE="../HTML/vsfctLBound.htm">LBound Function
+		<OPTION VALUE="../HTML/vsfctLCase.htm">LCase Function
+		<OPTION VALUE="../HTML/vsfctLeft.htm">Left Function
+		<OPTION VALUE="../HTML/vsfctLen.htm">Len Function
+		<OPTION VALUE="../HTML/vsproLength.htm">Length Property
+
+		<OPTION VALUE="../HTML/vsfctLoadPicture.htm">LoadPicture Function
+		<OPTION VALUE="../HTML/vsfctLog.htm">Log Function
+		<OPTION VALUE="../HTML/vsfctLTrim.htm">LTrim Function
+
+		<OPTION VALUE="../HTML/vsobjMatch.htm">Match Object
+		<OPTION VALUE="../HTML/vscolMatches.htm">Matches Collection
+
+		<OPTION VALUE="../HTML/vsfctMid.htm">Mid Function
+		<OPTION VALUE="../HTML/vsfctMinute.htm">Minute Function
+		<OPTION VALUE="../HTML/vsconMisc.htm">Miscellaneous Constants
+		<OPTION VALUE="../HTML/vsoprMod.htm">Mod Operator
+		<OPTION VALUE="../HTML/vsfctMonth.htm">Month Function
+		<OPTION VALUE="../HTML/vsfctMonthName.htm">MonthName Function
+		<OPTION VALUE="../HTML/vsconMsgBox.htm">MsgBox Constants
+		<OPTION VALUE="../HTML/vsfctMsgBox.htm">MsgBox Function
+		<OPTION VALUE="../HTML/vsoprMultiply.htm">Multiplication Operator (*)
+
+		<OPTION VALUE="../HTML/vsoprSubtract.htm">Negation Operator (-)
+		<OPTION VALUE="../HTML/vsoprNot.htm">Not Operator
+		<OPTION VALUE="../HTML/vsfctNow.htm">Now Function
+		<OPTION VALUE="../HTML/vskeyNothing.htm">Nothing
+		<OPTION VALUE="../HTML/vskeyNull.htm">Null
+		<OPTION VALUE="../HTML/vsproNumber.htm">Number Property
+
+		<OPTION VALUE="../HTML/vsfctOct.htm">Oct Function
+		<OPTION VALUE="../HTML/vsstmOnError.htm">On Error Statement
+		<OPTION VALUE="../HTML/vsgrpOperatorPrecedence.htm">Operator Precedence
+		<OPTION VALUE="../HTML/vsstmOptionExplicit.htm">Option Explicit Statement
+		<OPTION VALUE="../HTML/vsoprOr.htm">Or Operator
+		<OPTION VALUE="../HTML/vsproPattern.htm">Pattern Property
+		<OPTION VALUE="../HTML/vsstmPrivate.htm">Private Statement
+
+		<OPTION VALUE="../HTML/vsstmPropertyGet.htm">Property Get Statement
+		<OPTION VALUE="../HTML/vsstmPropertyLet.htm">Property Let Statement
+		<OPTION VALUE="../HTML/vsstmPropertySet.htm">Property Set Statement
+
+		<OPTION VALUE="../HTML/vsstmPublic.htm">Public Statement
+
+		<OPTION VALUE="../HTML/vsmthRaise.htm">Raise Method
+		<OPTION VALUE="../HTML/vsstmRandomize.htm">Randomize Statement
+		<OPTION VALUE="../HTML/vsstmReDim.htm">ReDim Statement
+
+		<OPTION VALUE="../HTML/vsobjRegExp.htm">RegExp Object
+		<OPTION VALUE="../HTML/vsstmRem.htm">Rem Statement
+
+		<OPTION VALUE="../HTML/vsfctReplace.htm">Replace Function
+		<OPTION VALUE="../HTML/vsmthReplace.htm">Replace Method
+		<OPTION VALUE="../HTML/vsfctRGB.htm">RGB Function
+		<OPTION VALUE="../HTML/vsfctRight.htm">Right Function
+		<OPTION VALUE="../HTML/vsfctRnd.htm">Rnd Function
+		<OPTION VALUE="../HTML/vsfctRound.htm">Round Function
+		<OPTION VALUE="../HTML/vsfctLTrim.htm">RTrim Function
+		<OPTION VALUE="../HTML/vsmscRunTimeErrors">Run-time Errors
+
+		<OPTION VALUE="../HTML/vsfctScriptEngine.htm">ScriptEngine Function
+		<OPTION VALUE="../HTML/vsfctScriptEngineBuildVersion.htm">ScriptEngineBuildVersion Function
+		<OPTION VALUE="../HTML/vsfctScriptEngineMajorVersion.htm">ScriptEngineMajorVersion Function
+		<OPTION VALUE="../HTML/vsfctScriptEngineMinorVersion.htm">ScriptEngineMinorVersion Function
+		<OPTION VALUE="../HTML/vsfctSecond.htm">Second Function
+		<OPTION VALUE="../HTML/vsstmSelectCase.htm">Select Case Statement
+		<OPTION VALUE="../HTML/vsstmSet.htm">Set Statement
+		<OPTION VALUE="../HTML/vsfctSetLocale.htm">SetLocale Function
+		<OPTION VALUE="../HTML/vsfctSgn.htm">Sgn Function
+		<OPTION VALUE="../HTML/vsfctSin.htm">Sin Function
+		<OPTION VALUE="../HTML/vsproSource.htm">Source Property
+		<OPTION VALUE="../HTML/vsfctSpace.htm">Space Function
+		<OPTION VALUE="../HTML/vsfctSplit.htm">Split Function
+		<OPTION VALUE="../HTML/vsfctSqr.htm">Sqr Function
+		<OPTION VALUE="../HTML/vsfctStrComp.htm">StrComp Function
+		<OPTION VALUE="../HTML/vsconString.htm">String Constants
+		<OPTION VALUE="../HTML/vsfctString.htm">String Function
+		<OPTION VALUE="../HTML/vsfctStrReverse.htm">StrReverse Function
+		<OPTION VALUE="../HTML/vsstmSub.htm">Sub Statement
+		<OPTION VALUE="../HTML/vsoprSubtract.htm">Subtraction Operator (-)
+		<OPTION VALUE="../HTML/vsmscSyntaxErrors.htm">Syntax Errors
+
+		<OPTION VALUE="../HTML/vsfctTan.htm">Tan Function
+		<OPTION VALUE="../HTML/vsevtTerminate.htm">Terminate Event
+		<OPTION VALUE="../HTML/vsmthTest.htm">Test Method
+		<OPTION VALUE="../HTML/vsfctTime.htm">Time Function
+		<OPTION VALUE="../HTML/vsfctTimer.htm">Timer Function
+		<OPTION VALUE="../HTML/vsfctTimeSerial.htm">TimeSerial Function
+		<OPTION VALUE="../HTML/vsfctTimeValue.htm">TimeValue Function
+		<OPTION VALUE="../HTML/vsfctLTrim.htm">Trim Function
+		<OPTION VALUE="../HTML/vsconTristate.htm">Tristate Constants
+		<OPTION VALUE="../HTML/vskeyTrue.htm">True
+		<OPTION VALUE="../HTML/vsfctTypeName.htm">TypeName Function
+
+		<OPTION VALUE="../HTML/vsfctUBound.htm">UBound Function
+		<OPTION VALUE="../HTML/vsfctUcase.htm">UCase Function
+
+		<OPTION VALUE="../HTML/vsproValue.htm">Value Property
+		<OPTION VALUE="../HTML/vsconVarType.htm">VarType Constants
+		<OPTION VALUE="../HTML/vsfctVarType.htm">VarType Function
+		<OPTION VALUE="../HTML/vsconVBScript.htm">VBScript Constants
+		<OPTION VALUE="../HTML/vsstmWith.htm">With Statement
+		<OPTION VALUE="../HTML/vsfctWeekday.htm">Weekday Function
+		<OPTION VALUE="../HTML/vsfctWeekdayName.htm">WeekdayName Function
+		<OPTION VALUE="../HTML/vsstmWhile.htm">While...Wend Statement
+		<OPTION VALUE="../HTML/vsstmWith.htm">With Statement
+
+
+		<OPTION VALUE="../HTML/vsoprXor.htm">Xor Operator
+
+		<OPTION VALUE="../HTML/vsfctYear.htm">Year Function
+		<OPTION VALUE="../HTML/vbstoc.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form2.Target2.options(Target2.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form2.Target2.options[Target2.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+
+</FORM>
+</TR>
+
+
+<TR VALIGN=TOP><TD HEIGHT=40><FONT SIZE=2><B>Constants</B></FONT></TD>
+	<TD>	
+	<FORM NAME="Form3" ACTION="">
+	<SELECT NAME="Target3">
+		<OPTION VALUE="../HTML/vsconColor.htm">Color Constants
+		<OPTION VALUE="../HTML/vsconCompare.htm">Comparison Constants
+		<OPTION VALUE="../HTML/vsconDateTime.htm">Date and Time Constants
+		<OPTION VALUE="../HTML/vsconDateFormat.htm">Date Format Constants
+		<OPTION VALUE="../HTML/vsconMisc.htm">Miscellaneous Constants
+		<OPTION VALUE="../HTML/vsconMsgBox.htm">MsgBox Constants
+		<OPTION VALUE="../HTML/vsconString.htm">String Constants
+		<OPTION VALUE="../HTML/vsconTristate.htm">Tristate Constants
+		<OPTION VALUE="../HTML/vsconVarType.htm">VarType Constants
+		<OPTION VALUE="../HTML/vsconVBScript.htm">VBScript Constants
+		<OPTION VALUE="../HTML/vbstoc.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+	</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form3.Target3.options(Target3.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form3.Target3.options[Target3.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>                                        
+
+</TR>
+
+<TR VALIGN=TOP>
+<TD WIDTH=120 HEIGHT=40>
+<FONT SIZE=2><B>Errors</B></FONT></TD>
+	<TD VALIGN=TOP>
+	<FORM NAME="Form11" ACTION="">
+	<SELECT NAME="Target11">
+
+
+<OPTION VALUE="../HTML/vsmscRunTimeErrors.htm">Run-time Errors
+<OPTION VALUE="../HTML/vsmscSyntaxErrors.htm">Syntax Errors
+<OPTION VALUE="../HTML/vstoc.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;
+</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form11.Target11.options(Target11.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form11.Target11.options[Target11.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>
+</TR>
+
+
+<TR VALIGN=TOP><TD WIDTH=120 HEIGHT=40><FONT SIZE=2><B>Events</B></FONT></TD>
+	<TD VALIGN=TOP>
+         <FORM NAME="Form4" ACTION="">
+		<SELECT NAME="Target4">
+		<OPTION VALUE="../HTML/vsevtInitialize.htm">Initialize Event
+		<OPTION VALUE="../HTML/vsevtTerminate.htm">Terminate Event
+		<OPTION VALUE="../HTML/vbstocalt.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                   </SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form4.Target4.options(Target4.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form4.Target4.options[Target4.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>
+</TR>
+
+<TR VALIGN=TOP><TD HEIGHT=40><FONT SIZE=2><B>Functions</B></FONT></TD>
+	<TD>			
+	<FORM NAME="Form5" ACTION="">
+	<SELECT NAME="Target5">
+		<OPTION VALUE="../HTML/vsfctAbs.htm">Abs Function
+		<OPTION VALUE="../HTML/vsfctArray.htm">Array Function
+		<OPTION VALUE="../HTML/vsfctAsc.htm">Asc Function
+		<OPTION VALUE="../HTML/vsfctAtn.htm">Atn Function
+
+		<OPTION VALUE="../HTML/vsfctCBool.htm">CBool Function
+		<OPTION VALUE="../HTML/vsfctCByte.htm">CByte Function
+		<OPTION VALUE="../HTML/vsfctCCur.htm">CCur Function
+		<OPTION VALUE="../HTML/vsfctCDate.htm">CDate Function
+		<OPTION VALUE="../HTML/vsfctCDbl.htm">CDbl Function
+		<!--OPTION VALUE="../HTML/vsfctCDec.htm">CDec Function-->
+		<OPTION VALUE="../HTML/vsfctChr.htm">Chr Function
+		<OPTION VALUE="../HTML/vsfctCInt.htm">CInt Function
+		<OPTION VALUE="../HTML/vsfctCLng.htm">CLng Function
+		<OPTION VALUE="../HTML/vsfctCos.htm">Cos Function
+		<OPTION VALUE="../HTML/vsfctCreateObject.htm">CreateObject Function
+		<OPTION VALUE="../HTML/vsfctCSng.htm">CSng Function
+		<OPTION VALUE="../HTML/vsfctCstr.htm">CStr Function
+
+		<OPTION VALUE="../HTML/vsfctDate.htm">Date Function
+		<OPTION VALUE="../HTML/vsfctDateAdd.htm">DateAdd Function
+		<OPTION VALUE="../HTML/vsfctDateDiff.htm">DateDiff Function
+		<OPTION VALUE="../HTML/vsfctDatePart.htm">DatePart Function
+		<OPTION VALUE="../HTML/vsfctDateSerial.htm">DateSerial Function
+		<OPTION VALUE="../HTML/vsfctDateValue.htm">DateValue Function
+		<OPTION VALUE="../HTML/vsfctDay.htm">Day Function
+
+		<OPTION VALUE="../HTML/vsfctEval.htm">Eval Function
+		<OPTION VALUE="../HTML/vsfctExp.htm">Exp Function
+
+		<OPTION VALUE="../HTML/vsfctFilter.htm">Filter Function
+		<OPTION VALUE="../HTML/vsfctInt.htm">Fix Function
+		<OPTION VALUE="../HTML/vsfctFormatCurrency.htm">FormatCurrency Function
+		<OPTION VALUE="../HTML/vsfctFormatDateTime.htm">FormatDateTime Function
+		<OPTION VALUE="../HTML/vsfctFormatNumber.htm">FormatNumber Function
+		<OPTION VALUE="../HTML/vsfctFormatPercent.htm">FormatPercent Function
+
+		<OPTION VALUE="../HTML/vsfctGetLocale.htm">GetLocale Function
+		<OPTION VALUE="../HTML/vsfctGetObject.htm">GetObject Function
+		<OPTION VALUE="../HTML/vsfctGetRef.htm">GetRef Function
+
+		<OPTION VALUE="../HTML/vsfctHex.htm">Hex Function
+		<OPTION VALUE="../HTML/vsfctHour.htm">Hour Function
+
+		<OPTION VALUE="../HTML/vsfctInputBox.htm">InputBox Function
+		<OPTION VALUE="../HTML/vsfctInStr.htm">InStr Function
+		<OPTION VALUE="../HTML/vsfctInStrRev.htm">InStrRev Function
+		<OPTION VALUE="../HTML/vsfctInt.htm">Int Function
+		<OPTION VALUE="../HTML/vsfctIsArray.htm">IsArray Function
+		<OPTION VALUE="../HTML/vsfctIsDate.htm">IsDate Function
+		<OPTION VALUE="../HTML/vsfctIsEmpty.htm">IsEmpty Function
+		<OPTION VALUE="../HTML/vsfctIsNull.htm">IsNull Function
+		<OPTION VALUE="../HTML/vsfctIsNumeric.htm">IsNumeric Function
+		<OPTION VALUE="../HTML/vsfctIsObject.htm">IsObject Function
+
+		<OPTION VALUE="../HTML/vsfctJoin.htm">Join Function
+
+		<OPTION VALUE="../HTML/vsfctLBound.htm">LBound Function
+		<OPTION VALUE="../HTML/vsfctLCase.htm">LCase Function
+		<OPTION VALUE="../HTML/vsfctLeft.htm">Left Function
+		<OPTION VALUE="../HTML/vsfctLen.htm">Len Function
+		<OPTION VALUE="../HTML/vsfctLoadPicture.htm">LoadPicture Function
+		<OPTION VALUE="../HTML/vsfctLog.htm">Log Function
+		<OPTION VALUE="../HTML/vsfctLTrim.htm">LTrim Function
+
+		<OPTION VALUE="../HTML/vsfctMid.htm">Mid Function
+		<OPTION VALUE="../HTML/vsfctMinute.htm">Minute Function
+		<OPTION VALUE="../HTML/vsfctMonth.htm">Month Function
+		<OPTION VALUE="../HTML/vsfctMonthName.htm">MonthName Function
+		<OPTION VALUE="../HTML/vsfctMsgBox.htm">MsgBox Function
+
+		<OPTION VALUE="../HTML/vsfctNow.htm">Now Function
+
+		<OPTION VALUE="../HTML/vsfctOct.htm">Oct Function
+
+		<OPTION VALUE="../HTML/vsfctReplace.htm">Replace Function
+		<OPTION VALUE="../HTML/vsfctRGB.htm">RGB Function
+		<OPTION VALUE="../HTML/vsfctRight.htm">Right Function
+		<OPTION VALUE="../HTML/vsfctRnd.htm">Rnd Function
+		<OPTION VALUE="../HTML/vsfctRound.htm">Round Function
+		<OPTION VALUE="../HTML/vsfctLTrim.htm">RTrim Function
+
+		<OPTION VALUE="../HTML/vsfctScriptEngine.htm">ScriptEngine Function
+		<OPTION VALUE="../HTML/vsfctScriptEngineBuildVersion.htm">ScriptEngineBuildVersion Function
+		<OPTION VALUE="../HTML/vsfctScriptEngineMajorVersion.htm">ScriptEngineMajorVersion Function
+		<OPTION VALUE="../HTML/vsfctScriptEngineMinorVersion.htm">ScriptEngineMinorVersion Function
+		<OPTION VALUE="../HTML/vsfctSecond.htm">Second Function
+		<OPTION VALUE="../HTML/vsfctSetLocale.htm">SetLocale Function
+		<OPTION VALUE="../HTML/vsfctSgn.htm">Sgn Function
+		<OPTION VALUE="../HTML/vsfctSin.htm">Sin Function
+		<OPTION VALUE="../HTML/vsfctSpace.htm">Space Function
+		<OPTION VALUE="../HTML/vsfctSplit.htm">Split Function
+		<OPTION VALUE="../HTML/vsfctSqr.htm">Sqr Function
+		<OPTION VALUE="../HTML/vsfctStrComp.htm">StrComp Function
+		<OPTION VALUE="../HTML/vsfctStrReverse.htm">StrReverse Function
+		<OPTION VALUE="../HTML/vsfctString.htm">String Function
+
+		<OPTION VALUE="../HTML/vsfctTan.htm">Tan Function
+		<OPTION VALUE="../HTML/vsfctTime.htm">Time Function
+		<OPTION VALUE="../HTML/vsfctTimer.htm">Timer Function
+		<OPTION VALUE="../HTML/vsfctTimeSerial.htm">TimeSerial Function
+		<OPTION VALUE="../HTML/vsfctTimeValue.htm">TimeValue Function
+		<OPTION VALUE="../HTML/vsfctLTrim.htm">Trim Function
+		<OPTION VALUE="../HTML/vsfctTypeName.htm">TypeName Function
+
+		<OPTION VALUE="../HTML/vsfctUBound.htm">UBound Function
+		<OPTION VALUE="../HTML/vsfctUcase.htm">UCase Function
+
+		<OPTION VALUE="../HTML/vsfctVarType.htm">VarType Function
+
+		<OPTION VALUE="../HTML/vsfctWeekday.htm">Weekday Function
+		<OPTION VALUE="../HTML/vsfctWeekdayName.htm">WeekdayName Function
+
+		<OPTION VALUE="../HTML/vsfctYear.htm">Year Function
+		<OPTION VALUE="../HTML/vbstocalt.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form5.Target5.options(Target5.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form5.Target5.options[Target5.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>
+</TR>
+
+<TR VALIGN=TOP><TD HEIGHT=40><FONT SIZE=2><B>Methods</B></FONT></TD>
+	<TD>	
+	<FORM  NAME="Form6" ACTION="">
+	<SELECT NAME="Target6">
+
+		<OPTION VALUE="../HTML/vsmthClear.htm">Clear Method
+		<OPTION VALUE="../HTML/vsmthExecute.htm">Execute Method
+		<OPTION VALUE="../HTML/vsmthRaise.htm">Raise Method
+		<OPTION VALUE="../HTML/vsmthReplace.htm">Replace Method
+		<OPTION VALUE="../HTML/vsmthTest.htm">Test Method
+
+		<OPTION VALUE="../HTML/vbstocalt.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+
+	</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form6.Target6.options(Target6.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form6.Target6.options[Target6.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>                                        
+</TR>
+
+<TR VALIGN=TOP><TD HEIGHT=40><FONT SIZE=2><B>Objects</B></FONT></TD>
+	<TD>		
+	<FORM NAME="Form7" ACTION="">
+	<SELECT NAME="Target7">
+		<OPTION VALUE="../HTML/vsobjClass.htm">Class Object
+		<OPTION VALUE="../HTML/vsobjdictionary.htm">Dictionary Object
+		<OPTION VALUE="../HTML/vsobjErr.htm">Err Object
+		<OPTION VALUE="../HTML/vsobjfilesystem.htm">FileSystemObject Object
+		<OPTION VALUE="../HTML/vsobjMatch.htm">Match Object
+		<OPTION VALUE="../HTML/vscolMatches.htm">Matches Collection
+		<OPTION VALUE="../HTML/vsobjRegExp.htm">RegExp Object
+		<OPTION VALUE="../HTML/vbstocalt.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	</SELECT>
+</TD>
+<TD WIDTH=80 VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form7.Target7.options(Target7.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form7.Target7.options[Target7.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>
+</TR>
+
+<TR VALIGN=TOP><TD HEIGHT=40><FONT SIZE=2><B>Operators</B></FONT></TD>
+	<TD>			
+	<FORM  NAME="Form8" ACTION="">
+	<SELECT NAME="Target8">
+		<OPTION VALUE="../HTML/vsoprAdd.htm">Addition Operator (+)
+		<OPTION VALUE="../HTML/vsoprAnd.htm">And Operator
+		 <OPTION VALUE="../HTML/vsoprAssignment.htm">Assignment Operator (=)
+		<OPTION VALUE="../HTML/vsoprConcatenation.htm">Concatenation Operator (&)
+		<OPTION VALUE="../HTML/vsoprDivide.htm">Division Operator (/)
+		<OPTION VALUE="../HTML/vsoprEqv.htm">Eqv Operator
+		<OPTION VALUE="../HTML/vsoprExponentiation.htm">Exponentiation Operator (^)
+		<OPTION VALUE="../HTML/vsoprImp.htm">Imp Operator
+		<OPTION VALUE="../HTML/vsoprIntegerDivide.htm">Integer Division Operator (\)
+		<OPTION VALUE="../HTML/vsoprIs.htm">Is Operator
+		<OPTION VALUE="../HTML/vsoprMod.htm">Mod Operator
+		<OPTION VALUE="../HTML/vsoprMultiply.htm">Multiplication Operator (*)
+		<OPTION VALUE="../HTML/vsoprSubtract.htm">Negation Operator (-)
+		<OPTION VALUE="../HTML/vsoprNot.htm">Not Operator
+		<OPTION VALUE="../HTML/vsoprOr.htm">Or Operator
+		<OPTION VALUE="../HTML/vsgrpOperatorPrecedence.htm">Operator Precedence
+		<OPTION VALUE="../HTML/vsoprSubtract.htm">Subtraction Operator (-)
+		<OPTION VALUE="../HTML/vsoprXor.htm">Xor Operator
+		<OPTION VALUE="../HTML/vbstocalt.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+	</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form8.Target8.options(Target8.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form8.Target8.options[Target8.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>                                        
+</TR>
+
+<TR VALIGN=TOP><TD HEIGHT=40><FONT SIZE=2><B>Properties</B></FONT></TD>
+	<TD>			
+	<FORM NAME="Form9" ACTION="">
+	<SELECT NAME="Target9">
+		<OPTION VALUE="../HTML/vsproDescription.htm">Description Property
+		<OPTION VALUE="../HTML/vsproFirstIndex.htm">FirstIndex Property
+		<OPTION VALUE="../HTML/vsproGlobal.htm">Global Property
+		<OPTION VALUE="../HTML/vsproHelpContext.htm">HelpContext Property
+		<OPTION VALUE="../HTML/vsproHelpFile.htm">HelpFile Property
+		<OPTION VALUE="../HTML/vsproIgnoreCase.htm">IgnoreCase Property
+		<OPTION VALUE="../HTML/vsproLength.htm">Length Property
+		<OPTION VALUE="../HTML/vsproNumber.htm">Number Property
+		<OPTION VALUE="../HTML/vsproPattern.htm">Pattern Property
+		<OPTION VALUE="../HTML/vsproSource.htm">Source Property
+		<OPTION VALUE="../HTML/vsproValue.htm">Value Property
+
+		<OPTION VALUE="../HTML/vbstocalt.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+	</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form9.Target9.options(Target9.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form9.Target9.options[Target9.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>
+</TR>
+
+<TR VALIGN=TOP><TD HEIGHT=40><FONT SIZE=2><B>Statements</B></FONT></TD>
+	<TD>			
+	<FORM NAME="Form10" ACTION="">
+	<SELECT NAME="Target10">
+		<OPTION VALUE="../HTML/vsstmCall.htm">Call Statement
+		<OPTION VALUE="../HTML/vsstmClass.htm">Class Statement
+		<OPTION VALUE="../HTML/vsstmConst.htm">Const Statement
+
+		<OPTION VALUE="../HTML/vsstmDim.htm">Dim Statement
+		<OPTION VALUE="../HTML/vsstmDo.htm">Do...Loop Statement
+
+		<OPTION VALUE="../HTML/vsstmErase.htm">Erase Statement
+		<OPTION VALUE="../HTML/vsstmExecute.htm">Execute Statement		
+		<OPTION VALUE="../HTML/vsstmExit.htm">Exit Statement
+
+		<OPTION VALUE="../HTML/vsstmFor.htm">For...Next Statement
+		<OPTION VALUE="../HTML/vsstmForEach.htm">For Each...Next Statement
+		<OPTION VALUE="../HTML/vsstmFunction.htm">Function Statement
+
+		<OPTION VALUE="../HTML/vsstmIf.htm">If...Then...Else Statement
+
+		<OPTION VALUE="../HTML/vsstmOnError.htm">On Error Statement
+		<OPTION VALUE="../HTML/vsstmOptionExplicit.htm">Option Explicit Statement
+
+		<OPTION VALUE="../HTML/vsstmPrivate.htm">Private Statement
+
+		<OPTION VALUE="../HTML/vsstmPropertyGet.htm">Property Get Statement
+		<OPTION VALUE="../HTML/vsstmPropertyLet.htm">Property Let Statement
+		<OPTION VALUE="../HTML/vsstmPropertySet.htm">Property Set Statement
+		<OPTION VALUE="../HTML/vsstmPublic.htm">Public Statement
+
+		<OPTION VALUE="../HTML/vsstmRandomize.htm">Randomize Statement
+		<OPTION VALUE="../HTML/vsstmReDim.htm">ReDim Statement
+		<OPTION VALUE="../HTML/vsstmRem.htm">Rem Statement
+
+		<OPTION VALUE="../HTML/vsstmSelectCase.htm">Select Case Statement
+		<OPTION VALUE="../HTML/vsstmSet.htm">Set Statement
+		<OPTION VALUE="../HTML/vsstmSub.htm">Sub Statement
+
+		<OPTION VALUE="../HTML/vsstmWhile.htm">While...Wend Statement
+		<OPTION VALUE="../HTML/vsstmWith.htm">With Statement
+		<OPTION VALUE="../HTML/vbstocalt.htm">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+	</SELECT>
+</TD>
+<TD VALIGN=TOP>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+if (browser == 1){
+    document.write( '<INPUT TYPE="button" Language="VBScript" onClick="DisplayTopic document.Form10.Target10.options(Target10.selectedIndex).value"  VALUE="  Go!  ">' );
+    }
+    else {
+   document.write('<INPUT TYPE="button" LANGUAGE="JavaScript" onClick="displayTopic(document.Form10.Target10.options[Target10.selectedIndex].value)" VALUE="  Go!  ">');
+    }
+// -->
+</SCRIPT>
+</FORM>
+</TR>
+</TABLE><!-- TABLE G - Close -->
+
+<HR NOSHADE SIZE=1>
+<!--COPYRIGHT BEGIN-->
+<A href="../HTML/vbscopy.htm">© 2000 Microsoft Corporation. All rights reserved</A>. 
+<!--COPYRIGHT END--> 
+</FONT>
+</BODY></HTML>

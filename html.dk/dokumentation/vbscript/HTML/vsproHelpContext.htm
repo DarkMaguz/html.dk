@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>HelpContext Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprohelpcontext"></A>HelpContext Property</H1>
+
+<P>Sets or returns a context ID for a topic in a Help File. </P>
+
+<P><CODE><I>object</I><B>.HelpContext</B> [= <I>contextID</I>]</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the <B>Err</B> object.</P>
+
+<P class=dt><I>contextID</I></P>
+
+<P class=indent>Optional. A valid identifier for a Help topic within the Help file.</P>
+
+<H4>Remarks</H4>
+
+<P>If a Help file is specified in <B>HelpFile</B>, the <B>HelpContext</B> property is used to automatically display the Help topic identified. If both <B>HelpFile</B> and <B>HelpContext</B> are empty, the value of the <B>Number</B> property is checked. If it corresponds to a VBScript <A HREF="vtglossary.htm#defruntimeerrorvbs">run-time error</A> value, then the VBScript Help context ID for the error is used. If the <B>Number</B> property doesn't correspond to a VBScript error, the contents screen for the VBScript Help file is displayed.</P>
+
+<P>The following example illustrates use of the <B>HelpContext</B> property: </P>
+
+<PRE><CODE>On Error Resume Next
+Dim Msg
+Err.Clear
+Err.Raise 6&nbsp;&nbsp;&nbsp;' Generate "Overflow" error.
+Err.Helpfile = "<I>yourHelp.hlp</I>"
+<span class=cfe><B>Err.HelpContext</B></span> = <I>yourContextID</I>
+If Err.Number &lt;&gt; 0 Then
+&nbsp;&nbsp;&nbsp;Msg = "Press F1 or Help to see " &amp; Err.Helpfile &amp; " topic for" &amp; _
+&nbsp;&nbsp;&nbsp;" the following HelpContext: " &amp; Err.HelpContext
+&nbsp;&nbsp;&nbsp;MsgBox Msg, , "error: " &amp; Err.Description, Err.Helpfile, Err.HelpContext
+End If</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprodescription.htm">Description Property</A> | <A HREF="vsprohelpfile.htm">HelpFile Property</A> | <A HREF="vspronumber.htm">Number Property</A> | <A HREF="vsprosource.htm">Source Property</A></P>
+
+<P>Applies To: <A HREF="vsobjerr.htm">Err Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

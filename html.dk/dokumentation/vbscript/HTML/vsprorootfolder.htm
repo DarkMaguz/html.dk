@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>RootFolder Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprorootfolder"></A>RootFolder Property</H1>
+
+<P>Returns a <B>Folder</B> object representing the root folder of a specified drive. Read-only.</P>
+
+<P><CODE><I>object</I>.RootFolder </CODE></P>
+
+<P>The <I>object</I> is always a <B>Drive</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>All the files and folders contained on the drive can be accessed using the returned <B>Folder</B> object.</P>
+
+<P>The following example illustrates the use of the <B>RootFolder</B> property: </P>
+
+<PRE><CODE>Function ShowRootFolder(drvspec)
+&nbsp;&nbsp;&nbsp;Dim fso, f
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.GetDrive(drvspec)
+&nbsp;&nbsp;&nbsp;ShowRootFolder = <span class=cfe><B>f.RootFolder</B></span>
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsproavailablespace.htm">AvailableSpace Property</A> | <A HREF="vsprodriveletter.htm">DriveLetter Property</A> | <A HREF="vsprodrivetype.htm">DriveType Property</A> | <A HREF="vsprofilesystem.htm">FileSystem Property</A> | <A HREF="vsprofreespace.htm">FreeSpace Property</A> | <A HREF="vsproisready.htm">IsReady Property</A> | <A HREF="vspropath.htm">Path Property</A> | <A HREF="vsproserialnumber.htm">SerialNumber Property</A> | <A HREF="vsprosharename.htm">ShareName Property</A> | <A HREF="vsprototalsize.htm">TotalSize Property</A> | <A HREF="vsprovolumename.htm">VolumeName Property</A></P>
+
+<P>Applies To: <A HREF="vsobjdrive.htm">Drive Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

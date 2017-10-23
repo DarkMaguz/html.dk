@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsgrpoperatorprecedence"></A>Operator Precedence</H1>
+
+<P>When several operations occur in an expression, each part is evaluated and resolved in a predetermined order called operator precedence. Parentheses can be used to override the order of precedence and force some parts of an expression to be evaluated before other parts. Operations within parentheses are always performed before those outside. Within parentheses, however, normal operator precedence is maintained.</P>
+
+<P>When expressions contain operators from more than one category, arithmetic operators are evaluated first, comparison operators are evaluated next, and logical operators are evaluated last. Comparison operators all have equal precedence; that is, they are evaluated in the left-to-right order in which they appear. Arithmetic and logical operators are evaluated in the following order of precedence:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=42%>Arithmetic</TH>
+<TH width=43%>Comparison</TH>
+<TH width=15%>Logical</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=42%>Negation (<B>-</B>)</TD>
+<TD width=43%>Equality (<B>=</B>)</TD>
+<TD width=15%>Not</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=42%>Exponentiation (<B>^</B>)</TD>
+<TD width=43%>Inequality (<B>&lt;&gt;</B>)</TD>
+<TD width=15%>And</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=42%>Multiplication and division (<B>*</B>, <B>/</B>)</TD>
+<TD width=43%>Less than (<B>&lt;</B>)</TD>
+<TD width=15%>Or</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=42%>Integer division (<B>\</B>)</TD>
+<TD width=43%>Greater than (<B>&gt;</B>)</TD>
+<TD width=15%>Xor</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=42%>Modulus arithmetic (<B>Mod</B>)</TD>
+<TD width=43%>Less than or equal to (<B>&lt;=</B>)</TD>
+<TD width=15%>Eqv</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=42%>Addition and subtraction (<B>+</B>, <B>-</B>)</TD>
+<TD width=43%>Greater than or equal to (<B>&gt;=</B>)</TD>
+<TD width=15%>Imp</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=42%>String concatenation (<B>&amp;</B>)</TD>
+<TD width=43%>Is</TD>
+<TD width=15%>&amp;</TD>
+</TR>
+</TABLE><BR>
+
+<P>When multiplication and division occur together in an expression, each operation is evaluated as it occurs from left to right. Likewise, when addition and subtraction occur together in an expression, each operation is evaluated in order of appearance from left to right.</P>
+
+<P>The string concatenation operator (<B>&amp;</B>) is not an arithmetic operator, but in precedence it does fall after all arithmetic operators and before all comparison operators. The <B>Is</B> operator is an object reference comparison operator. It does not compare objects or their values; it checks only to determine if two object references refer to the same object.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsopris.htm">Is Operator</A> | <A HREF="vsgrpoperatorsummary.htm">Operator Summary</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

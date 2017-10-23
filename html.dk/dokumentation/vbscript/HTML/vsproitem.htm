@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Item Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsproitem"></A>Item Property</H1>
+
+<P>Sets or returns an <I>item</I> for a specified <I>key</I> in a <B>Dictionary</B> object. For collections, returns an <I>item</I> based on the specified <I>key</I>. Read/write. </P>
+
+<P><CODE>object.<B>Item(</B>key<B>)</B> [= newitem] </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a collection or <B>Dictionary</B> object.</P>
+
+<P class=dt><I>key</I></P>
+
+<P class=indent>Required. <I>Key</I> associated with the <I>item</I> being retrieved or added.</P>
+
+<P class=dt><I>newitem</I></P>
+
+<P class=indent>Optional. Used for <B>Dictionary</B> object only; no application for collections. If provided, <I>newitem</I> is the new value associated with the specified <I>key</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>key</I> is not found when changing an <I>item</I>, a new <I>key</I> is created with the specified <I>newitem</I>. If <I>key</I> is not found when attempting to return an existing item, a new <I>key</I> is created and its corresponding item is left empty.</P>
+
+<P>The following example illustrates the use of the <B>Item</B> property: </P>
+
+<PRE><CODE>Function ItemDemo
+&nbsp;&nbsp;&nbsp;Dim d&nbsp;&nbsp;&nbsp;' Create some variables.
+&nbsp;&nbsp;&nbsp;Set d = CreateObject("Scripting.Dictionary")
+&nbsp;&nbsp;&nbsp;d.Add "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some keys and items.
+&nbsp;&nbsp;&nbsp;d.Add "b", "Belgrade"
+&nbsp;&nbsp;&nbsp;d.Add "c", "Cairo"
+&nbsp;&nbsp;&nbsp;ItemDemo = <span class=cfe><B>d.Item(</B></span>"c"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Get the item.
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprocomparemode.htm">CompareMode Property</A> | <A HREF="vsprocount.htm">Count Property</A> | <A HREF="vsprokey.htm">Key Property</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A> | <A HREF="vscoldrives.htm">Drives Collection</A> | <A HREF="vscolfiles.htm">Files Collection</A> | <A HREF="vscolfolders.htm">Folders Collection</A> | <A HREF="vscolmatches.htm">Matches Collection</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

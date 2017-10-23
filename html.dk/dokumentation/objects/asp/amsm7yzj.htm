@@ -1,0 +1,53 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Logoff Method (CDONTS Session Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_logoff_method_cdonts_session_object_"></a>Logoff Method (CDONTS Session Object)  <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Logoff</b> method uninitializes the Session object. </p>
+<h4>Syntax </h4>
+<pre><i>objSession</i>.<b>Logoff( ) 
+ </b></pre>
+<h4>Remarks </h4>
+<p>
+The <b>Logoff</b> method terminates all activity on the Session object initialized by the <a href="amsm3yvz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3yvz.htm"><b>LogonSMTP</b></a> method. You can call <b>LogonSMTP</b> on the same Session object again. Attempted access to the Session object before initialization results in a return of <b>CdoE_NOT_INITIALIZED</b>. </p>
+<p>
+Objects you create while you are active on a Session object become invalid when you call <b>Logoff</b>. You should <b>Set</b> your reference variables to <b>Nothing</b> for all such objects. </p>
+<h4>Example </h4>
+<p>
+This code fragment logs off from the messaging system: </p>
+<pre>' from the function Session_Logoff 
+If Not objSession Is Nothing Then 
+    objSession.Logoff 
+    MsgBox &quot;Logged off; reset global variables&quot; 
+Else 
+    MsgBox &quot;No active session; cannot log off&quot; 
+End If 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Type Property (CDONTS Recipient Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_type_property_cdonts_recipient_object_"></a>Type Property (CDONTS Recipient Object)  <a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Type</b> property specifies the recipient type of the Recipient object, that is, whether it is a To, Cc, or Bcc recipient. Read/write (read-only for a recipient on a message in the Inbox). </p>
+<h4>Syntax </h4>
+<pre><i>objRecip</i>.<b>Type 
+ </b></pre>
+<h4>Data Type </h4>
+<p>
+Long </p>
+<h4>Remarks </h4>
+<p>
+The <b>Type</b> property has the following defined values: </p>
+<table>
+<tr valign="top">
+<td>
+<b>Recipient type </b></td>
+<td>
+<b>Value </b></td>
+<td>
+<b>Description </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoTo </b></td>
+<td>
+1 </td>
+<td>
+The recipient is on the To line (default). </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoCc </b></td>
+<td>
+2 </td>
+<td>
+The recipient is on the Cc line. </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoBcc </b></td>
+<td>
+3 </td>
+<td>
+The recipient is on the Bcc line. </td>
+</tr>
+</table><br>
+<h4>See Also </h4>
+<p>
+<a href="amsm36fz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm36fz.htm"><b>Address</b> Property (Recipient Object)</a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

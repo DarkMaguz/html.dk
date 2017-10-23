@@ -1,0 +1,362 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Message Object (CDONTS Library)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_denali_message_object_cdonts_library_"></a>Message Object (CDONTS Library)</h2>
+<p>
+The Message object represents a single message, item, document, or form in a folder. </p>
+<h4>At a Glance </h4>
+<table>
+<tr valign=top>
+<td>
+Specified in type library: </td>
+<td>
+CDONTS.DLL </td>
+</tr>
+<tr valign=top>
+<td>
+First available in: </td>
+<td>
+CDO for NTS Library version 1.2 </td>
+</tr>
+<tr valign=top>
+<td>
+Parent objects: </td>
+<td>
+<a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection </td>
+</tr>
+<tr valign=top>
+<td>
+Child objects: </td>
+<td>
+<a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm">Attachments</a> collection <BR><a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm">Recipients</a> collection </td>
+</tr>
+<tr valign=top>
+<td>
+Default property: </td>
+<td>
+<a href="amsm1333.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1333.htm"><b>Subject</b></a> </td>
+</tr>
+</table><br>
+<p>
+No modifications are permitted to messages in the Inbox, except for message deletion. Therefore, all properties on a Message object are treated as read-only when the message is in the Inbox. When the access is described as read/write in the following table, that access applies only to messages in the Outbox. </p>
+<h4>Properties </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Type </b></td>
+<td>
+<b> <BR>Access </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm23rz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm23rz.htm"><b>Application</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm7mfz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7mfz.htm"><b>Attachments</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Attachment object or Attachments collection object </td>
+<td>
+Read-only</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6bxb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6bxb.htm"><b>ContentBase</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read/write </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm2n33.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2n33.htm"><b>ContentID</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm3467.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3467.htm"><b>ContentLocation</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read/write </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm7ckf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7ckf.htm"><b>HTMLText</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<b>IStream</b> object or String </td>
+<td>
+Read/write </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm323j.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm323j.htm"><b>Importance</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long</td>
+<td>
+Read/write</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm4r1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4r1b.htm"><b>MessageFormat</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8snz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8snz.htm"><b>Parent</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Messages collection object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm602n.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm602n.htm"><b>Recipients</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Recipient object or Recipients collection object </td>
+<td>
+Read/write </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm4y1r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4y1r.htm"><b>Sender</b></a> </td>
+<td>
+1.2 </td>
+<td>
+AddressEntry object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6iov.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6iov.htm"><b>Session</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Session object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm47dr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm47dr.htm"><b>Size</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long</td>
+<td>
+Read-only<b> </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm1333.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1333.htm"><b>Subject</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String</td>
+<td>
+Read/write</td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm96jj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm96jj.htm"><b>Text</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<b>IStream</b> object or String </td>
+<td>
+Read/write</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm1xzz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1xzz.htm"><b>TimeReceived</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Variant (<b>vbDate</b> format) </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm38m7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm38m7.htm"><b>TimeSent</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Variant (<b>vbDate</b> format) </td>
+<td>
+Read-only </td>
+</tr>
+</table><br>
+<h4>Methods </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Parameters </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm4o2n.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4o2n.htm"><b>Delete</b></a> </td>
+<td>
+1.2 </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm2fhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2fhb.htm"><b>Send</b></a> </td>
+<td>
+1.2 </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table><br>
+<h4>Remarks </h4>
+<p>
+Microsoft&reg; Visual Basic&reg; programmers can create new Message objects using the <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection's <a href="amsm8vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8vhb.htm"><b>Add</b></a> method. </p>
+<p>
+A message can be obtained from its parent Messages collection using the collection's <a href="amsm6dlr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6dlr.htm"><b>Item</b></a> property. To get to the Messages collection in a folder, use the <a href="amsm4vmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4vmn.htm">Folder</a> object's <a href="amsm225b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm225b.htm"><b>Messages</b></a> property. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or changing any attachment; adding, deleting, or changing any recipient; and writing to any message property, even one with read/write access. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

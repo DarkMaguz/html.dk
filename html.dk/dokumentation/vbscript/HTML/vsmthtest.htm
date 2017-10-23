@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Test Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthtest"></A>Test Method</H1>
+
+<P>Executes a regular expression search against a specified string and returns a <B>Boolean</B> value that indicates if a pattern match was found.</P>
+
+<P><CODE>object<B>.Test(</B>string<B>)</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>RegExp</B> object.</P>
+
+<P class=dt><I>string</I></P>
+
+<P class=indent>Required. The text string upon which the regular expression is executed.</P>
+
+<H4>Remarks</H4>
+
+<P>The actual pattern for the regular expression search is set using the <B>Pattern</B> property of the <B>RegExp</B> object. The <B>RegExp.Global</B> property has no effect on the <B>Test</B> method. </P>
+
+<P>The <B>Test</B> method returns <B>True</B> if a pattern match is found; <B>False</B> if no match is found. </P>
+
+<P>The following code illustrates the use of the <B>Test</B> method. </P>
+
+<PRE><CODE>Function RegExpTest(patrn, strng)
+  Dim regEx, retVal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Create variable.
+  Set regEx = New RegExp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Create regular expression.
+  regEx.Pattern = patrn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Set pattern.
+  regEx.IgnoreCase = False&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Set case sensitivity.
+  retVal = regEx.Test(strng)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Execute the search test.
+  If retVal Then
+    RegExpTest = "One or more matches were found."
+  Else
+    RegExpTest = "No match was found."
+  End If
+End Function
+MsgBox(RegExpTest("is.", "IS1 is2 IS3 is4"))</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthexecute.htm">Execute Method</A> | <A HREF="vsmthreplace.htm">Replace Method</A></P>
+
+<P>Applies To: <A HREF="vsobjregexp.htm">RegExp Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

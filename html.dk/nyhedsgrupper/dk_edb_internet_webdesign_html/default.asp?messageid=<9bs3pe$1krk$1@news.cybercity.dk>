@@ -1,0 +1,159 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: Tabel i html</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Sanne Bloch den 21. april 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Tabel i html" />
+<meta name="language" content="dan" />
+<meta name="Date" content="21-04-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200158204318235B?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200158204318235B?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200158204318235B?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C9bs3pe%241krk%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Sanne&nbsp;Bloch&nbsp;&nbsp;<a href='mailto:sanne.bloch@email.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='sanne.bloch@email.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> CyberCity Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 21. april 2001 kl. 14:59</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Tabel i html</strong></li></ul>
+
+<p><span class='normal'>&quot;Kurt Hansen&quot; &lt;<a href='http://kurt@towle.dk'>kurt@towle.dk</a>> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:TnThOjukdq+2gT69wSmKpq5jp5VS@4ax.com'>news:TnThOjukdq+2gT69wSmKpq5jp5VS@4ax.com</a>... </span><br /><span class='citat'>> On Sat, 21 Apr 2001 04:40:44 +0200, J&#248;rn Andersen wrote: </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg vil gerne skrive i 3 spalter og det ser alts&#229; dumt ud at de har </span><br /><span class='citat'>> forskellig bredde. </span><br /><span class='normal'> </span><br /><span class='normal'>Enig :-) </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg er overv&#230;ldet over s&#229; meget hj&#230;lp, der er at f&#229; her. Tak til alle. </span><br /><span class='normal'>Jeg er enig i, at det er n&#248;dvendigt med &lt;/tags> af hensyn til de </span><br /><span class='normal'>forskellige browsere vi bruger. N&#229;r de ikke var med i mit eksempel, er </span><br /><span class='normal'>det fordi, jeg ikke var f&#230;rdig med tabellen. Vi vil vel alle gerne have, </span><br /><span class='normal'>at andre skal kunne l&#230;se vores hjemmesider og at de skal pr&#230;sentere sig </span><br /><span class='normal'>p&#229; den m&#229;de, som vi har valgt. Jeg vil i l&#248;bet af weekend'en afpr&#248;ve de </span><br /><span class='normal'>forskellige forslag. Og med den velvilje der er her i gruppen, er jeg </span><br /><span class='normal'>sikker p&#229;, at jeg kan f&#229; lov, at vende tilbage med yderligere sp&#248;rgsm&#229;l </span><br /><span class='normal'>hvis jeg alligevel ikke kan hitte ud af det. Hvis det lykkes vil jeg </span><br /><span class='normal'>selvf&#248;lgelig ogs&#229; gerne fort&#230;lle jer om det. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg deltager i et fjernundervisningskursus via <a href='http://www.netskole.dk'>www.netskole.dk</a> som </span><br /><span class='normal'>udbyder alverdens forskellige kurser, alt lige fra IT til merkonomfag. </span><br /><span class='normal'>En stor del af kurserne er gratis. Det er et fors&#248;g, som er iv&#230;rksat af </span><br /><span class='normal'>Undervisningsministeriet og 3 tekniske skoler st&#229;r for kurset. Blot til </span><br /><span class='normal'>orientering hvis der skulle v&#230;re nogle, som ikke har h&#248;rt om det. Ha' en </span><br /><span class='normal'>go' weekend. </span><br /><span class='normal'> </span><br /><span class='normal'>Hilsner, Sanne </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9bqfhr%242o0j%241%40news%2Ecybercity%2Edk%3E' title='Tabel i html'>Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Sanne&nbsp;Bloch)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9bqgn6%24dh6%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;E.&nbsp;Sørensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9bqhl9%242q05%241%40news%2Ecybercity%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Sanne&nbsp;Bloch)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CHu%3DgOhQf4pYuYlh79P9GNfyPh43a%404ax%2Ecom%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Jørn&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9braj7%24q1j%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;E.&nbsp;Sørensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3AE133B4%2E808E73B5%40bigfoot%2Ecom%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;ThorbjørnRavn&nbsp;Andersen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cssd2etcijc1k91uq6jgttgerarofm52u2j%40news%2Einet%2Etele%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3AE13BEE%2EC4A9C4B%40danbbs%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Peter&nbsp;Ole&nbsp;Kvint)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9brfra%24bh7%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;E.&nbsp;Sørensen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C0su3etga757h4pl9vi6k5neajnniuuvno6%404ax%2Ecom%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(22-04-01&nbsp;-&nbsp;Andreas&nbsp;Kleist&nbsp;Svendsen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9bqrtb%24622%241%40sunsite%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Kasper&nbsp;Kyndsberg)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CP%3DLgOvX06JV74a7auAwDY4Vzd32d%404ax%2Ecom%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Jørn&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CTnThOjukdq%2B2gT69wSmKpq5jp5VS%404ax%2Ecom%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Kurt&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9bs3pe%241krk%241%40news%2Ecybercity%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Sanne&nbsp;Bloch)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9bs53n%24g5%241%40sunsite%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Kasper&nbsp;Kyndsberg)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C68nhOsfLjbtxcTO9zIz6PSiyLFFT%404ax%2Ecom%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Jørn&nbsp;Andersen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cqvg3et0vm9fbrn9goah0a30ithue4ekqtg%40news%2Eworldonline%2Edk%3E' title='Re: Tabel i html'>Re: Tabel i html</a>&nbsp;<small class='newslist'>(21-04-01&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C9bs3pe%241krk%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/download/" class="menulink" title="Download software">Download</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody"><div style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/persondata.asp">Politik om persondata</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Tabel i html</span></div>
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  browserwidth  = document.body.clientWidth;
+  browserheight = document.body.clientHeight;				
+} else {
+  browserwidth  = window.innerWidth;
+  browserheight = window.innerHeight;      
+}
+
+screenheight = screen.height 
+screenwidth  = screen.width
+document.write ('<img height="1" width="1" src="/survey.asp?bw=' + browserwidth + '&bh=' + browserheight + '&sh=' + screenheight + '&sw=' + screenwidth + '">')
+
+// Slut -->
+</script>
+</body>
+</html>
+

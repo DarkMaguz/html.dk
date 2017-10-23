@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>SubMatches Collection</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vscolsubmatches"></A>SubMatches Collection</H1>
+
+<P><A HREF="vtglossary.htm#defcollectionvbs">Collection</A> of regular expression submatch strings. </P>
+
+<H4>Remarks</H4>
+
+<P>A <B>SubMatches</B> collection contains individual submatch strings, and can only be created using the <B>Execute</B> method of the <B>RegExp</B> object. The <B>SubMatches</B> collection's properties are read-only</P>
+
+<P>When a regular expression is executed, zero or more submatches can result when subexpressions are enclosed in capturing parentheses. Each item in the <B>SubMatches</B> collection is the string found and captured by the regular expression.</P>
+
+<P>The following code illustrates how to obtain a <B>SubMatches</B> collection from a regular expression search and how to access its individual members: </P>
+
+<PRE><CODE>Function SubMatchTest(inpStr)
+  Dim oRe, oMatch, oMatches
+  Set oRe = New RegExp
+  ' Look for an e-mail address (not a perfect RegExp)
+  oRe.Pattern = "(\w+)@(\w+)\.(\w+)"
+  ' Get the Matches collection
+  Set oMatches = oRe.Execute(inpStr)
+  ' Get the first item in the Matches collection
+  Set oMatch = oMatches(0)
+  ' Create the results string.
+  ' The Match object is the entire match - dragon@xyzzy.com
+  retStr = "Email address is: " &amp; oMatch &amp; vbNewline
+  ' Get the sub-matched parts of the address.
+  retStr = retStr &amp; "Email alias is: " &amp; oMatch.SubMatches(0)  ' dragon
+  retStr = retStr &amp; vbNewline
+  retStr = retStr &amp; "Organization is: " &amp; oMatch. SubMatches(1)' xyzzy
+  SubMatchTest = retStr
+End Function
+
+MsgBox(SubMatchTest("Please send mail to dragon@xyzzy.com. Thanks!"))</CODE></PRE>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsprocount.htm">Count Property</A> | <A HREF="vsproitem.htm">Item Property</A></P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5.5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmforeach.htm">For Each...Next Statement</A> | <A HREF="vsobjmatch.htm">Match Object</A> | <A HREF="vscolmatches.htm">Matches Collection</A> |<A HREF="vsobjregexp.htm">RegExp Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

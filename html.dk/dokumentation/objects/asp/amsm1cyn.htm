@@ -1,0 +1,70 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Count Property (CDONTS Messages Collection)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_count_property_cdonts_messages_collection_"></a>Count Property (CDONTS Messages Collection)  <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Count</b> property returns the number of <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> objects in the collection, or a very large number if the exact count is not available. Read-only. </p>
+<h4>Syntax </h4>
+<pre><i>collMessages</i>.<b>Count</b> 
+ </pre>
+<h4>Data Type </h4>
+<p>
+Long </p>
+<h4>Remarks </h4>
+<p>
+The use of the <a href="amsm6dlr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6dlr.htm"><b>Item</b></a> property in conjunction with the <b>Count</b> property in a large collection can be seen in the following example. </p>
+<h4>Example </h4>
+<p>
+This code fragment searches for a Message object with subject &quot;Bonus&quot;: </p>
+<pre>Dim i As Integer ' loop index / object counter 
+Dim collMessages As Messages ' assume collection already provided 
+Dim objMessage As Message 
+If collMessages Is Nothing Then 
+    MsgBox &quot;Messages collection object is invalid&quot; 
+    ' Exit 
+ElseIf 0 = collMessages.Count Then ' collection is empty 
+    MsgBox &quot;No messages in collection&quot; 
+    ' Exit 
+End If 
+' look for message about &quot;Bonus&quot; in collection 
+For i = 1 To collMessages.Count Step 1 
+    Set objMessage = collMessages.Item(i) 
+    ' or collMessages(i) since Item is default property 
+    If objMessage Is Nothing Then ' end of collection 
+        MsgBox &quot;No such message found in collection&quot; 
+        Exit For 
+    ElseIf 0 = StrComp(objMsg.Subject, &quot;Bonus&quot;) Then 
+    ' or objMessage since Subject is default property 
+        MsgBox &quot;Desired message is at index &quot; &amp; i 
+        Exit For 
+    End If 
+Next i 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

@@ -1,0 +1,182 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Funktion i s&#248;gemaskine</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Major Problem den 12. december 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Funktion i s&#248;gemaskine" />
+<meta name="language" content="dan" />
+<meta name="Date" content="12-12-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<script language="JavaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+   </a>
+</noscript>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C9v7iin%2491d%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Major&nbsp;Problem&nbsp;&nbsp;<a href='mailto:prob@hotmail.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='prob@hotmail.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Opensource Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 12. december 2001 kl. 14:28</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Funktion i s&#248;gemaskine</strong></li></ul>
+
+<p><span class='normal'>Jeg er ved at lave en s&#248;gemaskine i Access og ASP til en online videok&#230;de </span><br /><span class='normal'>som studieprojekt. </span><br /><span class='normal'>S&#248;gningen fungerer fint med i det tilf&#230;lde hvor brugeren har valgt film og </span><br /><span class='normal'>trykker p&#229; reservationsknappen skal siden skifte til et opsummerende vindue </span><br /><span class='normal'>hvor brugeren skal indtaste login og password hvor der skal bekr&#230;ftiges af </span><br /><span class='normal'>brugeren og en e-mail skal sendes automatisk til virksomheden. Hvorfor </span><br /><span class='normal'>virker denne del ikke. </span><br /><span class='normal'> </span><br /><span class='normal'>Her er hele programmet. Hj&#230;lp s&#248;ges hurtigt. </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;% Option Explicit %> </span><br /><span class='normal'>%> </span><br /><span class='normal'>&lt;%'-- Doc type: Not really that important... %> </span><br /><span class='normal'>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot;> </span><br /><span class='normal'>&lt;HTML> </span><br /><span class='normal'>&lt;HEAD> </span><br /><span class='normal'> &lt;%' Content type: Not really that important either... %> </span><br /><span class='normal'> &lt;META HTTP-EQUIV=&quot;Content-Type&quot; CONTENT=&quot;text/html; CHARSET=ISO-8859-1&quot;> </span><br /><span class='normal'> &lt;title>S&#248;gemaskine&lt;/title> </span><br /><span class='normal'> &lt;%' Use stylesheets - Makes life so much easier when you want to change the </span><br /><span class='normal'>colour of ALL your text %> </span><br /><span class='normal'> &lt;style type=&quot;text/css&quot;> </span><br /><span class='normal'> &lt;!-- </span><br /><span class='normal'>  body, td, p </span><br /><span class='normal'>  { </span><br /><span class='normal'>   font-family: Verdana, Arial, Helvetica, Sans-Serif; </span><br /><span class='normal'>   font-size: 12px; </span><br /><span class='normal'>   font-weight: Normal; </span><br /><span class='normal'>   color: #333333; </span><br /><span class='normal'>   SCROLLBAR-FACE-COLOR: #003366; </span><br /><span class='normal'>   SCROLLBAR-HIGHLIGHT-COLOR: #CCCCCC; </span><br /><span class='normal'>   SCROLLBAR-SHADOW-COLOR: #CCCCCC; </span><br /><span class='normal'>   SCROLLBAR-3DLIGHT-COLOR: #000000; </span><br /><span class='normal'>   SCROLLBAR-ARROW-COLOR: #CCCCCC; </span><br /><span class='normal'>   SCROLLBAR-TRACK-COLOR: #CCCCCC; </span><br /><span class='normal'>   SCROLLBAR-DARKSHADOW-COLOR: #000000; </span><br /><span class='normal'>  } </span><br /><span class='normal'> </span><br /><span class='normal'>  .header2 </span><br /><span class='normal'>  { </span><br /><span class='normal'>   font-family: Verdana, Arial, Helvetica, Sans-Serif; </span><br /><span class='normal'>   font-size: 14px; </span><br /><span class='normal'>   font-weight: Bold; </span><br /><span class='normal'>   color: #333333; </span><br /><span class='normal'>  } </span><br /><span class='normal'> </span><br /><span class='normal'>  .error </span><br /><span class='normal'>  { </span><br /><span class='normal'>   font-family: Verdana, Arial, Helvetica, Sans-Serif; </span><br /><span class='normal'>   font-size: 12px; </span><br /><span class='normal'>   font-weight: Bold; </span><br /><span class='normal'>   color: #FF0000; </span><br /><span class='normal'>  } </span><br /><span class='normal'> </span><br /><span class='normal'>  input, select, textarea </span><br /><span class='normal'>  { </span><br /><span class='normal'>   font-family: Verdana, Arial, Helvetica, Sans-Serif; </span><br /><span class='normal'>   font-size: 11px; </span><br /><span class='normal'>   font-weight: Normal; </span><br /><span class='normal'>   background-color:#FFFFFF; </span><br /><span class='normal'>   } </span><br /><span class='normal'> </span><br /><span class='normal'>   .button </span><br /><span class='normal'>  { </span><br /><span class='normal'>   width: 80px; </span><br /><span class='normal'>   font-family: Verdana, Arial, Helvetica, Sans-Serif; </span><br /><span class='normal'>   font-size: 11px; </span><br /><span class='normal'>   font-weight: Normal; </span><br /><span class='normal'>   background-color:#FFFFFF; </span><br /><span class='normal'>   } </span><br /><span class='normal'>  --> </span><br /><span class='normal'>    &lt;/style> </span><br /><span class='normal'>&lt;/HEAD> </span><br /><span class='normal'>&lt;BODY> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;form id=&quot;formSearch&quot; method=&quot;post&quot; action=&quot;film-rh.asp&quot;> </span><br /><span class='normal'> &lt;input type=&quot;hidden&quot; name=&quot;xmode&quot; value=&quot;search&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'> &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;> </span><br /><span class='normal'>  &lt;tr> </span><br /><span class='normal'>   &lt;td>S&#248;geord:&lt;/td> </span><br /><span class='normal'>   &lt;td>&lt;input type=&quot;text&quot; name=&quot;film&quot; size=&quot;20&quot; </span><br /><span class='normal'>value=&quot;&lt;%=Request.Form(&quot;film&quot;)%>&quot;>&lt;/td> </span><br /><span class='normal'>  &lt;/tr> </span><br /><span class='normal'>  &lt;tr> </span><br /><span class='normal'>   &lt;td>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>   &lt;%' A button! - well lets use class=&quot;button&quot; to get the style we </span><br /><span class='normal'>specified in &lt;style> %> </span><br /><span class='normal'>   &lt;td>&lt;input class=&quot;button&quot; type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;S&#248;g&quot;>&lt;/td> </span><br /><span class='normal'>  &lt;/tr> </span><br /><span class='normal'> &lt;/table> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;% </span><br /><span class='normal'> '*** Test if we are in reserve mode *** </span><br /><span class='normal'> If Request.Form(&quot;xmode&quot;) = &quot;reserve&quot; Then </span><br /><span class='normal'>  Dim Item </span><br /><span class='normal'> </span><br /><span class='normal'>  '*** Pull out reserved movies *** </span><br /><span class='normal'>  For Each Item In Request.Form </span><br /><span class='normal'>   If Left(Item,3) = &quot;chk&quot; Then </span><br /><span class='normal'>    Response.Write &quot;&lt;p>Du har nu reserveret film nummer &quot; &amp; </span><br /><span class='normal'>Request.Form(Item) &amp; &quot;.&lt;/p>&quot; </span><br /><span class='normal'>   End If </span><br /><span class='normal'>  Next </span><br /><span class='normal'> </span><br /><span class='normal'> ElseIf Request.Form(&quot;film&quot;) &lt;> &quot;&quot; then </span><br /><span class='normal'>  Dim intHits </span><br /><span class='normal'>  '*** If we have some input, search for it - no more than 100 hits though </span><br /><span class='normal'>*** </span><br /><span class='normal'>  intHits = DoMovieSearch(Request.Form(&quot;film&quot;), 100) </span><br /><span class='normal'> End if </span><br /><span class='normal'> </span><br /><span class='normal'> If intHits > 0 Then %> </span><br /><span class='normal'> &lt;BR> </span><br /><span class='normal'> </span><br /><span class='normal'> &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;> </span><br /><span class='normal'>  &lt;tr> </span><br /><span class='normal'>   &lt;td>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>   &lt;td> </span><br /><span class='normal'>    &lt;input class=&quot;button&quot; type=&quot;button&quot; name=&quot;btnReserver&quot; value=&quot;Reserver&quot; </span><br /><span class='normal'>onClick=&quot;javascript:onReserve()&quot;> </span><br /><span class='normal'>   &lt;/td> </span><br /><span class='normal'>  &lt;/tr> </span><br /><span class='normal'> &lt;/table> </span><br /><span class='normal'> </span><br /><span class='normal'> &lt;script type=&quot;text/javascript&quot;> </span><br /><span class='normal'>  function onReserve() </span><br /><span class='normal'>  { </span><br /><span class='normal'>   document.formSearch.xmode.value = 'reserve'; </span><br /><span class='normal'>   document.formSearch.submit(); </span><br /><span class='normal'>  } </span><br /><span class='normal'> &lt;/script> </span><br /><span class='normal'> </span><br /><span class='normal'> &lt;BR> </span><br /><span class='normal'> &lt;BR> </span><br /><span class='normal'> </span><br /><span class='normal'> &lt;p>Antal hits:&amp;nbsp;&lt;%=intHits%>&lt;/p> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;% End If %> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;%' Make sure the form tag is ended AFTER your last &lt;input> tag %> </span><br /><span class='normal'>&lt;/form> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/BODY> </span><br /><span class='normal'>&lt;/HTML> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;% </span><br /><span class='normal'> '/**This function returns </span><br /><span class='normal'> '* the number of hits. </span><br /><span class='normal'> '* strKeywords is the what to search the DB for, intMaxHits is the maximum </span><br /><span class='normal'> '* number of hits you want printed. </span><br /><span class='normal'> '**/ </span><br /><span class='normal'> Function DoMovieSearch(strKeywords, intMaxHits) </span><br /><span class='normal'>  '*** Always remember to Dim your variables *** </span><br /><span class='normal'>  Dim DB, DBSti, SQL, rs, Genre, skuespillere, Pris, Antal, Status </span><br /><span class='normal'> </span><br /><span class='normal'>  DoMovieSearch = 0 </span><br /><span class='normal'>  Set DB = Server.CreateObject(&quot;ADODB.Connection&quot;) </span><br /><span class='normal'>  DBSti = &quot;DBQ=&quot; &amp; Server.Mappath(&quot;film.mdb&quot;) </span><br /><span class='normal'>  DB.Open &quot;DRIVER={Microsoft Access Driver (*.mdb)}; &quot; &amp; DBSti </span><br /><span class='normal'>SQL = &quot;select * from film where Genre like '%&quot; &amp; strKeywords &amp; &quot;%' or </span><br /><span class='normal'>Titel like '%&quot; &amp; strKeywords &amp; &quot;%' or Skuespillere like '%&quot; &amp; strKeywords &amp; </span><br /><span class='normal'>&quot;%'&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>  Set rs = DB.Execute(SQL) </span><br /><span class='normal'>  If not rs.eof then </span><br /><span class='normal'>   Response.Write &quot;&lt;table cellspacing=&quot;&quot;0&quot;&quot; cellpadding=&quot;&quot;0&quot;&quot; border=&quot;&quot;0&quot;&quot;>&quot; </span><br /><span class='normal'>&amp; vbCrLf &amp; &quot;&lt;tr>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;td class=&quot;&quot;header2&quot;&quot;>V&#230;lg&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;td class=&quot;&quot;header2&quot;&quot;>Titel&lt;/td>&lt;td class=&quot;&quot;header2&quot;&quot; </span><br /><span class='normal'>width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;td class=&quot;&quot;header2&quot;&quot;>Genre&lt;/td>&lt;td class=&quot;&quot;header2&quot;&quot; </span><br /><span class='normal'>width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;td class=&quot;&quot;header2&quot;&quot;>Skuespillere&lt;/td>&lt;td class=&quot;&quot;header2&quot;&quot; </span><br /><span class='normal'>width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;td class=&quot;&quot;header2&quot;&quot;>Pris i dkr.&lt;/td>&lt;td class=&quot;&quot;header2&quot;&quot; </span><br /><span class='normal'>width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;td class=&quot;&quot;header2&quot;&quot;>Antal&lt;/td>&lt;td class=&quot;&quot;header2&quot;&quot; </span><br /><span class='normal'>width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;td class=&quot;&quot;header2&quot;&quot;>Ledige&lt;/td>&lt;td class=&quot;&quot;header2&quot;&quot; </span><br /><span class='normal'>width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>           &quot;&lt;/tr>&quot; &amp; vbCrLf </span><br /><span class='normal'>   Do until rs.eof </span><br /><span class='normal'>    '*** Only print if have not yet reached our limit *** </span><br /><span class='normal'>    If DoMovieSearch &lt; intMaxHits Then </span><br /><span class='normal'>     '*** If the movies have an unique ID use that for the checkbox name *** </span><br /><span class='normal'>     Genre = rs(&quot;Genre&quot;) </span><br /><span class='normal'>     Skuespillere = rs(&quot;Skuespillere&quot;) </span><br /><span class='normal'>     Pris = rs(&quot;Pris&quot;) </span><br /><span class='normal'>     Antal = rs(&quot;Antal&quot;) </span><br /><span class='normal'>     Status = rs(&quot;Status&quot;) </span><br /><span class='normal'>     Response.Write &quot;&lt;tr>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>             &quot;&lt;td>&lt;input type=&quot;&quot;checkbox&quot;&quot; value=&quot;&quot;val&quot;&quot; name=&quot;&quot;chk&quot; &amp; </span><br /><span class='normal'>DoMovieSearch &amp; &quot;&quot;&quot;>&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>             &quot;&lt;td>&quot; &amp; rs(&quot;Titel&quot;) &amp; &quot;&lt;/td>&lt;td width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf </span><br /><span class='normal'>&amp; _ </span><br /><span class='normal'>             &quot;&lt;td>&quot; &amp; Genre &amp; &quot;&lt;/td>&lt;td width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>             &quot;&lt;td>&quot; &amp; Skuespillere &amp; &quot;&lt;/td>&lt;td width=30>&amp;nbsp;&lt;/td>&quot; &amp; </span><br /><span class='normal'>vbCrLf &amp; _ </span><br /><span class='normal'>             &quot;&lt;td>&quot; &amp; Pris &amp; &quot;&lt;/td>&lt;td width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>             &quot;&lt;td>&quot; &amp; Antal &amp; &quot;&lt;/td>&lt;td width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>             &quot;&lt;td>&quot; &amp; Status &amp; &quot;&lt;/td>&lt;td width=30>&amp;nbsp;&lt;/td>&quot; &amp; vbCrLf &amp; _ </span><br /><span class='normal'>             &quot;&lt;/tr>&quot;  &amp; vbCrLf </span><br /><span class='normal'>    End If </span><br /><span class='normal'>    '*** Inc the number of hits in the return variable *** </span><br /><span class='normal'>    DoMovieSearch = DoMovieSearch + 1 </span><br /><span class='normal'>    rs.movenext </span><br /><span class='normal'>   Loop </span><br /><span class='normal'> </span><br /><span class='normal'>   Response.Write &quot;&lt;/table>&quot; &amp; vbCrLf </span><br /><span class='normal'>  Else </span><br /><span class='normal'>   Response.Write &quot;&lt;p class=&quot;&quot;error&quot;&quot;>Der var ingen film, der matchede din </span><br /><span class='normal'>s&#248;gekriterier!&lt;/p>&quot; </span><br /><span class='normal'>  End If </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9v7iin%2491d%241%40sunsite%2Edk%3E' title='Funktion i s&#248;gemaskine'>Funktion i s&#248;gemaskine</a>&nbsp;<small class='newslist'>(12-12-01&nbsp;-&nbsp;Major&nbsp;Problem)</small></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C9v7iin%2491d%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor.gif' height="125" width="125" alt='Edit your editor' /></a>
+<br /><br /></div>
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3c9v7iin$91d$1@sunsite.dk%3e' method='post'><p class='pollheader'>Hvilken teksteditor er din foretrukne?</p><div><input type='hidden' name='tst' value='23-03-02 18:04:32' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Notepad</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;EditPlus</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;UltraEdit</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;CuteHTML</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;WebCoder Int.</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Stones WebWriter</small><br /><input type='radio' name='vote_id' value='7' /><small class='boxtext'>&nbsp;NoteTab</small><br /><input type='radio' name='vote_id' value='8' /><small class='boxtext'>&nbsp;CoffeeCup</small><br /><input type='radio' name='vote_id' value='9' /><small class='boxtext'>&nbsp;Anden</small><br /><input type='radio' name='vote_id' value='10' /><small class='boxtext'>&nbsp;Bruger ikke teksteditor</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+						<!-- DoubleClick start -->
+
+						<center>
+						<script language="JavaScript">
+						<!--
+						   var time = new Date();
+						   randnum = (time.getTime());
+						   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+						   document.write('<\/scr'+'ipt>');
+						//-->
+						</script>
+						<noscript>
+						   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+						   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+						   </a>
+						</noscript>
+						</center>
+
+						<!-- DoubleClick end -->
+
+						
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?id=32234" target="_blank">');
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&style=3&secID=' + Math.random()*10000000 + '&ref=' + escape(document.referrer) + '&tref=&pref=" border="0">');
+  document.write('</a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?id=32234">
+  <img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3" alt="chart" />
+  </a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Funktion i s&#248;gemaskine</span></div>
+
+</body>
+</html>
+

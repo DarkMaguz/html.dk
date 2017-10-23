@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>IsDate Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctisdate"></A>IsDate Function</H1>
+
+<P>Returns a Boolean value indicating whether an expression can be converted to a date.</P>
+
+<P><CODE><B>IsDate(</B>expression<B>)</B></CODE></P>
+
+<P>The <I>expression</I> argument can be any <A HREF="vtglossary.htm#defdateexpressionvbs">date expression</A> or <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> recognizable as a date or time.</P>
+
+<H4>Remarks</H4>
+
+<P><B>IsDate</B> returns <B>True</B> if the expression is a date or can be converted to a valid date; otherwise, it returns <B>False</B>. In Microsoft Windows, the range of valid dates is January 1, 100 A.D. through December 31, 9999 A.D.; the ranges vary among operating systems.</P>
+
+<P>The following example uses the <B>IsDate</B> function to determine whether an expression can be converted to a date: </P>
+
+<PRE><CODE>Dim MyDate, YourDate, NoDate, MyCheck
+MyDate = "October 19, 1962": YourDate = #10/19/62#: NoDate = "Hello"
+MyCheck = <span class=cfe><B>IsDate(</B></span>MyDate<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns True.
+MyCheck = <span class=cfe><B>IsDate(</B></span>YourDate<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns True.
+MyCheck = <span class=cfe><B>IsDate(</B></span>NoDate<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns False.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcdate.htm">CDate Function</A> | <A HREF="vsfctisarray.htm">IsArray Function</A> | <A HREF="vsfctisempty.htm">IsEmpty Function</A> | <A HREF="vsfctisnull.htm">IsNull Function</A> | <A HREF="vsfctisnumeric.htm">IsNumeric Function</A> | <A HREF="vsfctisobject.htm">IsObject Function</A> | <A HREF="vsfctvartype.htm">VarType Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

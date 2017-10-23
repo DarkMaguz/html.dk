@@ -1,0 +1,196 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Re: onblur formattere et date-field</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af Lasse Reichstein Nielsen den 13. januar 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: onblur formattere et date-field" />
+<meta name="language" content="dan" />
+<meta name="Date" content="13-01-04" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=775489449502?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C4qv0ybi7%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Lasse&nbsp;Reichstein&nbsp;Nielsen&nbsp;&nbsp;<a href='mailto:lrn@hotpop.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='lrn@hotpop.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 13. januar 2004 kl. 01:48</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: onblur formattere et date-field</strong></li></ul>
+
+<p><span class='normal'>Lars Olesen &lt;<a href='http://lsolesen@hotmail.com'>lsolesen@hotmail.com</a>> writes: </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg har et datefield i en formular, og jeg vil gerne g&#248;re det let for </span><br /><span class='citat'>> brugeren, s&#229; det p&#229; onblur laver sig om til det rigtige format. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg har selv haft en lignende id&#233;, men har manglet en god grund til at </span><br /><span class='normal'>lave det ... s&#229; tak :) </span><br /><span class='normal'> </span><br /><span class='citat'>> Dvs. input skal fx v&#230;re  &#229;&#229;&#229;&#229;-mm-dd,  </span><br /><span class='normal'> </span><br /><span class='normal'>Godt valg. ISO-standard og alt muligt. </span><br /><span class='normal'> </span><br /><span class='citat'>> men brugeren kan jo finde p&#229; mange ting, fx </span><br /><span class='citat'>> </span><br /><span class='citat'>> 140676 </span><br /><span class='citat'>> 14061976 </span><br /><span class='citat'>> 19760614 </span><br /><span class='citat'>> 14-06-1976 </span><br /><span class='citat'>> 14-06-76 </span><br /><span class='normal'> </span><br /><span class='normal'>Ja, og med andre valg af datoer er der ikke nogen m&#229;de at se hvilken </span><br /><span class='normal'>dag 030405 (med eller uden -'er) eller 20032004 egentlig er. Derfor </span><br /><span class='normal'>er der *god* grund til at vise brugeren hvordan hans input vil blive </span><br /><span class='normal'>fortolket af serveren. S&#229; kan han l&#230;re det, HA! Ups. </span><br /><span class='normal'> </span><br /><span class='citat'>> Kan man lave en onblur, som tager disse rimelige forslag og </span><br /><span class='citat'>> formatterer dem, eller er det en dum ide, hvis man til sidst alligevel </span><br /><span class='citat'>> validerer feltet? </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg ville bruge onchange, men ellers, er det klart muligt og fornuftigt. </span><br /><span class='normal'>Problemet er at bestemme sig for hvordan man vil tolke datoer der er  </span><br /><span class='normal'>tvetydige. </span><br /><span class='normal'> </span><br /><span class='normal'>Mit forslag er: </span><br /><span class='normal'> Fors&#248;g f&#248;lgende formater i r&#230;kkef&#248;lge, og opgive hvis resultatet ikke </span><br /><span class='normal'> er en lovlig dato (den klarer vi senere). </span><br /><span class='normal'> (Y er et &#229;rstal p&#229; 1 eller flere cifre, etc.) </span><br /><span class='normal'> </span><br /><span class='normal'> Y/M/D (&quot;/&quot; kan v&#230;re vilk&#229;rlig streng der ikke indeholder cifre) </span><br /><span class='normal'> D/M/Y    </span><br /><span class='normal'> M/D/Y   (for at t&#230;kkes amerikanerne, kan droppes ellers) </span><br /><span class='normal'> yyyymmdd </span><br /><span class='normal'> ddmmyyyy </span><br /><span class='normal'> mmddyyyy </span><br /><span class='normal'> yymmdd </span><br /><span class='normal'> ddmmyy </span><br /><span class='normal'> mmddyy </span><br /><span class='normal'>  </span><br /><span class='normal'>Hvis alle disse fejler, s&#229; kan man sende input igennem Date, det giver </span><br /><span class='normal'>altid et resultat, bare ikke altid det man forventer. </span><br /><span class='normal'> </span><br /><span class='normal'>Man skal beslutte sig for hvordan man fortolker to-cifrede &#229;rstal.  </span><br /><span class='normal'>Fx kan man skifte ved 1970, s&#229; 67 er 2067, mens 72 er 1972. Eller </span><br /><span class='normal'>hvorn&#229;r det nu passer en (straffen for at fors&#248;ge at give fire cifres </span><br /><span class='normal'>information med to!). </span><br /><span class='normal'>  </span><br /><span class='normal'>Man kan v&#230;lge kun at acceptere &#229;rstal inden for en bestemt periode. S&#229; </span><br /><span class='normal'>vil fortolkninger der giver 20 marts 3004 (af fx 30042003) blive droppet. </span><br /><span class='normal'> </span><br /><span class='normal'>Godt s&#229;! Lad os kode! </span><br /><span class='normal'> </span><br /><span class='normal'>F&#248;rst en funktion til at teste om et fors&#248;g er en lovlig dato overhovedet </span><br /><span class='normal'>(udelukker 30 februar og den slags): </span><br /><span class='normal'>--- </span><br /><span class='normal'> function validDate(year,mth,day) { </span><br /><span class='normal'>   mth --; // january == 0 </span><br /><span class='normal'>   var date = new Date(0); </span><br /><span class='normal'>   date.setFullYear(year,mth,day); </span><br /><span class='normal'>   return date.getDate() == day &amp;&amp; date.getMonth() == mth &amp;&amp; date; </span><br /><span class='normal'> } </span><br /><span class='normal'>--- </span><br /><span class='normal'>Den returnerer date-objektet hvis datoen er lovlig. </span><br /><span class='normal'>(det er nok at teste vilk&#229;rlige to af de tre, fordi en ulovlig dato </span><br /><span class='normal'>vil betyde at mindst to bliver forkerte). </span><br /><span class='normal'> </span><br /><span class='normal'>Man skal passe p&#229; fordi Date-objekter kan finde p&#229; at opf&#248;re sig underligt </span><br /><span class='normal'>for &#229;rstal mellem 0 og 100 - det er bagudkombatabilitet med browsere der </span><br /><span class='normal'>kun brugte to cifre. Derfor bruger jeg setFullYear til at s&#230;tte tiden, </span><br /><span class='normal'>den er &#229;r-2000-sikker (men findes ikke i alt for gamle browsere). </span><br /><span class='normal'> </span><br /><span class='normal'>Og testen: </span><br /><span class='normal'>--- </span><br /><span class='normal'> function LZ(n,size) { //leading zero </span><br /><span class='normal'>   size = size  2; // default 2 </span><br /><span class='normal'>   var str = String(n); </span><br /><span class='normal'>   while(str.length &lt; size) {str = &quot;0&quot;+str;} </span><br /><span class='normal'>   return str; </span><br /><span class='normal'> }  </span><br /><span class='normal'> </span><br /><span class='normal'> var TWO_DIGIT_YEAR_MIN = 1970; </span><br /><span class='normal'> function extendYear(year) { // two-digit year </span><br /><span class='normal'>   if (year >= 0 &amp;&amp; year &lt; 100) { </span><br /><span class='normal'>     var centyear = TWO_DIGIT_YEAR_MIN % 100; </span><br /><span class='normal'>     var century = TWO_DIGIT_YEAR_MIN - centyear; </span><br /><span class='normal'>     return century + year + ((year &lt; centyear)?100:0);  </span><br /><span class='normal'>   } else { </span><br /><span class='normal'>     return year; </span><br /><span class='normal'>   } </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'> function formatDate(year,mth,day) { </span><br /><span class='normal'>   return LZ(year,4)+&quot;-&quot;+LZ(mth)+&quot;-&quot;+LZ(day); </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'> function checkAndFormatDate(year,mth,day) { </span><br /><span class='normal'>   if (validDate(year,mth,day)) { </span><br /><span class='normal'>     return formatDate(year,mth,day); </span><br /><span class='normal'>   } else { </span><br /><span class='normal'>     return false; </span><br /><span class='normal'>   } </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'> function correctDate(string) { </span><br /><span class='normal'>   var match; </span><br /><span class='normal'>   var result; </span><br /><span class='normal'>   var year,mth,day; </span><br /><span class='normal'>   if (match=string.match(/^\s*(\d+)\D+(\d+)\D+(\d+)\s*$/)) { </span><br /><span class='normal'>      fst = Number(match[1]);   </span><br /><span class='normal'>      snd = Number(match[2]); </span><br /><span class='normal'>      trd = Number(match[3]); </span><br /><span class='normal'>     </span><br /><span class='normal'>    // yyyy-mm-dd </span><br /><span class='normal'>    if (result = checkAndFormatDate(match[1].length==2?extendYear(fst):fst, </span><br /><span class='normal'>                                    snd,trd)) { </span><br /><span class='normal'>      return result; </span><br /><span class='normal'>    }  </span><br /><span class='normal'>    // dd-mm-yyyy </span><br /><span class='normal'>    if (result = checkAndFormatDate(match[3].length==2?extendYear(trd):trd, </span><br /><span class='normal'>                                    snd,fst)) { </span><br /><span class='normal'>      return result; </span><br /><span class='normal'>    }  </span><br /><span class='normal'>    // mm-dd-yyyy </span><br /><span class='normal'>    if (result = checkAndFormatDate(match[3].length==2?extendYear(trd):trd, </span><br /><span class='normal'>                                    fst,snd)) { </span><br /><span class='normal'>      return result; </span><br /><span class='normal'>    }  </span><br /><span class='normal'>   } </span><br /><span class='normal'> </span><br /><span class='normal'>   // eight digits </span><br /><span class='normal'>   if (match = string.match(/^\s*(\d{4})(\d\d)(\d\d)\s*$/)) { </span><br /><span class='normal'>      fst = Number(match[1]);   </span><br /><span class='normal'>      snd = Number(match[2]); </span><br /><span class='normal'>      trd = Number(match[3]); </span><br /><span class='normal'>      // yyyymmdd    </span><br /><span class='normal'>      if (result = checkAndFormatDate(fst,snd,trd)) { </span><br /><span class='normal'>        return result; </span><br /><span class='normal'>      } </span><br /><span class='normal'>   } </span><br /><span class='normal'>    </span><br /><span class='normal'>   if (match = string.match(/^\s*(\d\d)(\d\d)(\d{4})\s*$/)) { </span><br /><span class='normal'>      fst = Number(match[1]);   </span><br /><span class='normal'>      snd = Number(match[2]); </span><br /><span class='normal'>      trd = Number(match[3]); </span><br /><span class='normal'>      // ddmmyyyy </span><br /><span class='normal'>      if (result = checkAndFormatDate(trd,snd,fst)) { </span><br /><span class='normal'>        return result; </span><br /><span class='normal'>      } </span><br /><span class='normal'>      // mmddyyyy </span><br /><span class='normal'>      if (result = checkAndFormatDate(trd,fst,snd)) { </span><br /><span class='normal'>        return result; </span><br /><span class='normal'>      } </span><br /><span class='normal'>   } </span><br /><span class='normal'>   // six digits </span><br /><span class='normal'>   if (match = string.match(/^\s*(\d\d)(\d\d)(\d\d)\s*$/)) { </span><br /><span class='normal'>      fst = Number(match[1]);   </span><br /><span class='normal'>      snd = Number(match[2]); </span><br /><span class='normal'>      trd = Number(match[3]); </span><br /><span class='normal'>      // yymmdd </span><br /><span class='normal'>      if (result = checkAndFormatDate(extendYear(fst),snd,trd)) { </span><br /><span class='normal'>        return result; </span><br /><span class='normal'>      } </span><br /><span class='normal'>      // ddmmyy </span><br /><span class='normal'>      if (result = checkAndFormatDate(extendYear(trd),snd,fst)) { </span><br /><span class='normal'>        return result; </span><br /><span class='normal'>      } </span><br /><span class='normal'>      // mmddyy </span><br /><span class='normal'>      if (result = checkAndFormatDate(extendYear(trd),fst,snd)) { </span><br /><span class='normal'>        return result; </span><br /><span class='normal'>      } </span><br /><span class='normal'>   } </span><br /><span class='normal'>   // ok, nothing works, try Date: (or don't, because result is probably bad) </span><br /><span class='normal'>   // var date = new Date(string); </span><br /><span class='normal'>   // return formatDate(date.getFullYear(),date.getMonth()+1,date.getDate());   </span><br /><span class='normal'>   return(&quot;(invalid)&quot;+string); </span><br /><span class='normal'> } </span><br /><span class='normal'>--- </span><br /><span class='normal'> </span><br /><span class='normal'>Den kan s&#229; bruges: </span><br /><span class='normal'> </span><br /><span class='normal'>--- </span><br /><span class='normal'> &lt;input type=&quot;text&quot; onchange=&quot;this.value=correctDate(this.value)&quot;> </span><br /><span class='normal'>--- </span><br /><span class='normal'>--  </span><br /><span class='normal'>Lasse Reichstein Nielsen  -  <a href='http://lrn@hotpop.com'>lrn@hotpop.com</a> </span><br /><span class='normal'> DHTML Death Colors: &lt;URL:<a href='http://www.infimum.dk/HTML/rasterTriangleDOM.html'>http://www.infimum.dk/HTML/rasterTriangleDOM.html</a>> </span><br /><span class='normal'>  'Faith without judgement merely degrades the spirit divine.'</span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C40030bb0%240%2495059%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='onblur formattere et date-field'>onblur formattere et date-field</a>&nbsp;<small class='newslist'>(12-01-04&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cjc6600de2dmh7h9mtp856t4jp8ul6ulrom%404ax%2Ecom%3E' title='Re: onblur formattere et date-field'>Re: onblur formattere et date-field</a>&nbsp;<small class='newslist'>(12-01-04&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C4qv0ybi7%2Efsf%40hotpop%2Ecom%3E' title='Re: onblur formattere et date-field'>Re: onblur formattere et date-field</a>&nbsp;<small class='newslist'>(13-01-04&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C40033521%240%2495006%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Re: onblur formattere et date-field'>Re: onblur formattere et date-field</a>&nbsp;<small class='newslist'>(13-01-04&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cvfngwua1%2Efsf%40hotpop%2Ecom%3E' title='Re: onblur formattere et date-field'>Re: onblur formattere et date-field</a>&nbsp;<small class='newslist'>(13-01-04&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C4qv0ybi7%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=25334656239?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C4qv0ybi7%2Efsf%40hotpop%2Ecom%3E' method='post'><p class='pollheader'>Hvor mange spam-mails modtager du dagligt?</p><div><input type='hidden' name='tst' value='11-03-04 09:23:05' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ingen</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;1 til 10</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;10 til 30</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Flere end 30</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<!-- Imagine Cup banner: start -->
+<div style="text-align:center;"><hr /><a href="http://www.imaginecup.com/"><img src="/site/graphics/imaginecup.gif" style="border:0px;" alt="Imagine Cup" /></a><br /></div>
+
+<!-- Imagine Cup banner: end -->
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: onblur formattere et date-field</span></div>
+
+
+
+</body>
+</html>
+

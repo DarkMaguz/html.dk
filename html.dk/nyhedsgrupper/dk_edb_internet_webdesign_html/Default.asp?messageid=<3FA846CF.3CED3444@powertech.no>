@@ -1,0 +1,201 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: lige h&#248;jekolonner med DIV i stedet for tabeller</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Magne Heen den 5. november 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: lige h&#248;jekolonner med DIV i stedet for tabeller" />
+<meta name="language" content="dan" />
+<meta name="Date" content="05-11-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<!--
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/page/all_140x350;sz=140x350;tile=1;ord=479224801064?"></script>
+
+</td></tr></table>
+
+</div>
+-->
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3FA846CF%2E3CED3444%40powertech%2Eno%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Magne&nbsp;Heen&nbsp;&nbsp;<a href='mailto:magneh@powertech.no'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='magneh@powertech.no' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> weblung.org</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 5. november 2003 kl. 02:39</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: lige h&#248;jekolonner med DIV i stedet for tabeller</strong></li></ul>
+
+<p><span class='normal'>Anders Thorsen Holm wrote: </span><br /><span class='citat'>>  </span><br /><span class='citat'>> Magne Heen wrote: </span><br /><span class='citat'>>  </span><br /><span class='citat'>> > S&#229; lenge det ikke finnes noe tilfredstillende alternativ til denne </span><br /><span class='citat'>> > browseren s&#229; vil den fortsatt bli brukt selv om at det finnes noen </span><br /><span class='citat'>> > f&#229; web-designere som gjerne &#248;nsker den d&#248;d. </span><br /><span class='citat'>>  </span><br /><span class='citat'>> Undskyld, men jeg har lidt sv&#230;rt ved at se, hvad det er, du </span><br /><span class='citat'>> tilsyneladende synes er s&#229; godt ved NN4x. Derfor vil jeg atter bede </span><br /><span class='citat'>> dig om at opridse fordelene ved denne browser. </span><br /><span class='citat'>>  </span><br /><span class='normal'> </span><br /><span class='normal'>For det f&#248;rste hastigheten. Jeg har pr&#248;vd alle de nyeste browserene </span><br /><span class='normal'>untatt IE som ikke g&#229;r p&#229; min maskin, og de er alle h&#229;pl&#248;st treg i </span><br /><span class='normal'>sammenligning. </span><br /><span class='normal'> </span><br /><span class='normal'>For det andre integrasjonen med med mail og news. </span><br /><span class='normal'> </span><br /><span class='normal'>Joda. Mozilla har det samme men den er fortiden for treg. N&#229;r den </span><br /><span class='normal'>tangerer Netscape&#174; Communicator 4.8 i hastighet skifter jeg over men det </span><br /><span class='normal'>blir nok lenge til. </span><br /><span class='normal'> </span><br /><span class='citat'>> Nogle f&#229;? Jeg kan godt love dig for at st&#248;rstedelen af de </span><br /><span class='citat'>> &quot;webdesignere&quot; - &quot;professionelle&quot; som &quot;amat&#248;rer&quot; - jeg kender, er </span><br /><span class='citat'>> godt og grundigt tr&#230;tte af d&#233;n browser. </span><br /><span class='citat'>>  </span><br /><span class='normal'> </span><br /><span class='normal'>Det er fordi de gj&#248;r ting feil og beviser for alle at de er amat&#248;rer.. </span><br /><span class='normal'> </span><br /><span class='citat'>> Vi taler om en browser fra 1997, hvis underst&#248;ttelse af bl.a. CSS er </span><br /><span class='citat'>> s&#229; ringe, at man sj&#230;ldent kan g&#248;re brug af meget andet end det mest </span><br /><span class='citat'>> basale og s&#230;rdeles enkle deklarationer. L&#230;g dertil en ringe support </span><br /><span class='citat'>> af JavaScript, der n&#230;rmest umuligg&#248;r dynamiske sider, medmindre man </span><br /><span class='citat'>> benytter NN4x-propriet&#230;r pseudo-HTML (bl.a. &lt;layer>). </span><br /><span class='citat'>>  </span><br /><span class='normal'> </span><br /><span class='normal'>Min browser er fra 2002. </span><br /><span class='normal'> </span><br /><span class='citat'>> Efter min mening er NN4x - eller rettere: &#248;nsket om fortsat </span><br /><span class='citat'>> hensyntagen til den browser - den st&#248;rste h&#230;msko for elegant, </span><br /><span class='citat'>> velovervejet og struktureret webdesign. &#216;nsket om adskillelse af </span><br /><span class='citat'>> indhold fra pr&#230;sentation via CSS-baseret layout er s&#229; godt som </span><br /><span class='citat'>> umuligt, hvis NN4x skal pr&#230;sentere indholdet p&#229; pr&#230;cis samme m&#229;de </span><br /><span class='citat'>> som IE6, Opera 7 eller Mozilla (Firebird). Dette er i sidste ende </span><br /><span class='citat'>> medvirkende til at der fortsat produceres s&#229; mange slamkodeholdige </span><br /><span class='citat'>> og ufleksible websites. </span><br /><span class='citat'>>  </span><br /><span class='normal'> </span><br /><span class='normal'>Dette er feil. Netscape&#174; Communicator 4.8 st&#248;tter alt det du nevner her. </span><br /><span class='normal'> </span><br /><span class='citat'>> Der er rigeligt med &quot;tilfredsstillende&quot; (hvad man s&#229; end l&#230;gger i </span><br /><span class='citat'>> den betegnelse) alternativer til NN4x: Opera, Mozilla Firebird, ja </span><br /><span class='citat'>> s&#229;gar Lynx(!) - selv IE fungerer bedrer. </span><br /><span class='citat'>>  </span><br /><span class='normal'> </span><br /><span class='normal'>Dette tyder p&#229; at du ikke vet hva du snakker om. </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg ved ikke, hvilken hardware, du benytter, men Opera er en ganske </span><br /><span class='citat'>> effektiv og hurtig browser - efter min erfaring den hurtigste - der </span><br /><span class='citat'>> tillige tilbyder en r&#230;kke glimrende features. &#216;nsker du et mere </span><br /><span class='citat'>> NN4x-n&#230;rt interface er Mozilla helt klart det oplagte valg, sk&#248;nt </span><br /><span class='citat'>> den m&#229;ske er lidt tungere - men i s&#229; fald er Mozilla Firebird et </span><br /><span class='citat'>> udm&#230;rket alternativ. </span><br /><span class='citat'>>  </span><br /><span class='normal'> </span><br /><span class='normal'>Ingen av de du nevner er tilfredstillende med hensyn p&#229; hastigheten og </span><br /><span class='normal'>jeg har pr&#248;vd alle. </span><br /><span class='normal'> </span><br /><span class='citat'>> Samtlige ovenn&#230;vnte browsere k&#248;rer problemfrit p&#229; min PII-450'er. </span><br /><span class='citat'>> Men hvis du sidder med en 166MHz maskine er det jo klart, at nyere </span><br /><span class='citat'>> software som Mozilla Firebird ikke k&#248;rer s&#229; hurtigt som gamle NN4x - </span><br /><span class='citat'>> men hvad havde du forventet? At software fra 2003 k&#248;rer lige s&#229; </span><br /><span class='citat'>> hurtigt p&#229; en 5-6 &#229;r gammel maskine som en browser fra maskinens </span><br /><span class='citat'>> tid? </span><br /><span class='citat'>>  </span><br /><span class='normal'> </span><br /><span class='normal'>Hva er det som f&#229;r deg til &#229; tro at jeg bruker en gammel maskin? </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Magne Heen.</span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa53296%240%2429310%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='lige h&#248;je kolonner med DIV i stedet for tabel...'>lige h&#248;je kolonner med DIV i stedet for tabel...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbo3ifv%24kdc%241%40sunsite%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Lobais)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa55116%240%2429367%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9427CFC91EE81zoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbo3lqe%247q9%241%40sunsite%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Lobais)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa5791b%240%2429384%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa56f54%240%24251%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa57fc0%240%2429383%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9427ED91CECE8zoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(02-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa5ad6e%240%2429305%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9428796DDEB1Fzoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa63e9b%240%2429363%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa5ad6e%240%2429305%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9428796DDEB1Fzoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa63e9b%240%2429363%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbo44eg%247t4%241%40sunsite%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9428758F0C837zoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa64c6d%240%24252%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3FA682E8%2E9C9BE819%40powertech%2Eno%3E' title='Re: lige h&#248;jekolonner med DIV i stedet for ta...'>Re: lige h&#248;jekolonner med DIV i stedet for ta...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Magne&nbsp;Heen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9428CCEA0DE21zoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbo6a4n%241rt%241%40sunsite%2Edk%3E' title='Re: lige h&#248;jekolonner med DIV i stedet for ta...'>Re: lige h&#248;jekolonner med DIV i stedet for ta...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Lobais)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa6e625%240%24248%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(04-11-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Chq8gqvcapm0j0juilv88he4jonme7f3noe%404ax%2Ecom%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(04-11-03&nbsp;-&nbsp;Peter&nbsp;Loumann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa82a86%240%24245%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(04-11-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3FA839A6%2EAEA4EF43%40powertech%2Eno%3E' title='Re: lige h&#248;jekolonner med DIV i stedet for ta...'>Re: lige h&#248;jekolonner med DIV i stedet for ta...</a>&nbsp;<small class='newslist'>(05-11-03&nbsp;-&nbsp;Magne&nbsp;Heen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns942AD9C34EE9zoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(05-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3FA846CF%2E3CED3444%40powertech%2Eno%3E' title='Re: lige h&#248;jekolonner med DIV i stedet for ta...'>Re: lige h&#248;jekolonner med DIV i stedet for ta...</a>&nbsp;<small class='newslist'>(05-11-03&nbsp;-&nbsp;Magne&nbsp;Heen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns942A172F928CAzoolook%40130%2E225%2E247%2E90%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(05-11-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa851da%240%24246%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(05-11-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cra2sqvklljsu044o3pi0pr91j7kvh4bkcj%404ax%2Ecom%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(09-11-03&nbsp;-&nbsp;Peter&nbsp;Loumann)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa82d68%240%24244%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(04-11-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cboa9hm%24juo%241%40sunsite%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(05-11-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbo4t0h%24dak%241%40sunsite%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Lobais)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbo5i08%242n1%241%40sunsite%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fa6d742%240%2429328%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: lige h&#248;je kolonner med DIV i stedet for t...'>Re: lige h&#248;je kolonner med DIV i stedet for t...</a>&nbsp;<small class='newslist'>(03-11-03&nbsp;-&nbsp;Trine&nbsp;Banke&nbsp;Brenneche)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3FA846CF%2E3CED3444%40powertech%2Eno%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3FA846CF%2E3CED3444%40powertech%2Eno%3E' method='post'><p class='pollheader'>Hvor meget betaler du om måneden for dit webhotel?</p><div><input type='hidden' name='tst' value='23-01-04 22:06:53' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;0 - 10 kr.</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;10 - 50 kr.</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;50 - 100 kr.</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;100 - 200 kr.</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;over 200 kr.</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Har ikke webhotel</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: lige h&#248;je kolonner med DIV i stedet for t...</span></div>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Rnd Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctrnd"></A>Rnd Function</H1>
+
+<P>Returns a random number.</P>
+
+<P><CODE><B>Rnd</B>[<B>(</B><I>number</I><B>)</B>]</CODE></P>
+
+<P>The <I>number</I> argument can be any valid <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>Rnd</B> function returns a value less than 1 but greater than or equal to 0. The value of <I>number</I> determines how <B>Rnd</B> generates a random number:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=30%>If <I>number</I> is</TH>
+<TH width=70%>Rnd generates</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>Less than zero</TD>
+<TD width=70%>The same number every time, using <I>number</I> as the <A HREF="vtglossary.htm#defseedvbs">seed</A>.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>Greater than zero</TD>
+<TD width=70%>The next random number in the sequence.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>Equal to zero</TD>
+<TD width=70%>The most recently generated number.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>Not supplied</TD>
+<TD width=70%>The next random number in the sequence.</TD>
+</TR>
+</TABLE><BR>
+
+<P>For any given initial seed, the same number sequence is generated because each successive call to the <B>Rnd</B> function uses the previous number as a seed for the next number in the sequence.</P>
+
+<P>Before calling <B>Rnd</B>, use the <B>Randomize</B> statement without an argument to initialize the random-number generator with a seed based on the system timer.</P>
+
+<P>To produce random integers in a given range, use this formula: </P>
+
+<PRE><CODE>Int((upperbound - lowerbound + 1) * <span class=cfe><B>Rnd</B></span> + lowerbound)</CODE></PRE>
+
+<P>Here, <I>upperbound</I> is the highest number in the range, and <I>lowerbound</I> is the lowest number in the range.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>To repeat sequences of random numbers, call <B>Rnd</B> with a negative argument immediately before using <B>Randomize</B> with a numeric argument. Using <B>Randomize</B> with the same value for <I>number</I> does not repeat the previous sequence.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmrandomize.htm">Randomize Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

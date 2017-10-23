@@ -1,0 +1,176 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>re.re. clip til clip kommunikation</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.flash skrevet af poul bækhøj den 29. april 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="re.re. clip til clip kommunikation" />
+<meta name="language" content="dan" />
+<meta name="Date" content="29-04-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.flash</h1><p>Gruppen er til spørgsmål/diskussion af de problemer, der opstår ved fremstillingen af hjemmesider med flash</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?mode=form&amp;ReplyID=%3C3ccdadcf%240%2478765%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp'>dk.edb.internet.webdesign.flash</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> poul&nbsp;bækhøj&nbsp;&nbsp;<a href='mailto:poul_b@post1.tele.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='poul_b@post1.tele.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 29. april 2002 kl. 22:32</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>re.re. clip til clip kommunikation</strong></li></ul>
+
+<p><span class='normal'>P&#229; grund af en fejladressering er dette indl&#230;g ikke kommet med  p&#229; </span><br /><span class='normal'>listen.... </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Hej, Henrik. </span><br /><span class='normal'>jeg har lagt 2 udgaver af det ud p&#229; min hjemmeside, de ligger p&#229; </span><br /><span class='normal'><a href='http://www.baekhoj.dk/firkanter.html'>www.baekhoj.dk/firkanter.html</a>  og  <a href='http://www.baekhoj.dk/firkanter1.html'>www.baekhoj.dk/firkanter1.html</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Det, jeg har gang i, er at lave en &quot;3D&quot; kube, som kan drejes rundt med </span><br /><span class='normal'>musen. Det &#248;verste og nederste kvadrat fungerer som de skal. Men siderne kan </span><br /><span class='normal'>jeg ikke komme l&#230;ngere med. Jeg kan leve med, at de kun best&#229;r af streger. I </span><br /><span class='normal'>det f&#248;rste af eksemplerne ligger stregerne i (&quot;C&quot;). De bev&#230;ger sig som de </span><br /><span class='normal'>skal, bortset fra et par sk&#248;nhedsfejl, som kan overkommes.( f. eks. &quot;hopper&quot; </span><br /><span class='normal'>sidestregerne fra &#233;n firkant til den anden n&#229;r musen passerer 0 (midt p&#229; </span><br /><span class='normal'>sk&#230;rmen) lodret.) Men som du ser, skalerer de omvendt, p&#229; grund af, at jeg </span><br /><span class='normal'>jo skalerer stedet, de skal ligge, sammen med firkanterne. </span><br /><span class='normal'>I det andet eksempel har jeg flyttet stregerne ud i (&quot;A&quot;) og erstattet dem i </span><br /><span class='normal'>(&quot;C&quot;) med tomme clips. De tomme clips ligger alts&#229; i clip (&quot;C&quot;) p&#229; </span><br /><span class='normal'>positionerne -50 -50 ; 50 -50 ; 50 50 og -50 50. </span><br /><span class='normal'>N&#229;r jeg s&#229; henviser til disse tomme clips for at f&#229; deres position, f&#229;r jeg </span><br /><span class='normal'>altid, lige meget hvor de faktisk er p&#229; sk&#230;rmen, positionerne -50 -50 -osv. </span><br /><span class='normal'>Det jeg kunne t&#230;nke mig er at finde den egentlige position af de tomme </span><br /><span class='normal'>clips, s&#229; jeg kan placere stregerne i (&quot;A&quot;) p&#229; de rette steder, og s&#229; </span><br /><span class='normal'>skalere dem som jeg vil. </span><br /><span class='normal'>Eller m&#229;ske har du en helt anden l&#248;sning.... </span><br /><span class='normal'> </span><br /><span class='normal'>hilsen poul </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>&quot;Henrik Rasmussen&quot; &lt;<a href='http://henrik.r@mail.dk'>henrik.r@mail.dk</a>> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:1fax8lr.1pfmlbc1lkxwv8N%henrik.r@mail.dk'>news:1fax8lr.1pfmlbc1lkxwv8N%henrik.r@mail.dk</a>... </span><br /><span class='citat'>> Hej Poul. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg har lige rekonstrueret dit &quot;problem&quot;, og jeg kan ikke lige </span><br /><span class='citat'>> gennemskue pr&#230;cis hvad det er Du vil have billederne til at g&#248;re </span><br /><span class='citat'>> - kunne Du forklare d&#233;t lidt n&#230;rmere? Ogs&#229; om billederne skal bev&#230;ge sig </span><br /><span class='citat'>> p&#229; en bestemt m&#229;de i forhold til andre elementer (jeg kan forst&#229; at de </span><br /><span class='citat'>> ikke n&#248;dvendigvis skal v&#230;re placeret i clip (&quot;c&quot;)). </span><br /><span class='citat'>> </span><br /><span class='citat'>> Henrik </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='citat'>> poul b&#230;kh&#248;j &lt;<a href='http://poul_b@post1.tele.dk'>poul_b@post1.tele.dk</a>> wrote: </span><br /><span class='citat'>> </span><br /><span class='citat'>> > Det er lidt sv&#230;rt at forklare, det her problem, men- </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > I et movieclip (&quot;A&quot;) har jeg oprettet et andet movieclip (&quot;B&quot;) som </span><br /><span class='normal'>skaleres </span><br /><span class='citat'>> > i  h&#248;jden mellem 100 og 0 % med musens y-bev&#230;gelser. </span><br /><span class='citat'>> > I dette clip (&quot;B&quot;) har jeg oprettet endnu et clip,(&quot;C&quot;), som roterer med </span><br /><span class='citat'>> > musens x-bev&#230;gelser. </span><br /><span class='citat'>> > I clip (&quot;C&quot;) har jeg oprettet 4 instants af et movieclip med et lille </span><br /><span class='citat'>> > billede. </span><br /><span class='citat'>> > Tricket skulle s&#229; v&#230;re at rotere de 4 sm&#229; billeder i en cirkel/ellipse </span><br /><span class='normal'>alt </span><br /><span class='citat'>> > efter hvor p&#229; sk&#230;rmen musen befinder sig. </span><br /><span class='citat'>> > billederne kan jeg holde lodrette ved at rotere dem (med musen) modsat </span><br /><span class='citat'>> > clip(&quot;C&quot;) </span><br /><span class='citat'>> > Problemet er s&#229;, at jeg gerne vil have billederne til at lade v&#230;re med </span><br /><span class='normal'>at </span><br /><span class='citat'>> > skalere sammen med clip(&quot;B&quot;). </span><br /><span class='citat'>> > Jeg har v&#230;ret inde p&#229; mange forskellige l&#248;sningsmodeller, men ingen af </span><br /><span class='normal'>dem </span><br /><span class='citat'>> > virker. </span><br /><span class='citat'>> > Bl. a. har jeg pr&#248;vet at erstatte de 4 billeder med instants af en tom </span><br /><span class='citat'>> > movieclip, og l&#230;gge billedinstantsene i clip (&quot;A&quot;).S&#229; ville jeg bruge </span><br /><span class='citat'>> > &quot;GetProperty&quot; til at finde x- og y- positionerne p&#229; de tomme instants i </span><br /><span class='citat'>> > (&quot;C&quot;) og &quot;SetProperty&quot; til at placere de fire sm&#229; billeder p&#229; deres </span><br /><span class='normal'>pladser. </span><br /><span class='citat'>> > Men nej. &quot;GetProperty&quot; finder de positioner, jeg har givet billederne </span><br /><span class='citat'>> > indenfor clip (&quot;C&quot;) og returnerer koordinaterne. </span><br /><span class='citat'>> > &quot;SetProperty&quot; anbringer s&#229; billederne p&#229; de samme koordinater i </span><br /><span class='normal'>clip(&quot;A&quot;). </span><br /><span class='citat'>> > Med det resultat, at billederne ikke bev&#230;ger sig. </span><br /><span class='citat'>> > Er der nogen, der kan finde p&#229; en l&#248;sning? </span><br /><span class='citat'>> > Kan det overhovedet lade sig g&#248;re? </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Poul B&#230;kh&#248;j </span><br /><span class='normal'>Aalborgvej 82 </span><br /><span class='normal'>DK-9560 Hadsund </span><br /><span class='normal'>tlf. (+45) 98 57 48 61 </span><br /><span class='normal'><a href='http://www.baekhoj.dk'>www.baekhoj.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?messageid=%3C3ccdadcf%240%2478765%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='re.re. clip til clip kommunikation'>re.re. clip til clip kommunikation</a>&nbsp;<small class='newslist'>(29-04-02&nbsp;-&nbsp;poul&nbsp;bækhøj)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?messageid=%3C1fbnqs8%2E10aycmi1n2c8sgN%25henrik%2Er%40mail%2Edk%3E' title='Re: re.re. clip til clip kommunikation'>Re: re.re. clip til clip kommunikation</a>&nbsp;<small class='newslist'>(04-05-02&nbsp;-&nbsp;Henrik&nbsp;Rasmussen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?messageid=%3C1fbns7d%2E1wnj5in18gpnsuN%25henrik%2Er%40mail%2Edk%3E' title='Re: re.re. clip til clip kommunikation'>Re: re.re. clip til clip kommunikation</a>&nbsp;<small class='newslist'>(04-05-02&nbsp;-&nbsp;Henrik&nbsp;Rasmussen)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?mode=form&amp;ReplyID=%3C3ccdadcf%240%2478765%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp'>dk.edb.internet.webdesign.flash</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<!--
+<div id="sponsor"><br />
+<a href='http://www.wannafind.dk/job/1.asp'><img src='/site/graphics/sponsorater/wannafind.gif' height="60" width="125" alt='Jobannonce' /></a>
+<br />
+-->
+
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp?messageid=%3c3ccdadcf$0$78765$edfadb0f@dspool01.news.tele.dk%3e' method='post'><p class='pollheader'>Har du dit eget firma?</p><div><input type='hidden' name='tst' value='27-08-02 06:43:18' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Overvejer</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer' class='navibox'>dk.edb.internet.webdesign.flash</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: re.re. clip til clip kommunikation</span></div>
+
+
+
+</body>
+</html>
+

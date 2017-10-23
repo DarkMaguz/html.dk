@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Select Case Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmselectcase"></A>Select Case Statement</H1>
+
+<P>Executes one of several groups of statements, depending on the value of an expression. </P>
+
+<P><CODE><B>Select Case</B> <I>testexpression</I><BR>
+&nbsp;&nbsp;&nbsp;[<B>Case</B><I> expressionlist-n</I><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<I>statements-n</I>]] <B>. . .</B><BR>
+&nbsp;&nbsp;&nbsp;[<B>Case Else</B><I> expressionlist-n</I><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<I>elsestatements-n</I>]]<BR>
+<B>End Select</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>testexpression</I></P>
+
+<P class=indent>Any <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric</A> or <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A>.</P>
+
+<P class=dt><I>expressionlist-n</I></P>
+
+<P class=indent>Required if <B>Case</B> appears. Delimited list of one or more expressions.</P>
+
+<P class=dt><I>statements-n</I></P>
+
+<P class=indent>One or more statements executed if <I>testexpression</I> matches any part of <I>expressionlist-n</I>.</P>
+
+<P class=dt><I>elsestatements-n</I></P>
+
+<P class=indent>One or more statements executed if <I>testexpression </I>doesn't match any of the <B>Case</B> clauses.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>testexpression</I> matches any <B>Case</B> <I>expressionlist</I> expression, the statements following that <B>Case</B> clause are executed up to the next <B>Case</B> clause, or for the last clause, up to <B>End Select</B>. Control then passes to the statement following <B>End Select</B>. If <I>testexpression</I> matches an <I>expressionlist</I> expression in more than one <B>Case</B> clause, only the statements following the first match are executed.</P>
+
+<P>The <B>Case Else</B> clause is used to indicate the <I>elsestatements</I> to be executed if no match is found between the <I>testexpression</I> and an <I>expressionlist</I> in any of the other <B>Case</B> selections. Although not required, it is a good idea to have a <B>Case Else</B> statement in your <B>Select Case</B> block to handle unforeseen <I>testexpression</I> values. If no <B>Case</B> <I>expressionlist</I> matches <I>testexpression</I> and there is no <B>Case Else</B> statement, execution continues at the statement following <B>End Select</B>.</P>
+
+<P><B>Select Case</B> statements can be nested. Each nested <B>Select Case</B> statement must have a matching <B>End Select</B> statement.</P>
+
+<P>The following example illustrates the use of the <B>Select Case</B> statement. </P>
+
+<PRE><CODE>Dim Color, MyVar
+Sub ChangeBackground (Color)
+&nbsp;&nbsp;&nbsp;MyVar = lcase (Color)
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>Select Case</B></span> MyVar
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Case</B></span> "red"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;document.bgColor = "red"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Case</B></span> "green"&nbsp;&nbsp;&nbsp;document.bgColor = "green"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Case</B></span> "blue"&nbsp;&nbsp;&nbsp;&nbsp;document.bgColor = "blue"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Case Else</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MsgBox "pick another color"
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>End Select</B></span>
+End Sub</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmif.htm">If...Then...Else Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

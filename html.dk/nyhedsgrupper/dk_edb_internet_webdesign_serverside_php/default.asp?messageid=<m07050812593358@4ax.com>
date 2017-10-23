@@ -1,0 +1,239 @@
+
+<!DOCTYPE html PUBLIC 
+"-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+    <title>MI5 Persecution: Question and Answer 27/9/95 (2178) [dk.edb.internet.webdesign.serverside.php] - HTML.dk</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="title" content="MI5 Persecution: Question and Answer 27/9/95 (2178) [dk.edb.internet.webdesign.serverside.php]" />
+    <meta name="language" content="dan" />
+    <meta name="Date" content="08-06-2007" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+    <meta name="CZ.Type" content="Forum" />
+    <meta name="CZ.Category" content="Other" />
+
+    
+    <link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+    <link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign" href="http://www.html.dk/rss/dk.edb.internet.webdesign.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.html" href="http://www.html.dk/rss/dk.edb.internet.webdesign.html.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.clientside" href="http://www.html.dk/rss/dk.edb.internet.webdesign.clientside.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.frontpage" href="http://www.html.dk/rss/dk.edb.internet.webdesign.frontpage.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.flash" href="http://www.html.dk/rss/dk.edb.internet.webdesign.flash.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside.asp" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.asp.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside.php" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.php.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.ris+ros" href="http://www.html.dk/rss/dk.edb.internet.webdesign.ris+ros.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.udbydere.webhotel" href="http://www.html.dk/rss/dk.edb.internet.udbydere.webhotel.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.programmering.dotnet" href="http://www.html.dk/rss/dk.edb.programmering.dotnet.xml" />
+
+    <link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+    
+</head>
+
+<body>
+
+    <div style="text-align:center;position:absolute;top:90px;left:0px;width:100%;" id="banner728x90" class="noprint">
+        
+        <!-- "DK-html.dk_728x90" (section "DK-html.dk") -->
+        <iframe src="http://eas.apm.emediate.eu/eas?cu=362;cre=mu;target=_blank" width="728" height="90" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">
+        </iframe>
+    </div>
+
+        <div id="bodybx">
+
+            <div id="skyscraper" class="noprint">
+            
+            <!-- "DK-html.dk_140x350" (section "DK-html.dk") -->
+            <iframe src="http://eas.apm.emediate.eu/eas?cu=363;cre=mu;target=_blank" width="140" height="350" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">
+            </iframe>
+            </div>
+
+
+<!-- start page content -->
+
+
+
+
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3Cm07050812593358%404ax%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> NewsGuy - Unlimited Usenet $19.95</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 8. juni 2007 kl. 14:59</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>MI5 Persecution: Question and Answer 27/9/95 (2178)</strong></li></ul>
+
+<p><span class='normal'>In article &lt;<a href='http://DFGxnF.Cr8.0.bloor@torfree.net'>DFGxnF.Cr8.0.bloor@torfree.net</a>> </span><br /><span class='normal'>           <a href='http://bu765@torfree.net'>bu765@torfree.net</a> &quot;Mike Corley&quot; writes: </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: There were also a few other things said at the trial </span><br /><span class='citat'>>>> ##: relating to this which I won't repeat here; it was in the papers </span><br /><span class='citat'>>>> ##: at the time anyway. This quote and others said by and about this </span><br /><span class='citat'>>>> ##: witness were repeating things that had been said by and about </span><br /><span class='citat'>>>> ##: me at around that time. </span><br /><span class='normal'> </span><br /><span class='normal'>                When, where and by whom ?  Let's have some details </span><br /><span class='normal'>                that can be checked. </span><br /><span class='normal'> </span><br /><span class='normal'>I'm not going to repeat them. They're hurtful to me because they contained abuse that was </span><br /><span class='normal'>directed against me by someone else at the time and which got picked up and thrown again </span><br /><span class='normal'>in the trial. It is a matter of record but I won't repeat it here. </span><br /><span class='normal'>                                                                                                     </span><br /><span class='citat'>>>> PM: >Who's character is being assassinated? It isn't clear from the post. </span><br /><span class='citat'>>>> PM: >Are we talking about Grenville Janner? I thought he was a spook </span><br /><span class='citat'>>>> PM: >himself? He's certainly able to hold his own on the issue you cite. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: Mine, mainly. The reason for putting that episode at the top </span><br /><span class='citat'>>>> ##: of the posting is that they tried to kill two birds with one stone </span><br /><span class='citat'>>>> ##: at the Beck trial - they simultaneously put words into the mouth </span><br /><span class='citat'>>>> ##: of their invented &quot;witness&quot; to smear Janner, and repeated exactly, </span><br /><span class='citat'>>>> ##: word-for-word, stuff which had been said by and about me. </span><br /><span class='normal'> </span><br /><span class='normal'>                Why would &quot;they&quot; wish to assassinate your character? </span><br /><span class='normal'> </span><br /><span class='normal'>Well, let's put it this way - just because this is the first time it's happened in this way, </span><br /><span class='normal'>from these people, on this scale, doesn't mean that it hasn't happened before, on a lesser </span><br /><span class='normal'>scale. At university there were people who quite overtly hated me and would have wished </span><br /><span class='normal'>something nasty to happen to me. Because of where I went making the wrong sort of enemies </span><br /><span class='normal'>is pretty deadly. </span><br /><span class='normal'> </span><br /><span class='normal'>&quot;They&quot; would wish to assassinate my character because it had all been done before, and </span><br /><span class='normal'>because they knew I would not be able to react in any other way than I'd reacted previously. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: They invaded my home with their bugs, they repeated what I </span><br /><span class='citat'>>>> ##: was saying in the privacy of my home, and they laughed that it </span><br /><span class='citat'>>>> ##: was &quot;so funny&quot;, that I was impotent and could not even communicate </span><br /><span class='citat'>>>> ##: what was going on. Who did this? Our friends on BBC television, </span><br /><span class='citat'>>>> ##: our friends in ITN, last but not least our friends in Capital </span><br /><span class='citat'>>>> ##: Radio in London and on Radio 1.  </span><br /><span class='normal'> </span><br /><span class='normal'>                Please give details of when, where and by whom these </span><br /><span class='normal'>                comments were made, so that they can be checked. </span><br /><span class='normal'> </span><br /><span class='normal'>This was four, five years ago... sorry, I don't remember. I can remember individual incidents, </span><br /><span class='normal'>words which were repeated by different people at different times in different locations. </span><br /><span class='normal'> </span><br /><span class='normal'>Around the end of 1992 Private Eye rtan a front-cover with John and Norma Major, with </span><br /><span class='normal'>the title &quot;Major's support lowest ever&quot; and John saying to Norma &quot;Come back norma&quot; on the </span><br /><span class='normal'>front cover. What can you read in to that? Not a lot, seems like standard fare for PE. </span><br /><span class='normal'>The first time I saw it I was in the pub with some people from work. One was expressing doubts </span><br /><span class='normal'>to the other (let's call the first one Simon, shall we? and the second one Phil?) about </span><br /><span class='normal'>whether what was going on was right. Phil's answer was that if Private Eye was doing it </span><br /><span class='normal'>then it must be ok, &quot;they're usually right&quot;. </span><br /><span class='normal'> </span><br /><span class='normal'>A few days later, again near work, there were some students laughing in the street, </span><br /><span class='normal'>&quot;Were you COMING BACK later? But I thought you said you were COMING BACK ha ha ha?&quot; </span><br /><span class='normal'>Play on words, you see. Not very nice, either. I had start medication soon afterwards. </span><br /><span class='normal'>Clever people, these chaps who think up PE titles. Just slightly lacking in any </span><br /><span class='normal'>sense of morality. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: How did they do this? I'll give you an example. About a year ago, </span><br /><span class='citat'>>>> ##: I was listening to Chris Tarrant (Capital Radio DJ among other </span><br /><span class='citat'>>>> ##: pursuits) on his radio morning show, when he said, talking about </span><br /><span class='citat'>>>> ##: someone he didn't identify, &quot;you know this bloke? he says we're </span><br /><span class='citat'>>>> ##: trying to kill him. We should be done for attempted manslaughter&quot; </span><br /><span class='citat'>>>> ##: which mirrored something I had said a day or two before. </span><br /><span class='citat'>>>> ##: Now that got broadcast to the whole of London - if any recordings </span><br /><span class='citat'>>>> ##: are kept of the shows then it'll be there. </span><br /><span class='normal'> </span><br /><span class='normal'>                What was the date of the broadcast ? </span><br /><span class='normal'>                Out of 2 million plus listeners, why should you be </span><br /><span class='normal'>                the only one that Tarrant was allegedly referring to ? </span><br /><span class='normal'> </span><br /><span class='normal'>Sometyime in spring 1994. I can't remember the date, I heard the broadcast in the </span><br /><span class='normal'>car - I was going into the office from London that day and just happened to snap </span><br /><span class='normal'>on the radio, and hey presto! Mr Tarrant gives us the benefit of his excellent </span><br /><span class='normal'>understanding. </span><br /><span class='normal'> </span><br /><span class='normal'>                                                                                                     </span><br /><span class='citat'>>>> ##: That's exactly what we did. We went to a competent, professional                             </span><br /><span class='citat'>>>> ##: detective agency in London, paid them over 400 quid to debug our house.                      </span><br /><span class='citat'>>>> ##: They found nothing.                                                                          </span><br /><span class='normal'>                                                                                                     </span><br /><span class='normal'>                What was the name of the detective agency and their                                  </span><br /><span class='normal'>                address ?                                                                            </span><br /><span class='normal'> </span><br /><span class='normal'>I don't see why I should tell you that, but they're in Yellow Pages; they're </span><br /><span class='normal'>a well-established outfit. </span><br /><span class='normal'>                                                                                                     </span><br /><span class='citat'>>>> PM: >What? Spend a quarter mil. a year to amuse themselves? And why not </span><br /><span class='citat'>>>> PM: >change every now and again? Why keep watching you? (Unless you _are_ </span><br /><span class='citat'>>>> PM: >doing something, and I don't think you are, though you may have some </span><br /><span class='citat'>>>> PM: >deep, dark secret in your past.) </span><br /><span class='citat'>>>> </span><br /><span class='citat'>>>> ##: See the above. </span><br /><span class='normal'> </span><br /><span class='normal'>                Is there a deep dark secret in your past ? </span><br /><span class='normal'> </span><br /><span class='normal'>Apart from &quot;it's all happened before in a different way&quot;, no. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: In a couple of cases people have even known my name - when I was in </span><br /><span class='citat'>>>> ##: London over Easter somebody (no idea who they were, just some bloke with </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: his girlfriend) called me by name  - quite clearly, and my name is </span><br /><span class='citat'>>>> ##: distinctive. </span><br /><span class='normal'> </span><br /><span class='normal'>                Is your name truly Mike Corley, or are you using it as </span><br /><span class='normal'>                an alias ? </span><br /><span class='normal'> </span><br /><span class='normal'>It's an alias. I'm not English by ethnic origin. If someone manages to pronounce </span><br /><span class='normal'>my name as well as that guy did then they must have been really trying. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: There's a little story behind this. First of all, in 1992 I worked </span><br /><span class='citat'>>>> ##: for a company where the people made clear they knew what was going on, </span><br /><span class='citat'>>>> ##: first of all directly (the very first evening I was there I went out to </span><br /><span class='citat'>>>> ##: the pub with them and the Technical Director said to another guy, </span><br /><span class='citat'>>>> ##: &quot;is this the bloke who's been on TV?&quot; &quot;yeah, I think so&quot;) </span><br /><span class='normal'>                                                                                                     </span><br /><span class='normal'>                Have you appeared, or been reported by name on TV ? </span><br /><span class='normal'>                When, where and by whom ? </span><br /><span class='normal'> </span><br /><span class='normal'>No. Never. Not directly. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: Also, in summer 1992 I went on a trip abroad to Europe by coach, </span><br /><span class='normal'>                                                                                                     </span><br /><span class='normal'>                What was the name of the coach company and your date </span><br /><span class='normal'>                of departure ? </span><br /><span class='normal'> </span><br /><span class='normal'>It was a national express coach. At dover we boarded a ferry for Holland somewhere. </span><br /><span class='normal'>The company that organized the trip went out of business some time ago, so they won't </span><br /><span class='normal'>have records of passengers - so we can't get any corroboration from anyone else </span><br /><span class='normal'>that way. We tried all that last summer, ran into a brick wall. </span><br /><span class='normal'> </span><br /><span class='normal'>The other thing is in summer 1992 I was visibly ill, so other people in the </span><br /><span class='normal'>party might remember that more than anyone getting at me on the coach trip. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: >>Yes, this gets me. I think the answer is that I was set up by </span><br /><span class='citat'>>>> ##: >>someone. I was very aware when this started back in 1990 that I </span><br /><span class='citat'>>>> ##: >>was being painted as a &quot;threat&quot; to which people had to &quot;react&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>                Why were you being painted as a &quot;threat&quot;; is this related </span><br /><span class='normal'>                to a &quot;deep,dark, secret&quot; ? </span><br /><span class='normal'> </span><br /><span class='normal'>Aaaarrrrgh. I think I should make clear that that's their created justification </span><br /><span class='normal'>rather than the real reason. They started harassing first and then came up with the </span><br /><span class='normal'>reasons for it. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> </span><br /><span class='citat'>>>> ##: I think I know who set me up. </span><br /><span class='normal'>                                                                                                     </span><br /><span class='normal'>                Who ? </span><br /><span class='normal'> </span><br /><span class='normal'>Someone who knew me some time ago. Someone who would have been able to talk this </span><br /><span class='normal'>little campaign into existence. </span><br /><span class='normal'> </span><br /><span class='citat'>>>> ##: The bloke can't even control his own mind without medicine. </span><br /><span class='normal'> </span><br /><span class='normal'>                Is this true ?  What is the medication and dosage ? </span><br /><span class='normal'> </span><br /><span class='normal'>Yes, I'm afraid so. Sulpiride, 200mg a day. It's designed to stop people </span><br /><span class='normal'>coming up with the sort of ideas you've heard here for the last few weeks. </span><br /><span class='normal'>Give him a higher dose!! </span><br /><span class='normal'> </span><br /><span class='normal'>In the long term it causes tardive dyskinesia, tardive dementia and general </span><br /><span class='normal'>nasty stuff to your brain. So it's three years of sulpiride talking to you here. </span><br /><span class='normal'>                                                                                                     </span><br /><span class='citat'>>-- </span><br /><span class='citat'>>john heelan </span><br /><span class='normal'> </span><br /><span class='normal'>2178 </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cm07050812593358%404ax%2Ecom%3E' title='MI5 Persecution: Question and Answer 27/9/95 (2178...'>MI5 Persecution: Question and Answer 27/9/95 (2178...</a>&nbsp;<small class='newslist'>(08-06-2007&nbsp;-&nbsp;)</small></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3Cm07050812593358%404ax%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+	<div id="leftmenu">
+	<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/rss/" class="menulink" title="RSS-feeds fra HTML.dk">RSS-feeds</a></div>
+	
+	<br />
+	
+	<div id="newsletterbox">
+		<form action="/nyhedsbrev/default.asp" method="post">
+		<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+		<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+		<br />
+		<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+		</form>
+	</div>
+
+	<br />
+	<form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cm07050812593358%404ax%2Ecom%3E' method='post'><p class='pollheader'>Har du installeret, og bruger du, Microsoft Internet Explorer 7?</p><div><input type='hidden' name='tst' value='10-06-2007 20:47:54' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form>
+	<br />
+
+
+
+	<div id="communitybox">
+		<form action="/community/login.asp" method="post">
+		<div class="leftboxheader">&nbsp;Community</div>
+		<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+		</form>
+	</div>
+
+
+
+	<div class="menuitem" style="margin-top:20px;">
+		<img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a><br />
+		<img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="http://www.html.net/?leftmenu" class="menulink" title="HTML.net">HTML.net</a><br />
+	</div>
+
+	</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+
+
+	<div style="text-align:center;margin-top:20px;margin-bottom:20px;" class="noprint">
+        
+        <!-- "DK-html.dk_300x250" (section "DK-html.dk") -->
+        <iframe src="http://eas.apm.emediate.eu/eas?cu=364;cre=mu;target=_blank" width="300" height="250" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">
+        </iframe>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" class="noprint" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/">RSS</a>
+	</div>
+	<hr style="margin-right:5px;" class="noprint"/>
+
+	<div style="float:right;width:280px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+	<a href="http://www.scannet.dk"><img src="/site/graphics/logo_scannet.gif" alt="Powered by Scannet" height="31" width="88" /></a>
+
+	<!-- chart.dk unified trackercode - v1 -->
+	<script type="text/javascript" src='http://www.chart.dk/js/unified.asp'></script>
+	<script type="text/javascript">
+	 track_visitor(32234, '');
+	</script>
+	<noscript>
+		<div>
+		<a href="http://www.chart.dk/ref.asp?id=32234">
+		<img src="http://cluster.chart.dk/chart.asp?id=32234" alt="Chart.dk" />
+		</a>
+		</div>
+	</noscript>
+	<!-- chart.dk unified trackercode - v1 -->
+
+	</div>
+</div>
+
+<div id="searchbox">
+
+<!-- SiteSearch Google -->
+    <form method="get" action="http://www.html.dk/search">
+        <div>
+            <input type="hidden" name="domains" value="www.html.dk" />
+
+            <label for="sbi" style="display: none">Indtast dine søgetermer</label>
+            <input type="text" name="q" size="20" maxlength="255" value="" id="sbi" style="border:1px solid black;" />
+
+            <label for="sbb" style="display: none">Indsend søgeformular</label>
+            <input type="submit" name="sa" value="Søg med Google" id="sbb" /><br />
+
+            <input type="radio" name="sitesearch" value="www.html.dk" checked="checked" id="ss1" />
+            <label for="ss1" title="Søg www.html.dk"><span style="color:#E5E5E5;font-size:90%;font-weight:bold;">HTML.dk</span></label>
+
+            <input type="radio" name="sitesearch" value="" id="ss0" />
+            <label for="ss0" title="Søg på internettet"><span style="color:#E5E5E5;font-size:90%;font-weight:bold;">WWW</span></label>
+
+            <input type="hidden" name="client" value="pub-8472339862020162" />
+            <input type="hidden" name="forid" value="1" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <input type="hidden" name="oe" value="ISO-8859-1" />
+            <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:0;LW:0;L:http://www.html.net/site/gfx/logo.for.googlesearch.png;S:http://www.html.net;LP:1;FORID:11" />
+            <input type="hidden" name="hl" value="da" />
+            </div>
+    </form>
+<!-- SiteSearch Google -->
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>MI5 Persecution: Question and Answer 27/9/95 (2178...</span></div>
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+<!-- 
+var sc_project=1234240; 
+var sc_invisible=1; 
+var sc_partition=11; 
+var sc_security="2abf5711"; 
+var sc_remove_link=1; 
+//-->
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><img class="statcounter" src="http://c12.statcounter.com/counter.php?sc_project=1234240&amp;java=0&amp;security=2abf5711&amp;invisible=1" alt="hit counter" /></div></noscript>
+<!-- End of StatCounter Code -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-1093983-2";
+urchinTracker();
+</script>
+
+</body>
+</html>
+
+

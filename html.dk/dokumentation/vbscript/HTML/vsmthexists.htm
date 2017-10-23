@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Exists Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthexists"></A>Exists Method</H1>
+
+<P>Returns <B>True</B> if a specified key exists in the <B>Dictionary</B> object, <B>False</B> if it does not.</P>
+
+<P><CODE><I>object</I><B>.Exists(</B><I>key</I><B>)</B> </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>Dictionary</B> object.</P>
+
+<P class=dt><I>key</I></P>
+
+<P class=indent>Required. <I>Key</I> value being searched for in the <B>Dictionary</B> object.</P>
+
+<H4>Remarks</H4>
+
+<P>The following example illustrates use of the <B>Exists</B> method: </P>
+
+<PRE><CODE>Function KeyExistsDemo
+&nbsp;&nbsp;&nbsp;Dim d, msg&nbsp;&nbsp;&nbsp;' Create some variables.
+&nbsp;&nbsp;&nbsp;Set d = CreateObject("Scripting.Dictionary")
+&nbsp;&nbsp;&nbsp;d.Add "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some&nbsp;&nbsp;&nbsp;keys and items.
+&nbsp;&nbsp;&nbsp;d.Add "b", "Belgrade"
+&nbsp;&nbsp;&nbsp;d.Add "c", "Cairo"
+&nbsp;&nbsp;&nbsp;If <span class=cfe><B>d.Exists(</B></span>"c"<span class=cfe><B>)</B></span> Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg = "Specified key exists."
+&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg = "Specified key doesn't exist."
+&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;KeyExistsDemo = msg
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthadd.htm">Add Method (Dictionary)</A> | <A HREF="vsmthitems.htm">Items Method</A> | <A HREF="vsmthkeys.htm">Keys Method</A> | <A HREF="vsmthremove.htm">Remove Method</A> | <A HREF="vsmthremoveall.htm">RemoveAll Method</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,96 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Content Rotator Component</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_content_rotator_component"></a>Content Rotator Component</h1>
+<p>
+The Content Rotator component creates a <b>ContentRotator</b> object that automatically rotates HTML content strings on a Web page. Each time a user requests the Web page, the object displays a new HTML content string based upon information that you specify in a <a href="cont0mw5.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/cont0mw5.htm"><b>Content Schedule File</b></a>.</p>
+<p>
+Because the content strings can contain HTML tags, you can display any type of content that HTML can represent: text, images, or hyperlinks. For example, you can use this component to rotate through a list of daily quotations or hyperlinks, or to change text and background colors each time the Web page is opened.</p>
+<p>
+The following files are used by the Content Rotator component:</p>
+<table>
+<tr valign=top>
+<td>
+<b>FileNames</b></td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+controt.dll </td>
+<td>
+The Content Rotator component.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="cont0mw5.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/cont0mw5.htm"><b>Content Schedule File</b></a>&nbsp;&nbsp;</td>
+<td>
+A text file that contains the display schedule and file information for Web content. This file must be available on a Web server virtual path.</td>
+</tr>
+</table><br>
+<h3>Syntax</h3>
+<pre><b>&lt;% Set </b><i>oVar </i>=<b> Server.CreateObject(&quot;MSWC.ContentRotator&quot;) %&gt; 
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>oVar</i></dt>
+<dd>
+Specifies the name of the <b>ContentRotator</b> object created by the call to <b>Server.CreateObject</b>. </dd>
+</dl>
+<h3>Registry Entries</h3>
+<p>
+None. </p>
+<h3>Methods</h3>
+<table>
+<tr valign=top>
+<td>
+<a href="cont8r1w.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/cont8r1w.htm"><b>ChooseContent</b></a> &nbsp;&nbsp;</td>
+<td>
+Retrieves and displays a content string.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="cont6fzo.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/cont6fzo.htm"><b>GetAllContent</b></a>&nbsp;&nbsp;</td>
+<td>
+Retrieves and displays all the content strings in the Content Schedule file.</td>
+</tr>
+</table><br>
+<h3>Remarks</h3>
+<p>
+Because the <b>ContentRotator </b>object uses a random generator to select which of the weighted content strings is displayed, a string may be repeated. This is most likely to occur if there are few entries in the Content Schedule file, or if one entry is weighted much higher than the others.</p>
+<h3>Example</h3>
+<p>
+The following example displays a different tip of the day each time a user views the Web page. </p>
+<pre>&lt;% <BR>Set Tip = Server.CreateObject(&quot;MSWC.ContentRotator&quot;) <BR>Tip.ChooseContent(&quot;/tips/tiprot.txt&quot;) <BR>%&gt;  
+ </pre>
+<p>
+<b>Note</b>  This component is not installed with IIS. You can install it from the Microsoft Web site at: <a href="javascript:if(confirm('http://www.microsoft.com/iis/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.microsoft.com/iis/'" tppabs="http://www.microsoft.com/iis/"><b>http://www.microsoft.com/iis/</b></a>, or from the CD included with the IIS Resource Kit.</p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

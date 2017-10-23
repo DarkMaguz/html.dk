@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Delete Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthdelete"></A>Delete Method</H1>
+
+<P>Deletes a specified file or folder.</P>
+
+<P><CODE><I>object</I><B>.Delete</B> <I>force</I> </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>File</B> or <B>Folder</B> object.</P>
+
+<P class=dt><I>force</I></P>
+
+<P class=indent>Optional. Boolean value that is <B>True</B> if files or folders with the read-only attribute set are to be deleted; <B>False</B> (default) if they are not.</P>
+
+<H4>Remarks</H4>
+
+<P>An error occurs if the specified file or folder does not exist. The <B>Delete</B> method does not distinguish between folders that have contents and those that do not. The specified folder is deleted regardless of whether or not it has contents. </P>
+
+<P>The results of the <B>Delete</B> method on a <B>File</B> or <B>Folder</B> are identical to operations performed using <B>FileSystemObject.DeleteFile</B> or <B>FileSystemObject.DeleteFolder</B>. </P>
+
+<P>The following example illustrates use of the <B>Delete</B> method: </P>
+
+<PRE><CODE>Dim fso, MyFile
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set MyFile = fso.CreateTextFile("c:\testfile.txt", True)
+MyFile.WriteLine("This is a test.")
+MyFile.Close
+Set MyFile = fso.GetFile("c:\testfile.txt")
+MyFile.Delete </CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopy.htm">Copy Method</A> | <A HREF="vsmthdeletefile.htm">DeleteFile Method</A> | <A HREF="vsmthdeletefolder.htm">DeleteFolder Method</A> | <A HREF="vsmthmove.htm">Move Method</A> | <A HREF="vsmthopenastextstream.htm">OpenAsTextStream Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfile.htm">File Object</A> | <A HREF="vsobjfolder.htm">Folder Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

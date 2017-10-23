@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>WeekdayName Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctweekdayname"></A>WeekdayName Function</H1>
+
+<P>Returns a string indicating the specified day of the week.</P>
+
+<P><CODE><B>WeekdayName(</B>weekday<B>,</B> abbreviate<B>,</B> firstdayofweek<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>weekday</I></P>
+
+<P class=indent>Required. The numeric designation for the day of the week. Numeric value of each day depends on setting of the <I>firstdayofweek</I> setting.</P>
+
+<P class=dt><I>abbreviate</I></P>
+
+<P class=indent>Optional. Boolean value that indicates if the weekday name is to be abbreviated. If omitted, the default is <B>False</B>, which means that the weekday name is not abbreviated.</P>
+
+<P class=dt><I>firstdayofweek</I></P>
+
+<P class=indent>Optional. Numeric value indicating the first day of the week. See Settings section for values.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>firstdayofweek</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=26%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=63%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbUseSystem</TD>
+<TD width=11%>0</TD>
+<TD width=63%>Use National Language Support (NLS) API setting.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbSunday</TD>
+<TD width=11%>1</TD>
+<TD width=63%>Sunday (default)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbMonday</TD>
+<TD width=11%>2</TD>
+<TD width=63%>Monday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbTuesday</TD>
+<TD width=11%>3</TD>
+<TD width=63%>Tuesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbWednesday</TD>
+<TD width=11%>4</TD>
+<TD width=63%>Wednesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbThursday</TD>
+<TD width=11%>5</TD>
+<TD width=63%>Thursday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbFriday</TD>
+<TD width=11%>6</TD>
+<TD width=63%>Friday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbSaturday</TD>
+<TD width=11%>7</TD>
+<TD width=63%>Saturday</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>WeekDayName</B> function to return the specified day: </P>
+
+<PRE><CODE>Dim MyDate
+MyDate = <span class=cfe><B>WeekDayName(</B></span>6, True<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' MyDate contains Fri.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctmonthname.htm">MonthName Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

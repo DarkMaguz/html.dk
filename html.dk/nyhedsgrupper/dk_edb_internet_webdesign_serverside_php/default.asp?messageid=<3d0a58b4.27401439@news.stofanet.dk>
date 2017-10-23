@@ -1,0 +1,174 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Newbie: hvordan bruger jeg CHMOD</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.php skrevet af Niels Graverholt den 14. juni 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Newbie: hvordan bruger jeg CHMOD" />
+<meta name="language" content="dan" />
+<meta name="Date" content="14-06-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3d0a58b4%2E27401439%40news%2Estofanet%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Niels&nbsp;Graverholt&nbsp;&nbsp;<a href='mailto:ngr@mail.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='ngr@mail.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 14. juni 2002 kl. 22:59</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Newbie: hvordan bruger jeg CHMOD</strong></li></ul>
+
+<p><span class='normal'>Jeg pr&#248;ver igen </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg kan ikke finde ud af, hvordan jeg bruger CHMOD. Hvis jeg blot </span><br /><span class='normal'>bruger den som angivet p&#229; den webside, du n&#230;vner, s&#229; f&#229;r jeg en </span><br /><span class='normal'>FEJLMELDING.  </span><br /><span class='normal'> </span><br /><span class='normal'>Og det g&#248;r jeg ogs&#229;, n&#229;r jeg bruger TOUCH </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>S&#229; jeg m&#229; &#229;benbart bruge dem forkert. Det er det, jeg pr&#248;ver at f&#248; </span><br /><span class='normal'>hj&#230;lp til. IKke endnu flere referencer. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>On Fri, 14 Jun 2002 21:34:25 +0200, Regin Larsen &lt;<a href='http://newsspam@opia.dk'>newsspam@opia.dk</a>> </span><br /><span class='normal'>wrote: </span><br /><span class='normal'> </span><br /><span class='citat'>>Niels Graverholt wrote: </span><br /><span class='citat'>>> Og det skulle &#229;bne den i write mode, men man kan IKKE skrive i den. </span><br /><span class='citat'>>> Jeg har f&#229;et at vide, at jeg skal bruge CHMODE f&#248;r jeg kan skrive i </span><br /><span class='citat'>>> den. Og det er det, mit sp&#248;rgsm&#229;l drejer sig om: Hvordan bruger jeg </span><br /><span class='citat'>>> CHMODE </span><br /><span class='citat'>> </span><br /><span class='citat'>>Du kan l&#230;se om chmod p&#229; &lt;<a href='http://dk.php.net/chmod'>http://dk.php.net/chmod</a>> </span><br /><span class='citat'>> </span><br /><span class='citat'>>> Jeg kan ikke se, hvad touch har med det at g&#248;re.......?? </span><br /><span class='citat'>> </span><br /><span class='citat'>>Touch() kan oprette tomme filer. </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='citat'>>BTW, er der noget du ikke kan forst&#229; p&#229;  </span><br /><span class='citat'>>&lt;<a href='http://usenet.dk/netikette/citatteknik.html'>http://usenet.dk/netikette/citatteknik.html</a>>? </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='citat'>>--  </span><br /><span class='citat'>>Regin </span><br /><span class='citat'>> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a0455%2E5799405%40news%2Estofanet%2Edk%3E' title='Newbie: hvordan bruger jeg CHMOD'>Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cpan%2E2002%2E06%2E14%2E15%2E26%2E43%2E870057%2E26994%40phpguru%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Christian&nbsp;Joergensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a103f%2E8850494%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cpan%2E2002%2E06%2E14%2E16%2E31%2E03%2E89520%2E26994%40phpguru%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Christian&nbsp;Joergensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a1c53%2E11942214%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cpan%2E2002%2E06%2E14%2E17%2E18%2E56%2E262739%2E26994%40phpguru%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Christian&nbsp;Joergensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a2b81%2E15828810%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CEdqO8%2E43844%24N46%2E1649552%40news010%2Eworldonline%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a3e47%2E20636325%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CCerO8%2E44667%24N46%2E1660888%40news010%2Eworldonline%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a434b%2E21919790%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3D0A4541%2E6000106%40opia%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Regin&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a5416%2E26219786%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CXns922DEE9AAD4E8hstidsen%40212%2E54%2E64%2E149%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a6764%2E3063413%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caedplc%244qr%241%40sunsite%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Kristian&nbsp;Risager&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a6abe%2E3922037%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3D0A6C2C%2E4030600%40opia%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Regin&nbsp;Larsen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CXns922E6D48C16FAhstidsen%40212%2E54%2E64%2E149%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(15-06-02&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a58b4%2E27401439%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3D0A61CB%2E7040403%40opia%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Regin&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3d0a670b%2E2974972%40news%2Estofanet%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Niels&nbsp;Graverholt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3D0A6D86%2E9030807%40opia%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Regin&nbsp;Larsen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caedqfb%24ciu%241%40sunsite%2Edk%3E' title='Re: Newbie: hvordan bruger jeg CHMOD'>Re: Newbie: hvordan bruger jeg CHMOD</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Jakob&nbsp;Møbjerg&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3d0a58b4%2E27401439%40news%2Estofanet%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet.jpg' height="125" width="125" alt='Link til IT-Jobbank' /></a>
+<br />
+
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3c3d0a58b4.27401439@news.stofanet.dk%3e' method='post'><p class='pollheader'>Hvordan fandt du første gang HTML.dk?</p><div><input type='hidden' name='tst' value='02-07-02 08:01:45' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Søgemaskine /-index</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Link fra anden side</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Link i Nyhedsgruppe</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Anbefaling fra ven</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;Gennem undervisning</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Bannerreklame</small><br /><input type='radio' name='vote_id' value='7' /><small class='boxtext'>&nbsp;Andet</small><br /><input type='radio' name='vote_id' value='8' /><small class='boxtext'>&nbsp;Kan ikke huske</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Newbie: hvordan bruger jeg CHMOD</span></div>
+
+
+
+</body>
+</html>
+

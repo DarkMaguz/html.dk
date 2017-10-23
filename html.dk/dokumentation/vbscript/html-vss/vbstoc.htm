@@ -1,0 +1,1996 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>VBScript Language Reference</TITLE><LINK href="../HTML-vss/style.css" 
+rel=STYLESHEET type=text/css>
+<META content="VBScript language reference" name=MS-HKWD>
+<META content=contents name=MS-HKWD>
+<META content=VBSTOC name=MS-HAID>
+<META content="Language Reference" name=CATEGORY>
+<META content=EN-US name=MS.LOCALE>
+<META content="text/html; charset=iso8859-1" http-equiv=Content-Type>
+<META content="Visual Basic Scripting Edition" name=PRODUCT>
+<META content=SCRIPTING name=TECHNOLOGY>
+<META content="VBScript language reference; contents" name=Keywords>
+<META content="VBScript Language Reference" name=Description>
+<SCRIPT language=JavaScript>
+<!--
+function msieversion()
+{
+	var ua = window.navigator.userAgent;
+	var msie = ua.indexOf ( "MSIE " );
+	if ( msie > 0 )		// is Microsoft Internet Explorer; return version number
+		return parseInt ( ua.substring ( msie+5, ua.indexOf ( ".", msie ) ) )
+	else
+		return 0	// is other browser
+}
+window.IEVersion = msieversion();
+
+
+// This part decides if it is IE4 then sends it to the correct page for it
+// Else sends it to the plane jane, stale cookie page.
+
+if (window.IEVersion < 4){
+  location.href = "../HTML-vss/VBSTOCAlt.htm"
+  }
+//-->
+</SCRIPT>
+
+<SCRIPT language=VBScript>
+<!--
+
+dim lastID
+lastId = 0
+
+sub Document_OnMouseOver() 
+	dim eSrc
+	set eSrc = window.event.srcElement 
+    if eSrc.className = "clsHeading" then
+		eSrc.style.color= "#0033CC" 
+	end if
+end sub	
+
+sub Document_OnMouseOut()
+    dim eSrc
+    set eSrc = window.event.srcElement 
+    if eSrc.className = "clsHeading" then 
+		eSrc.style.color= "#000000"
+	end if
+end sub
+	
+Sub document_onclick
+	
+	set eTempElement = window.event.srcElement
+	
+	if eTempElement.className = "clsHeading" then
+		dim strTemp,idNumber,eSrc
+		
+		set eSrc = window.event.srcElement.parentElement
+		strTemp = eTempElement.id
+		idNumber = right(strTemp,2)
+		
+		' Is the saved id the same as the id of the current element
+		' If it is then hide the associated blurb and display the contents
+		
+		if lastId = idNumber then
+			if window.document.all("idBlurb" & idNumber).style.display = "none" then
+				window.document.all("img" & idNumber).src = "blueminus.gif"
+				window.document.all("idBlurb" & idNumber).style.display = "block"
+				explanation.style.display = "none"	
+			else
+				window.document.all("img" & idNumber).src = "blueplus.gif"
+				window.document.all("idBlurb" & idNumber).style.display = "none"
+				explanation.style.display = "block"	
+			end if	
+		else
+			if lastId <> 0 then
+				window.document.all("img" & lastId).src = "blueplus.gif"
+				window.document.all("idBlurb" & lastId).style.display = "none"
+			end if	
+			window.document.all("img" & idNumber).src = "blueminus.gif"
+			explanation.style.display = "none"
+			window.document.all("idBlurb" & idNumber).style.display = "block"
+		end if
+		lastId=idNumber
+	end if	
+end sub
+-->
+</SCRIPT>
+
+<META content="MSHTML 5.00.2920.0" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff leftMargin=20 link=#0033cc text=#000000 topMargin=0 
+vLink=#666666>
+<P><FONT face="Verdana, Arial, Helvetica" size=2>
+<BR>
+Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition
+<BR>
+
+<HR>
+<BR>
+<H3>VBScript Language Reference</FONT> </H3>
+
+<TABLE border=0 cellPadding=0 cellSpacing=0 class=clsMainTable height="100%" 
+width="100%">
+  <TBODY>
+  <TR>
+    <TD class=clsMainTable height="100%" id=Main vAlign=top width="30%">
+      <DIV>
+      <B>
+<P class=clsHeading id=heading01 
+      title="Click to see the Feature Information list"><IMG class=clsHeading 
+      height=23 id=img01 src="blueplus.gif" width=18>&nbsp;Feature Information</P>
+      <P class=clsHeading id=heading02 
+      title="Click to see the Alphabetic Keyword list"><IMG class=clsHeading 
+      height=23 id=img02 src="blueplus.gif" 
+      width=18>&nbsp;Alphabetic Keyword List</P>
+      <P class=clsHeading id=heading03 
+      title="Click to see the Constants list"><IMG class=clsHeading height=23 
+      id=img03 src="blueplus.gif" width=18>&nbsp;Constants</P>
+      <P class=clsHeading id=heading11 title="Click to see the Errors list"><IMG 
+      class=clsHeading height=23 id=img11 src="blueplus.gif" 
+      width=18>&nbsp;Errors</P>
+      <P class=clsHeading id=heading04 title="Click to see the Events list"><IMG 
+      class=clsHeading height=23 id=img04 src="blueplus.gif" 
+      width=18>&nbsp;Events</P>
+      <P class=clsHeading id=heading05 
+      title="Click to see the Functions list"><IMG class=clsHeading height=23 
+      id=img05 src="blueplus.gif" width=18>&nbsp;Functions</P>
+      <P class=clsHeading id=heading06 
+      title="Click to see the Methods list"><IMG class=clsHeading height=23 
+      id=img06 src="blueplus.gif" width=18>&nbsp;Methods</P>
+      <P class=clsHeading id=heading07 
+      title="Click to see the Objects list"><IMG class=clsHeading height=23 
+      id=img07 src="blueplus.gif" width=18>&nbsp;Objects</P>
+      <P class=clsHeading id=heading08 
+      title="Click to see the Operators list"><IMG class=clsHeading height=23 
+      id=img08 src="blueplus.gif" width=18>&nbsp;Operators</P>
+      <P class=clsHeading id=heading09 
+      title="Click to see the Properties list"><IMG class=clsHeading height=23 
+      id=img09 src="blueplus.gif" width=18>&nbsp;Properties</P>
+      <P class=clsHeading id=heading10 
+      title="Click to see the Statements list"><IMG class=clsHeading height=23 
+      id=img10 src="blueplus.gif" 
+      width=18>&nbsp;Statements</P></B></DIV></TD>
+    <TD class=clsMainTable height="100%" id=Contents vAlign=top width="60%">
+      <DIV id=explanation style="BACKGROUND-COLOR: #eeeeee">&nbsp;
+      <P>
+      <CENTER><B>Welcome to the VBScript Language Reference</B></CENTER>
+      <P>
+      <BLOCKQUOTE>This information will help you explore the many different parts of VBScript.<P>
+
+Each part of the VBScript language is listed alphabetically under the Alphabetic Keyword List. If you want to examine just one category, say, objects, just click on the objects heading, and you will only see VBScript objects.<P>
+Click on a heading to the left to display a list of items contained in that category. From this list, select the topic that you want to view. Once you have opened a topic, you can easily link to other related sections.<P>
+
+Feel free to navigate through the various parts that make up VBScript Language Reference, and see just how versatile the VBScript language can be. </P></BLOCKQUOTE><BR></DIV>
+      <DIV id=idBlurb01 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Features</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vtoriVersionInformation.htm">Version 
+            Information</A><BR></TD>
+          <TD>List of VBScript versions by host application and list of 
+            features by version.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsgrpFeatures.htm">VBScript 
+            Features</A><BR></TD>
+          <TD>List of features currently in VBScript.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsgrpNonFeatures.htm">VBA 
+            Features not in VBScript</A><BR></TD>
+          <TD>List of features currently in Visual Basic: Applications Edition 
+            but not in VBScript.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsgrpVBSFeatures.htm">VBScript 
+            Features not in VBA</A></TD>
+          <TD>List of features in VBScript that are not in Visual Basic: 
+            Applications Edition.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsgrpruntimefeatures.htm">Microsoft 
+            Scripting Run-Time Features</A></TD>
+          <TD>List of scripting run-time features currently in 
+        VBScript.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb02 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctAbs.htm">Abs 
+            Function</A></TD>
+          <TD>Returns the absolute value of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprAdd.htm">Addition 
+            Operator (+)</A></TD>
+          <TD>Sums two numbers.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprAnd.htm">And 
+            Operator</A></TD>
+          <TD>Performs a logical conjunction on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctArray.htm">Array 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> containing an array. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctAsc.htm">Asc 
+            Function</A></TD>
+          <TD>Returns the ANSI character code corresponding to the first 
+            letter in a string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprAssignment.htm">Assignment 
+            Operator (=)</A></TD>
+          <TD>Assigns a value to a variable or property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctAtn.htm">Atn 
+            Function</A></TD>
+          <TD>Returns the arctangent of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmCall.htm">Call 
+            Statement</A></TD>
+          <TD>Transfers control to a <B>Sub</B> or <B>Function</B> 
+          procedure.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCBool.htm">CBool 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Boolean</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCByte.htm">CByte 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Byte</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCCur.htm">CCur 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Currency</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCDate.htm">CDate 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Date</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCDbl.htm">CDbl 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Double</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctChr.htm">Chr 
+            Function</A></TD>
+          <TD>Returns the character associated with the specified ANSI 
+            character code.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCInt.htm">CInt 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Integer</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjClass.htm">Class 
+            Object</A></TD>
+          <TD>Provides access to the events of a created class.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmClass.htm">Class 
+            Statement</A></TD>
+          <TD>Declares the name of a class.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthClear.htm">Clear 
+            Method</A></TD>
+          <TD>Clears all property settings of the <B>Err</B> object. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCLng.htm">CLng 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Long</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconColor.htm">Color 
+            Constants</A></TD>
+          <TD>List of color constants.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconCompare.htm">Comparison 
+            Constants</A></TD>
+          <TD>List of constants used in comparison operations.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprConcatenation.htm">Concatenation 
+            Operator (&amp;)</A> </TD>
+          <TD>Forces string concatenation of two expressions. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmConst.htm">Const 
+            Statement</A></TD>
+          <TD>Declares constants for use in place of literal values. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCos.htm">Cos 
+            Function</A></TD>
+          <TD>Returns the cosine of an angle.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctCreateObject.htm">CreateObject 
+            Function</A></TD>
+          <TD>Creates and returns a reference to an Automation object.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCSng.htm">CSng 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Single</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCstr.htm">CStr 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>String</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconDateTime.htm">Date and 
+            Time Constants</A></TD>
+          <TD>List of constants defining days of week and other constants used 
+            in Date and Time operations.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconDateFormat.htm">Date 
+            Format Constants</A></TD>
+          <TD>List of constants used to format dates and times.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDate.htm">Date 
+            Function</A></TD>
+          <TD>Returns the current system date.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDateAdd.htm">DateAdd 
+            Function</A></TD>
+          <TD>Returns a date to which a specified time interval has been 
+            added. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDateDiff.htm">DateDiff 
+            Function</A></TD>
+          <TD>Returns the number of intervals between two dates. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDatePart.htm">DatePart 
+            Function</A></TD>
+          <TD>Returns the specified part of a given date.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctDateSerial.htm">DateSerial 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B> for a specified 
+            year, month, and day.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctDateValue.htm">DateValue 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDay.htm">Day 
+            Function</A></TD>
+          <TD>Returns a whole number between 1 and 31, inclusive, representing 
+            the day of the month.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproDescription.htm">Description 
+            Property</A></TD>
+          <TD>Returns or sets a descriptive string associated with an 
+        error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjdictionary.htm">Dictionary 
+            Object</A></TD>
+          <TD>Object that stores data key, item pairs.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmDim.htm">Dim 
+            Statement</A></TD>
+          <TD>Declares variables and allocates storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprDivide.htm">Division 
+            Operator (/)</A></TD>
+          <TD>Divides two numbers and returns a floating-point result.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmDo.htm">Do...Loop 
+            Statement</A></TD>
+          <TD>Repeats a block of statements while a condition is <B>True</B> 
+            or until a condition becomes <B>True</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vskeyEmpty.htm">Empty</A></TD>
+          <TD>Indicates an uninitialized variable value.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprEqv.htm">Eqv 
+            Operator</A></TD>
+          <TD>Performs a logical equivalence on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmErase.htm">Erase 
+            Statement</A></TD>
+          <TD>Reinitializes the elements of fixed-size arrays and deallocates 
+            dynamic-array storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjErr.htm">Err 
+          Object</A></TD>
+          <TD>Contains information about run-time errors.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctEval.htm">Eval 
+            Function</A></TD>
+          <TD>Evaluates an expression and returns the result.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthExecute.htm">Execute 
+            Method</A></TD>
+          <TD>Executes a regular expression search against a specified 
+          string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmExecute.htm">Execute 
+            Statement</A></TD>
+          <TD>Executes one or more specified statements.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmExecuteGlobal.htm">ExecuteGlobal 
+            Statement</A></TD>
+          <TD>Executes one or more specified statements in the global 
+            namespace of a script.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmExit.htm">Exit 
+            Statement</A></TD>
+          <TD>Exits a block of <B>Do...Loop</B>, <B>For...Next</B>, 
+            <B>Function</B>, or <B>Sub</B> code. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctExp.htm">Exp 
+            Function</A></TD>
+          <TD>Returns <I>e</I> (the base of natural logarithms) raised to a 
+            power.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprExponentiation.htm">Exponentiation 
+            Operator (^)</A></TD>
+          <TD>Raises a number to the power of an exponent.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vskeyFalse.htm">False</A></TD>
+          <TD>Keyword that has a value equal to zero.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsobjfilesystem.htm">FileSystemObject 
+            Object</A></TD>
+          <TD>Provides access to a computer's file system. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctFilter.htm">Filter 
+            Function</A></TD>
+          <TD>Returns a zero-based array containing a subset of a string array 
+            based on a specified filter criteria. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproFirstIndex.htm">FirstIndex 
+            Property</A></TD>
+          <TD>Returns the position in a search string where a match 
+        occurs.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInt.htm">Fix 
+            Function</A></TD>
+          <TD>Returns the integer portion of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmFor.htm">For...Next 
+            Statement</A></TD>
+          <TD>Repeats a group of statements a specified number of times.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmForEach.htm">For 
+            Each...Next Statement</A></TD>
+          <TD>Repeats a group of statements for each element in an array or 
+            collection.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatCurrency.htm">FormatCurrency 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a currency value using the 
+            currency symbol defined in the system control panel. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatDateTime.htm">FormatDateTime 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a date or time. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatNumber.htm">FormatNumber 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a number. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatPercent.htm">FormatPercent 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a percentage (multiplied by 
+            100) with a trailing % character. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmFunction.htm">Function 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Function</B> procedure.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctGetLocale.htm">GetLocale 
+            Function</A></TD>
+          <TD>Returns the current locale ID value.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctGetObject.htm">GetObject 
+            Function</A></TD>
+          <TD>Returns a reference to an Automation object from a file.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctGetRef.htm">GetRef 
+            Function</A></TD>
+          <TD>Returns a reference to a procedure that can be bound to an 
+          event.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproGlobal.htm">Global 
+            Property</A></TD>
+          <TD>Sets or returns a Boolean value.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctHex.htm">Hex 
+            Function</A></TD>
+          <TD>Returns a string representing the hexadecimal value of a 
+          number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproHelpContext.htm">HelpContext 
+            Property</A></TD>
+          <TD>Sets or returns a context ID for a topic in a Help File. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproHelpFile.htm">HelpFile 
+            Property</A></TD>
+          <TD>Sets or returns a fully qualified path to a Help File</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctHour.htm">Hour 
+            Function</A></TD>
+          <TD>Returns a whole number between 0 and 23, inclusive, representing 
+            the hour of the day. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmIf.htm">If...Then...Else 
+            Statement</A></TD>
+          <TD>Conditionally executes a group of statements, depending on the 
+            value of an expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproIgnoreCase.htm">IgnoreCase 
+            Property</A></TD>
+          <TD>Sets or returns a Boolean value that indicates if a pattern 
+            search is case-sensitive or not.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprImp.htm">Imp 
+            Operator</A></TD>
+          <TD>Performs a logical implication on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsevtInitialize.htm">Initialize 
+            Event</A><BR></TD>
+          <TD>Occurs when an instance of the associated class is 
+created.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInputBox.htm">InputBox 
+            Function</A></TD>
+          <TD>Displays a prompt in a dialog box, waits for the user to input 
+            text or click a button, and returns the contents of the text 
+        box.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInStr.htm">InStr 
+            Function</A></TD>
+          <TD>Returns the position of the first occurrence of one string 
+            within another.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInStrRev.htm">InStrRev 
+            Function</A></TD>
+          <TD>Returns the position of an occurrence of one string within 
+            another, from the end of string. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInt.htm">Int 
+            Function</A></TD>
+          <TD>Returns the integer portion of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprIntegerDivide.htm">Integer 
+            Division Operator (\)</A></TD>
+          <TD>Divides two numbers and returns an integer result.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprIs.htm">Is 
+          Operator</A></TD>
+          <TD>Compares two object reference variables.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsArray.htm">IsArray 
+            Function</A></TD>
+          <TD>Returns a Boolean value indicating whether a variable is an 
+            array.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsDate.htm">IsDate 
+            Function</A></TD>
+          <TD>Returns a Boolean value indicating whether an expression can be 
+            converted to a date.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsEmpty.htm">IsEmpty 
+            Function</A></TD>
+          <TD>Returns a Boolean value indicating whether a variable has been 
+            initialized.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsNull.htm">IsNull 
+            Function</A></TD>
+          <TD>Returns a Boolean value that indicates whether an expression 
+            contains no valid data (<B>Null</B>).</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctIsNumeric.htm">IsNumeric 
+            Function</A></TD>
+          <TD>Returns a Boolean value indicating whether an expression can be 
+            evaluated as a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsObject.htm">IsObject 
+            Function</A></TD>
+          <TD>Returns a Boolean value indicating whether an expression 
+            references a valid Automation object.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctJoin.htm">Join 
+            Function</A></TD>
+          <TD>Returns a string created by joining a number of substrings 
+            contained in an array. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLBound.htm">LBound 
+            Function</A></TD>
+          <TD>Returns the smallest available subscript for the indicated 
+            dimension of an array.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLCase.htm">LCase 
+            Function</A></TD>
+          <TD>Returns a string that has been converted to lowercase.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmscLCID.htm">Locale ID 
+            (LCID) Chart</A></TD>
+          <TD>List of Locale ID's and their associated values.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLeft.htm">Left 
+            Function</A></TD>
+          <TD>Returns a specified number of characters from the left side of a 
+            string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLen.htm">Len 
+            Function</A></TD>
+          <TD>Returns the number of characters in a string or the number of 
+            bytes required to store a variable. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproLength.htm">Length 
+            Property</A></TD>
+          <TD>Returns the length of a match found in a search string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctLoadPicture.htm">LoadPicture 
+            Function</A></TD>
+          <TD>Returns a picture object. Available only on 32-bit 
+        platforms.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLog.htm">Log 
+            Function</A></TD>
+          <TD>Returns the natural logarithm of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLTrim.htm">LTrim 
+            Function</A></TD>
+          <TD>Returns a copy of a string without leading spaces.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjMatch.htm">Match 
+            Object</A></TD>
+          <TD>Provides access to the read-only properties of a regular 
+            expression match.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vscolMatches.htm">Matches 
+            Collection</A></TD>
+          <TD>Collection of regular expression <B>Match</B> objects.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMid.htm">Mid 
+            Function</A></TD>
+          <TD>Returns a specified number of characters from a string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMinute.htm">Minute 
+            Function</A></TD>
+          <TD>Returns a whole number between 0 and 59, inclusive, representing 
+            the minute of the hour.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconMisc.htm">Miscellaneous 
+            Constants</A></TD>
+          <TD>List of constants that don't fit into any other category.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprMod.htm">Mod 
+            Operator</A></TD>
+          <TD>Divides two numbers and returns only the remainder.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMonth.htm">Month 
+            Function</A></TD>
+          <TD>Returns a whole number between 1 and 12, inclusive, representing 
+            the month of the year.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctMonthName.htm">MonthName 
+            Function</A></TD>
+          <TD>Returns a string indicating the specified month.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconMsgBox.htm">MsgBox 
+            Constants</A></TD>
+          <TD>List of constants used with the <B>MsgBox</B> Function.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMsgBox.htm">MsgBox 
+            Function</A></TD>
+          <TD>Displays a message in a dialog box, waits for the user to click 
+            a button, and returns a value indicating which button the user 
+            clicked. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprMultiply.htm">Multiplication 
+            Operator (*)</A></TD>
+          <TD>Multiplies two numbers. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprSubtract.htm">Negation 
+            Operator (-)</A></TD>
+          <TD>Indicates the negative value of a numeric expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprNot.htm">Not 
+            Operator</A></TD>
+          <TD>Performs logical negation on an expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctNow.htm">Now 
+            Function</A></TD>
+          <TD>Returns the current date and time according to the setting of 
+            your computer's system date and time. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+          href="../HTML/vskeyNothing.htm">Nothing</A></TD>
+          <TD>Disassociates an object variable from any actual object. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vskeyNull.htm">Null</A></TD>
+          <TD>Indicates that a variable contains no valid data. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproNumber.htm">Number 
+            Property</A></TD>
+          <TD>Returns or sets a numeric value specifying an error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctOct.htm">Oct 
+            Function</A></TD>
+          <TD>Returns a string representing the octal value of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmOnError.htm">On Error 
+            Statement</A></TD>
+          <TD>Enables error-handling.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsgrpOperatorPrecedence.htm">Operator 
+            Precedence</A></TD>
+          <TD>List showing the order of precedence for various operators used 
+            in VBScript.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmOptionExplicit.htm">Option 
+            Explicit Statement</A></TD>
+          <TD>Forces explicit declaration of all variables in a script. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprOr.htm">Or 
+          Operator</A></TD>
+          <TD>Performs a logical disjunction on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproPattern.htm">Pattern 
+            Property</A></TD>
+          <TD>Sets or returns the regular expression pattern being searched 
+            for.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmPrivate.htm">Private 
+            Statement</A></TD>
+          <TD>Declares private variables and allocates storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmPropertyGet.htm">PropertyGet 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Property</B> procedure that gets (returns) the value of a 
+            property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmPropertyLet.htm">PropertyLet 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Property</B> procedure that assigns the value of a 
+property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmPropertySet.htm">PropertySet 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Property</B> procedure that sets a reference to an object.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmPublic.htm">Public 
+            Statement</A></TD>
+          <TD>Declares public variables and allocates storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthRaise.htm">Raise 
+            Method</A></TD>
+          <TD>Generates a run-time error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmRandomize.htm">Randomize 
+            Statement</A></TD>
+          <TD>Initializes the random-number generator.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmReDim.htm">ReDim 
+            Statement</A></TD>
+          <TD>Declares dynamic-array variables, and allocates or reallocates 
+            storage space at procedure level.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjRegExp.htm">RegExp 
+            Object</A></TD>
+          <TD>Provides simple regular expression support.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmRem.htm">Rem 
+            Statement</A></TD>
+          <TD>Includes explanatory remarks in a program.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctReplace.htm">Replace 
+            Function</A></TD>
+          <TD>Returns a string in which a specified substring has been 
+            replaced with another substring a specified number of times.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthReplace.htm">Replace 
+            Method</A></TD>
+          <TD>Replaces text found in a regular expression search.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRGB.htm">RGB 
+            Function</A></TD>
+          <TD>Returns a whole number representing an RGB color value.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRight.htm">Right 
+            Function</A></TD>
+          <TD>Returns a specified number of characters from the right side of 
+            a string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRnd.htm">Rnd 
+            Function</A></TD>
+          <TD>Returns a random number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRound.htm">Round 
+            Function</A></TD>
+          <TD>Returns a number rounded to a specified number of decimal 
+          places.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsmscRunTimeErrors.htm">Run-time 
+            Errors</A></TD>
+          <TD>List VBScript run-time errors.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLTrim.htm">RTrim 
+            Function</A></TD>
+          <TD>Returns a copy of a string without trailing spaces. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngine.htm">ScriptEngine 
+            Function</A></TD>
+          <TD>Returns a string representing the scripting language in 
+        use.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngineBuildVersion.htm">ScriptEngineBuildVersion 
+            Function</A></TD>
+          <TD>Returns the build version number of the scripting engine in 
+          use.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngineMajorVersion.htm">ScriptEngineMajorVersion 
+            Function</A></TD>
+          <TD>Returns the major version number of the scripting engine in 
+          use.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngineMinorVersion.htm">ScriptEngineMinorVersion 
+            Function</A></TD>
+          <TD>Returns the minor version number of the scripting engine in use. 
+          </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSecond.htm">Second 
+            Function</A></TD>
+          <TD>Returns a whole number between 0 and 59, inclusive, representing 
+            the second of the minute.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmSelectCase.htm">Select 
+            Case Statement</A></TD>
+          <TD>Executes one of several groups of statements, depending on the 
+            value of an expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmSet.htm">Set 
+            Statement</A></TD>
+          <TD>Assigns an object reference to a variable or property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctSetLocale.htm">SetLocale 
+            Function</A></TD>
+          <TD>Sets the global locale and returns the previous locale.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSgn.htm">Sgn 
+            Function</A></TD>
+          <TD>Returns an integer indicating the sign of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSin.htm">Sin 
+            Function</A></TD>
+          <TD>Returns the sine of an angle.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproSource.htm">Source 
+            Property</A></TD>
+          <TD>Returns or sets the name of the object or application that 
+            originally generated the error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSpace.htm">Space 
+            Function</A></TD>
+          <TD>Returns a string consisting of the specified number of 
+        spaces.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSplit.htm">Split 
+            Function</A></TD>
+          <TD>Returns a zero-based, one-dimensional array containing a 
+            specified number of substrings.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSqr.htm">Sqr 
+            Function</A></TD>
+          <TD>Returns the square root of a number. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctStrComp.htm">StrComp 
+            Function</A></TD>
+          <TD>Returns a value indicating the result of a string comparison. 
+        </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconString.htm">String 
+            Constants</A></TD>
+          <TD>List of string constants.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctString.htm">String 
+            Function</A></TD>
+          <TD>Returns a repeating character string of the length 
+        specified.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctStrReverse.htm">StrReverse 
+            Function</A></TD>
+          <TD>Returns a string in which the character order of a specified 
+            string is reversed.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmSub.htm">Sub 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Sub</B> procedure.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprSubtract.htm">Subtraction 
+            Operator (-)</A></TD>
+          <TD>Finds the difference between two numbers or indicates the 
+            negative value of a numeric expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsmscSyntaxErrors.htm">Syntax 
+            Errors</A></TD>
+          <TD>List VBScript syntax errors.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTan.htm">Tan 
+            Function</A></TD>
+          <TD>Returns the tangent of an angle.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsevtTerminate.htm">Terminate 
+            Event</A><BR></TD>
+          <TD>Occurs when an instance of the associated class is 
+        terminated.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthTest.htm">Test 
+            Method</A></TD>
+          <TD>Executes a regular expression search against a specified 
+          string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTime.htm">Time 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B> indicating the 
+            current system time.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTimer.htm">Timer 
+            Function</A></TD>
+          <TD>Returns the number of seconds that have elapsed since 12:00 AM 
+            (midnight).</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctTimeSerial.htm">TimeSerial 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B> containing the 
+            time for a specific hour, minute, and second.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctTimeValue.htm">TimeValue 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B> containing the 
+            time.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLTrim.htm">Trim 
+            Function</A></TD>
+          <TD>Returns a copy of a string without leading or trailing 
+        spaces.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconTriState.htm">Tristate 
+            Constants</A></TD>
+          <TD>Use them anywhere in your code to represent the values shown for 
+            each.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vskeyTrue.htm">True</A></TD>
+          <TD>Keyword that has a value equal to -1.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTypeName.htm">TypeName 
+            Function</A></TD>
+          <TD>Returns a string that provides <B>Variant</B> subtype 
+            information about a variable.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctUBound.htm">UBound 
+            Function</A></TD>
+          <TD>Returns the largest available subscript for the indicated 
+            dimension of an array.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctUcase.htm">UCase 
+            Function</A></TD>
+          <TD>Returns a string that has been converted to uppercase.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproValue.htm">Value 
+            Property</A></TD>
+          <TD>Returns the value or text of a match found in a search 
+        string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconVarType.htm">VarType 
+            Constants</A></TD>
+          <TD>List of constants that define <B>Variant</B> subtypes.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctVarType.htm">VarType 
+            Function</A></TD>
+          <TD>Returns a value indicating the subtype of a variable.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconVBScript.htm">VBScript 
+            Constants</A></TD>
+          <TD>Various categories of constants provided in VBScript.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctWeekday.htm">Weekday 
+            Function</A></TD>
+          <TD>Returns a whole number representing the day of the week.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctWeekdayName.htm">WeekdayName 
+            Function</A></TD>
+          <TD>Returns a string indicating the specified day of the week.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmWhile.htm">While...Wend 
+            Statement</A></TD>
+          <TD>Executes a series of statements as long as a given condition is 
+            <B>True</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmWith.htm">With 
+            Statement</A></TD>
+          <TD>Executes a series of statements on a single object.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprXor.htm">Xor 
+            Operator</A></TD>
+          <TD>Performs a logical exclusion on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctYear.htm">Year 
+            Function</A></TD>
+          <TD>Returns a whole number representing the 
+      year.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb03 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconColor.htm">Color 
+            Constants</A></TD>
+          <TD>List of color constants.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconCompare.htm">Comparison 
+            Constants</A></TD>
+          <TD>List of constants used in comparison operations.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconDateTime.htm">Date and 
+            Time Constants</A></TD>
+          <TD>List of constants defining days of week and other constants used 
+            in Date and Time operations.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconDateFormat.htm">Date 
+            Format Constants</A></TD>
+          <TD>List of constants used to format dates and times.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmscLCID.htm">Locale ID 
+            (LCID) Chart</A></TD>
+          <TD>List of Locale ID's and their associated values.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconMisc.htm">Miscellaneous 
+            Constants</A></TD>
+          <TD>List of constants that don't fit into any other category.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconMsgBox.htm">MsgBox 
+            Constants</A></TD>
+          <TD>List of constants used with the <B>MsgBox</B> Function.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconString.htm">String 
+            Constants</A></TD>
+          <TD>List of string constants.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconTriState.htm">Tristate 
+            Constants</A></TD>
+          <TD>Use them anywhere in your code to represent the values shown for 
+            each.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconVarType.htm">VarType 
+            Constants</A></TD>
+          <TD>List of constants that define <B>Variant</B> subtypes.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsconVBScript.htm">VBScript 
+            Constants</A></TD>
+          <TD>Various categories of constants provided in 
+        VBScript.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb11 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Errors</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsmscRunTimeErrors.htm">Run-time 
+            Errors</A><BR></TD>
+          <TD>List of VBScript run-time errors.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsmscSyntaxErrors.htm">Syntax 
+            Errors</A><BR></TD>
+          <TD>List of VBScript syntax errors.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb04 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsevtInitialize.htm">Initialize 
+            Event</A><BR></TD>
+          <TD>Occurs when an instance of the associated class is 
+created.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsevtTerminate.htm">Terminate 
+            Event</A><BR></TD>
+          <TD>Occurs when an instance of the associated class is 
+        terminated.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb05 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctAbs.htm">Abs 
+            Function</A></TD>
+          <TD>Returns the absolute value of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctArray.htm">Array 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> containing an array. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctAsc.htm">Asc 
+            Function</A></TD>
+          <TD>Returns the ANSI character code corresponding to the first 
+            letter in a string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctAtn.htm">Atn 
+            Function</A></TD>
+          <TD>Returns the arctangent of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCBool.htm">CBool 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Boolean</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCByte.htm">CByte 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Byte</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCCur.htm">CCur 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Currency</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCDate.htm">CDate 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Date</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCDbl.htm">CDbl 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a <B>Variant of 
+            subtype </B>Double.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctChr.htm">Chr 
+            Function</A></TD>
+          <TD>Returns the character associated with the specified ANSI 
+            character code.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCInt.htm">CInt 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Integer</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCLng.htm">CLng 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Long</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCos.htm">Cos 
+            Function</A></TD>
+          <TD>Returns the cosine of an angle.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctCreateObject.htm">CreateObject 
+            Function</A></TD>
+          <TD>Creates and returns a reference to an Automation object.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCSng.htm">CSng 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>Single</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctCstr.htm">CStr 
+            Function</A></TD>
+          <TD>Returns an expression that has been converted to a 
+            <B>Variant</B> of subtype <B>String</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDate.htm">Date 
+            Function</A></TD>
+          <TD>Returns the current system date.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDateAdd.htm">DateAdd 
+            Function</A></TD>
+          <TD>Returns a date to which a specified time interval has been 
+            added. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDateDiff.htm">DateDiff 
+            Function</A></TD>
+          <TD>Returns the number of intervals between two dates. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDatePart.htm">DatePart 
+            Function</A></TD>
+          <TD>Returns the specified part of a given date.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctDateSerial.htm">DateSerial 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B> for a specified 
+            year, month, and day.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctDateValue.htm">DateValue 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctDay.htm">Day 
+            Function</A></TD>
+          <TD>Returns a whole number between 1 and 31, inclusive, representing 
+            the day of the month.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctEval.htm">Eval 
+            Function</A></TD>
+          <TD>Evaluates an expression and returns the result.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctExp.htm">Exp 
+            Function</A></TD>
+          <TD>Returns <I>e</I> (the base of natural logarithms) raised to a 
+            power.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctFilter.htm">Filter 
+            Function</A></TD>
+          <TD>Returns a zero-based array containing subset of a string array 
+            based on a specified filter criteria. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInt.htm">Fix 
+            Function</A></TD>
+          <TD>Returns the integer portion of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatCurrency.htm">FormatCurrency 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a currency value using the 
+            currency symbol defined in the system control panel.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatDateTime.htm">FormatDateTime 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a date or time. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatNumber.htm">FormatNumber 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a number. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctFormatPercent.htm">FormatPercent 
+            Function</A></TD>
+          <TD>Returns an expression formatted as a percentage (multiplied by 
+            100) with a trailing % character. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctGetLocale.htm">GetLocale 
+            Function</A></TD>
+          <TD>Returns the current locale ID value.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctGetObject.htm">GetObject 
+            Function</A></TD>
+          <TD>Returns a reference to an Automation object from a file.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctGetRef.htm">GetRef 
+            Function</A></TD>
+          <TD>Returns a reference to a procedure that can be bound to an 
+          event.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctHex.htm">Hex 
+            Function</A></TD>
+          <TD>Returns a string representing the hexadecimal value of a 
+          number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctHour.htm">Hour 
+            Function</A></TD>
+          <TD>Returns a whole number between 0 and 23, inclusive, representing 
+            the hour of the day. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInputBox.htm">InputBox 
+            Function</A></TD>
+          <TD>Displays a prompt in a dialog box, waits for the user to input 
+            text or click a button, and returns the contents of the text 
+        box.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInStr.htm">InStr 
+            Function</A></TD>
+          <TD>Returns the position of the first occurrence of one string 
+            within another.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInStrRev.htm">InStrRev 
+            Function</A></TD>
+          <TD>Returns the position of an occurrence of one string within 
+            another, from the end of string. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctInt.htm">Int 
+            Function</A></TD>
+          <TD>Returns the integer portion of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsArray.htm">IsArray 
+            Function</A></TD>
+          <TD>Returns a <B>Boolean</B> value indicating whether a variable is 
+            an array.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsDate.htm">IsDate 
+            Function</A></TD>
+          <TD>Returns a <B>Boolean</B> value indicating whether an expression 
+            can be converted to a date.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsEmpty.htm">IsEmpty 
+            Function</A></TD>
+          <TD>Returns a <B>Boolean</B> value indicating whether a variable has 
+            been initialized.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsNull.htm">IsNull 
+            Function</A></TD>
+          <TD>Returns a <B>Boolean</B> value that indicates whether an 
+            expression contains no valid data (<B>Null</B>).</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctIsNumeric.htm">IsNumeric 
+            Function</A></TD>
+          <TD>Returns a <B>Boolean</B> value indicating whether an expression 
+            can be evaluated as a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctIsObject.htm">IsObject 
+            Function</A></TD>
+          <TD>Returns a <B>Boolean</B> value indicating whether an expression 
+            references a valid Automation object.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctJoin.htm">Join 
+            Function</A></TD>
+          <TD>Returns a string created by joining a number of substrings 
+            contained in an array. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLBound.htm">LBound 
+            Function</A></TD>
+          <TD>Returns the smallest available subscript for the indicated 
+            dimension of an array.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLCase.htm">LCase 
+            Function</A></TD>
+          <TD>Returns a string that has been converted to lowercase.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLeft.htm">Left 
+            Function</A></TD>
+          <TD>Returns a specified number of characters from the left side of a 
+            string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLen.htm">Len 
+            Function</A></TD>
+          <TD>Returns the number of characters in a string or the number of 
+            bytes required to store a variable. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctLoadPicture.htm">LoadPicture 
+            Function</A></TD>
+          <TD>Returns a picture object. Available only on 32-bit 
+        platforms.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLog.htm">Log 
+            Function</A></TD>
+          <TD>Returns the natural logarithm of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLTrim.htm">LTrim 
+            Function</A></TD>
+          <TD>Returns a copy of a string without leading spaces.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMid.htm">Mid 
+            Function</A></TD>
+          <TD>Returns a specified number of characters from a string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMinute.htm">Minute 
+            Function</A></TD>
+          <TD>Returns a whole number between 0 and 59, inclusive, representing 
+            the minute of the hour.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMonth.htm">Month 
+            Function</A></TD>
+          <TD>Returns a whole number between 1 and 12, inclusive, representing 
+            the month of the year.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctMonthName.htm">MonthName 
+            Function</A></TD>
+          <TD>Returns a string indicating the specified month. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctMsgBox.htm">MsgBox 
+            Function</A></TD>
+          <TD>Displays a message in a dialog box, waits for the user to click 
+            a button, and returns a value indicating which button the user 
+            clicked. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctNow.htm">Now 
+            Function</A></TD>
+          <TD>Returns the current date and time according to the setting of 
+            your computer's system date and time. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctOct.htm">Oct 
+            Function</A></TD>
+          <TD>Returns a string representing the octal value of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctReplace.htm">Replace 
+            Function</A></TD>
+          <TD>Returns a string in which a specified substring has been 
+            replaced with another substring a specified number of times.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRGB.htm">RGB 
+            Function</A></TD>
+          <TD>Returns a whole number representing an RGB color value. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRight.htm">Right 
+            Function</A></TD>
+          <TD>Returns a specified number of characters from the right side of 
+            a string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRnd.htm">Rnd 
+            Function</A></TD>
+          <TD>Returns a random number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctRound.htm">Round 
+            Function</A></TD>
+          <TD>Returns a number rounded to a specified number of decimal 
+          places.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLTrim.htm">RTrim 
+            Function</A></TD>
+          <TD>Returns a copy of a string without trailing spaces. </TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngine.htm">ScriptEngine 
+            Function</A></TD>
+          <TD>Returns a string representing the scripting language in 
+        use.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngineBuildVersion.htm">ScriptEngineBuildVersion 
+            Function</A></TD>
+          <TD>Returns the build version number of the scripting engine in 
+          use.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngineMajorVersion.htm">ScriptEngineMajorVersion 
+            Function</A></TD>
+          <TD>Returns the major version number of the scripting engine in 
+          use.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctScriptEngineMinorVersion.htm">ScriptEngineMinorVersion 
+            Function</A></TD>
+          <TD>Returns the minor version number of the scripting engine in 
+          use.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSecond.htm">Second 
+            Function</A></TD>
+          <TD>Returns a whole number between 0 and 59, inclusive, representing 
+            the second of the minute.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctSetLocale.htm">SetLocale 
+            Function</A></TD>
+          <TD>Sets the global locale and returns the previous locale.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSgn.htm">Sgn 
+            Function</A></TD>
+          <TD>Returns an integer indicating the sign of a number.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSin.htm">Sin 
+            Function</A></TD>
+          <TD>Returns the sine of an angle.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSpace.htm">Space 
+            Function</A></TD>
+          <TD>Returns a string consisting of the specified number of 
+        spaces.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSplit.htm">Split 
+            Function</A></TD>
+          <TD>Returns a zero-based, one-dimensional array containing a 
+            specified number of substrings.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctSqr.htm">Sqr 
+            Function</A></TD>
+          <TD>Returns the square root of a number. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctStrComp.htm">StrComp 
+            Function</A></TD>
+          <TD>Returns a value indicating the result of a string comparison. 
+        </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctString.htm">String 
+            Function</A></TD>
+          <TD>Returns a repeating character string of the length 
+        specified.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctStrReverse.htm">StrReverse 
+            Function</A></TD>
+          <TD>Returns a string in which the character order of a specified 
+            string is reversed.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTan.htm">Tan 
+            Function</A></TD>
+          <TD>Returns the tangent of an angle.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTime.htm">Time 
+            Function</A></TD>
+          <TD>Returns a Variant of subtype Date indicating the current system 
+            time.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTimer.htm">Timer 
+            Function</A></TD>
+          <TD>Returns the number of seconds that have elapsed since 12:00 AM 
+            (midnight).</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctTimeSerial.htm">TimeSerial 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B> containing the 
+            time for a specific hour, minute, and second.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctTimeValue.htm">TimeValue 
+            Function</A></TD>
+          <TD>Returns a <B>Variant</B> of subtype <B>Date</B> containing the 
+            time.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctLTrim.htm">Trim 
+            Function</A></TD>
+          <TD>Returns a copy of a string without leading or trailing 
+        spaces.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctTypeName.htm">TypeName 
+            Function</A></TD>
+          <TD>Returns a string that provides <B>Variant</B> subtype 
+            information about a variable.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctUBound.htm">UBound 
+            Function</A></TD>
+          <TD>Returns the largest available subscript for the indicated 
+            dimension of an array.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctUcase.htm">UCase 
+            Function</A></TD>
+          <TD>Returns a string that has been converted to uppercase.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctVarType.htm">VarType 
+            Function</A></TD>
+          <TD>Returns a value indicating the subtype of a variable.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctWeekday.htm">Weekday 
+            Function</A></TD>
+          <TD>Returns a whole number representing the day of the week.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsfctWeekdayName.htm">WeekdayName 
+            Function</A></TD>
+          <TD>Returns a string indicating the specified day of the week.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsfctYear.htm">Year 
+            Function</A></TD>
+          <TD>Returns a whole number representing the 
+      year.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb06 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthClear.htm">Clear 
+            Method</A></TD>
+          <TD>Clears all property settings of the <B>Err</B> object. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthExecute.htm">Execute 
+            Method</A></TD>
+          <TD>Executes a regular expression search against a specified 
+          string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthRaise.htm">Raise 
+            Method</A></TD>
+          <TD>Generates a run-time error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthReplace.htm">Replace 
+            Method</A></TD>
+          <TD>Replaces text found in a regular expression search.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsmthTest.htm">Test 
+            Method</A></TD>
+          <TD>Executes a regular expression search against a specified 
+          string.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb07 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjClass.htm">Class 
+            Object</A></TD>
+          <TD>Provides access to the events of a created class.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjdictionary.htm">Dictionary 
+            Object</A></TD>
+          <TD>Object that stores data key, item pairs.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjErr.htm">Err 
+          Object</A></TD>
+          <TD>Contains information about run-time errors.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsobjfilesystem.htm">FileSystemObject 
+            Object</A></TD>
+          <TD>Provides access to a computer's file system. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjMatch.htm">Match 
+            Object</A></TD>
+          <TD>Provides access to the read-only properties of a regular 
+            expression match.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vscolMatches.htm">Matches 
+            Collection</A></TD>
+          <TD>Collection of regular expression <B>Match</B> objects.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsobjRegExp.htm">RegExp 
+            Object</A></TD>
+          <TD>Provides simple regular expression 
+      support.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb08 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprAdd.htm">Addition 
+            Operator (+)</A></TD>
+          <TD>Sums two numbers.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprAnd.htm">And 
+            Operator</A></TD>
+          <TD>Performs a logical conjunction on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprAssignment.htm">Assignment 
+            Operator (=)</A></TD>
+          <TD>Assigns a value to a variable or property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprConcatenation.htm">Concatenation 
+            Operator (&amp;)</A> </TD>
+          <TD>Forces string concatenation of two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprDivide.htm">Division 
+            Operator (/)</A></TD>
+          <TD>Divides two numbers and returns a floating-point result.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprEqv.htm">Eqv 
+            Operator</A></TD>
+          <TD>Performs a logical equivalence on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprExponentiation.htm">Exponentiation 
+            Operator (^)</A></TD>
+          <TD>Raises a number to the power of an exponent.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprImp.htm">Imp 
+            Operator</A></TD>
+          <TD>Performs a logical implication on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprIntegerDivide.htm">Integer 
+            Division Operator (\)</A></TD>
+          <TD>Divides two numbers and returns an integer result.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprIs.htm">Is 
+          Operator</A></TD>
+          <TD>Compares two object reference variables.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprMod.htm">Mod 
+            Operator</A></TD>
+          <TD>Divides two numbers and returns only the remainder.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprMultiply.htm">Multiplication 
+            Operator (*)</A></TD>
+          <TD>Multiplies two numbers.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprSubtract.htm">Negation 
+            Operator (-)</A></TD>
+          <TD>Indicates the negative value of a numeric expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprNot.htm">Not 
+            Operator</A></TD>
+          <TD>Performs logical negation on an expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsgrpOperatorPrecedence.htm">Operator 
+            Precedence</A></TD>
+          <TD>List showing the order of precedence for various operators used 
+            in VBScript.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprOr.htm">Or 
+          Operator</A></TD>
+          <TD>Performs a logical disjunction on two expressions.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsoprSubtract.htm">Subtraction 
+            Operator (-)</A></TD>
+          <TD>Finds the difference between two numbers or indicates the 
+            negative value of a numeric expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsoprXor.htm">Xor 
+            Operator</A></TD>
+          <TD>Performs a logical exclusion on two 
+      expressions.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb09 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproDescription.htm">Description 
+            Property</A></TD>
+          <TD>Returns or sets a descriptive string associated with an 
+        error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproFirstIndex.htm">FirstIndex 
+            Property</A></TD>
+          <TD>Returns the position in a search string where a match 
+        occurs.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproGlobal.htm">Global 
+            Property</A></TD>
+          <TD>Sets or returns a Boolean value.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproHelpContext.htm">HelpContext 
+            Property</A></TD>
+          <TD>Sets or returns a context ID for a topic in a Help File. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproHelpFile.htm">HelpFile 
+            Property</A></TD>
+          <TD>Sets or returns a fully qualified path to a Help File</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsproIgnoreCase.htm">IgnoreCase 
+            Property</A></TD>
+          <TD>Sets or returns a Boolean value that indicates if a pattern 
+            search is case-sensitive or not.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproLength.htm">Length 
+            Property</A></TD>
+          <TD>Returns the length of a match found in a search string.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproNumber.htm">Number 
+            Property</A></TD>
+          <TD>Returns or sets a numeric value specifying an error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproPattern.htm">Pattern 
+            Property</A></TD>
+          <TD>Sets or returns the regular expression pattern being searched 
+            for.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproSource.htm">Source 
+            Property</A></TD>
+          <TD>Returns or sets the name of the object or application that 
+            originally generated the error.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsproValue.htm">Value 
+            Property</A></TD>
+          <TD>Returns the value or text of a match found in a search 
+        string.</TD></TR></TBODY></TABLE></DIV>
+      <DIV id=idBlurb10 style="DISPLAY: none">
+      <TABLE border=0 cellPadding=2 cellSpacing=2 style="FONT-SIZE: 10pt" 
+      width="100%">
+        <TBODY>
+        <TR vAlign=top>
+          <TD width="33%"><B>Language Element</B><BR></TD>
+          <TD><B>Description</B></TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmCall.htm">Call 
+            Statement</A></TD>
+          <TD>Transfers control to a <B>Sub</B> or <B>Function</B> 
+          procedure.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmClass.htm">Class 
+            Statement</A></TD>
+          <TD>Declares the name of a class.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmConst.htm">Const 
+            Statement</A></TD>
+          <TD>Declares constants for use in place of literal values. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmDim.htm">Dim 
+            Statement</A></TD>
+          <TD>Declares variables and allocates storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmDo.htm">Do...Loop 
+            Statement</A></TD>
+          <TD>Repeats a block of statements while a condition is <B>True</B> 
+            or until a condition becomes <B>True</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmErase.htm">Erase 
+            Statement</A></TD>
+          <TD>Reinitializes the elements of fixed-size arrays and deallocates 
+            dynamic-array storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmExecute.htm">Execute 
+            Statement</A></TD>
+          <TD>Executes one or more specified statements.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmExecuteGlobal.htm">ExecuteGlobal 
+            Statement</A></TD>
+          <TD>Executes one or more specified statements in the global 
+            namespace of a script.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmExit.htm">Exit 
+            Statement</A></TD>
+          <TD>Exits a block of <B>Do...Loop</B>, <B>For...Next</B>, 
+            <B>Function</B>, or <B>Sub</B> code. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmFor.htm">For...Next 
+            Statement</A></TD>
+          <TD>Repeats a group of statements a specified number of times.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmForEach.htm">For 
+            Each...Next Statement</A></TD>
+          <TD>Repeats a group of statements for each element in an array or 
+            collection.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmFunction.htm">Function 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Function</B> procedure.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmIf.htm">If...Then...Else 
+            Statement</A></TD>
+          <TD>Conditionally executes a group of statements, depending on the 
+            value of an expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmOnError.htm">On Error 
+            Statement</A></TD>
+          <TD>Enables error-handling.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmOptionExplicit.htm">Option 
+            Explicit Statement</A></TD>
+          <TD>Forces explicit declaration of all variables in a script. </TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmPrivate.htm">Private 
+            Statement</A></TD>
+          <TD>Declares private variables and allocates storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmPropertyGet.htm">PropertyGet 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Property</B> procedure that gets (returns) the value of a 
+            property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmPropertyLet.htm">PropertyLet 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Property</B> procedure that assigns the value of a 
+property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmPropertySet.htm">PropertySet 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Property</B> procedure that sets a reference to an object.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmPublic.htm">Public 
+            Statement</A></TD>
+          <TD>Declares public variables and allocates storage space.</TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="../HTML/vsstmRandomize.htm">Randomize 
+            Statement</A></TD>
+          <TD>Initializes the random-number generator.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmReDim.htm">ReDim 
+            Statement</A></TD>
+          <TD>Declares dynamic-array variables and allocates or reallocates 
+            storage space at procedure level.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmRem.htm">Rem 
+            Statement</A></TD>
+          <TD>Includes explanatory remarks in a program.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmSelectCase.htm">Select 
+            Case Statement</A></TD>
+          <TD>Executes one of several groups of statements, depending on the 
+            value of an expression.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmSet.htm">Set 
+            Statement</A></TD>
+          <TD>Assigns an object reference to a variable or property.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmSub.htm">Sub 
+            Statement</A></TD>
+          <TD>Declares the name, arguments, and code that form the body of a 
+            <B>Sub</B> procedure.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmWhile.htm">While...Wend 
+            Statement</A></TD>
+          <TD>Executes a series of statements as long as a given condition is 
+            <B>True</B>.</TD></TR>
+        <TR vAlign=top>
+          <TD><A href="../HTML/vsstmWith.htm">With 
+            Statement</A></TD>
+          <TD>Executes a series of statements on a single 
+      object.</TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<P>
+<HR>
+
+<P><FONT face="Verdana, Arial, Helvetica" size=2>
+<!--COPYRIGHT BEGIN-->
+<A href="../HTML/vbscopy.htm">© 2000 Microsoft Corporation. All 
+rights reserved</A>. <BR>
+<!--COPYRIGHT END-->
+<BR>
+</FONT></P></BODY></HTML>

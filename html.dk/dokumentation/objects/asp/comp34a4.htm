@@ -1,0 +1,59 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>GetNextURL</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h4><a name="_getnexturl"></a>GetNextURL</h4>
+<p>
+The <b>GetNextURL </b>method retrieves the URL of the next item in the Content Linking List file. </p>
+<h5>Syntax</h5>
+<pre><b>GetNextURL(</b><i>listURL</i><b>)</b> 
+ </pre>
+<h5>Parameters</h5>
+<dl>
+<dt>
+<i>listURL</i></dt>
+<dd>
+The location of the Content Linking List file. </dd>
+</dl>
+<h5>Return Values</h5>
+<p>
+This method returns the URL of the next page specified in the Content Linking List file. If the current page is not specified in the Content Linking List file, <b>GetNextURL </b>returns the URL of the last page on the list. </p>
+<h5>Applies To</h5>
+<p>
+<a href="comp7pmc.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp7pmc.htm"><b>Content Linking Component</b></a> </p>
+<h5>Example</h5>
+<p>
+The following example uses the <b>GetNextURL </b>method to embed a link to the next page in the Content Linking List file. The advantage of using <b>GetNextURL </b>is that when you change the order or number of the content pages, you only have to update the list in Content Linking List file and do not need to update the navigational links on each page. </p>
+<pre>&lt;%  Set NextLink = Server.CreateObject (&quot;MSWC.NextLink&quot;) %&gt;  <BR>
+&lt;A HREF=&quot;&lt;%= NextLink.GetNextURL (&quot;/data/nextlink.txt&quot;) %&gt;&quot;&gt;Next Page &lt;/A&gt;
+ </pre>
+<h5>See Also</h5>
+<p>
+<a href="comp0ir0.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp0ir0.htm"><b>GetPreviousURL</b></a>,<b> </b><a href="comp8oa4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp8oa4.htm"><b>GetNthURL</b></a>,<b> </b><a href="comp7cby.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp7cby.htm"><b>GetNextDescription</b></a></p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

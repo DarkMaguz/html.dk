@@ -1,0 +1,207 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Arkiv for nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</title>
+
+<meta name="description" content="Danske nyhedsgrupper på HTML.dk" />
+<meta name="keywords" content="" />
+<meta name="title" content="Arkiv for nyhedsgruppen dk.edb.internet.webdesign.serverside.asp" />
+<meta name="language" content="dan" />
+<meta name="Date" content="02-06-00" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<meta name="CZ.Type" content="" />
+<meta name="CZ.Category" content="" />
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=567924141884?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+<!-- FreeFind No Index Page -->
+<h1>dk.edb.internet.webdesign.serverside.asp</h1><p>Arkiv for juli 2004.</p><hr /><ul><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C410bd8e6%240%2435885%2414726298%40news%2Esunsite%2Edk%3E'>Undg&#229; afvikling af html p&#229; side</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C410b7705%240%2435872%2414726298%40news%2Esunsite%2Edk%3E'>slette i database</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41098bf2%240%24300%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Hente data udfra forbogstav</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Ccebqqu%246ct%241%40news%2Enet%2Euni%2Dc%2Edk%3E'>Afrunding</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41096c15%240%2435881%2414726298%40news%2Esunsite%2Edk%3E'>Upload billeder med asp?</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41095bf9%240%2435871%2414726298%40news%2Esunsite%2Edk%3E'>slette db og starte p&#229; ny med id=1 hvordan?</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4108c520%240%2435883%2414726298%40news%2Esunsite%2Edk%3E'>request.querystring og tal</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41080505%240%24209%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Server.MapPath(&quot;/&quot;) tager fejl ?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cce8v6q%24bve%241%40news%2Enet%2Euni%2Dc%2Edk%3E'>Problem med variabler</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4107f38d%240%2435872%2414726298%40news%2Esunsite%2Edk%3E'>Problem med &lt;!--#include file--&gt; sammen med asp..</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4107cd87%240%2435882%2414726298%40news%2Esunsite%2Edk%3E'>Anv. af forms med multipel submit</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41078a97%240%2435875%2414726298%40news%2Esunsite%2Edk%3E'>Afvikle asp side i asp side</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41075ea8%240%24195%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>2. gang gennem det samme recordset?</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4106cd20%240%2435872%2414726298%40news%2Esunsite%2Edk%3E'>Afrunding af tal</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4106705d%240%2435871%2414726298%40news%2Esunsite%2Edk%3E'>IIS - Adgang n&#230;gtet</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41066f26%240%2435876%2414726298%40news%2Esunsite%2Edk%3E'>IIS - Adgang n&#230;gtet</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41064900%240%2435881%2414726298%40news%2Esunsite%2Edk%3E'>hj&#230;lp til at slette posts i en database</a> - (10 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41064563%240%24284%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>Tidsbestilling</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cce54th%248ad%241%40news%2Enet%2Euni%2Dc%2Edk%3E'>MSI Installation af Access</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C410597c3%240%2435883%2414726298%40news%2Esunsite%2Edk%3E'>Hj&#230;lp til fejlfinding</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C2mkuarFo4p34U1%40uni%2Dberlin%2Ede%3E'>Valg af underlink uden rammer......??</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cce36na%24e58%241%40news%2Ecybercity%2Edk%3E'>H&#248;jest 2 linieskift i tr&#230;k?</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4104df05%240%2466467%2414726298%40news%2Esunsite%2Edk%3E'>Findes der alternativer til frames</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4103eb51%240%2466470%2414726298%40news%2Esunsite%2Edk%3E'>problemer med samtidige brugere - hvordan l&#248;ses dette</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Copsbpdczdl1fhyaj%40news%2Einet%2Etele%2Edk%3E'>replace flere forekomster med RegExp</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C2mhr93Fn7emgU1%40uni%2Dberlin%2Ede%3E'>Prob. med en .asp fil som ikke kan k&#248;re p&#229; B-One.....</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4103b674%240%2466475%2414726298%40news%2Esunsite%2Edk%3E'>Delete record problem!</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cm6HMc%2E27236%24Vf%2E1502637%40news000%2Eworldonline%2Edk%3E'>udskrift af telefonliste</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41027677%240%2466476%2414726298%40news%2Esunsite%2Edk%3E'>Slet Checkbox access database haster idag tak</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41025519%240%2466470%2414726298%40news%2Esunsite%2Edk%3E'>insert into syntax problem...</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41018427%240%2466470%2414726298%40news%2Esunsite%2Edk%3E'>dropdown menu med automatik virker ikke</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41012839%240%2414513%24ba624c82%40nntp02%2Edk%2Etelia%2Enet%3E'>Sidst logget p&#229;</a> - (10 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4100f018%240%2466476%2414726298%40news%2Esunsite%2Edk%3E'>Jmail.massage -Mail Form</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4100deaf%240%2466477%2414726298%40news%2Esunsite%2Edk%3E'>Gem fil p&#229; brugerens harddisk</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C4100c3f1%240%2466466%2414726298%40news%2Esunsite%2Edk%3E'>Hvad betyder koden</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41005f7b%240%2466479%2414726298%40news%2Esunsite%2Edk%3E'>Problem med at skrive til accessdatabase</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41003062%240%2466471%2414726298%40news%2Esunsite%2Edk%3E'>S&#248;ger en kalender</a> - (18 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C41001659%240%24206%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>ADODB.Field error '800a0bcd'</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CIESLc%2E328%24uU1%2E144%40news%2Eget2net%2Edk%3E'>Problemer med SC Log in v.2.1.</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ffeb34%240%2466468%2414726298%40news%2Esunsite%2Edk%3E'>l&#230;se comment fra jpg-filer</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ff0430%240%2466476%2414726298%40news%2Esunsite%2Edk%3E'>Replace mere end &#233;n ting...</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C2m7sopFjfpvhU1%40uni%2Dberlin%2Ede%3E'>Domain check p&#229; mit web site....</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40feb57d%240%2466479%2414726298%40news%2Esunsite%2Edk%3E'>PWS virker ikke!</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fd06f4%240%2423880%2414726298%40news%2Esunsite%2Edk%3E'>strSQL= &quot;Request.QueryString('id')&quot; - muligt?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fced6d%240%2423874%2414726298%40news%2Esunsite%2Edk%3E'>Runtime validering med ASP</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fce926%240%2412544%24ba624c82%40nntp03%2Edk%2Etelia%2Enet%3E'>phpinfo() - aspinfo() ???</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fbf112%240%24200%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>hj&#230;lp problemer med IIS under XP</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fbde6e%240%243069%24ba624c82%40nntp05%2Edk%2Etelia%2Enet%3E'>at kopiere en db</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fbcc57%240%243102%24ba624c82%40nntp05%2Edk%2Etelia%2Enet%3E'>Slet alt</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fba8c6%240%2423871%2414726298%40news%2Esunsite%2Edk%3E'>Alfebetisk orden i Arrays</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40fab825%240%2423881%2414726298%40news%2Esunsite%2Edk%3E'>Brug for eksperthj&#230;lp!!!</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CC%25uKc%2E289%24MI%2E259%40news%2Eget2net%2Edk%3E'>M&#230;rkelig fejl (m. link)</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CgntKc%2E251%24Py1%2E4%40news%2Eget2net%2Edk%3E'>Character number for punktum?</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CkqrKc%2E25949%24Vf%2E1333308%40news000%2Eworldonline%2Edk%3E'>Arbejde med datoer via Now</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f96289%240%2423874%2414726298%40news%2Esunsite%2Edk%3E'>DateDiff SQL problem</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f8089a%240%2423874%2414726298%40news%2Esunsite%2Edk%3E'>problem med at l&#230;se fra en database</a> - (19 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f7cd29%240%2423879%2414726298%40news%2Esunsite%2Edk%3E'>Arrays&amp;#44; Instr&amp;#44; For&amp;#44; Lbound&amp;#44; ubound. hj&#230;lp til stringconvert</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CrDPJc%2E25643%24Vf%2E1280981%40news000%2Eworldonline%2Edk%3E'>UPDATE - syntax error?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f6fc53%240%2423877%2414726298%40news%2Esunsite%2Edk%3E'>redirect efter x sekunder og history -1</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f6978e%240%2423873%2414726298%40news%2Esunsite%2Edk%3E'>Hvor er min id henne???</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f62a4c%240%2423880%2414726298%40news%2Esunsite%2Edk%3E'>Tak til alle!</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CsFjJc%2E25400%24Vf%2E1260769%40news000%2Eworldonline%2Edk%3E'>T&#230;lle poster i tabel?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f592a5%240%2423877%2414726298%40news%2Esunsite%2Edk%3E'>ORDER BY af ord med &#230;&amp;#44; &#248; og &#229;</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f579be%240%2423879%2414726298%40news%2Esunsite%2Edk%3E'>Database forbindelse</a> - (11 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f54e8d%240%2423867%2414726298%40news%2Esunsite%2Edk%3E'>Hent oplysninger fra samme side</a> - (11 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f53e9b%240%2423876%2414726298%40news%2Esunsite%2Edk%3E'>Variable sessionvariable hentet p&#229; id</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CLd7Jc%2E25198%24Vf%2E1251279%40news000%2Eworldonline%2Edk%3E'>Statistisk sourcekode?</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f4e21d%240%2423875%2414726298%40news%2Esunsite%2Edk%3E'>2 knapper i 1 form</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f48abf%240%2412553%24ba624c82%40nntp03%2Edk%2Etelia%2Enet%3E'>forced download af fil</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f44d24%240%24252%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>L&#230;sning af linieskift</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f43111%240%2423877%2414726298%40news%2Esunsite%2Edk%3E'>LOOP i UPDATE</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Ccd0qk3%24r7g%241%40news%2Ecybercity%2Edk%3E'>Hj&#230;lp til en DateDiff funktion...?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CgwLIc%2E24962%24Vf%2E1245011%40news000%2Eworldonline%2Edk%3E'>Stopur (tidsfunktion)</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f3822d%240%2423869%2414726298%40news%2Esunsite%2Edk%3E'>Valg (og fremskaffelse) af .asp file-upload komponent</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f2c412%240%2423874%2414726298%40news%2Esunsite%2Edk%3E'>SELECT problem</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f278b5%240%2423875%2414726298%40news%2Esunsite%2Edk%3E'>programmer i ASP</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f27001%240%2423870%2414726298%40news%2Esunsite%2Edk%3E'>Udskriv dansk dato</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f06605%240%2423878%2414726298%40news%2Esunsite%2Edk%3E'>Hj&#230;lp til: Record t&#230;ller i database</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40f02977%240%2423869%2414726298%40news%2Esunsite%2Edk%3E'>&#216;v! Selvforskyldt datoproblem</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CNiVHc%2E3425%241c3%2E2786%40news%2Eget2net%2Edk%3E'>Re: Hj&#230;lp med et script</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40effe7d%240%2423881%2414726298%40news%2Esunsite%2Edk%3E'>If s&#230;tning&amp;#44; endnu en underlig fejl.</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CAtEHc%2E1286%24WL2%2E116%40news%2Eget2net%2Edk%3E'>Generere et tilf&#230;ldigt tal</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ef0045%240%2423874%2414726298%40news%2Esunsite%2Edk%3E'>Hente data i db</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40eedaf1%240%2423868%2414726298%40news%2Esunsite%2Edk%3E'>Stener mig blind p&#229; insert fejl.</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ee95aa%240%2423881%2414726298%40news%2Esunsite%2Edk%3E'>Err.description ?</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ee8480%240%2423881%2414726298%40news%2Esunsite%2Edk%3E'>Kald til ekstern side/dom&#230;ne</a> - (11 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40eda5f3%240%2423880%2414726298%40news%2Esunsite%2Edk%3E'>sti i &quot;file&quot; box</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ed5b69%240%2423870%2414726298%40news%2Esunsite%2Edk%3E'>mellemrum i tekst fra database</a> - (19 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ed065d%240%2423867%2414726298%40news%2Esunsite%2Edk%3E'>Cookie til password og brugernavn</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ec283a%240%2423873%2414726298%40news%2Esunsite%2Edk%3E'>Formen mangler style eller??</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ebc778%240%2423878%2414726298%40news%2Esunsite%2Edk%3E'>S&#248;gning af flere varibialer i strenge.</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ea6523%240%2423881%2414726298%40news%2Esunsite%2Edk%3E'>Linjeskift i koden</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40ea171c%240%2423880%2414726298%40news%2Esunsite%2Edk%3E'>Matematik med Request.Form</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e8fc83%240%2423867%2414726298%40news%2Esunsite%2Edk%3E'>Access. Udskrivning af formular</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e85cf2%240%2412556%24ba624c82%40nntp03%2Edk%2Etelia%2Enet%3E'>Insert into ... Datoformat access er forskelligt..</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e80a59%240%2423879%2414726298%40news%2Esunsite%2Edk%3E'>Community:Ret info - Forst&#229;r ikk hvor fejlen er?!</a> - (17 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e7ef24%240%24287%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>insert into</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e700b1%240%2423881%2414726298%40news%2Esunsite%2Edk%3E'>Opt&#230;lling i array</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Ccc6ffh%24l0p%242%40news%2Enet%2Euni%2Dc%2Edk%3E'>Hj&#230;lp til SELECT-s&#230;tning</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e68c58%240%2423875%2414726298%40news%2Esunsite%2Edk%3E'>Delete from + Request.Form?</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Ccc5qaf%24ekf%241%40news%2Enet%2Euni%2Dc%2Edk%3E'>Gemme v&#230;rdier</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e5c525%240%2423878%2414726298%40news%2Esunsite%2Edk%3E'>Nem dynamisk include?</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e547ab%240%2423872%2414726298%40news%2Esunsite%2Edk%3E'>Kan ikke l&#230;se teksten</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e52d1e%240%2423871%2414726298%40news%2Esunsite%2Edk%3E'>MS Access-fejl; for f&#229; parametre</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e51441%240%2423879%2414726298%40news%2Esunsite%2Edk%3E'>RSS via ASP</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e3f952%240%2423878%2414726298%40news%2Esunsite%2Edk%3E'>HTTP-fejl 403 - Forbudt</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e3f87c%240%24186%24edfadb0f%40dtext01%2Enews%2Etele%2Edk%3E'>Validering af side</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C40e3ce6e%240%2423867%2414726298%40news%2Esunsite%2Edk%3E'>indtaste tekst som kan ses p&#229; forskeliige m&#229;der</a> - (3 indlæg)</li></ul><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=347661316395?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=archive&date=01-07-2004' method='post'><p class='pollheader'>Er du interesseret i foredrag om webudvikling?</p><div><input type='hidden' name='tst' value='11-09-2004 19:30:39' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, men det skal være gratis</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Ja, og jeg vil gerne betale feks. kr. 150 for det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='dk.edb.internet.webdesign.serverside.asp.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>arkiv</span></div>
+
+
+
+</body>
+</html>
+

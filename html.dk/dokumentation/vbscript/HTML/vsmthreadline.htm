@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>ReadLine Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthreadline"></A>ReadLine Method</H1>
+
+<P>Reads an entire line (up to, but not including, the newline character) from a <B>TextStream</B> file and returns the resulting string.</P>
+
+<P><CODE><I>object</I>.<B>ReadLine</B></CODE></P>
+
+<P>The <I>object</I> argument is always the name of a <B>TextStream</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>The following example shows how to use the <B>ReadLine</B> method to read a line from a <B>TextStream</B> file and return the string: </P>
+
+<PRE><CODE>Function ReadLineTextFile
+&nbsp;&nbsp;&nbsp;Const ForReading = 1, ForWriting = 2
+&nbsp;&nbsp;&nbsp;Dim fso, MyFile
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set MyFile = fso.OpenTextFile("c:\testfile.txt", ForWriting, True)
+&nbsp;&nbsp;&nbsp;MyFile.WriteLine "Hello world!"
+&nbsp;&nbsp;&nbsp;MyFile.WriteLine "The quick brown fox"
+&nbsp;&nbsp;&nbsp;MyFile.Close
+&nbsp;&nbsp;&nbsp;Set MyFile = fso.OpenTextFile("c:\testfile.txt", ForReading)
+&nbsp;&nbsp;&nbsp;ReadLineTextFile = <span class=cfe><B>MyFile.ReadLine</B></span>&nbsp;&nbsp;&nbsp; ' Returns "Hello world!"
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthclose.htm">Close Method</A> | <A HREF="vsmthread.htm">Read Method</A> | <A HREF="vsmthreadall.htm">ReadAll Method</A> | <A HREF="vsmthskip.htm">Skip Method</A> | <A HREF="vsmthskipline.htm">SkipLine Method</A> | <A HREF="vsmthwrite.htm">Write Method</A> | <A HREF="vsmthwriteline.htm">WriteLine Method</A> | <A HREF="vsmthwriteblanklines.htm">WriteBlankLines Method</A></P>
+
+<P>Applies To: <A HREF="vsobjtextstream.htm">TextStream Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,53 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>GetPrevious Method (CDONTS Messages Collection)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_getprevious_method_cdonts_messages_collection_"></a>GetPrevious Method (CDONTS Messages Collection)  <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>GetPrevious</b> method returns the previous <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object in the Messages collection. It returns <b>Nothing</b> if no previous object exists, for example if already positioned at the beginning of the collection. </p>
+<h4>Syntax </h4>
+<pre><b>Set</b><i> objMessage</i><b> = </b><i>collMessages</i>.<b>GetPrevious( ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objMessage </i></dt>
+<dd>
+On successful return, represents the previous Message object in the collection. <br>
+</dd>
+<dt>
+<i>collMessages </i></dt>
+<dd>
+Required. The Messages collection object. </dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+If the <b>GetLast</b> method has not been called since the Messages collection was initialized, the behavior of the <b>GetPrevious</b> method is not defined. This can produce unexpected results if the collection is reinitialized with a <b>Set</b> statement in every iteration of a loop. The recommended procedure is to <b>Set</b> an explicit variable for the collection before entering the loop. </p>
+<p>
+If the collection is empty, calling <b>GetPrevious</b> can produce unexpected results even if <b>GetLast</b> has been called. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

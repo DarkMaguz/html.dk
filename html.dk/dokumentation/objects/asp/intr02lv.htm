@@ -1,0 +1,65 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>PICS</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_pics"></a>PICS</h2>
+<p>
+The <b>PICS</b> property adds a value to the pics-label field of the response header.</p>
+<h4>Syntax</h4>
+<pre><b>Response.PICS</b>(<i>PICSLabel</i>)
+ </pre>
+<h4>Parameters</h4>
+<dl>
+<dt>
+<i>PICSLabel</i></dt>
+<dd>
+A string that is a properly formatted PICS label. The value specified by <i>PICSLabel</i> will be appended to the PICS label field in the response header. </dd>
+</dl>
+<h4>Example</h4>
+<p>
+For an .asp file that includes </p>
+<pre>&lt;% 
+Response.PICS(&quot;(PICS-1.1 <u>&lt;http://www.rsac.org/ratingv01.html&gt;</u> labels on &quot; &amp; chr(34) &amp; &quot;1997.01.05T08:15-0500&quot; &amp; chr(34) &amp; &quot; until&quot; &amp; chr(34) &amp; &quot;1999.12.31T23:59-0000&quot; &amp; chr(34) &amp; &quot; ratings (v 0 s 0 l 0 n 0))&quot;) 
+%&gt; 
+</pre>
+<p>
+the following header would be added</p>
+<pre>PICS-label:(PICS-1.1 <u>&lt;http://www.rsac.org/ratingv01.html&gt;</u> labels on &quot;1997.01.05T08:15-0500&quot; until &quot;1999.12.31T23:59-0000&quot; ratings (v 0 s 0 l 0 n 0))
+</pre>
+<h4>Remarks</h4>
+<p>
+The <b>PICS</b> property inserts any string in the header, whether or not it represents a valid PICS label. </p>
+<p>
+If a single page contains multiple tags containing <b>Response.PICS</b>, each instance will replace the PICS label set by the previous one. As a result, the PICS label will be set to the value specified by the last instance of <b>Response.PICS </b>in the page.</p>
+<p>
+Because PICS labels contain quotes, you must replace each quote with <code>&quot; &amp; chr(34) &amp; &quot;</code>. </p>
+<h4>Applies To</h4>
+<p>
+<a href="intr5sj8.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5sj8.htm"><b>Response Object</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

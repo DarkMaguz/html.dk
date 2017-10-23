@@ -1,0 +1,33 @@
+<html>
+<title>Lokal tid</title>
+<head>
+</head>
+<body>
+<h1>SSI environment variables</h1>
+<p>Bemærk at der kan være forskel på formaterne fra servertype til servertype. F.eks. vises kun dato - og ikke tidspunktet på denne server.</p>
+<dl>
+<dt>&lt;!--#echo var="DATE_LOCAL"--&gt;</dt>
+<dd>Returnerer: <strong>Thursday April 22 2004</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="DATE_GMT"--&gt;</dt>
+<dd>Returnerer: <strong>Wednesday April 21 2004</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="LAST_MODIFIED"--&gt;</dt>
+<dd>Returnerer: <strong>Saturday March 10 2001</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="DOCUMENT_URI"--&gt;</dt>
+<dd>Returnerer: <strong>/tutorials/ssi/lektion5_eks2.shtml</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="DOCUMENT_NAME"--&gt;</dt>
+<dd>Returnerer: <strong>d:\www2\html\tutorials\ssi\lektion5_eks2.shtml</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="QUERY_STRING_UNESCAPED"--&gt;</dt>
+<dd>Returnerer: <strong>navn=george</strong><br><br></dd>
+
+</dl>
+<hr>
+<p>For at forstå princippet med <strong>QUERY_STRING_UNESCAPED</strong> kan du prøve at <a href="lektion5_eks2.shtml?navn=george">klikke på dette link</a> for se filen med indhold i querystring (det som står efter spørgsmålstegnet i URL'en)</p>
+
+</body>
+</html>
+

@@ -1,0 +1,239 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DateDiff Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctdatediff"></A>DateDiff Function</H1>
+
+<P>Returns the number of intervals between two dates. </P>
+
+<P><CODE><B>DateDiff(</B>interval<B>,</B> date1<B>, </B>date2 [<B>,</B>firstdayofweek[<B>,</B> firstweekofyear]]<B>)</B></CODE></P>
+
+<P>The <B>DateDiff</B> function syntax has these parts:</P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>interval</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> that is the interval you want to use to calculate the differences between <I>date1</I> and <I>date2</I>. See Settings section for values.</P>
+
+<P class=dt><I>date1, date2</I></P>
+
+<P class=indent>Required. Date expressions. Two dates you want to use in the calculation.</P>
+
+<P class=dt><I>firstdayofweek</I></P>
+
+<P class=indent>Optional. Constant that specifies the day of the week. If not specified, Sunday is assumed. See Settings section for values.</P>
+
+<P class=dt><I>firstweekofyear</I></P>
+
+<P class=indent>Optional. Constant that specifies the first week of the year. If not specified, the first week is assumed to be the week in which January 1 occurs. See Settings section for values.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>interval</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=22%>Setting</TH>
+<TH width=78%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>yyyy</TD>
+<TD width=78%>Year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>q</TD>
+<TD width=78%>Quarter</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>m</TD>
+<TD width=78%>Month</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>y</TD>
+<TD width=78%>Day of year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>d</TD>
+<TD width=78%>Day</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>w</TD>
+<TD width=78%>Weekday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>ww</TD>
+<TD width=78%>Week of year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>h</TD>
+<TD width=78%>Hour</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>n</TD>
+<TD width=78%>Minute</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>s</TD>
+<TD width=78%>Second</TD>
+</TR>
+</TABLE><BR>
+
+<P>The <I>firstdayofweek</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=22%>Constant</TH>
+<TH width=12%>Value</TH>
+<TH width=66%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbUseSystem</TD>
+<TD width=12%>0</TD>
+<TD width=66%>Use National Language Support (NLS) API setting.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbSunday</TD>
+<TD width=12%>1</TD>
+<TD width=66%>Sunday (default)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbMonday</TD>
+<TD width=12%>2</TD>
+<TD width=66%>Monday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbTuesday</TD>
+<TD width=12%>3</TD>
+<TD width=66%>Tuesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbWednesday</TD>
+<TD width=12%>4</TD>
+<TD width=66%>Wednesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbThursday</TD>
+<TD width=12%>5</TD>
+<TD width=66%>Thursday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbFriday</TD>
+<TD width=12%>6</TD>
+<TD width=66%>Friday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbSaturday</TD>
+<TD width=12%>7</TD>
+<TD width=66%>Saturday</TD>
+</TR>
+</TABLE><BR>
+
+<P>The <I>firstweekofyear</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=22%>Constant</TH>
+<TH width=12%>Value</TH>
+<TH width=66%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbUseSystem</TD>
+<TD width=12%>0</TD>
+<TD width=66%>Use National Language Support (NLS) API setting.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbFirstJan1</TD>
+<TD width=12%>1</TD>
+<TD width=66%>Start with the week in which January 1 occurs (default).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbFirstFourDays</TD>
+<TD width=12%>2</TD>
+<TD width=66%>Start with the week that has at least four days in the new year.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbFirstFullWeek</TD>
+<TD width=12%>3</TD>
+<TD width=66%>Start with the first full weekof the new year.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>You can use the <B>DateDiff</B> function to determine how many specified time intervals exist between two dates. For example, you might use <B>DateDiff</B> to calculate the number of days between two dates, or the number of weeks between today and the end of the year.</P>
+
+<P>To calculate the number of days between <I>date1</I> and <I>date2</I>, you can use either Day of year ("y") or Day ("d"). When <I>interval </I>is Weekday ("w"), <B>DateDiff</B> returns the number of weeks between the two dates. If <I>date1</I> falls on a Monday, <B>DateDiff</B> counts the number of Mondays until <I>date2</I>. It counts <I>date2</I> but not <I>date1</I>. If <I>interval</I> is Week ("ww"), however, the <B>DateDiff</B> function returns the number of calendar weeks between the two dates. It counts the number of Sundays between <I>date1</I> and <I>date2</I>. <B>DateDiff</B> counts <I>date2</I> if it falls on a Sunday; but it doesn't count <I>date1</I>, even if it does fall on a Sunday.</P>
+
+<P>If <I>date1</I> refers to a later point in time than <I>date2</I>, the <B>DateDiff</B> function returns a negative number.</P>
+
+<P>The <I>firstdayofweek</I> argument affects calculations that use the "w" and "ww" interval symbols.</P>
+
+<P>If <I>date1</I> or <I>date2</I> is a date literal, the specified year becomes a permanent part of that date. However, if <I>date1</I> or <I>date2</I> is enclosed in quotation marks (" ") and you omit the year, the current year is inserted in your code each time the <I>date1</I> or <I>date2</I> expression is evaluated. This makes it possible to write code that can be used in different years.</P>
+
+<P>When comparing December 31 to January 1 of the immediately succeeding year, <B>DateDiff</B> for Year ("yyyy") returns 1 even though only a day has elapsed.</P>
+
+<P>The following example uses the <B>DateDiff</B> function to display the number of days between a given date and today: </P>
+
+<PRE><CODE>Function DiffADate(theDate)
+&nbsp;&nbsp;&nbsp;DiffADate = "Days from today: " &amp; <span class=cfe><B>DateDiff(</B></span>"d"<span class=cfe><B>,</B></span> Now<span class=cfe><B>,</B></span> theDate<span class=cfe><B>)</B></span>
+End Function</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctdateadd.htm">DateAdd Function</A> | <A HREF="vsfctdatepart.htm">DatePart Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

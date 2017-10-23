@@ -1,0 +1,159 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: ? NS6, HTML401 og tabeller</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Jette Nielsen den 28. april 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: ? NS6, HTML401 og tabeller" />
+<meta name="language" content="dan" />
+<meta name="Date" content="28-04-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200158193321367?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200158193321367?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200158193321367?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C9ce2n9%242qr1%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jette&nbsp;Nielsen&nbsp;&nbsp;<a href='mailto:jette-nielsen@get2net.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='jette-nielsen@get2net.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> CyberCity Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 28. april 2001 kl. 10:22</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: ? NS6, HTML401 og tabeller</strong></li></ul>
+
+<p><span class='normal'>&quot;Thomas D. Kryger&quot; skrev: </span><br /><span class='citat'>> Hejsa </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg syntes nu ikke lige jeg kan f&#229; det til at virke... </span><br /><span class='citat'>> </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg downloadede din side og indsatte nedenst&#229;ende i all.css ... og det </span><br /><span class='normal'>virkede.. </span><br /><span class='normal'> </span><br /><span class='normal'>TD { PADDING-RIGHT: 0px; </span><br /><span class='normal'>         PADDING-LEFT: 0px; </span><br /><span class='normal'>         PADDING-BOTTOM: 0px; </span><br /><span class='normal'>         PADDING-TOP: 0px; } </span><br /><span class='normal'> </span><br /><span class='normal'>.... og du beh&#248;ver ikke definere en max h&#248;jde, n&#229;r du med ovenst&#229;ende </span><br /><span class='normal'>fort&#230;ller at der ikke skal v&#230;ret afstand fra indhold til cellekant. </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis du vil bruge TD.lav, skal du huske at inds&#230;tte class=&quot;lav&quot; i dine &lt;TD> </span><br /><span class='normal'>koder, ellers er det jo klart det ikke virker :-) </span><br /><span class='normal'> </span><br /><span class='normal'>Til TABLE har du i dit css bl.a. defineret f&#248;lgende: </span><br /><span class='normal'> </span><br /><span class='normal'>padding :  0; </span><br /><span class='normal'> padding-bottom :  0; </span><br /><span class='normal'> padding-left :  0; </span><br /><span class='normal'> padding-right :  0; </span><br /><span class='normal'> padding-top :  0; </span><br /><span class='normal'> </span><br /><span class='normal'>Det er dobbelt, idet padding er det man kalder short-hand for </span><br /><span class='normal'>padding-bottom,  padding-left, </span><br /><span class='normal'>padding-right, og  padding-top. Du skal ogs&#229; huske at inds&#230;tte enheder (som </span><br /><span class='normal'>f.eks. px). </span><br /><span class='normal'> </span><br /><span class='normal'>Dvs. at....... </span><br /><span class='normal'> </span><br /><span class='normal'>TABLE {padding: 0px} </span><br /><span class='normal'> </span><br /><span class='normal'>....betyder n&#248;jagtig det samme som </span><br /><span class='normal'> </span><br /><span class='normal'>TABLE {padding-bottom :  0px; </span><br /><span class='normal'>               padding-left :  0px; </span><br /><span class='normal'>               padding-right :  0px; </span><br /><span class='normal'>               padding-top :  0px;} </span><br /><span class='normal'> </span><br /><span class='normal'>Short-hand egenskaberne er dog ikke lige godt underst&#248;ttet, s&#229; du b&#248;r nok </span><br /><span class='normal'>bruge padding-bottom osv. i stedet for padding. </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Jette Nielsen </span><br /><span class='normal'><a href='http://www.webtip.dk'>http://www.webtip.dk</a> </span><br /><span class='normal'>- en dansk HTML guide </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9c900h%24jcq%241%40news%2Einet%2Etele%2Edk%3E' title='? NS6, HTML401 og tabeller'>? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(26-04-01&nbsp;-&nbsp;Thomas&nbsp;D.&nbsp;Kryger)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9ccch8%24frf%241%40news%2Ecybercity%2Edk%3E' title='Re: ? NS6, HTML401 og tabeller'>Re: ? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(27-04-01&nbsp;-&nbsp;Jette&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cjdvdc9%2Eau8%2Eln%40akvariet%2Edk%3E' title='Re: ? NS6, HTML401 og tabeller'>Re: ? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(28-04-01&nbsp;-&nbsp;Thomas&nbsp;D.&nbsp;Kryger)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9ce2n9%242qr1%241%40news%2Ecybercity%2Edk%3E' title='Re: ? NS6, HTML401 og tabeller'>Re: ? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(28-04-01&nbsp;-&nbsp;Jette&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1esl3ko%2E1yb5bb1pn3tpqN%25post%40gunnar%2Dv%2Edk%3E' title='Re: ? NS6, HTML401 og tabeller'>Re: ? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(28-04-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1esl3bx%2E1w6ym4n1gy32rkN%25post%40gunnar%2Dv%2Edk%3E' title='Re: ? NS6, HTML401 og tabeller'>Re: ? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(28-04-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cookmetg0hnciqhdvrgs9ol7aes1eq7qrf9%404ax%2Ecom%3E' title='Re: ? NS6, HTML401 og tabeller'>Re: ? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(29-04-01&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cmcjgc9%2Erpg%2Eln%40akvariet%2Edk%3E' title='Re: ? NS6, HTML401 og tabeller'>Re: ? NS6, HTML401 og tabeller</a>&nbsp;<small class='newslist'>(29-04-01&nbsp;-&nbsp;Thomas&nbsp;D.&nbsp;Kryger)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C9ce2n9%242qr1%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/download/" class="menulink" title="Download software">Download</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody"><div style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/persondata.asp">Politik om persondata</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: ? NS6</span></div>
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  browserwidth  = document.body.clientWidth;
+  browserheight = document.body.clientHeight;				
+} else {
+  browserwidth  = window.innerWidth;
+  browserheight = window.innerHeight;      
+}
+
+screenheight = screen.height 
+screenwidth  = screen.width
+document.write ('<img height="1" width="1" src="/survey.asp?bw=' + browserwidth + '&bh=' + browserheight + '&sh=' + screenheight + '&sw=' + screenwidth + '">')
+
+// Slut -->
+</script>
+</body>
+</html>
+

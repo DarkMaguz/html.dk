@@ -1,0 +1,88 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>&lt;OBJECT&gt; Declarations</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="__object_declarations"></a>&lt;OBJECT&gt; Declarations</h2>
+<p>
+You can create objects with session or application scope in the Global.asa file by using the extended &lt;OBJECT&gt; tag. This tag is self-contained and is outside of any &lt;SCRIPT&gt; tags. </p>
+<p>
+The objects declared in the Global.asa file are not created until the server processes a script that calls that object. This saves resources by creating only the objects that are needed.</p>
+<p>
+The server does not call the <a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc32n9.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc32n9.htm'" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc32n9.htm"><b>OnStartPage</b></a> and <a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc2dk5.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc2dk5.htm'" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc2dk5.htm"><b>OnEndPage</b></a> methods for objects created with application scope.</p>
+<h3>Syntax</h3>
+<pre><b>&lt;OBJECT RUNAT=Server SCOPE=</b><i>Scope</i> <b>ID=</b><i>Identifier</i> {<b>PROGID=&quot;</b><i>progID</i><b>&quot;</b>|<b>CLASSID=&quot;</b><i>ClassID</i><b>&quot;</b>}<b>&gt;</b><BR>. . .
+ 
+<b>&lt;/OBJECT&gt;
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>Scope</i></dt>
+<dd>
+Specifies the scope of the object. In the Global.asa file, <i>Scope </i>will be set to either Session or Application. <br>
+</dd>
+<dt>
+<i>Identifier</i></dt>
+<dd>
+Specifies a name for the object instance.<br>
+</dd>
+<dt>
+<i>ProgID</i></dt>
+<dd>
+An identifier associated with a class identifier. Either <i>ProgID </i>or <i>ClassID </i>must be specified in the &lt;OBJECT&gt; tag. The format for <i>ProgID </i>is [Vendor<b>.</b>]Component[<b>.</b>Version].<br>
+</dd>
+<dt>
+<i>ClassID</i></dt>
+<dd>
+Specifies a unique identifier for an COM class object. Either <i>ProgID </i>or <i>ClassID </i>must be specified in the &lt;OBJECT&gt; tag.</dd>
+</dl>
+<h3>Examples</h3>
+<p>
+The first of the following examples creates an object of session scope named <code>MyConnection</code> by using the <i>ProgID </i>parameter. The second example uses the <i>ClassID </i>parameter.</p>
+<pre>&lt;OBJECT RUNAT=Server SCOPE=Session ID=MyConnection <BR>PROGID=&quot;ADODB.Connection&quot;&gt;
+REM Object Script
+&lt;/OBJECT&gt;
+
+&lt;OBJECT RUNAT=Server SCOPE=Session ID=MyConnection <BR>CLASSID=&quot;Clsid:8AD3067A-B3FC-11CF-A560-00A0C9081C21&quot;&gt;
+REM Object Script
+&lt;/OBJECT&gt;
+ </pre>
+<h3>Remarks</h3>
+<p>
+The objects declared in the Global.asa file can be used by any script in the application. For example, if you declared the following object.</p>
+<pre>---GLOBAL.ASA---
+&lt;OBJECT RUNAT=Server SCOPE=Session ID=MyAd PROGID=&quot;MSWC.AdRotator&quot;&gt;
+&lt;/OBJECT&gt;
+ </pre>
+<p>
+You could reference the object <code>MyAd</code> from any page in the application:</p>
+<pre>---SOME.ASP---
+&lt;%= MyAd.GetAdvertisement(&quot;/ads/adrot.txt&quot;) %&gt;  
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

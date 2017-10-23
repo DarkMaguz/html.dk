@@ -1,0 +1,57 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Session Contents Collection</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_session_contents_collection"></a>Session Contents Collection</h2>
+<p>
+The <b>Session.Contents</b> collection contains all of the items that have been established for a session without using the &lt;OBJECT&gt; tag. The collection can be used to determine the value of a specific session item, or to iterate through the collection and retrieve a list of all items in the session.</p>
+<h4>Syntax</h4>
+<pre><b>Session.Contents(</b> <i>Key</i> <b>)
+ </b></pre>
+<h4>Parameters</h4>
+<dl>
+<dt>
+<i>Key</i></dt>
+<dd>
+The name of the property to retrieve.</dd>
+</dl>
+<h4>Remarks</h4>
+<p>
+You can use an iterating control structure to loop through the keys of the <b>Contents</b> collection. This is demonstrated in the following example.</p>
+<pre>&lt;%
+Dim sessitem
+For Each sessitem in Session.Contents
+  Response.write(sessitem &amp; &quot; : &quot; &amp; Session.Contents(sessitem) &amp; &quot;&lt;BR&gt;&quot;)</pre>
+<p>
+Next </p>
+<p>
+%&gt;</p>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

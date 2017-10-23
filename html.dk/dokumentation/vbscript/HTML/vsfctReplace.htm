@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Replace Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctreplace"></A>Replace Function</H1>
+
+<P>Returns a string in which a specified substring has been replaced with another substring a specified number of times.</P>
+
+<P><CODE><B>Replace(</B>expression<B>,</B> find<B>, </B>replacewith[<B>,</B> start[<B>,</B> count[<B>,</B> compare]]]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>expression</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> containing substring to replace. </P>
+
+<P class=dt><I>find</I></P>
+
+<P class=indent>Required. Substring being searched for.</P>
+
+<P class=dt><I>replacewith</I></P>
+
+<P class=indent>Required. Replacement substring.</P>
+
+<P class=dt><I>start</I></P>
+
+<P class=indent>Optional. Position within <I>expression</I> where substring search is to begin. If omitted, 1 is assumed. Must be used in conjunction with <I>count.</I></P>
+
+<P class=dt><I>count</I></P>
+
+<P class=indent>Optional. Number of substring substitutions to perform. If omitted, the default value is -1, which means make all possible substitutions. Must be used in conjunction with <I>start</I>.</P>
+
+<P class=dt><I>compare</I></P>
+
+<P class=indent>Optional. Numeric value indicating the kind of comparison to use when evaluating substrings. See Settings section for values. If omitted, the default value is 0, which means perform a binary comparison.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>compare</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=30%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=59%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbBinaryCompare</TD>
+<TD width=11%>0</TD>
+<TD width=59%>Perform a binary comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbTextCompare</TD>
+<TD width=11%>1</TD>
+<TD width=59%>Perform a textual comparison.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Return Values</H4>
+
+<P><B>Replace</B> returns the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=39%>If</TH>
+<TH width=61%>Replace returns</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%><I>expression</I> is zero-length</TD>
+<TD width=61%>Zero-length string ("").</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%>expression is <B>Null</B></TD>
+<TD width=61%>An error.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%><I>find</I> is zero-length</TD>
+<TD width=61%>Copy of expression.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%><I>replacewith</I> is zero-length</TD>
+<TD width=61%>Copy of <I>expression</I> with all occurences of <I>find</I> removed.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%>start &gt; <B>Len(</B>expression<B>)</B></TD>
+<TD width=61%>Zero-length string.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%><I>count</I> is 0</TD>
+<TD width=61%>Copy of expression.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The return value of the <B>Replace</B> function is a string, with substitutions made, that begins at the position specified by <I>start</I> and and concludes at the end of the <I>expression</I> string. It is not a copy of the original string from start to finish.</P>
+
+<P>The following example uses the <B>Replace</B> function to return a string: </P>
+
+<PRE><CODE>Dim MyString
+MyString = <span class=cfe><B>Replace(</B></span>"XXpXXPXXp"<span class=cfe><B>,</B></span> "p"<span class=cfe><B>,</B></span> "Y"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' A binary comparison starting at the beginning of the string. Returns "XXYXXPXXY". 
+MyString = <span class=cfe><B>Replace(</B></span>"XXpXXPXXp"<span class=cfe><B>,</B></span> "p"<span class=cfe><B>,</B></span> "Y"<span class=cfe><B>,</B></span>&nbsp;&nbsp;&nbsp;' A textual comparison starting at position 3. Returns "YXXYXXY". 3<span class=cfe><B>,</B></span> -1<span class=cfe><B>,</B></span> 1) </CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctfilter.htm">Filter Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: OSS for d.e.i.html (WAS: Re: Links)</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Claus Sørensen den 1. januar 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: OSS for d.e.i.html (WAS: Re: Links)" />
+<meta name="language" content="dan" />
+<meta name="Date" content="01-01-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cauuvqb%24hs4%241%40news%2Enet%2Euni%2Dc%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Claus&nbsp;Sørensen&nbsp;&nbsp;<a href='mailto:cs@chbs.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='cs@chbs.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> cHBs.dk</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 1. januar 2003 kl. 16:58</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: OSS for d.e.i.html (WAS: Re: Links)</strong></li></ul>
+
+<p><span class='normal'>Lasse Reichstein Nielsen wrote: </span><br /><span class='normal'> </span><br /><span class='citat'>> 1) Hvad er form&#229;let, pr&#230;cist, med en ny OSS? Hvis flere, prioriter </span><br /><span class='citat'>>    dem. </span><br /><span class='normal'> </span><br /><span class='normal'>Have et sted at henvise de ofte stillede sp&#248;rgsm&#229;l til, s&#229; de blev besvaret  </span><br /><span class='normal'>ensartet. </span><br /><span class='normal'>  </span><br /><span class='citat'>> 2) Hvilke krav skal en OSS opfylde - indholdsm&#230;ssigt s&#229;vel som </span><br /><span class='citat'>>    designm&#230;ssigt? Prioriter dem. </span><br /><span class='normal'> </span><br /><span class='normal'>Hvert sp&#248;rgsm&#229;l sin side. </span><br /><span class='normal'> </span><br /><span class='normal'>Implement&#233;r det i en databasel&#248;sning. </span><br /><span class='normal'> </span><br /><span class='normal'>Opdel den i emner. </span><br /><span class='normal'> </span><br /><span class='normal'>Meget enkel, s&#229; den ogs&#229; er umiddelbar brugbar med en tekstbaseret browser. </span><br /><span class='normal'> </span><br /><span class='normal'>Mange af sp&#248;rgsm&#229;lene kan besvares b&#229;de kort og mere uddybende. Der skal i  </span><br /><span class='normal'>videst muligt omfang v&#230;re begge typer svar for hvert sp&#248;rgsm&#229;l, men i  </span><br /><span class='normal'>f&#248;rste omgang b&#248;r der fokuseres p&#229; det korte svar. </span><br /><span class='normal'> </span><br /><span class='citat'>> 3) Hvordan undg&#229;s det at en ny OSS lider samme sk&#230;bne som den gamle </span><br /><span class='citat'>>    (manglende opdatering). </span><br /><span class='normal'> </span><br /><span class='normal'>Ved at flere har mulighed for at opdatere den. </span><br /><span class='normal'> </span><br /><span class='normal'>Sendes ud i relevante grupper hver m&#229;ned (s&#229; er der nok nogen, som opdager  </span><br /><span class='normal'>de for&#230;ldede dele). </span><br /><span class='normal'> </span><br /><span class='citat'>> 4) Skal/b&#248;r OSS'en konkurrere med html.dk's FAQ? Kan det undg&#229;s? </span><br /><span class='normal'> </span><br /><span class='normal'>En eller anden form for konkurrence er altid sund. Og jeg tror ikke det helt  </span><br /><span class='normal'>kan undg&#229;s.  </span><br /><span class='normal'>  </span><br /><span class='citat'>> 5) OSS'en for dk.edb.internet.webdesign ligger p&#229; <a href='http://usenet.dk'>usenet.dk</a>. Hvorfor </span><br /><span class='citat'>>    ikke l&#230;gge en OSS for d.e.i.w.html der ogs&#229;? </span><br /><span class='normal'> </span><br /><span class='normal'>God id&#233;, da vi s&#229; er rimelig sikker p&#229;, at der hvor den implementeres  </span><br /><span class='normal'>vedbliver med at eksistere. </span><br /><span class='normal'> </span><br /><span class='normal'>De herligste hilsner </span><br /><span class='normal'>--  </span><br /><span class='normal'>   Claus S&#248;rensen    Jeg vil leve i en verden,  hvor al kommunikation </span><br /><span class='normal'>-------------------- er baseret p&#229; frie og &#229;bne standarder, s&#229; enhver </span><br /><span class='normal'>     <a href='http://cs@chbs.dk'>cs@chbs.dk</a>      har friheden til at v&#230;lge.  </span><br /><span class='normal'> <a href='http://www.chbs.dk'>http://www.chbs.dk</a>                              Claus S&#248;rensen, 2001</span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns92ECE96FABACjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='OSS for d.e.i.html (WAS: Re: Links)'>OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(22-12-02&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e05e715%240%24217%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(22-12-02&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e061133%240%2488617%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(22-12-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMPG%2E18710a1bb9b8cd489896b8%40News%2ECIS%2EDFN%2EDE%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Toke&nbsp;Eskildsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e0798b6%240%2488618%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(24-12-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e061cf3%241%40news%2Ewineasy%2Ese%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(22-12-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns92ED13462FDD9jcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: OSS for d.e.i.html'>Re: OSS for d.e.i.html</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e06524e%240%2488619%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns92EDCB72D16Djcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: OSS for d.e.i.html'>Re: OSS for d.e.i.html</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e065d0d%240%2488614%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: OSS for d.e.i.html'>Re: OSS for d.e.i.html</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e06c9e9%40news%2Ewineasy%2Ese%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e0774b3%240%2488611%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cznqxmrqm%2Efsf%40hotpop%2Ecom%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns92ED206495C8Fjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3e077ac7%240%2488616%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(23-12-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cauuvqb%24hs4%241%40news%2Enet%2Euni%2Dc%2Edk%3E' title='Re: OSS for d.e.i.html (WAS: Re: Links)'>Re: OSS for d.e.i.html (WAS: Re: Links)</a>&nbsp;<small class='newslist'>(01-01-03&nbsp;-&nbsp;Claus&nbsp;Sørensen)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cauuvqb%24hs4%241%40news%2Enet%2Euni%2Dc%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3cauuvqb$hs4$1@news.net.uni-c.dk%3e' method='post'><p class='pollheader'>Hvornår har du sidst brugt dit betalingskort på nettet?</p><div><input type='hidden' name='tst' value='18-05-03 12:28:49' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Inden for den sidste måned</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Inden for det sidste ½ år</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Længere tid siden</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: OSS for d.e.i.html (WAS: Re: Links)</span></div>
+
+
+
+</body>
+</html>
+

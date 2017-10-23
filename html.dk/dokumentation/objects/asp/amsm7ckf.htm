@@ -1,0 +1,50 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>HTMLText Property (CDONTS Message Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_htmltext_property_cdonts_message_object_"></a>HTMLText Property (CDONTS Message Object)  <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>HTMLText</b> property returns or sets the Hypertext Markup Language (HTML) representation of the message's text. Read/write (read-only for a message in the Inbox). </p>
+<h4>Syntax </h4>
+<pre><i>objMessage</i>.<b>HTMLText 
+ </b></pre>
+<h4>Data Type </h4>
+<p>
+Object (<b>IStream</b>) or String </p>
+<h4>Remarks </h4>
+<p>
+The text is the principal content of an interpersonal message, typically displayed to each recipient as an immediate result of opening the message. It specifically excludes various other message properties such as <a href="amsm1333.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1333.htm"><b>Subject</b></a>, <a href="amsm7mfz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7mfz.htm"><b>Attachments</b></a>, and <a href="amsm602n.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm602n.htm"><b>Recipients</b></a>. </p>
+<p>
+The text of a message is represented by its <b>HTMLText</b> and <a href="amsm96jj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm96jj.htm"><b>Text</b></a> properties. The CDO for NTS Library always keeps these two properties in synchronization with each other. A sending client can set either property and the other is automatically computed. A receiving client can read either property depending on its content type preference. </p>
+<p>
+Only C/C++ and Java programs can use an <b>IStream</b> object for this property. They should pass an <b>IUnknown</b> object that returns an <b>IStream</b> interface in response to <b>QueryInterface</b>. Microsoft® Visual Basic® supports the <b>IDispatch</b> interface and not <b>IUnknown</b>, so it cannot use an <b>IStream</b> object. </p>
+<p>
+The maximum size of the text can be limited by the tool that you use to manipulate string variables (for example, Visual Basic). </p>
+<pre> </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

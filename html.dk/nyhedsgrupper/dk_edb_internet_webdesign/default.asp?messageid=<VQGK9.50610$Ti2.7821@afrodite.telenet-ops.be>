@@ -1,0 +1,187 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Questoin about navigation buttons in FP 2000</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Evognaf den 14. december 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Questoin about navigation buttons in FP 2000" />
+<meta name="language" content="dan" />
+<meta name="Date" content="14-12-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3CVQGK9%2E50610%24Ti2%2E7821%40afrodite%2Etelenet%2Dops%2Ebe%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Evognaf&nbsp;&nbsp;<a href='mailto:evognafje@pandora.be'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='evognafje@pandora.be' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Telenet Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 14. december 2002 kl. 16:01</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Questoin about navigation buttons in FP 2000</strong></li></ul>
+
+<p><span class='normal'>Hello, </span><br /><span class='normal'> </span><br /><span class='normal'>Who can help me with the following problem: </span><br /><span class='normal'> </span><br /><span class='normal'>I would like to create several sites in one web, all at the same level.  So </span><br /><span class='normal'>in fact there isn't really a structure. </span><br /><span class='normal'>I don't really need a structure with index pages etc. because the sites </span><br /><span class='normal'>aren't supposed to be viewed as a &quot;web&quot; , but I link to those pages from my </span><br /><span class='normal'>folders in the e-learning system Blackboard. </span><br /><span class='normal'> </span><br /><span class='normal'>The problem is: I still want to be able to use the navigation buttons </span><br /><span class='normal'>&quot;previous&quot; and &quot;next&quot;, BUT I don't want them to navigate to all the sites in </span><br /><span class='normal'>the web. </span><br /><span class='normal'> </span><br /><span class='normal'>Eg. if I have 60 pages, and 5 of them are about &quot;topic A&quot;, then I want a </span><br /><span class='normal'>&quot;next&quot; button on page 1, &quot;next&quot; and &quot;previous&quot; buttons on pages 2-4 and only </span><br /><span class='normal'>a &quot;previous&quot; button on page 5.  Then perhaps 3 pages about &quot;topic B&quot; so I </span><br /><span class='normal'>want one page with just a &quot;next&quot; button, one with a &quot;next&quot; button and a </span><br /><span class='normal'>&quot;previous&quot; button, and one with just &quot; previous&quot; button. </span><br /><span class='normal'>And so on ..... </span><br /><span class='normal'>(I would always place a link in Blackboard to the first page of one topic </span><br /><span class='normal'>and then use the &quot;next&quot; and &quot;previous&quot; buttons to navigate to the next few </span><br /><span class='normal'>of that particular topic) </span><br /><span class='normal'> </span><br /><span class='normal'>Is there any way to do this within one web? </span><br /><span class='normal'>I have considered creating &quot;dummy&quot; index sites, just to create a certain </span><br /><span class='normal'>structure and group the pages by topic, but I figured this is kinda silly as </span><br /><span class='normal'>I 'm not planning to actually use those index sites at all. </span><br /><span class='normal'> </span><br /><span class='normal'>I could also just use a new web for every topic, but do I get it right that </span><br /><span class='normal'>I have to upload my themes etc. all over again for every web? This is not a </span><br /><span class='normal'>good idea as I would probably have dozens of webs if I 'd work this way. </span><br /><span class='normal'>Or does anyone know how to upload several webs, but without having to upload </span><br /><span class='normal'>the themes etc. all over again? </span><br /><span class='normal'> </span><br /><span class='normal'>HEEEELP <img src='/site/graphics/smileys/smiley3.gif' alt=';-)' /> </span><br /><span class='normal'> </span><br /><span class='normal'>Thanks already for your reply </span><br /><span class='normal'> </span><br /><span class='normal'>Evognaf </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CVQGK9%2E50610%24Ti2%2E7821%40afrodite%2Etelenet%2Dops%2Ebe%3E' title='Questoin about navigation buttons in FP 2000'>Questoin about navigation buttons in FP 2000</a>&nbsp;<small class='newslist'>(14-12-02&nbsp;-&nbsp;Evognaf)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3dfb620d%240%24236%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E' title='Re: Questoin about navigation buttons in FP 2000'>Re: Questoin about navigation buttons in FP 2000</a>&nbsp;<small class='newslist'>(14-12-02&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CqsLK9%2E50991%24Ti2%2E7912%40afrodite%2Etelenet%2Dops%2Ebe%3E' title='Re: Questoin about navigation buttons in FP 2000'>Re: Questoin about navigation buttons in FP 2000</a>&nbsp;<small class='newslist'>(14-12-02&nbsp;-&nbsp;Evognaf)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3CVQGK9%2E50610%24Ti2%2E7821%40afrodite%2Etelenet%2Dops%2Ebe%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3cVQGK9.50610$Ti2.7821@afrodite.telenet-ops.be%3e' method='post'><p class='pollheader'>Har du dit eget domænenavn?</p><div><input type='hidden' name='tst' value='25-05-03 12:50:16' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Questoin about navigation buttons in FP 2000</span></div>
+
+
+
+</body>
+</html>
+

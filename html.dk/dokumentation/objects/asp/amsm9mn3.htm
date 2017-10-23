@@ -1,0 +1,75 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>MailFormat Property (CDONTS NewMail Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_mailformat_property_cdonts_newmail_object_"></a>MailFormat Property (CDONTS NewMail Object)  <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>MailFormat</b> property sets the encoding for the NewMail object. Write-only. </p>
+<h4>Syntax </h4>
+<pre><i>objNewMail</i>.<b>MailFormat 
+ </b></pre>
+<h4>Data Type </h4>
+<p>
+Long </p>
+<h4>Remarks </h4>
+<p>
+<b>MailFormat</b> can contain exactly one of the following values: </p>
+<table>
+<tr valign="top">
+<td>
+<b>MailFormat setting </b></td>
+<td>
+<b>Value </b></td>
+<td>
+<b>Description </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoMailFormatMime </b></td>
+<td>
+0 </td>
+<td>
+The NewMail object is to be in MIME format. </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoMailFormatText </b></td>
+<td>
+1 </td>
+<td>
+The NewMail object is to be in uninterrupted plain text (default value). </td>
+</tr>
+</table><br>
+<p>
+The setting of the <b>MailFormat</b> property determines the default value for the <i>EncodingMethod</i> parameter in the <a href="amsm0d3z.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0d3z.htm"><b>AttachFile</b></a> and <a href="amsm77j3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm77j3.htm"><b>AttachURL</b></a> methods. However, if you add an attachment encoded in base 64 format, the value of the <b>MailFormat</b> property is automatically set to <b>CdoMailFormatMime</b>. </p>
+<p>
+For more information on Multipurpose Internet Mail Extensions (MIME), see the RFC 1341 document. </p>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

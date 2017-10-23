@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>RemoveAll Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthremoveall"></A>RemoveAll</H1>
+
+<P>The <B>RemoveAll</B> method removes all key, item pairs from a <B>Dictionary</B> object.</P>
+
+<P><CODE><I>object</I>.<B>RemoveAll</B> </CODE></P>
+
+<P>The <I>object</I> is always the name of a <B>Dictionary</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates use of the <B>RemoveAll</B> method: </P>
+
+<PRE><CODE>Dim a, d, i&nbsp;&nbsp;&nbsp;' Create some variables.
+Set d = CreateObject("Scripting.Dictionary")
+d.Add "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some keys and items.
+d.Add "b", "Belgrade"
+d.Add "c", "Cairo"
+...
+a = d<span class=cfe><B>.RemoveAll</B></span>&nbsp;&nbsp;&nbsp;' Clear the dictionary.</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthadd.htm">Add Method (Dictionary)</A> | <A HREF="vsmthexists.htm">Exists Method</A> | <A HREF="vsmthitems.htm">Items Method</A> | <A HREF="vsmthkeys.htm">Keys Method</A> | <A HREF="vsmthremove.htm">Remove Method</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

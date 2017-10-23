@@ -1,0 +1,182 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Analyse af DBU's nye fodboldportal (www.danskfodbold.dk)</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Stig Nygaard den 2. maj 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Analyse af DBU's nye fodboldportal (www.danskfodbold.dk)" />
+<meta name="language" content="dan" />
+<meta name="Date" content="02-05-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3CD190FA%2E9010204%40REMOVE%2DTHISrockland%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Stig&nbsp;Nygaard&nbsp;&nbsp;<a href='mailto:stig@REMOVE-THISrockland.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='stig@REMOVE-THISrockland.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 2. maj 2002 kl. 21:18</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Analyse af DBU's nye fodboldportal (www.danskfodbold.dk)</strong></li></ul>
+
+<p><span class='normal'>Hej! </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Er jeg den eneste der er godt chokeret over hvordan DBU's nye  </span><br /><span class='normal'>&quot;fodbold-portal&quot; (<a href='http://www.danskfodbold.dk/)'>http://www.danskfodbold.dk/)</a> er konstrueret ? </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg synes jo det l&#248;d meget lovende da jeg f&#248;rst h&#248;rte om den, men blev  </span><br /><span class='normal'>noget skuffet da jeg klikkede ind p&#229; den. For det f&#248;rste starter man med  </span><br /><span class='normal'>en advarselsside af den slags man kun burde se p&#229; amat&#248;r-sites: </span><br /><span class='normal'> </span><br /><span class='normal'> > Vigtigt: Teknisk information om <a href='http://danskfodbold.dk'>danskfodbold.dk</a>. </span><br /><span class='normal'> > L&#230;s dette f&#248;r du bes&#248;ger siden. Klik her. </span><br /><span class='normal'>.... </span><br /><span class='normal'> </span><br /><span class='normal'>Ja, s&#229; begyndte jeg at blive lidt skeptisk. Men n&#229;, jeg klikkede mig  </span><br /><span class='normal'>bare videre ind p&#229; sitet, som &#229;bner i 1024x768 vindue hvor browserens  </span><br /><span class='normal'>menubj&#230;lke mm. er sl&#229;et fra. Ikke lige min smag, men det er f&#248;r set at  </span><br /><span class='normal'>folk synes det er smart. N&#229; vinduet kan godt nok resizes til en mindre  </span><br /><span class='normal'>st&#248;rrelse, men det er egentlig ret ligegyldigt, for der kommer ingen  </span><br /><span class='normal'>scrollbars p&#229; ! Personligt k&#248;rer jeg i en opl&#248;sning der er over 1024x768  </span><br /><span class='normal'>p&#229; min PC, s&#229; det er ikke direkte et problem, men jeg foretr&#230;kker at  </span><br /><span class='normal'>have mit browservindue noget mindre, m&#229;ske omkring en 600-700 pixels  </span><br /><span class='normal'>bredt. Men n&#229;, jeg m&#229; jo leve med det store vindue t&#230;nker jeg, og pr&#248;ver  </span><br /><span class='normal'>at klikke p&#229; en af nyhedsoverskrifterne... Der sker ingenting... Der  </span><br /><span class='normal'>kommer godt nok heller ingen h&#229;nd som cursor n&#229;r jeg f&#248;rer musen over,  </span><br /><span class='normal'>men det er rimelig indlysende at det skal forestille at v&#230;re links. </span><br /><span class='normal'> </span><br /><span class='normal'>N&#229; tilbage til &quot;forsiden&quot; og ind og l&#230;se systemkravene... Det viser sig  </span><br /><span class='normal'>at IE55 er et mindstekrav !? Selv k&#248;rer jeg Mozilla 1.0 Release  </span><br /><span class='normal'>Candidate 1.0. Er der s&#229; en god grund til at kr&#230;ve IE55 ? Ikke s&#229; vidt  </span><br /><span class='normal'>jeg kan se p&#229; sitets features. F&#229;r en f&#230;l mistanke om at det er sjusket  </span><br /><span class='normal'>og/eller inkompetent kodning. Eller m&#229;ske et bevist markedsf&#248;ringstrick  </span><br /><span class='normal'>fra Microsoft som sitet tilsyneladende er udviklet i samarbejde med ? </span><br /><span class='normal'> </span><br /><span class='normal'>N&#229; ind og kigge p&#229; sourcekoden, specielt omkring links til nyheder som  </span><br /><span class='normal'>jeg jo ikke kunne klikke p&#229;. Lad os... </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;272&quot;  </span><br /><span class='normal'>class=TABLECELL> </span><br /><span class='normal'>   &lt;tr> </span><br /><span class='normal'>     &lt;td width=&quot;6&quot; height=&quot;20&quot;>&lt;/td> </span><br /><span class='normal'> </span><br /><span class='normal'>     &lt;a href=&quot;<a href='http://www.dbu.dk/nyheder/nyhed.asp?COMNyhedId=3014&quot;'>http://www.dbu.dk/nyheder/nyhed.asp?COMNyhedId=3014&quot;</a>  </span><br /><span class='normal'>target=_blank> </span><br /><span class='normal'> </span><br /><span class='normal'>     &lt;td width=&quot;192&quot; height=&quot;20&quot;>&lt;font face=&quot;Verdana&quot; size=&quot;1&quot;>22.000  </span><br /><span class='normal'>til Cameroun&lt;/font>&lt;/td> </span><br /><span class='normal'> </span><br /><span class='normal'>     &lt;a href=&quot;<a href='http://www.dbu.dk/nyheder/nyhed.asp?COMNyhedId=3014&quot;'>http://www.dbu.dk/nyheder/nyhed.asp?COMNyhedId=3014&quot;</a>  </span><br /><span class='normal'>target=_blank> </span><br /><span class='normal'> </span><br /><span class='normal'>     &lt;td width=&quot;70&quot; height=&quot;20&quot;>&lt;font face=&quot;Verdana&quot; size=&quot;1&quot;  </span><br /><span class='normal'>color=&quot;#70100E&quot;>30/4&amp;nbsp;&lt;font face=&quot;Verdana&quot; size=1  </span><br /><span class='normal'>color=&quot;#808080&quot;>(15:32)&lt;/font>&lt;/font>&lt;/td> </span><br /><span class='normal'> </span><br /><span class='normal'>     &lt;td width=&quot;4&quot; height=&quot;20&quot;>&lt;/td> </span><br /><span class='normal'> </span><br /><span class='normal'>   &lt;/tr> </span><br /><span class='normal'>&lt;/table> </span><br /><span class='normal'> </span><br /><span class='normal'>Herover ses koden til et helt typisk nyhedslink p&#229; sitet. Chokerende  </span><br /><span class='normal'>d&#229;rlig kode n&#229;r man studerer det n&#230;rmere: </span><br /><span class='normal'> </span><br /><span class='normal'>1) De placerer links *udenom* tabelceller for at f&#229; hele cellen til at  </span><br /><span class='normal'>fungere som et link. Ulovligt efter alle standarder. </span><br /><span class='normal'> </span><br /><span class='normal'>2) Gjorde de det s&#229; ogs&#229; bare gennemf&#248;rt, men de glemmer faktisk  </span><br /><span class='normal'>samtidig at afslutte linket ! (og det er ikke bare i dette tilf&#230;lde) </span><br /><span class='normal'> </span><br /><span class='normal'>3) Nestede FONT-tags ! Er faktisk ikke sikker p&#229; om det er ulovligt, men  </span><br /><span class='normal'>k&#248;nt er det i hvert fald ikke. Der bruges i &#248;vrigt flittigt styles p&#229;  </span><br /><span class='normal'>sitet, og med de systemkrav de alligevel stilles, hvorfor s&#229; ikke bare  </span><br /><span class='normal'>helt droppe al brug af de udfasede FONT-tags ? </span><br /><span class='normal'> </span><br /><span class='normal'>4) Ikke relateret til ovenst&#229;ende kode, men p&#229; sitet bruger de  </span><br /><span class='normal'>konsekvent non-standard document.all[] array'et i deres javascript  </span><br /><span class='normal'>fremfor document.getElementById() funktionen. Men n&#229;r nu mindstekravet  </span><br /><span class='normal'>er IE55 og W3C DOM funktion getElementById() har v&#230;ret underst&#248;ttet  </span><br /><span class='normal'>siden IE5, giver det ligesom ikke rigtig nogen mening ? </span><br /><span class='normal'> </span><br /><span class='normal'>Til slut skal det dog til deres forsvar siges at de lover en ny version  </span><br /><span class='normal'>af sitet som underst&#248;tter lavere opl&#248;sninger, men hvis ikke ogs&#229; de f&#229;r  </span><br /><span class='normal'>rettet op p&#229; deres kode-kvalitet er det &#230;rlig talt tyndt. M&#229;ske nogen  </span><br /><span class='normal'>skulle bel&#230;re dem om <a href='http://validator.w3.org'>validator.w3.org</a> ? </span><br /><span class='normal'> </span><br /><span class='normal'>M&#229;ske de kunne l&#230;re at se p&#229; et stykke kode som </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;td width=&quot;70&quot;>&lt;a href=&quot;...&quot; style=&quot;display:block; line-height:  </span><br /><span class='normal'>20px;&quot;>...link...&lt;/a>&lt;/td> </span><br /><span class='normal'> </span><br /><span class='normal'>ogs&#229;, hvis de gerne vil have en hel tabel-celle til at fungere som et link ? </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Mvh. Stig </span><br /><span class='normal'><a href='http://stig@rockland.dk'>stig@rockland.dk</a> </span><br /><span class='normal'>* Bedre (D)HTML ?! --> <a href='http://www.rockland.dk/stig/upghtml.html'>http://www.rockland.dk/stig/upghtml.html</a> * </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3CD190FA%2E9010204%40REMOVE%2DTHISrockland%2Edk%3E' title='Analyse af DBU's nye fodboldportal (www.danskfodbo...'>Analyse af DBU's nye fodboldportal (www.danskfodbo...</a>&nbsp;<small class='newslist'>(02-05-02&nbsp;-&nbsp;Stig&nbsp;Nygaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Caas46e%24upp%241%40news%2Ecybercity%2Edk%3E' title='Re: Analyse af DBU's nye fodboldportal (www.danskf...'>Re: Analyse af DBU's nye fodboldportal (www.danskf...</a>&nbsp;<small class='newslist'>(02-05-02&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3cd1aad9%240%2418607%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Analyse af DBU's nye fodboldportal (www.danskf...'>Re: Analyse af DBU's nye fodboldportal (www.danskf...</a>&nbsp;<small class='newslist'>(02-05-02&nbsp;-&nbsp;Matthiessen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3CD96B6A%2E1090509%40REMOVE%2DTHISrockland%2Edk%3E' title='Re: Analyse af DBU's nye fodboldportal (www.danskf...'>Re: Analyse af DBU's nye fodboldportal (www.danskf...</a>&nbsp;<small class='newslist'>(08-05-02&nbsp;-&nbsp;Stig&nbsp;Nygaard)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3CD190FA%2E9010204%40REMOVE%2DTHISrockland%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html_125x125'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_anim.gif' alt='Link til IT-Jobank' /></a>
+<br /><br />
+<!--
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3c3CD190FA.9010204@REMOVE-THISrockland.dk%3e' method='post'><p class='pollheader'>Hvad synes du om forbruger­- ombudsmandens forslag om at forbyde visse typer annoncer på internettet?</p><div><input type='hidden' name='tst' value='03-12-02 16:59:45' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;God idé</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Dårlig idé</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Analyse af DBU's nye fodboldportal (www.danskf...</span></div>
+
+
+
+</body>
+</html>
+

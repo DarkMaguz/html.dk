@@ -1,0 +1,293 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Søgeresultat</title>
+
+<meta name="description" content="Læs og søg i arkivet for de danske nyhedsgrupper om bl.a. webdesign, html, css, javascript og asp - brug den webbaserede newsreader på html.dk" />
+<meta name="keywords" content="nyhedsgrupper, newsgroups, usenet, arkiv, archive, webdesign, html, css, javascript, ECMA-script, asp, frontpage, hjælp, tips, spørgsmål, svar" />
+<meta name="title" content="Søgeresultat" />
+<meta name="language" content="dan" />
+<meta name="Date" content="31-01-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<script language="JavaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+   </a>
+</noscript>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+
+<h1>Søgeresultat</h1>
+
+<table><tr><td class='searchresults'>Søgeord:</td><td class='searchresults'><strong style='color:red;'>pws</strong> (resultatet skal indeholde alle ord)</td></tr><tr><td class='searchresults'>Fundet:</td><td class='searchresults'><strong>237</strong> sider</td></tr><tr><td class='searchresults'>Diskussionsgruppe:</td><td class='searchresults'><strong>dk.edb.internet.webdesign.serverside.asp</strong></td></tr></table><hr /><dl><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C3ba5143e%240%241007%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Computer l&#229;ser ved PWS+ASP+Access</a></strong></dt><dd>Hejsa 
+ 
+Jeg pr&#248;ver at s&#230;tte mig lidt ind i ASP og &#248;ver mig derfor vha. Tutorial p&#229; 
+http://www.html.dk/tutorials/asp/default.asp 
+ 
+Jeg er n&#229;et til lektionen om ASP og Access database, men det g&#229;r helt galt 
+n&#229;r jeg tester eksemplerne p&#229; http://www.html...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C3ba10690%240%2489074%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Run-time error</a></strong></dt><dd>Hej gruppe. 
+ 
+Nedenst&#229;ende bid kode er fra en del af TableEditor 0.7, 
+ 
+&lt;%=arrDesc(request(&quot;cid&quot;))%&gt;. 
+ 
+N&#229;r jeg bruger den lokalt (PWS/Win98) er der ingen problemer. 
+N&#229;r jeg uploader f&#229;r jeg nedenst&#229;ende fejlmelding: 
+ 
+Microsoft VBScript runtime...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9ng1d1%2441g%241%40sunsite%2Edk%3E'>Arrgghhh!! Hvad g&#229;r der galt</a></strong></dt><dd>Jeg har lige installeret PWS fra Win98 cd&#180;en (kan ikke huske om det er 1. 
+eller 2. ed) 
+Desuden har jeg lavet en lille database i Access fra Office97-pakken. 
+ 
+Men n&#229;r jeg laver en foresp&#248;rgelse med: 
+strSQL = &quot;SELECT * FROM bygning WHERE rum=1&quot; 
+ 
+og eksekverer ski...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C5Vfl7%2E2306%24sk1%2E113322%40news010%2Eworldonline%2Edk%3E'>PWS</a></strong></dt><dd>Hejsa er der nogen ef jer som kender noget til PWS(Personal Web Server)? 
+Jeg t&#230;nker p&#229; sikkerheden ved at have den k&#248;rende i bagrunden 
+ 
+Hilsen Jens 
+ 
+...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C3b850742%240%24353%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>response.redirect?</a></strong></dt><dd>Hej, 
+ 
+Jeg har f&#248;lgende problem. 
+ 
+P&#229; en side, v&#230;lges et nr. via en &lt;SELECT&gt; liste. V&#230;rdien sendes til en side 
+som igen skal stille om til et pdf dukoment. 
+ 
+Siden der stiller om ser s&#229;ledes ud: 
+ 
+Dim ThisSheet, Connect, Datasheet, Query 
+ThisSheet = Req...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9ltmhl%242g0o%241%40news%2Ecybercity%2Edk%3E'>component-problem</a></strong></dt><dd>Hej, 
+ 
+jeg er reletiv ny i asp, men har dog lavet lidt af hvert efterh&#229;nden, der er 
+bare lige &#233;t problem: n&#229;r jeg opretter et databaseobjekt ved at skrive: 
+    con = Server.CreateObject(&quot;ADODB.Connection&quot;); 
+i javascript (win2000 prof, pws er inst.), s&#229; f&#229;r...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Ccrjnnt8088ec5bgueao017dgvmnibclivb%404ax%2Ecom%3E'>At teste ASP sider</a></strong></dt><dd>Jeg har MS PWS installeret for at teste ASP sider lokalt. MEN skidtet 
+sl&#248;ver systemet af H til. Hele PC&#180;eren er som at v&#230;re p&#229; Nettet med et 
+9600 bps modem. 
+ 
+Nu kan jeg heller ikke slippe af med MS PWS for det er ingen uninstall 
+funktion!! 
+ 
+Kan man ikke teste ASP si...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cb93nntoe0jekg11g78rtev0vsf9otiksev%404ax%2Ecom%3E'>Hvad nu??</a></strong></dt><dd>Hej, 
+ 
+Hvorfor kan jeg ikke f&#229; mine asp sider til at virke korrekt?? 
+Jeg har en database med oplysninger som jeg bruger en asp side til at 
+vise men n&#229;r jeg kigger den igennem lokalt p&#229; min PC&#180;er s&#229; fremkommer 
+ikke data fra databasen. Jeg har PWS installeret. 
+ 
+An...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9k3ei2%24ho0%241%40news%2Ecybercity%2Edk%3E'>webserver</a></strong></dt><dd>Hvad skal man bruge for at lave en webserver? 
+Jeg f&#229;r ADSL inden for et par uger, og ville gerne vide om der overhovedet 
+er muligt!... 
+Hvis det skal v&#230;re med ASP, kan man s&#229; godt bruge en apache-server?... 
+Findes der andre gratis serverprogrammer der kan h&#229;ndtere asp? 
+J...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9jhp2a%241b10%241%40news%2Ecybercity%2Edk%3E'>IIS 5.0</a></strong></dt><dd>Hejsa, 
+ 
+Jeg har et k&#230;mpeproblem, jeg har lavet en db og lagt den i den folder, men 
+kan ikke se den i browseren. Her er min kode, s&#229; I kan se om jeg har lavet 
+noget galt: 
+ 
+1  &lt;html&gt; 
+2  &lt;title&gt;Personer i db&lt;/title&gt; 
+3  &lt;head&gt; 
+ 4  &lt;/head&gt; 
+5  &l...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9j2g17%241572%241%40news%2Ecybercity%2Edk%3E'>ASP.NET</a></strong></dt><dd>Hejsa, jeg vil gerne igang med ASP.NET, men ved ikke helt hvordan, jeg k&#248;rer 
+win98 og har installeret .NET Framework v1.0.2914, hvordan kommer jeg videre 
+herfra, kan ikke se at dette er 
+installeret nogen steder, som man kan det n&#229;r pws er installeret, hvad 
+mangler jeg? 
+ 
+Mvh BB ...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9j26l0%24jcr%241%40sunsite%2Edk%3E'>PWS og localhost - hvordan?</a></strong></dt><dd>Selvom dette intet har med ASP at g&#248;re, tillader jeg mig 
+alligevel at sp&#248;rge om hj&#230;lp! 
+Jeg har webhotel med ASP, bruger Windows 98, FrontPage og PWS, 
+men kan ikke se asp-filerne offline. Jeg er n&#248;dt til at uploade 
+dem for at teste. 
+Den kan ikke finde min Access db selv ...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns90E0EFD3A887Fdesvrreikkeher%40130%2E227%2E3%2E84%3E'>PWS og Win95</a></strong></dt><dd>Jeg har tidligere set sp&#248;rgsm&#229;l i denne nyhedsgruppe om installation af PWS  
+under Win95. Da det er temmelig sv&#230;rt at finde rundt p&#229; microsofts  
+hjemmeside, vil jeg gerne dele min succes med andre. 
+ 
+For at installere PWS under Win95 skal Winsock updateres til ver. 2 -  
+...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9insrv%24p6a%241%40sunsite%2Edk%3E'>HTML.dk ASP-Tutorial vs PWS</a></strong></dt><dd>Hejsa  
+ 
+Hvordan kan det v&#230;re at der st&#229;r i ASP-Tutorialen at man kan 
+bruge PWS som server for sine fors&#248;g, men n&#229;r man skal arbejde 
+med databaser s&#229; er ens operativ system forkert!? &#216;hh..... Jeg er 
+nok helt galt p&#229; den! hehe! =] Anyway, jeg ved jo godt at...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9i44h7%242oi7%241%40news%2Ecybercity%2Edk%3E'>Problem med pws</a></strong></dt><dd>Hejsa, jeg har et problem med at min pws fryser efter at jeg pr&#248;ver at komme 
+ind p&#229; en asp side med db-opkobling, efter dette kan jeg slet ikke komme ind 
+p&#229; nogle af min asp sider, f&#248;r jeg genstarter computeren, jeg har oplevet 
+det en gang f&#248;r og der fik jeg at vide at...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CG%25D07%2E4103%24DJ5%2E369870%40news010%2Eworldonline%2Edk%3E'>Acces + pws og ODBC problemer</a></strong></dt><dd>hej 
+ 
+jeg har installeret personal web server, for at kunne lege med lidt asp p&#229; 
+min puter, sammen med MS Acces. 
+jeg har v&#230;ret inde i odbc-admin, og tilf&#248;jet en microsoft acces driver der 
+peger p&#229; min DB. 
+ 
+koden ser s&#229;dan ud, men n&#229; jeg k&#248;rer det siger...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9hh2v1%244ov%241%40sunsite%2Edk%3E'>Hj&#230;lp til installation af PWS!</a></strong></dt><dd>N&#229;r jeg installerer PWS f&#229;r jeg en fejlmeddelelse om, at MTS ikke 
+er installeret. Fejlkode: 0xfee670 og 0x80004005. Serveren k&#248;rer 
+afsindigt langsomt, n&#229;r den er installeret. Jeg har tidligere 
+installeret PWS uden nogen problemer, men siden har jeg f&#229;et ADSL 
+og Norto...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9hdn90%24dpc%241%40sunsite%2Edk%3E'>Hj&#230;lp til PWS!</a></strong></dt><dd>Inde under PWS er der et sted hvor der st&#229;r hvor min hjemmeside 
+er tilg&#230;ngelig henne.... Men adressen er ikke rigtig... Hvordan 
+laver jeg den om? 
+ 
+-Dark Ice Boy! 
+ 
+--  
+Brug Validator service: http://www.html.dk/validator 
+ - Tast din URL &#233;n gang, og valid&#233;r dokument...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9haar5%24cmqbr%242%40ID%2D62858%2Enews%2Edfncis%2Ede%3E'>no PWS icon in Control Panel</a></strong></dt><dd>The control panel of my computer where I have installed PWS doesn't contain 
+the icon for PWS which is talked about under 
+http://g-lea.tamu.edu/ftpserv.htm. What could be the reason? 
+I want to install a FTP server on PWS but don't make it because of this. 
+Could someone help me? 
+ 
+Stephan ...</dd><dt><strong><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9h9cnp%24csven%246%40ID%2D62858%2Enews%2Edfncis%2Ede%3E'>*.inc</a></strong></dt><dd>Could someone explain to me what are the *.inc files that I find inside the 
+PWS folder ? 
+ 
+Thanks in advance 
+Stephan 
+ 
+ 
+ 
+...</dd></dl><p>Resultatsider <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=></a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=1>1</a> <strong>2</strong> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=3>3</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=4>4</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=5>5</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=6>6</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=7>7</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=8>8</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=9>9</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=10>10</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=11>11</a> <a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=12>12</a> &nbsp;[&nbsp;<a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=1>Forrige</a>&nbsp;|&nbsp;<a href=search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=3>Næste</a> &nbsp;]</p><h2>Søg igen</h2><form action='/nyhedsgrupper/search.asp' method='get'><div style='background:#CCCCCC;border:1px solid #666666;padding:3px;'>Søg efter <input type='text' name='query' size='20' value='pws' /> Søg i <select name='scope'><option value='dk_edb_internet_webdesign'>dk.edb.internet.webdesign</option><option value='dk_edb_internet_webdesign_html'>dk.edb.internet.webdesign.html</option><option value='dk_edb_internet_webdesign_ris+ros'>dk.edb.internet.webdesign.ris+ros</option><option value='dk_edb_internet_webdesign_frontpage'>dk.edb.internet.webdesign.frontpage</option><option value='dk_edb_internet_webdesign_flash'>dk.edb.internet.webdesign.flash</option><option value='dk_edb_internet_webdesign_clientside'>dk.edb.internet.webdesign.clientside</option><option value='dk_edb_internet_webdesign_serverside'>dk.edb.internet.webdesign.serverside</option><option value='dk_edb_internet_webdesign_serverside_asp' selected='selected'>dk.edb.internet.webdesign.serverside.asp</option><option value='dk_edb_internet_webdesign_serverside_php'>dk.edb.internet.webdesign.serverside.php</option><option value='dk_edb_internet_udbydere_webhotel'>dk.edb.internet.udbydere.webhotel</option></select><input type='submit' value='søg' /><br />Resultaterne skal indeholde <input type='radio' name='searchtype' value='1' checked='checked' />alle ord<input type='radio' name='searchtype' value='2'  />mindst et af ordene<input type='radio' name='searchtype' value='3'  />ordene som sætning</div></form><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" tabindex="1" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" tabindex="2" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" tabindex="3" class="menulink" title="Bliv gratis medlem af HTML.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" tabindex="4" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" tabindex="5" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" tabindex="6" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" tabindex="7" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" tabindex="8" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" tabindex="9" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" tabindex="10" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/search.asp?query=pws&searchtype=1&scope=dk_edb_internet_webdesign_serverside_asp&page=2' method='post'><p class='pollheader'>Skal Danmark udskifte kronen med euro?</p><div><input type='hidden' name='tst' value='31-01-02 09:57:01' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+						<!-- DoubleClick start -->
+
+						<center>
+						<script language="JavaScript">
+						<!--
+						   var time = new Date();
+						   randnum = (time.getTime());
+						   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+						   document.write('<\/scr'+'ipt>');
+						//-->
+						</script>
+						<noscript>
+						   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+						   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+						   </a>
+						</noscript>
+						</center>
+
+						<!-- DoubleClick end -->
+
+						
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<a href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=2" /></a>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper' title='Oversigten over danske nyhedsgrupper om webdesign' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Søgeresultat</span></div>
+
+</body>
+</html>
+

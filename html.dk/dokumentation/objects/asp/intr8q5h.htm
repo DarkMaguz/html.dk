@@ -1,0 +1,225 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>ClientCertificate</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_clientcertificate"></a>ClientCertificate</h2>
+<p>
+The <b>ClientCertificate</b> collection retrieves the certification fields (specified in the X.509 standard) from a request issued by the Web browser. </p>
+<p>
+If a Web browser uses the SSL3.0/PCT1 protocol (in other words, it uses a URL starting with https:// instead of http://) to connect to a server and the server requests certification, the browser sends the certification fields. </p>
+<p>
+If no certificate is sent, the <b>ClientCertificate</b> collection returns EMPTY.</p>
+<p>
+Before you can use the <b>ClientCertificate</b> collection, you must configure your Web server to request client certificates.</p>
+<h4>Syntax</h4>
+<pre><b>Request.ClientCertificate(</b> <i>Key</i>[<i>SubField</i>] <b>)
+ </b></pre>
+<h4>Parameters</h4>
+<dl>
+<dt>
+<i>Key</i></dt>
+<dd>
+Specifies the name of the certification field to retrieve. A client certificate consists of the following fields.<table>
+<tr valign=top>
+<td>
+<b>Value</b></td>
+<td>
+<b>Meaning</b></td>
+</tr>
+<tr valign=top>
+<td>
+Certificate</td>
+<td>
+A string containing the binary stream of the entire certificate content in ASN.1 format.</td>
+</tr>
+<tr valign=top>
+<td>
+Flags</td>
+<td>
+A set of flags that provide additional client certificate information. The following flags may be set:<p>
+<b>ceCertPresent</b> - A client certificate is present.</p>
+<p>
+<b>ceUnrecognizedIssuer</b> - The last certification in this chain is from an unknown issuer.</p>
+<p>
+<b>Note</b>  To use the preceding flags you must include the client-certificate include file in your ASP page. If you are using VBScript, include cervbs.inc. If you are using JScript, include cerjavas.inc. These files are installed in the \Inetpub\ASPSamp\Samples directory.</p>
+</td>
+</tr>
+<tr valign=top>
+<td>
+Issuer</td>
+<td>
+A string that contains a list of subfield values containing information about the issuer of the certificate. If this value is specified without a <i>SubField</i>, the <b>ClientCertificate</b> collection returns a comma-separated list of subfields. For example, C=US, O=Verisign, and so on.</td>
+</tr>
+<tr valign=top>
+<td>
+SerialNumber</td>
+<td>
+A string that contains the certification serial number as an ASCII representation of hexidecimal bytes separated by hyphens (-). For example, 04-67-F3-02.</td>
+</tr>
+<tr valign=top>
+<td>
+Subject</td>
+<td>
+A string that contains a list of subfield values that themselves contain information about the subject of the certificate. If this value is specified without a <i>SubField</i>, the <b>ClientCertificate</b> collection returns a comma-separated list of subfields. For example, C=US, O=Msft, and so on.</td>
+</tr>
+<tr valign=top>
+<td>
+ValidFrom</td>
+<td>
+A date specifying when the certificate becomes valid. This date follows VBScript format and varies with international settings. For example, in the U.S. 9/26/96 11:59:59 <small>PM.</small></td>
+</tr>
+<tr valign=top>
+<td>
+ValidUntil</td>
+<td>
+A date specifying when the certificate expires.</td>
+</tr>
+</table><br>
+<br>
+</dd>
+<dt>
+<i>SubField</i></dt>
+<dd>
+An optional parameter you can use to a retrieve an individual field in either the Subject or Issuer keys. This parameter is added to the <i>Key </i>parameter as a suffix. For example, IssuerO or SubjectCN. The following table lists some common S<i>ubField</i> values. <table>
+<tr valign=top>
+<td>
+<b>Value</b></td>
+<td>
+<b>Meaning</b></td>
+</tr>
+<tr valign=top>
+<td>
+C</td>
+<td>
+Specifies the name of the country of origin. </td>
+</tr>
+<tr valign=top>
+<td>
+CN</td>
+<td>
+Specifies the common name of the user. (This subfield is only used with the Subject key.)</td>
+</tr>
+<tr valign=top>
+<td>
+GN</td>
+<td>
+Specifies a given name.</td>
+</tr>
+<tr valign=top>
+<td>
+I</td>
+<td>
+Specifies a set of initials.</td>
+</tr>
+<tr valign=top>
+<td>
+L</td>
+<td>
+Specifies a locality.</td>
+</tr>
+<tr valign=top>
+<td>
+O</td>
+<td>
+Specifies the company or organization name. </td>
+</tr>
+<tr valign=top>
+<td>
+OU</td>
+<td>
+Specifies the name of the organizational unit.</td>
+</tr>
+<tr valign=top>
+<td>
+S</td>
+<td>
+Specifies a state or province.</td>
+</tr>
+<tr valign=top>
+<td>
+T</td>
+<td>
+Specifies the title of the person or organization.</td>
+</tr>
+</table><br>
+<p>
+<i>SubField </i>values other than those listed in the preceding table can be identified by their ASN.1 identifier. The format of the ASN.1 identifier is a list of numbers separated by a period (.). For example,: 3.56.7886.34.</p>
+</dd>
+</dl>
+<h4>Remarks</h4>
+<p>
+You can use an iterator to loop through the keys of the <b>ClientCertificate</b> collection. This is demonstrated in the following example.</p>
+<pre>&lt;%
+For Each key in Request.ClientCertificate
+  Response.Write( key &amp; &quot;: &quot; &amp; Request.ClientCertificate(key) &amp; &quot;&lt;BR&gt;&quot;)
+Next
+%&gt;
+ </pre>
+<h4>Examples</h4>
+<p>
+The following example uses the <code>Subject</code> key to test whether a client certificate has been presented.</p>
+<pre>&lt;%
+If Len(Request.ClientCertificate(&quot;Subject&quot;)) = 0
+  Response.Write(&quot;No client certificate was presented&quot;)
+End if
+%&gt;
+ </pre>
+<p>
+The following example retrieves the common name of the company that issued the client certificate.</p>
+<pre>&lt;%= Request.ClientCertificate(&quot;IssuerCN&quot;) %&gt;
+ </pre>
+<p>
+The following example checks the organization name of the subject of the client certification.</p>
+<pre>&lt;% 
+If (Request.ClientCertificate(&quot;Subject&quot;)=&quot;Msft&quot;)
+  Response.Write(&quot;Good Choice!&quot;)
+End if
+%&gt;
+ </pre>
+<p>
+The following example displays the expiration date of the client certificate.</p>
+<pre>This certification will expire on 
+&lt;%= Request.ClientCertificate(&quot;ValidUntil&quot;) %&gt;
+ </pre>
+<p>
+The following example uses the <code>Flags</code> key to test whether the issuer of the certificate is known. The include statement in the first line enables this script to use the named flag <code>ceUnrecognizedIssuer</code>.</p>
+<pre>&lt;!--#include file=&quot;cervbs.inc&quot; --&gt;
+&lt;%
+If Request.ClientCertificate(&quot;Flags&quot;) and ceUnrecognizedIssuer then
+  Response.Write &quot;Unrecognized issuer&quot;
+End If
+%&gt;
+ </pre>
+<h4>Applies To</h4>
+<p>
+<a href="intr5ulw.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5ulw.htm"><b>Request Object</b></a> </p>
+<h4>See Also</h4>
+<p>
+<a href="intr0z3o.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr0z3o.htm"><b>Cookies</b></a>, <a href="intr4fl9.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr4fl9.htm"><b>Form</b></a>, <a href="intr53hj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr53hj.htm"><b>QueryString</b></a>, <a href="intr5vsj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5vsj.htm"><b>ServerVariables</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

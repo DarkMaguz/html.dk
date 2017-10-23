@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>IsNumeric Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctisnumeric"></A>IsNumeric Function</H1>
+
+<P>Returns a Boolean value indicating whether an expression can be evaluated as a number.</P>
+
+<P><CODE>IsNumeric(<I>expression</I>)</CODE></P>
+
+<P>The <I>expression</I> argument can be any <A HREF="vtglossary.htm#defexpressionvbs">expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P><B>IsNumeric</B> returns <B>True</B> if the entire <I>expression</I> is recognized as a number; otherwise, it returns <B>False</B>. <B>IsNumeric</B> returns <B>False</B> if <I>expression</I> is a <A HREF="vtglossary.htm#defdateexpressionvbs">date expression</A>.</P>
+
+<P>The following example uses the <B>IsNumeric</B> function to determine whether a variable can be evaluated as a number: </P>
+
+<PRE><CODE>Dim MyVar, MyCheck
+MyVar = 53&nbsp;&nbsp;&nbsp;' Assign a value.
+MyCheck = <span class=cfe><B>IsNumeric(</B></span>MyVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns True.
+MyVar = "459.95"&nbsp;&nbsp;&nbsp;' Assign a value.
+MyCheck = <span class=cfe><B>IsNumeric(</B></span>MyVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns True.
+MyVar = "45 Help"&nbsp;&nbsp;&nbsp;' Assign a value.
+MyCheck = <span class=cfe><B>IsNumeric(</B></span>MyVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns False.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctisarray.htm">IsArray Function</A> | <A HREF="vsfctisdate.htm">IsDate Function</A> | <A HREF="vsfctisempty.htm">IsEmpty Function</A> | <A HREF="vsfctisnull.htm">IsNull Function</A> | <A HREF="vsfctisobject.htm">IsObject Function</A> | <A HREF="vsfctvartype.htm">VarType Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

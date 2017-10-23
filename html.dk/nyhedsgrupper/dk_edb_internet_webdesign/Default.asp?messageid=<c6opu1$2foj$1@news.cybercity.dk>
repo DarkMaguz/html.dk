@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>notpad problem fortsat</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Brodlos den 28. april 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="notpad problem fortsat" />
+<meta name="language" content="dan" />
+<meta name="Date" content="28-04-2004" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=504035592080?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?mode=form&amp;ReplyID=%3Cc6opu1%242foj%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Brodlos&nbsp;&nbsp;<a href='mailto:software@hardware.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='software@hardware.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Cybercity</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 28. april 2004 kl. 19:33</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>notpad problem fortsat</strong></li></ul>
+
+<p><span class='normal'>Lige et resum&#233;...... </span><br /><span class='normal'> </span><br /><span class='citat'>>Det er s&#229;dan at jeg l&#230;rte html script fra en bog af John Gilson for mange </span><br /><span class='normal'>&#229;r </span><br /><span class='citat'>>siden, og han brugte nedenst&#229;ende fremgangsm&#229;de til at lave &#230;ndringer i </span><br /><span class='normal'>sine </span><br /><span class='citat'>>hjemmesider, og det har alts&#229; h&#230;ngt ved. </span><br /><span class='normal'> </span><br /><span class='citat'>>************************************************************ </span><br /><span class='normal'> </span><br /><span class='citat'>>Alts&#229;, jeg &#229;bner min hjemmeside i min browser, i &#248;jeblikket IE6, </span><br /><span class='citat'>>s&#230;dvanligvis &#229;bner jeg index.html f&#248;rst, for derfra har jeg s&#229; adgang til </span><br /><span class='citat'>>hele min hjemmeside, s&#229;dan som den ogs&#229; ser ud n&#229;r den er lagt p&#229; nettet, </span><br /><span class='citat'>>med frames og stylesheets og det hele. </span><br /><span class='normal'> </span><br /><span class='citat'>>N&#229;r jeg s&#229; vil lave en rettelse, h&#248;jreklikker jeg i lige pr&#230;cis den frame </span><br /><span class='citat'>>jeg vil lave en rettelse i, v&#230;lger vis kilde, og s&#229; kan jeg se htmlscriptet </span><br /><span class='citat'>>i notepad. Jeg laver min rettelse, og trykker blot p&#229; filer > gem i </span><br /><span class='normal'>notepad, </span><br /><span class='citat'>>s&#229; bliver rettelsen gemt, og den originale fil bliver alts&#229; overskrevet. S&#229; </span><br /><span class='citat'>>lukker jeg notepad og trykker p&#229; F5 for at opdatere min browser, og se om </span><br /><span class='citat'>>&#230;ndringen ser ud som den skal. </span><br /><span class='normal'> </span><br /><span class='citat'>>Jeg synes denne fremgangsm&#229;de er meget nem og smidig, jeg har dog pr&#248;vet </span><br /><span class='citat'>>andre som f.eks. frontpage, stones, og at &#229;bne html filerne direkte i </span><br /><span class='normal'>mappen </span><br /><span class='citat'>>som nogle har foresl&#229;et mig at g&#248;re, men jeg har det alts&#229; bedst med at </span><br /><span class='citat'>>bruge den fremgangsm&#229;de som jeg hele tiden har brugt - kald mig bare </span><br /><span class='citat'>>gammeldags <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> </span><br /><span class='normal'> </span><br /><span class='citat'>>Det har jeg s&#229; ikke mulighed for l&#230;ngere, fordi det g&#229;r galt n&#229;r jeg </span><br /><span class='normal'>klikker </span><br /><span class='citat'>>p&#229; gem, og notepad foresl&#229;r et helt andet filnavn og et helt andet sted at </span><br /><span class='citat'>>gemme filen, i stedet for at overskrive den fil jeg har &#229;bnet. Jeg kan jo </span><br /><span class='citat'>>sagtens omd&#248;be og s&#229; v&#230;lge hvor jeg vil gemme filen, s&#229;ledes at den gamle </span><br /><span class='citat'>>fil bliver overskrevet, men det er jeg jo s&#229; n&#248;dt til at g&#248;re hver eneste </span><br /><span class='citat'>>gang jeg h&#248;jreklikker, og det kan godt blive lidt tr&#230;ls p&#229; en hjemmeside </span><br /><span class='normal'>som </span><br /><span class='citat'>>m&#229;ske best&#229;r af flere hundrede html filer, hvor der skal rettes en hel </span><br /><span class='citat'>>masse. </span><br /><span class='normal'> </span><br /><span class='citat'>>Det er omkring 6 m&#229;neder siden jeg installerede windows sidste gang, og </span><br /><span class='citat'>>ovenn&#230;vnte fremgansm&#229;de har fungeret indtil for 3 dage siden. Jeg kan ikke </span><br /><span class='citat'>>finde ud af om det er et program jeg har installeret indenfor de sidste 3 </span><br /><span class='citat'>>dage, eller om jeg m&#229;ske er blevet virus inficeret (jeg har ikke opdateret </span><br /><span class='citat'>>norton for nylig), men det var derfor at jeg fors&#248;gte at lave en system </span><br /><span class='citat'>>restore, for at komme mindst 3 dage tilbage i tiden. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg er nu kommet s&#229; langt s&#229; jeg har fundet ud af at : </span><br /><span class='normal'> </span><br /><span class='normal'>N&#229;r jeg dobbeltklikker p&#229; f.eks. en index.html fil som ligger i en mappe p&#229; </span><br /><span class='normal'>min computer &#229;bner den i min browser (IE6) - MEN - index.html bliver rent </span><br /><span class='normal'>faktisk af en eller anden grund hentet fra Cybercitys webserver hvor jeg har </span><br /><span class='normal'>denne hjemmeside liggende, s&#229; selv om jeg i IE's adressefelt kan se stien </span><br /><span class='normal'>til filen p&#229; min egen computer, ved jeg at den bliver hentet fra </span><br /><span class='normal'>webserveren, og det ved jeg fordi at jeg ikke kan se siden hvis jeg hiver </span><br /><span class='normal'>mit adsl stik ud. Meget mystisk! </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg h&#229;ber virkelig at der er et klogt hoved som kan fort&#230;lle mig hvorfor min </span><br /><span class='normal'>computer sp&#248;ger. Hvorfor bliver html filen hentet fra nettet og ikke fra min </span><br /><span class='normal'>egen computer??? </span><br /><span class='normal'> </span><br /><span class='normal'>mvh MB </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://dvd.br&#248;dl&#248;s.dk'>http://dvd.br&#248;dl&#248;s.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis din browser ikke underst&#248;tter &#230;,&#248;, og &#229;, brug i stedet </span><br /><span class='normal'><a href='http://on.to/brodlos'>http://on.to/brodlos</a> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?messageid=%3Cc6opu1%242foj%241%40news%2Ecybercity%2Edk%3E' title='notpad problem fortsat'>notpad problem fortsat</a>&nbsp;<small class='newslist'>(28-04-2004&nbsp;-&nbsp;Brodlos)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?messageid=%3Cm38yggdjao%2Efsf%40yahoo%2Eno%3E' title='Re: notpad problem fortsat'>Re: notpad problem fortsat</a>&nbsp;<small class='newslist'>(28-04-2004&nbsp;-&nbsp;D8ystein&nbsp;Skarts=E6terhagen?=)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?messageid=%3Cpan%2E2004%2E04%2E29%2E18%2E40%2E42%2E847446%40ahle%2Edk%3E' title='Re: notpad problem fortsat'>Re: notpad problem fortsat</a>&nbsp;<small class='newslist'>(29-04-2004&nbsp;-&nbsp;Lobais)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?mode=form&amp;ReplyID=%3Cc6opu1%242foj%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=283772766591?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp?messageid=%3Cc6opu1%242foj%241%40news%2Ecybercity%2Edk%3E' method='post'><p class='pollheader'>Er du interesseret i foredrag om webudvikling?</p><div><input type='hidden' name='tst' value='04-09-2004 23:09:05' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, men det skal være gratis</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Ja, og jeg vil gerne betale feks. kr. 150 for det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/Default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: notpad problem fortsat</span></div>
+
+
+
+</body>
+</html>
+

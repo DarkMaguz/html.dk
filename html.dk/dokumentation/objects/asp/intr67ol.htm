@@ -1,0 +1,58 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>ContentType</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_contenttype"></a>ContentType</h2>
+<p>
+The <b>ContentType</b> property specifies the HTTP content type for the response. If no <b>ContentType</b> is specifed, the default is text/HTML. </p>
+<h4>Syntax</h4>
+<pre><b>Response.ContentType </b>[<b>=</b> <i>ContentType </i>]
+ </pre>
+<h4>Parameters</h4>
+<dl>
+<dt>
+<i>ContentType</i></dt>
+<dd>
+A string describing the content type. This string is usually formatted type/subtype where type<i> </i>is the general content category and subtype is the specific content type. For a full list of supported content types, see your Web browser documentation or the current HTTP specification.</dd>
+</dl>
+<h4>Examples</h4>
+<p>
+The following example sets the content type to Channel Definition Format(CDF). </p>
+<pre>&lt;% Response.ContentType = &quot;application/x-cdf&quot; %&gt;
+ </pre>
+<p>
+The following examples set the <b>ContentType</b> property<b> </b>to other common values.</p>
+<pre>&lt;% Response.ContentType = &quot;text/HTML&quot; %&gt;
+&lt;% Response.ContentType = &quot;image/GIF&quot; %&gt;
+&lt;% Response.ContentType = &quot;image/JPEG&quot; %&gt;
+ </pre>
+<h4>Applies To</h4>
+<p>
+<a href="intr5sj8.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5sj8.htm"><b>Response Object</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

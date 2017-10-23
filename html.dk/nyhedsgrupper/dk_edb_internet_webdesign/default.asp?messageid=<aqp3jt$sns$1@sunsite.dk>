@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: S&#248;gemaskine-registrering og META</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Anne Petersen den 11. november 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: S&#248;gemaskine-registrering og META" />
+<meta name="language" content="dan" />
+<meta name="Date" content="11-11-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3Caqp3jt%24sns%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Anne&nbsp;Petersen&nbsp;&nbsp;<a href='mailto:amap@mobilixnet.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='amap@mobilixnet.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 11. november 2002 kl. 22:23</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: S&#248;gemaskine-registrering og META</strong></li></ul>
+
+<p><span class='normal'>Stiig L Hougesen wrote in dk.edb.internet.webdesign: </span><br /><span class='citat'>> Hej alle sammen  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Nu er jeg n&#229;et s&#229; langt med min hjemmeside <a href='http://www.hougesen.com'>www.hougesen.com</a>, at det nok  </span><br /><span class='citat'>> snart er p&#229; tide at lade den registrere i s&#248;gemaskinerne.  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Jeg kunne godt t&#230;nke mig om der var nogen der kunne give nogle gode tips og  </span><br /><span class='citat'>> retningslinjer i forbindelse med at registrere sit site i s&#248;gemaskinerne.  </span><br /><span class='citat'>> Derfor har jeg f&#248;lgende sp&#248;rgsm&#229;l. (Jeg ved det er meget, men h&#229;ber  </span><br /><span class='citat'>> alligevel nogen kan hj&#230;lpe).  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> 1. Hvilke s&#248;gemaskiner kan anbefales?  </span><br /><span class='citat'>> 2. Hvordan finder jeg ud af hvilke s&#248;geord jeg skal bruge, og hvordan skal  </span><br /><span class='citat'>> jeg prioritere disse?  </span><br /><span class='citat'>> 3. Skal jeg registrere alle mine undersider?  </span><br /><span class='citat'>> 4. Skal jeg anvende META-tags p&#229; alle mine undersider?  </span><br /><span class='citat'>> 5. Hvilke META-tags skal jeg medtage (se nedenfor)?  </span><br /><span class='citat'>> 6. Skal jeg anvende samme s&#248;geord flere gange, f.eks. i META-tagsene?  </span><br /><span class='citat'>> 7. Skal jeg b&#248;je s&#248;geordene, f.eks. pilot, piloter, piloten?  </span><br /><span class='citat'>> 8. Skal jeg t&#230;nke over store/sm&#229; bogstaver?  </span><br /><span class='citat'>> 9. Skal jeg l&#230;gge min e-mailadresse i s&#248;gemaskinerne, f.eks. i en META?  </span><br /><span class='citat'>> 10. G&#229;r s&#248;gerobotterne af og til ud og opdaterer informationerne i META'erne </span><br /><span class='citat'>> (Linje 07)?  </span><br /><span class='citat'>> 11. Hvordan fungerer det der st&#229;r i Linje 08 (all, nofollow)?  </span><br /><span class='citat'>> 12. Er det fornuftigt at have Linje 09 med?  </span><br /><span class='citat'>> 13. Hvorfor er der b&#229;de &quot;language&quot; og &quot;lang&quot; i Linje 04 og 05? Er det ikke  </span><br /><span class='citat'>> kun den ene der virker?  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Hvis nogen i&#248;vrigt har nogle gode r&#229;d, vil jeg gerne h&#248;re om dem.  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Her er mine META for min hovedside (lettere redigeret), ser det fornuftigt  </span><br /><span class='citat'>> ud?, er der nogle jeg ikke har med som jeg kunnne f&#229; gl&#230;de af at tage med?  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Linje 01 &lt;meta name=&quot;title&quot; content=&quot;Hougesen Aviation Site&quot;>  </span><br /><span class='citat'>> Linje 02 &lt;meta name=&quot;description&quot; content=&quot;Stiig Lomholt Hougesen - Aviation </span><br /><span class='citat'>> and family&quot;>  </span><br /><span class='citat'>> Linje 03 &lt;meta name=&quot;keyword&quot; content=&quot;Stiig Lomholt Hougesen, Stiig L  </span><br /><span class='citat'>> Hougesen, Stig Haugesen, pilot, aviation, cv, profile, aircrafts, flying&quot;>  </span><br /><span class='citat'>> Linje 04 &lt;meta name=&quot;language&quot; content=&quot;en&quot;>  </span><br /><span class='citat'>> Linje 05 &lt;meta name=&quot;lang&quot; content=&quot;en&quot;>  </span><br /><span class='citat'>> Linje 06 &lt;meta name=&quot;author&quot; content=&quot;Stiig Lomholt Hougesen&quot;>  </span><br /><span class='citat'>> Linje 07 &lt;meta name=&quot;revisit-after&quot; content=&quot;14 days&quot;>  </span><br /><span class='citat'>> Linje 08 &lt;meta name=&quot;robots&quot; content=&quot;all, nofollow&quot;>  </span><br /><span class='citat'>> Linje 09 &lt;meta name=&quot;owner&quot; content=&quot;webmaster@hougesen.com&quot;>  </span><br /><span class='citat'>> Linje 10 &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;  </span><br /><span class='citat'>> charset=iso-8859-1&quot;>  </span><br /><span class='citat'>>   </span><br /><span class='normal'> </span><br /><span class='normal'>Hej Stiig </span><br /><span class='normal'> </span><br /><span class='normal'>Du kunne pr&#248;ve at bes&#248;ge <a href='http://www.metamaten.dk/'>http://www.metamaten.dk/</a> eller l&#230;se lidt i  </span><br /><span class='normal'><a href='http://searchengineforums.com/'>http://searchengineforums.com/</a> eller </span><br /><span class='normal'><a href='http://www.searchenginetutorial.com/metatags.html'>http://www.searchenginetutorial.com/metatags.html</a> </span><br /><span class='normal'>S&#248;g i google med &quot;#tutorial metatags&quot; og du kan finde mange flere. </span><br /><span class='normal'> </span><br /><span class='normal'>Google er for tiden den mest brugte s&#248;gemaskine, svjv, s&#229; optimer efter den i </span><br /><span class='normal'>f&#248;rste omgang. Den opdaterer kun en gang om m&#229;neden, s&#229; der kan godt g&#229; n&#230;sten </span><br /><span class='normal'>to m&#229;neder f&#248;r du kan se om deres spider har fundet dit site. Dog kan du </span><br /><span class='normal'>checke din accesslog og se om googlebot har v&#230;ret forbi.   </span><br /><span class='normal'> </span><br /><span class='normal'>Men jeg synes du skulle vent til du har mere indhold. Dine sider om aviation </span><br /><span class='normal'>er kun links, s&#229; hvorfor er de ikke alle p&#229; links siden? En s&#248;gning med google </span><br /><span class='normal'>med &quot;aviation denmark&quot; gav 118.00 hits, s&#229; der skal nok en del arbejde til at </span><br /><span class='normal'>komme til tops p&#229; de keywords.  Mine hovedkeywords gav kun 32.900 hits, s&#229; der </span><br /><span class='normal'>er det noget nemmere at komme til at ligge godt - godt v&#230;rende p&#229; den f&#248;rste </span><br /><span class='normal'>side af googles s&#248;geresultater for de keywords. </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis man har en klart defineret m&#229;lgruppe med et website, kan det give en </span><br /><span class='normal'>forbedret placering i s&#248;gemaskiner at v&#230;re registreret hos <a href='http://www.dmoz.org'>http://www.dmoz.org</a> </span><br /><span class='normal'>i den relevante kategori, men jeg synes ikke dine side er specialiseret nok </span><br /><span class='normal'>til at passe ind i en af deres kategorier - og man skal v&#230;re meget t&#229;lmodig </span><br /><span class='normal'>for at komme ind hos dmoz - jeg tror der er en million sites der venter i k&#248; </span><br /><span class='normal'>p&#229; at blive listet.  </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis du v&#230;lger Hougesen som hoved-keyword, er der kun 741 du skal passere for </span><br /><span class='normal'>at ligge f&#248;rst.  </span><br /><span class='normal'>Dit site hedde allerede noget med Hougesen, du har allerede brugt ordet </span><br /><span class='normal'>Housgesen i en alt tag til et billede og et par gange i selve teksten - fint.  </span><br /><span class='normal'>Brug gerne Hougesen i en &lt;h1> tag - du kan evt definere st&#248;rrelsen s&#229; den </span><br /><span class='normal'>alligevel ikke kommer til at st&#229; med s&#229; stor skrift. </span><br /><span class='normal'> </span><br /><span class='normal'>mvh </span><br /><span class='normal'>Anne </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI eller ASP ??? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3dcff09c%240%2411422%24ba624c82%40nntp02%2Edk%2Etelia%2Enet%3E' title='S&#248;gemaskine-registrering og META'>S&#248;gemaskine-registrering og META</a>&nbsp;<small class='newslist'>(11-11-02&nbsp;-&nbsp;Stiig&nbsp;L&nbsp;Hougesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Caqp3jt%24sns%241%40sunsite%2Edk%3E' title='Re: S&#248;gemaskine-registrering og META'>Re: S&#248;gemaskine-registrering og META</a>&nbsp;<small class='newslist'>(11-11-02&nbsp;-&nbsp;Anne&nbsp;Petersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3dd0ca6b%240%242484%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: S&#248;gemaskine-registrering og META'>Re: S&#248;gemaskine-registrering og META</a>&nbsp;<small class='newslist'>(12-11-02&nbsp;-&nbsp;Per&nbsp;Christoffersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cabc47fb6%2E0211230556%2E26343a5%40posting%2Egoogle%2Ecom%3E' title='Re: S gemaskine-registrering og META'>Re: S gemaskine-registrering og META</a>&nbsp;<small class='newslist'>(23-11-02&nbsp;-&nbsp;Brandbørge)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cabc47fb6%2E0211230553%2E71f2b09a%40posting%2Egoogle%2Ecom%3E' title='Re: S gemaskine-registrering og META'>Re: S gemaskine-registrering og META</a>&nbsp;<small class='newslist'>(23-11-02&nbsp;-&nbsp;Brandbørge)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3dd0ccb6%240%2412446%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Re: S&#248;gemaskine-registrering og META'>Re: S&#248;gemaskine-registrering og META</a>&nbsp;<small class='newslist'>(12-11-02&nbsp;-&nbsp;Allan&nbsp;Johansen)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3Caqp3jt%24sns%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html_125x125'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_anim.gif' alt='Link til IT-Jobank' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3caqp3jt$sns$1@sunsite.dk%3e' method='post'><p class='pollheader'>Hvor lærte du HTML?</p><div><input type='hidden' name='tst' value='27-01-03 07:19:41' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Her på HTML.dk</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Andet dansk website</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Udenlandsk website</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Bog / hæfte</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;Software / cd-rom</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Kursus / skole</small><br /><input type='radio' name='vote_id' value='7' /><small class='boxtext'>&nbsp;Har ikke lært HTML</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: S&#248;gemaskine-registrering og META</span></div>
+
+
+
+</body>
+</html>
+

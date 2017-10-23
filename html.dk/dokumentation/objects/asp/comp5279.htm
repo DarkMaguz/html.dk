@@ -1,0 +1,76 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Clickable</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h4><a name="_clickable"></a>Clickable</h4>
+<p>
+The <b>Clickable </b>property enables you to specify whether the advertisements are displayed as hyperlinks.</p>
+<h5>Syntax</h5>
+<pre><b>Clickable = </b><i>value
+</i><b> </b></pre>
+<h5>Parameters</h5>
+<dl>
+<dt>
+<i>value</i></dt>
+<dd>
+Specifies whether the advertisement should be a hyperlink. This parameter can be one of the following values. The default value is TRUE. <table>
+<tr valign=top>
+<td>
+<b>Value</b></td>
+<td>
+<b>Meaning</b></td>
+</tr>
+<tr valign=top>
+<td>
+TRUE </td>
+<td>
+Display the advertisements as hyperlinks.</td>
+</tr>
+<tr valign=top>
+<td>
+FALSE</td>
+<td>
+Do not display the advertisements as hyperlinks.</td>
+</tr>
+</table><br>
+</dd>
+</dl>
+<h5>Example</h5>
+<p>
+The following example displays the advertisements as images only, not as hyperlinks. </p>
+<pre>&lt;%  <BR>Set ad = Server.CreateObject(&quot;MSWC.AdRotator&quot;) <BR>ad.Clickable = FALSE
+%&gt;<BR>&lt;%= ad.GetAdvertisement(&quot;/ads/adrot.txt&quot;) %&gt; 
+ </pre>
+<h5>Applies To</h5>
+<p>
+<a href="comp59f8.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp59f8.htm"><b>Ad Rotator Component</b></a> </p>
+<h5>See Also</h5>
+<p>
+<a href="comp14fm.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp14fm.htm"><b>Border</b></a>,<b> </b><a href="comp1ag5.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp1ag5.htm"><b>TargetFrame</b></a></p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

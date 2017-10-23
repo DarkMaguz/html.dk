@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Write Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthwrite"></A>Write Method</H1>
+
+<P>Writes a specified string to a <B>TextStream</B> file.</P>
+
+<P><CODE><I>object</I><B>.Write(</B><I>string</I><B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>TextStream </B>object.</P>
+
+<P class=dt><I>string</I></P>
+
+<P class=indent>Required. The text you want to write to the file.</P>
+
+<H4>Remarks</H4>
+
+<P>Specified strings are written to the file with no intervening spaces or characters between each string. Use the <B>WriteLine</B> method to write a newline character or a string that ends with a newline character.</P>
+
+<P>The following example illustrates use of the <B>Write</B> method: </P>
+
+<PRE><CODE>Function WriteToFile
+&nbsp;&nbsp;&nbsp;Const ForReading = 1, ForWriting = 2
+&nbsp;&nbsp;&nbsp;Dim fso, f
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForWriting, True)
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>f.Write</B></span> "Hello world!" 
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForReading)
+&nbsp;&nbsp;&nbsp;WriteToFile =&nbsp;&nbsp;&nbsp;f.ReadLine
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthclose.htm">Close Method</A> | <A HREF="vsmthread.htm">Read Method</A> | <A HREF="vsmthreadall.htm">ReadAll Method</A> | <A HREF="vsmthreadline.htm">ReadLine Method</A> | <A HREF="vsmthskip.htm">Skip Method</A> | <A HREF="vsmthskipline.htm">SkipLine Method</A> | <A HREF="vsmthwriteline.htm">WriteLine Method</A> | <A HREF="vsmthwriteblanklines.htm">WriteBlankLines Method</A></P>
+
+<P>Applies To: <A HREF="vsobjtextstream.htm">TextStream Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Cookies i mailtoformular</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Alex P. den 5. november 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Cookies i mailtoformular" />
+<meta name="language" content="dan" />
+<meta name="Date" content="05-11-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form&amp;ReplyID=%3C3dc84944%240%24231%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Alex&nbsp;P.&nbsp;&nbsp;<a href='mailto:john@doe.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='john@doe.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 6. november 2002 kl. 00:44</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Cookies i mailtoformular</strong></li></ul>
+
+<p><span class='normal'>&quot;Thygesen&quot; &lt;<a href='http://cht_news@cht.dk'>cht_news@cht.dk</a>> wrote in message </span><br /><span class='normal'><a href='http://news:aq7ut2$h2g$1@sunsite.dk'>news:aq7ut2$h2g$1@sunsite.dk</a>... </span><br /><span class='citat'>> &quot;Alex P.&quot; &lt;<a href='http://john@doe.com'>john@doe.com</a>> skrev </span><br /><span class='citat'>> > > > Jeg har en lille webshop som gemmer indk&#248;bsvognen i cookies. </span><br /><span class='citat'>> > > > </span><br /><span class='citat'>> > > > P&#229; sidste side (kassen) st&#229;r s&#229; hvad man har bestilt, hentet fra </span><br /><span class='citat'>> cookien </span><br /><span class='citat'>> > > > p&#229; brugerens maskine. </span><br /><span class='citat'>> > > > </span><br /><span class='citat'>> > > > Hvis jeg laver en formular hvor indholdet samt formfelter til navn, </span><br /><span class='citat'>> > > adresse mm. st&#229;r, kommer kun indholdet af formfelterne med i </span><br /><span class='citat'>> > > > mailen, og ikke de varer der er k&#248;bt. </span><br /><span class='citat'>> > > > </span><br /><span class='citat'>> > > > Hvordan f&#229;r man indholdet fra cookien med i formularen? Er det noget </span><br /><span class='citat'>> med </span><br /><span class='citat'>> > > > hidden fields, eller lignende? </span><br /><span class='citat'>> > > </span><br /><span class='citat'>> </span><br /><span class='citat'>> Er det rigtigt at du bruger noget kode i stil med denne til at gemme de </span><br /><span class='citat'>> varer der bestilles i en cookie? </span><br /><span class='citat'>> </span><br /><span class='citat'>> &lt;% </span><br /><span class='citat'>>  ExpireDate = DateAdd(&quot;d&quot;, 365, Date) </span><br /><span class='citat'>>  CookieName = &quot;shopbasket&quot; </span><br /><span class='citat'>>  response.cookies(CookieName)(&quot;varer&quot;) = </span><br /><span class='citat'>> request.cookies(CookieName)(&quot;varer&quot;) &amp; &quot;,340,405&quot; </span><br /><span class='citat'>>  response.cookies(CookieName).Expires = ExpireDate </span><br /><span class='citat'>>  Response.Cookies(CookieName).Domain = </span><br /><span class='citat'>> Request.ServerVariables(&quot;SERVER_NAME&quot;) </span><br /><span class='citat'>>  Response.Cookies(CookieName).Path = &quot;/&quot; </span><br /><span class='citat'>> %> </span><br /><span class='citat'>> </span><br /><span class='citat'>> > Mit problem er at f&#229; indholdet med i en mail, som sendes n&#229;r man </span><br /><span class='normal'>bestiller </span><br /><span class='citat'>> > (mailto). </span><br /><span class='citat'>> </span><br /><span class='citat'>> skal det forst&#229;es som at du bruger en &lt;form </span><br /><span class='citat'>> action=&quot;mailto:en-mailadresse@domain.dk&quot;> </span><br /><span class='citat'>> </span><br /><span class='citat'>> S&#229; kan du lave et hidden felt med denne kode: </span><br /><span class='citat'>> </span><br /><span class='citat'>> &lt;%  CookieName = &quot;shopbasket&quot; %> </span><br /><span class='citat'>> &lt;input type=&quot;hidden&quot; name=&quot;varer&quot; value=&quot;&lt;%= </span><br /><span class='citat'>> request.cookies(CookieName)(&quot;varer&quot;) %>&quot;> </span><br /><span class='citat'>> </span><br /><span class='citat'>> > I &#248;jeblikket st&#229;r informationerne i en tabel inde i en form. Derfra kan </span><br /><span class='normal'>de </span><br /><span class='citat'>> > ikke 'submittes' til en mail - det er mit problem. Jeg f&#229;r kun </span><br /><span class='citat'>> informationer </span><br /><span class='citat'>> > fra formfelter med, ikke den tekst som st&#229;r ovenover med varerne. Alts&#229; </span><br /><span class='normal'>m&#229; </span><br /><span class='citat'>> > jeg tilf&#248;je varerne med totalprisen p&#229; en eller anden m&#229;de. Jeg ved bare </span><br /><span class='citat'>> > ikke hvordan :( </span><br /><span class='citat'>> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Hvis du bruger JMail, kan du bruge noget kode i stil med denne til at </span><br /><span class='normal'>sende </span><br /><span class='citat'>> indholdet at din cookie og samtidig sende informationerne fra din form: </span><br /><span class='citat'>> </span><br /><span class='citat'>> &lt;form method=POST action=&quot;&lt;%= request.servervariables(&quot;SCRIPT_NAME&quot;) %>&quot; </span><br /><span class='citat'>> name=form> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Navn: &lt;input type=navn name=name>&lt;br>&lt;br> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Adresse: &lt;input type=navn name=adresse>&lt;br>&lt;br> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Email: &lt;input type=navn name=email>&lt;br>&lt;br> </span><br /><span class='citat'>> </span><br /><span class='citat'>> &lt;input type=&quot;submit&quot; value=&quot;Submit&quot;> </span><br /><span class='citat'>> </span><br /><span class='citat'>> &lt;/form> </span><br /><span class='citat'>> </span><br /><span class='citat'>> &lt;% </span><br /><span class='citat'>> if request.form &lt;> &quot;&quot; then </span><br /><span class='citat'>> </span><br /><span class='citat'>> CookieName = &quot;shopbasket&quot; </span><br /><span class='citat'>> </span><br /><span class='citat'>> text = &quot;Ny online bestlling&quot; &amp; VbCrLf &amp; VbCrLf </span><br /><span class='citat'>> text = text &amp; &quot;Kunden har bestilt f&#248;lgende varer: &quot; &amp; </span><br /><span class='citat'>> request.cookies(CookieName)(&quot;varer&quot;) &amp; VbCrLf &amp; VbCrLf </span><br /><span class='citat'>> </span><br /><span class='citat'>> text = text &amp; &quot;Navn: &quot; &amp; request.form(&quot;name&quot;) &amp; VbCrLf </span><br /><span class='citat'>> text = text &amp; &quot;Adresse: &quot; &amp; request.form(&quot;adresse&quot;) &amp; VbCrLf </span><br /><span class='citat'>> text = text &amp; &quot;Email: &quot; &amp; request.form(&quot;email&quot;) &amp; VbCrLf </span><br /><span class='citat'>> </span><br /><span class='citat'>> mailserver  = &quot;mail.tele.dk&quot; </span><br /><span class='citat'>> mailsubject  = &quot;Sender mail med JMail&quot; </span><br /><span class='citat'>> mailrecipient  = &quot;din@mailadresse.dk&quot; </span><br /><span class='citat'>> mailsender  = &quot;afsender@domain-navn.dk&quot; </span><br /><span class='citat'>> mailbody  = &quot;Tester lige&quot; &amp; VbCrLf &amp; VbCrLf </span><br /><span class='citat'>> mailpriority  = 3 </span><br /><span class='citat'>> </span><br /><span class='citat'>> Set JMail = Server.CreateObject(&quot;JMail.SMTPMail&quot;) </span><br /><span class='citat'>> JMail.ServerAddress = mailserver </span><br /><span class='citat'>> JMail.Sender = mailsender </span><br /><span class='citat'>> JMail.Subject = mailsubject </span><br /><span class='citat'>> JMail.AddRecipient mailrecipient </span><br /><span class='citat'>> JMail.Body = text </span><br /><span class='citat'>> ' 1 - highest priority (Urgent) </span><br /><span class='citat'>> ' 3 - normal </span><br /><span class='citat'>> ' 5 - lowest </span><br /><span class='citat'>> JMail.Priority = mailpriority </span><br /><span class='citat'>> JMail.Execute </span><br /><span class='citat'>> Set JMail = Nothing </span><br /><span class='citat'>> </span><br /><span class='citat'>> response.write &quot;Din bestlling er sendt&quot; </span><br /><span class='citat'>> </span><br /><span class='citat'>> end if </span><br /><span class='citat'>> %> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Mvh. Christoffer Thygesen </span><br /><span class='citat'>> </span><br /><span class='citat'>> <a href='http://CHT.dk'>http://CHT.dk</a> </span><br /><span class='citat'>> </span><br /><span class='normal'> </span><br /><span class='normal'>Hej Christoffer </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg bruger en indk&#248;bsvogn med en masse overfl&#248;dig funktionalitet, fra </span><br /><span class='normal'><a href='http://www.powerclimb.com/powerclimb/Behaviors.htm'>http://www.powerclimb.com/powerclimb/Behaviors.htm</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg troede at det var et gennemarbejdet modul, men fandt ud af at </span><br /><span class='normal'>programm&#248;ren valgte at stoppe med at udvikle p&#229; det. Derfor har det ikke </span><br /><span class='normal'>indbygget emailfunktion  af nogen art. Derimod har en anden udvikler 'gjort </span><br /><span class='normal'>det f&#230;rdigt' med b&#229;de Jmail ASPEmail samt en masse andre l&#230;kkerier, hvis jeg </span><br /><span class='normal'>vel at m&#230;rke betaler 100$! </span><br /><span class='normal'> </span><br /><span class='normal'>De beskriver p&#229; Powerclimb en kode hvormed det skulle v&#230;re muligt at </span><br /><span class='normal'>inds&#230;tte mail: <a href='http://www.powerclimb.com/powerclimb/faqs.htm#CartToEmail'>http://www.powerclimb.com/powerclimb/faqs.htm#CartToEmail</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Andre har dog som jeg givet fortabt over for hvor og hvordan koden bruges?!? </span><br /><span class='normal'> </span><br /><span class='normal'>Koden er som f&#248;lger: </span><br /><span class='normal'> </span><br /><span class='normal'>UC_rowDelim = Chr(13) &amp; Chr(10) &amp; Chr(13) &amp; Chr(10) </span><br /><span class='normal'>UC_colDelim = Chr(13) &amp; Chr(10) </span><br /><span class='normal'>CartData = &quot;&quot; </span><br /><span class='normal'>for jRow=0 to UCCart1.GetItemCount() -1 </span><br /><span class='normal'>  if (iRow &lt;> 0) Then CartData = CartData &amp; UC_rowDelim </span><br /><span class='normal'>  CartData = CartData &amp; &quot;Title: &quot; &amp; _ </span><br /><span class='normal'>       UCCart1.GetColumnValue(&quot;Title&quot;,jRow) &amp; UC_colDelim </span><br /><span class='normal'>  CartData = CartData &amp; &quot;Quantity: &quot; &amp; _ </span><br /><span class='normal'>       UCCart1.GetColumnValue(&quot;Quantity&quot;,jRow) &amp; UC_colDelim </span><br /><span class='normal'>  CartData = CartData &amp; &quot;Price: $&quot; &amp; _ </span><br /><span class='normal'>       UCCart1.GetColumnValue(&quot;Price&quot;,jRow) &amp; UC_colDelim </span><br /><span class='normal'>  CartData = CartData &amp; &quot;Total: $&quot; &amp; _ </span><br /><span class='normal'>       UCCart1.GetColumnValue(&quot;Total&quot;,jRow) &amp; UC_colDelim </span><br /><span class='normal'>  CartData = CartData &amp; UC_rowDelim </span><br /><span class='normal'>Next </span><br /><span class='normal'> </span><br /><span class='normal'>------------------------------------------------------------- </span><br /><span class='normal'> </span><br /><span class='normal'>Det er den nederst p&#229; siden. </span><br /><span class='normal'> </span><br /><span class='normal'>Selve koden fra shoppingcart'en er for stor til at poste her, men hvis blot </span><br /><span class='normal'>jeg kan finde en fornuftig l&#248;sning p&#229; udtr&#230;kning af cookien til email, ved </span><br /><span class='normal'>jeg at ogs&#229; andre vil blive glade for at slippe for at skulle betale 100$ </span><br /><span class='normal'>for den funktion alene. M&#229;ske er den extension pengene v&#230;rd, men n&#229;r man </span><br /><span class='normal'>ikke har pengene s&#229;.... </span><br /><span class='normal'> </span><br /><span class='normal'>Din kode er faktisk let l&#230;selig i forhold til den man ser i selve </span><br /><span class='normal'>indk&#248;bsvognen. Meget taler for at skrive det hele i h&#229;nden, men jeg er ikke </span><br /><span class='normal'>en haj til den slags, og mangler som sagt kun det sidste punkt: Afsendelsen </span><br /><span class='normal'>af ordren. </span><br /><span class='normal'> </span><br /><span class='normal'>H&#229;ber at andre har rodet/gider at rode med det. Jeg vil meget gerne spare de </span><br /><span class='normal'>100$! </span><br /><span class='normal'> </span><br /><span class='normal'>Alex P. </span><br /><span class='normal'> </span><br /><span class='normal'>N.B. Tak for koden - der er virkelig noget at kigge p&#229;! </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3C3dc6d955%240%24230%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Cookies i mailtoformular'>Cookies i mailtoformular</a>&nbsp;<small class='newslist'>(04-11-02&nbsp;-&nbsp;Alex&nbsp;P.)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3Caq6pt2%24ovu%241%40sunsite%2Edk%3E' title='Re: Cookies i mailtoformular'>Re: Cookies i mailtoformular</a>&nbsp;<small class='newslist'>(04-11-02&nbsp;-&nbsp;Thygesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3C3dc6f399%240%24193%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Re: Cookies i mailtoformular'>Re: Cookies i mailtoformular</a>&nbsp;<small class='newslist'>(04-11-02&nbsp;-&nbsp;Alex&nbsp;P.)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3Caq7ut2%24h2g%241%40sunsite%2Edk%3E' title='Re: Cookies i mailtoformular'>Re: Cookies i mailtoformular</a>&nbsp;<small class='newslist'>(05-11-02&nbsp;-&nbsp;Thygesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3C3dc84944%240%24231%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Re: Cookies i mailtoformular'>Re: Cookies i mailtoformular</a>&nbsp;<small class='newslist'>(05-11-02&nbsp;-&nbsp;Alex&nbsp;P.)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3Caqmi79%243p0%241%40sunsite%2Edk%3E' title='Re: Cookies i mailtoformular'>Re: Cookies i mailtoformular</a>&nbsp;<small class='newslist'>(10-11-02&nbsp;-&nbsp;Thygesen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form&amp;ReplyID=%3C3dc84944%240%24231%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+<!--
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3c3dc84944$0$231$edfadb0f@dread11.news.tele.dk%3e' method='post'><p class='pollheader'>Hvornår har du sidst brugt dit betalingskort på nettet?</p><div><input type='hidden' name='tst' value='08-05-03 07:57:44' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Inden for den sidste måned</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Inden for det sidste ½ år</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Længere tid siden</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Cookies i mailtoformular</span></div>
+
+
+
+</body>
+</html>
+

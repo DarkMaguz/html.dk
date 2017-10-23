@@ -1,0 +1,201 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Linke til download af en fil?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Lasse Reichstein Nielsen den 9. maj 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Linke til download af en fil?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="09-05-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<!--
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/page/all_140x350;sz=140x350;tile=1;ord=932792305947?"></script>
+
+</td></tr></table>
+
+</div>
+-->
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cbryce3g1%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Lasse&nbsp;Reichstein&nbsp;Nielsen&nbsp;&nbsp;<a href='mailto:lrn@hotpop.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='lrn@hotpop.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 9. maj 2003 kl. 13:59</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Linke til download af en fil?</strong></li></ul>
+
+<p><span class='normal'>Gitte Brinck &lt;<a href='http://g_brinck@hotmail.com'>g_brinck@hotmail.com</a>> writes: </span><br /><span class='normal'> </span><br /><span class='citat'>> Det er jo selvf&#248;lgelig s&#229;re simpelt at linke til et site eller </span><br /><span class='citat'>> andet, i Dreamweaver. </span><br /><span class='normal'> </span><br /><span class='citat'>> Men der m&#229; da findes en lignende funktion til download af filer. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg kender ikke Dreamweaver, men det kan jo nok ikke l&#248;ses i </span><br /><span class='normal'>Dreamweaver hvis det ikke kan uden. </span><br /><span class='normal'>  </span><br /><span class='citat'>> Det virker fint hvis filen jeg linker til hedder .exe eller </span><br /><span class='citat'>> setup - s&#229; f&#229;r jeg muligheden for at downloade disse filer, men </span><br /><span class='citat'>> hvad g&#248;r man med andre filtyper? </span><br /><span class='citat'>> Hvis jeg fx. har en .mp3 fil som skal kunne downloades fra et </span><br /><span class='citat'>> site, og ikke blot afspilles direkte?  </span><br /><span class='normal'> </span><br /><span class='normal'>Det er ikke din opgave. Du skal blot linke til filen, s&#229; skal brugeren </span><br /><span class='normal'>selv bestemme hvad han/hun vil med den. Hvis deres browser er sat op </span><br /><span class='normal'>til at afspille filen, s&#229; m&#229; man formode at det er det de vil, og </span><br /><span class='normal'>ellers kan de sikkert finde ud af at h&#248;jreklikke p&#229; linket og ramme </span><br /><span class='normal'>&quot;gem det linket peger p&#229;&quot; (eller hvad det nu hedder p&#229; dansk). </span><br /><span class='normal'> </span><br /><span class='normal'>Det du kan g&#248;re, er at linke til et arkiv (fx zip) der indeholder </span><br /><span class='normal'>filen. Det vil oftest g&#248;re at filen bliver downloadet. </span><br /><span class='normal'> </span><br /><span class='normal'>/L </span><br /><span class='normal'>--  </span><br /><span class='normal'>Lasse Reichstein Nielsen  -  <a href='http://lrn@hotpop.com'>lrn@hotpop.com</a> </span><br /><span class='normal'> Art D'HTML: &lt;URL:<a href='http://www.infimum.dk/HTML/randomArtSplit.html'>http://www.infimum.dk/HTML/randomArtSplit.html</a>> </span><br /><span class='normal'>  'Faith without judgement merely degrades the spirit divine.'</span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb9g0uh%245qd%241%40sunsite%2Edk%3E' title='Linke til download af en fil?'>Linke til download af en fil?</a>&nbsp;<small class='newslist'>(09-05-03&nbsp;-&nbsp;Gitte&nbsp;Brinck)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbryce3g1%2Efsf%40hotpop%2Ecom%3E' title='Re: Linke til download af en fil?'>Re: Linke til download af en fil?</a>&nbsp;<small class='newslist'>(09-05-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba5954%24q36%241%40sunsite%2Edk%3E' title='Re: Linke til download af en fil?'>Re: Linke til download af en fil?</a>&nbsp;<small class='newslist'>(17-05-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbubccv0dle6olqakl7e7br67qiuij1av2h%404ax%2Ecom%3E' title='Re: Linke til download af en fil?'>Re: Linke til download af en fil?</a>&nbsp;<small class='newslist'>(17-05-03&nbsp;-&nbsp;Jens&nbsp;Tønnesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3ec755a6%241%40news%2Ewineasy%2Ese%3E' title='Re: Linke til download af en fil?'>Re: Linke til download af en fil?</a>&nbsp;<small class='newslist'>(18-05-03&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba7mtm%24qji%241%40sunsite%2Edk%3E' title='Re: Linke til download af en fil?'>Re: Linke til download af en fil?</a>&nbsp;<small class='newslist'>(18-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cbryce3g1%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbryce3g1%2Efsf%40hotpop%2Ecom%3E' method='post'><p class='pollheader'>Hvor meget betaler du om måneden for dit webhotel?</p><div><input type='hidden' name='tst' value='20-01-04 18:47:04' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;0 - 10 kr.</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;10 - 50 kr.</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;50 - 100 kr.</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;100 - 200 kr.</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;over 200 kr.</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Har ikke webhotel</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Linke til download af en fil?</span></div>
+
+
+
+</body>
+</html>
+

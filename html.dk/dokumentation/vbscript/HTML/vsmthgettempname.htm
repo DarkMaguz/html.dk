@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>GetTempName Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthgettempname"></A>GetTempName Method</H1>
+
+<P>Returns a randomly generated temporary file or folder name that is useful for performing operations that require a temporary file or folder.</P>
+
+<P><CODE><I>object</I>.<B>GetTempName</B> </CODE></P>
+
+<P>The optional <I>object</I> is always the name of a <B>FileSystemObject</B>. </P>
+
+<H4>Remarks</H4>
+
+<P>The <B>GetTempName</B> method does not create a file. It provides only a temporary file name that can be used with <B>CreateTextFile</B> to create a file.</P>
+
+<P>The following example illustrates use of the <B>GetTempName</B> method: </P>
+
+<PRE><CODE>Dim fso, tempfile
+Set fso = CreateObject("Scripting.FileSystemObject")
+
+Function CreateTempFile 
+&nbsp;&nbsp;&nbsp;Dim tfolder, tname, tfile
+&nbsp;&nbsp;&nbsp;Const TemporaryFolder = 2
+&nbsp;&nbsp;&nbsp;Set tfolder = fso.GetSpecialFolder(TemporaryFolder)
+&nbsp;&nbsp;&nbsp;tname = <span class=cfe><B>fso.GetTempName</B></span>&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;Set tfile = tfolder.CreateTextFile(tname)
+&nbsp;&nbsp;&nbsp;Set CreateTempFile = tfile
+End Function
+
+Set tempfile = CreateTempFile
+tempfile.WriteLine "Hello World"
+tempfile.Close</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthgetabsolutepathname.htm">GetAbsolutePathName Method</A> | <A HREF="vsmthgetbasename.htm">GetBaseName Method</A> | <A HREF="vsmthgetdrive.htm">GetDrive Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsmthgetextensionname.htm">GetExtensionName Method</A> | <A HREF="vsmthgetfile.htm">GetFile Method</A> | <A HREF="vsmthgetfilename.htm">GetFileName Method</A> | <A HREF="vsmthgetfolder.htm">GetFolder Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthgetspecialfolder.htm">GetSpecialFolder Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

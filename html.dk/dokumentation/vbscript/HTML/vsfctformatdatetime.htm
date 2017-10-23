@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>FormatDateTime Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctformatdatetime"></A>FormatDateTime Function</H1>
+
+<P>Returns an expression formatted as a date or time. </P>
+
+<P><CODE><B>FormatDateTime(</B><I>Date</I>[<B>,</B> <I>NamedFormat</I>]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>Date</I></P>
+
+<P class=indent>Required. Date expression to be formatted.</P>
+
+<P class=dt><I>NamedFormat</I></P>
+
+<P class=indent>Optional. Numeric value that indicates the date/time format used. If omitted, <B>vbGeneralDate</B> is used.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>NamedFormat</I> argument has the following settings:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=26%>Constant</TH>
+<TH width=10%>Value</TH>
+<TH width=64%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbGeneralDate</TD>
+<TD width=10%>0</TD>
+<TD width=64%>Display a date and/or time. If there is a date part, display it as a short date. If there is a time part, display it as a long time. If present, both parts are displayed. </TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbLongDate</TD>
+<TD width=10%>1</TD>
+<TD width=64%>Display a date using the long date format specified in your computer's regional settings.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbShortDate</TD>
+<TD width=10%>2</TD>
+<TD width=64%>Display a date using the short date format specified in your computer's regional settings.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbLongTime</TD>
+<TD width=10%>3</TD>
+<TD width=64%>Display a time using the time format specified in your computer's regional settings.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbShortTime</TD>
+<TD width=10%>4</TD>
+<TD width=64%>Display a time using the 24-hour format (hh:mm).</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>FormatDateTime</B> function to format the expression as a long date and assign it to MyDateTime: </P>
+
+<PRE><CODE>Function GetCurrentDate
+&nbsp;&nbsp;&nbsp;' FormatDateTime formats Date in long date. 
+&nbsp;&nbsp;&nbsp;GetCurrentDate = <span class=cfe><B>FormatDateTime(</B></span>Date<span class=cfe><B>,</B></span> 1<span class=cfe><B>)</B></span> 
+End Function</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctformatcurrency.htm">FormatCurrency Function</A> | <A HREF="vsfctformatnumber.htm">FormatNumber Function</A> | <A HREF="vsfctformatpercent.htm">FormatPercent Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

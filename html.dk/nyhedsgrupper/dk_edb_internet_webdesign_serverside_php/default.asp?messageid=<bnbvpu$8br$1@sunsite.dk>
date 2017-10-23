@@ -1,0 +1,201 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Artikelsystem - OOP struktur</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.php skrevet af Lars Olesen den 24. oktober 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Artikelsystem - OOP struktur" />
+<meta name="language" content="dan" />
+<meta name="Date" content="24-10-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/page/all_140x350;sz=140x350;tile=1;ord=175040841103?"></script>
+
+</td></tr></table>
+
+</div>
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3Cbnbvpu%248br%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Lars&nbsp;Olesen&nbsp;&nbsp;<a href='mailto:lars@legestue.net'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='lars@legestue.net' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 24. oktober 2003 kl. 21:50</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Artikelsystem - OOP struktur</strong></li></ul>
+
+<p><span class='normal'>## PHP-ARTIKELSYSTEM ## </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg har lavet et artikelsystem i PHP. </span><br /><span class='normal'> </span><br /><span class='normal'>## KLASSER OG FILER </span><br /><span class='normal'><a href='http://www.larsolesen.dk/artikler/class.artikel.txt'>www.larsolesen.dk/artikler/class.artikel.txt</a> </span><br /><span class='normal'><a href='http://www.larsolesen.dk/artikler/index.txt'>www.larsolesen.dk/artikler/index.txt</a> </span><br /><span class='normal'><a href='http://www.larsolesen.dk/artikler/noegleord.txt'>www.larsolesen.dk/artikler/noegleord.txt</a> </span><br /><span class='normal'><a href='http://www.larsolesen.dk/artikler/forfatter.txt'>www.larsolesen.dk/artikler/forfatter.txt</a> </span><br /><span class='normal'><a href='http://www.larsolesen.dk/artikler/noegleord_upload.txt'>www.larsolesen.dk/artikler/noegleord_upload.txt</a> </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.larsolesen.dk/artikler/database.txt'>www.larsolesen.dk/artikler/database.txt</a> </span><br /><span class='normal'> </span><br /><span class='normal'>## LOGIN </span><br /><span class='normal'>side: <a href='http://	www.larsolesen.dk/artikler/login.php'>	www.larsolesen.dk/artikler/login.php</a> </span><br /><span class='normal'>login:	eksperten </span><br /><span class='normal'>pass:	eksperten </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg har fors&#248;gt at lave det objektorienteret, s&#229; det er let at </span><br /><span class='normal'>flytte </span><br /><span class='normal'>fra server til server, fordi jeg skal bruge det p&#229; to af mine </span><br /><span class='normal'>egne sider. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg er meget interesseret i al den feedback, I har mulighed for </span><br /><span class='normal'>at give  </span><br /><span class='normal'>p&#229; fremgangsm&#229;den, men jeg har is&#230;r to problemer. </span><br /><span class='normal'> </span><br /><span class='normal'># h&#229;ndtering af post og get </span><br /><span class='normal'># h&#229;ndtering af rettigheder </span><br /><span class='normal'> </span><br /><span class='normal'>## H&#197;NDTERING AF POST OG GET - til StoreData() og DisplayForm() </span><br /><span class='normal'>og Execute() </span><br /><span class='normal'> </span><br /><span class='normal'>Artikelsystemet best&#229;r hovedsageligt af index.php, som kalder </span><br /><span class='normal'>klasser i class.artikel.php,  </span><br /><span class='normal'>og al opdatering mv. foreg&#229;r fra samme fil, men er distribueret </span><br /><span class='normal'>ud i forskellige klasser. </span><br /><span class='normal'>Det g&#248;r, at der kommer en masse forskellige GET og POST fra </span><br /><span class='normal'>formularer og querystring, som </span><br /><span class='normal'>systemet skal h&#229;ndtere. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg er imidlertid ikke helt tilfreds med den m&#229;de jeg har f&#229;et </span><br /><span class='normal'>gjort det p&#229;, for det betyder, at  </span><br /><span class='normal'>mange af klasserne skal hente de  </span><br /><span class='normal'>samme GET og POST og i &#248;vrigt tjekke om det er n&#248;dvendigt - det </span><br /><span class='normal'>kan da ikke v&#230;re s&#230;rligt effektivt. </span><br /><span class='normal'> </span><br /><span class='normal'>Kan samme funktionalitet implementeres p&#229; anden m&#229;de? </span><br /><span class='normal'> </span><br /><span class='normal'>## BRUGEN AF RETTIGHEDER </span><br /><span class='normal'>De fleste klasser har brug for at vide, hvilke rettigheder </span><br /><span class='normal'>brugeren har, men er det smart at  </span><br /><span class='normal'>starte et rettighedsobjekt op i hver klasse, eller skal jeg g&#248;re </span><br /><span class='normal'>det p&#229; en anden m&#229;de? </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI eller ASP? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnbvpu%248br%241%40sunsite%2Edk%3E' title='Artikelsystem - OOP struktur'>Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(24-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C87llrafefk%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(24-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnd5vo%24k76%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(25-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbndiu3%24jnf%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(25-10-03&nbsp;-&nbsp;Jonas&nbsp;Delfs)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbneppg%2479b%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(25-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnesg1%24m06%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(25-10-03&nbsp;-&nbsp;Jonas&nbsp;Delfs)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9cd3bc%240%2429315%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cx6x3cdhy4ge%2Efsf%40ask%2Ediku%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(25-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbneqjf%24go1%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(25-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C877k2smkf5%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbng1k4%246hj%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C87ismcxt72%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9b9dde%240%2429351%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C87fzhfok1x%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9c16ff%240%2429340%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C87ad7noji6%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9c3f5a%240%2429384%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnir3l%2411tit2%241%40ID%2D179598%2Enews%2Euni%2Dberlin%2Ede%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Nezar&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9cf44d%240%2429344%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnj8pe%2412e0al%241%40ID%2D179598%2Enews%2Euni%2Dberlin%2Ede%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Nezar&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnolgr%24hva%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(29-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C871xsymq7k%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnolja%24n59%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(29-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnftqj%24ejp%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9b7f8b%241%40news%2Ewineasy%2Ese%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbng24t%24jrl%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9b99c5%241%40news%2Ewineasy%2Ese%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9b9f32%240%2429323%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C873cdgmmll%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbng20m%248ei%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C87wuarbuwa%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(26-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9c5780%240%2429384%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9c5f20%240%2429382%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C877k2qwg4e%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnk5t6%24t1o%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Michael&nbsp;Jensen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C87smlelax5%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3f9cd04f%240%2429303%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C87wuaqlbbd%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(27-10-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cbnolnl%24ql%241%40sunsite%2Edk%3E' title='Re: Artikelsystem - OOP struktur'>Re: Artikelsystem - OOP struktur</a>&nbsp;<small class='newslist'>(29-10-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3fa367a1%240%2429408%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Artikelsystem - OOP struktur - revisited'>Re: Artikelsystem - OOP struktur - revisited</a>&nbsp;<small class='newslist'>(01-11-03&nbsp;-&nbsp;Lars&nbsp;Olesen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3Cbnbvpu%248br%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3cbnbvpu$8br$1@sunsite.dk%3e' method='post'><p class='pollheader'>I hvilken forbindelse bruger du HTML.dk?</p><div><input type='hidden' name='tst' value='14-11-03 17:12:08' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Privat</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Arbejde</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Uddannelse</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Artikelsystem - OOP struktur - revisited</span></div>
+
+
+
+</body>
+</html>
+

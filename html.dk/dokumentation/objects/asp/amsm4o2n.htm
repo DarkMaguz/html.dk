@@ -1,0 +1,61 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Delete Method (CDONTS Message Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_delete_method_cdonts_message_object_"></a>Delete Method (CDONTS Message Object)  <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Delete</b> method removes the Message object from the <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection. </p>
+<h4>Syntax </h4>
+<pre><i>objMessage</i>.<b>Delete( ) 
+ </b></pre>
+<h4>Remarks </h4>
+<p>
+The <b>Delete</b> method performs an irreversible operation on the collection. It calls <b>Release</b> on the collection's reference to the Message object. If you have another reference to the message, you can still access its properties and methods, but you can never again associate it with any collection because the <a href="amsm8vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8vhb.htm"><b>Add</b></a> method always creates a new object. You should <b>Set</b> your reference variable either to <b>Nothing</b> or to another message. </p>
+<p>
+The final <b>Release</b> on the Message object takes place when you call <b>Delete</b> if you had no other reference, or when you assign your reference variable to <b>Nothing</b>. At this point the object is removed from memory. Attempted access to a released object results in an error return of <b>CdoE_INVALID_OBJECT</b>. </p>
+<p>
+The action of the <b>Delete</b> method is permanent, and the Message object cannot be restored to the collection. Before calling <b>Delete</b>, your application can prompt the user to verify whether the message should be permanently deleted. </p>
+<p>
+You can delete all the messages in the <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection by calling the collection's <a href="amsm0evz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0evz.htm"><b>Delete</b></a> method. The ability to delete any message depends on the permissions granted to the user. The <b>Delete</b> method returns an error code if called with insufficient permissions. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or modifying any attachment; adding, deleting, or modifying any recipient; and modifying any message property, even one with read/write access. </p>
+<h4>Example </h4>
+<p>
+This code fragment illustrates the two situations previously explained. The <b>Set</b> statement calls <b>AddRef</b> on the first Message object. That reference survives the call to <b>Delete</b> and has to be reassigned. The second Message object is deleted without creating another reference, and no other action is necessary. </p>
+<pre>' assume valid Folder object (only Inbox meaningful in this context) 
+Set objMessage = objFolder.Messages.Item(1) 
+objMessage.Delete ' still have a reference from Set statement 
+' ... other operations on objMessage possible but pointless ... 
+Set objMessage = Nothing ' necessary to remove reference 
+' ... 
+objFolder.Messages.Item(2).Delete ' no reference to remove 
+ </pre>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

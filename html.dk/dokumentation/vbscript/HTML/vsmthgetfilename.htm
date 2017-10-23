@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>GetFileName Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthgetfilename"></A>GetFileName Method</H1>
+
+<P>Returns the last file name or folder of a specified path that is not part of the drive specification.</P>
+
+<P><CODE><I>object</I>.<B>GetFileName(</B><I>pathspec</I><B>)</B> </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>pathspec</I></P>
+
+<P class=indent>Required. The path (absolute or relative) to a specific file.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>GetFileName</B> method returns a zero-length string ("") if <I>pathspec</I> does not end with the named file or folder.</P>
+
+<P>The following example illustrates use of the <B>GetFileName</B> method: </P>
+
+<PRE><CODE>Function GetAName(DriveSpec)
+&nbsp;&nbsp;&nbsp;Dim fso
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;GetAName = <span class=cfe><B>fso.GetFileName(</B></span>DriveSpec<span class=cfe><B>)</B></span>
+End Function</CODE></PRE>
+
+<P class=indent><B><B>Note</B></B>&nbsp;&nbsp;&nbsp;The <B>GetFileName</B> method works only on the provided path string. It does not attempt to resolve the path, nor does it check for the existence of the specified path.</P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthgetabsolutepathname.htm">GetAbsolutePathName Method</A> | <A HREF="vsmthgetbasename.htm">GetBaseName Method</A> | <A HREF="vsmthgetdrive.htm">GetDrive Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsmthgetextensionname.htm">GetExtensionName Method</A> | <A HREF="vsmthgetfile.htm">GetFile Method</A> | <A HREF="vsmthgetfolder.htm">GetFolder Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthgetspecialfolder.htm">GetSpecialFolder Method</A> | <A HREF="vsmthgettempname.htm">GetTempName Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

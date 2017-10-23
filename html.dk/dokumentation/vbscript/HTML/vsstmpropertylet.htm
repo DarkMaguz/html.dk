@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Property Let Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmpropertylet"></A>Property Let Statement</H1>
+
+<P>Declares, in a <B>Class</B> block, the name, <A HREF="vtglossary.htm#defargumentvbs">arguments</A>, and code that form the body of a <B>Property</B> procedure that assigns (sets) the value of a <A HREF="vtglossary.htm#defpropertyvbs">property</A>.</P>
+
+<P><CODE>[<B>Public </B>| <B>Private</B>] <B>Property Let</B> <I>name</I> <B>(</B>[<I>arglist</I>,] <I>value</I><B>)</B><BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+&nbsp;&nbsp;&nbsp;[<B>Exit Property</B>] <BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+<B>End Property</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>Public</I></P>
+
+<P class=indent>Indicates that the <B>Property Let</B> procedure is accessible to all other procedures in all scripts.</P>
+
+<P class=dt><I>Private</I></P>
+
+<P class=indent>Indicates that the <B>Property Let</B> procedure is accessible only to other procedures in the <B>Class</B> block where it's declared.</P>
+
+<P class=dt><I>name</I></P>
+
+<P class=indent>Name of the <B>Property Let</B> procedure; follows standard <A HREF="vtglossary.htm#defvariablevbs">variable</A> naming conventions, except that the name can be the same as a <B>Property Get</B> or <B>Property Set</B> procedure in the same <B>Class</B> block.</P>
+
+<P class=dt><I>arglist</I></P>
+
+<P class=indent>List of variables representing arguments that are passed to the <B>Property Let</B> procedure when it is called. Multiple arguments are separated by commas. The name of each argument in a <B>Property Let</B> procedure must be the same as the corresponding argument in a <B>Property Get</B> procedure. In addition, the <B>Property Let</B> procedure will always have one more argument than its corresponding <B>Property Get</B> procedure. That argument is the value being assigned to the property.</P>
+
+<P class=dt><I>value</I></P>
+
+<P class=indent>Variable to contain the value to be assigned to the property. When the <A HREF="vtglossary.htm#defprocedurevbs">procedure</A> is called, this argument appears on the right side of the calling expression. </P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>Any group of statements to be executed within the body of the <B>Property Let</B> procedure.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>Every <B>Property Let</B> statement must define at least one argument for the procedure it defines. That argument (or the last argument if there is more than one) contains the actual value to be assigned to the property when the procedure defined by the <B>Property Let</B> statement is invoked. That argument is referred to as <I>value</I> in the preceding syntax.</P>
+
+<H4>Remarks</H4>
+
+<P>If not explicitly specified using either <A HREF="vtglossary.htm#defpublicvbs">Public</A> or <A HREF="vtglossary.htm#defprivatevbs">Private</A>, <B>Property Let</B> procedures are public by default, that is, they are visible to all other procedures in your script. The value of local variables in a <B>Property Let</B> procedure is not preserved between calls to the procedure.</P>
+
+<P>You can't define a <B>Property Let</B> procedure inside any other procedure (e.g. <B>Function</B> or <B>Property Get</B>).</P>
+
+<P>The <B>Exit Property </B>statement causes an immediate exit from a <B>Property Let</B> procedure. Program execution continues with the statement that follows the statement that called the <B>Property Let</B> procedure. Any number of <B>Exit Property</B> statements can appear anywhere in a <B>Property Let</B> procedure.</P>
+
+<P>Like a <B>Function</B> and <B>Property Get</B> procedure, a <B>Property Let</B> procedure is a separate procedure that can take arguments, perform a series of statements, and change the value of its arguments. However, unlike a <B>Function</B> and <B>Property Get</B> procedure, both of which return a value, you can only use a <B>Property Let</B> procedure on the left side of a property assignment <A HREF="vtglossary.htm#defexpressionvbs">expression</A>.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmclass.htm">Class Statement</A> | <A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vsstmexit.htm">Exit Statement</A> | <A HREF="vsstmfunction.htm">Function Statement</A> | <A HREF="vsstmprivate.htm">Private Statement</A> | <A HREF="vsstmpropertyget.htm">Property Get Statement</A> | <A HREF="vsstmpropertyset.htm">Property Set Statement</A> | <A HREF="vsstmpublic.htm">Public Statement</A> | <A HREF="vsstmset.htm">Set Statement</A> | <A HREF="vsstmsub.htm">Sub Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

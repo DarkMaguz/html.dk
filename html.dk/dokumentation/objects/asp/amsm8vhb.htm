@@ -1,0 +1,91 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Add Method (CDONTS Messages Collection)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_add_method_cdonts_messages_collection_"></a>Add Method (CDONTS Messages Collection)  <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Add</b> method creates and returns a new <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object in the Messages collection. </p>
+<h4>Syntax </h4>
+<pre><b>Set </b><i>objMessage = collMessages</i>.<b>Add( [</b><i>subject</i><b>] [</b><i>, text</i><b>] [</b><i>, importance</i><b>] ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objMessage </i></dt>
+<dd>
+On successful return, represents the new Message object added to the collection. <br>
+</dd>
+<dt>
+<i>collMessages </i></dt>
+<dd>
+Required. The Messages collection object. <br>
+</dd>
+<dt>
+<i>subject </i></dt>
+<dd>
+Optional. String. The subject line for the message. <br>
+</dd>
+<dt>
+<i>text </i></dt>
+<dd>
+Optional. <b>IStream</b> object or String. The text of the message. <br>
+</dd>
+<dt>
+<i>importance </i></dt>
+<dd>
+Optional. Long. The importance associated with the message. </dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+The <i>subject</i>, <i>text</i>, and <i>importance</i> parameters correspond to the <a href="amsm1333.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1333.htm"><b>Subject</b></a>, <a href="amsm96jj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm96jj.htm"><b>Text</b></a>, and <a href="amsm323j.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm323j.htm"><b>Importance</b></a> properties on the <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object. </p>
+<p>
+You must create all new messages in the Outbox folder. </p>
+<p>
+Only C/C++ and Java programs can use an <b>IStream</b> object for the <i>text</i> parameter. They should pass an <b>IUnknown</b> object that returns an <b>IStream</b> interface in response to <b>QueryInterface</b>. Microsoft® Visual Basic® supports the <b>IDispatch</b> interface and not <b>IUnknown</b>, so it cannot use an <b>IStream</b> object. </p>
+<h4>Example </h4>
+<p>
+This code fragment replies to an original message: </p>
+<pre>' from the sample function Util_ReplyToConversation 
+Set objOutbox = objSession.GetDefaultFolder(CdoDefaultFolderOutbox) 
+Set objNewMsg = objOutbox.Messages.Add 
+' verify objNewMsg created successfully ... then supply properties 
+Set objSenderAE = objOriginalMsg.Sender ' sender as AddressEntry 
+With objNewMsg 
+&nbsp;  .Text = &quot;Here is a reply to your message.&quot; ' new text 
+&nbsp;  .Subject = objOriginalMsg.Subject ' copy original properties 
+&nbsp;  Set objRecip = .Recipients.Add(name:=objsenderAE.Name, _ 
+&nbsp;               type:=CdoTo, _ 
+&nbsp;               address:=objSenderAE.Type &amp; &quot;:&quot; &amp; objSenderAE.Address) 
+&nbsp;  ' ** the preceding line is not strictly necessary with CDO for NTS, 
+&nbsp;  ' ** but it allows this code to run with CDO for Exchange, where 
+&nbsp;  ' ** Recipient.Address requires a FULL address concatenated from 
+&nbsp;  ' ** AddressEntry.Type, &quot;:&quot;, and AddressEntry.Address 
+&nbsp;  .Send 
+End With 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

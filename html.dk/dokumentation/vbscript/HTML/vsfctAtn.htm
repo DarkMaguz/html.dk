@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Atn Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctatn"></A>Atn Function</H1>
+
+<P>Returns the arctangent of a number.</P>
+
+<P><CODE><B>Atn(</B>number<B>)</B></CODE></P>
+
+<P>The <I>number</I> argument can be any valid <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>Atn</B> function takes the ratio of two sides of a right triangle (<I>number</I>) and returns the corresponding angle in radians. The ratio is the length of the side opposite the angle divided by the length of the side adjacent to the angle. The range of the result is -<A HREF="vtglossary.htm#defpivbs">pi</A> /2 to pi/2 radians.</P>
+
+<P>To convert degrees to radians, multiply degrees by pi/180. To convert radians to degrees, multiply radians by 180/pi.</P>
+
+<P>The following example uses <B>Atn</B> to calculate the value of pi: </P>
+
+<PRE><CODE>Dim pi
+pi = 4 * <span class=cfe><B>Atn(</B></span>1<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Calculate the value of pi.</CODE></PRE>
+
+<P class=indent><B>Note&nbsp;&nbsp;&nbsp;Atn</B> is the inverse trigonometric function of <B>Tan</B>, which takes an angle as its argument and returns the ratio of two sides of a right triangle. Do not confuse <B>Atn</B> with the cotangent, which is the simple inverse of a tangent (1/tangent).</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcos.htm">Cos Function</A> | <A HREF="vsgrpderivedmath.htm">Derived Math Functions</A> | <A HREF="vsfctsin.htm">Sin Function</A> | <A HREF="vsfcttan.htm">Tan Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

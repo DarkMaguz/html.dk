@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: DOCTYPES - Forskellige fifs.</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Gitte Brinck den 17. februar 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: DOCTYPES - Forskellige fifs." />
+<meta name="language" content="dan" />
+<meta name="Date" content="17-02-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cb2qv68%24cu3%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Gitte&nbsp;Brinck&nbsp;&nbsp;<a href='mailto:g_brinck@hotmail.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='g_brinck@hotmail.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 17. februar 2003 kl. 17:30</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: DOCTYPES - Forskellige fifs.</strong></li></ul>
+
+<p><span class='citat'>> Kom med nogle eksempler.  </span><br /><span class='normal'>N&#229;r jeg validerer siger den f&#248;lgende: </span><br /><span class='normal'> </span><br /><span class='normal'>Below are the results of attempting to parse this document with an </span><br /><span class='normal'>SGML parser.  </span><br /><span class='normal'> </span><br /><span class='normal'>Line 10, column 6: required attribute &quot;TYPE&quot; not specified </span><br /><span class='normal'>(explain...).  </span><br /><span class='normal'>  &lt;style> </span><br /><span class='normal'>        ^ </span><br /><span class='normal'>Line 10, column 6: document type does not allow element &quot;STYLE&quot; here </span><br /><span class='normal'>(explain...).  </span><br /><span class='normal'>  &lt;style> </span><br /><span class='normal'>        ^ </span><br /><span class='normal'>Line 37, column 70: there is no attribute &quot;HEIGHT&quot; (explain...).  </span><br /><span class='normal'>  ...der=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; height=&quot;100%&quot; </span><br /><span class='normal'>align=&quot;center&quot;> </span><br /><span class='normal'>                                                    ^ </span><br /><span class='normal'>Line 40, column 108: there is no attribute &quot;BORDERCOLOR&quot; </span><br /><span class='normal'>(explain...).  </span><br /><span class='normal'>  ...ght=&quot;340&quot; align=&quot;center&quot; bordercolor=&quot;999999&quot; class=&quot;Border&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Hvad er det jeg mangler f&#248;r og efter min STYLE? </span><br /><span class='normal'>Hvad er der galt med min HEIGHT? </span><br /><span class='normal'>OG min bordercolor.....? jeg har pr&#248;vet med '#' </span><br /><span class='normal'> </span><br /><span class='normal'>Ud over dette, s&#229; sl&#229;r DOCTYPEN alle mine CSS fra </span><br /><span class='normal'> </span><br /><span class='normal'>Stort dybt SUK, jeg h&#229;ber du kan hj&#230;lpe mig lidt <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> </span><br /><span class='normal'>Min koder ser for &#248;vrigt s&#229;dan ud: </span><br /><span class='normal'> </span><br /><span class='normal'>Below is the source input I used for this validation: </span><br /><span class='normal'> </span><br /><span class='normal'>   1: &lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; </span><br /><span class='normal'>&quot;<a href='http://www.w3.org/TR/html4/loose.dtd&quot;'>http://www.w3.org/TR/html4/loose.dtd&quot;</a>> </span><br /><span class='normal'>   2: &lt;html> </span><br /><span class='normal'>   3: &lt;head> </span><br /><span class='normal'>   4: &lt;title>&lt;/title> </span><br /><span class='normal'>   5: &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; </span><br /><span class='normal'>charset=iso-8859-1&quot;> </span><br /><span class='normal'>   6: &lt;link rel=&quot;stylesheet&quot; href=&quot;css/Border.css&quot; type=&quot;text/css&quot;> </span><br /><span class='normal'>   7: &lt;link rel=&quot;stylesheet&quot; href=&quot;css/Font1.css&quot; type=&quot;text/css&quot;> </span><br /><span class='normal'>   8: &lt;/head> </span><br /><span class='normal'>   9:  </span><br /><span class='normal'>  10: &lt;style> </span><br /><span class='normal'>  11: a:link { </span><br /><span class='normal'>  12:  color:#999999; </span><br /><span class='normal'>  13:  text-decoration: none; </span><br /><span class='normal'>  14:  font-weight: normal; </span><br /><span class='normal'>  15: } </span><br /><span class='normal'>  16:  </span><br /><span class='normal'>  17: a:active { </span><br /><span class='normal'>  18:  color:#999999; </span><br /><span class='normal'>  19:  text-decoration: none; </span><br /><span class='normal'>  20:  font-weight: normal; </span><br /><span class='normal'>  21: } </span><br /><span class='normal'>  22:  </span><br /><span class='normal'>  23: a:visited { </span><br /><span class='normal'>  24:  color:#999999; </span><br /><span class='normal'>  25:  text-decoration: none; </span><br /><span class='normal'>  26:  font-weight: normal; </span><br /><span class='normal'>  27: } </span><br /><span class='normal'>  28:  </span><br /><span class='normal'>  29: a:hover { </span><br /><span class='normal'>  30:  color:#000000; </span><br /><span class='normal'>  31:  text-decoration: none; </span><br /><span class='normal'>  32:  font-weight: normal; </span><br /><span class='normal'>  33: } </span><br /><span class='normal'>  34: &lt;/style> </span><br /><span class='normal'>  35:  </span><br /><span class='normal'>  36: &lt;body bgcolor=&quot;#FFFFFF&quot; text=&quot;#000000&quot;> </span><br /><span class='normal'>  37: &lt;table width=&quot;100%&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; </span><br /><span class='normal'>height=&quot;100%&quot; align=&quot;center&quot;> </span><br /><span class='normal'>  38:   &lt;tr> </span><br /><span class='normal'>  39:     &lt;td> </span><br /><span class='normal'>  40:       &lt;table width=&quot;680&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; </span><br /><span class='normal'>cellpadding=&quot;0&quot; height=&quot;340&quot; align=&quot;center&quot; bordercolor=&quot;999999&quot; </span><br /><span class='normal'>class=&quot;Border&quot;> </span><br /><span class='normal'>  41:         &lt;tr> </span><br /><span class='normal'>  42:           &lt;td> </span><br /><span class='normal'>  43:             &lt;table width=&quot;680&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; </span><br /><span class='normal'>cellpadding=&quot;0&quot; height=&quot;340&quot; align=&quot;center&quot;> </span><br /><span class='normal'>  44:               &lt;tr>  </span><br /><span class='normal'>  45:                 &lt;td rowspan=&quot;4&quot; width=&quot;30&quot; </span><br /><span class='normal'>height=&quot;340&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  46:                 &lt;td colspan=&quot;5&quot; height=&quot;30&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  47:                 &lt;td rowspan=&quot;4&quot; width=&quot;30&quot; </span><br /><span class='normal'>height=&quot;340&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  48:               &lt;/tr> </span><br /><span class='normal'>  49:               &lt;tr>  </span><br /><span class='normal'>  50:                 &lt;td colspan=&quot;5&quot; height=&quot;180&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  51:               &lt;/tr> </span><br /><span class='normal'>  52:               &lt;tr>  </span><br /><span class='normal'>  53:                 &lt;td height=&quot;100&quot; width=&quot;193&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  54:                 &lt;td height=&quot;100&quot; width=&quot;20&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  55:                 &lt;td height=&quot;100&quot; width=&quot;193&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  56:                 &lt;td height=&quot;100&quot; width=&quot;20&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  57:                 &lt;td height=&quot;100&quot; width=&quot;194&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  58:               &lt;/tr> </span><br /><span class='normal'>  59:               &lt;tr>  </span><br /><span class='normal'>  60:                 &lt;td colspan=&quot;5&quot; height=&quot;30&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  61:               &lt;/tr> </span><br /><span class='normal'>  62:             &lt;/table> </span><br /><span class='normal'>  63:           &lt;/td> </span><br /><span class='normal'>  64:         &lt;/tr> </span><br /><span class='normal'>  65:       &lt;/table> </span><br /><span class='normal'>  66:       &lt;table width=&quot;680&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; </span><br /><span class='normal'>cellpadding=&quot;0&quot; height=&quot;30&quot; align=&quot;center&quot;> </span><br /><span class='normal'>  67:         &lt;tr> </span><br /><span class='normal'>  68:           &lt;td align=&quot;center&quot; valign=&quot;middle&quot; width=&quot;680&quot; </span><br /><span class='normal'>height=&quot;30&quot; class=&quot;font1&quot;>&lt;a </span><br /><span class='normal'>href=&quot;01_universe.htm&quot;>Universe&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;02_philosophy.htm&quot;>Philosophy&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;03_company.htm&quot;>Company&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;04_inspiration.htm&quot;>Inspiration&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;05_film.htm&quot;>Film&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;06_colours.htm&quot;>Colours&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;07_shapes.htm&quot;>Shapes&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;08_news.htm&quot;>News&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;09_drawing.htm&quot;>Drawing  </span><br /><span class='normal'>  69:             Programme&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;10_contact.htm&quot;>Contact&lt;/a>&amp;nbsp;&amp;nbsp;l&amp;nbsp;&amp;nbsp;&lt;a </span><br /><span class='normal'>href=&quot;11_dealers.htm&quot;>Dealers&lt;/a>&lt;/td> </span><br /><span class='normal'>  70:         &lt;/tr> </span><br /><span class='normal'>  71:       &lt;/table> </span><br /><span class='normal'>  72:     &lt;/td> </span><br /><span class='normal'>  73:   &lt;/tr> </span><br /><span class='normal'>  74: &lt;/table> </span><br /><span class='normal'>  75: &lt;/body> </span><br /><span class='normal'>  76: &lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Danmarks st&#248;rste specialiserede IT jobdatabase </span><br /><span class='normal'> - Udelukkende med IT- og internetrelaterede jobs </span><br /><span class='normal'> - Opret en profil og lad dr&#248;mmejobbet finde dig </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/job'>http://www.html.dk/job</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb2qsp3%24se7%241%40sunsite%2Edk%3E' title='DOCTYPES - Forskellige fifs.'>DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(17-02-03&nbsp;-&nbsp;Gitte&nbsp;Brinck)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns9325A421DDCDBjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(17-02-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb2qv68%24cu3%241%40sunsite%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(17-02-03&nbsp;-&nbsp;Gitte&nbsp;Brinck)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C7kby52n2%2Efsf%40hotpop%2Ecom%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(17-02-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb2suli%24cf4%241%40sunsite%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(18-02-03&nbsp;-&nbsp;Gitte&nbsp;Brinck)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3E5229A6%2EBFC136E5%40control%2Eauc%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(18-02-03&nbsp;-&nbsp;Kenneth&nbsp;Kristensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb2tao7%246nu%241%40sunsite%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(18-02-03&nbsp;-&nbsp;Gitte&nbsp;Brinck)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns932691710138Ejcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(18-02-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3E527F3B%2E644B9222%40powertech%2Eno%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(18-02-03&nbsp;-&nbsp;Magne&nbsp;Heen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns9326E4BDCB74Cjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(18-02-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3E52C657%2E5E734099%40powertech%2Eno%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(19-02-03&nbsp;-&nbsp;Magne&nbsp;Heen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns93278A303B317jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(19-02-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb30722%249ci%241%40sunsite%2Edk%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(19-02-03&nbsp;-&nbsp;Gitte&nbsp;Brinck)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1y245d2m%2Efsf%40hotpop%2Ecom%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(19-02-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cfzqn3piz%2Efsf%40hotpop%2Ecom%3E' title='Re: DOCTYPES - Forskellige fifs.'>Re: DOCTYPES - Forskellige fifs.</a>&nbsp;<small class='newslist'>(17-02-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cb2qv68%24cu3%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3cb2qv68$cu3$1@sunsite.dk%3e' method='post'><p class='pollheader'>Hvornår har du sidst brugt dit betalingskort på nettet?</p><div><input type='hidden' name='tst' value='16-05-03 06:58:00' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Inden for den sidste måned</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Inden for det sidste ½ år</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Længere tid siden</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: DOCTYPES - Forskellige fifs.</span></div>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>AtEndOfStream Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsproatendofstream"></A>AtEndOfStream Property</H1>
+
+<P>Returns <B>True</B> if the file pointer is at the end of a <B>TextStream</B> file; <B>False</B> if it is not. Read-only. </P>
+
+<P><CODE><I>object</I>.AtEndOfStream</CODE></P>
+
+<P>The <I>object</I> is always the name of a <B>TextStream</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>The <B>AtEndOfStream</B> property applies only to <B>TextStream</B> files that are open for reading, otherwise, an error occurs.</P>
+
+<P>The following code illustrates the use of the <B>AtEndOfStream</B> property: </P>
+
+<PRE><CODE>Function ReadEntireFile(filespec)
+&nbsp;&nbsp;&nbsp;Const ForReading = 1
+&nbsp;&nbsp;&nbsp;Dim fso, theFile, retstring
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set theFile = fso.OpenTextFile(filespec, ForReading, False)
+&nbsp;&nbsp;&nbsp;Do While theFile<span class=cfe><B>.AtEndOfStream</B></span> &lt;&gt; True
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;retstring = theFile.ReadLine
+&nbsp;&nbsp;&nbsp;Loop
+&nbsp;&nbsp;&nbsp;theFile.Close
+&nbsp;&nbsp;&nbsp;ReadEntireFile = retstring
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsproatendofline.htm">AtEndOfLine Property</A> | <A HREF="vsprocolumn.htm">Column Property</A> | <A HREF="vsproline.htm">Line Property</A></P>
+
+<P>Applies To: <A HREF="vsobjtextstream.htm">TextStream Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

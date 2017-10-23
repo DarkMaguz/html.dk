@@ -1,0 +1,95 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>BodyFormat Property (CDONTS NewMail Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_bodyformat_property_cdonts_newmail_object_"></a>BodyFormat Property (CDONTS NewMail Object)  <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>BodyFormat</b> property sets the text format of the NewMail object. Write-only. </p>
+<h4>Syntax </h4>
+<pre><i>objNewMail</i>.<b>BodyFormat 
+ </b></pre>
+<h4>Data Type </h4>
+<p>
+Long </p>
+<h4>Remarks </h4>
+<p>
+<b>BodyFormat</b> can contain exactly one of the following values: </p>
+<table>
+<tr valign="top">
+<td>
+<b>BodyFormat setting </b></td>
+<td>
+<b>Value </b></td>
+<td>
+<b>Description </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoBodyFormatHTML </b></td>
+<td>
+0 </td>
+<td>
+The <a href="amsm00gv.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm00gv.htm"><b>Body</b></a> property is to include Hypertext Markup Language (HTML). </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoBodyFormatText </b></td>
+<td>
+1 </td>
+<td>
+The <a href="amsm00gv.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm00gv.htm"><b>Body</b></a> property is to be exclusively in plain text (default value). </td>
+</tr>
+</table><br>
+<h4>Example </h4>
+<p>
+This code fragment shows the usage of the <b>BodyFormat</b> property in preparing and sending an HTML message: </p>
+<pre>Dim myMail 
+Set myMail = CreateObject(&quot;CDONTS.NewMail&quot;) 
+ 
+HTML = &quot;&lt;!DOCTYPE HTML PUBLIC &quot;&quot;-//IETF//DTD HTML//EN&quot;&quot;&gt;&quot; &amp; NL 
+HTML = HTML &amp; &quot;&lt;html&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;head&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;meta http-equiv=&quot;&quot;Content-Type&quot;&quot;&quot; 
+HTML = HTML &amp; &quot;HTML = HTML &amp; &quot;&quot;content=&quot;&quot;text/html; charset=iso-8859-1&quot;&quot;&gt;&quot;&quot;&quot; 
+HTML = HTML &amp; &quot;&lt;title&gt;Sample NewMail&lt;/title&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;/head&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;body&gt;&quot; 
+HTML = HTML &amp; &quot;This is a sample message being sent using HTML. &lt;BR&gt;&lt;/body&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;/html&gt;&quot; 
+ 
+myMail.From = &quot;Example@Microsoft.com&quot; 
+myMail.To = &quot;Someone@Company.com&quot; 
+myMail.Subject = &quot;Sample Message&quot; 
+myMail.BodyFormat = 0 
+myMail.MailFormat = 0 
+myMail.Body = HTML 
+myMail.Send 
+Set myMail = Nothing 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

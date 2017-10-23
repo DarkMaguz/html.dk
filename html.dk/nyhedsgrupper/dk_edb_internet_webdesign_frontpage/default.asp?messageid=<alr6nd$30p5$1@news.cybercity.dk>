@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Test af rammesiden.</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.frontpage skrevet af Camilla Scharff den 13. september 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Test af rammesiden." />
+<meta name="language" content="dan" />
+<meta name="Date" content="13-09-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.frontpage</h1><p>Nyhedsgruppen er til diskussion af problemer, der er ved at fremstille og publicere websider ved brug af produktet Microsoft FrontPage samt diverse WebServere med FrontPage-extensions. Gruppen er ikke beregnet til reklame for produktet, egne websider og lign.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form&amp;ReplyID=%3Calr6nd%2430p5%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp'>dk.edb.internet.webdesign.frontpage</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Camilla&nbsp;Scharff&nbsp;&nbsp;<a href='mailto:camischa@jubiimail.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='camischa@jubiimail.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Camischa's burmesere</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 13. september 2002 kl. 01:07</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Test af rammesiden.</strong></li></ul>
+
+<p><span class='normal'>Hej med dig </span><br /><span class='normal'> </span><br /><span class='normal'>Se svarene i dit eget indl&#230;g... </span><br /><span class='citat'>> B&#229;de sider og billeder ligger i samme mappe. </span><br /><span class='citat'>> Jeg bliver bare forvirret for nogen siger at n&#229;r man gemmer en side, s&#229; </span><br /><span class='normal'>skal </span><br /><span class='citat'>> man ikke skrive htm bagefter og andre siger at det g&#248;r frontpage selv. </span><br /><span class='normal'> </span><br /><span class='normal'>Ja, Frontpage &quot;skriver&quot; selv .htm efter filnavnet, n&#229;r man gemmer </span><br /><span class='normal'>html-filer. Det beh&#248;ver du alts&#229; ikke at g&#248;re. </span><br /><span class='normal'> </span><br /><span class='citat'>> Og hvad skal man linke til er det kun navnet p&#229; hjemmesiden p&#229; sider og </span><br /><span class='normal'>link </span><br /><span class='citat'>> og skal det v&#230;re <a href='http://www.pspvenner.dk/indlednig.htm'>www.pspvenner.dk/indlednig.htm</a> eller bare et navn som </span><br /><span class='citat'>> frontpage selv finder ud af + </span><br /><span class='citat'>> Og n&#229;r man gemmer en side, hvad skal man s&#229; skrive ? </span><br /><span class='normal'> </span><br /><span class='normal'>N&#229;r du laver et link, s&#229; bruger du vel funktionen &quot;Inds&#230;t hyperlink&quot; - dvs. </span><br /><span class='normal'>du g&#229;r ind og v&#230;lger siden, der skal linkes til...? Hvad du skriver som </span><br /><span class='normal'>tekst til selve linket er ligegyldigt. </span><br /><span class='normal'> </span><br /><span class='citat'>> Og n&#229;r man skal inds&#230;tte hyperlink er det s&#229; til en fil eller noget med </span><br /><span class='normal'>htm </span><br /><span class='citat'>> i enden. </span><br /><span class='normal'> </span><br /><span class='normal'>En fil *er* s&#229;dan en med .htm i enden - det kaldes en html-fil <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' />) Pr&#230;cis </span><br /><span class='normal'>ligesom Word-filer hedder .doc osv. </span><br /><span class='normal'> </span><br /><span class='citat'>> Der er ogs&#229; en titel, men hvad der. </span><br /><span class='normal'> </span><br /><span class='normal'>Titlen er navnet p&#229; siden - jeg har fx ogs&#229; en index.htm (filnavnet), men </span><br /><span class='normal'>titlen er &quot;Velkommen til Camischa's burmesere&quot; - og det er d&#233;t, som folk </span><br /><span class='normal'>l&#230;ser oppe i toppen af deres browser (internet-program). </span><br /><span class='normal'> </span><br /><span class='citat'>> Og rammesider skal ogs&#229; have navne er det kun efter eget valg, som menu og </span><br /><span class='citat'>> skal der ogs&#229; v&#230;re htm i enden. </span><br /><span class='normal'> </span><br /><span class='normal'>Ja, fordi de alle er html-filer. En rammeside med to rammer best&#229;r af i alt </span><br /><span class='normal'>3 filer - 1 som er fx menu.htm (typisk den venstre), 1 hedder som regel </span><br /><span class='normal'>indhold.htm (den side, hvor de underliggende sider skal &#229;bne sig i) og 1 der </span><br /><span class='normal'>typisk kaldes index.htm - og som alts&#229; &quot;holder sammen&quot; p&#229; de to andre sider. </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg giver mange forskellige navne til sider titler og hyperlink og ja mine </span><br /><span class='citat'>> filer ligger p&#229; D-drevet der er min folder, s&#229; den skal jo ikke &#230;ndre, for </span><br /><span class='citat'>> jeg forst&#229;r at frontpage selv s&#230;tter det rigtige ind. </span><br /><span class='normal'> </span><br /><span class='normal'>Ja, filerne skal ligge p&#229; dit d-drev - men de skal jo uploades for at kunne </span><br /><span class='normal'>ses p&#229; internettet! Jeg ved ikke, om du bruger et FTP-program eller </span><br /><span class='normal'>FrontPage til at uploade med... hvis du bruger et FTP-program skal du s&#229; </span><br /><span class='normal'>bare uploade alle filerne - hvis du bruger FrontPage m&#229; en anden lige </span><br /><span class='normal'>hj&#230;lpe, for det bruger jeg ikke selv. </span><br /><span class='normal'> </span><br /><span class='citat'>> Gid der var et lille startkursus, som viser punkt for punkt, hvordan man </span><br /><span class='citat'>> starter og hvad man skal give navn og hvad navnet skal hedde. </span><br /><span class='normal'> </span><br /><span class='normal'>Der findes masser af kurser rundt omkring - bl.a. p&#229; diverse aftenskoler </span><br /><span class='normal'>mv., s&#229; tag et kig p&#229; dem <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> </span><br /><span class='normal'>Men s&#229;dan helt grundl&#230;ggende, s&#229; skal ALLE filer have navne (filer er b&#229;de </span><br /><span class='normal'>html-sider, billeder, grafik mv. - filer er blot en f&#230;llesbetegnelse for en </span><br /><span class='normal'>&quot;ting&quot;, uanset hvad det er). </span><br /><span class='normal'> </span><br /><span class='citat'>> Er det navnet p&#229; hjemmesiden eller indhold eller navne p&#229; filer, som skal </span><br /><span class='citat'>> ind p&#229; siderne. </span><br /><span class='normal'> </span><br /><span class='normal'>Links skal f&#248;re til de forskellige html-filer du har lavet - brug &quot;Inds&#230;t </span><br /><span class='normal'>hyperlink&quot;-funktionen, s&#229; kan du klikke og v&#230;lge - meget lettere end at </span><br /><span class='normal'>skulle skrive en hel masse! </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg ser mine sider s&#229; fint i frontpage, men da jeg kom p&#229; arbejde kunne </span><br /><span class='normal'>jeg </span><br /><span class='citat'>> kun se en tom index. </span><br /><span class='normal'> </span><br /><span class='normal'>Og det er klart, da filerne jo ligger lokalt p&#229; din harddisk - men alts&#229; </span><br /><span class='normal'>endnu ikke er uploadet til det store internet! </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg har ogs&#229; andre sider som jeg ville have ind p&#229; websiden, men der skal </span><br /><span class='citat'>> jeg oprette en tom side og kopiere websiden derind og s&#229; igen s&#230;tte den </span><br /><span class='normal'>ind </span><br /><span class='citat'>> p&#229; den nye webside, men hver gang jeg starte forfra m&#229; jeg slette hele </span><br /><span class='citat'>> webstedet og starte forfra med alt tekst og s&#230;tte alle hyberlink ind igen </span><br /><span class='citat'>> fra begyndelsen. </span><br /><span class='normal'> </span><br /><span class='normal'>Den forstod jeg ikke lige... du beh&#248;ver da ikke starte forfra p&#229; noget! Hvis </span><br /><span class='normal'>du skal lave nye sider, s&#229; kan du v&#230;lge at &#229;bne en eksisterende side, som du </span><br /><span class='normal'>s&#229; retter til, og gemmer som noget andet - pr&#230;cis ligesom hvis du har lavet </span><br /><span class='normal'>et brev i Word, og 10 dage efter skal skrive det samme til en anden... s&#229; </span><br /><span class='normal'>&#229;bner du det gamle, skriver ny tekst/retter dato mv., og gemmer evt. under </span><br /><span class='normal'>et nyt navn - dvs. du s&#229; har to breve liggende! </span><br /><span class='normal'> </span><br /><span class='citat'>> Hvis nogen kender et lille kursus i at komme igang fra bunden med de </span><br /><span class='citat'>> rammesider og hvordan de gemmes og navngives med navn og url og filnavne, </span><br /><span class='normal'>s&#229; </span><br /><span class='citat'>> vil jeg blive glad. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg kender ikke noget kursus, der pr&#230;cist besk&#230;ftiger sig med rammesider - </span><br /><span class='normal'>men alle grundl&#230;ggende og udvidede html- og FrontPage-kurser burde komme ind </span><br /><span class='normal'>p&#229; principperne med rammesider, URLs osv. - ihvertfald de kurser jeg har </span><br /><span class='normal'>v&#230;ret p&#229; p&#229; H&#248;je Taastrup Dataskole (men de er selvf&#248;lgelig ogs&#229; noget </span><br /><span class='normal'>dyrere end aftenskolernes kurser)... </span><br /><span class='normal'> </span><br /><span class='normal'>Mvh. Camilla </span><br /><span class='normal'><a href='http://www.burmese.dk'>www.burmese.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Calposk%24jfd%241%40sunsite%2Edk%3E' title='Test af rammesiden.'>Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Hønemor)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3CIQ%5Ff9%2E71588%24ww6%2E4972831%40news010%2Eworldonline%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Per&nbsp;Thomsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Calq6rl%246f8%241%40sunsite%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Hønemor)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3d80a1be%240%2487295%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Rita&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Calq8c7%24agb%241%40sunsite%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Hønemor)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3d80ae1b%240%2487324%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Rita&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3d80af58%240%2487281%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Rita&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Calr4ao%24iok%241%40sunsite%2Edk%3E' title='RE: Test af rammesiden.'>RE: Test af rammesiden.</a>&nbsp;<small class='newslist'>(12-09-02&nbsp;-&nbsp;Hønemor)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Calr6nd%2430p5%241%40news%2Ecybercity%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(13-09-02&nbsp;-&nbsp;Camilla&nbsp;Scharff)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3d817414%240%2487303%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(13-09-02&nbsp;-&nbsp;Rita&nbsp;Olesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Cals996%2421j%241%40sunsite%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(13-09-02&nbsp;-&nbsp;Hønemor)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3d81af28%240%2487295%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(13-09-02&nbsp;-&nbsp;Rita&nbsp;Olesen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Calseme%241bfs%241%40news%2Ecybercity%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(13-09-02&nbsp;-&nbsp;Camilla&nbsp;Scharff)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3d81c537%240%2487300%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Test af rammesiden.'>Re: Test af rammesiden.</a>&nbsp;<small class='newslist'>(13-09-02&nbsp;-&nbsp;Rita&nbsp;Olesen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form&amp;ReplyID=%3Calr6nd%2430p5%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp'>dk.edb.internet.webdesign.frontpage</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html_125x125'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_anim.gif' alt='Link til IT-Jobank' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3calr6nd$30p5$1@news.cybercity.dk%3e' method='post'><p class='pollheader'>Har du en PDA?</p><div><input type='hidden' name='tst' value='02-03-03 12:03:06' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp' title='Nyhedsgruppen er til diskussion af problemer' class='navibox'>dk.edb.internet.webdesign.frontpage</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Test af rammesiden.</span></div>
+
+
+
+</body>
+</html>
+

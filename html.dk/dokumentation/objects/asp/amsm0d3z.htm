@@ -1,0 +1,89 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>AttachFile Method (CDONTS NewMail Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_attachfile_method_cdonts_newmail_object_"></a>AttachFile Method (CDONTS NewMail Object)  <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>AttachFile</b> method adds an attachment to the message by reading a file. </p>
+<h4>Syntax </h4>
+<pre><i>objNewMail</i>.<b>AttachFile(</b><i>Source</i><b> [</b><i>, FileName</i><b>] [</b><i>, EncodingMethod</i><b>] ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objNewMail </i></dt>
+<dd>
+Required. This NewMail object. <br>
+</dd>
+<dt>
+<i>Source </i></dt>
+<dd>
+Required. <b>IStream</b> object or String. The full path and file name of the file to be attached to the message, or a pointer to an <b>IStream</b> object containing the file data. <br>
+</dd>
+<dt>
+<i>FileName </i></dt>
+<dd>
+Optional. String. The file name to appear in the attachment's placeholder in the message. If <i>FileName</i> is not supplied, the file name from the <i>Source</i> parameter is used. <br>
+</dd>
+<dt>
+<i>EncodingMethod </i></dt>
+<dd>
+Optional. Long. The manner of encoding the attachment. The following values are possible: <table>
+<tr valign="top">
+<td>
+<b><i>EncodingMethod</i> setting </b></td>
+<td>
+<b>Value </b></td>
+<td>
+<b>Description </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoEncodingUUencode </b></td>
+<td>
+0 </td>
+<td>
+The attachment is to be in UUEncode format (default). </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoEncodingBase64 </b></td>
+<td>
+1 </td>
+<td>
+The attachment is to be in base 64 format. </td>
+</tr>
+</table><br>
+</dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+The default value for the <i>EncodingMethod</i> parameter can change if you set the <a href="amsm9mn3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9mn3.htm"><b>MailFormat</b></a> property. If <b>MailFormat</b> is set to <b>CdoMailFormatText</b>, the default value is <b>CdoEncodingUUencode</b>. If <b>MailFormat</b> is set to <b>CdoMailFormatMime</b>, the default value is <b>CdoEncodingBase64</b>. However, if you add an attachment encoded in base 64 format, the value of the <b>MailFormat</b> property is automatically set to <b>CdoMailFormatMime</b>. </p>
+<p>
+Only C/C++ and Java programs can use an <b>IStream</b> object for the <i>Source</i> parameter. They should pass an <b>IUnknown</b> object that returns an <b>IStream</b> interface in response to <b>QueryInterface</b>. Microsoft® Visual Basic® supports the <b>IDispatch</b> interface and not <b>IUnknown</b>, so it cannot use an <b>IStream</b> object. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

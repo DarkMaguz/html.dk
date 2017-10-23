@@ -1,0 +1,72 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>CreateObject</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_createobject"></a>CreateObject</h2>
+<p>
+The <b>CreateObject </b>method creates an instance of a server component. If the component has implemented the <b>OnStartPage</b> and <b>OnEndPage </b>methods, the <b>OnStartPage </b>method is called at this time. For more information about server components, see <a href="comp275c.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp275c.htm"><b>Installable Components for ASP</b></a>. </p>
+<h4>Syntax</h4>
+<pre><b>Server.CreateObject(</b> <i>progID</i> <b>)
+ </b></pre>
+<h4>Parameters</h4>
+<dl>
+<dt>
+<i>progID</i></dt>
+<dd>
+Specifies the type of object to create. The format for <i>progID</i> is [<i>Vendor</i><b>.</b>]<i>Component</i>[<b>.</b><i>Version</i>].</dd>
+</dl>
+<h4>Remarks</h4>
+<p>
+By default, objects created by the <b>Server.CreateObject</b> method have page scope. This means that they are automatically destroyed by the server when it finishes processing the current ASP page. </p>
+<p>
+To create an object with session or application scope, you can either use the &lt;OBJECT&gt; tag and set the SCOPE attribute to SESSION or APPLICATION, or store the object in a session or application variable. </p>
+<p>
+For example, an object stored in a session variable, as shown in the following script, is destroyed when the <a href="intr12d0.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr12d0.htm"><b>Session</b></a> object is destroyed. That is, when the session times out, or the <a href="intr5tpq.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5tpq.htm"><b>Abandon</b></a> method is called.</p>
+<pre>&lt;% Set Session(&quot;ad&quot;) = Server.CreateObject(&quot;MSWC.AdRotator&quot;)%&gt;
+ </pre>
+<p>
+You can also destroy the object by setting the variable to <code>Nothing</code> or setting the variable to a new value, as shown below. The first example releases the object <code>ad</code>. The second replaces <code>ad</code> with a string.</p>
+<pre>&lt;% Session(&quot;ad&quot;) = Nothing %&gt;
+&lt;% Session(&quot;ad&quot;) = &quot;some other value&quot; %&gt;
+ </pre>
+<p>
+You cannot create an object instance with the same name as a built-in object. For example, the following returns an error.</p>
+<pre>&lt;% Set Response = Server.CreateObject(&quot;Response&quot;) %&gt; 
+ </pre>
+<h4>Example</h4>
+<pre>&lt;% Set MyAd = Server.CreateObject(&quot;MSWC.AdRotator&quot;) %&gt; 
+ </pre>
+<p>
+The preceding example creates a server component, <code>MyAd</code>, as a <b>MSWC.AdRotator</b> component that can be used to automate rotation of advertisements on a Web page. </p>
+<p>
+For more information about server components, see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc88c0.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc88c0.htm'" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc88c0.htm"><b>Creating Components for ASP</b></a>.</p>
+<h4>Applies To</h4>
+<p>
+<a href="intr7838.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr7838.htm"><b>Server Object</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

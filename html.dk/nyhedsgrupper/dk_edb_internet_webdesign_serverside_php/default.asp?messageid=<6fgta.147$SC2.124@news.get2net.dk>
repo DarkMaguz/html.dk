@@ -1,0 +1,201 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Hj&#230;lp til nybegynder</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.php skrevet af Morten den 4. maj 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Hj&#230;lp til nybegynder" />
+<meta name="language" content="dan" />
+<meta name="Date" content="04-05-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<!--
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/page/all_140x350;sz=140x350;tile=1;ord=153892159462?"></script>
+
+</td></tr></table>
+
+</div>
+-->
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C6fgta%2E147%24SC2%2E124%40news%2Eget2net%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Morten&nbsp;&nbsp;<a href='mailto:morten.broegger@get2net.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='morten.broegger@get2net.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> UNI2 Internet Kunde</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 5. maj 2003 kl. 00:08</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Hj&#230;lp til nybegynder</strong></li></ul>
+
+<p><span class='normal'>Hej </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg er g&#229;et i gang med at l&#230;re noget om php og har fulgt en vejledning p&#229; </span><br /><span class='normal'><a href='http://www.webcafe.dk'>www.webcafe.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Vejledningen jeg har fulgt findes via dette link: </span><br /><span class='normal'><a href='http://www.webcafe.dk/artikler/php/htmlformularer/'>http://www.webcafe.dk/artikler/php/htmlformularer/</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Noget med, at lade php omdanne en simpel formular til variabler. Jeg synes </span><br /><span class='normal'>selv, at jeg har fulgt denne brugsanvisning n&#248;je, men det virker alligevel </span><br /><span class='normal'>ikke. </span><br /><span class='normal'> </span><br /><span class='normal'>Scriptet best&#229;r af 2 sider: </span><br /><span class='normal'>Den ene ser s&#229;dan ud: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;form action=&quot;spis1.html&quot; method=&quot;post&quot;> </span><br /><span class='normal'>Dit navn: &lt;input type=&quot;text&quot; name=&quot;navn&quot;> </span><br /><span class='normal'>&lt;p> </span><br /><span class='normal'>Din alder: &lt;input type=&quot;text&quot; name=&quot;alder&quot;> </span><br /><span class='normal'>&lt;p> </span><br /><span class='normal'>&lt;input type=&quot;submit&quot; value=&quot;Tag mit input&quot;> </span><br /><span class='normal'>&lt;/form> </span><br /><span class='normal'> </span><br /><span class='normal'>Og den anden ser s&#229;dan ud: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;?php </span><br /><span class='normal'>$navn = $_REQUEST[&quot;navn&quot;]; </span><br /><span class='normal'>$alder = $_REQUEST[&quot;alder&quot;]; </span><br /><span class='normal'>echo &quot;S&#229; $navn er alts&#229; $alder &#229;r gammel.&quot;; </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Side 1 virker fint i min browser men side 2 giver f&#248;lgende fejlmeddelse: </span><br /><span class='normal'> </span><br /><span class='normal'>Method Not Allowed </span><br /><span class='normal'>The requested method POST is not allowed for the URL /spis1.html. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>---------------------------------------------------------------------------- </span><br /><span class='normal'>---- </span><br /><span class='normal'> </span><br /><span class='normal'>Apache/1.3.27 Server at 127.0.0.1 Port 80 </span><br /><span class='normal'> </span><br /><span class='normal'>H&#229;ber nogen kan hj&#230;lpe med at finde fejlen. </span><br /><span class='normal'>P&#229; forh&#229;nd tak. </span><br /><span class='normal'> </span><br /><span class='normal'>M.v.h. </span><br /><span class='normal'> </span><br /><span class='normal'>Morten </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C6fgta%2E147%24SC2%2E124%40news%2Eget2net%2Edk%3E' title='Hj&#230;lp til nybegynder'>Hj&#230;lp til nybegynder</a>&nbsp;<small class='newslist'>(04-05-03&nbsp;-&nbsp;Morten)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb943jq%2410l%241%40sunsite%2Edk%3E' title='Re: Hj&#230;lp til nybegynder'>Re: Hj&#230;lp til nybegynder</a>&nbsp;<small class='newslist'>(04-05-03&nbsp;-&nbsp;Aksel&nbsp;Spandet)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cu46bbvs5ktd9qq8c7fvkvhc7sitbag00hm%404ax%2Ecom%3E' title='Re: Hj&#230;lp til nybegynder'>Re: Hj&#230;lp til nybegynder</a>&nbsp;<small class='newslist'>(04-05-03&nbsp;-&nbsp;Martin&nbsp;Sveegaard)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb943ob%241fi%241%40sunsite%2Edk%3E' title='Re: Hj&#230;lp til nybegynder'>Re: Hj&#230;lp til nybegynder</a>&nbsp;<small class='newslist'>(04-05-03&nbsp;-&nbsp;Aksel&nbsp;Spandet)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Ca87bbvos6ucmhccgli5fa0doj34r56qlbv%404ax%2Ecom%3E' title='Re: Hj&#230;lp til nybegynder'>Re: Hj&#230;lp til nybegynder</a>&nbsp;<small class='newslist'>(05-05-03&nbsp;-&nbsp;Martin&nbsp;Sveegaard)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb5zta%2E3035%24aH%2E29%40news%2Eget2net%2Edk%3E' title='Mere hj&#230;lp'>Mere hj&#230;lp</a>&nbsp;<small class='newslist'>(05-05-03&nbsp;-&nbsp;Morten)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C871xzd3ymh%2Efsf%40morpheus%2Eaub%2Edk%3E' title='Re: Mere hj&#230;lp'>Re: Mere hj&#230;lp</a>&nbsp;<small class='newslist'>(05-05-03&nbsp;-&nbsp;Jacob&nbsp;Atzen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cv32ebvc1tift4q4se2eer7e2rgrt8t682u%404ax%2Ecom%3E' title='Re: Mere hj&#230;lp'>Re: Mere hj&#230;lp</a>&nbsp;<small class='newslist'>(06-05-03&nbsp;-&nbsp;Martin&nbsp;Sveegaard)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C6fgta%2E147%24SC2%2E124%40news%2Eget2net%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C6fgta%2E147%24SC2%2E124%40news%2Eget2net%2Edk%3E' method='post'><p class='pollheader'>Hvor meget betaler du om måneden for dit webhotel?</p><div><input type='hidden' name='tst' value='19-01-04 22:52:45' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;0 - 10 kr.</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;10 - 50 kr.</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;50 - 100 kr.</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;100 - 200 kr.</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;over 200 kr.</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Har ikke webhotel</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Mere hj&#230;lp</span></div>
+
+
+
+</body>
+</html>
+

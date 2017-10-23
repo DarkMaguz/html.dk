@@ -1,0 +1,165 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Mere status...</title>
+
+<meta name="description" content="Deltag i HTML.dk's konkurrence og vind webhoteller fra Wannafind" />
+<meta name="keywords" content="konkurrence, præmier, vind, editor, kodning, program" />
+<meta name="title" content="Mere status..." />
+<meta name="language" content="dan" />
+<meta name="Date" content="24-02-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+
+<!-- start page content -->
+
+<h1>Forum 1: Generelt</h1><p style='margin-top:0px;'>Her diskuteres i øjeblikket hvordan det videre arbejde med udviklingen af WebCoder International skal fortsætte.</p><hr /><div class='forumnavigation'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='post.asp?forumID=2&amp;messID=263' title='Svar på dette indlæg'>Svar på dette indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='post.asp?forumID=2' title='Skriv et nyt indlæg til dette debatforum'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='threads.asp?forumID=2'>Oversigt over indlæg</a></div><div class='message'><ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span> <a href='/community/profile.asp?id=2145' title='Se community-profil for Kasper (TSW)'>Kasper (TSW)</a></strong></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 10. juli 2002 kl. 06:31</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span> Mere status...</strong></li></ul><p>Syntes lige at jeg ville skrive lidt til jer igen, s&#229; i ved at jeg i hvert fald ikke er g&#229;et i st&#229; <img src='/site/graphics/smileys/smiley.standard.gif' alt='Smilende smiley' />. Det er nu ca. 1 uge siden jeg stod med en version af WebCoder 3 der var ved at v&#230;re klar til et alpha release, og det er s&#229; ogs&#229; ca. en uge siden at jeg valgte at lave en virkelig stor &#230;ndring. S&#229; stor at jeg faktisk valgte at bygge WebCoder op fra bunden p&#229; det nye system, og derefter kopiere funktionerne fra den gamle version over. Den store &#230;ndring var i den m&#229;de WebCoder h&#229;ndterer &#229;bne dokumenter p&#229;! Tidligere versioner af WebCoder har alle v&#230;ret bygget op over det der hedder MDI, som st&#229;r for Muliple Document Interface. Under det system har man ganske enkelt et vindue, hvor man har mulighed for at have en r&#230;kke undervinduer i. I har m&#229;ske lagt m&#230;rke til det n&#229;r i fx har startet et nyt dokument i WebCoder.  <br /> <br />I hvert fald betyder s&#229;dan en opbygning, at for hvert enkelt dokument, skal der oprettes et helt nyt vindue, inkl. alle de komponenter der er inden for vinduet. Det vil alts&#229; sige at for hvert vindue, kr&#230;ver WebCoder en masse systemresourcer der skal bruges til alle disse componenter. I det nye system er der ingen vinduer, og der er kun et Memo komponent, hvor der f&#248;r var et pr. vindue. N&#229;r der s&#229; skiftes mellem de forskellige dokumenter, s&#248;rger WebCoder for at loade det rigtige dokument ind i memoet. Det er jo bare en masse teknisk snak, men det har alts&#229; ogs&#229; givet resultater der burde v&#230;re til at forst&#229; for de fleste: <br /> <br />20 &#229;bne dokumenter i WebCoder med MDI &quot;kostede&quot; ca. 4 mb ekstra ram til WebCoder. Med det nye interface er det 40 kb. for de 20 dokumenter! Det betyder at WebCoder bliver et mindre kr&#230;vende program at bruge, rent system m&#230;ssigt, og skulle ogs&#229; gerne betyde at WebCoder bliver langt mere stabilt end f&#248;r! <br /> <br />At jeg har valgt at genopbygge WebCoder p&#229; den m&#229;de, betyder naturligvis at der nok har indsneget sig lidt fejl rundt omkring, som ikke var i tidligere versioner. Desuden har det ogs&#229; givet lidt problemer i overs&#230;ttelses modulet, s&#229;dan at flytte rundt p&#229; det hele, s&#229; kan have givet nogle lidt sp&#248;jse s&#230;tninger, specielt i hovedprogrammet. Jeg knokler p&#229; at f&#229; en version klar til betatestning, og jeg regner da heller ikke med at der g&#229;r s&#229; lang tid endnu f&#248;r i kan hente den f&#248;rste beta. Jeg h&#229;ber naturligvis p&#229; at i vil v&#230;re rigtigt flinke til at teste og melde tilbage til mig, s&#229; jeg kan f&#229; udgivet programmet s&#229; fejlfrit som muligt, n&#229;r den tid kommer <img src='/site/graphics/smileys/smiley.standard.gif' alt='Smilende smiley' />. <br /> <br />Regner i &#248;vrigt med snart lige at skrive lidt mere om hvad der ellers er kommet af nyheder/&#230;ndringer i programmet. H&#229;ber i gl&#230;der jer bare n&#230;sten liges&#229; meget som jeg g&#248;r <img src='/site/graphics/smileys/smiley.standard.gif' alt='Smilende smiley' /> <br /> <br />Mvh. <br /> <br />Kasper (TSW) <a href='http://<br />www.tsw.dk'><br />www.tsw.dk</a></p><hr class='messageruler' /><ul class='messagelist'><li class='message'><strong>Mere status...</strong>&nbsp;<small>(10-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=264'>Re: Mere status......</a>&nbsp;<small>(12-07-02 - Kaare Hoff Skovgaard)</small></li></ul><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=265'>Re: Mere status......</a>&nbsp;<small>(12-07-02 - Gustav Olsen)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=266'>Re: Mere status......</a>&nbsp;<small>(13-07-02 - Kaare Hoff Skovgaard)</small></li></ul><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=267'>Re: Mere status......</a>&nbsp;<small>(13-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=268'>Re: Mere status......</a>&nbsp;<small>(14-07-02 - Kaare Hoff Skovgaard)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=269'>Re: Mere status......</a>&nbsp;<small>(14-07-02 - Kaare Hoff Skovgaard)</small></li></ul><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=270'>Re: Mere status......</a>&nbsp;<small>(14-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=272'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kaare Hoff Skovgaard)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=275'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=276'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kaare Hoff Skovgaard)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=278'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=280'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kaare Hoff Skovgaard)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=282'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=283'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kaare Hoff Skovgaard)</small></li></ul><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=284'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kaare Hoff Skovgaard)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=285'>Re: Mere status......</a>&nbsp;<small>(17-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=286'>Re: Mere status......</a>&nbsp;<small>(18-07-02 - Kaare Hoff Skovgaard)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=287'>Re: Mere status......</a>&nbsp;<small>(18-07-02 - Kaare Hoff Skovgaard)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=288'>Re: Mere status......</a>&nbsp;<small>(18-07-02 - Kasper (TSW))</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=289'>Re: Mere status......</a>&nbsp;<small>(18-07-02 - Kaare Hoff Skovgaard)</small></li></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></div><hr /><div class='forumnavigation'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='post.asp?forumID=2&amp;messID=263' title='Svar på dette indlæg'>Svar på dette indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='post.asp?forumID=2' title='Skriv et nyt indlæg til dette debatforum'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='threads.asp?forumID=2'>Oversigt over indlæg</a></div><dl><dt></dt><dd></dd><dt>Relateret materiale på HTML.dk</dt><dd><ul class='linklist'><li><a href='http://www.html.dk/community/' title='Bliv gratis medlem af HTML.dk'>Community</a></li></ul></dd><dt>Relaterede links om emnet</dt><dd><ul><li class='extdklinklist'><a href='http://www.tsw.dk/' title='Editor fra TSW'>TSW: WebCoder International</a></li></ul></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.wannafind.dk/job/1.asp'><img src='/site/graphics/sponsorater/wannafind.gif' height="60" width="125" alt='Jobannonce' /></a>
+<br />
+
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/editor/forum/message.asp?forumID=2&messID=263' method='post'><p class='pollheader'>Har du dit eget firma?</p><div><input type='hidden' name='tst' value='10-08-02 22:09:06' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Overvejer</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/editor/' title='Webcoder International' class='navibox'>Webcoder International</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/editor/forum/threads.asp?forumID=2' title='Oversigt over indlæg om Forum 1: Generelt' class='navibox'>Forum 1: Generelt</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Mere status...</span></div>
+
+
+
+</body>
+</html>
+

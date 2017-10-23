@@ -1,0 +1,100 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Rotator Schedule File</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_rotator_schedule_file"></a>Rotator Schedule File</h3>
+<p>
+The Rotator Schedule file contains information that the Ad Rotator component uses to manage and display the various advertisement images. In it you can specify the details for the advertisements, such as the size of the advertisement space, the image files to use, and the percentage of time that each file should be displayed.</p>
+<p>
+The Rotator Schedule file has two sections. The first section sets parameters that apply to all advertisement images in the rotation schedule. The second section specifies file and location information for each individual advertisement and the percentage of display time that each advertisement should receive. The two sections are separated by a line containing only an asterisk (*). </p>
+<p>
+In the first section there are four global parameters, each consisting of a keyword and a value. All are optional. If you do not specify values for the global parameters, the Ad Rotator<b> </b>uses default values. In this case, the first line of the file must contain only an asterisk (*).</p>
+<h5>Syntax </h5>
+<pre>[<b>REDIRECT</b> <i>URL</i>]
+[<b>WIDTH</b> <i>numWidth</i>]
+[<b>HEIGHT</b> <i>numHeight</i>]
+[<b>BORDER</b> <i>numBorder</i>]
+<b>*
+</b><i>adURL
+adHomePageURL
+Text
+impressions</i> 
+ </pre>
+<h5>Parameters</h5>
+<dl>
+<dt>
+<i>URL</i></dt>
+<dd>
+Specifies the path to the dynamic-link library (.dll) or application (.asp) file that implements redirection. This path can be specified either fully (http://MyServer/MyDir/redirect.asp) or relative to the virtual directory (/MyDir/redirect.asp).<br>
+</dd>
+<dt>
+<i>numWidth</i></dt>
+<dd>
+Specifies the width<b> </b>of the advertisement on the page, in pixels. The default is 440 pixels.<br>
+</dd>
+<dt>
+<i>numHeight</i></dt>
+<dd>
+Specifies the height<b> </b>of the advertisement on the page, in pixels. The default is 60 pixels.<br>
+</dd>
+<dt>
+<i>numBorder</i></dt>
+<dd>
+Specifies the thickness of the hyperlink border around the advertisement, in pixels. The default is a 1-pixel border. Set this parameter to 0 for no border.<br>
+</dd>
+<dt>
+<i>adURL</i></dt>
+<dd>
+The location of the advertisement image file.<br>
+</dd>
+<dt>
+<i>adHomePageURL</i></dt>
+<dd>
+The location of the advertiser's home page. If the advertiser does not have a home page, put a hyphen (-) on this line to indicate that there is no link for this ad.<br>
+</dd>
+<dt>
+<i>Text</i></dt>
+<dd>
+Alternate text that is displayed if the browser does not support graphics, or has its graphics capabilities turned off.<br>
+</dd>
+<dt>
+<i>impressions</i></dt>
+<dd>
+A number between 0 and 4,294,967,295 that indicates the relative weight of the advertisement. <p>
+For example, if a Rotator Schedule file contains three ads with <i>impressions</i> set to 2, 3, and 5, the first advertisement is displayed 20 percent of the time, the second 30 percent of the time, and the third 50 percent of the time.</p>
+</dd>
+</dl>
+<h5>Example </h5>
+<p>
+The following script demonstrates how you can use a rotator schedule file to display a variety of advertisements and how to include a redirection file.</p>
+<pre>---ADROT.TXT---
+REDIRECT /scripts/adredir.asp <BR>WIDTH 440 <BR>HEIGHT 60 <BR>BORDER 1 <BR>*
+http://kabaweb/ads/homepage/chlogolg.gif <BR>http://www.bytecomp.com/<BR>Check out the ByteComp Technology Center<BR>20 <BR>http://kabaweb/ads/homepage/gamichlg.gif <BR>-<BR>Sponsored by Flyteworks<BR>20 <BR>http://kabaweb/ads/homepage/ismodemlg.gif <BR>http:// www.proelectron.com/<BR>28.8 internal PC modem, only $99 <BR>80 <BR>http://kabaweb/ads/homepage/spranklg.gif <BR>http://www.clocktower.com/<BR>The #1 Sports site on the net <BR>10 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

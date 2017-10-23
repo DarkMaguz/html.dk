@@ -1,0 +1,174 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Hvordan kommer jeg igang?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.php skrevet af Jesper Brunholm den 25. april 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Hvordan kommer jeg igang?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="25-04-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3CC7B1B5%2E2060603%40brunholm%2Dscharff%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jesper&nbsp;Brunholm&nbsp;&nbsp;<a href='mailto:nospam@brunholm-scharff.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='nospam@brunholm-scharff.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> UNI-C</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 25. april 2002 kl. 09:35</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Hvordan kommer jeg igang?</strong></li></ul>
+
+<p><span class='normal'>Mette Frederiksen wrote: </span><br /><span class='citat'>> Jeg synes stadig ikke rigtig jeg kan komme igang med PHP! </span><br /><span class='citat'>>  </span><br /><span class='citat'>> Jeg har l&#230;st php &#230;ftet fra idg.. men har stadig ikke en ide om hvordan jeg </span><br /><span class='citat'>> kommer igang... </span><br /><span class='citat'>> Jeg har styr p&#229; de grundl&#230;ggende ting som h&#230;ftet har forklaret mig.. Men... </span><br /><span class='normal'> </span><br /><span class='normal'>dvs: du ved godt at for at den kode som du skriver kan blive afviklet s&#229;  </span><br /><span class='normal'>skal den k&#248;res af en server med php installeret? Jeg sp&#248;rger pga. dit  </span><br /><span class='normal'>apache sp&#248;rgsm&#229;l nedenfor: du skal kun installere apache (og php og  </span><br /><span class='normal'>mysql) p&#229; din egen maskine hvis du vil kunne teste/afvikle din kode uden  </span><br /><span class='normal'>at skulle smide det op p&#229; udbyderens ftp... </span><br /><span class='normal'> </span><br /><span class='normal'>Har du l&#230;st og gennemg&#229;et webcafe.dk's artikler om php - og derefter om  </span><br /><span class='normal'>php og mysql (jeg synes at de er gode fordi de laver nogle eksempler)? </span><br /><span class='normal'> </span><br /><span class='citat'>> Min udbyder g&#248;r det muligt at jeg bruger php og der er en medf&#248;lgende mysql </span><br /><span class='citat'>> database... </span><br /><span class='citat'>> S&#229; er jeg st&#248;dt p&#229; noget der hedder apache er det noget jeg skal have </span><br /><span class='citat'>> installeret p&#229; min computer? </span><br /><span class='normal'> </span><br /><span class='citat'>> Eller kan jeg bruge php og mysql som det er nu? </span><br /><span class='normal'>jeps - som n&#230;vnt - p&#229; udbyderens server - jeg vil foresl&#229; at du leger  </span><br /><span class='normal'>lidt med php og s&#229; derefter kobler mysql p&#229;... </span><br /><span class='normal'> </span><br /><span class='citat'>> Hvordan pokker kommer men i kontak med s&#229;dan en database? og hvordan bygger </span><br /><span class='citat'>> man ting op i den? </span><br /><span class='normal'> </span><br /><span class='normal'>hmm - hvem er din udbyder - tilbyder de en phpMyAdmin (det er den  </span><br /><span class='normal'>letteste m&#229;de). MyAdmin er den nemmeste m&#229;de at oprette tabeller og  </span><br /><span class='normal'>&#230;ndre dem p&#229;, fordi man arbejder i et grafisk interface (man kan godt  </span><br /><span class='normal'>oprette tingene via php-filer, men det komplicerer tingene lidt... </span><br /><span class='normal'> </span><br /><span class='citat'>> De hjemmeside jeg har v&#230;ret inde p&#229; og fundet kildekoder har dem liggende </span><br /><span class='citat'>> som filer... og downloader jeg dem.. ja s&#229; kan jeg ikke l&#230;se dem og derfor </span><br /><span class='citat'>> har jeg ikke rigtig fundet ud af hvordan det virker... </span><br /><span class='normal'> </span><br /><span class='normal'>den m&#229; du lige uddybe - kan du ikke l&#230;se koden (fordi du ikke forst&#229;r  </span><br /><span class='normal'>den) eller kan du ikke se noget i din browser? </span><br /><span class='normal'> </span><br /><span class='citat'>> H&#229;ber nogen kan hj&#230;lpe mig til at komme videre.. end bare &quot;hello world&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;html> </span><br /><span class='normal'>&lt;p> hello world </span><br /><span class='normal'>&lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'>er ingen vej, men hvis du har </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;?php </span><br /><span class='normal'>echo &quot;hello world&quot;; </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'>oppe og k&#248;re, og ser forskellen p&#229; at det kun vises p&#229; en server med php  </span><br /><span class='normal'>- s&#229; er du et stykke l&#230;ngere... </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis du _er_ det stykke l&#230;ngere s&#229; m&#229; du pr&#248;ve at formulere en opgave  </span><br /><span class='normal'>til dig selv (that is - stadig - hvis du ogs&#229; har lavet &#248;velserne p&#229;  </span><br /><span class='normal'>webcafe), og komme med de kodeproblemer som opgaven gir dig... </span><br /><span class='normal'> </span><br /><span class='normal'>Hvad bruger du til at skrive og l&#230;se kode i? som n&#230;vnt tidligere mener  </span><br /><span class='normal'>jeg at syntaks-farvning er en stor styrke og hj&#230;lp... </span><br /><span class='normal'> </span><br /><span class='normal'>mvh </span><br /><span class='normal'>/Jesper Brunholm </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>IT-Vest Odense: &lt;<a href='http://www.it-vest.sdu.dk/cim/'>http://www.it-vest.sdu.dk/cim/</a>> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caa86tj%24og9%241%40sunsite%2Edk%3E' title='Hvordan kommer jeg igang?'>Hvordan kommer jeg igang?</a>&nbsp;<small class='newslist'>(25-04-02&nbsp;-&nbsp;Mette&nbsp;Frederiksen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3CC7B1B5%2E2060603%40brunholm%2Dscharff%2Edk%3E' title='Re: Hvordan kommer jeg igang?'>Re: Hvordan kommer jeg igang?</a>&nbsp;<small class='newslist'>(25-04-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caa8gjq%248bd%241%40sunsite%2Edk%3E' title='Re: Hvordan kommer jeg igang?'>Re: Hvordan kommer jeg igang?</a>&nbsp;<small class='newslist'>(25-04-02&nbsp;-&nbsp;Mads&nbsp;Møllegaard&nbsp;@&nbsp;www.startout.dk)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CN2Tx8%2E5868%24ph2%2E127633%40news4%2Eulv%2Enextra%2Eno%3E' title='Re: Hvordan kommer jeg igang?'>Re: Hvordan kommer jeg igang?</a>&nbsp;<small class='newslist'>(25-04-02&nbsp;-&nbsp;Erlend&nbsp;Klakegg&nbsp;Bergheim)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caabb7b%24dou%242%40sunsite%2Edk%3E' title='Re: Hvordan kommer jeg igang?'>Re: Hvordan kommer jeg igang?</a>&nbsp;<small class='newslist'>(26-04-02&nbsp;-&nbsp;Mette&nbsp;Frederiksen)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3CC7B1B5%2E2060603%40brunholm%2Dscharff%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet.jpg' height="125" width="125" alt='Link til IT-Jobbank' /></a>
+<br />
+
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3c3CC7B1B5.2060603@brunholm-scharff.dk%3e' method='post'><p class='pollheader'>Hvordan fandt du første gang HTML.dk?</p><div><input type='hidden' name='tst' value='02-07-02 07:58:07' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Søgemaskine /-index</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Link fra anden side</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Link i Nyhedsgruppe</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Anbefaling fra ven</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;Gennem undervisning</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Bannerreklame</small><br /><input type='radio' name='vote_id' value='7' /><small class='boxtext'>&nbsp;Andet</small><br /><input type='radio' name='vote_id' value='8' /><small class='boxtext'>&nbsp;Kan ikke huske</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Hvordan kommer jeg igang?</span></div>
+
+
+
+</body>
+</html>
+

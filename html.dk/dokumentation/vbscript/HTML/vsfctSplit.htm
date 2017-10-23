@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Split Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctsplit"></A>Split Function</H1>
+
+<P>Returns a zero-based, one-dimensional <A HREF="vtglossary.htm#defarrayvbs">array</A> containing a specified number of substrings.</P>
+
+<P><CODE><B>Split(</B>expression[<B>,</B> delimiter[<B>,</B> count[<B>,</B> compare]]]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>expression</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> containing substrings and delimiters. If <I>expression</I> is a zero-length string, <B>Split</B> returns an empty array, that is, an array with no elements and no data.</P>
+
+<P class=dt><I>delimiter</I></P>
+
+<P class=indent>Optional. String character used to identify substring limits. If omitted, the space character (" ") is assumed to be the delimiter. If <I>delimiter</I> is a zero-length string, a single-element array containing the entire <I>expression</I> string is returned.</P>
+
+<P class=dt><I>count</I></P>
+
+<P class=indent>Optional. Number of substrings to be returned; -1 indicates that all substrings are returned.</P>
+
+<P class=dt><I>compare</I></P>
+
+<P class=indent>Optional. Numeric value indicating the kind of comparison to use when evaluating substrings. See Settings section for values.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>compare</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=30%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=59%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbBinaryCompare</TD>
+<TD width=11%>0</TD>
+<TD width=59%>Perform a binary comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbTextCompare</TD>
+<TD width=11%>1</TD>
+<TD width=59%>Perform a textual comparison.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>Split</B> function to return an array from a string. The function performs a textual comparison of the delimiter, and returns all of the substrings. </P>
+
+<PRE><CODE>Dim MyString, MyArray, Msg
+MyString = "VBScriptXisXfun!"
+MyArray = <span class=cfe><B>Split(</B></span>MyString<span class=cfe><B>,</B></span> "x"<span class=cfe><B>,</B></span> -1<span class=cfe><B>,</B></span> 1<span class=cfe><B>)</B></span>
+' MyArray(0) contains "VBScript".
+' MyArray(1) contains "is".
+' MyArray(2) contains "fun!".
+Msg = MyArray(0) &amp; " " &amp; MyArray(1)
+Msg = Msg&nbsp;&nbsp;&nbsp;&amp; " " &amp; MyArray(2)
+MsgBox Msg</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctjoin.htm">Join Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CreateTextFile Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthcreatetextfile"></A>CreateTextFile Method</H1>
+
+<P>Creates a specified file name and returns a <B>TextStream</B> object that can be used to read from or write to the file.</P>
+
+<P><CODE><I>object</I>.<B>CreateTextFile(</B><I>filename</I>[<B>,</B> <I>overwrite</I>[<B>,</B> <I>unicode</I>]]<B>)</B></CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B> or <B>Folder</B> object.</P>
+
+<P class=dt><I>filename</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> that identifies the file to create.</P>
+
+<P class=dt><I>overwrite</I></P>
+
+<P class=indent>Optional. Boolean value that indicates if an existing file can be overwritten. The value is <B>True</B> if the file can be overwritten; <B>False</B> if it can't be overwritten. If omitted, existing files are not overwritten.</P>
+
+<P><I>unicode</I></P>
+
+<P class=indent>Optional. Boolean value that indicates whether the file is created as a Unicode or ASCII file. The value is <B>True</B> if the file is created as a Unicode file; <B>False</B> if it's created as an ASCII file. If omitted, an ASCII file is assumed.</P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates how to use the <B>CreateTextFile</B> method to create and open a text file: </P>
+
+<PRE><CODE>Sub CreateAfile
+&nbsp;&nbsp;&nbsp;Dim fso, MyFile
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set MyFile = fso.<span class=cfe><B>CreateTextFile(</B></span>"c:\testfile.txt"<span class=cfe><B>,</B></span> True<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;MyFile.WriteLine("This is a test.")
+&nbsp;&nbsp;&nbsp;MyFile.Close
+End Sub</CODE></PRE>
+
+<P>If the <I>overwrite</I> argument is <B>False</B>, or is not provided, for a <I>filename</I> that already exists, an error occurs. </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcreatefolder.htm">CreateFolder Method</A> | <A HREF="vsmthopenastextstream.htm">OpenAsTextStream Method</A> | <A HREF="vsmthopentextfile.htm">OpenTextFile Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A> | <A HREF="vsobjfolder.htm">Folder Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

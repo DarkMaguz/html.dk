@@ -1,0 +1,56 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Subject Property (CDONTS Message Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_subject_property_cdonts_message_object_"></a>Subject Property (CDONTS Message Object)  <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Subject</b> property returns or sets the subject of the message as a string. Read/write (read-only for a message in the Inbox). </p>
+<h4>Syntax </h4>
+<pre><i>objMessage</i>.<b>Subject 
+ </b></pre>
+<p>
+The <b>Subject</b> property is the default property of a Message object, meaning that <i>objMessage</i> is syntactically equivalent to <i>objMessage</i>.<b>Subject</b> in Microsoft® Visual Basic® code. </p>
+<h4>Data Type </h4>
+<p>
+String </p>
+<h4>Remarks </h4>
+<p>
+You can set the <b>Subject</b> property to an empty string, although that limits the ability of the recipients to sort and filter received messages. </p>
+<h4>Example </h4>
+<p>
+This code fragment sets the subject of a message: </p>
+<pre>Dim objMessage As Message ' assume valid message 
+objMessage.Subject = &quot;Test message&quot; 
+ </pre>
+<h4>See Also </h4>
+<p>
+<a href="amsm96jj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm96jj.htm"><b>Text</b> Property (Message Object)</a> </p>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

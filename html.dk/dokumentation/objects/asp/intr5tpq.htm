@@ -1,0 +1,66 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Abandon</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_abandon"></a>Abandon</h2>
+<p>
+The <b>Abandon</b> method destroys all the objects stored in a <b>Session</b> object and releases their resources. If you do not call the <b>Abandon</b> method explicitly, the server destroys these objects when the session times out.</p>
+<h4>Syntax</h4>
+<pre><b>Session.Abandon
+ </b></pre>
+<h4>Remarks</h4>
+<p>
+When the <b>Abandon</b> method is called, the current <b>Session</b> object is queued for deletion, but is not actually deleted until all of the script commands on the current page have been processed. This means that you can access variables stored in the <b>Session </b>object on the same page as the call to <b>Abandon</b>, but not in any subsequent Web pages.</p>
+<p>
+For example, in the following script, the third line prints the value <code>Mary</code>. This is because the <b>Session</b> object is not destroyed until the server has finished processing the script. </p>
+<pre>&lt;%
+Session.Abandon 
+Session(&quot;MyName&quot;) = &quot;Mary&quot;
+Reponse.Write(Session(&quot;MyName&quot;))
+%&gt;
+ </pre>
+<p>
+If you access the variable <code>MyName</code> on a subsequent Web page, it is empty. This is because <code>MyName</code> was destroyed with previous <b>Session</b> object when the page containing the above example finished processing. </p>
+<p>
+The server creates a new <b>Session</b> object when you open a subsequent Web page after abandoning a session. You can store variables and objects in this new <b>Session</b> object. </p>
+<h4>Examples</h4>
+<p>
+The following example causes the session state to be released when the server finishes processing the current page.</p>
+<pre>&lt;% Session.Abandon %&gt;
+ </pre>
+<h4>Applies To</h4>
+<p>
+<a href="intr12d0.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr12d0.htm"><b>Session Object</b></a> </p>
+<h4>See Also</h4>
+<p>
+<a href="intr04vo.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr04vo.htm"><b>Timeout</b></a> </p>
+<p>
+ </p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

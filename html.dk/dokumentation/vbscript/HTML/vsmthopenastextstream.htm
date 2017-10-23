@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>OpenAsTextStream Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthopenastextstream"></A>OpenAsTextStream Method</H1>
+
+<P>Opens a specified file and returns a <B>TextStream</B> object that can be used to read from, write to, or append to the file.</P>
+
+<P><CODE><I>object</I><B>.OpenAsTextStream(</B>[<I>iomode</I>, [<I>format</I>]]<B>)</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>File</B> object.</P>
+
+<P class=dt><I>iomode</I></P>
+
+<P class=indent>Optional. Indicates input/output mode. Can be one of three constants: <B>ForReading</B>, <B>ForWriting</B>, or <B>ForAppending</B>.</P>
+
+<P><I>format</I></P>
+
+<P class=indent>Optional. One of three <B>Tristate</B> values used to indicate the format of the opened file. If omitted, the file is opened as ASCII. </P>
+
+<H4>Settings</H4>
+
+<P>The <I>iomode</I> argument can have any of the following settings:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=27%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=62%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>ForReading</TD>
+<TD width=11%>1</TD>
+<TD width=62%>Open a file for reading only. You can't write to this file.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>ForWriting</TD>
+<TD width=11%>2</TD>
+<TD width=62%>Open a file for writing. If a file with the same name exists, its previous contents are overwritten.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>ForAppending</TD>
+<TD width=11%>8</TD>
+<TD width=62%>Open a file and write to the end of the file.</TD>
+</TR>
+</TABLE><BR>
+
+<P>The <I>format</I> argument can have any of the following settings:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=27%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=62%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>TristateUseDefault</TD>
+<TD width=11%>-2</TD>
+<TD width=62%>Opens the file using the system default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>TristateTrue</TD>
+<TD width=11%>-1</TD>
+<TD width=62%>Opens the file as Unicode.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>TristateFalse</TD>
+<TD width=11%> 0</TD>
+<TD width=62%>Opens the file as ASCII.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The <B>OpenAsTextStream</B> method provides the same functionality as the <B>OpenTextFile</B> method of the <B>FileSystemObject</B>. In addition, the <B>OpenAsTextStream</B> method can be used to write to a file. </P>
+
+<P>The following code illustrates the use of the <B>OpenAsTextStream</B> method: </P>
+
+<PRE><CODE>Function TextStreamTest
+&nbsp;&nbsp;&nbsp;Const ForReading = 1, ForWriting = 2, ForAppending = 8
+&nbsp;&nbsp;&nbsp;Const TristateUseDefault = -2, TristateTrue = -1, TristateFalse = 0
+&nbsp;&nbsp;&nbsp;Dim fso, f, ts
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;fso.CreateTextFile "test1.txt"&nbsp;&nbsp;&nbsp;' Create a file.
+&nbsp;&nbsp;&nbsp;Set f = fso.GetFile("test1.txt")
+&nbsp;&nbsp;&nbsp;Set ts = <span class=cfe><B>f.OpenAsTextStream(</B></span>ForWriting<span class=cfe><B>,</B></span> TristateUseDefault<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;ts.Write "Hello World"
+&nbsp;&nbsp;&nbsp;ts.Close
+&nbsp;&nbsp;&nbsp;Set ts = <span class=cfe><B>f.OpenAsTextStream(</B></span>ForReading<span class=cfe><B>,</B></span> TristateUseDefault<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;TextStreamTest = ts.ReadLine
+&nbsp;&nbsp;&nbsp;ts.Close
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopy.htm">Copy Method</A> | <A HREF="vsmthcreatetextfile.htm">CreateTextFile Method</A> | <A HREF="vsmthdelete.htm">Delete Method</A> | <A HREF="vsmthmove.htm">Move Method</A> | <A HREF="vsmthopentextfile.htm">OpenTextFile Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfile.htm">File Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Keys Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthkeys"></A>Keys Method</H1>
+
+<P>Returns an array containing all existing keys in a <B>Dictionary</B> object.</P>
+
+<P><CODE><I>object</I><B>.Keys</B> </CODE></P>
+
+<P>The <I>object</I> is always the name of a <B>Dictionary</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates use of the <B>Keys</B> method: </P>
+
+<PRE><CODE>Function DicDemo
+&nbsp;&nbsp;&nbsp;Dim a, d, i&nbsp;&nbsp;&nbsp;' Create some variables.
+&nbsp;&nbsp;&nbsp;Set d = CreateObject("Scripting.Dictionary")
+&nbsp;&nbsp;&nbsp;d.Add "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some keys and items.
+&nbsp;&nbsp;&nbsp;d.Add "b", "Belgrade"
+&nbsp;&nbsp;&nbsp;d.Add "c", "Cairo"
+&nbsp;&nbsp;&nbsp;a = d<span class=cfe><B>.Keys</B></span>&nbsp;&nbsp;&nbsp;' Get the keys.
+&nbsp;&nbsp;&nbsp;For i = 0 To d.Count -1 ' Iterate the array.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; a(i) &amp; "&lt;BR&gt;" ' Return results.
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;DicDemo = s
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthadd.htm">Add Method (Dictionary)</A> | <A HREF="vsmthexists.htm">Exists Method</A> | <A HREF="vsmthitems.htm">Items Method</A> | <A HREF="vsmthremove.htm">Remove Method</A> | <A HREF="vsmthremoveall.htm">RemoveAll Method</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

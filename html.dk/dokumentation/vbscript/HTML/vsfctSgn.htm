@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Sgn Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctsgn"></A>Sgn Function</H1>
+
+<P>Returns an integer indicating the sign of a number.</P>
+
+<P><CODE><B>Sgn(</B>number<B>)</B></CODE></P>
+
+<P>The <I>number</I> argument can be any valid <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expression</A>.</P>
+
+<H4>Return Values</H4>
+
+<P>The <B>Sgn</B> function has the following return values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=50%>If number is</TH>
+<TH width=50%>Sgn returns</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>Greater than zero</TD>
+<TD width=50%> 1</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>Equal to zero</TD>
+<TD width=50%> 0</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>Less than zero</TD>
+<TD width=50%>-1</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The sign of the <I>number</I> argument determines the return value of the <B>Sgn</B> function.</P>
+
+<P>The following example uses the <B>Sgn</B> function to determine the sign of a number: </P>
+
+<PRE><CODE>Dim MyVar1, MyVar2, MyVar3, MySign
+MyVar1 = 12: MyVar2 = -2.4: MyVar3 = 0
+MySign = <span class=cfe><B>Sgn(</B></span>MyVar1<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 1.
+MySign = <span class=cfe><B>Sgn(</B></span>MyVar2<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns -1.
+MySign = <span class=cfe><B>Sgn(</B></span>MyVar3<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 0.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctabs.htm">Abs Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

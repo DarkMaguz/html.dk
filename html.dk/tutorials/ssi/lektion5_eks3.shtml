@@ -1,0 +1,90 @@
+<html>
+<title>Lokal tid</title>
+<head>
+</head>
+<body>
+<center></center>
+<hr>
+<h1>SSI environment variables</h1>
+<p>Bemærk at der kan være forskel på resultatet fra servertype til servertype.</p>
+<dl>
+
+
+<dt>&lt;!--#echo var="HTTP_ACCEPT"--&gt;</dt>
+<dd>Returnerer: <strong><B>Variable 'HTTP_ACCEPT' cannot be found</B><BR>
+</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="HTTP_ACCEPT_LANGUAGE"--&gt;</dt>
+<dd>Returnerer: <strong><B>Variable 'HTTP_ACCEPT_LANGUAGE' cannot be found</B><BR>
+</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="HTTP_HOST"--&gt;</dt>
+<dd>Returnerer: <strong>www.html.dk</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="HTTP_REFERER"--&gt;</dt>
+<dd>Returnerer: <strong>http://www.html.dk/tutorials/ssi/lektion5.asp</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="HTTP_USER_AGENT"--&gt;</dt>
+<dd>Returnerer: <strong>Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="HTTP_REFERER"--&gt;</dt>
+<dd>Returnerer: <strong>http://www.html.dk/tutorials/ssi/lektion5.asp</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="PATH"--&gt;</dt>
+<dd>Returnerer: <strong><B>Variable 'PATH' cannot be found</B><BR>
+</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="PATH_INFO"--&gt;</dt>
+<dd>Returnerer: <strong>/tutorials/ssi/lektion5_eks3.shtml</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="REMOTE_HOST"--&gt;</dt>
+<dd>Returnerer: <strong>207.241.228.173</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="REMOTE_ADDR"--&gt;</dt>
+<dd>Returnerer: <strong>207.241.228.173</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="REMOTE_PORT"--&gt;</dt>
+<dd>Returnerer: <strong>57406</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_ADDR"--&gt;</dt>
+<dd>Returnerer: <strong><B>Variable 'SERVER_ADDR' cannot be found</B><BR>
+</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_ADMIN"--&gt;</dt>
+<dd>Returnerer: <strong><B>Variable 'SERVER_ADMIN' cannot be found</B><BR>
+</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_NAME"--&gt;</dt>
+<dd>Returnerer: <strong>www.html.dk</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_ADMIN"--&gt;</dt>
+<dd>Returnerer: <strong><B>Variable 'SERVER_ADMIN' cannot be found</B><BR>
+</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_PORT"--&gt;</dt>
+<dd>Returnerer: <strong>80</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_SOFTWARE"--&gt;</dt>
+<dd>Returnerer: <strong>Microsoft-IIS/6.0</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_PROTOCOL"--&gt;</dt>
+<dd>Returnerer: <strong>HTTP/1.0</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="REQUEST_METHOD"--&gt;</dt>
+<dd>Returnerer: <strong>GET</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SERVER_PROTOCOL"--&gt;</dt>
+<dd>Returnerer: <strong>HTTP/1.0</strong><br><br></dd>
+
+<dt>&lt;!--#echo var="QUERY_STRING"--&gt;</dt>
+<dd>Returnerer: <strong></strong><br><br></dd>
+
+<dt>&lt;!--#echo var="SCRIPT_NAME"--&gt;</dt>
+<dd>Returnerer: <strong>/tutorials/ssi/lektion5_eks3.shtml</strong><br><br></dd>
+
+</dl>
+<hr>
+
+</body>
+</html>
+

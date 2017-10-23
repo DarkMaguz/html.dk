@@ -1,0 +1,45 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Body Property (CDONTS NewMail Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_body_property_cdonts_newmail_object_"></a>Body Property (CDONTS NewMail Object)  <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Body</b> property sets the text of the NewMail object. Write-only. </p>
+<h4>Syntax </h4>
+<pre><i>objNewMail</i>.<b>Body 
+ </b></pre>
+<h4>Data Type </h4>
+<p>
+Object (<b>IStream</b>) or String </p>
+<h4>Remarks </h4>
+<p>
+The <b>Body</b> property can contain either plain text or HTML. The <a href="amsm52an.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm52an.htm"><b>BodyFormat</b></a> property should be set to indicate whether or not the <b>Body</b> property includes any HTML. </p>
+<p>
+Only C/C++ and Java programs can use an <b>IStream</b> object for this property. They should pass an <b>IUnknown</b> object that returns an <b>IStream</b> interface in response to <b>QueryInterface</b>. Microsoft® Visual Basic® supports the <b>IDispatch</b> interface and not <b>IUnknown</b>, so it cannot use an <b>IStream</b> object. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

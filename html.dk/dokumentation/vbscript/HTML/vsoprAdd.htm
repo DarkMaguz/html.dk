@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Addition Operator (+)</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsopradd"></A>Addition Operator (+)</H1>
+
+<P>Sums two numbers.</P>
+
+<P><CODE>result <B>=</B> expression1 <B>+</B> expression2</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>result</I></P>
+
+<P class=indent>Any numeric variable.</P>
+
+<P class=dt><I>expression1</I></P>
+
+<P class=indent>Any <A HREF="vtglossary.htm#defexpressionvbs">expression</A>.</P>
+
+<P class=dt><I>expression2</I></P>
+
+<P class=indent>Any expression.</P>
+
+<H4>Remarks</H4>
+
+<P>Although you can also use the <B>+</B> operator to concatenate two character strings, you should use the <B>&amp;</B> operator for concatenation to eliminate ambiguity and provide self-documenting code.</P>
+
+<P>When you use the <B>+</B> operator, you may not be able to determine whether addition or string concatenation will occur. </P>
+
+<P>The underlying subtype of the expressions determines the behavior of the <B>+</B> operator in the following way:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=62%>If </TH>
+<TH width=38%>Then</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=62%>Both expressions are numeric</TD>
+<TD width=38%>Add.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=62%>Both expressions are strings</TD>
+<TD width=38%>Concatenate.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=62%>One expression is numeric and the other is a string</TD>
+<TD width=38%>Add.</TD>
+</TR>
+</TABLE><BR>
+
+<P>If one or both expressions are <A HREF="vtglossary.htm#defnullvbs">Null</A> expressions, <I>result</I> is <B>Null</B>. If both expressions are <A HREF="vtglossary.htm#defemptyvbs">Empty</A>, <I>result</I> is an <B>Integer</B> subtype. However, if only one expression is <B>Empty</B>, the other expression is returned unchanged as <I>result</I>. </P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsoprconcatenation.htm">&amp; Operator</A> | <A HREF="vsoprsubtract.htm">- Operator</A> | <A HREF="vsidxarithmetic.htm">Arithmetic Operators</A> | <A HREF="vsidxconcatenation.htm">Concatenation Operators</A> | <A HREF="vsgrpoperatorprecedence.htm">Operator Precedence</A> | <A HREF="vsgrpoperatorsummary.htm">Operator Summary</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

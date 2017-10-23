@@ -1,0 +1,774 @@
+/* ------------------------------------------------------------- */
+/* CSS til www.html.dk - version 2.1            				 */
+/* Sidst redigeret 18. juli 2007 af Joachim		            	 */
+/* ------------------------------------------------------------- */
+
+/* ------------------------------------------------------------- */
+/* Body								                             */
+/* ------------------------------------------------------------- */
+
+body	
+	{
+	font-size:.8em;
+	font-family:verdana, arial, sans-serif;
+	color:#000; 
+	background: #fff url("/site/graphics/backgrounds/body3.png") repeat-x 0px 0px; 
+	margin:190px 5px 0px 170px; 
+	padding:0px 0px 0px 0px;
+	line-height: 1.58em;
+/*	height:100%;*/
+}
+
+.accessibility {
+   	position: absolute;
+   	top: -999em;
+   	left: -999em;
+}
+
+/* ------------------------------------------------------------- */
+/* Søgefelt                                                      */
+/* ------------------------------------------------------------- */
+
+#searchbox {
+	position: absolute;
+	top: 2px;
+	right: 5px;
+	width:400px;
+	text-align: right;
+	line-height: 1em;
+}
+
+/* ------------------------------------------------------------- */
+/* Brødkrummesti                                                 */
+/* ------------------------------------------------------------- */
+
+#breadcrumb {
+	background:#000;
+	position:absolute;
+	top:49px;
+	left:5px;
+	overflow:hidden;
+	height:19px;
+}
+
+/* ------------------------------------------------------------- */
+/* Venstre kolonne (col_2)                                       */
+/* ------------------------------------------------------------- */
+
+
+#col_2 {
+	width:150px;
+	position: absolute;
+	top: 190px;
+	left: 5px;
+}
+
+ul.navigation {margin:0;padding:0;list-style-type:none;}
+ul.navigation li {display:inline;}
+ul.navigation li a, ul.navigation li a:active, ul.navigation li a:visited {
+    display:block;color:#000;width:140px;padding:1px 0 1px 25px;background:url("/site/graphics/icons/icon.square.arrow.black.png") no-repeat 5px 2px;text-decoration:none;
+}
+ul.navigation li a:hover {
+    display:block;color:#fff;width:140px;padding:1px 0 1px 25px;background:#FFA500 url("/site/graphics/icons/icon.square.arrow.black.png") no-repeat 5px 2px;;
+}
+
+#leftmenu
+	{
+	width:150px;
+	}
+
+.menuitem
+	{
+	padding:0px 0px 0px 0px;
+	margin:2px 2px 5px 4px;
+	line-height: 1em;
+	}
+.firstmenuitem
+	{
+	padding:0px 0px 0px 0px;
+	margin:2px 2px 5px 4px;
+	line-height: 1em;
+	}
+.sponsor
+	{
+	width:145px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+#chartbox
+	{
+	padding: 100px 0px 0px 0px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+.leftboxheader
+	{
+	width:150px;
+	background: #006699 url(/site/graphics/misc/bg.leftboxheader.png) repeat;
+	text-align:left;
+	padding:0px 0px 0px 0px;
+	font-family:verdana;
+	font-weight:bold;
+	color:white;
+	}
+.leftboxbody
+	{
+	width:150px;
+	background:#F1F1F1;
+	padding:5px 0px 5px 0px;
+	}
+
+.boxtext {line-height: 1.1em;}
+
+
+/* ------------------------------------------------------------- */
+/* Indholdsboks og skyscraper					 */
+/* ------------------------------------------------------------- */
+
+#bodybx
+	{
+	padding-left:10px;
+	background: rgb(255,255,255);
+	border-left: 1px solid #CCCCCC;
+	padding-right: 165px;
+	}
+#skyscraper
+	{
+	position:absolute;
+	top:190px;
+	right:10px;
+	float:right;
+	width:140px;
+	}
+
+#bannertextlinkcontainer {
+width:100%;
+background-color:#f0f0f0;
+text-align:center;
+border:1px solid gray;
+}
+
+#bannertextlink {
+text-align:left;
+font-size:9px;
+font-size-adjust:none;
+line-height:1.5em;
+width:250px;
+}
+
+ul.linklistHorizontal {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    overflow:auto;  /*clearing float*/
+    height:1%       /*also IE6 */
+}
+ul.linklistHorizontal li {
+    float:left;
+    display:inline;
+}
+ul.linklistHorizontal li a {
+    display:block;
+    padding:0 0 0 20px;
+    margin:0 10px 0 0;
+    background:url("/site/graphics/icons/icon.square.arrow.black.png") no-repeat 0 2px;
+}
+ul.linklistHorizontal li a:visited, ul.linklistHorizontal li a:hover, ul.linklistHorizontal li a:active {
+    background:url("/site/graphics/icons/icon.square.arrow.black.png") no-repeat 0 2px; /* Make IE6 play ball */
+}
+
+/* ------------------------------------------------------------- */
+/* Forside							 */
+/* ------------------------------------------------------------- */
+
+
+#coverleft
+	{
+	width:180px;
+	float:right;
+	border-left:1px #C6C6C6 solid;
+	margin-top:45px;
+	padding-left:5px;
+	}
+
+.coverboxheader
+	{
+	width:170px;
+	background: #C0C0C0 url(/site/graphics/test_temp/bg_menu1.png) repeat;
+	text-align:left;
+	padding: 0px;
+	color:white;
+	}
+
+.coverboxbody
+	{
+	width:170px;
+	background:#F2F2F2;
+	padding-top:5px;
+	padding-bottom:5px;
+	}
+
+
+
+
+
+
+
+
+
+.navibox
+	{
+	color:rgb(255,255,255);
+	text-decoration:none;
+	}
+
+.menulink
+	{
+	color:rgb(0,0,0);
+	}
+
+
+/* ------------------------------------------------------------- */
+/*		Jobsektion				 */
+/* ------------------------------------------------------------- */
+
+
+table {border-collapse: collapse;}
+td {padding:2px;margin:0px;}
+
+/* ------------------------------------------------------------- */
+/*		Nyhedsgrupper					 */
+/* ------------------------------------------------------------- */
+
+
+.newsbox {color : rgb(0,0,0); background : #c0c0c0; margin : 0; padding : 2px; border-width : 1px; border-style : solid; border-color : rgb(0,0,0); height:20px;}
+small.newslist {color:#666666;font-weight:normal;}
+ul.messageheaderlist {margin-left:0px;margin-top:10px;padding-top:5px;padding-bottom:5px;list-style:none;border-bottom: 1px solid #005A9C;}
+li.newslist {list-style-image: url(/site/graphics/icons/icon_new2.gif);padding-left:7px;margin-bottom:15px;font-weight:900;}
+li.relist {list-style-image: url(/site/graphics/icons/line3.gif);padding-left:2px;margin-top:2px;font-weight:normal;}
+span.citat {color: #808080;padding-left:1em;}
+span.citat a { color: #808080 }
+span.normal { color: black }
+
+table.searchresults {width:100%;margin-top:1em;}
+th.searchresults {font-size:90%;height:20px;background : #c0c0c0;}
+td.searchresults {font-size:90%;}
+table.toolbar {margin-top:1em;background : #eeeeee;}
+td.toolbar {font-size:90%;background : #eeeeee;}
+li.searchresults {margin-left:0px;margin-bottom:10px;list-style:none;}
+ul.searchresults {margin-left:0px;margin-bottom:10px;list-style:none;}
+
+.alertbox {background:yellow;border:1px solid black;padding:5px;}
+/* ------------------------------------------------------------- */
+/*		Debatforum					 */
+/* ------------------------------------------------------------- */
+
+.forumnavigation {color : rgb(0,0,0); background : #FFC85F; margin : 0; padding : 2px; border-width : 1px; border-style : solid; border-color : rgb(0,0,0); height:20px;}
+.dimlink {
+	color:#c0c0c0;
+}
+
+ul.messagelist {margin-left:20px;}
+ul.threadlist {margin-left:15px;}
+li.message {list-style-image: url(/site/graphics/icons/icon_new2.gif);padding-left:7px;margin-bottom:15px;}
+li.thread {list-style-image: url(/site/graphics/icons/line3.gif);padding-left:0px;}
+
+
+
+/* Skjul for Netscape 4 */
+
+@media screen {
+	ul.newslist {margin-left:15px;}
+	ul.relist {margin-left:15px;}         
+	.messageheader {width:130px;}
+}
+
+
+@media screen {
+.newsletterbutton {width:65px;}
+#newsletterinput {width:136px;}
+
+
+}
+
+/* Kommentar: Lettere at designe hvis alle formularfelter ikke har margin og padding */
+
+form 
+	{
+	margin  : 0px 0px 0px 0px; 
+	padding : 0px 0px 0px 0px;
+	}
+
+.codebox
+	{
+	background : #F2F2F2;
+	padding : 10px;
+	width : 97%;
+	border : 1px solid white;
+	color:#800000;
+	font-family:monospace;
+	font-size: 1.1em;
+	}
+pre
+	{
+	font-family: monospace;
+	}
+.codemarkup {background:#FFFF40;font-style:normal}
+.codemarkup2 {background:#33FF00;font-style:normal}
+.codemarkup3 {background:#FF0000;font-style:normal}
+.codemarkup4 {background:#0000FF;font-style:normal}
+
+
+a:visited {color:#000040; background : transparent;}
+a:link {color:#0000FF; background : transparent;}
+a:hover {color : #FF0000; background : transparent;}
+a:active {color: #FF0000; background : transparent;}
+
+/*
+a.menulink:visited {color:#0000FF; background : transparent;}
+a.menulink:link {color:#0000FF; background : transparent;}
+a.menulink:hover {color : #FF0000; background : transparent;}
+a.menulink:active {color : #FF0000; background : transparent;}
+*/
+
+a.navibox:visited {color : white; background : transparent; text-decoration : none;}
+a.navibox:link {color : white; background : transparent; text-decoration : none;}
+a.navibox:hover {color : #FF9900; background : transparent;  text-decoration : none;}
+a.navibox:active {color : white; background : transparent; text-decoration : none;}
+
+
+h1	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	2em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h2	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1.75em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h3	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1.45em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h4	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1.33em;
+	font-weight:	600;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h5	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1.17em;
+	font-weight:	600;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h6	{	
+	font-family:	Tahoma, Verdana, Myriad Web, Syntax, sans-serif;
+	font-size-adjust:	.53;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+h1, h2, h3, h4, h5, h6, dt, th, thead, tfoot	{	
+	color:	#036;
+	background:	white;
+	}	
+		
+
+
+h1, h2, h3, h4, h5, h6	{	
+	line-height:	1.33em;
+	}	
+		
+h1	{	
+	margin-top:	1.33em;
+	margin-bottom:	.33em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+		
+h2	{	
+	margin-top:	1.75em;
+	margin-bottom:	.33em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+		
+h3	{	
+	margin-top:	1.58em;
+	margin-bottom:	.33em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+		
+h4	{	
+	margin-top:	1.33em;
+	margin-bottom:	.33em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+		
+h5	{	
+	margin-top:	1.17em;
+	margin-bottom:	.33em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+		
+h6	{	
+	margin-top:	1em;
+	margin-bottom:	.33em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+		
+P	{	
+	margin-top:	.75em;
+	margin-bottom:	.75em;
+	padding-top:	0;
+	padding-bottom:	0;
+	border-top:	0;
+	border-bottom:	0;
+	}	
+
+p.manchet {
+	background:#D6EAF7;
+	padding:1em;
+}
+
+dt {font-weight:bold;}
+
+hr {color:#cecece;height:1px;}
+
+table.searchresults {margin-top:1em;}
+th.searchresults {font-size:.8em;height:20px;}
+td.searchresults {font-size:.8em;}
+
+table.ts1 {border:0px;table-layout:fixed;margin-top:2em}
+/*caption.ts1 {font-weight:bold;text-align:left;font-size:0.9em;}*/
+caption.ts1 {font-weight:bold;text-align:left;}
+/*th.ts1 {background:#003163;color:#ffffff;padding:3px;border:0px;font-size: .8em;vertical-align:top;}*/
+th.ts1 {background:#003163;color:#ffffff;padding:3px;border:0px;vertical-align:top;}
+/*td.ts1td1 {background:#dddddd;border:0px;padding:3px;font-size: .8em;vertical-align:top;}*/
+td.ts1td1 {background:#dddddd;border:0px;padding:3px;vertical-align:top;}
+/*td.ts1td2 {background:#F2F2F2;border:0px;padding:3px;font-size: .8em;vertical-align:top; }*/
+td.ts1td2 {background:#F2F2F2;border:0px;padding:3px;vertical-align:top; }
+
+table.ma {}
+/*th.ma{background:#295A8F;color:#8FC6FF;font-size:0.8em;padding-left:3px;padding-right:3px;}*/
+th.ma{background:#295A8F;color:#ffffff;padding-left:3px;padding-right:3px;}
+/*td.ma1 {background:#f0f0f0;font-size:0.8em;padding-left:3px;padding-right:3px;}*/
+td.ma1 {background:#f0f0f0;padding-left:3px;padding-right:3px;}
+/*td.ma2 {background:#e0e0e0;font-size:0.8em;padding-left:3px;padding-right:3px;}*/
+td.ma2 {background:#e0e0e0;padding-left:3px;padding-right:3px;}
+
+
+.code-html
+	{
+	color:#800000;
+	}
+.code-asp
+	{
+	color:#000066;
+	}
+.code-comments
+	{
+	color:#006600;
+	}
+
+.code-html
+	{
+	color:#800000;
+	}
+.code-asp
+	{
+	color:#000066;
+	}
+.code-comments
+	{
+	color:#006600;
+	}
+.code-ssi
+	{
+	color:#663366;
+	}
+.code-css
+	{
+	color:#339933;
+	}
+.code-ecmascript
+	{
+	color:#000000;
+	}
+.new
+    {
+    background:rgb(156,199,41);
+    color:rgb(7,131,63);
+    border-top: solid 1px rgb(0,255,64);
+    border-right: ridge 3px rgb(0,255,64);
+    border-bottom: solid 1px rgb(255,255,0);
+    border-left: solid 2px rgb(255,255,0);
+    font-family:verdana;
+    font-weight:bold;
+    font-size:0.8em;
+    padding:2px;
+    }
+a img {border:none;}
+
+td {vertical-align:top;}
+
+#newsletterbox {width:150px;padding-top:0px;text-align:left;margin-left:4px;}
+
+#pollbox
+	{
+	line-height:1em;
+	width:150px;
+	text-align:left;
+	margin: 18px 0px 18px 4px;
+/*	padding: 3px 3px 3px 3px;*/
+	border: 1px solid #CCCCCC;
+	}
+
+#pollboxcontent {
+	padding: 3px 3px 3px 3px;
+}
+
+.pollheader
+	{
+	line-height:1em;
+	font-weight:bold;
+	margin:0px;
+	padding: 0px 0px 5px 0px;
+	}
+
+#communitybox {width:150px;text-align:left;margin-left:4px;}
+
+/* ------------------------------------------------------------- */
+/*		RSS-feeds                                                */
+/* ------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------- */
+/*		Dotted underline titles til span                         */
+/* ------------------------------------------------------------- */
+
+span.help {
+  border-bottom: 1px dotted #333;
+  cursor: help;
+  }
+
+.notebox {
+	background-color: #f2f5fc;
+	padding-bottom:1em;
+	border:1px #cce solid;
+	margin-top:1em;
+}
+.notebox h2 {
+	background-color: #e3eaf9;
+	padding:0.25em 0.5em;
+	border-bottom:2px white solid;
+	margin-top:0;
+	font-size:1.4em;
+}
+.notebox p {
+	padding:0 1em;
+}
+
+/* ------------------------------------------------------------- */
+/*		Sponsorlinks                                             */
+/* ------------------------------------------------------------- */
+
+.addLinks {
+    width:160px;
+    overflow:hidden;
+    background:#F1F1F1;
+}
+.addLinks h1 {
+    background:#004E84;
+    color:#fff;
+    font-size:100%;
+    font-weight:bold;
+    padding:2px;
+    margin:0;
+}
+.addLinks ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.addLinks ul li {
+    font-size:75%;
+    display:inline;
+}
+.addLinks ul li a {
+    display:block;
+    padding:0 2px;
+}
+.addLinks ul li a:hover {
+    background:#C0C0C0;
+    color:#fff;
+}
+.addLinks p {
+    background:#004E84;
+    font-size:75%;
+    line-height:21px;
+    margin:0;
+}
+.addLinks p a:link, .addLinks p a:visited {
+    color:#fff;
+    font-weight:bold;
+    text-decoration:none;
+    padding:0 2px 0 16px;
+    display:block;
+    background:url("/site/graphics/icons/icon.arrow.sponsorlinks.gif") no-repeat 4px 7px;
+}
+.addLinks p a:hover {
+    background:#FFA500 url("/site/graphics/icons/icon.arrow.sponsorlinks.gif") no-repeat 4px 7px;;
+    text-decoration:underline;
+    
+}
+
+          
+	/* Version 2 */
+
+		.rightcolumnitem {
+		margin-top:15px;  
+		margin-bottom:15px;                                     
+		padding: 4px;                                     
+		border: 1px solid #E1E5E9;                                     
+		font-size: 0.8em; 
+		line-height: 1.2em;
+		}                                     
+											 
+		.rightcolumnitemcontent {                                     
+		margin-top:2px;   
+		padding:2px;
+		}                                     
+											 
+		.rightcolumnitemtop {                                     
+		color: #ffffff;                                     
+		padding:3px;  
+		}  
+		
+
+		.teaserbox {
+            overflow:hidden;
+            * height:1%;
+		}
+
+        .teaserbox.feeds {
+            width:100%;
+            margin-top:1em;
+        }
+        
+        .feedbox {
+            width:49%;
+        }
+        .feedboxHeader {
+            margin:0;
+            padding:3px;
+            border-top:1px solid #F2F5FC;
+            border-right:1px solid #F2F5FC;
+            border-left:1px solid #F2F5FC;
+        }
+        .feedboxHeader h2 {
+            margin:0;
+            padding:2px 5px;
+            /*background:#afc2cf;*/
+            background:#E3EAF9;
+            font-size:1em;
+            font-weight:bold;
+        }
+        .feedboxBody {
+            margin:0;
+            padding:0px 3px 3px 3px;
+            border-right:1px solid #F2F5FC;
+            border-bottom:1px solid #F2F5FC;
+            border-left:1px solid #F2F5FC;
+            font-size:0.8em;
+            line-height:1.4em;
+        }
+        .feedboxBody ul {
+            margin:0;
+            padding:5px 0;
+            list-style-type:none;
+            background:#F2F5FC;
+            width:100%;
+        }
+        .feedboxBody ul.feedlist {
+            min-height:120px;
+            /*IE Hack for min-height */
+        	height:auto !important;
+        	height:120px;
+            /* End hack */
+
+        }
+        .feedboxBody ul li {
+            display:inline;
+        }
+        .feedboxBody ul li a {
+            display:block;
+            padding:0 0 3px 5px;
+        }
+        .feedbox.leftfloat {
+            float:left;
+        }
+        .feedbox.rightfloat {
+            float:right;
+        }

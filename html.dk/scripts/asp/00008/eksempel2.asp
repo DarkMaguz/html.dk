@@ -1,0 +1,1 @@
+<p>Du spurgte efter mappen <em>intelligens</em> hos www.danskfolkeparti.dk</p><p>Og serveren svarede straks: <strong>HTTP/1.1 404 Not Found</strong></p>

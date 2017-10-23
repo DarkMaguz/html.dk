@@ -1,0 +1,47 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>About Server-Side Includes</title>
+
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Overview of server-side include functionality."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">	
+
+
+<h1><a name="H1_37751888">About Server-Side Includes</a></h1>
+
+<p>You use server-side include (SSI) directives to include text, graphics, or application information into an HTML page just before sending the HTML page to a user. SSI can be used to include, for example, a time/date stamp, a copyright notice, or a form for a customer to fill out and return.  Including a file is an easy way to incorporate text or graphics that is repeated in many files.  Rather than typing the information into every file, you use a simple statement that instructs the Web server to read in the file.</p>
+
+<p>Because a file containing SSI directives requires special processing, you must give any SSI files an SSI file name extension.  The default extensions are .stm, .shtm, and .shtml.  You can add additional extensions to the list recognized by the Web server; see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm">Setting Application Mappings</a>.</p>
+
+<p>The Web server processes SSI directives while it is processes the HTML page.   When it reaches an SSI directive, it inserts the contents of the included file directly into the HTML page.  If the included file in turn contains an SSI directive,  that file is also inserted.</p>
+
+<p>In addition to the basic directive used to include a file, you can use SSI directives to insert information about a file (such as its size) or to run an application or a shell command.</p>
+
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+</font>
+</body>
+</html>

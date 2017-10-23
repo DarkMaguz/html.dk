@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Replace Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthreplace"></A>Replace Method</H1>
+
+<P>Replaces text found in a regular expression search.</P>
+
+<P><CODE>object<B>.Replace(</B>string1, string2<B>)</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>RegExp</B> object.</P>
+
+<P class=dt><I>string1</I></P>
+
+<P class=indent>Required. <I>String1</I> is the text string in which the text replacement is to occur.</P>
+
+<P class=dt><I>string2</I></P>
+
+<P class=indent>Required. <I>String2</I> is the replacement text string.</P>
+
+<H4>Remarks</H4>
+
+<P>The actual pattern for the text being replaced is set using the <B>Pattern</B> property of the <B>RegExp</B> object. </P>
+
+<P>The <B>Replace</B> method returns a copy of <I>string1</I> with the text of<B> RegExp.Pattern</B> replaced with <I>string2</I>. If no match is found, a copy of <I>string1</I> is returned unchanged. </P>
+
+<P>The following code illustrates use of the <B>Replace</B> method. </P>
+
+<PRE><CODE>Function ReplaceTest(patrn, replStr)
+  Dim regEx, str1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Create variables.
+  str1 = "The quick brown fox jumped over the lazy dog."
+  Set regEx = New RegExp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Create regular expression.
+  regEx.Pattern = patrn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Set pattern.
+  regEx.IgnoreCase = True&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Make case insensitive.
+  ReplaceTest = regEx.Replace(str1, replStr)&nbsp;&nbsp;&nbsp;' Make replacement.
+End Function
+
+MsgBox(ReplaceTest("fox", "cat"))&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Replace 'fox' with 'cat'.</CODE></PRE>
+
+<P>In addition, the <B>Replace</B> method can replace subexpressions in the pattern. The following call to the function shown in the previous example swaps each pair of words in the original string: </P>
+
+<PRE><CODE>MsgBox(ReplaceText("(\S+)(\s+)(\S+)", "$3$2$1"))&nbsp;&nbsp;&nbsp;' Swap pairs of words.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthexecute.htm">Execute Method</A> | <A HREF="vsmthtest.htm">Test Method</A></P>
+
+<P>Applies To: <A HREF="vsobjregexp.htm">RegExp Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Initialize Event</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsevtinitialize"></A>Initialize Event</H1>
+
+<P>Occurs when an instance of the associated <A HREF="vtglossary.htm#defclassvbs">class</A> is created.</P>
+
+<P><CODE>Private Sub Class_Initialize()<BR>
+&nbsp;&nbsp;&nbsp;<I>statements</I><BR>
+End Sub</CODE></P>
+
+<P>The <I>statements</I> part consists of zero or more code statements to be run when the class is initlized.</P>
+
+<H4>Remarks</H4>
+
+<P>The following example illustrates the use of the <B>Initialize</B> event. </P>
+
+<PRE><CODE>Class TestClass
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>Private Sub Class_Initialize</B></span>&nbsp;&nbsp;&nbsp;' Setup Initialize event.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MsgBox("TestClass started")
+&nbsp;&nbsp;&nbsp;End Sub
+&nbsp;&nbsp;&nbsp;Private Sub Class_Terminate&nbsp;&nbsp;&nbsp;' Setup Terminate event.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MsgBox("TestClass terminated")
+&nbsp;&nbsp;&nbsp;End Sub
+End Class
+
+Set X = New TestClass&nbsp;&nbsp;&nbsp;' Create an instance of TestClass.
+Set X = Nothing&nbsp;&nbsp;&nbsp;' Destroy the instance.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjclass.htm">Class Object</A> | <A HREF="vsstmclass.htm">Class Statement</A> | <A HREF="vsevtterminate.htm">Terminate Event</A></P>
+
+<P>Applies To: <A HREF="vsobjclass.htm">Class Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

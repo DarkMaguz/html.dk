@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Name Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsproname"></A>Name Property</H1>
+
+<P>Sets or returns the name of a specified file or folder. Read/write.</P>
+
+<P><CODE>object.<B>Name</B> [= newname] </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>File</B> or <B>Folder</B> object.</P>
+
+<P class=dt><I>newname</I></P>
+
+<P class=indent>Optional. If provided, <I>newname</I> is the new name of the specified <I>object</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates the use of the <B>Name</B> property: </P>
+
+<PRE><CODE>Function ShowFileAccessInfo(filespec)
+&nbsp;&nbsp;&nbsp;Dim fso, f, s
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.GetFile(filespec)
+&nbsp;&nbsp;&nbsp;s = <span class=cfe><B>f.Name</B></span> &amp; " on Drive " &amp; UCase(f.Drive) &amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Created: " &amp; f.DateCreated &amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Last Accessed: " &amp; f.DateLastAccessed &amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Last Modified: " &amp; f.DateLastModified&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;ShowFileAccessInfo = s
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsproattributes.htm">Attributes Property</A> | <A HREF="vsprodatecreated.htm">DateCreated Property</A> | <A HREF="vsprodatelastaccessed.htm">DateLastAccessed Property</A> | <A HREF="vsprodatelastmodified.htm">DateLastModified Property</A> | <A HREF="vsprodrive.htm">Drive Property</A> | <A HREF="vsprofiles.htm">Files Property</A> | <A HREF="vsproisrootfolder.htm">IsRootFolder Property</A> | <A HREF="vsproparentfolder.htm">ParentFolder Property</A> | <A HREF="vspropath.htm">Path Property</A> | <A HREF="vsproshortname.htm">ShortName Property</A> | <A HREF="vsproshortpath.htm">ShortPath Property</A> | <A HREF="vsprosize.htm">Size Property</A> | <A HREF="vsprosubfolders.htm">SubFolders Property</A> | <A HREF="vsprotype.htm">Type Property</A></P>
+
+<P>Applies To: <A HREF="vsobjfile.htm">File Object</A> | <A HREF="vsobjfolder.htm">Folder Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

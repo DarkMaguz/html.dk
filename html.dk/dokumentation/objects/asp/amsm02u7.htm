@@ -1,0 +1,54 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Name Property (CDONTS Recipient Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_name_property_cdonts_recipient_object_"></a>Name Property (CDONTS Recipient Object)  <a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Name</b> property returns or sets the name of the Recipient object as a string. Read/write (read-only for a recipient on a message in the Inbox). </p>
+<h4>Syntax </h4>
+<pre><i>objRecip</i>.<b>Name</b> 
+ </pre>
+<p>
+The <b>Name</b> property is the default property of a Recipient object, meaning that <i>objRecip</i> is syntactically equivalent to <i>objRecip</i>.<b>Name</b> in Microsoft® Visual Basic® code. </p>
+<h4>Data Type </h4>
+<p>
+String </p>
+<h4>Remarks </h4>
+<p>
+The <b>Name</b> property returns an empty string if it has never been set or cannot be found. </p>
+<h4>Example </h4>
+<pre>Dim strMsg As String 
+' ... validate objects ... then display 
+    strMsg = &quot;Recipient address = &quot; &amp; objRecip.Address 
+    strMsg = strMsg &amp; &quot;; Recipient name = &quot; &amp; objRecip.Name 
+    MsgBox strMsg ' display recipient parts 
+ </pre>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

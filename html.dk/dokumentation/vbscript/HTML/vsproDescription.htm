@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Description Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprodescription"></A>Description Property</H1>
+
+<P>Returns or sets a descriptive string associated with an error.</P>
+
+<P><CODE>object<B>.Description </B>[<B>= </B>stringexpression]</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Always the <B>Err</B> object.</P>
+
+<P class=dt><I>stringexpression</I></P>
+
+<P class=indent>A <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> containing a description of the error.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>Description</B> property consists of a short description of the error. Use this property to alert the user to an error that you can't or don't want to handle. When generating a user-defined error, assign a short description of your error to this property. If <B>Description</B> isn't filled in, and the value of <B>Number</B> corresponds to a VBScript <A HREF="vtglossary.htm#defruntimeerrorvbs">run-time error</A>, the descriptive string associated with the error is returned. </P>
+
+<PRE><CODE>On Error Resume Next
+Err.Raise 6&nbsp;&nbsp;&nbsp;' Raise an overflow error.
+MsgBox ("Error # " &amp; CStr(Err.Number) &amp; " " &amp; <span class=cfe><B>Err.Description</B></span>)
+Err.Clear&nbsp;&nbsp;&nbsp;' Clear the error.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjerr.htm">Err Object</A> | <A HREF="vsprohelpcontext.htm">HelpContext Property</A> | <A HREF="vsprohelpfile.htm">HelpFile Property</A> | <A HREF="vspronumber.htm">Number Property</A> | <A HREF="vsprosource.htm">Source Property</A></P>
+
+<P>Applies To: <A HREF="vsobjerr.htm">Err Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

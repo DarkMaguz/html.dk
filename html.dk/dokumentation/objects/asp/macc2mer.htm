@@ -1,0 +1,53 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>PluginExists</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_pluginexists"></a>PluginExists</h1>
+<p>
+The <b>PluginExists </b>method checks whether the specified Macintosh server plug-in exists. It returns -1 if the specified Macintosh server plug-in name is currently registered. It returns 0 if the plug-in is not registered. </p>
+<h2>Syntax</h2>
+<pre><b>Tools.PluginExists</b>(<i>PluginName</i>)
+ </pre>
+<h2>Parameters</h2>
+<dl>
+<dt>
+<i>PluginName </i></dt>
+<dd>
+A string that specifies the name of the server plug-in.</dd>
+</dl>
+<h2>Remarks</h2>
+<p>
+Server plug-ins are only used on Macintosh. For IIS and Personal Web Server for Windows95, <b>PluginExists</b> always returns 0.</p>
+<h2>Applies To</h2>
+<p>
+<a href="macc7g8k.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc7g8k.htm">Tools Component</a> </p>
+<h2>See Also</h2>
+<p>
+<a href="macc1d9v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc1d9v.htm"><b>FileExists</b></a>, <a href="macc0gkt.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc0gkt.htm"><b>ProcessForm</b></a>, <a href="macc8kdp.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc8kdp.htm"><b>Random</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

@@ -1,0 +1,46 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Owner</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_owner"></a>Owner</h1>
+<p>
+The <b>Owner</b> method checks whether the current user is the site administrator. It returns -1 if the name and password submitted in the request header matches the Administrator name and password set in the Personal Web Server interface. It returns 0 if there is not a match. </p>
+<h2>Syntax</h2>
+<pre><b>Tools.Owner
+ </b></pre>
+<h2>Remarks</h2>
+<p>
+Currently, <b>Owner</b> only works properly on Personal Web Server for Macintosh.</p>
+<h2>Applies To</h2>
+<p>
+<a href="macc7g8k.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc7g8k.htm">Tools Component</a> </p>
+<h2>See Also</h2>
+<p>
+<a href="macc1d9v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc1d9v.htm"><b>FileExists</b></a>, <a href="macc0gkt.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc0gkt.htm"><b>ProcessForm</b></a>, <a href="macc8kdp.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc8kdp.htm"><b>Random</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

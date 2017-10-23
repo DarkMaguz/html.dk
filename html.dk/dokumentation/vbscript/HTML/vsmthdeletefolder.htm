@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DeleteFolder Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthdeletefolder"></A>DeleteFolder Method</H1>
+
+<P>Deletes a specified folder and its contents.</P>
+
+<P><CODE><I>object</I>.<B>DeleteFolder</B> <I>folderspec</I>[, <I>force</I>] </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>folderspec</I></P>
+
+<P class=indent>Required. The name of the folder to delete. The <I>folderspec</I> can contain wildcard characters in the last path component.</P>
+
+<P class=dt><I>force</I></P>
+
+<P class=indent>Optional. Boolean value that is <B>True</B> if folders with the read-only attribute set are to be deleted; <B>False</B> (default) if they are not.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>DeleteFolder</B> method does not distinguish between folders that have contents and those that do not. The specified folder is deleted regardless of whether or not it has contents. </P>
+
+<P>An error occurs if no matching folders are found. The <B>DeleteFolder</B> method stops on the first error it encounters. No attempt is made to roll back or undo any changes that were made before an error occurred.</P>
+
+<P>The following example illustrates use of the <B>DeleteFolder</B> method: </P>
+
+<PRE><CODE>Sub DeleteAFolder(filespec)
+&nbsp;&nbsp;&nbsp;Dim fso
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;fso.DeleteFolder(filespec)
+End Sub</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopyfolder.htm">CopyFolder Method</A> | <A HREF="vsmthcreatefolder.htm">CreateFolder Method</A> | <A HREF="vsmthdelete.htm">Delete Method</A> | <A HREF="vsmthdeletefile.htm">DeleteFile Method</A> | <A HREF="vsmthmovefolder.htm">MoveFolder Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

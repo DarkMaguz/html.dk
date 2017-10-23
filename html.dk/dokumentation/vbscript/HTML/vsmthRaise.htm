@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Raise Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthraise"></A>Raise Method</H1>
+
+<P>Generates a run-time error.</P>
+
+<P><CODE>object<B>.Raise(</B>number<B>, </B>source<B>, </B>description<B>, </B>helpfile<B>, </B>helpcontext<B>)</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Always the <B>Err </B>object.</P>
+
+<P class=dt><I>number</I></P>
+
+<P class=indent>A <B>Long </B>integer subtype that identifies the nature of the error. VBScript errors (both VBScript-defined and user-defined errors) are in the range 0–65535.</P>
+
+<P class=dt><I>source</I></P>
+
+<P class=indent>A string expression naming the object or application that originally generated the error. When setting this property for an Automation object, use the form <I>project</I><B>.</B><I>class</I>. If nothing is specified, the programmatic ID of the current VBScript project is used.</P>
+
+<P class=dt><I>description</I></P>
+
+<P class=indent>A string expression describing the error. If unspecified, the value in <I>number</I> is examined. If it can be mapped to a VBScript run-time error code, a string provided by VBScript is used as <I>description.</I> If there is no VBScript error corresponding to <I>number</I>, a generic error message is used.</P>
+
+<P class=dt><I>helpfile</I></P>
+
+<P class=indent>The fully qualified path to the Help file in which help on this error can be found. If unspecified, VBScript uses the fully qualified drive, path, and file name of the VBScript Help file.</P>
+
+<P class=dt><I>helpcontext</I></P>
+
+<P class=indent>The context ID identifying a topic within <I>helpfile</I> that provides help for the error. If omitted, the VBScript Help file context ID for the error corresponding to the <I>number</I> property is used, if it exists.</P>
+
+<H4>Remarks</H4>
+
+<P>All the arguments are optional except <I>number</I>. If you use <B>Raise</B>, however, without specifying some arguments, and the property settings of the <B>Err</B> object contain values that have not been cleared, those values become the values for your error. </P>
+
+<P>When setting the <I>number</I> property to your own error code in an Automation object, you add your error code number to the constant <B>vbObjectError</B>. For example, to generate the error number 1050, assign <B>vbObjectError</B> + 1050 to the <I>number</I> property. </P>
+
+<P>The following example illustrates use of the <B>Raise</B> method. </P>
+
+<PRE><CODE>On Error Resume Next
+Err.Raise 6  ' Raise an overflow error.
+MsgBox ("Error # " &amp; CStr(Err.Number) &amp; " " &amp; Err.Description)
+Err.Clear    ' Clear the error.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthclear.htm">Clear Method</A> | <A HREF="vsprodescription.htm">Description Property</A> | <A HREF="vsobjerr.htm">Err Object</A> | <A HREF="vspronumber.htm">Number Property</A> <A HREF="vsprosource.htm">Source Property</A></P>
+
+<P>Applies To: <A HREF="vsobjerr.htm">Err Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN">
+<html>
+<head>
+<title>Dynamisk frameset</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-language" content="da" />
+
+<script type="text/javascript">
+<!--
+// Find ud af, hvilken side der skal indsættes i "content"
+// Hvis ingen side angivet i URL'en, så indsæt side1.htm
+page = (self.location.search) ? self.location.search.substring(1) : "side1.htm";
+
+
+// Her skrives framesettet dynamisk
+document.writeln('<frameset rows="90,*">');
+document.writeln('    <frame src="banner.htm" name="banner" \/>');
+document.writeln('  <frameset cols="200,*">');
+document.writeln('    <frame src="menu.htm" name="menu" \/>');
+document.writeln('    <frame src="' + page + '" name="content" \/>');
+document.writeln('  <\/frameset>');
+document.writeln('<\/frameset>');
+// -->
+</script>
+</head>
+
+<!-- Hvis javascript er slået fra, vis så default frameset -->
+
+<frameset rows="90,*">
+<frame src="banner.htm" name="banner" />
+  <frameset cols="200,*">
+    <frame src="menu.htm" name="menu" />
+    <frame src="side1.htm" name="content" />
+  </frameset>
+<noframes>
+  <body>
+  <p>Dette websted er opbygget med frames. Din browser understøtter desværre ikke frames.</p>
+  <p>Du kan gå til forsiden ved at klikke <a href="side1.htm">her</a>.</p>
+  </body>
+</noframes>
+</frameset>
+
+</html>

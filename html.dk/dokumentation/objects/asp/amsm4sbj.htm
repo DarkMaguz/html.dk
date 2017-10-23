@@ -1,0 +1,49 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Name Property (CDONTS Attachment Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_name_property_cdonts_attachment_object_"></a>Name Property (CDONTS Attachment Object)  <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Name</b> property returns or sets the display name of the Attachment object as a string. Read/write (read-only for an attachment on a message in the Inbox). </p>
+<h4>Syntax </h4>
+<pre><i>objAttach</i>.<b>Name 
+ </b></pre>
+<p>
+The <b>Name</b> property is the default property of an Attachment object, meaning that <i>objAttach</i> is syntactically equivalent to <i>objAttach</i>.<b>Name</b> in Microsoft® Visual Basic® code. </p>
+<h4>Data Type </h4>
+<p>
+String </p>
+<h4>Remarks </h4>
+<p>
+Before setting or changing the <b>Name</b> property, you should be sure that the <a href="amsm3ba7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3ba7.htm"><b>Source</b></a> property is already set. Setting <b>Source</b> after setting <b>Name</b> can result in an incorrect value for <b>Name</b>. </p>
+<p>
+If the attachment's <a href="amsm73a7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm73a7.htm"><b>Type</b></a> property is set to <b>CdoEmbeddedMessage</b>, any setting of the <b>Name</b> property is ignored in the current version of CDO for NTS. If the <a href="amsm4r1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4r1b.htm"><b>MessageFormat</b></a> property of the grandparent <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object is set to <b>CdoMime</b>, the embedded message's <a href="amsm1333.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1333.htm"><b>Subject</b></a> property is used for the attachment name. If the grandparent message's <b>MessageFormat</b> is <b>CdoText</b>, CDO for NTS randomly creates an attachment name in the format ATT00099.EML. </p>
+<p>
+The <b>Name</b> property can also be set at the time of creation of the attachment by supplying the <i>name</i> parameter to the <a href="amsm2vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2vhb.htm"><b>Add</b></a> method of the <a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm">Attachments</a> collection. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

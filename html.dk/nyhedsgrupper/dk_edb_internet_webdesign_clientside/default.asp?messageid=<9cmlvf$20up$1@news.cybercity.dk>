@@ -1,0 +1,142 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: Hvor sikkert kan man bestemme opl&#248;sningen og hvordan?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af René Lønstrup \(AKA Rel7Star\) den 1. maj 2001">
+<meta name="keywords" content="">
+<meta name="title" content="Re: Hvor sikkert kan man bestemme opl&#248;sningen og hvordan?">
+<meta name="language" content="dan">
+<meta name="Date" content="01-05-01">
+<meta name="robots" content="index, follow">
+<meta name="FreeFind" content="follow">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))'>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))'> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200154314151446?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200154314151446?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200154314151446?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C9cmlvf%2420up%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> René&nbsp;Lønstrup&nbsp;\(AKA&nbsp;Rel7Star\)&nbsp;&nbsp;<a href='mailto:7star@iname.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='7star@iname.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> CyberCity Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 1. maj 2001 kl. 16:51</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Hvor sikkert kan man bestemme opl&#248;sningen og hvordan?</strong></li></ul>
+
+<p><span class='normal'>&quot;Jakob Andersen&quot; &lt;<a href='http://jakob@andersen.as'>jakob@andersen.as</a>> wrote in message </span><br /><span class='normal'><a href='http://news:9cgqfk$hd4$1@sunsite.dk'>news:9cgqfk$hd4$1@sunsite.dk</a>... </span><br /><span class='citat'>> Du kan godt positionere procentvis s&#229; den feks er 50% fra venstre kant. </span><br /><span class='normal'> </span><br /><span class='normal'>Det kommer menuen ikke til st&#229; 100% centreret af. Specielt hvis det er en </span><br /><span class='normal'>bred menu, kan man sagtens se det. Problemet er jo, at man definerer </span><br /><span class='normal'>positionen udfra venstre/&#248;verste kant, og ikke midten af laget.. Det kan </span><br /><span class='normal'>l&#248;ses med den stump Javascript, men vil selvf&#248;lgelig kun virke i </span><br /><span class='normal'>JavaScript-enabled browsere: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;script> </span><br /><span class='normal'>function placering() { </span><br /><span class='normal'>var menubredde = 700; </span><br /><span class='normal'> </span><br /><span class='normal'>//en linie </span><br /><span class='normal'> if (document.all &amp;&amp; !(navigator.userAgent.toLowerCase().indexOf(&quot;opera&quot;) </span><br /><span class='normal'>!= -1)){ </span><br /><span class='normal'> </span><br /><span class='normal'>//en linie slut </span><br /><span class='normal'>  var windowHeight = document.body.clientHeight; </span><br /><span class='normal'>  var windowWidth = document.body.clientWidth; </span><br /><span class='normal'> } </span><br /><span class='normal'> else { </span><br /><span class='normal'>  var windowHeight = window.innerHeight; </span><br /><span class='normal'>  var windowWidth = window.innerWidth; </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'>//en linie </span><br /><span class='normal'>document.getElementById(&quot;menuLagetsNavn&quot;).style.left = </span><br /><span class='normal'>((windowWidth-menubredde)/2); </span><br /><span class='normal'> </span><br /><span class='normal'>//en linie slut </span><br /><span class='normal'>&lt;/script> </span><br /><span class='normal'>(linierne med // foran kan slettes igen) </span><br /><span class='normal'> </span><br /><span class='normal'>Scriptet kaldes derefter i &lt;body> med </span><br /><span class='normal'>&lt;body onload=&quot;placering();&quot; onresize=&quot;placering();&quot;> </span><br /><span class='normal'>(det er vigtigt med onresize, for ellers vil den ikke st&#229; korrekt hvis man </span><br /><span class='normal'>justerer st&#248;rrelsen af vinduet) </span><br /><span class='normal'> </span><br /><span class='normal'>Det kan selvf&#248;lgeligt udbygges s&#229; laget evt. st&#229;r 50px til h&#248;jre for midten, </span><br /><span class='normal'>eller hvis du vil stille menuen i bunden af sk&#230;rmen (s&#229; bruger du bare </span><br /><span class='normal'>..style.top og windowHeight i stedet) osv. osv. osv. </span><br /><span class='normal'> </span><br /><span class='normal'>PS: Scriptet virker i IE 5 op, Netscape6 og Opera5 (men jeg har oplevet at </span><br /><span class='normal'>Opera kan have lidt problemer hvis man maksimerer vinduet). For at det skal </span><br /><span class='normal'>virke i ver.4 browserne skal der arbejdes lidt mere p&#229; det.. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Ren&#233; (AKA The Artist Currently Known As Rel7Star) </span><br /><span class='normal'>x===---->  <a href='http://www.rel7star.dk'>http://www.rel7star.dk</a>  &lt;----===x </span><br /><span class='normal'>    --- Nu med nyt design og hele pivt&#248;jet! --- </span><br /><span class='normal'>        men kun support for IE i &#248;jeblikket :( </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C9cgmkh%24dsn%241%40news%2Einet%2Etele%2Edk%3E' title='Hvor sikkert kan man bestemme opl&#248;sningen og ...'>Hvor sikkert kan man bestemme opl&#248;sningen og ...</a>&nbsp;<small class='newslist'>(29-04-01&nbsp;-&nbsp;Magnus)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C9cgqfk%24hd4%241%40sunsite%2Edk%3E' title='Re: Hvor sikkert kan man bestemme opl&#248;sningen...'>Re: Hvor sikkert kan man bestemme opl&#248;sningen...</a>&nbsp;<small class='newslist'>(29-04-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C9cgs0t%242l0%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Hvor sikkert kan man bestemme opl&#248;sningen...'>Re: Hvor sikkert kan man bestemme opl&#248;sningen...</a>&nbsp;<small class='newslist'>(29-04-01&nbsp;-&nbsp;Magnus)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Clusnet0s3uraolk45h4ao7to9ffqqh7ovv%40ghashul%2Edk%3E' title='Re: Hvor sikkert kan man bestemme opl&#248;sningen...'>Re: Hvor sikkert kan man bestemme opl&#248;sningen...</a>&nbsp;<small class='newslist'>(29-04-01&nbsp;-&nbsp;Stefan&nbsp;Bruhn)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C9cgu3q%246s1%241%40sunsite%2Edk%3E' title='Re: Hvor sikkert kan man bestemme opl&#248;sningen...'>Re: Hvor sikkert kan man bestemme opl&#248;sningen...</a>&nbsp;<small class='newslist'>(29-04-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C9cmlvf%2420up%241%40news%2Ecybercity%2Edk%3E' title='Re: Hvor sikkert kan man bestemme opl&#248;sningen...'>Re: Hvor sikkert kan man bestemme opl&#248;sningen...</a>&nbsp;<small class='newslist'>(01-05-01&nbsp;-&nbsp;René&nbsp;Lønstrup&nbsp;\(AKA&nbsp;Rel7Star\))</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C9cjs9q%24c4s%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Hvor sikkert kan man bestemme opl&#248;sningen...'>Re: Hvor sikkert kan man bestemme opl&#248;sningen...</a>&nbsp;<small class='newslist'>(30-04-01&nbsp;-&nbsp;Peter)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C9cmlvf%2420up%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/download/" class="menulink">Download</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig nyhedsbrevet<br /> fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" /><br /><input type="submit" name="1" value="Tilmeld" class="newsletterbutton" /><input type="submit" name="2" value="Frameld" class="newsletterbutton" /></small></div>
+</form>
+</div>
+
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><strong>HTML</strong>Community</div>
+<div class="leftboxbody"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" /><br /><input type="checkbox" name="AutoLogin" checked="checked" />husk login&nbsp;&nbsp;&nbsp;<input type="submit" name="1" value="Login" /></small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/persondata.asp">Politik om persondata</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<input type="image" src="/site/graphics/misc/search.png" width="47" height="23" border="0" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Hvor sikkert kan man bestemme opl&#248;sningen...</span></div>
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  browserwidth  = document.body.clientWidth;
+  browserheight = document.body.clientHeight;				
+} else {
+  browserwidth  = window.innerWidth;
+  browserheight = window.innerHeight;      
+}
+
+screenheight = screen.height 
+screenwidth  = screen.width
+document.write ('<img height="1" width="1" src="/survey.asp?bw=' + browserwidth + '&bh=' + browserheight + '&sh=' + screenheight + '&sw=' + screenwidth + '">')
+
+// Slut -->
+</script>
+</body>
+</html>
+

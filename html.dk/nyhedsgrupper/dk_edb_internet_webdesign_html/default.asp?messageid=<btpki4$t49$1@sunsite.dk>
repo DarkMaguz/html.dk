@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Farve p&#229; Scroll bar (CSS)</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Ulrik Christensen den 10. januar 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="Farve p&#229; Scroll bar (CSS)" />
+<meta name="language" content="dan" />
+<meta name="Date" content="10-01-2004" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=812614083291?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML, praktisk anvendelse, syntax, faldgruber, browserkompabilitet etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cbtpki4%24t49%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Ulrik&nbsp;Christensen&nbsp;&nbsp;<a href='mailto:uc@yield.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='uc@yield.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 10. januar 2004 kl. 21:41</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Farve p&#229; Scroll bar (CSS)</strong></li></ul>
+
+<p><span class='normal'>Hey, jeg sidder med en hjemmeside hvor jeg har lavet en masse </span><br /><span class='normal'>ting, men for at designet kommer til at se godt ud ville jeg </span><br /><span class='normal'>gerne have min scroll bar i mit /div til at have en anden farve, </span><br /><span class='normal'>n&#230;rmere bestemt en HEX farve.... Jeg er ikke s&#229; godt til html </span><br /><span class='normal'>eller andet for den sags skyld, jeg har l&#230;st de andre indl&#230;g </span><br /><span class='normal'>omkring dette emne, men kan ikke regne ud hvordan det virker </span><br /><span class='normal'>alligevel, sorry... Hvis du/i skal se koderne bag siden s&#229; kommer </span><br /><span class='normal'>de her : </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;> </span><br /><span class='normal'>&lt;html> </span><br /><span class='normal'>&lt;head> </span><br /><span class='normal'>&lt;title>Untitled Document&lt;/title> </span><br /><span class='normal'>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; </span><br /><span class='normal'>charset=iso-8859-1&quot;> </span><br /><span class='normal'>&lt;script language=&quot;JavaScript&quot; type=&quot;text/JavaScript&quot;> </span><br /><span class='normal'>&lt;!-- </span><br /><span class='normal'>function MM_reloadPage(init) {  //reloads the window if Nav4 </span><br /><span class='normal'>resized </span><br /><span class='normal'>  if (init==true) with (navigator) {if </span><br /><span class='normal'>((appName==&quot;Netscape&quot;)&amp;&amp;(parseInt(appVersion)==4)) { </span><br /><span class='normal'>    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; </span><br /><span class='normal'>onresize=MM_reloadPage; }} </span><br /><span class='normal'>  else if (innerWidth!=document.MM_pgW  </span><br /><span class='normal'>innerHeight!=document.MM_pgH) location.reload(); </span><br /><span class='normal'>} </span><br /><span class='normal'>MM_reloadPage(true); </span><br /><span class='normal'> </span><br /><span class='normal'>function MM_swapImgRestore() { //v3.0 </span><br /><span class='normal'>  var i,x,a=document.MM_sr; </span><br /><span class='normal'>for(i=0;a&amp;&amp;i&lt;a.length&amp;&amp;(x=a[i])&amp;&amp;x.oSrc;i++) x.src=x.oSrc; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>function MM_preloadImages() { //v3.0 </span><br /><span class='normal'>  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array(); </span><br /><span class='normal'>    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; </span><br /><span class='normal'>i&lt;a.length; i++) </span><br /><span class='normal'>    if (a[i].indexOf(&quot;#&quot;)!=0){ d.MM_p[j]=new Image; </span><br /><span class='normal'>d.MM_p[j++].src=a[i];}} </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>function MM_findObj(n, d) { //v4.01 </span><br /><span class='normal'>  var p,i,x;  if(!d) d=document; </span><br /><span class='normal'>if((p=n.indexOf(&quot;?&quot;))>0&amp;&amp;parent.frames.length) { </span><br /><span class='normal'>    d=parent.frames[n.substring(p+1)].document; </span><br /><span class='normal'>n=n.substring(0,p);} </span><br /><span class='normal'>  if(!(x=d[n])&amp;&amp;d.all) x=d.all[n]; for </span><br /><span class='normal'>(i=0;!x&amp;&amp;i&lt;d.forms.length;i++) x=d.forms[i][n]; </span><br /><span class='normal'>  for(i=0;!x&amp;&amp;d.layers&amp;&amp;i&lt;d.layers.length;i++) </span><br /><span class='normal'>x=MM_findObj(n,d.layers[i].document); </span><br /><span class='normal'>  if(!x &amp;&amp; d.getElementById) x=d.getElementById(n); return x; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>function MM_swapImage() { //v3.0 </span><br /><span class='normal'>  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; </span><br /><span class='normal'>for(i=0;i&lt;(a.length-2);i+=3) </span><br /><span class='normal'>   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; </span><br /><span class='normal'>if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];} </span><br /><span class='normal'>} </span><br /><span class='normal'>//--> </span><br /><span class='normal'>&lt;/script> </span><br /><span class='normal'>&lt;/head> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;body bgcolor=&quot;996633&quot; text=&quot;996633&quot; link=&quot;996633&quot; leftmargin=&quot;0&quot; </span><br /><span class='normal'>topmargin=&quot;30&quot; </span><br /><span class='normal'>onLoad=&quot;MM_preloadImages('medlemmer02.jpg','galleri02.jpg','sjovo </span><br /><span class='normal'>gspas02.jpg','forum02.jpg','link02.jpg','kontakt02.jpg','historie </span><br /><span class='normal'>02.jpg')&quot;> </span><br /><span class='normal'>&lt;div id=&quot;Layer1&quot; style=&quot;position:absolute; left:528px; top:86px; </span><br /><span class='normal'>width:383px; height:407px; z-index:0; overflow: auto; </span><br /><span class='normal'>background-image: url(3tosser.jpg); layer-background-image: </span><br /><span class='normal'>url(3tosser.jpg); border: 1px none #000000;&quot;> </span><br /><span class='normal'>  &lt;p>Velkommen til Klanens hjemmeside....&lt;/p> </span><br /><span class='normal'>  &lt;p>P&amp;aring; dette web site vil du kunne finde informationer </span><br /><span class='normal'>omkring Klanen samt  </span><br /><span class='normal'>    drinks opskrifter, &amp;oslash;l lege og meget meget mere.&lt;/p> </span><br /><span class='normal'>  &lt;p>TYLLER.&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>  &lt;p>ikke noget at l&#230;se hernede....&lt;/p> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'>&lt;table width=&quot;950&quot; height=&quot;430&quot; border=&quot;0&quot; align=&quot;center&quot; </span><br /><span class='normal'>cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;> </span><br /><span class='normal'>  &lt;tr> </span><br /><span class='normal'>    &lt;td width=&quot;496&quot; align=&quot;left&quot; valign=&quot;top&quot; </span><br /><span class='normal'>bgcolor=&quot;CC9966&quot;>&lt;table width=&quot;475&quot; height=&quot;500&quot; border=&quot;0&quot; </span><br /><span class='normal'>cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;> </span><br /><span class='normal'>        &lt;tr> </span><br /><span class='normal'>          &lt;td width=&quot;475&quot; height=&quot;178&quot; align=&quot;center&quot; </span><br /><span class='normal'>valign=&quot;bottom&quot;>&lt;img src=&quot;klan.jpg&quot; width=&quot;392&quot; </span><br /><span class='normal'>height=&quot;145&quot;>&lt;/td> </span><br /><span class='normal'>        &lt;/tr> </span><br /><span class='normal'>        &lt;tr> </span><br /><span class='normal'>          &lt;td align=&quot;left&quot; valign=&quot;top&quot;>&lt;table width=&quot;456&quot; </span><br /><span class='normal'>height=&quot;297&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;> </span><br /><span class='normal'>              &lt;tr> </span><br /><span class='normal'>                &lt;td width=&quot;298&quot; align=&quot;right&quot; valign=&quot;middle&quot;> </span><br /><span class='normal'>&lt;img src=&quot;blondy.jpg&quot; width=&quot;230&quot; height=&quot;186&quot;>&lt;/td> </span><br /><span class='normal'>                &lt;td width=&quot;158&quot; align=&quot;center&quot; </span><br /><span class='normal'>valign=&quot;top&quot;>&lt;table width=&quot;161&quot; height=&quot;256&quot; border=&quot;0&quot; </span><br /><span class='normal'>cellpadding=&quot;0&quot; cellspacing=&quot;0&quot;> </span><br /><span class='normal'>                    &lt;tr>  </span><br /><span class='normal'>                      &lt;td width=&quot;148&quot; height=&quot;34&quot; align=&quot;center&quot; </span><br /><span class='normal'>valign=&quot;middle&quot;>&lt;a href=&quot;#&quot; onMouseOut=&quot;MM_swapImgRestore()&quot; </span><br /><span class='normal'>onMouseOver=&quot;MM_swapImage('historie','','historie02.jpg',1)&quot;>&lt;img </span><br /><span class='normal'>src=&quot;historie01.jpg&quot; name=&quot;historie&quot; width=&quot;78&quot; height=&quot;34&quot; </span><br /><span class='normal'>border=&quot;0&quot;>&lt;/a>&lt;/td> </span><br /><span class='normal'>                    &lt;/tr> </span><br /><span class='normal'>                    &lt;tr> </span><br /><span class='normal'>                      &lt;td height=&quot;33&quot; align=&quot;center&quot; </span><br /><span class='normal'>valign=&quot;middle&quot;>&lt;a href=&quot;#&quot; onMouseOut=&quot;MM_swapImgRestore()&quot; </span><br /><span class='normal'>onMouseOver=&quot;MM_swapImage('medlemmer','','medlemmer02.jpg',1)&quot;>&lt;i </span><br /><span class='normal'>mg src=&quot;medlemmer01.jpg&quot; name=&quot;medlemmer&quot; width=&quot;111&quot; height=&quot;27&quot; </span><br /><span class='normal'>border=&quot;0&quot;>&lt;/a>&lt;/td> </span><br /><span class='normal'>                    &lt;/tr> </span><br /><span class='normal'>                    &lt;tr> </span><br /><span class='normal'>                      &lt;td align=&quot;center&quot; valign=&quot;middle&quot;>&lt;a </span><br /><span class='normal'>href=&quot;#&quot; onMouseOut=&quot;MM_swapImgRestore()&quot; </span><br /><span class='normal'>onMouseOver=&quot;MM_swapImage('galleri','','galleri02.jpg',1)&quot;>&lt;img </span><br /><span class='normal'>src=&quot;galleri01.jpg&quot; name=&quot;galleri&quot; width=&quot;60&quot; height=&quot;21&quot; </span><br /><span class='normal'>border=&quot;0&quot;>&lt;/a>&lt;/td> </span><br /><span class='normal'>                    &lt;/tr> </span><br /><span class='normal'>                    &lt;tr> </span><br /><span class='normal'>                      &lt;td align=&quot;center&quot; valign=&quot;middle&quot;>&lt;a </span><br /><span class='normal'>href=&quot;#&quot; onMouseOut=&quot;MM_swapImgRestore()&quot; </span><br /><span class='normal'>onMouseOver=&quot;MM_swapImage('sjovogspas','','sjovogspas02.jpg',1)&quot;> </span><br /><span class='normal'>&lt;img src=&quot;sjovogspas01.jpg&quot; name=&quot;sjovogspas&quot; width=&quot;121&quot; </span><br /><span class='normal'>height=&quot;22&quot; border=&quot;0&quot;>&lt;/a>&lt;/td> </span><br /><span class='normal'>                    &lt;/tr> </span><br /><span class='normal'>                    &lt;tr> </span><br /><span class='normal'>                      &lt;td align=&quot;center&quot; valign=&quot;middle&quot;>&lt;a </span><br /><span class='normal'>href=&quot;#&quot; onMouseOut=&quot;MM_swapImgRestore()&quot; </span><br /><span class='normal'>onMouseOver=&quot;MM_swapImage('forum','','forum02.jpg',1)&quot;>&lt;img </span><br /><span class='normal'>src=&quot;forum01.jpg&quot; name=&quot;forum&quot; width=&quot;58&quot; height=&quot;21&quot; </span><br /><span class='normal'>border=&quot;0&quot;>&lt;/a>&lt;/td> </span><br /><span class='normal'>                    &lt;/tr> </span><br /><span class='normal'>                    &lt;tr> </span><br /><span class='normal'>                      &lt;td align=&quot;center&quot; valign=&quot;middle&quot;>&lt;a </span><br /><span class='normal'>href=&quot;#&quot; onMouseOut=&quot;MM_swapImgRestore()&quot; </span><br /><span class='normal'>onMouseOver=&quot;MM_swapImage('links','','link02.jpg',1)&quot;>&lt;img </span><br /><span class='normal'>src=&quot;link01.jpg&quot; name=&quot;links&quot; width=&quot;49&quot; height=&quot;22&quot; </span><br /><span class='normal'>border=&quot;0&quot;>&lt;/a>&lt;/td> </span><br /><span class='normal'>                    &lt;/tr> </span><br /><span class='normal'>                    &lt;tr> </span><br /><span class='normal'>                      &lt;td align=&quot;center&quot; valign=&quot;middle&quot;>&lt;a </span><br /><span class='normal'>href=&quot;#&quot; onMouseOut=&quot;MM_swapImgRestore()&quot; </span><br /><span class='normal'>onMouseOver=&quot;MM_swapImage('kontakt','','kontakt02.jpg',1)&quot;>&lt;img </span><br /><span class='normal'>src=&quot;kontakt01.jpg&quot; name=&quot;kontakt&quot; width=&quot;73&quot; height=&quot;21&quot; </span><br /><span class='normal'>border=&quot;0&quot;>&lt;/a>&lt;/td> </span><br /><span class='normal'>                    &lt;/tr> </span><br /><span class='normal'>                  &lt;/table>&lt;/td> </span><br /><span class='normal'>              &lt;/tr> </span><br /><span class='normal'>            &lt;/table>&lt;/td> </span><br /><span class='normal'>        &lt;/tr> </span><br /><span class='normal'>      &lt;/table>&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;454&quot; height=&quot;500&quot; align=&quot;left&quot; valign=&quot;middle&quot; </span><br /><span class='normal'>bgcolor=&quot;CC9966&quot;>&lt;table width=&quot;397&quot; height=&quot;436&quot; border=&quot;3&quot; </span><br /><span class='normal'>cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; bordercolor=&quot;996633&quot;> </span><br /><span class='normal'>        &lt;tr> </span><br /><span class='normal'>          &lt;td>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>        &lt;/tr> </span><br /><span class='normal'>      &lt;/table>&lt;/td> </span><br /><span class='normal'>  &lt;/tr> </span><br /><span class='normal'>&lt;/table> </span><br /><span class='normal'>&lt;div align=&quot;center&quot;>&lt;/div> </span><br /><span class='normal'>&lt;/body> </span><br /><span class='normal'>&lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>H&#229;ber du/i kan hj&#230;lpe...... danke... </span><br /><span class='normal'>UC </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI eller ASP? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cbtpki4%24t49%241%40sunsite%2Edk%3E' title='Farve p&#229; Scroll bar (CSS)'>Farve p&#229; Scroll bar (CSS)</a>&nbsp;<small class='newslist'>(10-01-2004&nbsp;-&nbsp;Ulrik&nbsp;Christensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CaRZLb%2E70096%24jf4%2E4564728%40news000%2Eworldonline%2Edk%3E' title='Re: Farve p&#229; Scroll bar (CSS)'>Re: Farve p&#229; Scroll bar (CSS)</a>&nbsp;<small class='newslist'>(10-01-2004&nbsp;-&nbsp;Lars&nbsp;Haugaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cbtpsv9%24c2%241%40sunsite%2Edk%3E' title='Re: Farve p&#229; Scroll bar (CSS)'>Re: Farve p&#229; Scroll bar (CSS)</a>&nbsp;<small class='newslist'>(10-01-2004&nbsp;-&nbsp;Jørgen&nbsp;Graae&nbsp;Jensen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns946CEE268F25Djcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Farve p&#229;Scroll bar (CSS)'>Re: Farve p&#229;Scroll bar (CSS)</a>&nbsp;<small class='newslist'>(10-01-2004&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cbtpki4%24t49%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=592351257802?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cbtpki4%24t49%241%40sunsite%2Edk%3E' method='post'><p class='pollheader'>Benytter du et spam-filter?</p><div><input type='hidden' name='tst' value='01-06-2004 22:10:06' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Farve p&#229;Scroll bar (CSS)</span></div>
+
+
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  bw = document.body.clientWidth;
+  bh = document.body.clientHeight;				
+} else {
+  bw = window.innerWidth;
+  bh = window.innerHeight;    
+}
+sw  = screen.width
+sh = screen.height
+document.write ('<img height="1" width="1" ')
+document.write ('src="survey.asp?bw=' + bw + '&bh=' + bh + '&sh=' + sh + '&sw=' + sw + '&site=HTML.dk">')
+
+// Slut -->
+</script>
+
+
+</body>
+</html>
+

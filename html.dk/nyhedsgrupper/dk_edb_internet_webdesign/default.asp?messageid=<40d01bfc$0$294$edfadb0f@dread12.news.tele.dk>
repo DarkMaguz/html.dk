@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Re: Generation 4 browsere, skal man tage hensyn til dem?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Peter Anskjær den 16. juni 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Generation 4 browsere, skal man tage hensyn til dem?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="16-06-2004" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=95191597939?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C40d01bfc%240%24294%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Peter&nbsp;Anskjær&nbsp;&nbsp;<a href='mailto:peter@_fjern_dette_nskjaer.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='peter@_fjern_dette_nskjaer.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Totalloesninger</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 16. juni 2004 kl. 12:07</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Generation 4 browsere, skal man tage hensyn til dem?</strong></li></ul>
+
+<p><span class='normal'>&quot;Martin Hintzmann Andersen&quot; &lt;no@spam.please> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:40d0034c$0$23876$14726298@news.sunsite.dk'>news:40d0034c$0$23876$14726298@news.sunsite.dk</a>... </span><br /><span class='citat'>> </span><br /><span class='citat'>> Brug @import &quot;style.css&quot; til at skjule dit stylesheet for IE4 og NS4 </span><br /><span class='citat'>> brugerne, s&#229; de f&#229;r en ikke stylet XHTML-side. </span><br /><span class='citat'>> <a href='http://www.hintzmann.dk/articles/skjulecss/'>http://www.hintzmann.dk/articles/skjulecss/</a> </span><br /><span class='citat'>> </span><br /><span class='normal'>Det var jeg faktisk ogs&#229; kommet frem til ig&#229;r som v&#230;rende en meget bedre </span><br /><span class='normal'>l&#248;sning end en browserdetector der skulle lave redirects, men det kan jeg jo </span><br /><span class='normal'>sagtens sige. </span><br /><span class='normal'> </span><br /><span class='citat'>> Du b&#248;r ogs&#229; lave din XHTML kode mere semantisk korrekt. S&#229; den blandt </span><br /><span class='citat'>> andet tager sig p&#230;nt ud i IE4/NS4, men ogs&#229; s&#229; den bliver mere </span><br /><span class='citat'>> tilg&#230;ngelig over for s&#248;gemaskiner, PDA'er, tale og mobile browsere. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Pr&#248;v f&#248;rst at lav din side uden at t&#230;nke p&#229; pr&#230;sentation, i ren html. </span><br /><span class='citat'>> </span><br /><span class='normal'><a href='http://www.hintzmann.dk/testcenter/sites/www.koeleindustrien.dk/default.html'>http://www.hintzmann.dk/testcenter/sites/www.koeleindustrien.dk/default.html</a> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Inddel den s&#229; i div blokke med unikke id'er. </span><br /><span class='citat'>> </span><br /><span class='normal'><a href='http://www.hintzmann.dk/testcenter/sites/www.koeleindustrien.dk/default_div.html'>http://www.hintzmann.dk/testcenter/sites/www.koeleindustrien.dk/default_div.html</a> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Til sidst styler du s&#229; siden. </span><br /><span class='citat'>> </span><br /><span class='normal'><a href='http://www.hintzmann.dk/testcenter/sites/www.koeleindustrien.dk/default_css.html'>http://www.hintzmann.dk/testcenter/sites/www.koeleindustrien.dk/default_css.html</a> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Eksemplet er testet i Firefox 0.8, Opera7.5 og IE6.0 samt NS4.7 og IE4. </span><br /><span class='citat'>> Layout er _ikke_ tilrettet til IE5.0 og IE5.5, kan g&#248;res via Conditional </span><br /><span class='citat'>> Comments eller Mid Pass Filter'et. </span><br /><span class='normal'> </span><br /><span class='normal'>Er allerede p&#229; min todo-liste, havde dog t&#230;nkt mig at g&#248;re det med og width </span><br /><span class='normal'>w\idth s&#229; jeg kunne holde det hele som her: </span><br /><span class='normal'><a href='http://www.webdesign101.dk/xhtml/css/hacks/index.php'>http://www.webdesign101.dk/xhtml/css/hacks/index.php</a> </span><br /><span class='normal'>Men siden du ikke foresl&#229;r denne l&#248;sning vil jeg da lige h&#248;re om den er </span><br /><span class='normal'>d&#229;rligere end de andre. Jeg synes en fordel er at man ikke skal have to </span><br /><span class='normal'>stylesheets, for det f&#248;rste downloader en moderne browser vel begge </span><br /><span class='normal'>stylesheets, det er jo lidt spild. Dern&#230;st kan man lettere glemme at holde </span><br /><span class='normal'>det ene stylesheet opdateret. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Der mangler title attributter p&#229; links og billedet. </span><br /><span class='citat'>> </span><br /><span class='normal'>Det vil jeg kigge p&#229;. </span><br /><span class='normal'> </span><br /><span class='citat'>> Mailto-linket b&#248;r skjules, f.eks. som jeg har gjort nederst p&#229; </span><br /><span class='citat'>> <a href='http://www.hintzmann.dk'>www.hintzmann.dk</a> med en &quot;mail.html&quot; side. </span><br /><span class='citat'>> </span><br /><span class='normal'>Jeg har t&#230;nkt en del over denne problematik, har t&#230;nkt p&#229; at lade det v&#230;re </span><br /><span class='normal'>et link i stedet til en mailform p&#229; siden hvor man s&#229; kan skrive til mig. </span><br /><span class='normal'>Men nu er det jo ikke min side, s&#229; sp&#248;rgsm&#229;let er hvor meget &quot;reklame&quot; jeg </span><br /><span class='normal'>b&#248;r lave, p&#229; den anden side er det mig der administrerer siden, s&#229; det er jo </span><br /><span class='normal'>meget relevant at man kan kontakte &quot;webmaster&quot;, jeg tror det ender med en </span><br /><span class='normal'>kontaktformular til admin. </span><br /><span class='normal'> </span><br /><span class='normal'>Det er et utroligt flot stykke arbejde du har gjort, det er jeg meget glad </span><br /><span class='normal'>for. Din kode er sat meget flot op og er meget overskuelig. Igen vil jeg </span><br /><span class='normal'>gerne lige forsvare mig, siden er lavet i php og det var min plan at ops&#230;tte </span><br /><span class='normal'>koden en smule p&#230;nere s&#229; den blev lidt mere overskuelig, men som sagt er </span><br /><span class='normal'>siden ikke pudset af endnu. Men jeg godt se det er ret smart at have den </span><br /><span class='normal'>ekstra tekst som brugere af generation 4 browsere kan blive pr&#230;senteret for. </span><br /><span class='normal'>Der er dog et par ting jeg godt kunne t&#230;nke mig at f&#229; forklaret. </span><br /><span class='normal'>1. Jeg kan ikke helt se hvorfor du har menu.gif som baggrund 3 gange og ikke </span><br /><span class='normal'>bare 2, burde den ene ikke v&#230;re overfl&#248;dig? </span><br /><span class='normal'>2. Du bruger text-indent: 5000px; i head tror jeg nu hellere jeg vil </span><br /><span class='normal'>inds&#230;tte toplogoet p&#229; selve siden s&#229; det kan ses i alle browsere og s&#229; have </span><br /><span class='normal'>det i en paragraf og ved hj&#230;lp af den style det p&#229; plads s&#229; det er </span><br /><span class='normal'>centreret. Vil det v&#230;re en d&#229;rlig id&#233;? </span><br /><span class='normal'>3. Du bruger ogs&#229; text-indent i menu h2, hele denne del kan jeg ikke rigtigt </span><br /><span class='normal'>forst&#229; da du ogs&#229; har sat height: 0; kunne man ikke lige s&#229; godt lave menu </span><br /><span class='normal'>h2 hidden og s&#229; bare lave lidt ekstra padding p&#229; menu for at kompensere? </span><br /><span class='normal'> </span><br /><span class='normal'>Udover det m&#229; jeg sige at det er virkeligt flot css hvor du har vist mig at </span><br /><span class='normal'>man kan lave tingene utroligt simpelt. Jeg vil dog gerne have menukassen til </span><br /><span class='normal'>at g&#229; fra top til bund s&#229; den har samme l&#230;ngde som indholdet p&#229; siden, </span><br /><span class='normal'>derfor havde jeg lavet nogle af de krumspring som du har fjernet, men tror </span><br /><span class='normal'>stadigv&#230;k det kan g&#248;res en del simplere end jeg havde gjort det ved at lave </span><br /><span class='normal'>noget height: 100% og lade menu v&#230;re indeholdt i main, men det skal jeg lige </span><br /><span class='normal'>kigge lidt n&#230;rmere p&#229;. </span><br /><span class='normal'>Desuden havde jeg planer om at inds&#230;tte menuen efter indholdet n&#229;r det nu </span><br /><span class='normal'>alligevel er en floating box, dette af hensyn til s&#248;gemaskiner, Jeg kunne jo </span><br /><span class='normal'>inds&#230;tte et link til menuen i indhold i stedet for omvendt og l&#248;se det p&#229; </span><br /><span class='normal'>den m&#229;de. </span><br /><span class='normal'> </span><br /><span class='normal'>Igen mange tak for hj&#230;lpen med at &#229;bne mine &#248;jne yderligere for mulighederne </span><br /><span class='normal'>med css. </span><br /><span class='normal'> </span><br /><span class='normal'>Mvh </span><br /><span class='normal'>Peter </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40cf4734%240%24218%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Generation 4 browsere, skal man tage hensyn til de...'>Generation 4 browsere, skal man tage hensyn til de...</a>&nbsp;<small class='newslist'>(15-06-2004&nbsp;-&nbsp;Peter&nbsp;Anskjær)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40cf52b9%240%2423875%2414726298%40news%2Esunsite%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(15-06-2004&nbsp;-&nbsp;jopa)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Caomuc01bpk3g6orqsccr1nsp62mnhg4gh3%404ax%2Ecom%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(15-06-2004&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40cf6235%240%24226%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(15-06-2004&nbsp;-&nbsp;Peter&nbsp;Anskjær)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cj2tuc0tj16u7hocvvdkcn429mcsessq8s7%40news%2Estofanet%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(15-06-2004&nbsp;-&nbsp;Bertel&nbsp;Lund&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40cf6941%240%24230%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(15-06-2004&nbsp;-&nbsp;Peter&nbsp;Anskjær)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C1v0vc01edki4js26uqh9bt5u6aenkj0a4h%40news%2Estofanet%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Bertel&nbsp;Lund&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40cff114%240%24233%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Peter&nbsp;Anskjær)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40d0034c%240%2423876%2414726298%40news%2Esunsite%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CXns950A6C041CE86kkgnsdlkng%4062%2E243%2E74%2E162%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Jane)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40d00eed%240%2423877%2414726298%40news%2Esunsite%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CXns950A9B1F63E89kkgnsdlkng%4062%2E243%2E74%2E162%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Jane)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C6fk0d0htl7g2sp4sikqd66ea4t8m4poft6%40news%2Estofanet%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Bertel&nbsp;Lund&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CXns950AAC8A551D1kkgnsdlkng%4062%2E243%2E74%2E162%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Jane)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CXns950AB15ECE785kkgnsdlkng%4062%2E243%2E74%2E162%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Jane)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40d01bfc%240%24294%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Peter&nbsp;Anskjær)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40d02f97%240%2423877%2414726298%40news%2Esunsite%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40d0370b%240%24275%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Peter&nbsp;Anskjær)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40d041b6%240%24218%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Generation 4 browsere, skal man tage hensyn ti...'>Re: Generation 4 browsere, skal man tage hensyn ti...</a>&nbsp;<small class='newslist'>(16-06-2004&nbsp;-&nbsp;Peter&nbsp;Anskjær)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C40d01bfc%240%24294%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=874928772450?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C40d01bfc%240%24294%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' method='post'><p class='pollheader'>Er du interesseret i foredrag om webudvikling?</p><div><input type='hidden' name='tst' value='27-08-2004 01:32:48' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, men det skal være gratis</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Ja, og jeg vil gerne betale feks. kr. 150 for det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Generation 4 browsere</span></div>
+
+
+
+</body>
+</html>
+

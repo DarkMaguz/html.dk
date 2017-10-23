@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Folders Collection</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vscolfolders"></A>Folders Collection</H1>
+
+<P><A HREF="vtglossary.htm#defcollectionvbs">Collection</A> of all <B>Folder</B> objects contained within a <B>Folder</B> object.</P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates how to get a <B>Folders</B> collection and how to iterate the collection using the <B>For Each...Next</B> statement: </P>
+
+<PRE><CODE>Function ShowFolderList(folderspec)
+&nbsp;&nbsp;&nbsp;Dim fso, f, f1, fc, s
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.GetFolder(folderspec)
+&nbsp;&nbsp;&nbsp;Set fc = <span class=cfe><B>f.SubFolders</B></span>
+&nbsp;&nbsp;&nbsp;For Each f1 in fc
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; f1.name 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp;&nbsp;&nbsp;&nbsp;"&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;ShowFolderList = s
+End Function</CODE></PRE>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsprocount.htm">Count Property</A> | <A HREF="vsproitem.htm">Item Property</A></P>
+
+<H4>Methods</H4>
+
+<P><A HREF="vsmthaddfolders.htm">Add Method</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjdrive.htm">Drive Object</A> | <A HREF="vscoldrives.htm">Drives Collection</A> | <A HREF="vsobjfile.htm">File Object</A> | <A HREF="vscolfiles.htm">Files Collection</A> | <A HREF="vsobjfolder.htm">Folder Object</A> | <A HREF="vsprosubfolders.htm">SubFolders Property</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

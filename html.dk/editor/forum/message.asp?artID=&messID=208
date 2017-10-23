@@ -1,0 +1,183 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Prewiev samt masser af funktioner</title>
+
+<meta name="description" content="Deltag i HTML.dk's konkurrence og vind webhoteller fra Wannafind" />
+<meta name="keywords" content="konkurrence, præmier, vind, editor, kodning, program" />
+<meta name="title" content="Re: Prewiev samt masser af funktioner" />
+<meta name="language" content="dan" />
+<meta name="Date" content="24-02-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+<h1>Den perfekte editor</h1><p style='margin-top:0px;'>I dette forum diskuteres det hvilke features den perfekte webeditor bør indeholde<br />Forummet er en del af HTML.dk's konkurrence &quot;Edit your Editor&quot;. <a href='/editor/'>Læs mere om konkurrencen</a>.<br /><br /><strong>----------<br />Den 19. april 2002:<br />Konkurrencen er slut. Vi vurderer i øjeblikket de mange forslag - vinderne vil blive offentliggjort snarligst.<br />----------<br /></strong></p><hr /><div class='forumnavigation'><img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;Der kan ikke længere postes indlæg i dette forum</div>
+
+<div class='message'><ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span> <a href='/community/profile.asp?id=3849' title='Se community-profil for Andreas'>Andreas</a></strong></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 15. marts 2002 kl. 23:12</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span> Re: Prewiev samt masser af funktioner</strong></li></ul><p>glem alt om at disable h&#248;jreklik, det er den t&#229;beligste funktion der nogen sinde er lavet! Det s&#230;nker usability-v&#230;rdien meget! <br /> <br /><span class='orgtxt'>Den 14. marts 2002 kl. 23:25 skrev Peter: <br />-------------------------------------------------- <br />For det f&#248;rste skal den v&#230;re nem og overskuelig, og ikke have en masse menuer s&#229; man bliver forvirret.....  <br />  <br />en lille prewiev knap ville v&#230;re godt..en prewiev er en hvor man trykker p&#229; en knap og s&#229; &#229;bner den en browser med det man lige har lavet.....  <br />  <br />s&#229; skal det den koder ikke v&#230;re alt for b&#248;vlet (tag et kig p&#229; frontpages..den er b&#248;vlet.)..  <br />  <br />Der skal ogs&#229; v&#230;re et par toturials til begyndere og &#248;vede...  <br />  <br />Det ville ogs&#229; v&#230;re fedt hvis den selv lavede kommentarer automatisk...dvs. at hvis man lavede en formular som s&#229; s&#229;dan her ud  <br />  <br />&lt;input type=text name=test>&lt;&lt;input type=submit name=submit>  <br />  <br />s&#229; ville den lave en kommentar der bare lige skre hvad det var den funktion gjorde s&#229; en nybegynder ikke bliver alt for forvirret og ikke kan finde rundt i scriptet.....f.eks  <br />  <br />&lt;input type=text name=test>&lt;&lt;input type=submit name=submit>//Formen hvor man skriver sit navn, mail osv..  <br />  <br />Et par gode og simple men meget anvendelige scripts kunne der ogs&#229; v&#230;re.  <br />f.eks.:  <br />viderestilling  <br />ingen h&#248;jreklik  <br />pop op bokse...  <br />simple menuer,   <br />pop op vinduer...  <br />  <br />Ved ikke om det er rigtigt forklarer men en wizard ville v&#230;re fed...  <br />s&#229;dan en s&#229; man p&#229; f&#248;rste &quot;side&quot; valgte titel,bgfarve osv. p&#229; n&#230;ste hvilken tekst og billed osv. og p&#229; n&#230;ste om der skal nogle html koder eller java ind....og s&#229;dan bliver den ved til &quot;side&quot; 10 hvor siden s&#229; er f&#230;rdig....  <br />  <br />En side med links ville ogs&#229; v&#230;re fedt.....  <br />  <br />Nu har jeg ikke l&#230;st de andre s&#229; jeg ved ikke om dem jeg har n&#230;vnt er taget af andre....  <br />  <br />ses  <br />  <br />  <br />  <br />  <br /> <br /></span></p><hr class='messageruler' /><ul class='messagelist'><li class='message'><a href='message.asp?artID=&amp;messID=207'>Prewiev samt masser af funktioner</a>&nbsp;<small>(14-03-02 - Peter)</small></li><ul class='threadlist'><li class='thread'><strong>Re: Prewiev samt masser a...</strong>&nbsp;<small>(15-03-02 - Andreas)</small></li><ul class='threadlist'><li class='thread'><a href='message.asp?artID=&amp;messID=213'>Re: Prewiev samt masser a...</a>&nbsp;<small>(16-03-02 - Peter)</small></li></ul></ul></ul></div><hr /><div class='forumnavigation'><img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;Der kan ikke længere postes indlæg i dette forum</div>
+
+<dl><dt></dt><dd></dd><dt>Relateret materiale på HTML.dk</dt><dd><ul class='linklist'><li><a href='http://www.html.dk/community/' title='Bliv gratis medlem af HTML.dk'>Community</a></li></ul></dd><dt>Relaterede links om emnet</dt><dd><ul><li class='extdklinklist'><a href='http://www.tsw.dk/' title='Editor fra TSW'>TSW: WebCoder International</a></li></ul></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/editor/forum/message.asp?artID=&messID=208' method='post'><p class='pollheader'>Skal Danmark udskifte kronen med euro?</p><div><input type='hidden' name='tst' value='21-08-03 16:15:24' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/editor/' title='Webcoder International' class='navibox'>Webcoder International</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/editor/forum/threads.asp?forumID=1' title='Oversigt over indlæg om Den perfekte editor' class='navibox'>Den perfekte editor</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Prewiev samt masser af funktioner</span></div>
+
+
+
+</body>
+</html>
+

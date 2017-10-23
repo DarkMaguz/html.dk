@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Udskrivning af baggrundsfarver</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Jens GyldenkærneClausen den 18. marts 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Udskrivning af baggrundsfarver" />
+<meta name="language" content="dan" />
+<meta name="Date" content="18-03-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3CXns93427F34FC2EAjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jens&nbsp;GyldenkærneClausen&nbsp;&nbsp;<a href='mailto:jens@gyros.invalid'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='jens@gyros.invalid' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Danish Music Agency ApS</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 18. marts 2003 kl. 13:30</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Udskrivning af baggrundsfarver</strong></li></ul>
+
+<p><span class='normal'>Steen Eiler J&#248;rgensen skrev: </span><br /><span class='normal'> </span><br /><span class='citat'>> Hvorfor er der s&#229; mange der synes, at fordi Mosaic 2 i sin tid </span><br /><span class='citat'>> gjorde Times p&#229; gr&#229; baggrund til default, s&#229; b&#248;r alle websites </span><br /><span class='citat'>> k&#248;re med Times p&#229; gr&#229; baggrund? </span><br /><span class='normal'> </span><br /><span class='normal'>Er der det? Der er skam ikke noget galt i at ville pr&#230;sentere sin </span><br /><span class='normal'>side p&#229; en bestemt m&#229;de. Det der er noget galt med er n&#229;r man g&#248;r </span><br /><span class='normal'>l&#230;sningen af en side afh&#230;ngig af designet. Enhver side b&#248;r kunne </span><br /><span class='normal'>l&#230;ses helt uden css. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='citat'>> Hvis jeg var ligeglad med, hvordan den s&#229; ud, ville jeg ogs&#229; v&#230;re </span><br /><span class='citat'>> ligeglad med, hvordan den ser ud, n&#229;r andre printer den ud. </span><br /><span class='normal'> </span><br /><span class='normal'>Webmediet er ikke beregnet til papir. Der kan naturligvis godt </span><br /><span class='normal'>printes sider ud, men man skal ikke forvente at f&#229; alle </span><br /><span class='normal'>specialiteterne med ved udprint. </span><br /><span class='normal'> </span><br /><span class='normal'>N&#229;r det er sagt er det naturligvis ogs&#229; tilladt at t&#230;nke p&#229; hvordan </span><br /><span class='normal'>ens sider bliver skrevet ud. Det kan man for eksempel g&#248;re ved at </span><br /><span class='normal'>lave mediespecifikke css-regler. </span><br /><span class='normal'> </span><br /><span class='normal'>Ting som negativ skrift kan virke o.k. p&#229; en sk&#230;rm, men vil med </span><br /><span class='normal'>stor sandsynlighed give problemer ved udskrift. Husk ogs&#229; at hvor </span><br /><span class='normal'>n&#230;sten enhver sk&#230;rmbruger vil kunne se farver, s&#229; er det langt fra </span><br /><span class='normal'>alle printere der gengiver farver. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='citat'>>> Nogen vil f.eks. bombardere os med fonte, og nu vil du stille </span><br /><span class='citat'>>> om p&#229; vores printerops&#230;tning? </span><br /><span class='citat'>> </span><br /><span class='citat'>> Ikke permanent <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> Kun mens du udskriver sider fra mit </span><br /><span class='citat'>> website. </span><br /><span class='normal'> </span><br /><span class='normal'>Selve ops&#230;tningen af en printer har du ingen adgang til. Du kan </span><br /><span class='normal'>skrive en forklarende tekst der beskriver hvordan man kan sl&#229; </span><br /><span class='normal'>udskrivningen af baggrunden til - men du kan ikke gennemtvinge at </span><br /><span class='normal'>udskrifter skal foreg&#229; p&#229; den m&#229;de. </span><br /><span class='normal'>--  </span><br /><span class='normal'>Jens Gyldenk&#230;rne Clausen </span><br /><span class='normal'>Svar venligst under det du citerer, og citer kun det der er </span><br /><span class='normal'>n&#248;dvendigt for at forst&#229; dit svar i sammenh&#230;ngen. Se hvorfor og </span><br /><span class='normal'>hvordan p&#229; <a href='http://usenet.dk/netikette/citatteknik.html'>http://usenet.dk/netikette/citatteknik.html</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb56q96%24o5f%241%40sunsite%2Edk%3E' title='Udskrivning af baggrundsfarver'>Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Steen&nbsp;Eiler&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns934272DA9D402jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: Udskrivning af baggrundsfarver'>Re: Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb56u9h%24lpl%241%40sunsite%2Edk%3E' title='Re: Udskrivning af baggrundsfarver'>Re: Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Steen&nbsp;Eiler&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns93427DE32C8F0jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: Udskrivning af baggrundsfarver'>Re: Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Csesd7v892ggb9g14tgcj3fjt43ng84qekh%40news%2Estofanet%2Edk%3E' title='Re: Udskrivning af baggrundsfarver'>Re: Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Bertel&nbsp;Lund&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cb56u4m%24ksg%241%40sunsite%2Edk%3E' title='Re: Udskrivning af baggrundsfarver'>Re: Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Steen&nbsp;Eiler&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns93427F34FC2EAjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: Udskrivning af baggrundsfarver'>Re: Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3clk52fi%2Efsf%40hotpop%2Ecom%3E' title='Re: Udskrivning af baggrundsfarver'>Re: Udskrivning af baggrundsfarver</a>&nbsp;<small class='newslist'>(18-03-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3CXns93427F34FC2EAjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3cXns93427F34FC2EAjcdmfdk@gyrosmod.dtext.news.tele.dk%3e' method='post'><p class='pollheader'>Hvornår har du sidst brugt dit betalingskort på nettet?</p><div><input type='hidden' name='tst' value='15-05-03 09:39:07' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Inden for den sidste måned</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Inden for det sidste ½ år</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Længere tid siden</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Udskrivning af baggrundsfarver</span></div>
+
+
+
+</body>
+</html>
+

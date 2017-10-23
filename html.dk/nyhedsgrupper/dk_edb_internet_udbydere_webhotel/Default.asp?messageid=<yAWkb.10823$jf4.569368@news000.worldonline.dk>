@@ -1,0 +1,8 @@
+ <font face="Arial" size=2>
+<p>Microsoft VBScript compilation </font> <font face="Arial" size=2>error '800a0400'</font>
+<p>
+<font face="Arial" size=2>Expected statement</font>
+<p>
+<font face="Arial" size=2>/site/includes/page.header.inc.asp</font><font face="Arial" size=2>, line 88</font>
+<pre>&lt;script type=&quot;text/javascript&quot;&gt;
+^</pre> 

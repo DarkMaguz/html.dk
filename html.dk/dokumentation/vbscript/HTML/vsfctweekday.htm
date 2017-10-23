@@ -1,0 +1,177 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Weekday Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctweekday"></A>Weekday Function</H1>
+
+<P>Returns a whole number representing the day of the week.</P>
+
+<P><CODE><B>Weekday(</B>date, [firstdayofweek]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>date</I></P>
+
+<P class=indent>Any expression that can represent a <A HREF="vtglossary.htm#defdateexpressionvbs">date</A>. If <I>date</I> contains <A HREF="vtglossary.htm#defnullvbs">Null</A>, <B>Null</B> is returned.</P>
+
+<P class=dt><I>firstdayofweek</I></P>
+
+<P class=indent>A constant that specifies the first day of the week. If omitted, <B>vbSunday</B> is assumed.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>firstdayofweek</I> argument has these settings:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=27%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=62%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbUseSystem</TD>
+<TD width=11%>0</TD>
+<TD width=62%>Use National Language Support (NLS) API setting.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbSunday</TD>
+<TD width=11%>1</TD>
+<TD width=62%>Sunday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbMonday</TD>
+<TD width=11%>2</TD>
+<TD width=62%>Monday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbTuesday</TD>
+<TD width=11%>3</TD>
+<TD width=62%>Tuesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbWednesday</TD>
+<TD width=11%>4</TD>
+<TD width=62%>Wednesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbThursday</TD>
+<TD width=11%>5</TD>
+<TD width=62%>Thursday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbFriday</TD>
+<TD width=11%>6</TD>
+<TD width=62%>Friday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbSaturday</TD>
+<TD width=11%>7</TD>
+<TD width=62%>Saturday</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Return Values</H4>
+
+<P>The <B>Weekday</B> function can return any of these values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=27%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=62%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbSunday</TD>
+<TD width=11%>1</TD>
+<TD width=62%>Sunday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbMonday</TD>
+<TD width=11%>2</TD>
+<TD width=62%>Monday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbTuesday</TD>
+<TD width=11%>3</TD>
+<TD width=62%>Tuesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbWednesday</TD>
+<TD width=11%>4</TD>
+<TD width=62%>Wednesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbThursday</TD>
+<TD width=11%>5</TD>
+<TD width=62%>Thursday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbFriday</TD>
+<TD width=11%>6</TD>
+<TD width=62%>Friday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>vbSaturday</TD>
+<TD width=11%>7</TD>
+<TD width=62%>Saturday</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>Weekday</B> function to obtain the day of the week from a specified date: </P>
+
+<PRE><CODE>Dim MyDate, MyWeekDay
+MyDate = #October 19, 1962#&nbsp;&nbsp;&nbsp;' Assign a date.
+MyWeekDay = <span class=cfe><B>Weekday(</B></span>MyDate<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' MyWeekDay contains 6 because MyDate represents a Friday.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctdate.htm">Date Function</A> | <A HREF="vsfctday.htm">Day Function</A> | <A HREF="vsfctmonth.htm">Month Function</A> | <A HREF="vsfctnow.htm">Now Function</A> | <A HREF="vsfctyear.htm">Year Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

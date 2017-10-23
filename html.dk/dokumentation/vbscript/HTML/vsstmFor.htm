@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>For...Next Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmfor"></A>For...Next Statement</H1>
+
+<P>Repeats a group of statements a specified number of times.</P>
+
+<P><CODE><B>For</B> <I>counter</I> <B>=</B> <I>start</I> <B>To</B> <I>end</I> [<B>Step</B> <I>step</I>]<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;[<B>Exit For</B>]<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+<B>Next</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>counter</I></P>
+
+<P class=indent>Numeric variable used as a loop counter. The variable can't be an <A HREF="vtglossary.htm#defarrayvbs">array</A> element or an element of a user-defined type.</P>
+
+<P class=dt><I>start</I></P>
+
+<P class=indent>Initial value of <I>counter</I>.</P>
+
+<P class=dt><I>end</I></P>
+
+<P class=indent>Final value of <I>counter</I>.</P>
+
+<P class=dt><I>step</I></P>
+
+<P class=indent>Amount <I>counter</I> is changed each time through the loop. If not specified, <I>step</I> defaults to one.</P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>One or more statements between <B>For</B> and <B>Next</B> that are executed the specified number of times.</P>
+
+<H4>Remarks</H4>
+
+<P>The <I>step</I> argument can be either positive or negative. The value of the <I>step</I> argument determines loop processing as follows:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=48%>Value</TH>
+<TH width=52%>Loop executes if</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=48%>Positive or 0</TD>
+<TD width=52%>counter &lt;= end</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=48%>Negative</TD>
+<TD width=52%>counter &gt;= end</TD>
+</TR>
+</TABLE><BR>
+
+<P>Once the loop starts and all statements in the loop have executed, <I>step</I> is added to <I>counter</I>. At this point, either the statements in the loop execute again (based on the same test that caused the loop to execute initially), or the loop is exited and execution continues with the statement following the <B>Next</B> statement.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>Changing the value of <I>counter</I> while inside a loop can make it more difficult to read and debug your code.</P>
+
+<P><B>Exit For</B> can only be used within a <B>For Each...Next</B> or <B>For...Next</B> control structure to provide an alternate way to exit. Any number of <B>Exit For</B> statements may be placed anywhere in the loop. <B>Exit For </B>is often used with the evaluation of some condition (for example, <B>If...Then</B>), and transfers control to the statement immediately following <B>Next</B>.</P>
+
+<P>You can nest <B>For...Next</B> loops by placing one <B>For...Next</B> loop within another. Give each loop a unique variable name as its <I>counter</I>. The following construction is correct: </P>
+
+<PRE><CODE><span class=cfe><B>For</B></span> I = 1 <span class=cfe><B>To</B></span> 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>For</B></span> J = 1 <span class=cfe><B>To</B></span> 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>For</B></span> K = 1 <span class=cfe><B>To</B></span> 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>. . .</B>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Next</B></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Next</B></span>
+Next</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdo.htm">Do...Loop Statement</A> | <A HREF="vsstmexit.htm">Exit Statement</A> | <A HREF="vsstmforeach.htm">For Each...Next Statement</A> | <A HREF="vsstmwhile.htm">While...Wend Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

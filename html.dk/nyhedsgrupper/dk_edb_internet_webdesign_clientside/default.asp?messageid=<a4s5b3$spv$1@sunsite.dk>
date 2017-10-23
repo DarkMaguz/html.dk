@@ -1,0 +1,174 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>t&#230;ller af form</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af Bjørn den 19. februar 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="t&#230;ller af form" />
+<meta name="language" content="dan" />
+<meta name="Date" content="19-02-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<script language="JavaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+   </a>
+</noscript>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3Ca4s5b3%24spv%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Bjørn&nbsp;&nbsp;<a href='mailto:support@service2001.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='support@service2001.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> www.html.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 19. februar 2002 kl. 02:13</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>t&#230;ller af form</strong></li></ul>
+
+<p><span class='normal'>jeg har en form hvor folk skal indtaset en s&#230;tning. under den </span><br /><span class='normal'>taster de en h&#248;jde, samt andre data ved hj&#230;lp af radio og </span><br /><span class='normal'>checkbox... ud fra det skal jeg have beregnet en pris for dette.. </span><br /><span class='normal'> </span><br /><span class='normal'>---- min form---- </span><br /><span class='normal'>&lt;form method=&quot;post&quot; action=&quot;ordre.asp?id=tekst&quot;> </span><br /><span class='normal'>Indtast den &#248;nskede tekst: &lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;text&quot; name=&quot;Teksten&quot; size=&quot;60&quot;> &lt;BR> </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>Bogstav h&#248;jde:&lt;BR> </span><br /><span class='normal'>&lt;img src=&quot;grafik/h.gif&quot;>&amp;nbsp; &lt;input type=&quot;text&quot; name=&quot;hojde&quot; </span><br /><span class='normal'>size=&quot;3&quot;>mm &lt;BR> </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>Farve:&lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;radio&quot; name=&quot;farve&quot; value=&quot;r&#248;d&quot; checked=&quot;checked&quot;> </span><br /><span class='normal'>R&#248;d </span><br /><span class='normal'>&lt;input type=&quot;radio&quot; name=&quot;farve&quot; value=&quot;gr&#248;n&quot;> Gr&#248;n </span><br /><span class='normal'>&lt;input type=&quot;radio&quot; name=&quot;farve&quot; value=&quot;bl&#229;&quot;> Bl&#229; </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>Skrifttype:&lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;radio&quot; name=&quot;skrift&quot; value=&quot;Old English&quot; </span><br /><span class='normal'>checked=&quot;checked&quot;> Old English &lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;radio&quot; name=&quot;skrift&quot; value=&quot;Park Avenue&quot;> Park </span><br /><span class='normal'>Avenue &lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;radio&quot; name=&quot;skrift&quot; value=&quot;Brush&quot;> Brush &lt;BR> </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>Tekstmanipulationer:&lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;checkbox&quot; name=&quot;mani&quot; value=&quot;spejlvendt&quot;>&lt;img </span><br /><span class='normal'>src=&quot;grafik/spejlvendt.gif&quot;>&lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;checkbox&quot; name=&quot;mani&quot; value=&quot;negativ&quot;>&lt;img </span><br /><span class='normal'>src=&quot;grafik/negativt.gif&quot;>&lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;checkbox&quot; name=&quot;mani&quot; value=&quot;kuntur&quot;>&lt;img </span><br /><span class='normal'>src=&quot;grafik/kuntur1.gif&quot;>&lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;checkbox&quot; name=&quot;mani&quot; value=&quot;kusiv&quot;>&lt;img </span><br /><span class='normal'>src=&quot;grafik/kusiv.gif&quot;>&lt;BR> </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>&lt;BR> </span><br /><span class='normal'>&lt;input type=&quot;submit&quot; value=&quot; Godkend &quot;> </span><br /><span class='normal'>&lt;/form> </span><br /><span class='normal'> </span><br /><span class='normal'>---- beregningsm&#229;de </span><br /><span class='normal'>hver bogstav der indtastes koster en bestemt pris alt efter </span><br /><span class='normal'>st&#248;rrelse..  </span><br /><span class='normal'>f.eks. 10mm - 20mm = 4,15 kr </span><br /><span class='normal'>og hvis der er valgt noget i checkbox'ene skal der l&#230;gges 10% </span><br /><span class='normal'>oven i.. </span><br /><span class='normal'>h&#229;ber at i kan hj&#230;lpe mig... da jeg er nybegynder. </span><br /><span class='normal'> </span><br /><span class='normal'>m&#229; meget gerne udregne l&#248;bende.... hvis det kan lade sig g&#248;re </span><br /><span class='normal'>ellers skal folk bare trykke p&#229; en knap n&#229;r de er f&#230;rdig til at </span><br /><span class='normal'>se bel&#248;bet </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI eller ASP ??? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Ca4s5b3%24spv%241%40sunsite%2Edk%3E' title='t&#230;ller af form'>t&#230;ller af form</a>&nbsp;<small class='newslist'>(19-02-02&nbsp;-&nbsp;Bjørn)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Ca4upv9%24bml%241%40sunsite%2Edk%3E' title='Re: t&#230;ller af form'>Re: t&#230;ller af form</a>&nbsp;<small class='newslist'>(20-02-02&nbsp;-&nbsp;Bjørn)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3Ca4s5b3%24spv%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" tabindex="1" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" tabindex="2" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" tabindex="3" class="menulink" title="Bliv gratis medlem af HTML.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" tabindex="4" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" tabindex="5" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" tabindex="6" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" tabindex="7" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" tabindex="8" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" tabindex="9" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" tabindex="10" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+
+<div id="sponsor"><br />
+<a href='http://www.find-svaret.dk'><img src='/site/graphics/sponsorater/125x90find-svaret.gif' alt='Find svaret' /></a>
+</div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3ca4s5b3$spv$1@sunsite.dk%3e' method='post'><p class='pollheader'>Bør dybe links være ulovlige?</p><div><input type='hidden' name='tst' value='02-03-02 19:27:28' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+						<!-- DoubleClick start -->
+
+						<center>
+						<script language="JavaScript">
+						<!--
+						   var time = new Date();
+						   randnum = (time.getTime());
+						   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+						   document.write('<\/scr'+'ipt>');
+						//-->
+						</script>
+						<noscript>
+						   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+						   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+						   </a>
+						</noscript>
+						</center>
+
+						<!-- DoubleClick end -->
+
+						
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<a href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=2" /></a>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: t&#230;ller af form</span></div>
+
+</body>
+</html>
+

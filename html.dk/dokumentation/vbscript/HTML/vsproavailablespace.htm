@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>AvailableSpace Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsproavailablespace"></A>AvailableSpace Property</H1>
+
+<P>Returns the amount of space available to a user on the specified drive or network share.</P>
+
+<P><CODE><I>object</I>.AvailableSpace </CODE></P>
+
+<P>The <I>object</I> is always a <B>Drive</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>The value returned by the <B>AvailableSpace</B> property is typically the same as that returned by the <B>FreeSpace</B> property. Differences may occur between the two for computer systems that support quotas.</P>
+
+<P>The following code illustrates the use of the <B>AvailableSpace</B> property: </P>
+
+<PRE><CODE>Function ShowAvailableSpace(drvPath)
+&nbsp;&nbsp;&nbsp;Dim fso, d, s
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set d = fso.GetDrive(fso.GetDriveName(drvPath))
+&nbsp;&nbsp;&nbsp;s = "Drive " &amp; UCase(drvPath) &amp; " - " 
+&nbsp;&nbsp;&nbsp;s = s &amp; d.VolumeName&nbsp;&nbsp;&nbsp;&amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Available Space: " &amp; FormatNumber(<span class=cfe><B>d.AvailableSpace</B></span>/1024, 0) 
+&nbsp;&nbsp;&nbsp;s = s &amp; " Kbytes"
+&nbsp;&nbsp;&nbsp;ShowAvailableSpace = s
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprodriveletter.htm">DriveLetter Property</A> | <A HREF="vsprodrivetype.htm">DriveType Property</A> | <A HREF="vsprofilesystem.htm">FileSystem Property</A> | <A HREF="vsprofreespace.htm">FreeSpace Property</A> | <A HREF="vsproisready.htm">IsReady Property</A> | <A HREF="vspropath.htm">Path Property</A> | <A HREF="vsprorootfolder.htm">RootFolder Property</A> | <A HREF="vsproserialnumber.htm">SerialNumber Property</A> | <A HREF="vsprosharename.htm">ShareName Property</A> | <A HREF="vsprototalsize.htm">TotalSize Property</A> | <A HREF="vsprovolumename.htm">VolumeName Property</A></P>
+
+<P>Applies To: <A HREF="vsobjdrive.htm">Drive Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

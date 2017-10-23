@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>String Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctstring"></A>String Function</H1>
+
+<P>Returns a repeating character string of the length specified.</P>
+
+<P><CODE><B>String(</B>number<B>, </B>character<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>number</I></P>
+
+<P class=indent>Length of the returned string. If <I>number</I> contains <A HREF="vtglossary.htm#defnullvbs">Null</A>, <B>Null</B> is returned.</P>
+
+<P class=dt><I>character</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defcharactercodevbs">Character code</A> specifying the character or <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> whose first character is used to build the return string. If <I>character</I> contains <B>Null</B>, <B>Null</B> is returned. </P>
+
+<H4>Remarks</H4>
+
+<P>If you specify a number for <I>character</I> greater than 255, <B>String</B> converts the number to a valid character code using the formula: </P>
+
+<PRE><CODE>character Mod 256</CODE></PRE>
+
+<P>The following example uses the <B>String</B> function to return repeating character strings of the length specified: </P>
+
+<PRE><CODE>Dim MyString
+MyString = <span class=cfe><B>String(</B></span>5<span class=cfe><B>,</B></span> "*"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns "*****".
+MyString = <span class=cfe><B>String(</B></span>5<span class=cfe><B>,</B></span> 42<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns "*****".
+MyString = <span class=cfe><B>String(</B></span>10<span class=cfe><B>,</B></span> "ABC"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns "AAAAAAAAAA".</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctspace.htm">Space Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,60 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Content Linking List File</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_content_linking_list_file"></a>Content Linking List File</h3>
+<p>
+The Content Linking List file contains one line of text for each URL in the list. Each line ends in a carriage return and each item on a line is separated by a TAB character. </p>
+<h5>Syntax</h5>
+<pre><i>Web-page-URL </i>[<b> </b><i>text-description </i>[<i><b> </b>comment</i>]]<i> 
+ </i></pre>
+<h5>Values</h5>
+<dl>
+<dt>
+<i>Web-page-URL</i></dt>
+<dd>
+The virtual or relative URL of the Web page in the format <i>filename </i>or <i>directory\filename</i>. Absolute URLs, those that start with &quot;http:&quot;, &quot;//&quot;, or &quot;\\&quot;, are not supported and will not be processed by methods such as <b>GetNextURL </b>and <b>GetListIndex</b>. When building your content path, you should ensure that no collisions or infinite loops can occur.<br>
+</dd>
+<dt>
+<i>text-description</i></dt>
+<dd>
+A value containing text that describes <i>Web-page-URL</i>. <br>
+</dd>
+<dt>
+<i>comment</i></dt>
+<dd>
+Explanatory text that is not processed by the component.</dd>
+</dl>
+<h5>Example </h5>
+<p>
+The following text file creates a list of URLs that can be used by the Content Linking component. </p>
+<pre>---NEXTLINK.TXT---
+story1.htm Highlights From the Hockey Playoffs<BR>story2.htm Congress Passes New Welfare Initiative<BR>story3.htm Cider Recipes to Warm Long Winter Nights<BR>story4.htm Winter Storm to bring more snow to East <BR>story5.htm Reducing Stress on the Job<BR>main.htm Return to the table of contents 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

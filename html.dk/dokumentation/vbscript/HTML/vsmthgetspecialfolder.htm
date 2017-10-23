@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>GetSpecialFolder Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthgetspecialfolder"></A>GetSpecialFolder Method</H1>
+
+<P>Returns the special folder specified.</P>
+
+<P><CODE><I>object</I>.<B>GetSpecialFolder(</B><I>folderspec</I><B>)</B> </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>folderspec</I></P>
+
+<P class=indent>Required. The name of the special folder to be returned. Can be any of the constants shown in the Settings section.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>folderspec</I> argument can have any of the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=30%>Constant</TH>
+<TH width=10%>Value</TH>
+<TH width=60%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>WindowsFolder</TD>
+<TD width=10%>0</TD>
+<TD width=60%>The Windows folder contains files installed by the Windows operating system.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>SystemFolder</TD>
+<TD width=10%>1</TD>
+<TD width=60%>The System folder contains libraries, fonts, and device drivers.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>TemporaryFolder</TD>
+<TD width=10%>2</TD>
+<TD width=60%>The Temp folder is used to store temporary files. Its path is found in the TMP environment variable.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example illustrates use of the <B>GetSpecialFolder</B> method: </P>
+
+<PRE><CODE>Dim fso, tempfile
+Set fso = CreateObject("Scripting.FileSystemObject")
+
+Function CreateTempFile 
+&nbsp;&nbsp;&nbsp;Dim tfolder, tname, tfile
+&nbsp;&nbsp;&nbsp;Const TemporaryFolder = 2
+&nbsp;&nbsp;&nbsp;Set tfolder = <span class=cfe><B>fso.GetSpecialFolder(</B></span>TemporaryFolder<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;tname = fso.GetTempName&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;Set tfile = tfolder.CreateTextFile(tname)
+&nbsp;&nbsp;&nbsp;Set CreateTempFile = tfile
+End Function
+
+Set tempfile = CreateTempFile
+tempfile.WriteLine "Hello World"
+tempfile.Close</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthgetabsolutepathname.htm">GetAbsolutePathName Method</A> | <A HREF="vsmthgetbasename.htm">GetBaseName Method</A> | <A HREF="vsmthgetdrive.htm">GetDrive Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsmthgetextensionname.htm">GetExtensionName Method</A> | <A HREF="vsmthgetfile.htm">GetFile Method</A> | <A HREF="vsmthgetfilename.htm">GetFileName Method</A> | <A HREF="vsmthgetfolder.htm">GetFolder Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthgettempname.htm">GetTempName Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

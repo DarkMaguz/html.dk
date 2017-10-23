@@ -1,0 +1,69 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Reset</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_reset"></a>Reset</h2>
+<p>
+The <b>Reset </b>method sets the hit count for a specified Web page to 0.</p>
+<h3>Syntax</h3>
+<pre><b>Reset(</b>[<i>pathInfo</i>]<b>)</b> 
+ </pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>pathInfo</i></dt>
+<dd>
+Optional parameter that specifies the PATH_INFO of the Web page using the format /<i>virtualdirectoryname</i>/<i>filename</i>.<i>asp</i>. If this parameter is not specified, the hit count for the current page is reset.</dd>
+</dl>
+<h3>Return Values</h3>
+<p>
+None. </p>
+<h3>Examples</h3>
+<p>
+The following example resets the page counters for the current Web page and <code>Mypage.asp</code>.</p>
+<pre>&lt;%
+Set MyPageCounter = Server.CreateObject(&quot;MSWC.PageCounter&quot;)
+MyPageCounter.Reset
+MyPageCounter.Reset(&quot;/VirtualDir1/Mypage.asp&quot;)
+%&gt;
+
+(The following two values should be 0) &lt;BR&gt;
+Hits to this page = &lt;%= MyPageCount.Hits %&gt; &lt;BR&gt;
+Hits to Mypage.asp = &lt;%= MyPageCount.Hits(&quot;/VirtualDir1/Mypage.asp&quot;) &lt;BR&gt;
+ </pre>
+<h3>Applies To</h3>
+<p>
+<a href="page00vo.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page00vo.htm"><b>Page Counter Component</b></a></p>
+<h3>See Also</h3>
+<p>
+<a href="page559v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page559v.htm"><b>Hits</b></a></p>
+<p>
+ </p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

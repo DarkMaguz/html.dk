@@ -1,0 +1,186 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Can't get CGIs to work on Apache, am I stupid ?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside skrevet af Adam Sjøgren den 1. september 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Can't get CGIs to work on Apache, am I stupid ?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="01-09-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+<!-- AdLink skyscraper start -->
+<div id="skyscraper">
+<script type="text/JavaScript">
+<!--
+	var time = new Date();
+	randnum = (time.getTime());
+	document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html2.dk/page/all_140x800;dcopt=ist;sz=140x800;ord='+randnum+'?"><\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+	<div><a href="http://ad.dk.doubleclick.net/jump/html2.dk/page/all_140x800;dcopt=ist;sz=140x800;ord=4918568730?">
+	<img src="http://ad.dk.doubleclick.net/ad/html2.dk/page/all_140x800;dcopt=ist;sz=140x800;ord=4918568730?" width="140" height="800" alt="Banner" /> 
+	</a></div>
+</noscript>
+</div>
+<!-- AdLink skyscraper end -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside</h1><p>Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling, Serverside scipting, Serverfaciliteter og Webservere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C8766b2rgw2%2Efsf%40virgil%2Ekoldfront%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Adam&nbsp;Sjøgren&nbsp;&nbsp;<a href='mailto:asjo@koldfront.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='asjo@koldfront.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> koldfront - analysis & revolution&#44; Copenhagen&#44; Denmark</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 1. september 2001 kl. 18:54</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Can't get CGIs to work on Apache, am I stupid ?</strong></li></ul>
+
+<p><span class='normal'>On Sat, 1 Sep 2001 18:11:05 +0200, Thomas Mandelbaum wrote: </span><br /><span class='normal'> </span><br /><span class='citat'>>> When you don't know what to do, you read a HOWTO, tutorial or even, </span><br /><span class='citat'>>> yikes, a manual. </span><br /><span class='normal'> </span><br /><span class='citat'>> I went to <a href='http://apache.org'>apache.org</a> and looked for a tutorial, all I got was a </span><br /><span class='citat'>> broken link. </span><br /><span class='normal'> </span><br /><span class='normal'>I won't argue that <a href='http://apache.org'>apache.org</a> is an easy to use website. I don't think </span><br /><span class='normal'>it is. I'm always confused if I go there. </span><br /><span class='normal'> </span><br /><span class='normal'>I'm sure you can find a myriad of tutorials on setting up Apache on </span><br /><span class='normal'>Windows if you use your favourite search-engine instead. </span><br /><span class='normal'> </span><br /><span class='citat'>> It's a *bit* hard to learn the handling of Apache when on the </span><br /><span class='citat'>> developers' page the tutorial is 404ed. </span><br /><span class='normal'> </span><br /><span class='normal'>Fortunately there are plenty of other places with information about </span><br /><span class='normal'>Apache than <a href='http://apache.org'>apache.org</a>. </span><br /><span class='normal'> </span><br /><span class='citat'>>> How much did you pay them? How arrogant are you? &quot;It doesn't work </span><br /><span class='citat'>>> out-of-the-box for me, those who made it must be arrogant&quot;. Right. </span><br /><span class='normal'> </span><br /><span class='citat'>> I've been trying and trying for about four hours and still I </span><br /><span class='citat'>> couldn't enable CGI. Should I be thankful for my luck or what ? </span><br /><span class='normal'> </span><br /><span class='normal'>I don't know you, I don't know what your previous experiences are, so </span><br /><span class='normal'>I have no idea whether four hours is unacceptably long or ridiculously </span><br /><span class='normal'>short. </span><br /><span class='normal'> </span><br /><span class='citat'>>> That depends on your background and/or willingness to read manuals. </span><br /><span class='normal'> </span><br /><span class='citat'>> Yeah right, manuals are that easy to understand, especially </span><br /><span class='citat'>> &quot;childprocess&quot; is explained as &quot;a spawned process&quot; and a &quot;shebang&quot; </span><br /><span class='citat'>> isn't explained in any way. </span><br /><span class='normal'> </span><br /><span class='normal'>Since that is unix-terms that aren't specific to Apache, I don't think </span><br /><span class='normal'>it is reasonable to expect the Apache developers to nurse you through </span><br /><span class='normal'>that. </span><br /><span class='normal'> </span><br /><span class='normal'>Did you try using a search-engine to search for the term or the </span><br /><span class='normal'>error-message you get? I'm sure that there are people besides you that </span><br /><span class='normal'>have had the same problem. </span><br /><span class='normal'> </span><br /><span class='citat'>>> I don't understand that sentence. What are you trying to say? </span><br /><span class='normal'> </span><br /><span class='citat'>> Why is there no checkbox to click on &quot;enable all CGIs coming from </span><br /><span class='citat'>> c:\apache\cgi-bin&quot; ? Why does the user have to bother with let me </span><br /><span class='citat'>> guess about 15 lines in a .conf-file ? Why ? Because the software is </span><br /><span class='citat'>> more customizable ? </span><br /><span class='normal'> </span><br /><span class='normal'>Because nobody has cared enough about a slick GUI to actually make it(*). </span><br /><span class='normal'> </span><br /><span class='normal'>Since it seems to bother you a lot, perhaps it would be a project for </span><br /><span class='normal'>you to make such a program? </span><br /><span class='normal'> </span><br /><span class='normal'>(*): I don't know if any such GUI's exists; it would probably be a </span><br /><span class='normal'>good idea to check if someone else is working on it before starting a </span><br /><span class='normal'>new project. </span><br /><span class='normal'> </span><br /><span class='citat'>>> Now go install IIS and get your webserver auto-cracked by Code Red </span><br /><span class='citat'>>> <img src='/site/graphics/smileys/smiley1.gif' alt=':-)'> </span><br /><span class='normal'> </span><br /><span class='citat'>> Install the latest SP and code red has no effect. </span><br /><span class='normal'> </span><br /><span class='normal'>Why don't you do that and stop screaming about your inability to get a </span><br /><span class='normal'>simple shell-script run by Apache then? </span><br /><span class='normal'> </span><br /><span class='normal'>Can you run the shell-script on the commandline? If not, fix that, </span><br /><span class='normal'>then try again. </span><br /><span class='normal'> </span><br /><span class='citat'>> Besides there are also lots of apache-exploits. </span><br /><span class='normal'> </span><br /><span class='normal'>Of course there is, I was making a joke, not comparing the merits of </span><br /><span class='normal'>webservers security. </span><br /><span class='normal'> </span><br /><span class='citat'>> You also seem not to know what this &quot;child process&quot;-thing means, do </span><br /><span class='citat'>> you ? </span><br /><span class='normal'> </span><br /><span class='normal'>I think I've given a reasonable guess at what your problem is (not </span><br /><span class='normal'>having a shell installed as /bin/sh) and a superficial description of </span><br /><span class='normal'>what a child process is, earlier. </span><br /><span class='normal'> </span><br /><span class='normal'>I don't know Windows, so I can't take you by the hand and walk you </span><br /><span class='normal'>through it. Sorry. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>  Best regards, </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'> &quot;Se, det her er en naturoplevelse.&quot;                           Adam Sj&#248;gren </span><br /><span class='normal'> &quot;Nej det er ej, det er en blomst!&quot;                       <a href='http://asjo@koldfront.dk'>asjo@koldfront.dk</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mq7jf%24t0e%2402%241%40news%2Et%2Donline%2Ecom%3E' title='Can't get CGIs to work on Apache, am I stupid ?'>Can't get CGIs to work on Apache, am I stupid ?</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CQo2k7%2E21649%243q%2E785868%40news010%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mqehj%24ndv%2400%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CQL3k7%2E21663%243q%2E786948%40news010%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mql20%24p8f%241%40sunsite%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Flemming&nbsp;Joensson)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cs74k7%2E21668%243q%2E787563%40news010%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mql9o%24kfb%2404%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mqlck%24p5d%2401%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C%25g5k7%2E28557%24Ay1%2E851366%40news000%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C%25B5k7%2E28561%24Ay1%2E852140%40news000%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C2D5k7%2E28562%24Ay1%2E851976%40news000%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mqpti%24puj%2406%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C%5F%255k7%2E21698%243q%2E790008%40news010%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mqqn5%249v3%2400%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3q6k7%2E28590%24Ay1%2E853474%40news000%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mqsmq%24mhq%2407%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C87ae0erj7z%2Efsf%40virgil%2Ekoldfront%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Adam&nbsp;Sjøgren)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C87heunm04c%2Efsf%40virgil%2Ekoldfront%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Adam&nbsp;Sjøgren)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mr1ar%248pm%2404%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C8766b2rgw2%2Efsf%40virgil%2Ekoldfront%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Adam&nbsp;Sjøgren)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3ChS4k7%2E28551%24Ay1%2E850704%40news000%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CXW4k7%2E28553%24Ay1%2E850877%40news000%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9mqonm%2470u%2400%241%40news%2Et%2Donline%2Ecom%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Thomas&nbsp;Mandelbaum)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CMR5k7%2E21693%243q%2E789865%40news010%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C87pu9bm1i9%2Efsf%40virgil%2Ekoldfront%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Adam&nbsp;Sjøgren)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CJD6k7%2E28592%24Ay1%2E854004%40news000%2Eworldonline%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Martin&nbsp;F)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C874rqnlziv%2Efsf%40virgil%2Ekoldfront%2Edk%3E' title='Re: Can't get CGIs to work on Apache, am I stupid ...'>Re: Can't get CGIs to work on Apache, am I stupid ...</a>&nbsp;<small class='newslist'>(01-09-01&nbsp;-&nbsp;Adam&nbsp;Sjøgren)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C8766b2rgw2%2Efsf%40virgil%2Ekoldfront%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3c8766b2rgw2.fsf@virgil.koldfront.dk%3e' method='post'><p class='pollheader'>Hvor ofte opdaterer du din viden ved at tage til konferencer, messer, udstillinger, workshops og lignende?</p><div><input type='hidden' name='tst' value='27-05-02 15:56:43' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ugentligt</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Månedtligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Et par gange om året</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Sjældnere</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp' title='Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling' class='navibox'>dk.edb.internet.webdesign.serverside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Can't get CGIs to work on Apache</span></div>
+
+<div><img src="/survey.asp" width="1" height="1" alt="Survey" /></div>
+
+</body>
+</html>
+

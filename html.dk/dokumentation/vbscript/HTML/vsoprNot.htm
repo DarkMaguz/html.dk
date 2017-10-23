@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Not Operator</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsoprnot"></A>Not Operator</H1>
+
+<P>Performs logical negation on an expression.</P>
+
+<P><CODE>result <B>=</B> <B>Not</B> expression</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>result</I></P>
+
+<P class=indent>Any numeric variable.</P>
+
+<P class=dt><I>expression</I></P>
+
+<P class=indent>Any <A HREF="vtglossary.htm#defexpressionvbs">expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P>The following table illustrates how <I>result</I> is determined:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=50%>If expression is</TH>
+<TH width=50%>Then <I>result </I>is</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>True</TD>
+<TD width=50%>False</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>False</TD>
+<TD width=50%>True</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%> <A HREF="vtglossary.htm#defnullvbs">Null</A><U> </U></TD>
+<TD width=50%>Null</TD>
+</TR>
+</TABLE><BR>
+
+<P>In addition, the <B>Not</B> operator inverts the bit values of any variable and sets the corresponding bit in <I>result</I> according to the following table:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=50%>Bit in expression</TH>
+<TH width=50%>Bit in <I>result</I></TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>0</TD>
+<TD width=50%>1</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>1</TD>
+<TD width=50%>0</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsoprand.htm">And Operator</A> | <A HREF="vsidxlogical.htm">Logical Operators</A> | <A HREF="vsgrpoperatorprecedence.htm">Operator Precedence</A> | <A HREF="vsgrpoperatorsummary.htm">Operator Summary</A> | <A HREF="vsopror.htm">Or Operator</A> | <A HREF="vsoprxor.htm">Xor Operator</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

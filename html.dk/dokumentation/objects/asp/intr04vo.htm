@@ -1,0 +1,50 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Timeout</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_timeout"></a>Timeout</h2>
+<p>
+The <b>Timeout </b>property specifies the timeout period assigned to the <b>Session</b> object for this application, in minutes. If the user does not refresh or request a page within the timeout period, the session ends.</p>
+<h4>Syntax</h4>
+<pre><b>Session.Timeout </b>[<b> = </b><i>nMinutes</i>] 
+ </pre>
+<h4>Parameters</h4>
+<dl>
+<dt>
+<i>nMinutes</i></dt>
+<dd>
+Specifies the number of minutes that a session can remain idle before the server terminates it automatically. The default is 20 minutes.</dd>
+</dl>
+<h4>Applies To</h4>
+<p>
+<a href="intr12d0.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr12d0.htm"><b>Session Object</b></a> </p>
+<h4>See Also</h4>
+<p>
+<a href="intr5tpq.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5tpq.htm"><b>Abandon</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

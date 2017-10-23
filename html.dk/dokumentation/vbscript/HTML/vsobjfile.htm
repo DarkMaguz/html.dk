@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>File Object</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsobjfile"></A>File Object</H1>
+
+<P>Provides access to all the properties of a file.</P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates how to obtain a <B>File</B> object and how to view one of its properties. </P>
+
+<PRE><CODE>Function ShowDateCreated(filespec)
+&nbsp;&nbsp;&nbsp;Dim fso, f
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set <span class=cfe><B>f</B></span> = fso.GetFile(filespec)
+&nbsp;&nbsp;&nbsp;ShowDateCreated = <span class=cfe><B>f.</B></span>DateCreated
+End Function</CODE></PRE>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsproattributes.htm">Attributes Property</A> | <A HREF="vsprodatecreated.htm">DateCreated Property</A> | <A HREF="vsprodatelastaccessed.htm">DateLastAccessed Property</A> | <A HREF="vsprodatelastmodified.htm">DateLastModified Property</A> | <A HREF="vsprodrive.htm">Drive Property</A> | <A HREF="vsproname.htm">Name Property</A> | <A HREF="vsproparentfolder.htm">ParentFolder Property</A> | <A HREF="vspropath.htm">Path Property</A> | <A HREF="vsproshortname.htm">ShortName Property</A> | <A HREF="vsproshortpath.htm">ShortPath Property</A> | <A HREF="vsprosize.htm">Size Property</A> | <A HREF="vsprotype.htm">Type Property</A></P>
+
+<H4>Methods</H4>
+
+<P><A HREF="vsmthcopy.htm">Copy Method</A> | <A HREF="vsmthdelete.htm">Delete Method</A> | <A HREF="vsmthmove.htm">Move Method</A> | <A HREF="vsmthopenastextstream.htm">OpenAsTextStream Method</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjdrive.htm">Drive Object</A> | <A HREF="vscoldrives.htm">Drives Collection</A> | <A HREF="vscolfiles.htm">Files Collection</A> | <A HREF="vsobjfolder.htm">Folder Object</A> | <A HREF="vscolfolders.htm">Folders Collection</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Public Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmpublic"></A>Public Statement</H1>
+
+<P>Declares public variables and allocates storage space. Declares, in a <B>Class</B> block, a private variable.</P>
+
+<P><CODE><B>Public</B> varname[<B>(</B>[subscripts]<B>)</B>][<B>, </B>varname[<B>(</B>[subscripts]<B>)</B>]] <B>. . .</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>varname</I></P>
+
+<P class=indent>Name of the <A HREF="vtglossary.htm#defvariablevbs">variable</A> ; follows standard variable naming conventions.</P>
+
+<P class=dt><I>subscripts</I></P>
+
+<P class=indent>Dimensions of an <A HREF="vtglossary.htm#defarrayvbs">array</A> variable; up to 60 multiple dimensions may be declared. The <I>subscripts</I> argument uses the following syntax: </P>
+
+<P class=indent>upper [<B>,</B> upper] <B>. . . </B></P>
+
+<P class=indent></P>
+
+<P class=indent>The lower bound of an array is always zero.</P>
+
+<H4>Remarks</H4>
+
+<P><A HREF="vtglossary.htm#defpublicvbs">Public</A> statement variables are available to all procedures in all scripts.</P>
+
+<P>A variable that refers to an object must be assigned an existing object using the <B>Set</B> statement before it can be used. Until it is assigned an object, the declared object variable is initialized as <A HREF="vtglossary.htm#defemptyvbs">Empty</A>.</P>
+
+<P>You can also use the <B>Public</B> statement with empty parentheses to declare a dynamic array. After declaring a dynamic array, use the <B>ReDim</B> statement within a <A HREF="vtglossary.htm#defprocedurevbs">procedure</A> to define the number of dimensions and elements in the array. If you try to redeclare a dimension for an array variable whose size was explicitly specified in a <A HREF="vtglossary.htm#defprivatevbs">Private</A>, <B>Public</B>, or <B>Dim</B> statement, an error occurs.</P>
+
+<P>The following example illustrates the use of the <B>Public</B> statement: </P>
+
+<PRE><CODE><span class=cfe><B>Public</B></span> MyNumber&nbsp;&nbsp;&nbsp;' Public Variant variable.
+<span class=cfe><B>Public</B></span> MyArray(9)&nbsp;&nbsp;&nbsp;' Public array variable.
+&nbsp;&nbsp;&nbsp;' Multiple Public declarations of Variant variables.
+<span class=cfe><B>Public</B></span> MyNumber, MyVar, YourNumber</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A>  </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vsstmprivate.htm">Private Statement</A> | <A HREF="vsstmredim.htm">ReDim Statement</A> | <A HREF="vsstmset.htm">Set Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

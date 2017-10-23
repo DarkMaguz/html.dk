@@ -1,0 +1,159 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: Alt for stor HTML-fil</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Palle Hans Jensen den 26. december 2000" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Alt for stor HTML-fil" />
+<meta name="language" content="dan" />
+<meta name="Date" content="26-12-00" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200156173942EB8?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200156173942EB8?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200156173942EB8?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C92b0em%24p1f%241%40news%2Einet%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Palle&nbsp;Hans&nbsp;Jensen&nbsp;&nbsp;<a href='mailto:diesel@e-box.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='diesel@e-box.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Posted Courtesy of Tele Danmark or one of its European Subsidiaries</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 26. december 2000 kl. 21:52</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Alt for stor HTML-fil</strong></li></ul>
+
+<p><span class='citat'>> Hej </span><br /><span class='citat'>> </span><br /><span class='citat'>> En kammerat og jeg har gennem snart et &#229;r lavet p&#229; </span><br /><span class='citat'>> <a href='http://home18.inet.tele.dk/vejrhane/'>http://home18.inet.tele.dk/vejrhane/</a>. Da vi ikke er s&#229; meget inde i HTML, s&#229; </span><br /><span class='citat'>> har vi lavet siden i Frontpage, hvilket helt sikkert har medf&#248;rt at der er </span><br /><span class='citat'>> alt for mange gentagelser af kodelinier og mellemrum. Filen </span><br /><span class='citat'>> <a href='http://home18.inet.tele.dk/vejrhane/index2.htm'>http://home18.inet.tele.dk/vejrhane/index2.htm</a>, som er vores start-side </span><br /><span class='citat'>> fylder ca. 65 kb, hvilket jo er uacceptabelt. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Findes der et program, der kan rydde godt op i en alt for stor HTML-fil? </span><br /><span class='citat'>> Nu vil mange af jer sikkert t&#230;nke Notepad - men husk nu lige, at vi ikke har </span><br /><span class='citat'>> f&#229;et sat os ordentligt ind i html. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>- Det er vist Frontpage 2000 i har brugt er det ikke?! </span><br /><span class='normal'> </span><br /><span class='normal'>- Der findes et HTML filter til FP2000. Jeg ved ikke helt hvad det g&#248;r men </span><br /><span class='normal'>det skulle kunne rydde lidt op i HTML filerne laver i FP. Jeg ved ikke, det </span><br /><span class='normal'>er m&#229;ske v&#230;rd at pr&#248;ve. </span><br /><span class='normal'> </span><br /><span class='normal'>- Jeg har DL'et det fra MS's hjemmeside et sted, men hvis du ikke selv kan finde </span><br /><span class='normal'>filen s&#229; kan jeg da sende den til dig. Den fylder 265 KB. </span><br /><span class='normal'> </span><br /><span class='normal'>Her er s&#229; et uddrag fra den medf&#248;lgende read_me fil: </span><br /><span class='normal'> </span><br /><span class='normal'>------- </span><br /><span class='normal'>Filename: msohtmf2.exe </span><br /><span class='normal'> </span><br /><span class='normal'>Office 2000 HTML Filter 2.0 </span><br /><span class='normal'>The Office HTML Filter is a tool you can use to remove Office-specific </span><br /><span class='normal'>markup tags embedded in Office 2000 documents saved as Hypertext Markup </span><br /><span class='normal'>Language (HTML). When you create an HTML document in Office 2000, </span><br /><span class='normal'>Office-specific markup tags are embedded in it. These tags help &quot;round-trip&quot; </span><br /><span class='normal'>the document for editing purposes. For example, if you create the document </span><br /><span class='normal'>in Word 2000 and save it as HTML, the code embedded in the document allows </span><br /><span class='normal'>you to re-open the document in Word 2000 and use the same features you </span><br /><span class='normal'>originally used to create the page. </span><br /><span class='normal'>Once you have completed editing an HTML document in Word 2000 or Excel </span><br /><span class='normal'>2000, you can use the Office HTML Filter to remove the Office-specific </span><br /><span class='normal'>markup tags from the final copy of the HTML document. By removing the tags, </span><br /><span class='normal'>you reduce the size of the document, which in turn reduces both the amount </span><br /><span class='normal'>of space used on Web servers as well as the time it takes to download the </span><br /><span class='normal'>page. For additional information about the benefits and disadvantages of </span><br /><span class='normal'>removing the Office-specific markup tags, read Use Office HTML Filter to </span><br /><span class='normal'>Create Web Pages that Download Faster. </span><br /><span class='normal'> </span><br /><span class='normal'>Note  The Office HTML Filter can process files saved in any single-byte </span><br /><span class='normal'>encoding format. The Office HTML Filter support for multi-byte encodings, </span><br /><span class='normal'>however, does not cover the following encodings: Unicode, UnicodeFFFE, </span><br /><span class='normal'>and utf-7. Note however that utf-8, which is the Unicode encoding most </span><br /><span class='normal'>common on the Web, is supported. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>New Features of the Office HTML Filter 2.0 </span><br /><span class='normal'>You have more control over which types of markup tags are removed. </span><br /><span class='normal'>You can export a cascading style sheet (.css) file based on a Word 2000 </span><br /><span class='normal'>document or an Office HTML file. </span><br /><span class='normal'>You can copy any fragment of a Word document as HTML and paste it into an </span><br /><span class='normal'>HTML or text editor as filtered HTML markup. For example, instead of typing </span><br /><span class='normal'>complex HTML tags to create nested tables, create them by using the Draw Table </span><br /><span class='normal'>tool in Word. Then select them and click Copy as HTML on the Edit menu to </span><br /><span class='normal'>create a compact HTML copy of the tables. </span><br /><span class='normal'>The Office HTML Filter 2.0 is even more efficient at removing redundant </span><br /><span class='normal'>HTML markup from an Office HTML file. </span><br /><span class='normal'>------- </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Palle Hans Jensen </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C929vor%24bvk%241%40news%2Einet%2Etele%2Edk%3E' title='Alt for stor HTML-fil'>Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(26-12-00&nbsp;-&nbsp;Jeppe&nbsp;Vesterbæk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CbQ126%2E22298%249t1%2E252727%40twister%2Esunsite%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(26-12-00&nbsp;-&nbsp;Claus&nbsp;Schmidt)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cxe226%2E22301%249t1%2E253353%40twister%2Esunsite%2Edk%3E' title='opf&#248;lgning herfra (was: Re: Alt for stor HTML...'>opf&#248;lgning herfra (was: Re: Alt for stor HTML...</a>&nbsp;<small class='newslist'>(26-12-00&nbsp;-&nbsp;Claus&nbsp;Schmidt)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C92avm2%24l6d%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(26-12-00&nbsp;-&nbsp;Palle&nbsp;Hans&nbsp;Jensen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C92b0em%24p1f%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(26-12-00&nbsp;-&nbsp;Palle&nbsp;Hans&nbsp;Jensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CaK926%2E358%24g7%2E7786%40news%2Eget2net%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cu5bi4t0qpja0dj62ggg7gia7rm7uruc6vn%40geekonline%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Dennis&nbsp;Skærup&nbsp;Højlund&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CVga26%2E369%24g7%2E7094%40news%2Eget2net%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cfjei4tklti4s951l5ns1m5f2glfhc4a909%40geekonline%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Dennis&nbsp;Skærup&nbsp;Højlund&nbsp;Andersen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C7kfi4ts7d2sh40l06vsr340dd5m0boh33t%40news%2Einet%2Etele%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C%25Xh26%2E22505%249t1%2E263474%40twister%2Esunsite%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Claus&nbsp;Schmidt)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C9gi26%2E22509%249t1%2E263706%40twister%2Esunsite%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Claus&nbsp;Schmidt)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C92cloc%24b5j%241%40news%2Einet%2Etele%2Edk%3E' title='re: Alt for stor HTML-fil'>re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(27-12-00&nbsp;-&nbsp;Bafomet)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C92h7qr%24ovn%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Alt for stor HTML-fil'>Re: Alt for stor HTML-fil</a>&nbsp;<small class='newslist'>(29-12-00&nbsp;-&nbsp;Kaja&nbsp;Julin)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C92b0em%24p1f%241%40news%2Einet%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/download/" class="menulink" title="Download software">Download</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody"><div style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/persondata.asp">Politik om persondata</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Alt for stor HTML-fil</span></div>
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  browserwidth  = document.body.clientWidth;
+  browserheight = document.body.clientHeight;				
+} else {
+  browserwidth  = window.innerWidth;
+  browserheight = window.innerHeight;      
+}
+
+screenheight = screen.height 
+screenwidth  = screen.width
+document.write ('<img height="1" width="1" src="/survey.asp?bw=' + browserwidth + '&bh=' + browserheight + '&sh=' + screenheight + '&sw=' + screenwidth + '">')
+
+// Slut -->
+</script>
+</body>
+</html>
+

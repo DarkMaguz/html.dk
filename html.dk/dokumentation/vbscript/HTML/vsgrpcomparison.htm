@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsgrpcomparison"></A>Comparison Operators</H1>
+
+<P>Used to compare expressions.</P>
+
+<P><CODE>result <B>=</B> expression1 comparisonoperator expression2 </CODE></P>
+
+<P><I>result </I><B>=</B> <I>object1</I><B> Is </B><I>object2</I> </P>
+
+<H4>Parts</H4>
+
+<P class=dt><I>result</I></P>
+
+<P class=indent>Any numeric variable.</P>
+
+<P class=dt><I>expression</I></P>
+
+<P class=indent>Any <A HREF="vtglossary.htm#defexpressionvbs">expression</A>.</P>
+
+<P class=dt><I>comparisonoperator</I></P>
+
+<P class=indent>Any <A HREF="vtglossary.htm#defcomparisonoperatorvbs">comparison operator</A>.</P>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Any object name.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>Is</B> operator has specific comparison functionality that differs from the operators in the following table. The following table contains a list of the comparison operators and the conditions that determine whether <I>result</I> is <B>True</B>, <B>False</B>, or <A HREF="vtglossary.htm#defnullvbs">Null</A>: </P>
+
+<TABLE border=1 cellspacing=0 cols=5 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=15%>Operator</TH>
+<TH width=18%>Description</TH>
+<TH width=29%>True if</TH>
+<TH width=19%>False if</TH>
+<TH width=19%>Null if</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%>&lt;</TD>
+<TD width=18%>Less than</TD>
+<TD width=29%><I>expression1</I> &lt; <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> &gt;= <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> or <I>expression2</I> = Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%>&lt;=</TD>
+<TD width=18%>Less than or equal to</TD>
+<TD width=29%><I>expression1</I> &lt;= <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> &gt; <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> or <I>expression2</I> = Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%>&gt;</TD>
+<TD width=18%>Greater than</TD>
+<TD width=29%><I>expression1</I> &gt; <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> &lt;= <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> or <I>expression2</I> = Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%>&gt;=</TD>
+<TD width=18%>Greater than or equal to</TD>
+<TD width=29%><I>expression1</I> &gt;= <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> &lt; <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> or <I>expression2</I> = Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%>=</TD>
+<TD width=18%>Equal to</TD>
+<TD width=29%><I>expression1</I> = <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> &lt;&gt; <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> or <I>expression2</I> = Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=15%>&lt;&gt;</TD>
+<TD width=18%>Not equal to</TD>
+<TD width=29%><I>expression1</I> &lt;&gt; <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> = <I>expression2</I></TD>
+<TD width=19%><I>expression1</I> or <I>expression2</I> = Null</TD>
+</TR>
+</TABLE><BR>
+
+<P>When comparing two expressions, you may not be able to easily determine whether the expressions are being compared as numbers or as strings. </P>
+
+<P>The following table shows how expressions are compared or what results from the comparison, depending on the underlying subtype: </P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=40%>If </TH>
+<TH width=60%>Then</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>Both expressions are numeric</TD>
+<TD width=60%>Perform a numeric comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>Both expressions are strings</TD>
+<TD width=60%>Perform a string comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>One expression is numeric and the other is a string</TD>
+<TD width=60%>The numeric expression is less than the string expression.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>One expression is <B>Empty</B> and the other is numeric</TD>
+<TD width=60%>Perform a numeric comparison, using 0 as the <B>Empty</B> expression.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>One expression is <B>Empty</B> and the other is a string</TD>
+<TD width=60%>Perform a string comparison, using a zero-length string ("") as the <B>Empty</B> expression.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=40%>Both expressions are <B>Empty</B></TD>
+<TD width=60%>The expressions are equal.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsoprassignment.htm">= Operator</A> | <A HREF="vsopris.htm">Is Operator</A> | <A HREF="vsgrpoperatorprecedence.htm">Operator Precedence</A> | <A HREF="vsgrpoperatorsummary.htm">Operator Summary</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

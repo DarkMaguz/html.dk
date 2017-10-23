@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Erase Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmerase"></A>Erase Statement</H1>
+
+<P>Reinitializes the elements of fixed-size <A HREF="vtglossary.htm#defarrayvbs">arrays</A> and deallocates dynamic-array storage space.</P>
+
+<P><CODE><B>Erase</B> <I>array</I></CODE></P>
+
+<P>The <I>array</I> argument is the name of the array <A HREF="vtglossary.htm#defvariablevbs">variable</A> to be erased.</P>
+
+<H4>Remarks</H4>
+
+<P>It is important to know whether an array is fixed-size (ordinary) or dynamic because <B>Erase</B> behaves differently depending on the type of array. <B>Erase</B> recovers no memory for fixed-size arrays. <B>Erase</B> sets the elements of a fixed array as follows:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=36%>Type of array</TH>
+<TH width=64%>Effect of Erase on fixed-array elements</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=36%>Fixed numeric array</TD>
+<TD width=64%>Sets each element to zero.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=36%>Fixed string array</TD>
+<TD width=64%>Sets each element to zero-length ("").</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=36%>Array of objects</TD>
+<TD width=64%>Sets each element to the special value <A HREF="vtglossary.htm#defnothingvbs">Nothing</A>.</TD>
+</TR>
+</TABLE><BR>
+
+<P><B>Erase</B> frees the memory used by dynamic arrays. Before your program can refer to the dynamic array again, it must redeclare the array variable's dimensions using a <B>ReDim</B> statement.</P>
+
+<P>The following example illustrates the use of the <B>Erase</B> statement. </P>
+
+<PRE><CODE>Dim NumArray(9)
+Dim DynamicArray()
+ReDim DynamicArray(9)&nbsp;&nbsp;&nbsp;' Allocate storage space.
+<span class=cfe><B>Erase</B></span> NumArray&nbsp;&nbsp;&nbsp;' Each element is reinitialized.
+<span class=cfe><B>Erase</B></span> DynamicArray&nbsp;&nbsp;&nbsp;' Free memory used by array.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vskeynothing.htm">Nothing</A> | <A HREF="vsstmredim.htm">ReDim Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,59 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Application Property (All CDONTS Library Objects)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_application_property_all_cdonts_library_objects_"></a>Application Property (All CDONTS Library Objects)  <a href="amsm9tdf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9tdf.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Application</b> property returns the name of the active application, namely the Microsoft® CDO for NTS Library. Read-only. </p>
+<h4>Syntax </h4>
+<pre><i>object</i>.<b>Application 
+  </b></pre>
+<h4>Data Type </h4>
+<p>
+String </p>
+<h4>Remarks </h4>
+<p>
+The <b>Application</b> property always contains the string &quot;Collaboration Data Objects for NTS version 1.2&quot;. </p>
+<p>
+The version number of the CDO for NTS Library is available through the <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm">Session</a> object's <a href="amsm3xpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3xpb.htm"><b>Version</b></a> property. </p>
+<h4>Example </h4>
+<pre>' Function: Session_Application 
+' Purpose: Display the Application property of the Session object 
+' See documentation topic: Application property 
+Function Session_Application() 
+Dim objSession As Object ' or Dim objSession As CDONTS.Session 
+' error handling ... 
+Set objSession = CreateObject(&quot;CDONTS.Session&quot;) 
+If Not objSession Is Nothing Then 
+    MsgBox &quot;Session's Application property = &quot; &amp; objSession.Application 
+End If 
+' error handling 
+End Function 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Filter Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctfilter"></A>Filter Function</H1>
+
+<P>Returns a zero-based <A HREF="vtglossary.htm#defarrayvbs">array</A> containing a subset of a string array based on a specified filter criteria. </P>
+
+<P><CODE><B>Filter(</B>InputStrings<B>,</B> Value[<B>,</B> Include[<B>,</B> Compare]]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>InputStrings</I></P>
+
+<P class=indent>Required. One-dimensional array of strings to be searched.</P>
+
+<P class=dt><I>Value</I></P>
+
+<P class=indent>Required. String to search for.</P>
+
+<P class=dt><I>Include</I></P>
+
+<P class=indent>Optional. Boolean value indicating whether to return substrings that include or exclude <I>Value</I>. If <I>Include</I> is <B>True</B>, <B>Filter</B> returns the subset of the array that contains <I>Value</I> as a substring. If <I>Include </I>is <B>False</B>, <B>Filter</B> returns the subset of the array that does not contain <I>Value</I> as a substring.</P>
+
+<P class=dt><I>Compare</I></P>
+
+<P class=indent>Optional. Numeric value indicating the kind of <A HREF="vtglossary.htm#defstringcomparisonvbs">string comparison</A> to use. See Settings section for values.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>Compare</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=25%>Constant</TH>
+<TH width=10%>Value</TH>
+<TH width=65%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=25%>vbBinaryCompare</TD>
+<TD width=10%>0</TD>
+<TD width=65%>Perform a binary comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=25%>vbTextCompare</TD>
+<TD width=10%>1</TD>
+<TD width=65%>Perform a textual comparison.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>If no matches of <I>Value</I> are found within <I>InputStrings</I>, <B>Filter</B> returns an empty array. An error occurs if <I>InputStrings</I> is <B>Null</B> or is not a one-dimensional array.</P>
+
+<P>The array returned by the <B>Filter</B> function contains only enough elements to contain the number of matched items.</P>
+
+<P>The following example uses the <B>Filter</B> function to return the array containing the search criteria "Mon": </P>
+
+<PRE><CODE>Dim MyIndex
+Dim MyArray (3)
+MyArray(0) = "Sunday"
+MyArray(1) = "Monday"
+MyArray(2) = "Tuesday"
+MyIndex = <span class=cfe><B>Filter(</B></span>MyArray<span class=cfe><B>,</B></span> "Mon"<span class=cfe><B>)</B></span> ' MyIndex(0) contains "Monday".</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctreplace.htm">Replace Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

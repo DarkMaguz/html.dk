@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>For Each...Next Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmforeach"></A>For Each...Next Statement</H1>
+
+<P>Repeats a group of statements for each element in an <A HREF="vtglossary.htm#defarrayvbs">array</A> or <A HREF="vtglossary.htm#defcollectionvbs">collection</A>.</P>
+
+<P><CODE><B>For Each</B> <I>element </I><B>In</B> <I>group</I><BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+&nbsp;&nbsp;&nbsp;[<B>Exit For</B>]<BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+<B>Next</B> [<I>element</I>]</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>element</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defvariablevbs">Variable</A> used to iterate through the elements of the collection or array. For collections, <I>element</I> can only be a <B>Variant</B> variable, a generic <B>Object</B> variable, or any specific <A HREF="vtglossary.htm#defautomationvbs">Automation object</A> variable. For arrays, <I>element</I> can only be a <B>Variant</B> variable.</P>
+
+<P class=dt><I>group</I></P>
+
+<P class=indent>Name of an object collection or array.</P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>One or more statements that are executed on each item in <I>group</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>For Each</B> block is entered if there is at least one element in <I>group</I>. Once the loop has been entered, all the statements in the loop are executed for the first element in <I>group</I>. As long as there are more elements in <I>group</I>, the statements in the loop continue to execute for each element. When there are no more elements in <I>group</I>, the loop is exited and execution continues with the statement following the <B>Next</B> statement.</P>
+
+<P>The <B>Exit For</B> can only be used within a <B>For Each...Next</B> or <B>For...Next</B> control structure to provide an alternate way to exit. Any number of <B>Exit For</B> statements may be placed anywhere in the loop. The <B>Exit For </B>is often used with the evaluation of some condition (for example, <B>If...Then</B>), and transfers control to the statement immediately following <B>Next</B>.</P>
+
+<P>You can nest <B>For Each...Next</B> loops by placing one <B>For Each...Next</B> loop within another. However, each loop <I>element</I> must be unique.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>If you omit <I>element</I> in a <B>Next</B> statement, execution continues as if you had included it. If a <B>Next</B> statement is encountered before its corresponding <B>For</B> statement, an error occurs.</P>
+
+<P>The following example illustrates use of the <B>For Each...Next</B> statement: </P>
+
+<PRE><CODE>Function ShowFolderList(folderspec)
+&nbsp;&nbsp;&nbsp;Dim fso, f, f1, fc, s
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.GetFolder(folderspec)
+&nbsp;&nbsp;&nbsp;Set fc = f.Files
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>For Each</B></span> f1 <span class=cfe><B>in</B></span> fc
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; f1.name 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;ShowFolderList = s
+End Function</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdo.htm">Do...Loop Statement</A> | <A HREF="vsstmexit.htm">Exit Statement</A> | <A HREF="vsstmfor.htm">For...Next Statement</A> | <A HREF="vsstmwhile.htm">While...Wend Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

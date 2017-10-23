@@ -1,0 +1,298 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>NewMail Object (CDONTS Library)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_denali_newmail_object_cdonts_library_"></a>NewMail Object (CDONTS Library)</h2>
+<p>
+The NewMail object provides for sending a message with very few lines of code. </p>
+<h4>At a Glance </h4>
+<table>
+<tr valign=top>
+<td>
+Specified in type library: </td>
+<td>
+CDONTS.DLL </td>
+</tr>
+<tr valign=top>
+<td>
+First available in: </td>
+<td>
+CDO for NTS Library version 1.2 </td>
+</tr>
+<tr valign=top>
+<td>
+Parent objects: </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+Child objects: </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+Default property: </td>
+<td>
+<a href="amsm17q7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm17q7.htm"><b>Value</b></a> </td>
+</tr>
+</table><br>
+<h4>Properties </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Type </b></td>
+<td>
+<b> <BR>Access </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm78in.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm78in.htm"><b>Bcc</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm00gv.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm00gv.htm"><b>Body</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<b>IStream</b> object or String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm52an.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm52an.htm"><b>BodyFormat</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm4b8f.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4b8f.htm"><b>Cc</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8d7j.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8d7j.htm"><b>ContentBase</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm55gf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm55gf.htm"><b>ContentLocation</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm7tnj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7tnj.htm"><b>From</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm53dr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm53dr.htm"><b>Importance</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm9mn3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9mn3.htm"><b>MailFormat</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm34db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm34db.htm"><b>Subject</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm62fz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm62fz.htm"><b>To</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm17q7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm17q7.htm"><b>Value</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Write-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm4fof.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4fof.htm"><b>Version</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+</table><br>
+<h4>Methods </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Parameters </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm0d3z.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0d3z.htm"><b>AttachFile</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<i>Source</i> as <b>Object</b> or <b>String</b>, <BR>(optional) <i>FileName</i> as <b>String</b>, <BR>(optional) <i>EncodingMethod</i> as <b>Long</b> </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm77j3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm77j3.htm"><b>AttachURL</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<i>Source</i> as <b>Object</b> or <b>String</b>, <BR><i>ContentLocation</i> as <b>String</b>, <BR>(optional) <i>ContentBase</i> as <b>String</b>, <BR>(optional) <i>EncodingMethod</i> as <b>Long</b> </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm4grj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4grj.htm"><b>Send</b></a> </td>
+<td>
+1.2 </td>
+<td>
+(optional) <i>From</i> as <b>String</b>, <BR>(optional) <i>To</i> as <b>String</b>, <BR>(optional) <i>Subject</i> as <b>String</b>, <BR>(optional) <i>Body</i> as <b>Object</b> or <b>String</b>, <BR>(optional) <i>Importance</i> as <b>Long</b> </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm2jmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2jmn.htm"><b>SetLocaleIDs</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<i>CodePageID</i> as <b>Long</b> </td>
+</tr>
+</table><br>
+<h4>Remarks </h4>
+<p>
+The NewMail object is not built on the normal API architecture. It is meant for rapid generation of notification mail by an automated process running in the Microsoft&reg; Windows NT&reg; Server. No user interface is supplied, and no interaction with human users is expected during the generation and sending of the message. Therefore the NewMail object's properties are not designed to be read back and inspected. With the sole exception of <a href="amsm4fof.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4fof.htm"><b>Version</b></a>, they can only be written. </p>
+<p>
+The NewMail object is self-contained and does not expose any of the <a href="amsm9tdf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9tdf.htm">Properties Common to All CDO for NTS Library Objects</a>. </p>
+<p>
+Attachments and recipients, once added to the NewMail object, cannot be removed, and the NewMail object itself cannot be deleted. When the <a href="amsm4grj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4grj.htm"><b>Send</b></a> method completes successfully, the NewMail object is invalidated but not removed from memory. The programmer should <b>Set</b> the invalid object to <b>Nothing</b> to remove it from memory, or reassign it to another NewMail object. Attempted access to a sent NewMail object results in a return of <b>CdoE_INVALID_OBJECT</b>. </p>
+<p>
+The NewMail object does not belong to the hierarchy encompassing the other CDO for NTS Library objects. It cannot access, nor can it be accessed from, any of the other objects. Like the <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm">Session</a> object, it is considered a top-level object and is created directly from a Microsoft&reg; Visual Basic&reg; program. Its ProgID is CDONTS.NewMail. This code fragment creates a NewMail object through early binding: </p>
+<pre>  Dim objNewMail As CDONTS.NewMail 
+  Set objNewMail = CreateObject(&quot;CDONTS.NewMail&quot;) 
+ </pre>
+<p>
+The main advantage of the NewMail object is the ease and simplicity with which you can generate and send a message. You do not have to log on to a session nor deal with a folder or a messages collection. You have only to create the NewMail object, send it, and <b>Set</b> it to <b>Nothing</b>. You can supply critical information in the parameters of the <a href="amsm4grj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4grj.htm"><b>Send</b></a> method. In many cases you only need three lines of code: </p>
+<pre>  Set objNewMail = CreateObject(&quot;CDONTS.NewMail&quot;) 
+  objNewMail.Send(&quot;me@company.com&quot;, &quot;you@company.com&quot;, &quot;Hello&quot;, _ 
+                  &quot;I sent this in 3 statements!&quot;, 0) ' low importance 
+  Set objNewMail = Nothing ' canNOT reuse it for another message 
+ </pre>
+<p>
+Including an attachment can add as little as one statement to your code, because you can pass information in the parameters of the <a href="amsm0d3z.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0d3z.htm"><b>AttachFile</b></a> method: </p>
+<pre>  Set objNewMail = CreateObject(&quot;CDONTS.NewMail&quot;) 
+  objNewMail.AttachFile(&quot;\\server\schedule\sched.xls&quot;, &quot;SCHED.XLS&quot;) 
+  objNewMail.Send(&quot;Automated Schedule Generator&quot;, &quot;you@company.com&quot;, _ 
+                  &quot;Schedule&quot;, &quot;Here's the latest master schedule&quot;, 0) 
+  Set objNewMail = Nothing 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

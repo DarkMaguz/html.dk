@@ -1,0 +1,181 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Notepad ... og lidt til</title>
+
+<meta name="description" content="Deltag i HTML.dk's konkurrence og vind webhoteller fra Wannafind" />
+<meta name="keywords" content="konkurrence, præmier, vind, editor, kodning, program" />
+<meta name="title" content="Re: Notepad ... og lidt til" />
+<meta name="language" content="dan" />
+<meta name="Date" content="24-02-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+<!-- AdLink skyscraper start -->
+<div id="skyscraper">
+<script type="text/JavaScript">
+<!--
+	var time = new Date();
+	randnum = (time.getTime());
+	document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html2.dk/page/all_140x800;dcopt=ist;sz=140x800;ord='+randnum+'?"><\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+	<div><a href="http://ad.dk.doubleclick.net/jump/html2.dk/page/all_140x800;dcopt=ist;sz=140x800;ord=4918568730?">
+	<img src="http://ad.dk.doubleclick.net/ad/html2.dk/page/all_140x800;dcopt=ist;sz=140x800;ord=4918568730?" width="140" height="800" alt="Banner" /> 
+	</a></div>
+</noscript>
+</div>
+<!-- AdLink skyscraper end -->
+
+
+<!-- start page content -->
+
+<h1>Den perfekte editor</h1><p style='margin-top:0px;'>I dette forum diskuteres det hvilke features den perfekte webeditor bør indeholde<br />Forummet er en del af HTML.dk's konkurrence &quot;Edit your Editor&quot;. <a href='/editor/'>Læs mere om konkurrencen</a>.<br /><br /><strong>----------<br />Den 19. april 2002:<br />Konkurrencen er slut. Vi vurderer i øjeblikket de mange forslag - vinderne vil blive offentliggjort snarligst.<br />----------<br /></strong></p><hr /><div class='forumnavigation'><img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;Der kan ikke længere postes indlæg i dette forum</div>
+
+<div class='message'><ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span> <a href='/community/profile.asp?id=25' title='Se community-profil for Andreas Astrup'>Andreas Astrup</a></strong></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 18. april 2002 kl. 03:28</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span> Re: Notepad ... og lidt til</strong></li></ul><p>Lyder sp&#230;ndende. Hvis du er interesseret vil vi gerne l&#230;gge b&#229;de den nuv&#230;rende og den kommende editor ud til download her p&#229; <a href='http://HTML.dk'>HTML.dk</a> <br /> <br />/Andreas <br /> <br /> <br /><span class='orgtxt'>Den 16. april 2002 kl. 19:40 skrev Futte: <br />-------------------------------------------------- <br />Hej alle  <br />  <br />Jeg har v&#230;ret igennem de fleste af jeres indl&#230;g, og kan efterh&#229;nden se at mit koncept for en editor, i hvert fald for ASP og HTML, er noget af det rigtige. Jeg har arbejdet p&#229; den gennem l&#230;ngere tid, og er nu g&#229;et igang med 2. generation af den.  <br />Lidt historie:  <br />Oprindeligt startede jeg med blot at bruge Notepad, der jo i sig selv er en ganske god &quot;editor&quot;. Problematikken med at skulle i menuen for at gemme blev hurtigt et stort irritationsmoment, sammen med det faktum at Notepad fra tid til anden &quot;glemmer&quot; at undlade .txt som efternavn/filtype n&#229;r man gemmer. Det fik mig til at g&#229; igang med min egen editor, der s&#229; skulle overtage Notepads funktion.  <br />Den velkendte stil fra de f&#248;rste versioner af HomeSite, med en fil-boks i venstre side blev hurtigt indf&#248;rt, komplet med drag-n-drop til &lt;!-- #include, stylesheets, billeder og multimedie, prim&#230;rt MIDI og wave. Editoren fik desuden genvejstaster til de mest brugte HTML koder, s&#229;som &lt;br>, &lt;b>&lt;/b> osv. og senere blev der tilf&#248;jet en kode-rette funktion, der i ASP retter response.write til Response.Write - samt erstatter tastefejl, f.eks. endif rettes til End If - thne rettes til Then osv.  <br />Derudover kan editoren ogs&#229; checke for om man har fejl i antallet af ( og ) i sin ASP kode, samt checke om man har for mange eller for lidt g&#229;se&#248;jne &quot; og foresl&#229;r endda at man erstatter 3 g&#229;se&#248;jne &quot;&quot;&quot; med &quot; &amp; Chr(34) i stedet, for at undg&#229; forvirring. Editoren har desuden automatisk konfigurering af de to mest kendte browsere, Internet Explorer og Netscape, og der er ogs&#229; mulighed for ops&#230;tning af en tredje browser, skulle man have brug for det. Ops&#230;tning af browsere bruges til hurtigt at f&#229; vist sin side i en given browser, blot ved at trykke p&#229; F11/F12 og kombinationer alt efter hvilken side man vil have vist. Editoren k&#248;rer projekt-baseret og man angiver mappe til roden af projektet, til mappen med billeder i s&#229; man kan f&#229; vist alle sine billeder i &quot;preview&quot; form, lidt i stil med m&#229;den ACDSee viser billeder, og til sidst angiver man opstartssiden - her unders&#248;ger editoren i&#248;vrigt om &quot;default&quot; eller &quot;index&quot; findes i mappen, b&#229;de i .htm, .html og .asp - og v&#230;lger selv en af dem. Herefter angiver man internet adressen til webstedet (URL'en) og s&#229; er man i luften. Trykker man F12 i editoren, vil siden i editoren blive gemt, herefter &#229;bnes maskinens default-browser med siden man har i editoren, som s&#229; mange andre editorer.  <br />  <br />Den nye generation jeg er g&#229;et igang med, vil bl.a. indeholde et komplet database interface, der kan forbinde til diverse former for databaser, i nogle tilf&#230;lde er et ODBC interface n&#248;dvendigt, i andre ikke. Via en tr&#230;struktur f&#229;r man s&#229; vist sin(e) database(r), og herfra kan man s&#229; via drag-n-drop inds&#230;tte &quot;standardiseret&quot; kode der arbejder med databasen. Desuden vil man via database funktionen ogs&#229; kunne oprette nye Access databaser direkte i editoren.  <br />Alle ASP syntax ting flyttes ud i en form for plug-in s&#229; det altid kan redigeres og v&#230;lges til nye versioner (lige nu kun version 3.0, men <a href='http://ASP.Net'>ASP.Net</a> er ogs&#229; p&#229; vej).  <br />Der indf&#248;res en indbygget stylesheet (CSS) editor der kan bruges til at redigere sine stylesheets, igen i plug-in form s&#229; man kan v&#230;lge hvilken standard man vil g&#229; ud fra, og der vil ogs&#229; v&#230;re en form for stylesheet validering/browser check.  <br />Der bliver indf&#248;rt en komplet FTP funktion, der bl.a. kan uploade filen til webhotellet n&#229;r man gemmer den, f.eks. n&#229;r man vil se de &#230;ndringer man har foretaget i filen og s&#229; trykker F12 for at f&#229; den vist. Da editoren er projekt-baseret, vil FTP funktionen ogs&#229; kunne s&#248;rge for at synkronisere det lokale projekt, med det der ligger p&#229; webhotellet.  <br />  <br />Editoren f&#229;r ikke noget WYSIWYG interface, fordi god fleksibel kode og WYSIWYG ikke g&#229;r godt i sp&#230;nd med hinanden. Et WYSIWYG interface l&#229;ser koden for h&#229;rdt.  <br />Der bliver dog indf&#248;rt en spandfuld wizards s&#229; det er lettere at f&#229; lavet koden, og det bliver ogs&#229; muligt at &quot;fri-h&#229;nds&quot; tegne tabeller. Disse bliver dog kun &quot;l&#229;st&quot; i st&#248;rrelse, hvis man selv angiver det, ellers vil editoren pr. definition altid oprette tabellernes st&#248;rrelser med % angivelser.  <br />  <br />Der er ogs&#229; mange andre ting i editoren, de fleste er nogle jeg tager for givet, f.eks. muligheden for at konvertere &#248; til &#248; osv.  <br />  <br />Denne editor laver jeg prim&#230;rt for mig selv og der er ingen horisont for hvorn&#229;r den st&#229;r f&#230;rdig. Det er muligt at jeg p&#229; et tidspunkt beslutter at frigive editoren, hvis &#248;nsket om den er stort nok.  <br />  <br />I mine &#248;jne vil jeg mene at den nye generation af min editor, er s&#229; t&#230;t p&#229; den perfekte editor jeg kunne &#248;nske mig. <br /></span></p><hr class='messageruler' /><ul class='messagelist'><li class='message'><a href='message.asp?artID=&amp;messID=253'>Notepad ... og lidt til</a>&nbsp;<small>(16-04-02 - Futte)</small></li><ul class='threadlist'><li class='thread'><strong>Re: Notepad ... og lidt t...</strong>&nbsp;<small>(18-04-02 - Andreas Astrup)</small></li></ul></ul></div><hr /><div class='forumnavigation'><img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;Der kan ikke længere postes indlæg i dette forum</div>
+
+<dl><dt></dt><dd></dd><dt>Relateret materiale på HTML.dk</dt><dd><ul class='linklist'><li><a href='http://www.html.dk/community/' title='Bliv gratis medlem af HTML.dk'>Community</a></li></ul></dd><dt>Relaterede links om emnet</dt><dd><ul><li class='extdklinklist'><a href='http://www.tsw.dk/' title='Editor fra TSW'>TSW: WebCoder International</a></li></ul></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/editor/forum/message.asp?forumID=1&messID=254' method='post'><p class='pollheader'>Hvor ofte opdaterer du din viden ved at tage til konferencer, messer, udstillinger, workshops og lignende?</p><div><input type='hidden' name='tst' value='04-06-02 01:18:59' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ugentligt</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Månedtligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Et par gange om året</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Sjældnere</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/editor/' title='Webcoder International' class='navibox'>Webcoder International</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/editor/forum/threads.asp?forumID=1' title='Oversigt over indlæg om Den perfekte editor' class='navibox'>Den perfekte editor</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Notepad ... og lidt til</span></div>
+
+<div><img src="/survey.asp" width="1" height="1" alt="Survey" /></div>
+
+</body>
+</html>
+

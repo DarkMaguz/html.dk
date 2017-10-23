@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>SQL problemer - HTML.dk</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af Alexander P. den 29. august 2005" />
+<meta name="keywords" content="" />
+<meta name="title" content="SQL problemer" />
+<meta name="language" content="dan" />
+<meta name="Date" content="29-08-2005" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<meta name="CZ.Type" content="Forum" />
+<meta name="CZ.Category" content="Javascript" />
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+
+</head>
+<body>
+
+<!-- AdLink start -->
+
+<div style="text-align:center;position:absolute;top:90px;left:0px;width:100%;" id="banner728x90" class="noprint">
+
+
+
+<script type="text/Javascript">
+<!--
+   if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+   document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=728x90;tile=1;tile=1;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+-->
+</script>
+<noscript>
+	<div><a href="http://ad.dk.doubleclick.net/jump/html.dk/;sz=728x90;tile=1;tile=1;tile=1;ord=1234567890?">
+	<img src="http://ad.dk.doubleclick.net/ad/html.dk/;sz=728x90;tile=1;tile=1;tile=1;ord=1234567890?" width="728" height="90" alt="Banner" />
+	</a>
+	</div>
+</noscript>
+
+</div>
+<!-- AdLink end -->
+
+<div id="bodybx">
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=2;tile=2;tile=2;ord=415809273720?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form&amp;ReplyID=%3C43136068%240%2418636%2414726298%40news%2Esunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Alexander&nbsp;P.&nbsp;&nbsp;<a href='mailto:awpdk@hotmail.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='awpdk@hotmail.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 29. august 2005 kl. 21:22</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>SQL problemer</strong></li></ul>
+
+<p><span class='normal'>Jeg er helt blank p&#229; det omr&#229;de s&#229; jeg h&#229;ber at nogen vil hj&#230;lpe </span><br /><span class='normal'>mig </span><br /><span class='normal'> </span><br /><span class='normal'>fejlen er: </span><br /><span class='normal'> </span><br /><span class='normal'>Kunne ikke udf&#248;re: select id, navn, epost, date_format(tid, </span><br /><span class='normal'>'%e/%c %Y, %H:%i') as tiden, besked from spunke_gb order by tid </span><br /><span class='normal'>desc limit 0,  </span><br /><span class='normal'>You have an error in your SQL syntax. Check the manual that </span><br /><span class='normal'>corresponds to your MySQL server version for the right syntax to </span><br /><span class='normal'>use near '' at line 1 </span><br /><span class='normal'> </span><br /><span class='normal'>og godtnok s&#229; kan jeg lidt engelsk men fatter virkelig ikke noget </span><br /><span class='normal'>af det. </span><br /><span class='normal'> </span><br /><span class='normal'>min kildekode til gbog.php er: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;?php </span><br /><span class='normal'> </span><br /><span class='normal'>require(&quot;mysql.php&quot;); </span><br /><span class='normal'> </span><br /><span class='normal'>if(is_array($HTTP_GET_VARS)) { </span><br /><span class='normal'>  $start_nr = $HTTP_GET_VARS['start_nr']; </span><br /><span class='normal'>} elseif (is_array($_GET)) { </span><br /><span class='normal'>  $start_nr = $_GET['start_nr']; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>if(!$start_nr  $start_nr &lt; 0) { </span><br /><span class='normal'>  $start_nr = 0; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>$sql = &quot;select id, navn, epost, date_format(tid, '%e/%c %Y, </span><br /><span class='normal'>%H:%i') as tiden, besked from spunke_gb order by tid desc limit </span><br /><span class='normal'>$start_nr, $antal_ad_gangen&quot;; </span><br /><span class='normal'>$taeller_sql = &quot;select count(*) as antal from spunke_gb&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>aabn_forbindelse_og_vaelgdb(); </span><br /><span class='normal'>$resultat = sql_spoerg_og_faa_svar($sql); </span><br /><span class='normal'>$optaelling = sql_spoerg_og_faa_svar($taeller_sql); </span><br /><span class='normal'>luk_forbindelse(); </span><br /><span class='normal'> </span><br /><span class='normal'>extract($optaelling[0]); </span><br /><span class='normal'> </span><br /><span class='normal'>if($antal > ($start_nr + $antal_ad_gangen)) { </span><br /><span class='normal'>     </span><br /><span class='normal'>    $naeste_start_nr = $start_nr + $antal_ad_gangen; </span><br /><span class='normal'>    $naeste_nav = &quot;&lt;a </span><br /><span class='normal'>href=\&quot;$PHP_SELF?start_nr=$naeste_start_nr\&quot;>N&amp;aelig;ste&lt;/a>&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>} else { </span><br /><span class='normal'> </span><br /><span class='normal'>    $naeste_nav = &quot;&lt;span </span><br /><span class='normal'>class=\&quot;doedt-link\&quot;>N&amp;aelig;ste&lt;/span>&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>if($start_nr > 0 &amp;&amp; ($start_nr - $antal_ad_gangen) &lt; $antal) { </span><br /><span class='normal'> </span><br /><span class='normal'>    $forrige_start_nr = $start_nr - $antal_ad_gangen; </span><br /><span class='normal'>    $forrige_nav = &quot;&lt;a </span><br /><span class='normal'>href=\&quot;$PHP_SELF?start_nr=$forrige_start_nr\&quot;>Forrige&lt;/a>&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>} else { </span><br /><span class='normal'> </span><br /><span class='normal'>    $forrige_nav = &quot;&lt;span class=\&quot;doedt-link\&quot;>Forrige&lt;/span>&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>$nav = &quot;&lt;table width=\&quot;$tabel_bredde\&quot; border=\&quot;0\&quot; </span><br /><span class='normal'>cellpadding=\&quot;5\&quot; cellspacing=\&quot;0\&quot;> </span><br /><span class='normal'>    &lt;tr>&lt;td align=\&quot;left\&quot; width=\&quot;33%\&quot;>$forrige_nav&lt;/td> </span><br /><span class='normal'>    &lt;td align=\&quot;center\&quot; width=\&quot;34%\&quot;>&lt;a </span><br /><span class='normal'>href=\&quot;skriv.php\&quot;>Skriv&lt;/a>&lt;/td> </span><br /><span class='normal'>    &lt;td align=\&quot;right\&quot; align=\&quot;33%\&quot;>$naeste_nav&lt;/td>&lt;/tr> </span><br /><span class='normal'>    &lt;/table>&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>echo &quot;$nav &lt;p />&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>if(count($resultat) &lt; 1) { </span><br /><span class='normal'> </span><br /><span class='normal'>   echo &quot;Der er ingen indl&amp;aelig;g i gBogen&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>} else { </span><br /><span class='normal'> </span><br /><span class='normal'>   for($i=0;$i&lt;count($resultat);$i++) { </span><br /><span class='normal'>     </span><br /><span class='normal'>    extract($resultat[$i]); </span><br /><span class='normal'> </span><br /><span class='normal'>    $besked = stripslashes($besked); </span><br /><span class='normal'>    $navn = stripslashes($navn); </span><br /><span class='normal'>    $epost = stripslashes($epost); </span><br /><span class='normal'> </span><br /><span class='normal'>    if($html_p != &quot;t&quot;) { </span><br /><span class='normal'>        $navn = htmlentities($navn); </span><br /><span class='normal'>        $epost = htmlentities($epost); </span><br /><span class='normal'>        $besked = htmlentities($besked); </span><br /><span class='normal'>    }  </span><br /><span class='normal'> </span><br /><span class='normal'>    $besked = nl2br($besked); </span><br /><span class='normal'> </span><br /><span class='normal'>    if(ereg(&quot;@&quot;, $epost)) { </span><br /><span class='normal'>        $navn = &quot;&lt;a href=\&quot;mailto:$epost\&quot;>$navn&lt;/a>&quot;; </span><br /><span class='normal'>    } </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'>    &lt;table width=&quot;&lt;?php echo $tabel_bredde; ?>&quot; cellpadding=&quot;1&quot; </span><br /><span class='normal'>cellspacing=&quot;0&quot; border=&quot;0&quot;> </span><br /><span class='normal'>        &lt;tr>&lt;td class=&quot;gbog-baggrund&quot; width=&quot;100%&quot; </span><br /><span class='normal'>align=&quot;center&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>            &lt;table border=&quot;0&quot; cellpadding=&quot;8&quot; cellspacing=&quot;0&quot; </span><br /><span class='normal'>width=&quot;100%&quot;> </span><br /><span class='normal'>                &lt;tr>&lt;td class=&quot;gbog-top&quot; width=&quot;100%&quot;>Skrevet af: </span><br /><span class='normal'>&lt;strong>&lt;?php echo $navn; ?>&lt;/strong>, &lt;?php echo $tiden; </span><br /><span class='normal'>?>&lt;/td>&lt;/tr> </span><br /><span class='normal'>            &lt;/table> </span><br /><span class='normal'> </span><br /><span class='normal'>        &lt;/td>&lt;/tr>&lt;tr>&lt;td class=&quot;gbog-baggrund&quot; align=&quot;center&quot; </span><br /><span class='normal'>width=&quot;100%&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>            &lt;table border=&quot;0&quot; cellpadding=&quot;8&quot; cellspacing=&quot;0&quot; </span><br /><span class='normal'>width=&quot;100%&quot;> </span><br /><span class='normal'>                &lt;tr>&lt;td class=&quot;gbog-bund&quot; width=&quot;100%&quot;> </span><br /><span class='normal'>                &lt;?php echo $besked; ?> </span><br /><span class='normal'>                &lt;p align=&quot;right&quot;>&lt;a class=&quot;slet&quot; href=&quot;&lt;?php echo </span><br /><span class='normal'>&quot;slet.php?id=$id&amp;start_nr=$start_nr&quot;; ?>&quot;>slet&lt;/a>&lt;/p>&lt;/td>&lt;/tr> </span><br /><span class='normal'>            &lt;/table> </span><br /><span class='normal'> </span><br /><span class='normal'>        &lt;/td>&lt;/tr> </span><br /><span class='normal'>    &lt;/table>&lt;p /> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;?php </span><br /><span class='normal'> </span><br /><span class='normal'>  } </span><br /><span class='normal'> </span><br /><span class='normal'>  echo $nav; </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI, ASP eller <a href='http://ASP.NET'>ASP.NET</a>? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><p>Hvis du mener, at dette indlæg bryder med netiketten, så <a href="/abuse/?mid=<43136068$0$18636$14726298@news.sunsite.dk>&amp;gid=dk.edb.internet.webdesign.clientside">send din klage til HTML.dk her</a>.</p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C43136068%240%2418636%2414726298%40news%2Esunsite%2Edk%3E' title='SQL problemer'>SQL problemer</a>&nbsp;<small class='newslist'>(29-08-2005&nbsp;-&nbsp;Alexander&nbsp;P.)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C4313623e%240%2418645%2414726298%40news%2Esunsite%2Edk%3E' title='Re: SQL problemer'>Re: SQL problemer</a>&nbsp;<small class='newslist'>(29-08-2005&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3Cfko6h11la7dnqo3fqi30234hn32muoa4hm%40dtext%2Enews%2Etele%2Edk%3E' title='Re: SQL problemer'>Re: SQL problemer</a>&nbsp;<small class='newslist'>(29-08-2005&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form&amp;ReplyID=%3C43136068%240%2418636%2414726298%40news%2Esunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp'>dk.edb.internet.webdesign.clientside</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/rss/" class="menulink" title="RSS-feeds fra HTML.dk">RSS-feeds</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=4;tile=4;tile=4;ord=195546448231?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<br />
+<form action='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C43136068%240%2418636%2414726298%40news%2Esunsite%2Edk%3E' method='post'><p class='pollheader'>Har du en bærbar computer?</p><div><input type='hidden' name='tst' value='20-11-2005 00:51:45' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej, men køber snart</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form>
+<br />
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;">
+<img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a><br />
+
+</div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer" class="noprint">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<!-- AdLink start -->
+
+	<div style="text-align:center;margin-top:20px;margin-bottom:20px;" class="noprint" id="banner250x60">
+
+	<script type="text/javaScript">
+	<!--
+	   var time = new Date();
+	   randnum = (time.getTime());
+	   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=3;tile=3;tile=3;ord='+randnum+'?" />');
+	   document.write('<\/scr'+'ipt>');
+	//-->
+	</script>
+	<noscript>
+	   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=3;tile=3;tile=3;ord=6288830041?">
+	   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=3;tile=3;tile=3;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+	   </a></div>
+	</noscript>
+	</div>
+	<!-- AdLink end -->
+
+	<hr style="clear:both;margin-right:5px;" class="noprint" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/">RSS</a>
+	</div>
+	<hr style="margin-right:5px;" class="noprint"/>
+
+	<div style="float:right;width:360px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+	<a href="http://www.scannet.dk"><img src="/site/graphics/logo_scannet.gif" alt="Powered by Scannet" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: SQL problemer</span></div>
+
+
+<!-- ## BEGIN InSites eScape script ## --> 
+<script type="text/javascript">
+<!--
+function getCookie(NameOfCookie){
+    if (document.cookie.length > 0) {              
+    begin = document.cookie.indexOf(NameOfCookie+"=");       
+    if (begin != -1) {           
+      begin += NameOfCookie.length+1;       
+      end = document.cookie.indexOf(";", begin);
+      if (end == -1) end = document.cookie.length;
+        return unescape(document.cookie.substring(begin, end));
+    } 
+  }
+  return null;
+}
+
+function setCookie(NameOfCookie, value, expiredays) {
+var ExpireDate = new Date ();
+ExpireDate.setTime(ExpireDate.getTime() + (expiredays * 24 * 3600 * 1000));
+
+  document.cookie = NameOfCookie + "=" + escape(value) + 
+  ((expiredays == null) ? "" : "; expires=" + ExpireDate.toGMTString());
+}
+
+function ShowBIMPopup() {
+	var Freq = 2;
+	var ShowOrNot = Math.floor(Freq * Math.random()+1);
+	if (ShowOrNot == 1)
+	{
+	 visited=getCookie('BIMvisited');
+	 if (visited==null) 
+	 {
+		setCookie('BIMvisited','yes',45)
+		document.write('<scr'+'ipt type="text/JavaScript" src="http://bimonline.insites.be/dk/start.asp?siteid=768&TagID=1"></scr'+'ipt>');
+	 }
+	}
+}
+-->
+</script>
+<script type="text/javascript">ShowBIMPopup();</script>
+<!-- ## END InSites eScape script ## -->
+
+</body>
+</html>
+

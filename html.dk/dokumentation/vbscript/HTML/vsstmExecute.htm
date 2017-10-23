@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Execute Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmexecute"></A>Execute Statement</H1>
+
+<P>Executes one or more specified statements.</P>
+
+<P><CODE><B>Execute</B> <I>statement</I></CODE></P>
+
+<P>The required <I>statement</I> argument is a <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> containing one or more statements for execution. Include multiple statements in the <I>statement</I> argument, using colons or embedded line breaks to separate them. </P>
+
+<H4>Remarks</H4>
+
+<P>In VBScript, <I>x = y</I> can be interpreted two ways. The first is as an assignment statement, where the value of <I>y</I> is assigned to <I>x</I>. The second interpretation is as an <A HREF="vtglossary.htm#defexpressionvbs">expression</A> that tests if <I>x</I> and <I>y</I> have the same value. If they do, <I>result</I> is <B>True</B>; if they are not, <I>result</I> is <B>False</B>. The <B>Execute</B> statement always uses the first interpretation, whereas the <B>Eval</B> method always uses the second.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>In Microsoft<SUP>®</SUP> JScript™, no confusion exists between assignment and comparison, because the assignment operator (=) is different from the <A HREF="vtglossary.htm#defcomparisonoperatorvbs">comparison operator(==)</A>.</P>
+
+<P>The context in which the <B>Execute</B> statement is invoked determines what objects and <A HREF="vtglossary.htm#defvariablevbs">variables</A> are available to the code being run. In-scope objects and variables are available to code running in an <B>Execute</B> statement. However, it is important to understand that if you execute code that creates a <A HREF="vtglossary.htm#defprocedurevbs">procedure</A>, that procedure does not inherit the <A HREF="vtglossary.htm#defscopevbs">scope</A> of the procedure in which it occurred.</P>
+
+<P>Like any procedure, the new procedure's scope is global, and it inherits everything in the global scope. Unlike any other procedure, its context is not global scope, so it can only be executed in the context of the procedure where the <B>Execute</B> statement occurred. However, if the same <B>Execute</B> statement is invoked outside of a procedure (i.e., in global scope), not only does it inherit everything in global scope, but it can also be called from anywhere, since its context is global. The following example illustrates this behavior:</P>
+
+<PRE><CODE>Dim X&nbsp;&nbsp;&nbsp;' Declare X in global scope.
+X = "Global"&nbsp;&nbsp;&nbsp;' Assign global X a value.
+Sub Proc1&nbsp;&nbsp;&nbsp;' Declare procedure.
+&nbsp;&nbsp;&nbsp;Dim X&nbsp;&nbsp;&nbsp;' Declare X in local scope.
+&nbsp;&nbsp;&nbsp;X = "Local"&nbsp;&nbsp;&nbsp;' Assign local X a value.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' The Execute statement here creates a
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' procedure that, when invoked, prints X.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' It print the global X because Proc2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' inherits everything in global scope.
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>Execute</B></span> "Sub Proc2: Print X: End Sub"
+&nbsp;&nbsp;&nbsp;Print Eval("X")&nbsp;&nbsp;&nbsp;' Print local X.
+&nbsp;&nbsp;&nbsp;Proc2&nbsp;&nbsp;&nbsp;' Invoke Proc2 in Proc1's scope.
+End Sub
+Proc2&nbsp;&nbsp;&nbsp;' This line causes an error since 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Proc2 is unavailable outside Proc1.
+Proc1&nbsp;&nbsp;&nbsp;' Invoke Proc1.
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>Execute</B></span> "Sub Proc2: Print X: End Sub"
+Proc2&nbsp;&nbsp;&nbsp;' This invocation succeeds because Proc2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' is now available globally.</CODE></PRE>
+
+<P>The following example shows how the <B>Execute</B> statement can be rewritten so you don't have to enclose the entire procedure in the quotation marks:</P>
+
+<PRE><CODE>S = "Sub Proc2" &amp; vbCrLf
+S = S &amp; "&nbsp;&nbsp;&nbsp;Print X" &amp; vbCrLf 
+S = S &amp; "End Sub"
+Execute S</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfcteval.htm">Eval Function</A> | <A HREF="vsstmexecuteglobal.htm">ExecuteGlobal Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,84 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Attachments Property (CDONTS Message Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_attachments_property_cdonts_message_object_"></a>Attachments Property (CDONTS Message Object)  <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Attachments</b> property returns a single <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm">Attachment</a> object or an <a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm">Attachments</a> collection object. Read-only. </p>
+<h4>Syntax </h4>
+<pre><b>Set </b><i>collAttachments</i><b> = </b><i>objMessage.</i><b>Attachments 
+Set</b><i> objAttach = objMessage.</i><b>Attachments(</b><i>index</i><b>) 
+ </b></pre>
+<dl>
+<dt>
+<i>collAttachments </i></dt>
+<dd>
+Object. An Attachments collection object. <br>
+</dd>
+<dt>
+<i>objMessage </i></dt>
+<dd>
+Object. The Message object. <br>
+</dd>
+<dt>
+<i>objAttach </i></dt>
+<dd>
+Object. A single Attachment object. <br>
+</dd>
+<dt>
+<i>index </i></dt>
+<dd>
+Long. Specifies the number of the attachment within the Attachments collection. Ranges from 1 to the value specified by the Attachments collection's <a href="amsm74yn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm74yn.htm"><b>Count</b></a> property. </dd>
+</dl>
+<h4>Data Type</h4>
+<p>
+Object (Attachment or Attachments collection) </p>
+<h4>Remarks </h4>
+<p>
+You can change individual Attachment objects within the Attachments collection, <a href="amsm2vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2vhb.htm"><b>Add</b></a> them to the collection, and <a href="amsm7avz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7avz.htm"><b>Delete</b></a> them from the collection. </p>
+<p>
+Although the <b>Attachments</b> property itself is read-only, the collection it returns can be accessed in the normal manner through its <a href="amsm2vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2vhb.htm"><b>Add</b></a> and <a href="amsm7avz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7avz.htm"><b>Delete</b></a> methods, and the properties on its member <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm">Attachment</a> objects retain their respective read/write or read-only accessibility. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or modifying any attachment; adding, deleting, or modifying any recipient; and modifying any message property, even one with read/write access. </p>
+<h4>Example </h4>
+<p>
+This code fragment uses the <b>Attachments</b> property to retrieve an attachment of the message: </p>
+<pre>Set collAttachments = objMessage.Attachments 
+If collAttachments Is Nothing Then 
+&nbsp;  MsgBox &quot;Unable to set Attachments collection&quot; 
+&nbsp;  Exit Function 
+Else 
+&nbsp;  MsgBox &quot;Attachments count for this message: &quot; &amp; collAttachments.Count 
+&nbsp;  iAttachCollIndex = 0 ' reset global index variable 
+End If 
+' from the sample function Attachments_FirstItem 
+iAttachCollIndex = 1 
+Set objAttach = collAttachments.Item(iAttachCollIndex) 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Regular Expression (RegExp) Object</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsobjregexp"></A>Regular Expression (RegExp) Object</H1>
+
+<P>Provides simple regular expression support. </P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates the use of the <B>RegExp</B> object.</P>
+
+<PRE><CODE>Function RegExpTest(patrn, strng)
+&nbsp;&nbsp;&nbsp;Dim regEx, Match, Matches&nbsp;&nbsp;&nbsp;' Create variable.
+&nbsp;&nbsp;&nbsp;Set regEx = New <span class=cfe><B>RegExp</B></span>&nbsp;&nbsp;&nbsp;' Create a regular expression.
+&nbsp;&nbsp;&nbsp;regEx.Pattern = patrn&nbsp;&nbsp;&nbsp;' Set pattern.
+&nbsp;&nbsp;&nbsp;regEx.IgnoreCase = True&nbsp;&nbsp;&nbsp;' Set case insensitivity.
+&nbsp;&nbsp;&nbsp;regEx.Global = True&nbsp;&nbsp;&nbsp;' Set global applicability.
+&nbsp;&nbsp;&nbsp;Set Matches = regEx.Execute(strng)&nbsp;&nbsp;&nbsp;' Execute search.
+&nbsp;&nbsp;&nbsp;For Each Match in Matches&nbsp;&nbsp;&nbsp;' Iterate Matches collection.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RetStr = RetStr &amp; "Match found at position "
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RetStr = RetStr &amp; Match.FirstIndex &amp; ". Match Value is '"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RetStr = RetStr &amp; Match.Value &amp; "'." &amp; vbCRLF
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;RegExpTest = RetStr
+End Function
+MsgBox(RegExpTest("is.", "IS1 is2 IS3 is4"))</CODE></PRE>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsproglobal.htm">Global Property</A> | <A HREF="vsproignorecase.htm">IgnoreCase Property</A> | <A HREF="vspropattern.htm">Pattern Property</A></P>
+
+<H4>Methods</H4>
+
+<P><A HREF="vsmthexecute.htm">Execute Method</A> | <A HREF="vsmthreplace.htm">Replace Method</A> | <A HREF="vsmthtest.htm">Test Method</A></P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjmatch.htm">Match Object</A> | <A HREF="vscolmatches.htm">Matches Collection</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

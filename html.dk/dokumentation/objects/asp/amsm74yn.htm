@@ -1,0 +1,68 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Count Property (CDONTS Attachments Collection)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_count_property_cdonts_attachments_collection_"></a>Count Property (CDONTS Attachments Collection)  <a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Count</b> property returns the number of <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm">Attachment</a> objects in the collection. Read-only. </p>
+<h4>Syntax </h4>
+<pre><i>collAttachments</i>.<b>Count</b> 
+ </pre>
+<h4>Data Type </h4>
+<p>
+Long </p>
+<h4>Example </h4>
+<p>
+This code fragment stores in an array the names of all Attachment objects in the collection. It shows the <b>Count</b> and <a href="amsm1uxr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1uxr.htm"><b>Item</b></a> properties working together. </p>
+<pre>' from the sample function, TstDrv_Util_SmallCollectionCount 
+' collAttachments is an Attachments collection 
+x = Util_SmallCollectionCount(collAttachments) 
+ 
+Function Util_SmallCollectionCount(objColl As Object) 
+Dim strItemName(100) As String ' Names of objects in collection 
+Dim i As Integer               ' loop counter 
+    On Error GoTo error_amsmtp 
+    If objColl Is Nothing Then 
+        MsgBox &quot;Must supply a valid collection object as a parameter&quot; 
+        Exit Function 
+    End If 
+    If 0 = objColl.Count Then 
+        MsgBox &quot;No messages in the collection&quot; 
+        Exit Function 
+    End If 
+    For i = 1 To objColl.Count Step 1 
+        strItemName(i) = objColl.Item(i).Name 
+        If 100 = i Then ' max size of string array 
+            Exit Function 
+        End If 
+    Next i 
+    ' error handling here... 
+End Function 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+<html>
+<head>
+<title>Querystring</title>
+<meta name="robots" content="noindex, follow">
+</head>
+<body>
+<h1>Hej </h1><h1>Du er  år gammel</h1>
+
+<hr>
+<p>Prøv at udskifte navn og alder med dit eget navn og alder i URL'en - og kald så dokumentet igen!</p>
+<p>Husk at der skal være et <strong>&</strong> mellem de to variabler.</p>
+
+
+
+
+</body>
+</html>

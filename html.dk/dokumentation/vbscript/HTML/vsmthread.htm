@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Read Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthread"></A>Read Method</H1>
+
+<P>Reads a specified number of characters from a <B>TextStream</B> file and returns the resulting string.</P>
+
+<P><CODE><I>object</I><B>.Read(</B><I>characters</I><B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>TextStream </B>object.</P>
+
+<P class=dt><I>characters</I></P>
+
+<P class=indent>Required. Number of characters you want to read from the file.</P>
+
+<H4>Remarks</H4>
+
+<P>The following example illustrates how to use the <B>Read</B> method to read five characters from a file and return the resulting string: </P>
+
+<PRE><CODE>Function ReadTextFileTest
+&nbsp;&nbsp;&nbsp;Const ForReading = 1, ForWriting = 2, ForAppending = 8
+&nbsp;&nbsp;&nbsp;Dim fso, f, Msg
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForWriting, True)
+&nbsp;&nbsp;&nbsp;f.Write "Hello world!"
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForReading)
+&nbsp;&nbsp;&nbsp;ReadTextFileTest = <span class=cfe><B>f.Read(</B></span>5<span class=cfe><B>)</B></span>
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthclose.htm">Close Method</A> | <A HREF="vsmthreadall.htm">ReadAll Method</A> | <A HREF="vsmthreadline.htm">ReadLine Method</A> | <A HREF="vsmthskip.htm">Skip Method</A> | <A HREF="vsmthskipline.htm">SkipLine Method</A> | <A HREF="vsmthwrite.htm">Write Method</A> | <A HREF="vsmthwriteline.htm">WriteLine Method</A> | <A HREF="vsmthwriteblanklines.htm">WriteBlankLines Method</A></P>
+
+<P>Applies To: <A HREF="vsobjtextstream.htm">TextStream Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

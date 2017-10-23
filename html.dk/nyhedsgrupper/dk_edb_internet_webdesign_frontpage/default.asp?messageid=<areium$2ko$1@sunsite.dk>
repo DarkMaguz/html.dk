@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Nogen der kan hj&#230;lpe.</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.frontpage skrevet af Hønemor den 20. november 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Nogen der kan hj&#230;lpe." />
+<meta name="language" content="dan" />
+<meta name="Date" content="20-11-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.frontpage</h1><p>Nyhedsgruppen er til diskussion af problemer, der er ved at fremstille og publicere websider ved brug af produktet Microsoft FrontPage samt diverse WebServere med FrontPage-extensions. Gruppen er ikke beregnet til reklame for produktet, egne websider og lign.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form&amp;ReplyID=%3Careium%242ko%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp'>dk.edb.internet.webdesign.frontpage</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Hønemor&nbsp;&nbsp;<a href='mailto:fagerberg@city.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='fagerberg@city.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Opensource Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 20. november 2002 kl. 01:56</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Nogen der kan hj&#230;lpe.</strong></li></ul>
+
+<p><span class='normal'>Hejsa. </span><br /><span class='normal'>Mon der er nogen som kan hj&#230;lpe mig med en ekstra kode, som jeg kan inds&#230;tte </span><br /><span class='normal'>i denne menu, s&#229; jeg kan f&#229; menuen til at glide ned sammen med siden.....Og </span><br /><span class='normal'>gerne s&#229; nemt som muligt og hvor jeg skal inds&#230;tte koden ? </span><br /><span class='normal'>Jeg skulle gerne n&#229; at blive f&#230;rdig med siderne inden 1. December. </span><br /><span class='normal'>P&#229; forh&#229;nd tak. </span><br /><span class='normal'>KH H&#248;nemor </span><br /><span class='normal'> </span><br /><span class='normal'>Det er denne menu : </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;!--webbot bot=&quot;HTMLMarkup&quot; startspan -->&lt;!--webbot bot=&quot;HTMLMarkup&quot; </span><br /><span class='normal'>startspan -->&lt;html> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;head>&lt;style> </span><br /><span class='normal'>&lt;!-- </span><br /><span class='normal'> </span><br /><span class='normal'>#slidemenubar, #slidemenubar2{ </span><br /><span class='normal'>position:absolute; </span><br /><span class='normal'>left:-135px; </span><br /><span class='normal'>width:160px; </span><br /><span class='normal'>top:30px; </span><br /><span class='normal'>border:6.0px solid #000000; </span><br /><span class='normal'>background-color:#D8C090; </span><br /><span class='normal'>layer-background-color:#000000; </span><br /><span class='normal'>font:bold 12px Verdana; </span><br /><span class='normal'>line-height:23px; </span><br /><span class='normal'>} </span><br /><span class='normal'>--> </span><br /><span class='normal'>&lt;/style> </span><br /><span class='normal'>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1252&quot; </span><br /><span class='normal'>style=&quot;color: #000000&quot;> </span><br /><span class='normal'>&lt;meta name=&quot;GENERATOR&quot; content=&quot;Microsoft FrontPage 4.0&quot; style=&quot;color: </span><br /><span class='normal'>#000000&quot;> </span><br /><span class='normal'>&lt;meta name=&quot;ProgId&quot; content=&quot;FrontPage.Editor.Document&quot; style=&quot;color: </span><br /><span class='normal'>#000000&quot;> </span><br /><span class='normal'>&lt;title>Navigation&lt;/title> </span><br /><span class='normal'>&lt;/head> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;body> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;script language=&quot;JavaScript1.2&quot; &lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'>/* </span><br /><span class='normal'>Sliding Menu Bar Script- &#169; Dynamic Drive (www.dynamicdrive.com) </span><br /><span class='normal'>For full source code, installation instructions, and TOS </span><br /><span class='normal'>Visit <a href='http://dynamicdrive.com'>http://dynamicdrive.com</a> </span><br /><span class='normal'>*/ </span><br /><span class='normal'> </span><br /><span class='normal'>var ns4=document.layers?1:0 </span><br /><span class='normal'>var ie4=document.all?1:0 </span><br /><span class='normal'>var ns6=document.getElementById&amp;&amp;!document.all?1:0 </span><br /><span class='normal'> </span><br /><span class='normal'>if (ie4ns6) </span><br /><span class='normal'>document.write('&lt;div id=&quot;slidemenubar2&quot; style=&quot;text-indent: 0; word-spacing: </span><br /><span class='normal'>0; text-align: center; border-style: groove; border-color: #000000; margin: </span><br /><span class='normal'>0&quot; onMouseover=&quot;pull()&quot; onMouseout=&quot;draw()&quot;>') </span><br /><span class='normal'>else </span><br /><span class='normal'>document.write('&lt;layer id=&quot;slidemenubar&quot; onMouseover=&quot;pull()&quot; </span><br /><span class='normal'>onMouseout=&quot;draw()&quot;>') </span><br /><span class='normal'> </span><br /><span class='normal'>var sitems=new Array() </span><br /><span class='normal'>var sitemlinks=new Array() </span><br /><span class='normal'> </span><br /><span class='normal'>///////////Edit below///////////////////////////////// </span><br /><span class='normal'> </span><br /><span class='normal'>//extend or shorten this list </span><br /><span class='normal'>sitems[0]=&quot;Startsiden&quot; </span><br /><span class='normal'>sitems[1]=&quot;Indledning&quot; </span><br /><span class='normal'>sitems[2]=&quot;Tutorials&quot; </span><br /><span class='normal'>sitems[3]=&quot;Tutorials 1&quot; </span><br /><span class='normal'>sitems[4]=&quot;Printning&quot; </span><br /><span class='normal'>sitems[5]=&quot;Digitale billeder&quot; </span><br /><span class='normal'>sitems[6]=&quot;Gode R&#229;d&quot; </span><br /><span class='normal'>sitems[7]=&quot;Plugin&quot; </span><br /><span class='normal'>sitems[8]=&quot;PSP Guf&quot; </span><br /><span class='normal'>sitems[9]=&quot;Baggrunde&quot; </span><br /><span class='normal'>sitems[10]=&quot;Tuber&quot; </span><br /><span class='normal'>sitems[11]=&quot;Nyheder&quot; </span><br /><span class='normal'>sitems[12]=&quot;Link&quot; </span><br /><span class='normal'>sitems[13]=&quot;G&#230;stebog&quot; </span><br /><span class='normal'>sitems[14]=&quot;Mail&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>//These are the links pertaining to the above text. </span><br /><span class='normal'>sitemlinks[0]=&quot;../index.htm&quot; </span><br /><span class='normal'>sitemlinks[1]=&quot;../indledning/indledning.htm&quot; </span><br /><span class='normal'>sitemlinks[2]=&quot;../tutorials/tutorials.htm&quot; </span><br /><span class='normal'>sitemlinks[3]=&quot;../tutorials_1/tutorials_1.htm&quot; </span><br /><span class='normal'>sitemlinks[4]=&quot;../printning/printning.htm&quot; </span><br /><span class='normal'>sitemlinks[5]=&quot;../fotografier/fotografier.htm&quot; </span><br /><span class='normal'>sitemlinks[6]=&quot;../gode_raad/gode_raad.htm&quot; </span><br /><span class='normal'>sitemlinks[7]=&quot;../plugin/plugin.htm&quot; </span><br /><span class='normal'>sitemlinks[8]=&quot;../psp_guf/psp_guf.htm&quot; </span><br /><span class='normal'>sitemlinks[9]=&quot;../baggrunde/baggrunde.htm&quot; </span><br /><span class='normal'>sitemlinks[10]=&quot;../tuber/tuber.htm&quot; </span><br /><span class='normal'>sitemlinks[11]=&quot;../nyheder/julen_og_nytaar_2002.htm&quot; </span><br /><span class='normal'>sitemlinks[12]=&quot;../link/link.htm&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>//If you want the links to load in another frame/window, specify name of </span><br /><span class='normal'>target (ie: target=&quot;_new&quot;) </span><br /><span class='normal'>var target=&quot;&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>///////////////////////////////////////////////////////// </span><br /><span class='normal'> </span><br /><span class='normal'>for (i=0;i&lt;=sitems.length-1;i++) </span><br /><span class='normal'>document.write('&lt;a href='+sitemlinks[i]+' target=&quot;'+target+'&quot; style=&quot;color: </span><br /><span class='normal'>#000000&quot;>'+sitems[i]+'&lt;/a>&lt;br>') </span><br /><span class='normal'> </span><br /><span class='normal'>function regenerate(){ </span><br /><span class='normal'>window.location.reload() </span><br /><span class='normal'>} </span><br /><span class='normal'>function regenerate2(){ </span><br /><span class='normal'>if (ns4) </span><br /><span class='normal'>setTimeout(&quot;window.onresize=regenerate&quot;,400) </span><br /><span class='normal'>} </span><br /><span class='normal'>window.onload=regenerate2 </span><br /><span class='normal'>if (ie4ns6){ </span><br /><span class='normal'>document.write('&lt;/div>') </span><br /><span class='normal'>themenu=(ns6)? document.getElementById(&quot;slidemenubar2&quot;).style : </span><br /><span class='normal'>document.all.slidemenubar2.style </span><br /><span class='normal'>rightboundary=0 </span><br /><span class='normal'>leftboundary=-150 </span><br /><span class='normal'>} </span><br /><span class='normal'>else{ </span><br /><span class='normal'>document.write('&lt;/layer>') </span><br /><span class='normal'>themenu=document.layers.slidemenubar </span><br /><span class='normal'>rightboundary=150 </span><br /><span class='normal'>leftboundary=10 </span><br /><span class='normal'>} </span><br /><span class='normal'>function pull(){ </span><br /><span class='normal'>if (window.drawit) </span><br /><span class='normal'>clearInterval(drawit) </span><br /><span class='normal'>pullit=setInterval(&quot;pullengine()&quot;,50) </span><br /><span class='normal'>} </span><br /><span class='normal'>function draw(){ </span><br /><span class='normal'>clearInterval(pullit) </span><br /><span class='normal'>drawit=setInterval(&quot;drawengine()&quot;,50) </span><br /><span class='normal'>} </span><br /><span class='normal'>function pullengine(){ </span><br /><span class='normal'>if (ie4&amp;&amp;themenu.pixelLeft&lt;rightboundary) </span><br /><span class='normal'>themenu.pixelLeft+=5 </span><br /><span class='normal'>else if (ns6&amp;&amp;parseInt(themenu.left)&lt;rightboundary) </span><br /><span class='normal'>themenu.left=parseInt(themenu.left)+5 </span><br /><span class='normal'>else if( ns4&amp;&amp;themenu.left&lt;rightboundary) </span><br /><span class='normal'>themenu.left+=5 </span><br /><span class='normal'>else if (window.pullit) </span><br /><span class='normal'>clearInterval(pullit) </span><br /><span class='normal'>} </span><br /><span class='normal'>function drawengine(){ </span><br /><span class='normal'>if (ie4&amp;&amp;themenu.pixelLeft>leftboundary) </span><br /><span class='normal'>themenu.pixelLeft-=5 </span><br /><span class='normal'>else if (ns6&amp;&amp;parseInt(themenu.left)>leftboundary) </span><br /><span class='normal'>themenu.left=parseInt(themenu.left)-5 </span><br /><span class='normal'>else if(ns4&amp;&amp;themenu.left>leftboundary) </span><br /><span class='normal'>themenu.left-=5 </span><br /><span class='normal'>else if (window.drawit) </span><br /><span class='normal'>clearInterval(drawit) </span><br /><span class='normal'>} </span><br /><span class='normal'>&lt;/script </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/html> </span><br /><span class='normal'>&lt;!--webbot bot=&quot;HTMLMarkup&quot; endspan --> </span><br /><span class='normal'>&lt;!--webbot bot=&quot;HTMLMarkup&quot; endspan --> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>&lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>&lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>&lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>&lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>&lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'>&lt;p>&amp;nbsp;&lt;/p> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Careium%242ko%241%40sunsite%2Edk%3E' title='Nogen der kan hj&#230;lpe.'>Nogen der kan hj&#230;lpe.</a>&nbsp;<small class='newslist'>(20-11-02&nbsp;-&nbsp;Hønemor)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Curlltu8f0nnc0buam09auf6nkv0vt767ch%40dtext%2Enews%2Etele%2Edk%3E' title='Re: Nogen der kan hj&#230;lpe.'>Re: Nogen der kan hj&#230;lpe.</a>&nbsp;<small class='newslist'>(20-11-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Carfgb3%248i%241%40sunsite%2Edk%3E' title='Re: Nogen der kan hj&#230;lpe.'>Re: Nogen der kan hj&#230;lpe.</a>&nbsp;<small class='newslist'>(20-11-02&nbsp;-&nbsp;Hønemor)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C6djmtusbl9e2mtrsck15rtonm4gbm78e1f%40dtext%2Enews%2Etele%2Edk%3E' title='Re: Nogen der kan hj&#230;lpe.'>Re: Nogen der kan hj&#230;lpe.</a>&nbsp;<small class='newslist'>(20-11-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3ddbc32e%240%2481771%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: Nogen der kan hj&#230;lpe.'>Re: Nogen der kan hj&#230;lpe.</a>&nbsp;<small class='newslist'>(20-11-02&nbsp;-&nbsp;Lars&nbsp;Raaby)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3ddbcc53%241%2471941%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E' title='Re: Nogen der kan hj&#230;lpe.'>Re: Nogen der kan hj&#230;lpe.</a>&nbsp;<small class='newslist'>(20-11-02&nbsp;-&nbsp;Arne&nbsp;H.&nbsp;Wilstrup)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Cariast%24c7e%241%40sunsite%2Edk%3E' title='Re: Nogen der kan hj&#230;lpe.'>Re: Nogen der kan hj&#230;lpe.</a>&nbsp;<small class='newslist'>(21-11-02&nbsp;-&nbsp;Hønemor)</small></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form&amp;ReplyID=%3Careium%242ko%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp'>dk.edb.internet.webdesign.frontpage</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html_125x125'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_anim.gif' alt='Link til IT-Jobank' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3careium$2ko$1@sunsite.dk%3e' method='post'><p class='pollheader'>Overvejer du at søge nyt job i 2003?</p><div><input type='hidden' name='tst' value='18-02-03 03:19:36' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp' title='Nyhedsgruppen er til diskussion af problemer' class='navibox'>dk.edb.internet.webdesign.frontpage</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Nogen der kan hj&#230;lpe.</span></div>
+
+
+
+</body>
+</html>
+

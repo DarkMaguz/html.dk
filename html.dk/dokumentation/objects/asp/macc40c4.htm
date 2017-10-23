@@ -1,0 +1,62 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Set</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_set"></a>Set</h1>
+<p>
+The <b>Set </b>method takes the name of a counter and an integer, sets the counter to the value of the integer, and returns the new value. If the counter doesn't exist, <b>Counters.Set </b>creates it and sets it to the value of the integer.</p>
+<p>
+To retrieve the value of a counter, use <b>Counters.Get</b>. To increment a counter by 1, use <b>Counters.Increment</b>. </p>
+<h2>Syntax</h2>
+<pre><b>Counters.Set</b>(<i>CounterName</i>, <i>int</i>)
+ </pre>
+<h2>Parameters</h2>
+<dl>
+<dt>
+<i>CounterName</i></dt>
+<dd>
+A string containing the name of the counter.<br>
+</dd>
+<dt>
+<i>int</i></dt>
+<dd>
+The new integer value for <i>CounterName</i>.</dd>
+</dl>
+<h2>Example</h2>
+<p>
+The following code resets the hit counter <code>pageHits </code>to 0: </p>
+<pre>&lt;% Counters.Set(pageHits, 0) %&gt; 
+ </pre>
+<h2>Applies To</h2>
+<p>
+Counter component</p>
+<h2>See Also</h2>
+<p>
+<a href="macc2yes.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc2yes.htm"><b>Get</b></a>, <a href="macc64xg.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc64xg.htm"><b>Increment</b></a>, <a href="macc2aqt.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc2aqt.htm"><b>Remove</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

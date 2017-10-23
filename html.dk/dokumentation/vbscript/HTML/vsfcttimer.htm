@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Timer Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfcttimer"></A>Timer Function</H1>
+
+<P>Returns the number of seconds that have elapsed since 12:00 AM (midnight).</P>
+
+<P><CODE>Timer</CODE></P>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>Timer</B> function to determine the time it takes to iterate a <B>For...Next</B> loop <I>N</I> times: </P>
+
+<PRE><CODE>Function TimeIt(N)
+&nbsp;&nbsp;&nbsp;Dim StartTime, EndTime
+&nbsp;&nbsp;&nbsp;StartTime = <span class=cfe><B>Timer</B></span>
+&nbsp;&nbsp;&nbsp;For I = 1 To N
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;EndTime = <span class=cfe><B>Timer</B></span>
+&nbsp;&nbsp;&nbsp;TimeIt = EndTime - StartTime
+End Function </CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmrandomize.htm">Randomize Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

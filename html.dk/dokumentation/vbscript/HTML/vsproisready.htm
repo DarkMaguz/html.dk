@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>IsReady Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsproisready"></A>IsReady Property</H1>
+
+<P>Returns <B>True</B> if the specified drive is ready; <B>False</B> if it is not.</P>
+
+<P><CODE><I>object</I>.<B>IsReady</B> </CODE></P>
+
+<P>The <I>object</I> is always a <B>Drive</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>For removable-media drives and CD-ROM drives, <B>IsReady</B> returns <B>True</B> only when the appropriate media is inserted and ready for access. </P>
+
+<P>The following code illustrates the use of the <B>IsReady</B> property: </P>
+
+<PRE><CODE>Function ShowDriveInfo(drvpath)
+&nbsp;&nbsp;&nbsp;Dim fso, d, s, t
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set d = fso.GetDrive(drvpath)
+&nbsp;&nbsp;&nbsp;Select Case d.DriveType
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 0: t = "Unknown"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 1: t = "Removable"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 2: t = "Fixed"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 3: t = "Network"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 4: t = "CD-ROM"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 5: t = "RAM Disk"
+&nbsp;&nbsp;&nbsp;End Select
+&nbsp;&nbsp;&nbsp;s = "Drive " &amp; d.DriveLetter &amp; ": - " &amp; t
+&nbsp;&nbsp;&nbsp;If <span class=cfe><B>d.IsReady</B></span> Then 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; "&lt;BR&gt;" &amp; "Drive is Ready."
+&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; "&lt;BR&gt;" &amp; "Drive is not Ready."
+&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;ShowDriveInfo = s
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsproavailablespace.htm">AvailableSpace Property</A> | <A HREF="vsprodriveletter.htm">DriveLetter Property</A> | <A HREF="vsprodrivetype.htm">DriveType Property</A> | <A HREF="vsprofilesystem.htm">FileSystem Property</A> | <A HREF="vsprofreespace.htm">FreeSpace Property</A> | <A HREF="vspropath.htm">Path Property</A> | <A HREF="vsprorootfolder.htm">RootFolder Property</A> | <A HREF="vsproserialnumber.htm">SerialNumber Property</A> | <A HREF="vsprosharename.htm">ShareName Property</A> | <A HREF="vsprototalsize.htm">TotalSize Property</A> | <A HREF="vsprovolumename.htm">VolumeName Property</A></P>
+
+<P>Applies To: <A HREF="vsobjdrive.htm">Drive Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,153 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>98.7% af danske webforsider har HTML-fejl</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Jesper Harder den 9. juli 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="98.7% af danske webforsider har HTML-fejl" />
+<meta name="language" content="dan" />
+<meta name="Date" content="09-07-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200172083171AC1?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200172083171AC1?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200172083171AC1?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cwk7kxijial%2Efsf%40try%2Eharder%2EInvalid%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jesper&nbsp;Harder&nbsp;&nbsp;<a href='mailto:harder@myrealbox.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='harder@myrealbox.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> http://purl.org/harder/</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 9. juli 2001 kl. 16:20</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>98.7% af danske webforsider har HTML-fejl</strong></li></ul>
+
+<p><span class='normal'>Jeg syntes det kunne v&#230;re interessant at se, hvor mange websider der </span><br /><span class='normal'>egentligt overholder standarden. Jeg havde ikke forventet, at resultatet </span><br /><span class='normal'>ville v&#230;re s&#230;rligt opl&#248;ftende, men jeg havde dog ikke troet at det stod </span><br /><span class='normal'>*s&#229;* galt til: </span><br /><span class='normal'> </span><br /><span class='normal'>Ud af 1000 tilf&#230;ldigt udvalgte danske webforsider var kun 13 sider </span><br /><span class='normal'>skrevet med korrekt HTML -- dvs. at kun s&#248;lle 1.3% (&#177;0.4%) af alle </span><br /><span class='normal'>forsider er fejlfri. </span><br /><span class='normal'> </span><br /><span class='normal'>*Metode* </span><br /><span class='normal'> </span><br /><span class='normal'>Dom&#230;nenavnene blev udtrukket tilf&#230;ldigt fra DK-Hostmasters liste [1] </span><br /><span class='normal'>over danske dom&#230;ner. For hvert dom&#230;ne blev URL'en </span><br /><span class='normal'> </span><br /><span class='normal'>     <a href='http://www.dom&#230;ne.dk/'>http://www.dom&#230;ne.dk/</a> </span><br /><span class='normal'> </span><br /><span class='normal'>blev fors&#248;gt hentet med wget [2]. For at finde 1000 forsider var det </span><br /><span class='normal'>n&#248;dvendigt at afpr&#248;ve 1519 dom&#230;ner, dvs. at mindst 65.8% (&#177;1.2%) af </span><br /><span class='normal'>danske dom&#230;ner har en webside tilknyttet. </span><br /><span class='normal'> </span><br /><span class='normal'>Herefter blev siderne valideret med SGML-validatoren fra OpenJade [3]. </span><br /><span class='normal'> </span><br /><span class='normal'>*Andre resultater* </span><br /><span class='normal'> </span><br /><span class='normal'>Tabellen viser hvilken HTML-version siderne angiver: </span><br /><span class='normal'>  _____________________________________ </span><br /><span class='normal'>  Doctype                 antal     % </span><br /><span class='normal'>  &#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175; </span><br /><span class='normal'>  Ingen                    831   83.1% </span><br /><span class='normal'>  HTML 4.0(1)               76    7.6% </span><br /><span class='normal'>  HTML 3.2                  52    5.2% </span><br /><span class='normal'>  HTML 2.0                  35    3.5% </span><br /><span class='normal'>  Andre                      6    0.6% </span><br /><span class='normal'>  _____________________________________ </span><br /><span class='normal'>  Sum                     1000    100% </span><br /><span class='normal'>  &#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175; </span><br /><span class='normal'> </span><br /><span class='normal'>Som det ses, mangler hovedparten af siderne den obligatoriske </span><br /><span class='normal'>doctype-erkl&#230;ring. S&#229; allerede fra f&#248;rste linje overholder langt de </span><br /><span class='normal'>fleste sider ikke HTML-standarden. </span><br /><span class='normal'> </span><br /><span class='normal'>N&#230;ste tabel viser hvilket redigeringsv&#230;rkt&#248;j siderne angiver: </span><br /><span class='normal'>   </span><br /><span class='normal'>  _____________________________________ </span><br /><span class='normal'>  Generator               antal     % </span><br /><span class='normal'>  &#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175; </span><br /><span class='normal'>  Ingen                    680    68.0% </span><br /><span class='normal'>  Microsoft FrontPage      201    20.1% </span><br /><span class='normal'>  Adobe GoLive              43     4.3% </span><br /><span class='normal'>  Stone's WebWriter         17     1.7% </span><br /><span class='normal'>  NetObjects Fusion          9     0.9% </span><br /><span class='normal'>  Microsoft Publisher        7     0.7% </span><br /><span class='normal'>  Mozilla                    6     0.6% </span><br /><span class='normal'>  Microsoft Visual Studio    5     0.5% </span><br /><span class='normal'>  Andre                     32     3.2% </span><br /><span class='normal'>  _____________________________________ </span><br /><span class='normal'>  Sum                     1000     100% </span><br /><span class='normal'>  &#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175;&#175; </span><br /><span class='normal'> </span><br /><span class='normal'>Adskillige udbredte webredigeringsv&#230;rkt&#248;jer er berygtede for ikke at </span><br /><span class='normal'>producere korrekt HTML, hvilket kunne v&#230;re en forklaring p&#229; den store </span><br /><span class='normal'>fejlprocent. Men en overraskende stor procentdel af siderne er </span><br /><span class='normal'>tilsyneladende ikke lavet i en WYSIWYG-editor, s&#229; det lader ikke til at </span><br /><span class='normal'>man kan skyde hele skylden p&#229; d&#229;rlige v&#230;rkt&#248;jer. </span><br /><span class='normal'> </span><br /><span class='normal'>*Konklusion* </span><br /><span class='normal'> </span><br /><span class='normal'>Forsider er p&#229; nogle punkter n&#230;ppe repr&#230;sentative for _alle_ websider -- </span><br /><span class='normal'>mange forsider er meget korte, og en del af dom&#230;nerne er ikke for alvor </span><br /><span class='normal'>taget i brug. Jeg trog dog desv&#230;rre ikke, der er nogen grund til at tro, </span><br /><span class='normal'>at undersider skulle v&#230;re v&#230;sentligt mindre fejlbeh&#230;ftede end </span><br /><span class='normal'>forsiderne. </span><br /><span class='normal'> </span><br /><span class='normal'>Den s&#248;rgelige konklusion m&#229; v&#230;re, at flertallet af folk der laver </span><br /><span class='normal'>websider er inkompetente, og ikke har forst&#229;et HTML. </span><br /><span class='normal'> </span><br /><span class='normal'>*Noter* </span><br /><span class='normal'> </span><br /><span class='normal'>[1] &lt;<a href='http://www.dk-hostmaster.dk/domaincount/domains.txt'>http://www.dk-hostmaster.dk/domaincount/domains.txt</a>> </span><br /><span class='normal'>[2] &lt;<a href='http://www.gnu.org/software/wget/wget.html'>http://www.gnu.org/software/wget/wget.html</a>> </span><br /><span class='normal'>[3] &lt;<a href='http://openjade.sourceforge.net/'>http://openjade.sourceforge.net/</a>> </span><br /><span class='normal'> </span><br /><span class='normal'>(Jeg har lagt en HTMLiseret udgave af resultaterne p&#229; </span><br /><span class='normal'>&lt;<a href='http://purl.org/harder/webfjols.html'>http://purl.org/harder/webfjols.html</a>>) </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cwk7kxijial%2Efsf%40try%2Eharder%2EInvalid%3E' title='98.7% af danske webforsider har HTML-fejl'>98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Jesper&nbsp;Harder)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C9icfeu%24iun%241%40sunsite%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Jonas&nbsp;Astrup&nbsp;-&nbsp;html.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cwkbsmtdffx%2Efsf%40try%2Eharder%2EInvalid%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Jesper&nbsp;Harder)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1ewahzw%2E17vinp91x65cgoN%25post%40gunnar%2Dv%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3B488E0B%2E32F3D0D7%40teleline%2Ees%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(08-07-01&nbsp;-&nbsp;Lars&nbsp;Hoffmann)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cwk3d85ddu0%2Efsf%40try%2Eharder%2EInvalid%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Jesper&nbsp;Harder)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C9ifjbh%24ocb%241%40egon%2Eworldonline%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(10-07-01&nbsp;-&nbsp;Mickey)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cwk3d825ejg%2Efsf%40try%2Eharder%2EInvalid%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(12-07-01&nbsp;-&nbsp;Jesper&nbsp;Harder)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3b4efeb7%240%24261%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(13-07-01&nbsp;-&nbsp;Lars&nbsp;Nyberg)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1ewjr2k%2E1baolwm1g9horsN%25post%40gunnar%2Dv%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(14-07-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C9icpmj%24fve%241%40sunsite%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Ken&nbsp;Schultz)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C2grjktcu2m7r08i3j1mo02sq44cjufti58%40news%2Einet%2Etele%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1ewamy4%2E1akagkahxl3cgN%25post%40gunnar%2Dv%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cd1tjkt8i40jance9s4joopmol9o48jruo9%40news%2Einet%2Etele%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;CHRistian)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1ewaqkl%2E8gd6y3wn62zqN%25post%40gunnar%2Dv%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cdq3kktk5h0edl62nadbqmk4usua20oa7vu%40news%2Einet%2Etele%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;CHRistian)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ca73956f36e9fce0929bbb6f063c69f10%40kajsvenningsen%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Kaj&nbsp;Svenningsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1ewar8d%2E1wz391gchajmuN%25post%40gunnar%2Dv%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cabb00209192caa4a5826859df7e18b1a%40kajsvenningsen%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Kaj&nbsp;Svenningsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1ewau8v%2Ey2ga5w19aevfvN%25post%40gunnar%2Dv%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Gunnar&nbsp;Vestergaard)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cwk7kxhdf8x%2Efsf%40try%2Eharder%2EInvalid%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Jesper&nbsp;Harder)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cectjktcu1g79hgcckjf1d4vclst5qe7tgr%404ax%2Ecom%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Martin)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3B48B4D1%2E370FB2BD%40teleline%2Ees%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(08-07-01&nbsp;-&nbsp;Lars&nbsp;Hoffmann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Croakkt4l3lscd0l24jh929hfq4r1fv5omv%40ghashul%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(09-07-01&nbsp;-&nbsp;Stefan&nbsp;Bruhn)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cfrvlktgijkmfoff5jli4cesmmdc6phqgsq%40news%2Eworldonline%2Edk%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(10-07-01&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cwk1ynohbh3%2Efsf%40try%2Eharder%2EInvalid%3E' title='Re: 98.7% af danske webforsider har HTML-fejl'>Re: 98.7% af danske webforsider har HTML-fejl</a>&nbsp;<small class='newslist'>(10-07-01&nbsp;-&nbsp;Jesper&nbsp;Harder)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cwk7kxijial%2Efsf%40try%2Eharder%2EInvalid%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3cwk7kxijial.fsf@try.harder.Invalid%3e' method='post'><p class='pollheader'>Hvordan ser du Danmarks chancer for at blive verdens bedste IT-nation?</p><div><input type='hidden' name='tst' value='20-07-01 08:31:08' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Gode</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Dårlige</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200172083171AC1?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200172083171AC1?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200172083171AC1?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;html.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<a href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=2" /></a>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: 98.7% af danske webforsider har HTML-fejl</span></div>
+
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+<html>
+<title>Lokal tid</title>
+<head>
+<style type="text/css">
+body {background:#6699CC;color:#336699}
+#dag {font-size:5em;}
+#maaned {font-size:3em;}
+</style>
+</head>
+<body>
+<center></center>
+<hr>
+
+
+<span id='dag'>29</span>
+
+
+<span id='maaned'>December</span>
+
+</body>
+</html>
+

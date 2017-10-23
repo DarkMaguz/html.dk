@@ -1,0 +1,182 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Site Design Opbygning??</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Steen Nielsen den 13. juni 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Site Design Opbygning??" />
+<meta name="language" content="dan" />
+<meta name="Date" content="13-06-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3Caeaf7d%24ggs%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Steen&nbsp;Nielsen&nbsp;&nbsp;<a href='mailto:steen@msdesign.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='steen@msdesign.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Cybercity</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 13. juni 2002 kl. 17:54</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Site Design Opbygning??</strong></li></ul>
+
+<p><span class='normal'>&quot;Mads Kristensen&quot; &lt;<a href='http://mkk@easywebdesign.dk'>mkk@easywebdesign.dk</a>> wrote in message </span><br /><span class='normal'><a href='http://news:3d08be1e$0$78788$edfadb0f@dspool01.news.tele.dk'>news:3d08be1e$0$78788$edfadb0f@dspool01.news.tele.dk</a>... </span><br /><span class='citat'>> Hej Steen </span><br /><span class='citat'>> </span><br /><span class='citat'>> Du stiller et meget aktuelt sp&#248;rgsm&#229;l, som har gjort mangen webdesigner </span><br /><span class='citat'>> gr&#229;h&#229;ret. Der er klare fordele ved begge fremgangsm&#229;der. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Hvis du bruger &lt;table> er din side bagudkompatibel og bruger du &lt;div>, er </span><br /><span class='normal'>du </span><br /><span class='citat'>> fremadsynet. Jeg ved det lyder meget firkantet, men &#230;ldre browsere har </span><br /><span class='normal'>sv&#230;rt </span><br /><span class='citat'>> ved at h&#229;ndtere &lt;div> med de muligheder for positionering i css vi har i </span><br /><span class='citat'>> dag. P&#229; den anden side er &lt;div> en meget mere fleksibel og tidssparende </span><br /><span class='citat'>> metode som st&#248;ttes af langt de fleste nyere browsere (IE5+, netscape 6.2 </span><br /><span class='citat'>> m.fl.). </span><br /><span class='citat'>> </span><br /><span class='citat'>> Hvis du vil udnytte mulighederne i xml eller xhtml, er det smarteste at </span><br /><span class='citat'>> bruge &lt;div>. Jo f&#230;rre tags, jo bedre. Du skal bare huske at afveje </span><br /><span class='citat'>> mulighederne i &lt;div> med antallet af &#230;ldre browsere der bes&#248;ger din </span><br /><span class='citat'>> hjemmeside. </span><br /><span class='citat'>> </span><br /><span class='citat'>> S&#229; kan det v&#230;re, at nogen mener at man bare skal kode efter standarderne, </span><br /><span class='citat'>> hvor &lt;div> er 100% standard. Det har de helt ret i, hvis dine bes&#248;gendes </span><br /><span class='citat'>> browsere alts&#229; underst&#248;tter det! </span><br /><span class='citat'>> </span><br /><span class='citat'>> Min hensigt er, at fjerne alle tabeller p&#229; min hjemmeside i n&#230;rmeste </span><br /><span class='citat'>> fremtid, da antallet af ikke-IE browsere er faldende p&#229; min side. Pt. har </span><br /><span class='citat'>> 96,5% af mine bes&#248;gende IE5+. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Kort sagt: Kend dine bes&#248;gendes browsere! </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg h&#229;ber det kunne hj&#230;lpe dig lidt p&#229; vej, selvom der nok er nogle der er </span><br /><span class='citat'>> uenige med mig <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> </span><br /><span class='normal'> </span><br /><span class='normal'>Jo da.. s'f&#248;lig hj&#230;lper det n&#229;r man bliver hjulpet, og det er jo det vi alle </span><br /><span class='normal'>er her for. </span><br /><span class='normal'>og jeg kender godt til de store forskelle der er med de mange forskellige </span><br /><span class='normal'>browsere der ser diverse hjemmesider p&#229; hver sin m&#229;de, det er faktisk </span><br /><span class='normal'>rigtigt irriterende, ogs&#229; netop det at mange siger at man skal f&#248;lge W3 </span><br /><span class='normal'>organisationens standarder... og det g&#248;r jeg ogs&#229;... altid.... men det er </span><br /><span class='normal'>bare kun den nyeste jeg f&#248;lger. Og det er netop den som ikke ret mange </span><br /><span class='normal'>browsere underst&#248;tter med alle detaljer. </span><br /><span class='normal'> </span><br /><span class='normal'>Men jeg er da glad for at se at nogle her i NG'en skriver og kommenterer... </span><br /><span class='normal'>gl&#230;der mig til flere indl&#230;g her... </span><br /><span class='normal'> </span><br /><span class='normal'>Med venlig hilsen </span><br /><span class='normal'>Steen Nielsen </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Caea9h4%246i4%241%40news%2Ecybercity%2Edk%3E' title='Site Design Opbygning??'>Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Steen&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3D08BA9C%2E7030103%40brunholm%2Dscharff%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3d08be1e%240%2478788%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Mads&nbsp;Kristensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Caeaf7d%24ggs%241%40news%2Ecybercity%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Steen&nbsp;Nielsen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3D08C1F2%2E2060903%40brunholm%2Dscharff%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;[5000]&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3D08EC61%2E7070107%40eksempel%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C20020613210845%2E0d9a59b6%2Ekim%40schulz%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3d08ee92%240%2480394%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Mads&nbsp;Kristensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C20020613212834%2E161ce06a%2Ekim%40schulz%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3D08F8A2%2E5080905%40eksempel%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3d08fe40%240%2471617%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Mads&nbsp;Kristensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3D0909A7%2E80501%40eksempel%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3d0980d3%240%2471635%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Mads&nbsp;Kristensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Ca71jgucf7pd5mdmge1k3106ufocgua3oqk%40dtext%2Enews%2Etele%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CyVfO8%2E37041%24N46%2E1581788%40news010%2Eworldonline%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cur3jguk56oggflv5i9obbmhli85d9f90ci%40dtext%2Enews%2Etele%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(14-06-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3d0901f1%240%2480416%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Site Design Opbygning??'>Re: Site Design Opbygning??</a>&nbsp;<small class='newslist'>(13-06-02&nbsp;-&nbsp;Kasper&nbsp;Kyndsberg)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3Caeaf7d%24ggs%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html_125x125'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_anim.gif' alt='Link til IT-Jobank' /></a>
+<br /><br />
+<!--
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3caeaf7d$ggs$1@news.cybercity.dk%3e' method='post'><p class='pollheader'>Købte du julegaver online?</p><div><input type='hidden' name='tst' value='10-01-03 18:08:05' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Site Design Opbygning??</span></div>
+
+
+
+</body>
+</html>
+

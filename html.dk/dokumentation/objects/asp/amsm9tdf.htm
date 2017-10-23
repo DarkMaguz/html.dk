@@ -1,0 +1,83 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Properties Common to All CDO for NTS Library Objects</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_denali_properties_common_to_all_cdo_for_nts_library_objects"></a>Properties Common to All CDO for NTS Library Objects</h2>
+<p>
+All Microsoft&reg; CDO for NTS Library objects except the <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm">NewMail</a> object expose the properties <a href="amsm23rz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm23rz.htm"><b>Application</b></a>, <a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a>, <a href="amsm8snz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8snz.htm"><b>Parent</b></a>, and <a href="amsm6iov.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6iov.htm"><b>Session</b></a>. The <b>Application </b>and <b>Session</b> properties have the same values for all objects within a given session. The <b>Parent</b> property indicates the immediate parent of the object, and the <b>Class </b>property is an integer value that identifies the CDO for NTS Library object. </p>
+<p>
+The <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm">NewMail</a> object is self-contained and does not expose any of these properties. </p>
+<p>
+All four of these common properties have read-only access in all objects. Note that for the <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm">Session</a> object, the <b>Parent</b> and <b>Session</b> properties are assigned the value <b>Nothing</b>. The Session object represents the highest level in the CDO for NTS Library object hierarchy and has no parent. </p>
+<p>
+To reduce duplication, the detailed reference for these properties appears only once, in this section. The following table lists the properties that are common to all CDO for NTS Library objects and that have the same meaning for all objects. </p>
+<h4>Properties </h4>
+<table>
+<tr valign=top>
+<td>
+<b>Name </b></td>
+<td>
+<b>Type </b></td>
+<td>
+<b>Access </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm23rz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm23rz.htm"><b>Application</b></a> </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a> </td>
+<td>
+Long </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8snz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8snz.htm"><b>Parent</b></a> </td>
+<td>
+Object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6iov.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6iov.htm"><b>Session</b></a> </td>
+<td>
+Session object </td>
+<td>
+Read-only </td>
+</tr>
+</table><br>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

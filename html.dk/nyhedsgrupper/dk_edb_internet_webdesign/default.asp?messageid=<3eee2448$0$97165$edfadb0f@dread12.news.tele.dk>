@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Re: Fejlmeddelelse</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Torben Olsen den 16. juni 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Fejlmeddelelse" />
+<meta name="language" content="dan" />
+<meta name="Date" content="16-06-2003" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=650046944619?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3eee2448%240%2497165%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Torben&nbsp;Olsen&nbsp;&nbsp;<a href='mailto:to@olsengroup.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='to@olsengroup.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 16. juni 2003 kl. 22:10</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Fejlmeddelelse</strong></li></ul>
+
+<p><span class='normal'>&quot;Martin Sveegaard&quot; &lt;<a href='http://sveegaard@tdcadslFJERN:DETTE.dk'>sveegaard@tdcadslFJERN:DETTE.dk</a>> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:5lrrevo0ec05f3t83emg9te3eq43njvq2v@4ax.com'>news:5lrrevo0ec05f3t83emg9te3eq43njvq2v@4ax.com</a>... </span><br /><span class='citat'>> Sp&#248;rgsm&#229;let h&#248;rer klart ind under php-kategorien. </span><br /><span class='citat'>> Det ser til at koden er en for&#230;ldet version med register_globals=on. </span><br /><span class='citat'>> I nyere versioner af php, skal du tilg&#229; variablerne p&#229; en anden m&#229;de, </span><br /><span class='citat'>> s&#229; det rigtige vil nok v&#230;re at rette koden til med de rette variabler, </span><br /><span class='citat'>> som fx: $_SESSION['foo'] </span><br /><span class='normal'> </span><br /><span class='normal'>Hej Martin, </span><br /><span class='normal'> </span><br /><span class='normal'>Tak for svaret. Jeg har dog ikke fundet en l&#248;sning endnu. Hvad er det helt </span><br /><span class='normal'>pr&#230;cis der skal &#230;ndres. (Jeg kender ikke noget til PHP) Se venligst </span><br /><span class='normal'>nedenst&#229;ende som er fra en header.php. </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;? </span><br /><span class='normal'>// noget latterligt som skal k&#248;res for at variablerne virker p&#229; serveren </span><br /><span class='normal'>// post variablerne </span><br /><span class='normal'> </span><br /><span class='normal'>foreach($HTTP_POST_VARS AS $key => $value){ </span><br /><span class='normal'> $$key = $value; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>// get variablerne </span><br /><span class='normal'>foreach($HTTP_GET_VARS AS $key => $value){ </span><br /><span class='normal'> $$key = $value; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>require_once(&quot;class.mysql.php&quot;); </span><br /><span class='normal'>require_once(&quot;functions.inc.php&quot;); </span><br /><span class='normal'>require_once(&quot;class.opinion.php&quot;); </span><br /><span class='normal'>require_once(&quot;class.session.php&quot;); </span><br /><span class='normal'>$database; </span><br /><span class='normal'> </span><br /><span class='normal'>$session = new session($database); </span><br /><span class='normal'> </span><br /><span class='normal'>if ($HTTP_POST_VARS[&quot;vote&quot;] == &quot;go&quot;) { </span><br /><span class='normal'>     $opinion->vote(); </span><br /><span class='normal'>} </span><br /><span class='normal'>function makeHeader($navigationbar) { </span><br /><span class='normal'> </span><br /><span class='normal'>foreach($navigationbar AS $key => $value){ </span><br /><span class='normal'> $navi .= &quot; > &lt;a class='navi' href='$key'>$value&lt;/a>&quot;; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;!-- Webproduction: <a href='http://OlsenGroup.dk'>OlsenGroup.dk</a> --> </span><br /><span class='normal'>&lt;!doctype html public &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;> </span><br /><span class='normal'>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=windows-1252&quot;> </span><br /><span class='normal'>&lt;meta name=&quot;description&quot; content=&quot;<a href='http://HvadSkerHvor.dk'>HvadSkerHvor.dk</a> er Danmarks </span><br /><span class='normal'>arrangementsportal med oversigt over alle st&#248;rre kommende events i </span><br /><span class='normal'>Danmark.&quot;> </span><br /><span class='normal'>&lt;meta name=&quot;keywords&quot; content=&quot;hvadskerhvor hvad sker hvor hvorskerhvad </span><br /><span class='normal'>arrangementer sport event cirkus kalender kultur billetter arrang&#248;rer&quot;> </span><br /><span class='normal'>&lt;meta http-equiv=&quot;Content-Language&quot; content=&quot;da&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;html> </span><br /><span class='normal'>&lt;head> </span><br /><span class='normal'> &lt;link rel='stylesheet' type='text/css' href='styles/style.css'> </span><br /><span class='normal'> &lt;LINK REL='SHORTCUT ICON' HREF='images/favicon.ico'> </span><br /><span class='normal'> &lt;title><a href='http://HvadSkerHvor.dk'>HvadSkerHvor.dk</a> - Danmarks arrangementsportal&lt;/title> </span><br /><span class='normal'>&lt;/head> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;body> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;? </span><br /><span class='normal'>function upcommingEvents() { </span><br /><span class='normal'> global $database; </span><br /><span class='normal'> $start = time(); </span><br /><span class='normal'>     $slut = time() + 30 * 24 * 60 * 60; </span><br /><span class='normal'> </span><br /><span class='normal'>     // den rigtige som virker </span><br /><span class='normal'> $sql = &quot;SELECT id,titel,start FROM data WHERE start > '$start' AND start &lt; </span><br /><span class='normal'>'$slut' ORDER BY start&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>     if (!$database->doQuery($sql)) { </span><br /><span class='normal'>      printError($database->getError()); </span><br /><span class='normal'>          return false; </span><br /><span class='normal'>     } </span><br /><span class='normal'>     if ($database->getNumRows() &lt; 1) { </span><br /><span class='normal'>  printError(&quot;Ingen arrangementer&quot;); </span><br /><span class='normal'>          return false; </span><br /><span class='normal'>     } </span><br /><span class='normal'> </span><br /><span class='normal'>     while (list($id,$title,$start) = $database->getFetchArray()){ </span><br /><span class='normal'>      print &quot;&lt;div class='small'>&quot;.date(&quot;d-m-Y&quot;,$start).&quot;&lt;br>&lt;a </span><br /><span class='normal'>href='events.php?mode=read&amp;id=$id'>$title&lt;/div>&lt;/a>&quot;; </span><br /><span class='normal'>     } </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>if ($HTTP_POST_VARS[&quot;friend&quot;] == 1) { </span><br /><span class='normal'> $subject = &quot;Bes&#248;g HvadSkerHvor&quot;; </span><br /><span class='normal'>     $body = &quot;Hej $HTTP_POST_VARS[navn], </span><br /><span class='normal'> </span><br /><span class='normal'>$HTTP_POST_VARS[navn_fra] har anbefalet dig at bes&#248;ge Hvad Sker Hvor. Det er </span><br /><span class='normal'>stedet p&#229; Internettet, hvor du finder information om kommende arrangmenter i </span><br /><span class='normal'>Danmark. Du har mulighed for at lave din egen kalender og meget mere. </span><br /><span class='normal'>Betragt derfor denne anbefalding som et tegn og bes&#248;g os p&#229; </span><br /><span class='normal'><a href='http://www.hvadskerhvor.dk'>http://www.hvadskerhvor.dk</a>. </span><br /><span class='normal'> </span><br /><span class='normal'>Med venlig hilsen, </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>HvadSkerHvor </span><br /><span class='normal'>Planl&#230;g din fritid hos os&quot;; </span><br /><span class='normal'> if (sendMail($HTTP_POST_VARS[&quot;email&quot;],$subject,$body)) { </span><br /><span class='normal'>      printOk(&quot;E-mailen er blevet sendt til $HTTP_POST_VARS[navn]&quot;); </span><br /><span class='normal'> } </span><br /><span class='normal'>     else { </span><br /><span class='normal'>          printError(&quot;E-mailen blev desv&#230;rre ikke sendt til </span><br /><span class='normal'>$HTTP_POST_VARS[navn]&quot;); </span><br /><span class='normal'>     } </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>function nyesteIndtastninger() { </span><br /><span class='normal'> global $database; </span><br /><span class='normal'>     $name = &quot;NYESTE EVENTS&quot;; </span><br /><span class='normal'>     $sql = &quot;SELECT id,titel,start FROM data ORDER BY id DESC LIMIT 0,3&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>     if (!$database->doQuery($sql)) { </span><br /><span class='normal'>      $html = $database->getError(); </span><br /><span class='normal'>      makeSection($name, $html); </span><br /><span class='normal'>          return false; </span><br /><span class='normal'>     } </span><br /><span class='normal'>     if ($database->getNumRows() &lt; 1) { </span><br /><span class='normal'>  $html = &quot;Ingen arrangementer&quot;; </span><br /><span class='normal'>      makeSection($name, $html); </span><br /><span class='normal'>          return false; </span><br /><span class='normal'>     } </span><br /><span class='normal'>     while (list($id,$title,$start) = $database->getFetchArray()){ </span><br /><span class='normal'>      $html .= &quot;&lt;tr>&lt;td>&lt;div class='small'>&quot;.date(&quot;d-m-Y&quot;,$start).&quot;&lt;br>&lt;a </span><br /><span class='normal'>href='events.php?mode=read&amp;id=$id'>&quot;.substr($title,0,22).&quot;...&lt;/div>&lt;/a>&lt;/td> </span><br /><span class='normal'>&lt;/tr>&quot;; </span><br /><span class='normal'>     } </span><br /><span class='normal'>     makeSection($name, $html); </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;center> </span><br /><span class='normal'>&lt;table bgcolor='white' cellspacing='0' cellpadding='0' border='0' </span><br /><span class='normal'>width='750' height='100%' border='1' style='border-collapse: collapse; </span><br /><span class='normal'>border-style: solid; border-left-width: 1; border-right-width: 1; </span><br /><span class='normal'>border-top-width: 1; border-bottom-width: 1;' bordercolor='#111111'> </span><br /><span class='normal'>&lt;tr valign='bottom'> </span><br /><span class='normal'> &lt;td align='center' height='122' class='menu' background='images/main.png'> </span><br /><span class='normal'> ::&amp;nbsp;&lt;a href='index.php' </span><br /><span class='normal'>class='menu'>Forside&lt;/a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </span><br /><span class='normal'> ::&amp;nbsp;&lt;a href='events.php' class='menu'>Find </span><br /><span class='normal'>Arrangementer&lt;/a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </span><br /><span class='normal'> ::&amp;nbsp;&lt;a href='annoncor.php' </span><br /><span class='normal'>class='menu'>Annoncer&lt;/a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </span><br /><span class='normal'> ::&amp;nbsp;&lt;a href='about.php' class='menu'>Om </span><br /><span class='normal'>HvadSkerHvor&lt;/a>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </span><br /><span class='normal'> ::&amp;nbsp;&lt;a href='arrangor.php' class='menu'>Tilf&#248;j </span><br /><span class='normal'>Arrangement&lt;/a>&lt;/div>&lt;/td> </span><br /><span class='normal'>&lt;/tr> </span><br /><span class='normal'>&lt;tr valign='top'> </span><br /><span class='normal'>&lt;td class='text'> </span><br /><span class='normal'>&lt;table height='100%'> </span><br /><span class='normal'>&lt;tr valign='top'> </span><br /><span class='normal'>&lt;td width='200' style='border-left-width: 0; border-right-style: dotted; </span><br /><span class='normal'>border-right-width: 1; border-top-width: 0; border-bottom-width: 0' </span><br /><span class='normal'>bordercolor='C5C5C5'> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;? </span><br /><span class='normal'>statusBox(); </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;table border='0'> </span><br /><span class='normal'>&lt;tr valign='top'> </span><br /><span class='normal'>&lt;td>&lt;img src='images/bullet.png'>&lt;/td> </span><br /><span class='normal'>&lt;td class='header'>KOMMER SNART&lt;/td> </span><br /><span class='normal'>&lt;/tr>&lt;/table> </span><br /><span class='normal'>&lt;? upcommingEvents(); ?> </span><br /><span class='normal'>&lt;br>&lt;br>&lt;br> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;? nyesteIndtastninger(); ?> </span><br /><span class='normal'>&lt;/table> </span><br /><span class='normal'>&lt;br>&lt;br>&lt;br> </span><br /><span class='normal'>&lt;/td> </span><br /><span class='normal'>&lt;td style=&quot;padding-left: 20&quot; width=&quot;550&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;? </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>function statusBox() { </span><br /><span class='normal'> global $session; </span><br /><span class='normal'>     switch ($session->level){ </span><br /><span class='normal'>      case 1: </span><br /><span class='normal'>           showUserBox(); </span><br /><span class='normal'>               break; </span><br /><span class='normal'>  case 2: </span><br /><span class='normal'>           showFirmBox(); </span><br /><span class='normal'>               break; </span><br /><span class='normal'>  case 8; </span><br /><span class='normal'>           showAdminBox(); </span><br /><span class='normal'>               break; </span><br /><span class='normal'>      default: </span><br /><span class='normal'>           showLoginBox(); </span><br /><span class='normal'>               break; </span><br /><span class='normal'>     } </span><br /><span class='normal'>} </span><br /><span class='normal'>############################################## </span><br /><span class='normal'># Standard boxen som vil fremkomme til alle # </span><br /><span class='normal'># bes&#248;gende som ikke er logget ind   # </span><br /><span class='normal'>############################################## </span><br /><span class='normal'>function showLoginBox() { </span><br /><span class='normal'> ?> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;form action='login.php' method='post'> </span><br /><span class='normal'>&lt;input type='hidden' name='mode' value='login'> </span><br /><span class='normal'>&lt;table border='0'> </span><br /><span class='normal'>&lt;tr valign='top'> </span><br /><span class='normal'>&lt;td>&lt;img src='images/bullet.png'>&lt;/td> </span><br /><span class='normal'>&lt;td class='header'>ARRANG&#216;R LOGIN&lt;/td> </span><br /><span class='normal'>&lt;/tr>&lt;/table> </span><br /><span class='normal'>&lt;br>&lt;div class='small'>Brugernavn:&lt;br> </span><br /><span class='normal'>&lt;input type='text' name='uname'>&lt;br> </span><br /><span class='normal'>Adgangskode:&lt;br> </span><br /><span class='normal'>&lt;input type='password' name='password'>&lt;br>&lt;br>&lt;input class='buttons' </span><br /><span class='normal'>value='Login' type='submit'>&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href='new_firm.php'>Opret </span><br /><span class='normal'>konto (gratis)&lt;/a>&lt;/div> </span><br /><span class='normal'>&lt;/form>&lt;br>&lt;br> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;? </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>############################################## </span><br /><span class='normal'># boxen som alle medlemmer vil se   # </span><br /><span class='normal'>############################################## </span><br /><span class='normal'>function showUserBox() { </span><br /><span class='normal'>     global $session; </span><br /><span class='normal'>     print &quot;&lt;table border='0'> </span><br /><span class='normal'>&lt;tr valign='top'> </span><br /><span class='normal'>&lt;td>&lt;img src='images/bullet.png'>&lt;/td> </span><br /><span class='normal'>&lt;td class='header'>VELKOMMEN&lt;/td> </span><br /><span class='normal'>&lt;/tr>&lt;/table> </span><br /><span class='normal'>&lt;br>&lt;div class='small'>Brugernavn: $session->uname&lt;br> </span><br /><span class='normal'>&lt;br>&lt;br>&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>############################################## </span><br /><span class='normal'># boxen som alle arrang&#248;rerne vil se  # </span><br /><span class='normal'>############################################## </span><br /><span class='normal'>function showFirmBox() { </span><br /><span class='normal'>     global $session; </span><br /><span class='normal'>     print &quot; </span><br /><span class='normal'> </span><br /><span class='normal'>  &lt;table border='0'> </span><br /><span class='normal'>&lt;tr valign='top'> </span><br /><span class='normal'>&lt;td>&lt;img src='images/bullet.png'>&lt;/td> </span><br /><span class='normal'>&lt;td class='header'>VELKOMMEN&lt;/td> </span><br /><span class='normal'>&lt;/tr>&lt;/table> </span><br /><span class='normal'>&lt;br>&lt;div class='small'>Brugernavn: $session->uname&lt;br> </span><br /><span class='normal'>&lt;a href='edit_profile.php'>Rediger Profil&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='add_event.php'>Tilf&#248;j Arrangement&lt;/a>&lt;/div> </span><br /><span class='normal'>&lt;br>&lt;br>&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>############################################## </span><br /><span class='normal'># boxen som admin vil se     # </span><br /><span class='normal'>############################################## </span><br /><span class='normal'>function showAdminBox() { </span><br /><span class='normal'>     global $session; </span><br /><span class='normal'>     ?> </span><br /><span class='normal'>        &lt;table border='0'> </span><br /><span class='normal'>&lt;tr valign='top'> </span><br /><span class='normal'>&lt;td>&lt;img src='images/bullet.png'>&lt;/td> </span><br /><span class='normal'>&lt;td class='header'>VELKOMMEN&lt;/td> </span><br /><span class='normal'>&lt;/tr>&lt;/table> </span><br /><span class='normal'>&lt;br>&lt;div class='small'>Brugernavn: &lt;? print $session->uname; ?>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_firms'>Slet Arrang&#248;r&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_users'>Slet Bruger&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_events'>Slet Arrangmenter&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='add_event.php'>Tilf&#248;j Arrangment&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_news'>Nyheder&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_all_opinions'>Afstemninger&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_facilities'>Faciliteter&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_categories'>Kategorier&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_regions'>Regioner&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_targetgroups'>M&#229;lgrupper&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;a href='admin.php?page=show_types'>Typer&lt;/a>&lt;/div> </span><br /><span class='normal'>&lt;br>&lt;br> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;? </span><br /><span class='normal'> </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>?> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3eedd340%240%2497275%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Fejlmeddelelse'>Fejlmeddelelse</a>&nbsp;<small class='newslist'>(16-06-2003&nbsp;-&nbsp;Torben&nbsp;Olsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cbcklrg%24kt7%241%40sunsite%2Edk%3E' title='Re: Fejlmeddelelse'>Re: Fejlmeddelelse</a>&nbsp;<small class='newslist'>(16-06-2003&nbsp;-&nbsp;Liselotte&nbsp;Mathiasen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3eede55f%240%2497165%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Fejlmeddelelse'>Re: Fejlmeddelelse</a>&nbsp;<small class='newslist'>(16-06-2003&nbsp;-&nbsp;Torben&nbsp;Olsen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C5lrrevo0ec05f3t83emg9te3eq43njvq2v%404ax%2Ecom%3E' title='Re: Fejlmeddelelse'>Re: Fejlmeddelelse</a>&nbsp;<small class='newslist'>(16-06-2003&nbsp;-&nbsp;Martin&nbsp;Sveegaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3eee2448%240%2497165%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Fejlmeddelelse'>Re: Fejlmeddelelse</a>&nbsp;<small class='newslist'>(16-06-2003&nbsp;-&nbsp;Torben&nbsp;Olsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3eef369d%240%2448894%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: Fejlmeddelelse'>Re: Fejlmeddelelse</a>&nbsp;<small class='newslist'>(17-06-2003&nbsp;-&nbsp;Mikael&nbsp;Nørrelund&nbsp;Andersen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3eee2448%240%2497165%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=429784119130?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3eee2448%240%2497165%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' method='post'><p class='pollheader'>Er du interesseret i foredrag om webudvikling?</p><div><input type='hidden' name='tst' value='24-08-2004 21:52:29' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, men det skal være gratis</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Ja, og jeg vil gerne betale feks. kr. 150 for det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Fejlmeddelelse</span></div>
+
+
+
+</body>
+</html>
+

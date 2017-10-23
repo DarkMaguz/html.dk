@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Oct</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctoct"></A>Oct</H1>
+
+<P>Returns a string representing the octal value of a number.</P>
+
+<P><CODE><B>Oct(</B>number<B>)</B></CODE></P>
+
+<P>The <I>number</I> argument is any valid expression.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>number</I> is not already a whole number, it is rounded to the nearest whole number before being evaluated.</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=46%>If <I>number</I> is</TH>
+<TH width=54%>Oct returns</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=46%><A HREF="vtglossary.htm#defnullvbs">Null</A><U> </U></TD>
+<TD width=54%>Null.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=46%>Empty</TD>
+<TD width=54%>Zero (0).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=46%>Any other number</TD>
+<TD width=54%>Up to 11 octal characters,</TD>
+</TR>
+</TABLE><BR>
+
+<P>You can represent octal numbers directly by preceding numbers in the proper range with &amp;O. For example, &amp;O10 is the octal notation for decimal 8.</P>
+
+<P>The following example uses the <B>Oct</B> function to return the octal value of a number: </P>
+
+<PRE><CODE>Dim MyOct
+MyOct = <span class=cfe><B>Oct(</B></span>4<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Returns 4.
+MyOct = <span class=cfe><B>Oct(</B></span>8<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Returns 10.
+MyOct = <span class=cfe><B>Oct(</B></span>459<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 713.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfcthex.htm">Hex Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

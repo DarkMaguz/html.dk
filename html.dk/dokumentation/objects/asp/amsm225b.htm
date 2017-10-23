@@ -1,0 +1,56 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Messages Property (CDONTS Folder Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_messages_property_cdonts_folder_object_"></a>Messages Property (CDONTS Folder Object)  <a href="amsm4vmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4vmn.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Messages</b> property returns a <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection object within the folder. Read-only. </p>
+<h4>Syntax </h4>
+<pre><i>objFolder</i>.<b>Messages 
+ </b></pre>
+<p>
+The <b>Messages</b> property is the default property of a Folder object, meaning that <i>objFolder</i> is syntactically equivalent to <i>objFolder</i>.<b>Messages</b> in Microsoft® Visual Basic® code. </p>
+<h4>Data Type </h4>
+<p>
+Object (Messages collection) </p>
+<h4>Remarks </h4>
+<p>
+Although the <b>Messages</b> property itself is read-only, the collection it returns can be accessed in the normal manner through its <a href="amsm8vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8vhb.htm"><b>Add</b></a> and <a href="amsm0evz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0evz.htm"><b>Delete</b></a> methods, and the properties on its member <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> objects retain their respective read/write or read-only accessibility. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or modifying any attachment; adding, deleting, or modifying any recipient; and modifying any message property, even one with read/write access. </p>
+<h4>Example </h4>
+<p>
+This code fragment shows how a <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection of <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> objects is obtained from a folder which is in turn obtained from a <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm">Session</a> object: </p>
+<pre>Dim objInbox as Folder 
+Dim collInMessages as Messages 
+' assume valid Session object 
+Set objInbox = objSession.GetDefaultFolder(CdoDefaultFolderInbox) 
+Set collInMessages = objInbox.Messages 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

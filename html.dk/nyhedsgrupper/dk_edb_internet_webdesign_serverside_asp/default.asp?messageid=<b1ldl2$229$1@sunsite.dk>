@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Inds&#230;tte request.form i insert into.</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Christian Conradsen den 3. februar 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Inds&#230;tte request.form i insert into." />
+<meta name="language" content="dan" />
+<meta name="Date" content="03-02-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3Cb1ldl2%24229%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Christian&nbsp;Conradsen&nbsp;&nbsp;<a href='mailto:chrisjon@vip.cybercity.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='chrisjon@vip.cybercity.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 3. februar 2003 kl. 11:44</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Inds&#230;tte request.form i insert into.</strong></li></ul>
+
+<p><span class='normal'>J&#248;rn Andersen wrote in dk.edb.internet.webdesign.serverside.asp: </span><br /><span class='citat'>> On Sun, 2 Feb 2003 17:19:29 +0100, &quot;Kim Lund Hansen&quot;  </span><br /><span class='citat'>> &lt;<a href='http://pervo@get2net.dk'>pervo@get2net.dk</a>> wrote:  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> >Du kan bruge:  </span><br /><span class='citat'>> >' SQL s&#230;tning opbygges  </span><br /><span class='citat'>> >strSQL = &quot;Insert into csklan (&quot;  </span><br /><span class='citat'>> >  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;klannavn, &quot;  </span><br /><span class='citat'>> > strSQL = strSQL &amp; &quot;klantype, &quot;  </span><br /><span class='citat'>> > strSQL = strSQL &amp; &quot;email, &quot;  </span><br /><span class='citat'>> > strSQL = strSQL &amp; &quot;web, &quot;  </span><br /><span class='citat'>> > strSQL = strSQL &amp; &quot;ircchan, &quot;  </span><br /><span class='citat'>> > strSQL = strSQL &amp; &quot;klantag) &quot;  </span><br /><span class='citat'>> >  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;values(&quot;  </span><br /><span class='citat'>> >  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;'&quot; &amp; Request.Form(&quot;klannavn&quot;) &amp; &quot;', &quot;  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;'&quot; &amp; Request.Form(&quot;klannavn&quot;) &amp; &quot;', &quot;  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;'&quot; &amp; Request.Form(&quot;email&quot;) &amp; &quot;', &quot;  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;'&quot; &amp; Request.Form(&quot;web&quot;) &amp; &quot;', &quot;  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;'&quot; &amp; Request.Form(&quot;ircchan&quot;) &amp; &quot;', &quot;  </span><br /><span class='citat'>> >strSQL = strSQL &amp; &quot;'&quot; &amp; Request.Form(&quot;klantag&quot;) &amp; &quot;') &quot;  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Svaret er i princippet godt nok - i den forstand, at det formentlig  </span><br /><span class='citat'>> vil virke. (Bortset fra den lille fejl med klannavn &lt;-> klantype.) Og  </span><br /><span class='citat'>> ogs&#229; i den forstand, at det leder sp&#248;rgeren p&#229; det rette spor.  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Jeg vil dog benytte lejligheden til at advare mod at putte  </span><br /><span class='citat'>> formular-resultater direkte ind i en SQL-streng.  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Man b&#248;r normalt lave en eller anden form for validering af  </span><br /><span class='citat'>> formular-resulaterne, inden de inds&#230;ttes i SQL-strengen.  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Jeg plejer at hente input ind som noget af det f&#248;rste p&#229; siden,  </span><br /><span class='citat'>> tildele dem et variabelnavn og s&#229; lave en basal validering her - noget  </span><br /><span class='citat'>> i retning af:  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> strKlannavn = Request.Form(&quot;klannavn&quot;)  </span><br /><span class='citat'>> If Len(strKlannavn) > 0 Then  </span><br /><span class='citat'>>  strKlannavn = Replace(strKlannavn, &quot;'&quot;, &quot;''&quot;)  </span><br /><span class='citat'>> Else  </span><br /><span class='citat'>>  ' Vis evt. en advarsel eller g&#248;r noget andet ...  </span><br /><span class='citat'>> End if  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Denne validering checker, om der overhovedet er et input, der kan  </span><br /><span class='citat'>> behandles. Hvis der er, checker den for, om der er enkelt-plinger ('),  </span><br /><span class='citat'>> som s&#229; dubleres - da de ellers ville smadre SQL-strengen. Man kan evt.  </span><br /><span class='citat'>> ogs&#229; g&#248;re det med apostrofer (&quot;).  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Hvordan man vil validere afh&#230;nger selvf&#248;lgelig af, hvilke krav der  </span><br /><span class='citat'>> stilles til de enkelte formular-resulater, n&#229;r de skal inds&#230;ttes i  </span><br /><span class='citat'>> databasen. Nogle gange vil man sikre sig, at der er tale om et tal,  </span><br /><span class='citat'>> andre gange at en streng har en bestemt l&#230;ngde, et tal har en bestemt  </span><br /><span class='citat'>> st&#248;rrelse osv. osv.  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Se i &#248;vrigt ogs&#229; Jakob Andersens glimrende artikel:  </span><br /><span class='citat'>> &lt;url: <a href='http://activedeveloper.dk/aspdigital/2002053001.asp'>http://activedeveloper.dk/aspdigital/2002053001.asp</a>>  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Slutningen af SQL-strengen kommer s&#229; til at se ud nogenlunde som:  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;values(&quot;  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;'&quot; &amp; strKlannavn &amp; &quot;', &quot;  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;'&quot; &amp; strKlantype &amp; &quot;', &quot;  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;'&quot; &amp; strEmail &amp; &quot;', &quot;  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;'&quot; &amp; strWeb &amp; &quot;', &quot;  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;'&quot; &amp; strIrcchan &amp; &quot;', &quot;  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;'&quot; &amp; strKlantag &amp; &quot;') &quot;  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Eller lidt kortere:  </span><br /><span class='citat'>> strSQL = strSQL &amp; &quot;values(&quot; &amp; _  </span><br /><span class='citat'>> &quot;'&quot; &amp; strKlannavn &amp; &quot;', &quot; &amp; _  </span><br /><span class='citat'>> &quot;'&quot; &amp; strKlantype &amp; &quot;', &quot; &amp; _  </span><br /><span class='citat'>> &quot;'&quot; &amp; strEmail &amp; &quot;', &quot; &amp; _  </span><br /><span class='citat'>> &quot;'&quot; &amp; strWeb &amp; &quot;', &quot; &amp; _  </span><br /><span class='citat'>> &quot;'&quot; &amp; strIrcchan &amp; &quot;', &quot; &amp; _  </span><br /><span class='citat'>> &quot;'&quot; &amp; strKlantag &amp; &quot;') &quot;  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> PS: Gider du tage et kig p&#229;:  </span><br /><span class='citat'>> &lt;URL: <a href='http://www.usenet.dk/netikette/citatteknik.html'>http://www.usenet.dk/netikette/citatteknik.html</a>>  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> --   </span><br /><span class='citat'>> J&#248;rn Andersen,  </span><br /><span class='citat'>> Br&#248;nsh&#248;j </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Tak for det svar men har ikke t&#230;nkt at f&#248;lge det nu da det kun er til </span><br /><span class='normal'>eget brug og er selv klar over hvad der kan og m&#229; skrives i mine </span><br /><span class='normal'>formler... men jeeg vil huske p&#229;... </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Danmarks st&#248;rste specialiserede IT jobdatabase </span><br /><span class='normal'> - Udelukkende med IT- og internetrelaterede jobs </span><br /><span class='normal'> - Opret en profil og lad dr&#248;mmejobbet finde dig </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/job'>http://www.html.dk/job</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cb1ium1%247l8%241%40sunsite%2Edk%3E' title='Inds&#230;tte request.form i insert into.'>Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(02-02-03&nbsp;-&nbsp;Christian&nbsp;Conradsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C3e3e750a%240%2411074%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Inds&#230;tte request.form i insert into.'>Re: Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(02-02-03&nbsp;-&nbsp;Thomas&nbsp;Voller)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C3e3d4520%240%2411050%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Inds&#230;tte request.form i insert into.'>Re: Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(02-02-03&nbsp;-&nbsp;Kim&nbsp;Lund&nbsp;Hansen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C3e3d476d%240%2410995%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: Inds&#230;tte request.form i insert into.'>Re: Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(02-02-03&nbsp;-&nbsp;Kim&nbsp;Lund&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cb1jin7%2478r%241%40sunsite%2Edk%3E' title='Re: Inds&#230;tte request.form i insert into.'>Re: Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(02-02-03&nbsp;-&nbsp;Christian&nbsp;Conradsen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Candr3vsklr2b5s5df0reh0k0c9uliqbqlj%404ax%2Ecom%3E' title='Re: Inds&#230;tte request.form i insert into.'>Re: Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(03-02-03&nbsp;-&nbsp;Jørn&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cb1ldl2%24229%241%40sunsite%2Edk%3E' title='Re: Inds&#230;tte request.form i insert into.'>Re: Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(03-02-03&nbsp;-&nbsp;Christian&nbsp;Conradsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cs5614vgro1scrv1tkrdr9rd3p9t7pmghd5%404ax%2Ecom%3E' title='Re: Inds&#230;tte request.form i insert into.'>Re: Inds&#230;tte request.form i insert into.</a>&nbsp;<small class='newslist'>(05-02-03&nbsp;-&nbsp;Jørn&nbsp;Andersen)</small></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3Cb1ldl2%24229%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3cb1ldl2$229$1@sunsite.dk%3e' method='post'><p class='pollheader'>Hvornår har du sidst brugt dit betalingskort på nettet?</p><div><input type='hidden' name='tst' value='15-05-03 05:30:50' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Inden for den sidste måned</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Inden for det sidste ½ år</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Længere tid siden</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Inds&#230;tte request.form i insert into.</span></div>
+
+
+
+</body>
+</html>
+

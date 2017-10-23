@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Using VBScript with Objects</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vbsobjs"></A>Using VBScript with Objects
+Using Objects</H1>
+
+<P>Whether you use an ActiveX<SUP>®</SUP> control (formerly called an OLE control) or a Java™ object, Microsoft Visual Basic Scripting Edition and Microsoft<SUP>®</SUP> Internet Explorer handle it the same way. If you're using Internet Explorer and have installed the <B>Label</B> control, you can see the <A HREF="../HTML-vss/vbsobjx.htm"><U>page produced</U></A> by the following code. </P>
+
+<P>You include an object using the &lt;OBJECT&gt; tags and set its initial property values using &lt;PARAM&gt; tags. If you're a Visual Basic programmer, you'll recognize that using the &lt;PARAM&gt; tags is just like setting initial properties for a control on a form. For example, the following set of &lt;OBJECT&gt; and &lt;PARAM&gt; tags adds the ActiveX Label control to a page: </P>
+
+<PRE><CODE>&lt;OBJECT
+&nbsp;&nbsp;&nbsp;classid="clsid:99B42120-6EC7-11CF-A6C7-00AA00A47DD2"
+&nbsp;&nbsp;&nbsp;id=lblActiveLbl
+&nbsp;&nbsp;&nbsp;width=250
+&nbsp;&nbsp;&nbsp;height=250
+&nbsp;&nbsp;&nbsp;align=left
+&nbsp;&nbsp;&nbsp;hspace=20
+&nbsp;&nbsp;&nbsp;vspace=0
+&gt;
+&lt;PARAM NAME="Angle" VALUE="90"&gt;
+&lt;PARAM NAME="Alignment" VALUE="4"&gt;
+&lt;PARAM NAME="BackStyle" VALUE="0"&gt;
+&lt;PARAM NAME="Caption" VALUE="A Simple Desultory Label"&gt;
+&lt;PARAM NAME="FontName" VALUE="Verdana, Arial, Helvetica"&gt;
+&lt;PARAM NAME="FontSize" VALUE="20"&gt;
+&lt;PARAM NAME="FontBold" VALUE="1"&gt;
+&lt;PARAM NAME="FrColor" VALUE="0"&gt;
+&lt;/OBJECT&gt;</CODE></PRE>
+
+<P>You can get properties, set properties, and invoke methods just as with any of the form controls. The following code, for example, includes &lt;FORM&gt; controls you can use to manipulate two properties of the Label control: </P>
+
+<PRE><CODE>&lt;FORM NAME="LabelControls"&gt;
+&lt;INPUT TYPE="TEXT" NAME="txtNewText" SIZE=25&gt;
+&lt;INPUT TYPE="BUTTON" NAME="cmdChangeIt" VALUE="Change Text"&gt;
+&lt;INPUT TYPE="BUTTON" NAME="cmdRotate" VALUE="Rotate Label"&gt;
+&lt;/FORM&gt;</CODE></PRE>
+
+<P>With the form defined, an event procedure for the <CODE>cmdChangeIt</CODE> button changes the label text: </P>
+
+<PRE><CODE>&lt;SCRIPT LANGUAGE="VBScript"&gt;
+&lt;!--
+Sub cmdChangeIt_onClick
+&nbsp;&nbsp;&nbsp;Dim TheForm
+&nbsp;&nbsp;&nbsp;Set TheForm = Document.LabelControls
+&nbsp;&nbsp;&nbsp;lblActiveLbl.Caption = TheForm.txtNewText.Value
+End Sub
+--&gt;
+&lt;/SCRIPT&gt;</CODE></PRE>
+
+<P>The code qualifies references to controls and values inside the forms just as in the <A HREF="vbscntrl.htm">Simple Validation</A> example.</P>
+
+<P>Several ActiveX controls are available for use with Internet Explorer. You can find complete information about the properties, methods, and events there, as well as the class identifiers (CLSID) for the controls on the Microsoft<SUP>®</SUP> Web site (http://www.microsoft.com). You can find more information about the &lt;OBJECT&gt; tag on the <I>Internet Explorer 4.0 Author's Guide and HTML Reference</I> page.</P>
+
+<P class=indent><B><B>Note</B></B>&nbsp;&nbsp;&nbsp;Earlier releases of Internet Explorer required braces ({}) around the classid attribute and did not conform to the W3C specification. Using braces with the current release generates a "This page uses an outdated version of the &lt;OBJECT&gt; tag" message. </P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

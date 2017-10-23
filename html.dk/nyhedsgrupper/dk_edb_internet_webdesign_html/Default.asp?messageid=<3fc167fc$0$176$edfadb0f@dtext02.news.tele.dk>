@@ -1,0 +1,201 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Jesper Winding den 24. november 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="24-11-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<!--
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/page/all_140x350;sz=140x350;tile=1;ord=658149361611?"></script>
+
+</td></tr></table>
+
+</div>
+-->
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3fc167fc%240%24176%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jesper&nbsp;Winding&nbsp;&nbsp;<a href='mailto:jesperw[SNABEL-A]tdcadsl.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='jesperw[SNABEL-A]tdcadsl.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Totalloesninger</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 24. november 2003 kl. 04:08</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</strong></li></ul>
+
+<p><span class='normal'>&quot;Jens Gyldenk&#230;rne Clausen&quot; &lt;jens@gyros.invalid> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:Xns943CE22F73C99jcdmfdk@gyrosmod.cybercity.dk'>news:Xns943CE22F73C99jcdmfdk@gyrosmod.cybercity.dk</a>... </span><br /><span class='citat'>> Jesper Winding skrev: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;snip> </span><br /><span class='citat'>> > Skal lige </span><br /><span class='citat'>> > siges at jeg lige har lavet min side klar til upload i xhtml </span><br /><span class='citat'>> > 1.1 - den var/er 1.0 strict. Han siger s&#229; til mig at det var </span><br /><span class='citat'>> > da dumt siden 1.0 strict er bedst... </span><br /><span class='normal'>&lt;/snip> </span><br /><span class='normal'> </span><br /><span class='citat'>> Ja - hvis du gerne vil have at din side (ogs&#229;) kan ses i Internet </span><br /><span class='citat'>> Explorer og samtidig ogs&#229; gerne vil f&#248;lge de retningslinjner der er </span><br /><span class='citat'>> for XHTML 1.0 og 1.1. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Pr&#248;v at l&#230;se f&#248;lgende artikel: </span><br /><span class='citat'>> &lt;<a href='http://www.webstandards.org/learn/askw3c/sep2003.html'>http://www.webstandards.org/learn/askw3c/sep2003.html</a>> </span><br /><span class='normal'> </span><br /><span class='normal'>Jah, hvis jeg forst&#229;r den ret er det et valg imellem, om man vil lave en </span><br /><span class='normal'>side der passer til de nye fast rendering browsere, men som ikke er bagud </span><br /><span class='normal'>kompatibel med tidligere versioner af IE end 6+. Eller om man vil lave en </span><br /><span class='normal'>side der er begge dele - hvilket i s&#229; fald vil betyde at jeg burde l&#230;gge min </span><br /><span class='normal'>1.0 strict op igen... </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='citat'>> > Og nu vi er ved det - hvorfor er der s&#229; ikke transitional og </span><br /><span class='citat'>> > strict i 1.1? </span><br /><span class='citat'>> </span><br /><span class='citat'>> Transitional er med i XHTML 1.0 fordi XHTML 1.0 alene er en </span><br /><span class='citat'>> omskrivning af HTML 4.01 til XML-syntaks. Transitional er </span><br /><span class='citat'>> (formentlig) med i HTML 4.01 for at lave en &quot;bl&#248;d&quot; overgang til </span><br /><span class='citat'>> moderne standarder. Forskellen p&#229; Strict og Transitional er jo at </span><br /><span class='citat'>> alle elementer markeret som &quot;deprecated&quot; (for&#230;ldet) er tilladt i </span><br /><span class='citat'>> transitional men forbudt i strict. N&#229;r man ikke videref&#248;rer </span><br /><span class='citat'>> transitional til nyere XHTML-versioner, er det formentlig fordi der </span><br /><span class='citat'>> er g&#229;et l&#230;nge nok til at browserproducenterne (og </span><br /><span class='citat'>> webskribenterne) kan omstille sig. </span><br /><span class='normal'> </span><br /><span class='normal'>Det lyder vel rimeligt nok. Tak for inputet. </span><br /><span class='normal'> </span><br /><span class='normal'>/Jesper </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fbf544f%240%24160%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(22-11-03&nbsp;-&nbsp;Jesper&nbsp;Winding)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns943BA84D6AB72HS235dk%40130%2E225%2E247%2E90%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(22-11-03&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fbfffa1%240%24147%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(23-11-03&nbsp;-&nbsp;Jesper&nbsp;Winding)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fc0a125%240%2424835%24ba624c82%40nntp02%2Edk%2Etelia%2Enet%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(23-11-03&nbsp;-&nbsp;Henrik&nbsp;Vestergaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fc1686e%240%24154%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(24-11-03&nbsp;-&nbsp;Jesper&nbsp;Winding)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns943CE22F73C99jcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(23-11-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fc167fc%240%24176%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(24-11-03&nbsp;-&nbsp;Jesper&nbsp;Winding)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbpsecd%24d9q%241%40sunsite%2Edk%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(24-11-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns943D70B6CAF9Bjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</a>&nbsp;<small class='newslist'>(24-11-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3fc167fc%240%24176%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3fc167fc%240%24176%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' method='post'><p class='pollheader'>Hvor meget betaler du om måneden for dit webhotel?</p><div><input type='hidden' name='tst' value='24-01-04 01:25:39' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;0 - 10 kr.</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;10 - 50 kr.</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;50 - 100 kr.</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;100 - 200 kr.</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;over 200 kr.</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Har ikke webhotel</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Bedste: xhtml 1.0 strict eller xhtml 1.1 ?</span></div>
+
+
+
+</body>
+</html>
+

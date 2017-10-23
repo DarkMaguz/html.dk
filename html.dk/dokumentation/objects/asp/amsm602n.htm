@@ -1,0 +1,86 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Recipients Property (CDONTS Message Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_recipients_property_cdonts_message_object_"></a>Recipients Property (CDONTS Message Object)  <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Recipients</b> property returns a single <a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm">Recipient</a> object or a <a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm">Recipients</a> collection object. Read/write (read-only for a message in the Inbox). </p>
+<h4>Syntax </h4>
+<pre><b>Set </b><i>collRecips = objMessage.</i><b>Recipients 
+Set</b><i> objRecip = objMessage.</i><b>Recipients(</b><i>index</i><b>) 
+ </b></pre>
+<dl>
+<dt>
+<i>collRecips </i></dt>
+<dd>
+Object. A Recipients collection object. <br>
+</dd>
+<dt>
+<i>objMessage </i></dt>
+<dd>
+Object. The Message object. <br>
+</dd>
+<dt>
+<i>objRecip </i></dt>
+<dd>
+Object. A single Recipient object. <br>
+</dd>
+<dt>
+<i>index </i></dt>
+<dd>
+Long. Specifies the number of the recipient within the Recipients collection. Ranges from 1 to the value specified by the Recipients collection's <a href="amsm9hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9hpb.htm"><b>Count</b></a> property. </dd>
+</dl>
+<h4>Data Type </h4>
+<p>
+Object (Recipient or Recipients collection) </p>
+<h4>Remarks </h4>
+<p>
+You can change individual Recipient objects within the Recipients collection, <a href="amsm8hjz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hjz.htm"><b>Add</b></a> them to the collection, and <a href="amsm2man.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2man.htm"><b>Delete</b></a> them from the collection. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or modifying any attachment; adding, deleting, or modifying any recipient; and modifying any message property, even one with read/write access. </p>
+<h4>Example </h4>
+<p>
+This code fragment uses a loop to create a copy of every valid recipient of the original message <i>objMessage</i> in the copy message <i>objCopyItem</i>. For each copied recipient, it also copies important properties from the original. Note how much more code this requires than copying the <b>Recipients</b> property from the original message. </p>
+<pre>For i = 1 To objMessage.Recipients.Count Step 1 
+&nbsp;  Set objRecip = objMessage.Recipients.Item(i) 
+&nbsp;  If Not objRecip Is Nothing Then 
+&nbsp;  &nbsp;  Set objCopyRecip = objCopyItem.Recipients.Add 
+&nbsp;  &nbsp;  If objCopyRecip Is Nothing Then 
+&nbsp;  &nbsp;  &nbsp;  MsgBox &quot;Unable to create recipient in message copy&quot; 
+&nbsp;  &nbsp;  &nbsp;  Exit Function 
+&nbsp;  &nbsp;  End If 
+&nbsp;  &nbsp;  ' Now copy the most important properties 
+&nbsp;  &nbsp;  objCopyRecip.Address = objRecip.Address 
+&nbsp;  &nbsp;  objCopyRecip.Name = objRecip.Name 
+&nbsp;  &nbsp;  objCopyRecip.Type = objRecip.Type 
+&nbsp;  End If 
+Next i 
+ 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

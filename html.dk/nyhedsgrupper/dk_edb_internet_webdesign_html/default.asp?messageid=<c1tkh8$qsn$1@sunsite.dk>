@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>flere mailadresser i en formmail?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Henrik Brogaard Pedersen den 29. februar 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="flere mailadresser i en formmail?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="29-02-2004" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=227851510048?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML, praktisk anvendelse, syntax, faldgruber, browserkompabilitet etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cc1tkh8%24qsn%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Henrik&nbsp;Brogaard&nbsp;Pedersen&nbsp;&nbsp;<a href='mailto:brogaard@tele2adsl.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='brogaard@tele2adsl.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 29. februar 2004 kl. 23:11</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>flere mailadresser i en formmail?</strong></li></ul>
+
+<p><span class='normal'>Jeg sidder og er igang med at g&#248;re klar til vores nye hjemmes&#237;de </span><br /><span class='normal'>skal oploades i l&#248;bet at den kommende uge. </span><br /><span class='normal'>Siden omhandler musik anmeldelser, interviews, musik kalender </span><br /><span class='normal'>osv. S&#229; der er megat at se til. </span><br /><span class='normal'>Vi g&#248;r derfor meget for at f&#229; den organiseret s&#229; meget som </span><br /><span class='normal'>muligt, derfor har vi del opgaver ud til forskellige personer, </span><br /><span class='normal'>med forskellige mail adresser. s&#229; her kommer sp&#248;rgsm&#229;let: </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg sidder og arbejder med en formmail, som skal bruges til at </span><br /><span class='normal'>kontakte os, gennem forskellige typer af mails som </span><br /><span class='normal'>&quot;Generelt&quot;,&quot;Samarbejde&quot;,&quot;Online Radio&quot; og &quot;Links&quot; via. </span><br /><span class='normal'>radiobottons. </span><br /><span class='normal'> </span><br /><span class='normal'>S&#229; er det jeg gerne vil have at vores formmail sender mailen til </span><br /><span class='normal'>en given mailadresse. fx. &quot;Generelt&quot; til mail </span><br /><span class='normal'><a href='http://generelt@revolution-music.dk'>generelt@revolution-music.dk</a>, &quot;samarbejde&quot; til mail </span><br /><span class='normal'><a href='http://samarbejde@revolution-music.dk'>samarbejde@revolution-music.dk</a> osv.  </span><br /><span class='normal'>Jeg ved ikke om det kan lade sig g&#248;re, og hvis - hvordan? </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg vil gerne have det til at se s&#229;dan ud, men som i kan se, </span><br /><span class='normal'>mangler der noget: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; </span><br /><span class='normal'>&quot;<a href='http://www.w3.org/TR/html4/loose.dtd&quot;'>http://www.w3.org/TR/html4/loose.dtd&quot;</a>> </span><br /><span class='normal'>&lt;html> </span><br /><span class='normal'>&lt;head> </span><br /><span class='normal'>&lt;title>Untitled Document&lt;/title> </span><br /><span class='normal'>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; </span><br /><span class='normal'>charset=iso-8859-1&quot;> </span><br /><span class='normal'>&lt;style type=&quot;text/css&quot;> </span><br /><span class='normal'>&lt;!-- </span><br /><span class='normal'>body { </span><br /><span class='normal'>    background-color: #000000; </span><br /><span class='normal'>} </span><br /><span class='normal'>--> </span><br /><span class='normal'>&lt;/style>&lt;/head> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;body> </span><br /><span class='normal'>&lt;form name=&quot;knotakt&quot; method=&quot;post&quot; </span><br /><span class='normal'>action=&quot;<a href='http://www.revolution-music.dk/cgi-bin/FormMail.pl&quot;'>http://www.revolution-music.dk/cgi-bin/FormMail.pl&quot;</a>> </span><br /><span class='normal'>  &lt;div align=&quot;center&quot;> </span><br /><span class='normal'>  &lt;input type=&quot;hidden&quot; name=&quot;recipient&quot; </span><br /><span class='normal'>value=&quot;kontakt@revolution-music.dk&quot;> </span><br /><span class='normal'>  &lt;input type=&quot;hidden&quot; name=&quot;redirect&quot; </span><br /><span class='normal'>value=&quot;<a href='http://www.revolution-music.dk/afsent.html&quot;'>http://www.revolution-music.dk/afsent.html&quot;</a>> </span><br /><span class='normal'>  &lt;/div> </span><br /><span class='normal'>  &lt;table width=&quot;43%&quot; height=&quot;246&quot; border=&quot;1&quot; align=&quot;center&quot; </span><br /><span class='normal'>bordercolor=&quot;#CCCCCC&quot; bgcolor=&quot;#CCCCCC&quot;> </span><br /><span class='normal'>    &lt;tr> </span><br /><span class='normal'>      &lt;th width=&quot;17%&quot; height=&quot;25&quot; scope=&quot;col&quot;>&amp;nbsp;&lt;/th> </span><br /><span class='normal'>      &lt;th width=&quot;83%&quot; scope=&quot;col&quot;>&lt;p>&lt;strong>Kontakt RM </span><br /><span class='normal'>&lt;/strong>&lt;/p>&lt;/th> </span><br /><span class='normal'>    &lt;/tr> </span><br /><span class='normal'>    &lt;tr> </span><br /><span class='normal'>      &lt;th height=&quot;28&quot; scope=&quot;row&quot;>&lt;p>Navn:&lt;/p>&lt;/th> </span><br /><span class='normal'>      &lt;td>&lt;input name=&quot;navn&quot; type=&quot;text&quot; id=&quot;navn&quot; </span><br /><span class='normal'>size=&quot;40&quot;>&lt;/td> </span><br /><span class='normal'>    &lt;/tr> </span><br /><span class='normal'>    &lt;tr> </span><br /><span class='normal'>      &lt;th height=&quot;28&quot; scope=&quot;row&quot;>&lt;p>E-mail:&lt;/p>&lt;/th> </span><br /><span class='normal'>      &lt;td>&lt;input name=&quot;e-mail&quot; type=&quot;text&quot; id=&quot;e-mail&quot; </span><br /><span class='normal'>size=&quot;40&quot;>&lt;/td> </span><br /><span class='normal'>    &lt;/tr> </span><br /><span class='normal'>    &lt;tr> </span><br /><span class='normal'>      &lt;th height=&quot;25&quot; scope=&quot;row&quot;> Type:&lt;/th> </span><br /><span class='normal'>      &lt;td>&lt;p> </span><br /><span class='normal'>        &lt;label>         </span><br /><span class='normal'>        &lt;input name=&quot;type&quot; type=&quot;radio&quot; value=&quot;radio&quot; checked> </span><br /><span class='normal'>Generelt&lt;/label> </span><br /><span class='normal'>        &lt;label> </span><br /><span class='normal'>        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;radio&quot;> </span><br /><span class='normal'>Samarbejde&lt;/label> </span><br /><span class='normal'>        &lt;label> </span><br /><span class='normal'>        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;radio&quot;> </span><br /><span class='normal'>Online Radio&lt;/label> </span><br /><span class='normal'>        &lt;label> </span><br /><span class='normal'>        &lt;input type=&quot;radio&quot; name=&quot;type&quot; value=&quot;radio&quot;> </span><br /><span class='normal'>Links&lt;/label> </span><br /><span class='normal'>        &lt;br> </span><br /><span class='normal'>        &lt;br> </span><br /><span class='normal'>      &lt;/p> &lt;/td> </span><br /><span class='normal'>    &lt;/tr> </span><br /><span class='normal'>    &lt;tr> </span><br /><span class='normal'>      &lt;th height=&quot;28&quot; scope=&quot;row&quot;>&lt;p>Emne:&lt;/p>&lt;/th> </span><br /><span class='normal'>      &lt;td>&lt;input name=&quot;emne&quot; type=&quot;text&quot; id=&quot;emne&quot; </span><br /><span class='normal'>size=&quot;40&quot;>&lt;/td> </span><br /><span class='normal'>    &lt;/tr> </span><br /><span class='normal'>    &lt;tr> </span><br /><span class='normal'>      &lt;th height=&quot;108&quot; align=&quot;left&quot; valign=&quot;top&quot; </span><br /><span class='normal'>scope=&quot;row&quot;>&lt;p>Besked:&lt;/p>&lt;/th> </span><br /><span class='normal'>      &lt;td>&lt;textarea name=&quot;besked&quot; cols=&quot;55&quot; rows=&quot;5&quot; </span><br /><span class='normal'>id=&quot;besked&quot;>&lt;/textarea>&lt;/td> </span><br /><span class='normal'>    &lt;/tr> </span><br /><span class='normal'>  &lt;/table> </span><br /><span class='normal'>  &lt;p align=&quot;center&quot;>&lt;input type=&quot;submit&quot; name=&quot;Submit&quot; </span><br /><span class='normal'>value=&quot;Submit&quot;> </span><br /><span class='normal'>    &lt;input name=&quot;reset&quot; type=&quot;reset&quot; id=&quot;reset&quot; value=&quot;Reset&quot;> </span><br /><span class='normal'>  &lt;/p> </span><br /><span class='normal'>&lt;/form> </span><br /><span class='normal'>&lt;/body> </span><br /><span class='normal'>&lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg skal lige tilf&#248;je at jeg ikke ligefrem er en haj til html </span><br /><span class='normal'>kodning, men jeg pr&#248;ver s&#229; godt jeg kan. </span><br /><span class='normal'>H&#229;ber der er nogen der ude som kan hj&#230;lpe mig ;) </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI eller ASP? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cc1tkh8%24qsn%241%40sunsite%2Edk%3E' title='flere mailadresser i en formmail?'>flere mailadresser i en formmail?</a>&nbsp;<small class='newslist'>(29-02-2004&nbsp;-&nbsp;Henrik&nbsp;Brogaard&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns949EEBD52474Cjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: flere mailadresser i en formmail?'>Re: flere mailadresser i en formmail?</a>&nbsp;<small class='newslist'>(29-02-2004&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cc1v83c%243pn%241%40sunsite%2Edk%3E' title='Re: flere mailadresser i en formmail?'>Re: flere mailadresser i en formmail?</a>&nbsp;<small class='newslist'>(01-03-2004&nbsp;-&nbsp;Henrik&nbsp;Brogaard&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns949FA2749329Djcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: flere mailadresser i en formmail?'>Re: flere mailadresser i en formmail?</a>&nbsp;<small class='newslist'>(01-03-2004&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cc1v83e%243t1%241%40sunsite%2Edk%3E' title='Re: flere mailadresser i en formmail?'>Re: flere mailadresser i en formmail?</a>&nbsp;<small class='newslist'>(01-03-2004&nbsp;-&nbsp;Henrik&nbsp;Brogaard&nbsp;Pedersen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cc1vdh5%24d6p%241%40sunsite%2Edk%3E' title='Re: flere mailadresser i en formmail?'>Re: flere mailadresser i en formmail?</a>&nbsp;<small class='newslist'>(01-03-2004&nbsp;-&nbsp;Henrik&nbsp;Brogaard&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns949FA2F2A45D7jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: flere mailadresser i en formmail?'>Re: flere mailadresser i en formmail?</a>&nbsp;<small class='newslist'>(01-03-2004&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3Cc1tkh8%24qsn%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=7588684559?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cc1tkh8%24qsn%241%40sunsite%2Edk%3E' method='post'><p class='pollheader'>Benytter du et spam-filter?</p><div><input type='hidden' name='tst' value='01-06-2004 22:18:53' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: flere mailadresser i en formmail?</span></div>
+
+
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  bw = document.body.clientWidth;
+  bh = document.body.clientHeight;				
+} else {
+  bw = window.innerWidth;
+  bh = window.innerHeight;    
+}
+sw  = screen.width
+sh = screen.height
+document.write ('<img height="1" width="1" ')
+document.write ('src="survey.asp?bw=' + bw + '&bh=' + bh + '&sh=' + sh + '&sw=' + sw + '&site=HTML.dk">')
+
+// Slut -->
+</script>
+
+
+</body>
+</html>
+

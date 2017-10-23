@@ -1,0 +1,144 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Seperation af program og design vha. templates [fortsat!]</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside skrevet af Steffen Tiedemann Christensen den 23. januar 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Seperation af program og design vha. templates [fortsat!]" />
+<meta name="language" content="dan" />
+<meta name="Date" content="23-01-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=20015241030114D?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=20015241030114D?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=20015241030114D?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside</h1><p>Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling, Serverside scipting, Serverfaciliteter og Webservere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C94kh0i%24t4k%241%40news%2Einet%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Steffen&nbsp;Tiedemann&nbsp;Christensen&nbsp;&nbsp;<a href='mailto:steffen@prudence.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='steffen@prudence.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Posted Courtesy of Tele Danmark or one of its European Subsidiaries</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 23. januar 2001 kl. 18:59</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Seperation af program og design vha. templates [fortsat!]</strong></li></ul>
+
+<p><span class='normal'>OK, jeg er klar over at jeg bryder al indl&#230;gsstruktur ved at besvare alle </span><br /><span class='normal'>nuv&#230;rende indl&#230;g med &#233;t nyt indl&#230;g. I m&#229; have mig undskyldt. Jeg har pr&#248;vet </span><br /><span class='normal'>at sende n&#230;rv&#230;rende indl&#230;g flere gange gennem det seneste d&#248;gn, men formig </span><br /><span class='normal'>lader det ikke til at v&#230;re kommet frem. Skulle jeg allerede have besvaret </span><br /><span class='normal'>under </span><br /><span class='normal'>den rigtige tr&#229;d, kan I s&#229; ikke lige sende en mail? </span><br /><span class='normal'> </span><br /><span class='normal'>Der er ganske givet allerede templatel&#248;sninger p&#229; markedet (jeg n&#230;vner igen </span><br /><span class='normal'>ArsDigita's, som efter min mening er ret inspirerende, men det er der ogs&#229; </span><br /><span class='normal'>andre grunde til), men m&#229;ls&#230;tningen var at stille en r&#230;kke ret konkrete krav </span><br /><span class='normal'>og integrere ideen i en lang r&#230;kke programmeringssprog. Det er s&#229; f&#248;rste </span><br /><span class='normal'>skridt. Min PHP-kode har den forhistorie at jeg netop er kommet tilbage til </span><br /><span class='normal'>PHP efter lang tids frav&#230;r, s&#229; grunden til at jeg skrev koden i dette sprog </span><br /><span class='normal'>var at jeg derved kunne finde tilbage til syntaxen. </span><br /><span class='normal'> </span><br /><span class='normal'>Med andre ord er en generel l&#248;sning; ikke en PHP-l&#248;sning (heller ikke bare </span><br /><span class='normal'>en Perl-l&#248;sning eller bare en ASP-l&#248;sning). </span><br /><span class='normal'> </span><br /><span class='normal'>Men en f&#248;lge vil v&#230;re en slags site, hvor man principielt er uafh&#230;ngige af </span><br /><span class='normal'>programmeringssprogenes ideologier. Hvor PHP er bedst bruger man det, hvor </span><br /><span class='normal'>Perl eller TCL er bedst bruges det. Designeren kan v&#230;re ligeglad fordi man </span><br /><span class='normal'>ikke bruger fil-endelser (man kan referere til filen &quot;index&quot;). </span><br /><span class='normal'> </span><br /><span class='normal'>Tedje skridt kan v&#230;re den n&#230;vnte API eller m&#229;ske en m&#229;de at programmere i </span><br /><span class='normal'>sine skabelone (vha. if-strukturer?). </span><br /><span class='normal'> </span><br /><span class='normal'>Min pointe er ikke bare at jeg vil lave en l&#248;sning, hvor man i &#233;t sprog kan </span><br /><span class='normal'>bruge sine skabeloner. Det skal v&#230;re uafh&#230;ngigt at platforms. Dertil kommer </span><br /><span class='normal'>at en bred standard vil g&#248;re arbejdet brugbart for flere. Samtidig skal det </span><br /><span class='normal'>naturligvis v&#230;re en simpel standard, som en ikke programm&#248;r kan designe ud </span><br /><span class='normal'>fra. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Med hensyn til filbrowseren s&#229; er det en anordning, som jeg bruger til at </span><br /><span class='normal'>gemme obskure filer p&#229;. </span><br /><span class='normal'>- G&#229; til adressen </span><br /><span class='normal'><a href='http://www.prudence.dk/files/files.asp?Folder=template%5Cphp%5C'>http://www.prudence.dk/files/files.asp?Folder=template%5Cphp%5C</a> </span><br /><span class='normal'>- Log ind med passwordet &quot;su&quot; </span><br /><span class='normal'>- G&#229; til adressen </span><br /><span class='normal'><a href='http://www.prudence.dk/files/files.asp?Folder=template%5Cphp%5C'>http://www.prudence.dk/files/files.asp?Folder=template%5Cphp%5C</a> </span><br /><span class='normal'>Jeg er ked af denne m&#229;de, men det er lettere end at placere en .zip fil et </span><br /><span class='normal'>eller andet sted. Forh&#229;bentligt kommer det s&#229; heller ikke til at fylde p&#229; </span><br /><span class='normal'>jeres diske. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Steffen Tiedemann Christensen, </span><br /><span class='normal'><a href='http://steffen@refresh.dk'>steffen@refresh.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C94kh0i%24t4k%241%40news%2Einet%2Etele%2Edk%3E' title='Seperation af program og design vha. templates [fo...'>Seperation af program og design vha. templates [fo...</a>&nbsp;<small class='newslist'>(23-01-01&nbsp;-&nbsp;Steffen&nbsp;Tiedemann&nbsp;Christensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CWivb6%2E60339%24W81%2E720020%40twister%2Esunsite%2Edk%3E' title='Re: Seperation af program og design vha. templates...'>Re: Seperation af program og design vha. templates...</a>&nbsp;<small class='newslist'>(24-01-01&nbsp;-&nbsp;Christian&nbsp;Rishøj)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C94kh0i%24t4k%241%40news%2Einet%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/persondata.asp">Politik om persondata</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp' title='Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling' class='navibox'>dk.edb.internet.webdesign.serverside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Seperation af program og design vha. templates...</span></div>
+
+</body>
+</html>
+

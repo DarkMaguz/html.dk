@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Mid Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctmid"></A>Mid Function</H1>
+
+<P>Returns a specified number of characters from a string.</P>
+
+<P><CODE><B>Mid(</B>string<B>, </B>start[<B>, </B>length]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>string</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> from which characters are returned. If <I>string</I> contains <A HREF="vtglossary.htm#defnullvbs">Null</A>, <B>Null</B> is returned. </P>
+
+<P class=dt><I>start</I></P>
+
+<P class=indent>Character position in <I>string</I> at which the part to be taken begins. If <I>start</I> is greater than the number of characters in <I>string</I>, <B>Mid</B> returns a zero-length string ("").</P>
+
+<P class=dt><I>length</I></P>
+
+<P class=indent>Number of characters to return. If omitted or if there are fewer than <I>length</I> characters in the text (including the character at <I>start</I>), all characters from the <I>start</I> position to the end of the string are returned.</P>
+
+<H4>Remarks</H4>
+
+<P>To determine the number of characters in <I>string</I>, use the <B>Len</B> function.</P>
+
+<P>The following example uses the <B>Mid</B> function to return six characters, beginning with the fourth character, in a string: </P>
+
+<PRE><CODE>Dim MyVar
+MyVar = <span class=cfe><B>Mid(</B></span>"VB Script is fun!"<span class=cfe><B>,</B></span> 4<span class=cfe><B>,</B></span> 6<span class=cfe><B>)</B></span> ' MyVar contains "Script".</CODE></PRE>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>The <B>MidB</B> function is used with byte data contained in a string. Instead of specifying the number of characters, the arguments specify numbers of bytes.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctleft.htm">Left Function</A> | <A HREF="vsfctlen.htm">Len Function</A> | <A HREF="vsfctltrim.htm">LTrim, RTrim, and Trim Functions</A> | <A HREF="vsfctright.htm">Right Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

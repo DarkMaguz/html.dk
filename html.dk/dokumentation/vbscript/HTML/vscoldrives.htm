@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Drives Collection</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vscoldrives"></A>Drives Collection</H1>
+
+<P>Read-only <A HREF="vtglossary.htm#defcollectionvbs">collection</A> of all available drives.</P>
+
+<H4>Remarks</H4>
+
+<P>Removable-media drives need not have media inserted for them to appear in the <B>Drives</B> collection. </P>
+
+<P>The following code illustrates how to get the <B>Drives</B> collection and iterate the collection using the <B>For Each...Next</B> statement: </P>
+
+<PRE><CODE>Function ShowDriveList
+&nbsp;&nbsp;&nbsp;Dim fso, d, dc, s, n
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set dc = <span class=cfe><B>fso.Drives</B></span>
+&nbsp;&nbsp;&nbsp;For Each d in dc
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n = ""
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; d.DriveLetter &amp; " - " 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If d.DriveType = Remote Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n = d.ShareName
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ElseIf d.IsReady Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n = d.VolumeName
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; n &amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;ShowDriveList = s
+End Function</CODE></PRE>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsprocount.htm">Count Property</A> | <A HREF="vsproitem.htm">Item Property</A></P>
+
+<H4>Methods</H4>
+
+<P>The <B>Drives</B> collection has no methods.</P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjdrive.htm">Drive Object</A> | <A HREF="vsprodrives.htm">Drives Property</A> | <A HREF="vsobjfile.htm">File Object</A> | <A HREF="vscolfiles.htm">Files Collection</A> | <A HREF="vsobjfolder.htm">Folder Object</A> | <A HREF="vscolfolders.htm">Folders Collection</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

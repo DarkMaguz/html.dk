@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Derived Math Functions</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsgrpderivedmath"></A>Derived Math Functions</H1>
+
+<P>The following nonintrinsic math functions can be derived from the intrinsic math functions:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=32%>Function</TH>
+<TH width=68%>Derived equivalents</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Secant</TD>
+<TD width=68%>Sec(X) = 1 / Cos(X)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Cosecant</TD>
+<TD width=68%>Cosec(X) = 1 / Sin(X)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Cotangent</TD>
+<TD width=68%>Cotan(X) = 1 / Tan(X)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Sine</TD>
+<TD width=68%>Arcsin(X) = Atn(X / Sqr(-X * X + 1))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Cosine</TD>
+<TD width=68%>Arccos(X) = Atn(-X / Sqr(-X * X + 1)) + 2 * Atn(1)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Secant</TD>
+<TD width=68%>Arcsec(X) = Atn(X / Sqr(X * X - 1)) + Sgn((X) -1) * (2 * Atn(1))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Cosecant</TD>
+<TD width=68%>Arccosec(X) = Atn(X / Sqr(X * X - 1)) + (Sgn(X) - 1) * (2 * Atn(1))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Cotangent</TD>
+<TD width=68%>Arccotan(X) = Atn(X) + 2 * Atn(1)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Hyperbolic Sine</TD>
+<TD width=68%>HSin(X) = (Exp(X) - Exp(-X)) / 2 </TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Hyperbolic Cosine</TD>
+<TD width=68%>HCos(X) = (Exp(X) + Exp(-X)) / 2</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Hyperbolic Tangent</TD>
+<TD width=68%>HTan(X) = (Exp(X) - Exp(-X)) / (Exp(X) + Exp(-X))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Hyperbolic Secant</TD>
+<TD width=68%>HSec(X) = 2 / (Exp(X) + Exp(-X))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Hyperbolic Cosecant</TD>
+<TD width=68%>HCosec(X) = 2 / (Exp(X) - Exp(-X))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Hyperbolic Cotangent</TD>
+<TD width=68%>HCotan(X) = (Exp(X) + Exp(-X)) / (Exp(X) - Exp(-X))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Hyperbolic Sine</TD>
+<TD width=68%>HArcsin(X) = Log(X + Sqr(X * X + 1))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Hyperbolic Cosine</TD>
+<TD width=68%>HArccos(X) = Log(X + Sqr(X * X - 1))</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Hyperbolic Tangent</TD>
+<TD width=68%>HArctan(X) = Log((1 + X) / (1 - X)) / 2</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Hyperbolic Secant</TD>
+<TD width=68%>HArcsec(X) = Log((Sqr(-X * X + 1) + 1) / X)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Hyperbolic Cosecant</TD>
+<TD width=68%>HArccosec(X) = Log((Sgn(X) * Sqr(X * X + 1) +1) / X)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Inverse Hyperbolic Cotangent</TD>
+<TD width=68%>HArccotan(X) = Log((X + 1) / (X - 1)) / 2</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=32%>Logarithm to base N</TD>
+<TD width=68%>LogN(X) = Log(X) / Log(N)</TD>
+</TR>
+</TABLE><BR>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctatn.htm">Atn Function</A> | <A HREF="vsfctcos.htm">Cos Function</A> | <A HREF="vsfctexp.htm">Exp Function</A> | <A HREF="vsfctlog.htm">Log Function</A> | <A HREF="vsfctsin.htm">Sin Function</A> | <A HREF="vsfctsqr.htm">Sqr Function</A> | <A HREF="vsfcttan.htm">Tan Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

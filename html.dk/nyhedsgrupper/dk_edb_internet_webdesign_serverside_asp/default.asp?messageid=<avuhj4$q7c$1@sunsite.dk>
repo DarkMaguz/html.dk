@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: noget a'la Server.MapPath - bare ikke helt</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Chrisser den 13. januar 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: noget a'la Server.MapPath - bare ikke helt" />
+<meta name="language" content="dan" />
+<meta name="Date" content="13-01-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3Cavuhj4%24q7c%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Chrisser&nbsp;&nbsp;<a href='mailto:cbj@egdatainform.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='cbj@egdatainform.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Open Source Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 13. januar 2003 kl. 16:11</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: noget a'la Server.MapPath - bare ikke helt</strong></li></ul>
+
+<p><span class='normal'>&quot;Jens Gyldenk&#230;rne Clausen&quot; &lt;jens@gyros.invalid> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:Xns930297C0422ACjcdmfdk@gyrosmod.dtext.news.tele.dk'>news:Xns930297C0422ACjcdmfdk@gyrosmod.dtext.news.tele.dk</a>... </span><br /><span class='citat'>> Chrisser skrev: </span><br /><span class='citat'>> </span><br /><span class='citat'>> > Desv&#230;rre - vi snakker om mellem 50 og 100 undermapper, hvori </span><br /><span class='citat'>> > der ventes et input p&#229; ca. 100 nye dokumenter pr m&#229;ned.... </span><br /><span class='citat'>> > Desuden er den nem og overskuelig - og s&#229; kan jeg godt overse </span><br /><span class='citat'>> > en enkelt &quot;b&#248;r&quot; <img src='/site/graphics/smileys/smiley1.gif' alt=':o)' /> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg ville kigge p&#229; den filepicker jeg henviste til f&#248;r (asp.net). </span><br /><span class='citat'>> Upload kan disables - og s&#229; fungerer den som en nydelig filbrowser </span><br /><span class='citat'>> p&#229; serversiden. Den er freeware, og du kan selv &#230;ndre i koden om </span><br /><span class='citat'>> n&#248;dvendigt. </span><br /><span class='normal'> </span><br /><span class='normal'>Det er desv&#230;rre ikke .NET, men jeg vil nu alligevel pr&#248;ve at finde et </span><br /><span class='normal'>t&#229;leligt alternativ </span><br /><span class='normal'><img src='/site/graphics/smileys/smiley3.gif' alt=';-)' /> </span><br /><span class='normal'> </span><br /><span class='citat'>> > - men jeg vil da gerne lige h&#248;re med den &lt;input type=&quot;file&quot;>, </span><br /><span class='citat'>> > hvorn&#229;r vil den uploade (eller fors&#248;ge p&#229; samme) ? </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg ved det ikke - men jeg vil tro at en file-boks vil uploade hvis </span><br /><span class='citat'>> formen ellers er sat til multipart. Hvorvidt man s&#229; bruger de </span><br /><span class='citat'>> uploadede data til noget afh&#230;nger af formhandleren. </span><br /><span class='citat'>> S&#230;tter man form-encoding til noget andet vil upload sikkert ikke </span><br /><span class='citat'>> ske, men s&#229; er formen n&#230;ppe gyldig (den vil dog formentlig virke i </span><br /><span class='citat'>> IE alligevel - det program godtager jo n&#230;rmest enhver fejl <img src='/site/graphics/smileys/smiley3.gif' alt=';-)' />. </span><br /><span class='normal'> </span><br /><span class='normal'>Dejligt ikke ? </span><br /><span class='normal'>- sp&#248;g til side, jeg sad faktisk og overvejede om de alligevel ikke skulle </span><br /><span class='normal'>have mulighed for at uploade deres egne flettedokumenter, </span><br /><span class='normal'>hvis vi nu siger at der sidder 10 mennesker og fletter dagen lang hver dag, </span><br /><span class='normal'>hvor meget vil du s&#229; skyde p&#229; at det belaster serveren at flettedokumenterne </span><br /><span class='normal'>skal uploades ? </span><br /><span class='normal'>Og hvad ville der s&#229; ske hvis de valgte et flettedokument der l&#229; p&#229; serveren </span><br /><span class='normal'>? </span><br /><span class='normal'>Ville der g&#229; ged i den, eller er det *bare* spildte ressourcer ? </span><br /><span class='normal'> </span><br /><span class='normal'><img src='/site/graphics/smileys/smiley1.gif' alt=':o)' /> </span><br /><span class='normal'>Chrisser </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cavu9mv%24dis%241%40sunsite%2Edk%3E' title='noget a'la Server.MapPath - bare ikke helt'>noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Chrisser)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns9302893491694jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cavuetd%248gb%241%40sunsite%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Chrisser)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns930297C0422ACjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cavuhj4%24q7c%241%40sunsite%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Chrisser)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns93029C0D77A01jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns93029CB76FFF1spamstocholmdk%40130%2E226%2E1%2E34%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Jesper&nbsp;Stocholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns93029EFFBFA49jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns9302A62B75B6Fjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cavumqf%24c3r%241%40news%2Ecybercity%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(13-01-03&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Cb00e3r%24dbn%241%40sunsite%2Edk%3E' title='Re: noget a'la Server.MapPath - bare ikke helt'>Re: noget a'la Server.MapPath - bare ikke helt</a>&nbsp;<small class='newslist'>(14-01-03&nbsp;-&nbsp;Chrisser)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3Cavuhj4%24q7c%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3cavuhj4$q7c$1@sunsite.dk%3e' method='post'><p class='pollheader'>Hvornår har du sidst brugt dit betalingskort på nettet?</p><div><input type='hidden' name='tst' value='15-05-03 05:34:18' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Inden for den sidste måned</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Inden for det sidste ½ år</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Længere tid siden</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: noget a'la Server.MapPath - bare ikke helt</span></div>
+
+
+
+</body>
+</html>
+

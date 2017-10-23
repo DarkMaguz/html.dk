@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>On Error Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmonerror"></A>On Error Statement</H1>
+
+<P>Enables or disables error-handling.</P>
+
+<P><CODE>On Error Resume Next<BR>
+On Error GoTo 0</CODE></P>
+
+<H4>Remarks</H4>
+
+<P>If you don't use an <B>On Error Resume Next</B> statement anywhere in your code, any <A HREF="vtglossary.htm#defruntimeerrorvbs">run-time error</A> that occurs can cause an error message to be displayed and code execution stopped. However, the exact behavior is determined by the host running the code. The host can sometimes opt to handle such errors differently. In some cases, the script debugger may be invoked at the point of the error. In still other cases, there may be no apparent indication that any error occurred because the host does not to notify the user. Again, this is purely a function of how the host handles any errors that occur.</P>
+
+<P>Within any particular procedure, an error is not necessarily fatal as long as error-handling is enabled somewhere along the call stack. If local error-handling is not enabled in a procedure and an error occurs, control is passed back through the call stack until a procedure with error-handling enabled is found and the error is handled at that point. If no procedure in the call stack is found to have error-handling enabled, an error message is displayed at that point and execution stops or the host handles the error as appropriate.</P>
+
+<P><B>On Error Resume Next</B> causes execution to continue with the statement immediately following the statement that caused the run-time error, or with the statement immediately following the most recent call out of the procedure containing the <B>On Error Resume Next</B> statement. This allows execution to continue despite a run-time error. You can then build the error-handling routine inline within the procedure.</P>
+
+<P>An <B>On Error Resume Next </B>statement becomes inactive when another procedure is called, so you should execute an <B>On Error Resume Next</B> statement in each called routine if you want inline error handling within that routine. When a procedure is exited, the error-handling capability reverts to whatever error-handling was in place before entering the exited procedure.</P>
+
+<P>Use <B>On Error GoTo 0</B> to disable error handling if you have previously enabled it using <B>On Error Resume Next</B>.</P>
+
+<P>The following example illustrates use of the <B>On Error Resume Next</B> statement. </P>
+
+<PRE><CODE>On Error Resume Next
+Err.Raise 6&nbsp;&nbsp;&nbsp;' Raise an overflow error.
+MsgBox "Error # " &amp; CStr(Err.Number) &amp; " " &amp; Err.Description
+Err.Clear&nbsp;&nbsp;&nbsp;' Clear the error.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

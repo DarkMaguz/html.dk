@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>StrComp Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctstrcomp"></A>StrComp Function</H1>
+
+<P>Returns a value indicating the result of a <A HREF="vtglossary.htm#defstringcomparisonvbs">string comparison</A>. </P>
+
+<P><CODE><B>StrComp(</B>string1<B>, </B>string2[<B>, </B>compare]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>string1</I></P>
+
+<P class=indent>Required. Any valid <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A>.</P>
+
+<P class=dt><I>string2</I></P>
+
+<P class=indent>Required. Any valid string expression.</P>
+
+<P class=dt><I>compare</I></P>
+
+<P class=indent>Optional. Numeric value indicating the kind of comparison to use when evaluating strings. If omitted, a binary comparison is performed. See Settings section for values.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>compare</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=30%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=59%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbBinaryCompare</TD>
+<TD width=11%>0</TD>
+<TD width=59%>Perform a binary comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbTextCompare</TD>
+<TD width=11%>1</TD>
+<TD width=59%>Perform a textual comparison.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Return Values</H4>
+
+<P>The <B>StrComp</B> function has the following return values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=66%>If</TH>
+<TH width=34%>StrComp returns</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=66%><I>string1</I> is less than <I>string2</I></TD>
+<TD width=34%>-1</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=66%>string1 is equal to string2</TD>
+<TD width=34%> 0</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=66%><I>string1</I> is greater than <I>string2</I></TD>
+<TD width=34%> 1</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=66%><I>string1</I> or <I>string2</I> is <A HREF="vtglossary.htm#defnullvbs">Null</A> </TD>
+<TD width=34%>Null</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>StrComp</B> function to return the results of a string comparison. If the third argument is 1, a textual comparison is performed; if the third argument is 0 or omitted, a binary comparison is performed. </P>
+
+<PRE><CODE>Dim MyStr1, MyStr2, MyComp
+MyStr1 = "ABCD": MyStr2 = "abcd"&nbsp;&nbsp;&nbsp;' Define variables.
+MyComp = <span class=cfe><B>StrComp(</B></span>MyStr1<span class=cfe><B>,</B></span> MyStr2<span class=cfe><B>,</B></span> 1<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 0.
+MyComp = <span class=cfe><B>StrComp(</B></span>MyStr1<span class=cfe><B>,</B></span> MyStr2<span class=cfe><B>,</B></span> 0<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns -1.
+MyComp = <span class=cfe><B>StrComp(</B></span>MyStr2<span class=cfe><B>,</B></span> MyStr1<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 1.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

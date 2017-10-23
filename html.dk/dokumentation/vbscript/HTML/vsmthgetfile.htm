@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>GetFile Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthgetfile"></A>GetFile Method</H1>
+
+<P>Returns a <B>File</B> object corresponding to the file in a specified path.</P>
+
+<P><CODE><I>object</I>.<B>GetFile(</B><I>filespec</I><B>)</B> </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>filespec</I></P>
+
+<P class=indent>Required. The <I>filespec</I> is the path (absolute or relative) to a specific file.</P>
+
+<H4>Remarks</H4>
+
+<P>An error occurs if the specified file does not exist.</P>
+
+<P>The following example illustrates use of the <B>GetFile</B> method: </P>
+
+<PRE><CODE>Function ShowFileAccessInfo(filespec)
+&nbsp;&nbsp;&nbsp;Dim fso, f, s
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = <span class=cfe><B>fso.GetFile(</B></span>filespec<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;s = f.Path &amp; "&lt;br&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Created: " &amp; f.DateCreated &amp; "&lt;br&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Last Accessed: " &amp; f.DateLastAccessed &amp; "&lt;br&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Last Modified: " &amp; f.DateLastModified&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;ShowFileAccessInfo = s
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthgetabsolutepathname.htm">GetAbsolutePathName Method</A> | <A HREF="vsmthgetbasename.htm">GetBaseName Method</A> | <A HREF="vsmthgetdrive.htm">GetDrive Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsmthgetextensionname.htm">GetExtensionName Method</A> | <A HREF="vsmthgetfilename.htm">GetFileName Method</A> | <A HREF="vsmthgetfolder.htm">GetFolder Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthgetspecialfolder.htm">GetSpecialFolder Method</A> | <A HREF="vsmthgettempname.htm">GetTempName Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,144 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: Mason</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside skrevet af Jakob Andersen den 15. maj 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Mason" />
+<meta name="language" content="dan" />
+<meta name="Date" content="15-05-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200152804057E57?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200152804057E57?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200152804057E57?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside</h1><p>Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling, Serverside scipting, Serverfaciliteter og Webservere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?mode=form&amp;ReplyID=%3C9drkjv%248kc%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp'>dk.edb.internet.webdesign.serverside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jakob&nbsp;Andersen&nbsp;&nbsp;<a href='mailto:jakob@andersen.as'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='jakob@andersen.as' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Opensource Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 15. maj 2001 kl. 17:09</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Mason</strong></li></ul>
+
+<p><span class='normal'>&quot;Anders Johannsen&quot; &lt;<a href='http://anders@ignition.dk'>anders@ignition.dk</a>> wrote in message </span><br /><span class='normal'><a href='http://news:9drdq1$j6t$1@news.inet.tele.dk'>news:9drdq1$j6t$1@news.inet.tele.dk</a>... </span><br /><span class='citat'>> Der er mange udem&#230;rkede engelsksprogede ressourcer til Ruby -- bl.a. </span><br /><span class='citat'>> comp.lang.ruby hvor matz skriver (b&#248;r man ikke programmere i PHP fordi de </span><br /><span class='citat'>> prim&#230;re arkitekter bag parseren har israelsk som modersm&#229;l) </span><br /><span class='normal'> </span><br /><span class='normal'>Som jeg ser det p&#229; et hurtigt overblik var der bare n&#230;sten ingen resourcer </span><br /><span class='normal'>omkring Ruby og heller ikke andet litteratur end lidt fra O&#180;reilly... </span><br /><span class='normal'> </span><br /><span class='citat'>> ... og jo mere udbredt en ting er, jo bedre er den. </span><br /><span class='normal'> </span><br /><span class='normal'>Selvf&#248;lgelig ikke men igen, en s&#248;gning p&#229; ruby p&#229; google giver mig alts&#229; </span><br /><span class='normal'>ikke meget brugbart som f.eks. performance tests m.m.... </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg har ikke bem&#230;rket nogen store performancem&#230;ssige forskelle -- men det </span><br /><span class='normal'>er </span><br /><span class='citat'>> selvf&#248;lgelig et work-in-progress. Der findes ogs&#229; e-ruby, hvis man har </span><br /><span class='normal'>lyst </span><br /><span class='citat'>> til inline ruby i sine websider (selvom HTML og kode er to komplement&#230;re </span><br /><span class='citat'>> st&#248;rrelser). </span><br /><span class='normal'> </span><br /><span class='normal'>Men er Ruby integreret i Apaches API? </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Jakob Andersen </span><br /><span class='normal'>FAQ for webdesign gruppen p&#229; </span><br /><span class='normal'>&lt;<a href='http://www.usenet.dk/oss/dk.edb.internet.webdesign'>http://www.usenet.dk/oss/dk.edb.internet.webdesign</a>> </span><br /><span class='normal'>&quot;Det er rart at v&#230;re vigtig, men det er vigtigere at v&#230;re rar :-)&quot; </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9dopan%24rn1%241%40sunsite%2Edk%3E' title='Mason'>Mason</a>&nbsp;<small class='newslist'>(14-05-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3Cslrn9g00d4%2E2vqf%2Eboll%40treebeard%2Etolkien%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(14-05-01&nbsp;-&nbsp;SørenBoll&nbsp;Overgaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9dp03k%247k2%241%40sunsite%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(14-05-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3Cslrn9g011d%2E2vqf%2Eboll%40treebeard%2Etolkien%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(14-05-01&nbsp;-&nbsp;SørenBoll&nbsp;Overgaard)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drbv6%24e4b%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C1qc2gtof752rh37jrme10vvjor2pmu9m9r%404ax%2Ecom%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drc70%24equ%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C84lmnypvop%2Efsf%40ymer%2Epil%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Christian&nbsp;Laursen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drce4%24fg6%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C84itj2pvff%2Efsf%40ymer%2Epil%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Christian&nbsp;Laursen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drcpu%24gf3%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C84g0e6pv2a%2Efsf%40ymer%2Epil%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Christian&nbsp;Laursen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C86k83ibtda%2Efsf%40koala%2Edroso%2Enet%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Erwin&nbsp;Lansing)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drdd4%24i5h%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drdeo%24b75%241%40sunsite%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drdm3%24e27%241%40sunsite%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drdq1%24j6t%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drkjv%248kc%241%40sunsite%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9dtbre%2468p%241%40news%2Einet%2Etele%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(16-05-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3Cslrn9g4fr7%2E1ehi%2Ehroi%40asdf%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(16-05-01&nbsp;-&nbsp;Hroi&nbsp;Sigurdsson)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3Cslrn9g4h00%2E1ehi%2Ehroi%40asdf%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(16-05-01&nbsp;-&nbsp;Hroi&nbsp;Sigurdsson)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3CmDaM6%2E73%24Zv%2E20340%40news101%2Etelia%2Ecom%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Kim&nbsp;Søvø&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?messageid=%3C9drcvh%2446p%241%40sunsite%2Edk%3E' title='Re: Mason'>Re: Mason</a>&nbsp;<small class='newslist'>(15-05-01&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?mode=form&amp;ReplyID=%3C9drkjv%248kc%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp'>dk.edb.internet.webdesign.serverside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik om persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/Default.asp' title='Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling' class='navibox'>dk.edb.internet.webdesign.serverside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Mason</span></div>
+
+</body>
+</html>
+

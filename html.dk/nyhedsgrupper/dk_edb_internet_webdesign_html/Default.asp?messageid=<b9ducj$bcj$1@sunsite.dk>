@@ -1,0 +1,201 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: flere store eksterne css -dokumenter</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Mikael den 8. maj 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: flere store eksterne css -dokumenter" />
+<meta name="language" content="dan" />
+<meta name="Date" content="08-05-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/page/all_140x350;sz=140x350;tile=1;ord=554633736611?"></script>
+
+</td></tr></table>
+
+</div>
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cb9ducj%24bcj%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Mikael&nbsp;&nbsp;<a href='mailto:alaadin@image.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='alaadin@image.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 8. maj 2003 kl. 17:50</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: flere store eksterne css -dokumenter</strong></li></ul>
+
+<p><span class='normal'>Jens Gyldenk&#230;rneClausen wrote in dk.edb.internet.webdesign.html: </span><br /><span class='normal'> </span><br /><span class='normal'>Jens skrev; </span><br /><span class='normal'> </span><br /><span class='citat'>>   </span><br /><span class='citat'>> CSS-koden virker p&#229; alle de sider hvor du bruger den. En ganske  </span><br /><span class='citat'>> almindelig &lt;link rel=&quot;STYLESHEET&quot; ...>-reference virker i alle de  </span><br /><span class='citat'>> dokumenter hvor koden st&#229;r.  </span><br /><span class='citat'>>   </span><br /><span class='normal'>Opf&#248;lgning Mikael; </span><br /><span class='normal'> </span><br /><span class='normal'>Ja det er jeg klar over. Og kender godt koden: </span><br /><span class='normal'>LINK href=leftmenu/menu.css rel=stylesheet type=text/css> </span><br /><span class='normal'>Som eksempel. </span><br /><span class='normal'> </span><br /><span class='normal'>Jens skrev; </span><br /><span class='normal'> </span><br /><span class='citat'>> SSI-inkluderer siden p&#229; serveren. CSS-filer hentes normalt </span><br /><span class='normal'>s&#230;rskilt  </span><br /><span class='citat'>> af browseren - p&#229; samme m&#229;de som fx billeder. I et html-dokument  </span><br /><span class='citat'>> st&#229;r referencer til billedfiler og referencer til css-filer - </span><br /><span class='normal'>disse  </span><br /><span class='citat'>> filer hentes s&#229; automatisk af browseren. G&#229;r man til en anden side </span><br /><span class='citat'>> der bruger de samme billeder eller css-filer kan browseren n&#248;jes  </span><br /><span class='citat'>> med at hente resurserne fra cache-hukommelsen og dermed spare tid. </span><br /><span class='normal'> </span><br /><span class='normal'>Opf&#248;lgning Mikael; </span><br /><span class='normal'>Det er ret godt forklaret. Jeg var lidt i tvivl om det med </span><br /><span class='normal'>cache-hukommelse. Det er smart at browseren kkan gemme og huske </span><br /><span class='normal'>hukommelse, hvis du s&#229; surfer rundt p&#229; &#248;vrige sider. </span><br /><span class='normal'>Er TEMPORARY files, s&#229; ogs&#229; nyttig hvis du bes&#248;ger et website en </span><br /><span class='normal'>anden dag ? Det m&#229; jo v&#230;re &quot;hukommelses -lager&quot;, p&#229; en  </span><br /><span class='normal'>personal pc, en bruger har ? </span><br /><span class='normal'>  </span><br /><span class='normal'> </span><br /><span class='normal'>Jens skrev; </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Nej. @import er en css-kommando der skal st&#229; i et css-dokument  </span><br /><span class='citat'>> eller evt. bare i en css-blok. For at sammenk&#230;de et css-dokument  </span><br /><span class='citat'>> til et html-dokument skal du bruge &lt;link rel...>  </span><br /><span class='citat'>>   </span><br /><span class='normal'> </span><br /><span class='normal'>Opf&#248;lgning Mikael; </span><br /><span class='normal'>Jo det er vist en kode du kan bruge til css -doks. </span><br /><span class='normal'>Men hvad jeg egentlig oprigtigt mente st&#229;r som sp&#248;rgsm&#229;l l&#230;ngere </span><br /><span class='normal'>nede. Det er bare lidt sv&#230;rt at forklare. </span><br /><span class='normal'>M&#229;ske har du l&#248;sningen, ud fra dit sp&#248;rgsm&#229;l om... hvorfor  </span><br /><span class='normal'>man skal skifte stylesheet. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Jens skrev; </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Sp&#248;rgsm&#229;let er hvorfor du har flere css-dokumenter.  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Hvis du i alle html-dokumenter bruger de samme css-dokumenter kan  </span><br /><span class='citat'>> du i princippet lige s&#229; godt have dem i &#233;n stor fil. Det kan v&#230;re  </span><br /><span class='citat'>> lettere at overskue med to filer, og det vil da ogs&#229; stadig virke  </span><br /><span class='citat'>> fint. Du kan s&#229; g&#248;re et af tre:  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> a) Inkludere begge filer i alle html-dokumenter (2 x &lt;link rel..>) </span><br /><span class='citat'>> b) Lade den ene css-fil inkludere den anden (med @import) og linke </span><br /><span class='citat'>> hoved-css-filen (den med @import-kommandoen) til alle html-  </span><br /><span class='citat'>> dokumenter  </span><br /><span class='citat'>> c) Samle de to filer til &#233;n og linke den til alle html-dokumenter  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> Hvis du har css-filerne adskilt for at kunne differentiere hvilke  </span><br /><span class='citat'>> css-ark der skal bruges til hvilke sider skal du bruge mulighed a </span><br /><span class='normal'>-  </span><br /><span class='citat'>> og s&#229; bare n&#248;jes med at inkludere de ark der skal bruges p&#229; den  </span><br /><span class='citat'>> enkelte side. Der kan s&#229;ledes v&#230;re html-filer hvor du bruger ark 1 </span><br /><span class='citat'>> alene, andre hvor det kun er ark 2 der bruges og andre hvor b&#229;de  </span><br /><span class='citat'>> ark 1 og ark 2 benyttes.  </span><br /><span class='normal'> </span><br /><span class='normal'>Opf&#248;lgning Mikael; </span><br /><span class='normal'> </span><br /><span class='normal'>Lad os s&#229; sige jeg har 7-8 forskellige store styleheets som jeg vil </span><br /><span class='normal'>kunne aktivere fra en 7-8 links fra forsiden, som s&#229; er det prim&#230;re </span><br /><span class='normal'>stylesheet for alle siderne indeholdene i/p&#229; websitet. </span><br /><span class='normal'>Hvordan g&#248;r jeg det nemmest i mine .asp -filer som eks. p&#229; HP </span><br /><span class='normal'>-filer. </span><br /><span class='normal'> </span><br /><span class='normal'>Ogs&#229; optimalt i forhold til sp&#248;rgsm&#229;l 1 om cache, da cachen jo ogs&#229; </span><br /><span class='normal'>gemmer et stylesheet, s&#229; vidt jeg har forst&#229;et. </span><br /><span class='normal'> </span><br /><span class='normal'>Tak for din interesse i mine sp&#248;rgsm&#229;l. </span><br /><span class='normal'> </span><br /><span class='normal'>Mikael </span><br /><span class='normal'> </span><br /><span class='citat'>> NB: Kender du &lt;<a href='http://html.dk/tutorials/css/'>http://html.dk/tutorials/css/</a>> ?  </span><br /><span class='citat'>>   </span><br /><span class='citat'>> NB2: Du m&#229; gerne klippe lidt i dine citater - se evt. min </span><br /><span class='normal'>signatur.  </span><br /><span class='citat'>> --   </span><br /><span class='citat'>> Jens Gyldenk&#230;rne Clausen  </span><br /><span class='citat'>> Svar venligst under det du citerer, og citer kun det der er  </span><br /><span class='citat'>> n&#248;dvendigt for at forst&#229; dit svar i sammenh&#230;ngen. Se hvorfor og  </span><br /><span class='citat'>> hvordan p&#229; <a href='http://usenet.dk/netikette/citatteknik.html'>http://usenet.dk/netikette/citatteknik.html</a> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI eller ASP? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb8hcdb%24k95%241%40sunsite%2Edk%3E' title='flere store eksterne css -dokumenter'>flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(27-04-03&nbsp;-&nbsp;Mikael)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb8hcp5%24li9%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(27-04-03&nbsp;-&nbsp;Soeren&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb8hd6k%24n5g%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(27-04-03&nbsp;-&nbsp;Mikael)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns936AE2A616F9Bjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(27-04-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb8hevn%2415f%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(27-04-03&nbsp;-&nbsp;Mikael)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb8hg7g%245k1%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(27-04-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns936AF423AAFCjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(27-04-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb9ducj%24bcj%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(08-05-03&nbsp;-&nbsp;Mikael)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9375E2D1D9BB1jcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(08-05-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb9f7ar%24n2u%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(09-05-03&nbsp;-&nbsp;Mikael)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns93766EA353476jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(09-05-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb9gb17%24rfs%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(09-05-03&nbsp;-&nbsp;Mikael)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9376A1A3F1D78jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(09-05-03&nbsp;-&nbsp;Jens&nbsp;Gyldenkærne&nbsp;Clausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb9ltho%24pvv%241%40sunsite%2Edk%3E' title='Re: flere store eksterne css -dokumenter'>Re: flere store eksterne css -dokumenter</a>&nbsp;<small class='newslist'>(11-05-03&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cb9ducj%24bcj%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3cb9ducj$bcj$1@sunsite.dk%3e' method='post'><p class='pollheader'>I hvilken forbindelse bruger du HTML.dk?</p><div><input type='hidden' name='tst' value='16-11-03 01:04:13' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Privat</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Arbejde</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Uddannelse</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: flere store eksterne css -dokumenter</span></div>
+
+
+
+</body>
+</html>
+

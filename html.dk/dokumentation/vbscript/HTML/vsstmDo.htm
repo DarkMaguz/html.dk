@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Do...Loop Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmdo"></A>Do...Loop Statement</H1>
+
+<P>Repeats a block of statements while a condition is <B>True</B> or until a condition becomes <B>True</B>.</P>
+
+<P><CODE><B>Do </B>[{<B>While </B>| <B>Until</B>} <I>condition</I>]<BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+&nbsp;&nbsp;&nbsp;[<B>Exit</B> <B>Do</B>]<BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+<B>Loop</B> </CODE></P>
+
+<P>Or, you can use this syntax:</P>
+
+<P><CODE><B>Do</B><BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+&nbsp;&nbsp;&nbsp;[<B>Exit</B> <B>Do</B>]<BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+<B>Loop</B> [{<B>While </B>| <B>Until</B>} <I>condition</I>]</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>condition</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defnumericexpressionvbs">Numeric</A> or <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> that is <B>True</B> or <B>False</B>. If <I>condition</I> is <A HREF="vtglossary.htm#defnullvbs">Null</A>, <I>condition</I> is treated as <B>False</B>.</P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>One or more statements that are repeated while or until <I>condition</I> is <B>True</B>.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>Exit Do</B> can only be used within a <B>Do...Loop</B> control structure to provide an alternate way to exit a <B>Do...Loop</B>. Any number of <B>Exit Do</B> statements may be placed anywhere in the <B>Do...Loop</B>. Often used with the evaluation of some condition (for example, <B>If...Then</B>), <B>Exit Do</B> transfers control to the statement immediately following the <B>Loop</B>. </P>
+
+<P>When used within nested <B>Do...Loop</B> statements, <B>Exit Do</B> transfers control to the loop that is nested one level above the loop where it occurs.</P>
+
+<P>The following examples illustrate use of the <B>Do...Loop</B> statement: </P>
+
+<PRE><CODE><span class=cfe><B>Do Until</B></span> DefResp = vbNo
+&nbsp;&nbsp;&nbsp;MyNum = Int (6 * Rnd + 1)&nbsp;&nbsp;&nbsp;' Generate a random integer between 1 and 6.
+&nbsp;&nbsp;&nbsp;DefResp = MsgBox (MyNum &amp; " Do you want another number?", vbYesNo)
+Loop
+
+Dim Check, Counter
+Check = True: Counter = 0&nbsp;&nbsp;&nbsp;' Initialize variables.
+<span class=cfe><B>Do</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Outer loop.
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>Do While</B></span> Counter &lt; 20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Inner loop.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Counter = Counter + 1&nbsp;&nbsp;&nbsp;' Increment Counter.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If Counter = 10 Then&nbsp;&nbsp;&nbsp;&nbsp;' If condition is True...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check = False&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' set value of flag to False.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Exit Do</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Exit inner loop.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;Loop
+<span class=cfe><B>Loop Until</B></span> Check = False&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Exit outer loop immediately.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmexit.htm">Exit Statement</A> | <A HREF="vsstmfor.htm">For...Next Statement</A> | <A HREF="vsstmwhile.htm">While...Wend Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

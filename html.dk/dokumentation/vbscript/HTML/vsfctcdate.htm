@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CDate Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctcdate"></A>CDate Function</H1>
+
+<P>Returns an expression that has been converted to a <B>Variant</B> of subtype <B>Date</B>.</P>
+
+<P><CODE>CDate(<I>date</I>)</CODE></P>
+
+<P>The <I>date</I> argument is any valid <A HREF="vtglossary.htm#defdateexpressionvbs">date expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P>Use the <B>IsDate</B> function to determine if <I>date</I> can be converted to a date or time. <B>CDate</B> recognizes <A HREF="vtglossary.htm#defdateliteralvbs">date literals</A> and time literals as well as some numbers that fall within the range of acceptable dates. When converting a number to a date, the whole number portion is converted to a date. Any fractional part of the number is converted to a time of day, starting at midnight.</P>
+
+<P><B>CDate</B> recognizes date formats according to the <A HREF="vtglossary.htm#deflocalevbs">locale </A> setting of your system. The correct order of day, month, and year may not be determined if it is provided in a format other than one of the recognized date settings. In addition, a long date format is not recognized if it also contains the day-of-the-week string. </P>
+
+<P>The following example uses the <B>CDate</B> function to convert a string to a date. In general, hard coding dates and times as strings (as shown in this example) is not recommended. Use date and time literals (such as #10/19/1962#, #4:45:23 PM#) instead. </P>
+
+<PRE><CODE>MyDate = "October 19, 1962"&nbsp;&nbsp;&nbsp;' Define date.
+MyShortDate = <span class=cfe><B>CDate(</B></span>MyDate<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Convert to Date data type.
+MyTime = "4:35:47 PM"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Define time.
+MyShortTime = <span class=cfe><B>CDate(</B></span>MyTime<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Convert to Date data type.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctisdate.htm">IsDate Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

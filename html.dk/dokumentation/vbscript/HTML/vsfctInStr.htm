@@ -1,0 +1,147 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>InStr Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctinstr"></A>InStr Function</H1>
+
+<P>Returns the position of the first occurrence of one string within another.</P>
+
+<P><CODE><B>InStr(</B>[start<B>, </B>]string1<B>, </B>string2[<B>, </B>compare]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>start</I></P>
+
+<P class=indent>Optional. <A HREF="vtglossary.htm#defnumericexpressionvbs">Numeric expression</A> that sets the starting position for each search. If omitted, search begins at the first character position. If <I>start</I> contains <A HREF="vtglossary.htm#defnullvbs">Null</A>, an error occurs. The <I>start</I> argument is required if <I>compare</I> is specified.</P>
+
+<P class=dt><I>string1</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> being searched.</P>
+
+<P class=dt><I>string2</I></P>
+
+<P class=indent>Required. String expression searched for.</P>
+
+<P class=dt><I>compare</I></P>
+
+<P class=indent>Optional. Numeric value indicating the kind of comparison to use when evaluating substrings. See Settings section for values. If omitted, a binary comparison is performed.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>compare</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=35%>Constant</TH>
+<TH width=12%>Value</TH>
+<TH width=53%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=35%>vbBinaryCompare</TD>
+<TD width=12%>0</TD>
+<TD width=53%>Perform a binary comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=35%>vbTextCompare</TD>
+<TD width=12%>1</TD>
+<TD width=53%>Perform a textual comparison.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Return Values</H4>
+
+<P>The <B>InStr</B> function returns the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=50%>If</TH>
+<TH width=50%>InStr returns</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%><I>string1</I> is zero-length</TD>
+<TD width=50%>0</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%><I>string1</I> is <B>Null</B></TD>
+<TD width=50%>Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%><I>string2</I> is zero-length</TD>
+<TD width=50%>start</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%><I>string2</I> is <B>Null</B></TD>
+<TD width=50%>Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%><I>string2</I> is not found</TD>
+<TD width=50%>0</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%><I>string2</I> is found within <I>string1</I></TD>
+<TD width=50%>Position at which match is found</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=50%>start &gt; <B>Len(</B>string2<B>)</B></TD>
+<TD width=50%>0</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following examples use <B>InStr</B> to search a string: </P>
+
+<PRE><CODE>Dim SearchString, SearchChar, MyPos
+SearchString ="XXpXXpXXPXXP"&nbsp;&nbsp;&nbsp;' String to search in.
+SearchChar = "P"&nbsp;&nbsp;&nbsp;' Search for "P".
+MyPos = <span class=cfe><B>Instr(</B></span>4<span class=cfe><B>,</B></span> SearchString<span class=cfe><B>,</B></span> SearchChar<span class=cfe><B>,</B></span> 1<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' A textual comparison starting at position 4. Returns 6.
+MyPos = <span class=cfe><B>Instr(</B></span>1<span class=cfe><B>,</B></span> SearchString<span class=cfe><B>,</B></span> SearchChar<span class=cfe><B>,</B></span> 0<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' A binary comparison starting at position 1. Returns 9.&nbsp;&nbsp;&nbsp; 
+MyPos = <span class=cfe><B>Instr(</B></span>SearchString<span class=cfe><B>,</B></span> SearchChar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Comparison is binary by default (last argument is omitted). Returns 9.
+MyPos = <span class=cfe><B>Instr(</B></span>1<span class=cfe><B>,</B></span> SearchString<span class=cfe><B>,</B></span> "W"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' A binary comparison starting at position 1. Returns 0 ("W" is not found).</CODE></PRE>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>The <B>InStrB</B> function is used with byte data contained in a string. Instead of returning the character position of the first occurrence of one string within another, <B>InStrB</B> returns the byte position.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctinstrrev.htm">InStrRev Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,120 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Add Method (CDONTS Attachments Collection)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_add_method_cdonts_attachments_collection_"></a>Add Method (CDONTS Attachments Collection)  <a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Add</b> method creates and returns a new <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm">Attachment</a> object in the Attachments collection. </p>
+<h4>Syntax </h4>
+<pre><b>Set</b><i> objAttach = collAttachments</i>.<b>Add( [</b><i>name</i><b>] [</b><i>, type</i><b>] [</b><i>, source</i><b>] [</b><i>, ContentLocation</i><b>] [</b><i>, ContentBase</i><b>] ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objAttach </i></dt>
+<dd>
+On successful return, contains the new Attachment object. <br>
+</dd>
+<dt>
+<i>collAttachments </i></dt>
+<dd>
+Required. The Attachments collection object. <br>
+</dd>
+<dt>
+<i>name </i></dt>
+<dd>
+Optional. String. The display name of the attachment. The default value is an empty string. To allow a user to click on the attachment that appears in the message and activate an associated application, supply the full file name, including the file extension. <br>
+</dd>
+<dt>
+<i>type </i></dt>
+<dd>
+Optional. Long. The type of attachment; either <b>CdoFileData</b> or <b>CdoEmbeddedMessage</b>. The default value is <b>CdoFileData</b>. <br>
+</dd>
+<dt>
+<i>source </i></dt>
+<dd>
+Optional. String or Object. The path and file name of the file containing the data for the attachment, or the Message object to be embedded. The path and file name must be in the appropriate format for the attachment type, specified by the <i>type</i> parameter. The default value is an empty string. <br>
+</dd>
+<dt>
+<i>ContentLocation </i></dt>
+<dd>
+Optional. String. The content location header for the appropriate body part of a MIME message attachment. <br>
+</dd>
+<dt>
+<i>ContentBase </i></dt>
+<dd>
+Optional. String. The content base header for the appropriate body part of a MIME message attachment. </dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+The <i>name</i>, <i>type</i>, <i>source</i>, <i>ContentLocation</i>, and <i>ContentBase</i> parameters correspond to the <a href="amsm4sbj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4sbj.htm"><b>Name</b></a>, <a href="amsm73a7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm73a7.htm"><b>Type</b></a>, <a href="amsm3ba7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3ba7.htm"><b>Source</b></a>, <a href="amsm56u7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm56u7.htm"><b>ContentLocation</b></a>, and <a href="amsm3fxb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3fxb.htm"><b>ContentBase</b></a> properties of the <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm">Attachment</a> object. The <i>source</i> parameter is also closely related to the <a href="amsm6zj3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6zj3.htm"><b>ReadFromFile</b></a> method's <i>fileName</i> parameter. </p>
+<p>
+You can supply the data for the attachment at the same time that you add it to the collection. The <b>Add</b> method operates differently depending on the value of the <i>type</i> parameter. The following table describes its operation. </p>
+<table>
+<tr valign="top">
+<td>
+<b>Value of <i>type</i> parameter </b></td>
+<td>
+<b>Value of <i>source</i> parameter </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoFileData </b></td>
+<td>
+Specifies a full path and file name that contains the data for the attachment, for example C:\DOCUMENT\BUDGET.XLS. Must be supplied with the <b>Add</b> method. The data is read into the attachment. </td>
+</tr>
+<tr valign="top">
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top">
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoEmbeddedMessage </b></td>
+<td>
+Specifies the <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object to be embedded. The message is copied into the attachment. </td>
+</tr>
+</table><br>
+<p>
+If the <i>type</i> parameter is set to <b>CdoEmbeddedMessage</b>, any setting of the <i>name</i> parameter is ignored in the current version of CDO for NTS. If the <a href="amsm4r1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4r1b.htm"><b>MessageFormat</b></a> property of the parent <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object is set to <b>CdoMime</b>, the embedded message's <a href="amsm1333.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1333.htm"><b>Subject</b></a> property is used for the attachment name. If the parent message's <b>MessageFormat</b> is <b>CdoText</b>, CDO for NTS randomly creates an attachment name in the format ATT00099.EML. </p>
+<p>
+You should set the message's <b>MessageFormat</b> to <b>CdoMime</b> if you are running with the Microsoft® Exchange Server and plan to add attachments of type <b>CdoEmbeddedMessage</b>. This allows the greatest flexibility in opening and reading such an attachment. </p>
+<p>
+The attachment is saved in persistent storage when you call the <a href="amsm2fhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2fhb.htm"><b>Send</b></a> method on the <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object containing the Attachments collection. </p>
+<p>
+The <b>Add</b> method returns <b>CdoE_NO_ACCESS</b> when called on a message in the Inbox. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or modifying any attachment; adding, deleting, or modifying any recipient; and modifying any message property, even one with read/write access. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

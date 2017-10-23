@@ -1,0 +1,128 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Form</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_form"></a>Form</h2>
+<p>
+The <b>Form </b>collection retrieves the values of form elements posted to the HTTP request body by a form using the POST method.</p>
+<h4>Syntax</h4>
+<pre><b>Request.Form(</b><i>element</i><b>)</b>[<b>(</b><i>index</i><b>)</b>|<b>.Count</b>] 
+ </pre>
+<h4>Parameters</h4>
+<dl>
+<dt>
+<i>element</i></dt>
+<dd>
+Specifies the name of the form element from which the collection is to retrieve values.<br>
+</dd>
+<dt>
+<i>index</i></dt>
+<dd>
+An optional parameter that enables you to access one of multiple values for a parameter. It can be any integer in the range 1 to <b>Request.Form(</b><i>parameter</i><b>).Count</b>.</dd>
+</dl>
+<h4>Remarks</h4>
+<p>
+The <b>Form </b>collection is indexed by the names of the parameters in the request body. The value of <b>Request.Form(</b><i>element</i><b>) </b>is an array of all of the values of <i>element</i> that occur in the request body. You can determine the number of values of a parameter by calling <b>Request.Form(</b><i>element</i><b>).Count</b>. If a parameter does not have multiple values associated with it, the count is 1. If the parameter is not found, the count is 0.</p>
+<p>
+To reference a single value of a form element that has multiple values, you must specify a value for <i>index</i>. The <i>index </i>parameter may be any number between 1 and <b>Request.Form(</b><i>element</i><b>).Count</b>. If you reference one of multiple form parameters without specifying a value for <i>index</i>, the data is returned as a comma-delimited string.</p>
+<p>
+When you use parameters with <b>Request.Form</b>, the Web server parses the HTTP request body and returns the specified data. If your application requires unparsed data from the form, you can access it by calling <b>Request.Form</b> without any parameters.</p>
+<p>
+You can use an iterator to loop through all the data values in a form request. For example, if a user filled out a form by specifying two values, <code>Chocolate</code> and <code>Butterscotch</code>, for the <code>FavoriteFlavor</code><i> </i>parameter, you could retrieve those values by using the following script.</p>
+<pre>&lt;%
+For Each item In Request.Form(&quot;FavoriteFlavor&quot;)
+  Response.Write item &amp; &quot;&lt;BR&gt;&quot;
+Next
+%&gt;
+ </pre>
+<p>
+The preceding script would display the following.</p>
+<pre>Chocolate
+Butterscotch
+ </pre>
+<p>
+The same output can be generated with a <b>For...Next </b>loop, as shown in the following script. </p>
+<pre>&lt;%
+For i = 1 To Request.Form(&quot;FavoriteFlavor&quot;).Count
+  Response.Write Request.Form(&quot;FavoriteFlavor&quot;)(i) &amp; &quot;&lt;BR&gt;&quot;
+Next
+%&gt;
+ </pre>
+<p>
+You can use this iterator to display the parameter name, as shown in the following script.</p>
+<pre>&lt;% For Each x In Request.Form %&gt;
+Request.Form( &lt;%= x %&gt; ) = &lt;%= Request.Form(x) %&gt; &lt;BR&gt;
+&lt;% Next %&gt;
+ </pre>
+<p>
+This script displays the following on the browser. </p>
+<pre>FavoriteFlavor = Chocolate
+FavoriteFlavor = Butterscotch
+ </pre>
+<h4>Example</h4>
+<p>
+Consider the following form.</p>
+<pre>&lt;FORM ACTION = &quot;/scripts/submit.asp&quot; METHOD = &quot;post&quot;&gt;
+&lt;P&gt;Your first name: &lt;INPUT NAME = &quot;firstname&quot; SIZE = 48&gt;
+&lt;P&gt;What is your favorite ice cream flavor: &lt;SELECT NAME = &quot;flavor&quot;&gt;
+&lt;OPTION&gt;Vanilla 
+&lt;OPTION&gt;Strawberry 
+&lt;OPTION&gt;Chocolate 
+&lt;OPTION&gt;Rocky Road&lt;/SELECT&gt;
+&lt;p&gt;&lt;INPUT TYPE = SUBMIT&gt;
+&lt;/FORM&gt;
+ </pre>
+<p>
+From that form, the following request body might be sent.</p>
+<pre>firstname=James&amp;flavor=Rocky+Road
+ </pre>
+<p>
+The following script can then be used. </p>
+<pre>Welcome,  &lt;%= Request.Form(&quot;firstname&quot;) %&gt;. 
+Your favorite flavor is &lt;%= Request.Form(&quot;flavor&quot;) %&gt;.
+ </pre>
+<p>
+The following output is the result.</p>
+<pre>Welcome, James. Your favorite flavor is Rocky Road.
+ </pre>
+<p>
+If the following script is used</p>
+<pre>The unparsed form data is:  &lt;%= Request.Form %&gt; 
+ </pre>
+<p>
+the output would be</p>
+<pre>The unparsed form data is:  firstname=James&amp;flavor=Rocky+Road
+ </pre>
+<h4>Applies To</h4>
+<p>
+<a href="intr5ulw.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5ulw.htm"><b>Request Object</b></a> </p>
+<h4>See Also</h4>
+<p>
+<a href="intr8q5h.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8q5h.htm"><b>ClientCertificate</b></a>, <a href="intr0z3o.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr0z3o.htm"><b>Cookies</b></a>, <a href="intr53hj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr53hj.htm"><b>QueryString</b></a>, <a href="intr5vsj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5vsj.htm"><b>ServerVariables</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

@@ -1,0 +1,119 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>ObjectContext Object</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_objectcontext_object"></a>ObjectContext Object</h2>
+<p>
+You can use the <b>ObjectContext </b>object to either commit or abort a transaction, managed by Microsoft Transaction Server (MTS), that has been initiated by a script contained in an ASP page. </p>
+<p>
+When an ASP contains the <a href="dire5t0u.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/dire5t0u.htm"><b>@TRANSACTION</b></a> directive, the page runs in a transaction and does not finish processing until the transaction either succeeds completely or fails. </p>
+<h4>Syntax</h4>
+<pre><b>ObjectContext</b>.<i>method
+ </i></pre>
+<h4>Methods</h4>
+<table>
+<tr valign="top">
+<td>
+<a href="intr9gpx.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr9gpx.htm"><b>SetComplete</b></a></td>
+<td>
+The <b>SetComplete</b> method declares that the script is not aware of any reason for the transaction not to complete. If all components participating in the transaction also call SetComplete, the transaction will complete. </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="intr74l0.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr74l0.htm"><b>SetAbort</b></a></td>
+<td>
+The <b>SetAbort</b> method declares that the transaction initiated by the script has not completed and the resources should not be updated. </td>
+</tr>
+</table><br>
+<h4>Events</h4>
+<table>
+<tr valign="top">
+<td>
+<a href="intr1n04.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr1n04.htm"><b>OnTransactionCommit</b></a></td>
+</tr>
+<tr valign="top">
+<td>
+<a href="intr7z78.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr7z78.htm"><b>OnTransactionAbort</b></a></td>
+</tr>
+</table><br>
+<h4>Remarks</h4>
+<p>
+<b>ObjectContext</b> implements two methods of the MTS <b>ObjectContext</b> object. The <b>SetAbort</b> method explicitly aborts the transaction. This causes MTS to prevent any updates to resources that were contacted during the first phase of the transaction. When the transaction aborts, the script's <b>OnTransactionAbort</b> event will be processed.</p>
+<p>
+Calling the <b>SetComplete</b> method does not necessarily mean that the transaction is complete. The transaction will only complete if all of the transactional components called by the script call <b>SetComplete</b>. In most instances, you will not need to call <b>SetComplete</b> within the script, as the script is assumed to be complete if it finishes processing without calling <b>SetAbort</b>. </p>
+<p>
+<b>ObjectContext</b> exposes six methods in addition to <b>SetAbort</b> and <b>SetComplete</b>. These other methods are not available to ASP scripts, however, they are available to components called by the script. </p>
+<h4>Example</h4>
+<p>
+The following example uses the <b>SetAbort</b> and <b>SetCommit</b> methods. The Sales.htm file obtains data required to process a sales request. The second file, SalesVerify.asp contains a script that uses two objects, Inventory and Sales to process the sale. <b>SetAbort</b> is called if Inventory returns an error code indicating that there is not sufficient inventory on hand to process the sale. If the Inventory object does not return the error code, <b>SetComplete</b> is called and the sale is processed.</p>
+<h4>Sales.htm</h4>
+<pre>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML//EN&quot;&gt;
+
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Sales Order&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY BGCOLOR=&quot;#FFFFFF&quot;&gt;&lt;FONT FACE=&quot;ARIAL,HELVETICA&quot;&gt;
+&lt;H2&gt;Sales Order Form &lt;/H2&gt;
+
+&lt;FORM METHOD=POST ACTION=&quot;SalesVerify.asp&quot;&gt; 
+&lt;P&gt;Please enter the product code, quantity, and your account number.
+&lt;INPUT TYPE=TEXT NAME=QuantityToBuy&gt; 
+&lt;INPUT TYPE=TEXT NAME=ProductCode&gt; 
+&lt;INPUT TYPE=TEXT NAME=AccountIn&gt; 
+&lt;P&gt;
+&lt;INPUT TYPE=SUBMIT&gt; 
+&lt;/FONT&gt; 
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</pre>
+<h4>SalesVerify.asp file</h4>
+<pre>&lt;%@ Transaction = Required %&gt;
+&lt;%
+  Set CurrentQOH = Server.CreateObject(&quot;Mycomp.Inventory&quot;)
+  Set CurrentSales = Server.CreateObject(&quot;Mycomp.Sales&quot;)
+ 
+  CheckQuantity = Request(&quot;QuantityToBuy&quot;)
+  CheckProduct = Request(&quot;ProductCode&quot;)
+   QuantityStatus = CurrentQOH.CheckQOH(CheckQuantity,CheckProduct)
+ 
+ If QuantityStatus = None
+  ObjectContext.SetAbort
+  Response.Write &quot;Sorry, there is not sufficient quantity on hand to  process your sale.&quot;
+ Else 
+    ObjectContext.SetComplete
+    Account = Request(&quot;AccountIn&quot;)
+  Saleupdate = CurrentSales.PostIt(AccountIn)
+ End If
+%&gt;
+</pre>
+<h4>See Also</h4>
+<p>
+Creating Transactional Scripts in <a href="iiaptran.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iiaptran.htm">Web Applications</a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

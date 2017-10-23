@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CopyFolder Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthcopyfolder"></A>CopyFolder Method</H1>
+
+<P>Recursively copies a folder from one location to another.</P>
+
+<P><CODE><I>object</I>.<B>CopyFolder</B> <I>source</I>, <I>destination</I>[, <I>overwrite</I>] </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>source</I></P>
+
+<P class=indent>Required. Character string folder specification, which can include wildcard characters, for one or more folders to be copied.</P>
+
+<P class=dt><I>destination</I></P>
+
+<P class=indent>Required. Character string destination where the folder and subfolders from <I>source</I> are to be copied. Wildcard characters are not allowed. </P>
+
+<P class=dt><I>overwrite</I></P>
+
+<P class=indent>Optional. Boolean value that indicates if existing folders are to be overwritten. If <B>True</B>, files are overwritten; if <B>False</B>, they are not. The default is <B>True</B>. </P>
+
+<H4>Remarks</H4>
+
+<P>Wildcard characters can only be used in the last path component of the <I>source</I> argument. For example, you can use: </P>
+
+<PRE><CODE>FileSystemObject.CopyFolder "c:\mydocuments\letters\*", "c:\tempfolder\"</CODE></PRE>
+
+<P>But you can't use: </P>
+
+<PRE><CODE>FileSystemObject.CopyFolder "c:\mydocuments\*\*", "c:\tempfolder\"</CODE></PRE>
+
+<P>If <I>source</I> contains wildcard characters or <I>destination</I> ends with a path separator (\), it is assumed that <I>destination</I> is an existing folder in which to copy matching folders and subfolders. Otherwise, <I>destination</I> is assumed to be the name of a folder to create. In either case, four things can happen when an individual folder is copied. 
+
+<UL type=disc>
+	<LI>If <I>destination</I> does not exist, the <I>source</I> folder and all its contents gets copied. This is the usual case. </li>
+
+	<LI>If <I>destination</I> is an existing file, an error occurs. </li>
+
+	<LI>If <I>destination</I> is a directory, an attempt is made to copy the folder and all its contents. If a file contained in <I>source</I> already exists in <I>destination</I>, an error occurs if <I>overwrite</I> is <B>False</B>. Otherwise, it will attempt to copy the file over the existing file. </li>
+
+	<LI>If <I>destination</I> is a read-only directory, an error occurs if an attempt is made to copy an existing read-only file into that directory and <I>overwrite</I> is <B>False</B>. </li>
+</UL>
+
+<P>An error also occurs if a <I>source</I> using wildcard characters doesn't match any folders.</P>
+
+<P>The <B>CopyFolder</B> method stops on the first error it encounters. No attempt is made to roll back any changes made before an error occurs. </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopyfile.htm">CopyFile Method</A> | <A HREF="vsmthcopy.htm">Copy Method</A> | <A HREF="vsmthcreatefolder.htm">CreateFolder Method</A> | <A HREF="vsmthdeletefolder.htm">DeleteFolder Method</A> | <A HREF="vsmthmovefolder.htm">MoveFolder Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,84 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>#include</title>
+
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Reference page for #include directive."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">
+
+<h1><a name="H1_37754565">#include</a></h1>
+
+<p>The <strong>#include</strong> directive instructs the Web server to insert the contents of a file into an HTML page.  The included file can contain any content that is valid within an HTML document.  You must surround a directive with HTML comment delimiters.</p>
+
+<p>This directive can be used in both ASP pages and HTML pages.</p>
+
+<h4><a name="H4_37755061">Syntax</a></h4>
+
+<p><strong>&lt;!-- #include </strong><em>PathType</em><strong> = </strong><em>FileName</em> <strong>--&gt;</strong></p>
+
+<h4><a name="H4_37755207">Parameters</a></h4>
+
+<p><em>PathType</em></p>
+
+<p>Specifies the type of the path to <em>FileName</em>.  The path type can be one of the following:</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="100%">
+<tr>
+<th width="25%" bgcolor="#C0C0C0" align="Left" valign="top">Path Type</th>
+<th width="75%" bgcolor="#C0C0C0" align="Left" valign="top">Meaning</th>
+</tr>
+<tr>
+<td width="25%" valign="Top">File</td>
+<td width="75%" valign="Top">The file name is a relative path from the directory containing the document with the <strong>#include</strong> directive.  The included file can be in the same directory or in a subdirectory; it cannot be in a directory above the page with the <strong>#include</strong> directive.</td>
+</tr>
+<tr>
+<td width="25%" valign="Top">Virtual</td>
+<td width="75%" valign="Top">The file name is a full virtual path from a virtual directory in your Web site.</td>
+</tr>
+</table>
+
+<p><em>FileName</em></p> 
+
+<p>Specifies the name of the file to be included.  <em>FileName</em> must contain the file name extension, and you must enclose the file name in quotation marks (&quot;).</p>
+
+<h4><a name="H4_37756448">Remarks</a></h4>
+
+<p>The file containing the <strong>#include</strong> directives must use a file name extension that is mapped to the SSI interpreter; otherwise, the Web server will not process the directives.  By default, the extensions .stm, .shtm, and .shtml are mapped to the interpreter (Ssinc.dll).  If you have Internet Service Manager installed, you can modify the default extension mappings and add new mappings; see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm">Setting Application Mappings</a>.  Included files can have any file name extension, but a recommended  practice is to give them the .inc extension.
+</p>
+
+<h4><a name="H4_37757080">Examples</a></h4>
+
+<pre><font face="courier" size="3">&lt;!-- The included file is in the same directory as the parent file. --&gt;
+&lt;!-- #include file = &quot;myfile.inc&quot; --&gt;
+
+&lt;!-- The included file is in the Scripts virtual directory. --&gt;
+&lt;!-- #include virtual = &quot;/scripts/tools/global.inc&quot; --&gt;</font></pre>
+
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+</font>
+</body>
+</html>

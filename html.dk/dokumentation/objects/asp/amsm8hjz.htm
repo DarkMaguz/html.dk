@@ -1,0 +1,131 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Add Method (CDONTS Recipients Collection)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_add_method_cdonts_recipients_collection_"></a>Add Method (CDONTS Recipients Collection)  <a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Add</b> method creates and returns a new <a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm">Recipient</a> object in the Recipients collection. </p>
+<h4>Syntax </h4>
+<pre><b>Set</b><i> objRecip</i> = <i>collRecips</i>.<b>Add( [</b><i>name</i><b>] [</b><i>, address</i><b>] [</b><i>, type</i><b>] ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objRecip </i></dt>
+<dd>
+On successful return, represents the new Recipient object added to the collection. <br>
+</dd>
+<dt>
+<i>collRecips </i></dt>
+<dd>
+Required. The Recipients collection object. <br>
+</dd>
+<dt>
+<i>name </i></dt>
+<dd>
+Optional. String. The display name of the recipient. When this parameter is not present, the new Recipient object's <a href="amsm02u7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm02u7.htm"><b>Name</b></a> property is set to an empty string. <br>
+</dd>
+<dt>
+<i>address </i></dt>
+<dd>
+Optional. String. The full messaging address of the recipient. When this parameter is not present, the new Recipient object's <a href="amsm36fz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm36fz.htm"><b>Address</b></a> property is set to an empty string. <br>
+</dd>
+<dt>
+<i>type </i></dt>
+<dd>
+Optional. Long. The recipient type; the initial value for the new recipient's <a href="amsm3v4v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3v4v.htm"><b>Type</b></a> property. The following values are valid: <table>
+<tr valign="top">
+<td>
+<b>Recipient type </b></td>
+<td>
+<b>Value </b></td>
+<td>
+<b>Description </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoTo </b></td>
+<td>
+1 </td>
+<td>
+The recipient is on the To line (default). </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoCc </b></td>
+<td>
+2 </td>
+<td>
+The recipient is on the Cc line. </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoBcc </b></td>
+<td>
+3 </td>
+<td>
+The recipient is on the Bcc line. </td>
+</tr>
+</table><br>
+</dd>
+</dl>
+<p>
+ </p>
+<h4>Remarks </h4>
+<p>
+The <i>name</i>, <i>address</i>, and <i>type</i> parameters correspond to the Recipient object's <a href="amsm02u7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm02u7.htm"><b>Name</b></a>, <a href="amsm36fz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm36fz.htm"><b>Address</b></a>, and <a href="amsm3v4v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3v4v.htm"><b>Type</b></a> properties, respectively. </p>
+<p>
+When no parameters are present, an empty Recipient object is created. </p>
+<p>
+The new recipient is saved in persistent storage when you call the <a href="amsm2fhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2fhb.htm"><b>Send</b></a> method on the <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object containing the Recipients collection. </p>
+<p>
+The <b>Add</b> method returns <b>CdoE_NO_ACCESS</b> when called on a message in the Inbox. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or modifying any attachment; adding, deleting, or modifying any recipient; and modifying any message property, even one with read/write access. </p>
+<h4>Example </h4>
+<p>
+This code fragment adds a recipient to a message using information from an existing valid <a href="amsm9iu7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9iu7.htm">AddressEntry</a> object </p>
+<pre>' from the sample function &quot;Using Addresses&quot; 
+' assume valid address entry ID from an existing message 
+Set objRecip = objNewMessage.Recipients.Add(type:=CdoTo, _ 
+                                            name:=objAdrEnt.Name) 
+objRecip.Address = objAddrEnt.Type &amp; &quot;:&quot; &amp; objAddrEnt.Address 
+&nbsp;  ' ** the preceding line is not strictly necessary with CDO for NTS, 
+&nbsp;  ' ** but it allows this code to run with CDO for Exchange, where 
+&nbsp;  ' ** Recipient.Address requires a FULL address concatenated from 
+&nbsp;  ' ** AddressEntry.Type, &quot;:&quot;, and AddressEntry.Address 
+If objRecip Is Nothing Then 
+    MsgBox &quot;Unable to add existing AddressEntry using ID&quot; 
+    Exit Function 
+End If 
+ 
+objNewMessage.Text = &quot;Expect 1 recipient.&quot; 
+MsgBox (&quot;Count = &quot; &amp; objNewMessage.Recipients.Count) 
+ 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

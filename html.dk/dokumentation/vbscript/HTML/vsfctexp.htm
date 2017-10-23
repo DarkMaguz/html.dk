@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Exp Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctexp"></A>Exp Function</H1>
+
+<P>Returns <I>e</I> (the base of natural logarithms) raised to a power.</P>
+
+<P><CODE><B>Exp(</B>number<B>)</B></CODE></P>
+
+<P>The <I>number</I> argument can be any valid <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P>If the value of <I>number</I> exceeds 709.782712893, an error occurs. The constant <I>e</I> is approximately 2.718282.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>The <B>Exp</B> function complements the action of the <B>Log</B> function and is sometimes referred to as the antilogarithm.</P>
+
+<P>The following example uses the <B>Exp</B> function to return e raised to a power: </P>
+
+<PRE><CODE>Dim MyAngle, MyHSin&nbsp;&nbsp;&nbsp;' Define angle in radians.
+MyAngle = 1.3&nbsp;&nbsp;&nbsp;' Calculate hyperbolic sine.
+MyHSin = (<span class=cfe><B>Exp(</B></span>MyAngle<span class=cfe><B>)</B></span> - <span class=cfe><B>Exp(</B></span>-1 * MyAngle<span class=cfe><B>)</B></span>) / 2 </CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsgrpderivedmath.htm">Derived Math Functions</A> | <A HREF="vsfctlog.htm">Log Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

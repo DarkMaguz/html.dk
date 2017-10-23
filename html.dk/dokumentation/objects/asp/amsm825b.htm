@@ -1,0 +1,59 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Delete Method (CDONTS Recipient Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_delete_method_cdonts_recipient_object_"></a>Delete Method (CDONTS Recipient Object)  <a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Delete</b> method removes the Recipient object from the <a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm">Recipients</a> collection. </p>
+<h4>Syntax </h4>
+<pre><i>objRecip</i>.<b>Delete( ) 
+ </b></pre>
+<h4>Remarks </h4>
+<p>
+The <b>Delete</b> method performs an irreversible operation on the collection. It calls <b>Release</b> on the collection's reference to the Recipient object. If you have another reference to the recipient, you can still access its properties and methods, but you can never again associate it with any collection because the <a href="amsm8hjz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hjz.htm"><b>Add</b></a> method always creates a new object. You should <b>Set</b> your reference variable either to <b>Nothing</b> or to another recipient. </p>
+<p>
+The final <b>Release</b> on the Recipient object takes place when you assign your reference variable to <b>Nothing</b>, or when you call <b>Delete</b> if you had no other reference. At this point the object is removed from memory. Attempted access to a released object results in an error return of <b>CdoE_INVALID_OBJECT</b>. </p>
+<p>
+The effect of the <b>Delete</b> operation is not permanent until you use the <a href="amsm2fhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2fhb.htm"><b>Send</b></a> or <a href="amsm4o2n.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4o2n.htm"><b>Delete</b></a> method on the <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object to which this recipient belongs. </p>
+<p>
+The immediate parent of this Recipient object is a <a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm">Recipients</a> collection, which is a child of the message. You can delete all the message's recipients by calling the collection's <a href="amsm2man.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2man.htm"><b>Delete</b></a> method. </p>
+<p>
+The CDO for NTS Library does not permit any modifications to messages in the Inbox, other than deleting the entire message. Prohibited modifications include adding, deleting, or modifying any attachment; adding, deleting, or modifying any recipient; and modifying any message property, even one with read/write access. </p>
+<h4>Example </h4>
+<p>
+This code fragment illustrates the two situations previously explained. The <b>Set</b> statement calls <b>AddRef</b> on the first Recipient object. That reference survives the call to <b>Delete</b> and has to be reassigned. The second Recipient object is deleted without creating another reference, and no other action is necessary. </p>
+<pre>' assume valid Message object 
+Set objRecip = objMessage.Recipients.Item(1) 
+objRecip.Delete ' still have a reference from Set statement 
+' ... other operations on objRecip possible but pointless ... 
+Set objRecip = Nothing ' necessary to remove reference 
+' ... 
+objMessage.Recipients.Item(2).Delete ' no reference to remove 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

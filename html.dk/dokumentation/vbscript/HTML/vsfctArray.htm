@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Array Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctarray"></A>Array Function</H1>
+
+<P>Returns a <B>Variant</B> containing an <A HREF="vtglossary.htm#defarrayvbs">array</A>. </P>
+
+<P><CODE><B>Array(</B><I>arglist</I><B>)</B></CODE></P>
+
+<P>The required <I>arglist</I> argument is a comma-delimited list of values that are assigned to the elements of an array contained with the <B>Variant</B>. If no arguments are specified, an array of zero length is created. </P>
+
+<H4>Remarks</H4>
+
+<P>The notation used to refer to an element of an array consists of the variable name followed by parentheses containing an index number indicating the desired element. In the following example, the first statement creates a variable named A. The second statement assigns an array to variable A. The last statement assigns the value contained in the second array element to another variable. </P>
+
+<PRE><CODE>Dim A
+A = <span class=cfe><B>Array(</B></span>10<span class=cfe><B>,</B></span>20<span class=cfe><B>,</B></span>30<span class=cfe><B>)</B></span>
+B = A(2)&nbsp;&nbsp;&nbsp;' B is now 30.</CODE></PRE>
+
+<P class=indent><B><B>Note</B> &nbsp; </B>A variable that is not declared as an array can still contain an array. Although a <B>Variant</B> variable containing an array is conceptually different from an array variable containing <B>Variant</B> elements, the array elements are accessed in the same way.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdim.htm">Dim Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Exit Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmexit"></A>Exit Statement</H1>
+
+<P>Exits a block of <B>Do...Loop</B>, <B>For...Next</B>, <B>Function</B>, or <B>Sub</B> code. </P>
+
+<P><CODE>Exit Do</CODE></P>
+
+<P><CODE>Exit For</CODE></P>
+
+<P><CODE>Exit Function</CODE></P>
+
+<P><CODE>Exit Property</CODE></P>
+
+<P><CODE>Exit Sub</CODE></P>
+
+<P>The <B>Exit</B> statement syntax has these forms:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=22%>Statement</TH>
+<TH width=78%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>Exit Do</TD>
+<TD width=78%>Provides a way to exit a <B>Do...Loop</B> statement. It can be used only inside a <B>Do...Loop</B> statement. <B>Exit Do</B> transfers control to the statement following the <B>Loop</B> statement. When used within nested <B>Do...Loop</B> statements, <B>Exit Do</B> transfers control to the loop that is one nested level above the loop where it occurs.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>Exit For</TD>
+<TD width=78%>Provides a way to exit a <B>For</B> loop. It can be used only in a <B>For...Next</B> or <B>For Each...Next</B> loop. <B>Exit For</B> transfers control to the statement following the <B>Next</B> statement. When used within nested <B>For</B> loops, <B>Exit For </B>transfers control to the loop that is one nested level above the loop where it occurs.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>Exit Function</TD>
+<TD width=78%>Immediately exits the <B>Function</B> procedure in which it appears. Execution continues with the statement following the statement that called the <B>Function</B>.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>Exit Property</TD>
+<TD width=78%>Immediately exits the <B>Property</B> procedure in which it appears. Execution continues with the statement following the statement that called the <B>Property</B> procedure.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>Exit Sub</TD>
+<TD width=78%>Immediately exits the <B>Sub</B> procedure in which it appears. Execution continues with the statement following the statement that called the <B>Sub</B>.</TD>
+</TR>
+</TABLE><BR>
+
+<P>The following example illustrates the use of the <B>Exit</B> statement: </P>
+
+<PRE><CODE>Sub RandomLoop
+&nbsp;&nbsp;&nbsp;Dim I, MyNum
+&nbsp;&nbsp;&nbsp;Do&nbsp;&nbsp;&nbsp;' Set up infinite loop.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For I = 1 To 1000&nbsp;&nbsp;&nbsp;' Loop 1000 times.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MyNum = Int(Rnd * 100)&nbsp;&nbsp;&nbsp;' Generate random numbers.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select Case MyNum&nbsp;&nbsp;&nbsp;' Evaluate random number.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 17: MsgBox "Case 17"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Exit</B></span> For&nbsp;&nbsp;&nbsp;' If 17, exit For...Next.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 29: MsgBox "Case 29"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Exit</B></span> Do&nbsp;&nbsp;&nbsp;' If 29, exit Do...Loop.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 54: MsgBox "Case 54"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class=cfe><B>Exit</B></span> Sub&nbsp;&nbsp;&nbsp;' If 54, exit Sub procedure.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End Select
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;Loop
+End Sub</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdo.htm">Do...Loop Statement</A> | <A HREF="vsstmforeach.htm">For Each...Next Statement</A> | <A HREF="vsstmfor.htm">For...Next Statement</A> | <A HREF="vsstmfunction.htm">Function Statement</A> | <A HREF="vsstmsub.htm">Sub Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

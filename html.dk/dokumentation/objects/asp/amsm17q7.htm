@@ -1,0 +1,73 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Value Property (CDONTS NewMail Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_value_property_cdonts_newmail_object_"></a>Value Property (CDONTS NewMail Object)  <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Value</b> property sets the value and contents of an additional header for the NewMail object. Write-only. </p>
+<h4>Syntax </h4>
+<pre><i>objNewMail</i>.<b>Value(</b><i>header</i><b>)</b><i> = strHdrValue</i><b> 
+ </b></pre>
+<dl>
+<dt>
+<i>header </i></dt>
+<dd>
+A character string containing the name of the header to be added. <br>
+</dd>
+<dt>
+<i>strHdrValue </i></dt>
+<dd>
+A character string containing the value of the header to be added. </dd>
+</dl>
+<p>
+The <b>Value</b> property is the default property of a NewMail object, meaning that <i>objNewMail</i><b>(</b><i>header</i><b>)</b> is syntactically equivalent to <i>objNewMail</i>.<b>Value(</b><i>header</i><b>)</b> in Microsoft® Visual Basic® code. </p>
+<h4>Data Type </h4>
+<p>
+String </p>
+<h4>Remarks </h4>
+<p>
+The <b>Value</b> property is used to add one or more headers to the automatically generated headers such as &quot;To&quot;, &quot;From&quot;, &quot;Subject&quot;, and &quot;Date&quot;. Possibilities for additional headers include &quot;File&quot;, &quot;Keywords&quot;, and &quot;Reference&quot;. </p>
+<p>
+Certain headers, such as &quot;Reply-To&quot;, are widely accepted and used by various messaging systems. If you wish such a header to be recognized by the recipients of the NewMail object, you must be sure that the character string in the header's name exactly matches the accepted string. </p>
+<p>
+In principle you can put any combination of ASCII characters in the string, but some messaging systems may have restrictions on the character set. The safest procedure is to limit the string to alphanumeric characters, dashes, and slashes, and in particular to avoid spaces. </p>
+<p>
+You can set the <b>Value</b> property more than once. Each setting generates another header to be included with the existing headers. </p>
+<h4>Example </h4>
+<p>
+This code fragment adds two headers to a NewMail object before sending it: </p>
+<pre>  ' strBody set in advance for message body 
+  objNewMail.Value(&quot;Reply-To&quot;) = &quot;The Boss&lt;myemail@mycompany.com&gt;&quot; 
+  objNewMail.Value(&quot;Confidential&quot;) = &quot;For my direct reports only&quot; 
+  objNewMail.Send(&quot;myemail@mycompany.com&quot;, _ 
+                  &quot;myreports@mycompany.com&quot;, _ 
+                  &quot;Reorganization&quot;, strBody, 2) ' high importance 
+  Set objNewMail = Nothing 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

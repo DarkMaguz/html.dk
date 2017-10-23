@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CompareMode Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprocomparemode"></A>CompareMode Property</H1>
+
+<P>Sets and returns the comparison mode for comparing string keys in a <B>Dictionary</B> object.</P>
+
+<P><CODE><I>object</I><B>.CompareMode</B>[ = <I>compare</I>]</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>Dictionary</B> object.</P>
+
+<P class=dt><I>compare</I></P>
+
+<P class=indent>Optional. If provided, <I>compare</I> is a value representing the comparison mode used by functions such as <B>StrComp</B>.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>compare</I> argument has the following settings:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=30%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=59%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbBinaryCompare</TD>
+<TD width=11%>0</TD>
+<TD width=59%>Perform a binary comparison.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=30%>vbTextCompare</TD>
+<TD width=11%>1</TD>
+<TD width=59%>Perform a textual comparison.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>Values greater than 2 can be used to refer to comparisons using specific Locale IDs (LCID). An error occurs if you try to change the comparison mode of a <B>Dictionary</B> object that already contains data.</P>
+
+<P>The <B>CompareMode</B> property uses the same values as the <I>compare </I>argument for the <B>StrComp</B> function.</P>
+
+<P>The following example illustrates use of the <B>CompareMode</B> property: </P>
+
+<PRE><CODE>Dim d
+Set d = CreateObject("Scripting.Dictionary")
+
+<span class=cfe><B>d.CompareMode</B></span> = vbTextCompare
+d.Add "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some keys and items.
+d.Add "b", "Belgrade"
+d.Add "c", "Cairo"
+d.Add "B", "Baltimore"&nbsp;&nbsp;&nbsp;' Add method fails on this line because the 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' letter b already exists in the Dictionary.</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprocount.htm">Count Property</A> | <A HREF="vsproitem.htm">Item Property</A> | <A HREF="vsprokey.htm">Key Property</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

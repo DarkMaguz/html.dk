@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>GetDrive Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthgetdrive"></A>GetDrive Method</H1>
+
+<P>Returns a <B>Drive</B> object corresponding to the drive in a specified path.</P>
+
+<P><CODE><I>object</I>.<B>GetDrive</B> <I>drivespec</I> </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>drivespec</I></P>
+
+<P class=indent>Required. The <I>drivespec</I> argument can be a drive letter (c), a drive letter with a colon appended (c:), a drive letter with a colon and path separator appended (c:\), or any network share specification (\\computer2\share1).</P>
+
+<H4>Remarks</H4>
+
+<P>For network shares, a check is made to ensure that the share exists.</P>
+
+<P>An error occurs if <I>drivespec</I> does not conform to one of the accepted forms or does not exist. To call the <B>GetDrive</B> method on a normal path string, use the following sequence to get a string that is suitable for use as <I>drivespec</I>: </P>
+
+<PRE><CODE>DriveSpec = GetDriveName(GetAbsolutePathName(Path))</CODE></PRE>
+
+<P>The following example illustrates use of the <B>GetDrive</B> method: </P>
+
+<PRE><CODE>Function ShowFreeSpace(drvPath)
+&nbsp;&nbsp;&nbsp;Dim fso, d, s
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set d = <span class=cfe><B>fso.GetDrive(</B></span>fso.GetDriveName(drvPath)<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;s = "Drive " &amp; UCase(drvPath) &amp; " - " 
+&nbsp;&nbsp;&nbsp;s = s &amp; d.VolumeName&nbsp;&nbsp;&nbsp;&amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Free Space: " &amp; FormatNumber(d.FreeSpace/1024, 0) 
+&nbsp;&nbsp;&nbsp;s = s &amp; " Kbytes"
+&nbsp;&nbsp;&nbsp;ShowFreeSpace = s
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthgetabsolutepathname.htm">GetAbsolutePathName Method</A> | <A HREF="vsmthgetbasename.htm">GetBaseName Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsmthgetextensionname.htm">GetExtensionName Method</A> | <A HREF="vsmthgetfile.htm">GetFile Method</A> | <A HREF="vsmthgetfilename.htm">GetFileName Method</A> | <A HREF="vsmthgetfolder.htm">GetFolder Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthgetspecialfolder.htm">GetSpecialFolder Method</A> | <A HREF="vsmthgettempname.htm">GetTempName Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

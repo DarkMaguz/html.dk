@@ -1,0 +1,188 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Udtr&#230;kke kommentarer via reg-expression</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Bjørn Nesby den 22. marts 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Udtr&#230;kke kommentarer via reg-expression" />
+<meta name="language" content="dan" />
+<meta name="Date" content="22-03-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form&amp;ReplyID=%3C3e7c8864%240%24153%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Bjørn&nbsp;Nesby&nbsp;&nbsp;<a href='mailto:120010333572@post.tele.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='120010333572@post.tele.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 22. marts 2003 kl. 17:55</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Udtr&#230;kke kommentarer via reg-expression</strong></li></ul>
+
+<p><span class='normal'>Hej, </span><br /><span class='normal'> </span><br /><span class='normal'>jeg er ved at lave et script som skal kunne udtr&#230;kke kommentarer fra HTML </span><br /><span class='normal'>dokumenter. Der findes to slags kommentarer, en &quot;text&quot; og en &quot;media&quot; </span><br /><span class='normal'>kommentar, som jeg skelner imellem n&#229;r jeg formatterer teksten. </span><br /><span class='normal'> </span><br /><span class='normal'>Mit problem med scriptet er, at jeg ikke kan finde ud af hvordan man </span><br /><span class='normal'>genbruger et match fra den f&#248;rste reg-ex ($3) i den n&#230;ste reg-ex...Jeg skal </span><br /><span class='normal'>bruge reg-ex nummer to til at lave *seperate* replace funktioner p&#229; alle </span><br /><span class='normal'>matches af &quot;text&quot; og &quot;media&quot; s&#229; de f&#229;r forskelligt udseende </span><br /><span class='normal'> </span><br /><span class='normal'>p&#229; forh&#229;nd tak, </span><br /><span class='normal'>Bj&#248;rn N&#230;sby Nielsen </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Her et scriptet (Jscript) - jeg har indrammet reg-ex #2 </span><br /><span class='normal'>---------------------------------------------------------------- </span><br /><span class='normal'> </span><br /><span class='normal'>function inflateComments(textString) { </span><br /><span class='normal'> </span><br /><span class='normal'> this.scope = new Array() </span><br /><span class='normal'> this.id = new Array() </span><br /><span class='normal'> </span><br /><span class='normal'> // this expression extracts comments between &quot;&lt;!-- n2bot&quot; and &quot;-->&quot; </span><br /><span class='normal'> var re = /(\&lt;!\-\-\sn2bot)(\s*)(.+)(\s*)(\-\-\>)/gi </span><br /><span class='normal'> </span><br /><span class='normal'> var out = &quot;&quot;, last = 0, arr, i = 0; </span><br /><span class='normal'> //loop through the instances and save them </span><br /><span class='normal'> while ((arr = re.exec(textString)) != null) { </span><br /><span class='normal'> </span><br /><span class='normal'>  // -------------------------------------------------------------------- </span><br /><span class='normal'>  // 2nd regular expression: match against each result of first match ??? </span><br /><span class='normal'>  // -------------------------------------------------------------------- </span><br /><span class='normal'>  var re2 = /(\^$3)/gi </span><br /><span class='normal'> </span><br /><span class='normal'>  // split into &quot;value pairs&quot; </span><br /><span class='normal'>  var str2=(RegExp.$3).split(&quot; &quot;) </span><br /><span class='normal'> </span><br /><span class='normal'>  // loop through value pairs... </span><br /><span class='normal'>  for(j=0;j&lt;str2.length;j++){ </span><br /><span class='normal'>   // split values... </span><br /><span class='normal'>   var str=str2[j].split(&quot;=&quot;) </span><br /><span class='normal'>   // check values... </span><br /><span class='normal'>   for(k=0;k&lt;str.length;k++){ </span><br /><span class='normal'>    switch(str[k]){ </span><br /><span class='normal'>     case &quot;scope&quot; : this.scope[i]=str[k+1];  break; </span><br /><span class='normal'>     case &quot;id&quot; : this.id[i]=str[k+1];  break; </span><br /><span class='normal'>     case &quot;author&quot; : this.author[i]=str[k+1]; break; </span><br /><span class='normal'>     case &quot;version&quot; : this.version[i]=str[k+1]; break; </span><br /><span class='normal'>    } </span><br /><span class='normal'>   } </span><br /><span class='normal'>  } </span><br /><span class='normal'>  switch(this.scope[i]){ </span><br /><span class='normal'>   case &quot;\&quot;text\&quot;&quot; : out = textString.replace(re2, &quot;Scope:text&lt;!-- n2bot </span><br /><span class='normal'>$3-->&quot;); break; </span><br /><span class='normal'>   case &quot;\&quot;media\&quot;&quot; :  out = textString.replace(re2, &quot;Scope:media&lt;!-- n2bot </span><br /><span class='normal'>$3-->&quot;);break; </span><br /><span class='normal'>  } </span><br /><span class='normal'>  i++ </span><br /><span class='normal'> } </span><br /><span class='normal'> Response.Write(out) </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>----------------------------------h------------------- </span><br /><span class='normal'>Her er HTML til test af script </span><br /><span class='normal'>----------------------------------------------------------------- </span><br /><span class='normal'>&lt;html> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;head> </span><br /><span class='normal'>&lt;title>inflate comments&lt;/title> </span><br /><span class='normal'>&lt;/head> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;body bgcolor=&quot;#FF00FF&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;table border=&quot;1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; </span><br /><span class='normal'>bordercolor=&quot;#00FFFF&quot;> </span><br /><span class='normal'>  &lt;tr> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&lt;!-- n2bot scope=&quot;text&quot; id=&quot;207&quot;  -->&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&lt;!-- n2bot scope=&quot;media&quot; id=&quot;207&quot;  -->&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>    &lt;td width=&quot;10%&quot;>&amp;nbsp;&lt;/td> </span><br /><span class='normal'>  &lt;/tr> </span><br /><span class='normal'>&lt;/table> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/body> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3C3e7c8864%240%24153%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Udtr&#230;kke kommentarer via reg-expression'>Udtr&#230;kke kommentarer via reg-expression</a>&nbsp;<small class='newslist'>(22-03-03&nbsp;-&nbsp;Bjørn&nbsp;Nesby)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3C3e7f0b8a%240%24251%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E' title='Re: Udtr&#230;kke kommentarer via reg-expression'>Re: Udtr&#230;kke kommentarer via reg-expression</a>&nbsp;<small class='newslist'>(24-03-03&nbsp;-&nbsp;Bjørn&nbsp;Nesby)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form&amp;ReplyID=%3C3e7c8864%240%24153%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3c3e7c8864$0$153$edfadb0f@dread15.news.tele.dk%3e' method='post'><p class='pollheader'>Forsøger du at overholde W3Cs standarder i din kodning?</p><div><input type='hidden' name='tst' value='25-09-03 10:08:53' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, altid</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Så vidt det er muligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Hvad er W3Cs standarder?</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Udtr&#230;kke kommentarer via reg-expression</span></div>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>ReDim Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmredim"></A>ReDim Statement</H1>
+
+<P>Declares dynamic-array variables, and allocates or reallocates storage space at procedure level.</P>
+
+<P><CODE><B>ReDim</B> [<B>Preserve</B>] varname<B>(</B>subscripts<B>) </B>[<B>, </B>varname<B>(</B>subscripts<B>)</B>] <B>. . .</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>Preserve</I></P>
+
+<P class=indent>Preserves the data in an existing <A HREF="vtglossary.htm#defarrayvbs">array</A> when you change the size of the last dimension.</P>
+
+<P class=dt><I>varname</I></P>
+
+<P class=indent>Name of the variable; follows standard <A HREF="vtglossary.htm#defvariablevbs">variable</A> naming conventions.</P>
+
+<P class=dt><I>subscripts</I></P>
+
+<P class=indent>Dimensions of an array variable; up to 60 multiple dimensions may be declared. The <I>subscripts</I> argument uses the following syntax: </P>
+
+<P class=indent>upper [<B>,</B>upper] <B>. . .</B></P>
+
+<P class=indent></P>
+
+<P class=indent>The lower bound of an array is always zero.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>ReDim</B> statement is used to size or resize a dynamic array that has already been formally declared using a <B>Private</B>, <B>Public</B>, or <B>Dim</B> statement with empty parentheses (without dimension subscripts). You can use the <B>ReDim</B> statement repeatedly to change the number of elements and dimensions in an array.</P>
+
+<P>If you use the <B>Preserve</B> keyword, you can resize only the last array dimension, and you can't change the number of dimensions at all. For example, if your array has only one dimension, you can resize that dimension because it is the last and only dimension. However, if your array has two or more dimensions, you can change the size of only the last dimension and still preserve the contents of the array. </P>
+
+<P>The following example shows how you can increase the size of the last dimension of a dynamic array without erasing any existing data contained in the array. </P>
+
+<PRE><CODE><span class=cfe><B>ReDim</B></span> X(10, 10, 10)
+. . .
+<span class=cfe><B>ReDim Preserve</B></span> X(10, 10, 15)</CODE></PRE>
+
+<P class=indent><B><B>Caution&nbsp;&nbsp;&nbsp;</B></B>If you make an array smaller than it was originally, data in the eliminated elements is lost.</P>
+
+<P>When variables are initialized, a numeric variable is initialized to 0 and a string variable is initialized to a zero-length string (""). A variable that refers to an object must be assigned an existing object using the <B>Set</B> statement before it can be used. Until it is assigned an object, the declared object variable has the special value <A HREF="vtglossary.htm#defnothingvbs">Nothing</A>.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vsstmset.htm">Set Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

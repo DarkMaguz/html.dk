@@ -1,0 +1,143 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Parent Property (All CDONTS Library Objects)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_parent_property_all_cdonts_library_objects_"></a>Parent Property (All CDONTS Library Objects)  <a href="amsm9tdf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9tdf.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Parent</b> property returns the parent of the object. Read-only. </p>
+<h4>Syntax </h4>
+<pre><b>Set</b><i> objParent = object</i>.<b>Parent 
+ </b></pre>
+<h4>Data Type </h4>
+<p>
+Object </p>
+<h4>Remarks </h4>
+<p>
+The <b>Parent</b> property in the CDO for NTS Library returns the <i>immediate</i> parent of an object. The immediate parent for each object is shown in the following table. </p>
+<table>
+<tr valign="top">
+<td>
+<b>CDO for NTS Library object </b></td>
+<td>
+<b>Immediate parent in object hierarchy </b></td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm9iu7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9iu7.htm">AddressEntry</a> </td>
+<td>
+<a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm">Attachment</a> </td>
+<td>
+<a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm">Attachments</a> collection </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm">Attachments</a> collection </td>
+<td>
+<a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm4vmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4vmn.htm">Folder</a> </td>
+<td>
+<a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm">Session</a> </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> </td>
+<td>
+<a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection </td>
+<td>
+<a href="amsm4vmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4vmn.htm">Folder</a>, including Inbox or Outbox </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm">Recipient</a> </td>
+<td>
+<a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm">Recipients</a> collection </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm">Recipients</a> collection </td>
+<td>
+<a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> </td>
+</tr>
+<tr valign="top">
+<td>
+<a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm">Session</a> </td>
+<td>
+Set to <b>Nothing</b> </td>
+</tr>
+</table><br>
+<p>
+The <b>Parent</b> property represents the <i>immediate</i> parent of the object, rather than the <i>logical</i> parent. For example, a folder contains a Messages collection, which contains Message objects. The <b>Parent</b> property for a message is the immediate parent, the Messages collection, rather than the logical parent, the Folder object. </p>
+<p>
+The <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm">Session</a> object represents the highest level in the hierarchy of CDO for NTS Library objects and its <b>Parent</b> property is set to <b>Nothing</b>. The <a href="amsm9iu7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9iu7.htm">AddressEntry</a> object does not have a true hierarchical parent but can only be obtained through the <a href="amsm4y1r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4y1r.htm"><b>Sender</b></a> property of a <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object. Its <b>Parent</b> property returns the Message object. </p>
+<p>
+For more information on the CDO for NTS Library object hierarchy, see <a href="amsm3jfw.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3jfw.htm">Object Model</a>. </p>
+<h4>Example </h4>
+<p>
+This code fragment displays the <a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a> of the parent Messages collection of a <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object: </p>
+<pre>' Function: Message_Parent 
+Function Message_Parent() 
+' error handling here ... 
+If objOneMsg Is Nothing Then 
+    MsgBox &quot;Need to select a message; see Messages-&gt;Get*&quot; 
+    Exit Function 
+End If 
+' Immediate parent of message is the Messages collection 
+MsgBox &quot;Message immediate parent class = &quot; &amp; objOneMsg.Parent.Class 
+' error handling code ... 
+End Function 
+ </pre>
+<p>
+To get to the <a href="amsm4vmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4vmn.htm">Folder</a> object, you have to take the parent of the <a href="amsm6f1b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6f1b.htm">Messages</a> collection: </p>
+<pre>' Function: Messages_Parent 
+' Purpose: Display the Messages collection Parent class value 
+' See documentation topic: Parent property 
+Function Messages_Parent() 
+Set objMessages = objOneMsg.Parent 
+' error handling here ... 
+If objMessages Is Nothing Then 
+    MsgBox &quot;No Messages collection available&quot; 
+    Exit Function 
+End If 
+MsgBox &quot;Messages collection parent class = &quot; &amp; objMessages.Parent.Class 
+Exit Function 
+' error handling here ... 
+End Function 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

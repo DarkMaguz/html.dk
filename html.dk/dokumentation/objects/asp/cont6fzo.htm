@@ -1,0 +1,89 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>GetAllContent</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_getallcontent"></a>GetAllContent</h2>
+<p>
+The <b>GetAllContent</b> method retrieves all of the HTML content strings from the Content Schedule file and writes them directly to the Web page as a list with an &lt;HR&gt; tag after each entry. </p>
+<p>
+This method is typically used during authoring, to proofread the Content Schedule file.</p>
+<h3>Syntax</h3>
+<pre><b>GetAllContent(</b><i>content-schedule-path</i><b>) 
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>content-schedule-path</i></dt>
+<dd>
+Specifies the location of the Content Schedule file. <p>
+This parameter can be specified either as a relative or virtual path. For example, if the Content Schedule file, content.txt, and the .asp file that called <b>GetAllContent</b> both resided in the directory /MyApp/Tips/, where MyApp is a virtual root on the server, then either the full virtual path (/MyApp/Tips/content.txt) or the relative path (content.txt) could be specified for <i>content-schedule-path</i>.</p>
+<p>
+The <b>ContentRotator</b> object calls the <b>Server.MapPath</b> method to map the specified path to a physical directory. For more information, see the <a href="intr7838.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr7838.htm"><b>Server Object</b></a> Reference pages.</p>
+</dd>
+</dl>
+<h3>Return Values</h3>
+<p>
+None. </p>
+<h3>Remarks</h3>
+<p>
+The Content Rotator component uses the <b>Response.Write</b> method to write output directly to the .asp page that called the <b>GetAllContent</b> method. For more information, see the <a href="intr5sj8.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5sj8.htm"><b>Response Object</b></a><i> </i>reference page<i>.</i></p>
+<h3>Applies To</h3>
+<p>
+<a href="cont09dg.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/cont09dg.htm"><b>Content Rotator Component</b></a> </p>
+<h3>Example</h3>
+<p>
+The following example uses the <b>GetAllContent</b> method to display all of the entries in the Content Schedule file. </p>
+<pre>&lt;H1&gt;Tips Stored in the Content Schedule File:&lt;/H1&gt;
+&lt;% 
+Set Tips = Server.CreateObject(&quot;MSWC.ContentRotator&quot;) Tips.GetAllContent(&quot;/Tips/Content.txt&quot;) 
+%&gt;
+ </pre>
+<p>
+The preceding example produces HTML output such as the following:</p>
+<pre>&lt;H1&gt;Tips Stored in the Content Schedule File:&lt;/H1&gt;
+&lt;HR&gt;
+
+Don't run with scissors.<BR>&lt;HR&gt;
+
+&lt;FONT FACE=&quot;ARIAL,HELVETICA&quot; SIZE=&quot;2&quot;&gt;
+  Let a
+  &lt;H1&gt;smile&lt;/H1&gt;
+  be your umbrella.
+&lt;/FONT&gt;<BR>&lt;HR&gt;
+
+&lt;IMG SRC=&quot;/images/happy.gif&quot;&gt;
+&lt;HR&gt;
+
+Here's the &lt;A HREF=&quot;secret.asp&quot;&gt;secret link.&lt;/A&gt;
+&lt;HR&gt;
+ </pre>
+<p>
+ </p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

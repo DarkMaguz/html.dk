@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Join Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctjoin"></A>Join Function</H1>
+
+<P>Returns a string created by joining a number of substrings contained in an <A HREF="vtglossary.htm#defarrayvbs">array</A>. </P>
+
+<P><CODE><B>Join(</B>list[, delimiter]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>list</I></P>
+
+<P class=indent>Required. One-dimensional array containing substrings to be joined. </P>
+
+<P class=dt><I>delimiter</I></P>
+
+<P class=indent>Optional. String character used to separate the substrings in the returned string. If omitted, the space character (" ") is used. If <I>delimiter</I> is a zero-length string, all items in the list are concatenated with no delimiters.</P>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>Join</B> function to join the substrings of <CODE>MyArray</CODE>: </P>
+
+<PRE><CODE>Dim MyString
+Dim MyArray(3)
+MyArray(0) = "Mr."
+MyArray(1) = "John "
+MyArray(2) = "Doe "
+MyArray(3) = "III"
+MyString = <span class=cfe><B>Join(</B></span>MyArray<span class=cfe><B>)</B></span> ' MyString contains "Mr. John Doe III".</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctsplit.htm">Split Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

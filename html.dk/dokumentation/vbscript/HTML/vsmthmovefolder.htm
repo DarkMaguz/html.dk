@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>MoveFolder Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthmovefolder"></A>MoveFolder Method</H1>
+
+<P>Moves one or more folders from one location to another.</P>
+
+<P><CODE><I>object</I>.<B>MoveFolder</B> <I>source</I>, <I>destination </I></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>source</I></P>
+
+<P class=indent>Required. The path to the folder or folders to be moved. The <I>source</I> argument string can contain wildcard characters in the last path component only.</P>
+
+<P class=dt><I>destination</I></P>
+
+<P class=indent>Required. The path where the folder or folders are to be moved. The <I>destination</I> argument can't contain wildcard characters.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>source</I> contains wildcards or <I>destination</I> ends with a path separator (\), it is assumed that <I>destination</I> specifies an existing folder in which to move the matching files. Otherwise, <I>destination</I> is assumed to be the name of a destination folder to create. In either case, three things can happen when an individual folder is moved: 
+
+<UL type=disc>
+	<LI>If <I>destination</I> does not exist, the folder gets moved. This is the usual case. </li>
+
+	<LI>If <I>destination</I> is an existing file, an error occurs. </li>
+
+	<LI>If <I>destination</I> is a directory, an error occurs. </li>
+</UL>
+
+<P>An error also occurs if a wildcard character that is used in <I>source</I> doesn't match any folders. The <B>MoveFolder</B> method stops on the first error it encounters. No attempt is made to roll back any changes made before the error occurs.</P>
+
+<P>The following example illustrates use of the <B>MoveFolder</B> method: </P>
+
+<PRE><CODE>Sub MoveAFolder(Drivespec)
+&nbsp;&nbsp;&nbsp;Dim fso
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>fso.MoveFolder</B></span> Drivespec, "c:\windows\desktop\"
+End Sub</CODE></PRE>
+
+<P class=indent><B><B>Important</B></B>&nbsp;&nbsp;&nbsp;This method allows moving folders between volumes only if supported by the operating system. </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopyfolder.htm">CopyFolder Method</A> | <A HREF="vsmthcreatefolder.htm">CreateFolder Method</A> | <A HREF="vsmthdeletefolder.htm">DeleteFolder Method</A> | <A HREF="vsmthgetfolder.htm">GetFolder Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthmove.htm">Move Method</A> | <A HREF="vsmthmovefile.htm">MoveFile Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

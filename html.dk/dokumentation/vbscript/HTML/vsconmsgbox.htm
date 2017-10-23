@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>MsgBox Constants</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsconmsgbox"></A>MsgBox Constants</H1>
+
+<P>The following constants are used with the <B>MsgBox</B> function to identify what buttons and icons appear on a message box and which button is the default. In addition, the modality of the <B>MsgBox</B> can be specified. Since these constants are built into VBScript, you don't have to define them before using them. Use them anywhere in your code to represent the values shown for each.</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=33%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=56%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbOKOnly</TD>
+<TD width=11%>0</TD>
+<TD width=56%>Display <B>OK</B> button only.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbOKCancel</TD>
+<TD width=11%>1</TD>
+<TD width=56%>Display <B>OK</B> and <B>Cancel</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbAbortRetryIgnore</TD>
+<TD width=11%>2</TD>
+<TD width=56%>Display <B>Abort</B>, <B>Retry</B>, and <B>Ignore</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbYesNoCancel</TD>
+<TD width=11%>3</TD>
+<TD width=56%>Display <B>Yes</B>, <B>No</B>, and <B>Cancel</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbYesNo</TD>
+<TD width=11%>4</TD>
+<TD width=56%>Display <B>Yes</B> and <B>No</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbRetryCancel</TD>
+<TD width=11%>5</TD>
+<TD width=56%>Display <B>Retry</B> and <B>Cancel</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbCritical</TD>
+<TD width=11%>16</TD>
+<TD width=56%>Display Critical Message icon.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbQuestion</TD>
+<TD width=11%>32</TD>
+<TD width=56%>Display <B>Warning Query</B> icon.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbExclamation</TD>
+<TD width=11%>48</TD>
+<TD width=56%>Display Warning Message icon.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbInformation</TD>
+<TD width=11%>64</TD>
+<TD width=56%>Display Information Message icon.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton1</TD>
+<TD width=11%>0</TD>
+<TD width=56%>First button is the default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton2</TD>
+<TD width=11%>256</TD>
+<TD width=56%>Second button is the default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton3</TD>
+<TD width=11%>512</TD>
+<TD width=56%>Third button is the default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton4</TD>
+<TD width=11%>768</TD>
+<TD width=56%>Fourth button is the default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbApplicationModal</TD>
+<TD width=11%>0</TD>
+<TD width=56%>Application modal. The user must respond to the message box before continuing work in the current application.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbSystemModal</TD>
+<TD width=11%>4096</TD>
+<TD width=56%>System modal. On Win16 systems, all applications are suspended until the user responds to the message box. On Win32 systems, this constant provides an application modal message box that always remains on top of any other programs you may have running. </TD>
+</TR>
+</TABLE><BR>
+
+<P>The following constants are used with the <B>MsgBox</B> function to identify which button a user has selected. These constants are only available when your project has an explicit reference to the appropriate type library containing these constant definitions. For VBScript, you must explicitly declare these constants in your code.</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=22%>Constant</TH>
+<TH width=9%>Value</TH>
+<TH width=69%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbOK</TD>
+<TD width=9%>1</TD>
+<TD width=69%><B>OK</B> button was clicked.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbCancel</TD>
+<TD width=9%>2</TD>
+<TD width=69%><B>Cancel</B> button was clicked.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbAbort</TD>
+<TD width=9%>3</TD>
+<TD width=69%><B>Abort</B> button was clicked.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbRetry</TD>
+<TD width=9%>4</TD>
+<TD width=69%><B>Retry</B> button was clicked.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbIgnore</TD>
+<TD width=9%>5</TD>
+<TD width=69%><B>Ignore</B> button was clicked.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbYes</TD>
+<TD width=9%>6</TD>
+<TD width=69%><B>Yes</B> button was clicked.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbNo</TD>
+<TD width=9%>7</TD>
+<TD width=69%><B>No</B> button was clicked.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsconcolor.htm">Color Constants</A> | <A HREF="vsconcompare.htm">Comparison Constants</A> | <A HREF="vscondatetime.htm">Date and Time Constants</A> | <A HREF="vscondateformat.htm">Date Format Constants</A> | <A HREF="vsconmisc.htm">Miscellaneous Constants</A> | <A HREF="vsconstring.htm">String Constants</A> | <A HREF="vscontristate.htm">Tristate Constants</A> | <A HREF="vsconvartype.htm">VarType Constants</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

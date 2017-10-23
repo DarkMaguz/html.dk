@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Execute Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthexecute"></A>Execute Method</H1>
+
+<P>Executes a regular expression search against a specified string.</P>
+
+<P><CODE>object<B>.Execute(</B>string<B>)</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>RegExp</B> object.</P>
+
+<P class=dt><I>string</I></P>
+
+<P class=indent>Required. The text string upon which the regular expression is executed.</P>
+
+<H4>Remarks</H4>
+
+<P>The actual pattern for the regular expression search is set using the <B>Pattern</B> property of the <B>RegExp</B> object. </P>
+
+<P>The <B>Execute</B> method returns a <B>Matches</B> collection containing a <B>Match</B> object for each match found in <I>string</I>. <B>Execute</B> returns an empty <B>Matches</B> collection if no match is found. </P>
+
+<P>The following code illustrates the use of the <B>Execute</B> method. </P>
+
+<PRE><CODE>Function RegExpTest(patrn, strng)
+  Dim regEx, Match, Matches&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Create variable.
+  Set regEx = New RegExp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Create a regular expression.
+  regEx.Pattern = patrn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Set pattern.
+  regEx.IgnoreCase = True&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Set case insensitivity.
+  regEx.Global = True&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Set global applicability.
+  Set Matches = regEx.Execute(strng)&nbsp;&nbsp;&nbsp;' Execute search.
+  For Each Match in Matches&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Iterate Matches collection.
+    RetStr = RetStr &amp; "Match found at position "
+    RetStr = RetStr &amp; Match.FirstIndex &amp; ". Match Value is '"
+    RetStr = RetStr &amp; Match.Value &amp; "'." &amp; vbCRLF
+  Next
+  RegExpTest = RetStr
+End Function
+MsgBox(RegExpTest("is.", "IS1 is2 IS3 is4"))</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthreplace.htm">Replace Method</A> | <A HREF="vsmthtest.htm">Test Method</A></P>
+
+<P>Applies To: <A HREF="vsobjregexp.htm">RegExp Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

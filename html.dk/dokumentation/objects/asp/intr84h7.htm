@@ -1,0 +1,55 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Lock</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_lock"></a>Lock</h2>
+<p>
+The <b>Lock</b> method blocks other clients from modifying the variables stored in the <b>Application</b> object, ensuring that only one client at a time can alter or access the <b>Application</b> variables. If you do not call the <a href="intr51gr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr51gr.htm"><b>Unlock</b></a> method explicitly, the server unlocks the locked <b>Application</b> object when the .asp file ends or times out.</p>
+<h4>Syntax</h4>
+<pre><b>Application.Lock 
+ </b></pre>
+<h4>Example</h4>
+<pre>&lt;% 
+Application.Lock 
+Application(&quot;NumVisits&quot;) = Application(&quot;NumVisits&quot;) + 1 
+Application.Unlock 
+%&gt; 
+ 
+This application page has been visited 
+&lt;%= Application(&quot;NumVisits&quot;) %&gt;  times!
+ </pre>
+<p>
+In the preceding example the <b>Lock </b>method prevents more than one client from accessing the variable <code>NumVisits</code> at a time. If the application had not been locked, two clients could try to increment the variable <code>NumVisits</code> simultaneously.</p>
+<h4>Applies To</h4>
+<p>
+<a href="intr8zw4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8zw4.htm"><b>Application Object</b></a> </p>
+<h4>See Also</h4>
+<p>
+<a href="intr51gr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr51gr.htm"><b>Unlock</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

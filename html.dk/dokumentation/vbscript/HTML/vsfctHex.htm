@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Hex Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfcthex"></A>Hex Function</H1>
+
+<P>Returns a string representing the hexadecimal value of a number.</P>
+
+<P><CODE><B>Hex(</B>number<B>)</B></CODE></P>
+
+<P>The <I>number</I> argument is any valid expression.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>number</I> is not already a whole number, it is rounded to the nearest whole number before being evaluated. </P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=39%>If <I>number</I> is</TH>
+<TH width=61%>Hex returns</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%><A HREF="vtglossary.htm#defnullvbs">Null</A><U> </U></TD>
+<TD width=61%>Null.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%>Empty</TD>
+<TD width=61%>Zero (0).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=39%>Any other number</TD>
+<TD width=61%>Up to eight hexadecimal characters.</TD>
+</TR>
+</TABLE><BR>
+
+<P>You can represent hexadecimal numbers directly by preceding numbers in the proper range with &amp;H. For example, &amp;H10 represents decimal 16 in hexadecimal notation.</P>
+
+<P>The following example uses the <B>Hex</B> function to return the hexadecimal value of a number: </P>
+
+<PRE><CODE>Dim MyHex
+MyHex = <span class=cfe><B>Hex(</B></span>5<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 5.
+MyHex = <span class=cfe><B>Hex(</B></span>10<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns A.
+MyHex = <span class=cfe><B>Hex(</B></span>459<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns 1CB.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctoct.htm">Oct Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

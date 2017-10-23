@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>IsNull Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctisnull"></A>IsNull Function</H1>
+
+<P>Returns a Boolean value that indicates whether an expression contains no valid data ( <A HREF="vtglossary.htm#defnullvbs">Null</A>).</P>
+
+<P><CODE><B>IsNull(</B>expression<B>)</B></CODE></P>
+
+<P>The <I>expression</I> argument can be any <A HREF="vtglossary.htm#defexpressionvbs">expression</A>.</P>
+
+<H4>Remarks</H4>
+
+<P><B>IsNull</B> returns <B>True</B> if <I>expression</I> is <B>Null</B>, that is, it contains no valid data; otherwise, <B>IsNull</B> returns <B>False</B>. If <I>expression</I> consists of more than one variable, <B>Null</B> in any constituent variable causes <B>True</B> to be returned for the entire expression.</P>
+
+<P>The <B>Null</B> value indicates that the variable contains no valid data. <B>Null</B> is not the same as <A HREF="vtglossary.htm#defemptyvbs">Empty</A>, which indicates that a variable has not yet been initialized. It is also not the same as a zero-length string (""), which is sometimes referred to as a null string.</P>
+
+<P class=indent><B>Caution </B>Use the <B>IsNull</B> function to determine whether an expression contains a <B>Null</B> value. Expressions that you might expect to evaluate to <B>True</B> under some circumstances, such as If Var = Null and If Var &lt;&gt; Null, are always <B>False</B>. This is because any expression containing a <B>Null</B> is itself <B>Null</B>, and therefore, <B>False</B>.</P>
+
+<P>The following example uses the <B>IsNull</B> function to determine whether a variable contains a <B>Null</B>: </P>
+
+<PRE><CODE>Dim MyVar, MyCheck
+MyCheck = <span class=cfe><B>IsNull(</B></span>MyVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns False.
+MyVar = Null&nbsp;&nbsp;&nbsp;' Assign Null.
+MyCheck = <span class=cfe><B>IsNull(</B></span>MyVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns True.
+MyVar = Empty&nbsp;&nbsp;&nbsp;' Assign Empty.
+MyCheck = <span class=cfe><B>IsNull(</B></span>MyVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns False.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctisarray.htm">IsArray Function</A> | <A HREF="vsfctisdate.htm">IsDate Function</A> | <A HREF="vsfctisempty.htm">IsEmpty Function</A> | <A HREF="vsfctisnumeric.htm">IsNumeric Function</A> | <A HREF="vsfctisobject.htm">IsObject Function</A> | <A HREF="vsfctvartype.htm">VarType Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

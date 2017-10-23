@@ -1,0 +1,188 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: w3 standarder ude i skoven</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af TH den 27. januar 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: w3 standarder ude i skoven" />
+<meta name="language" content="dan" />
+<meta name="Date" content="27-01-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3e35832d%240%24137%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> TH&nbsp;&nbsp;<a href='mailto:th@cogito.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='th@cogito.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 27. januar 2003 kl. 21:06</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: w3 standarder ude i skoven</strong></li></ul>
+
+<p><span class='normal'>Hej, </span><br /><span class='normal'> </span><br /><span class='normal'>Lige lidt mere....mit indl&#230;g kunne misforst&#229;s. </span><br /><span class='normal'> </span><br /><span class='normal'>Antag du har en form. </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;form id=&quot;theform&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>Den addresserer du egentligt ikke...kun hvis du skal submitte den gennem </span><br /><span class='normal'>Javascript eller &#230;ndre dens attributter, fx: </span><br /><span class='normal'>document.getElementById(&quot;theform&quot;).submit() </span><br /><span class='normal'> </span><br /><span class='normal'>Inde i formen har du s&#229; fx et tekstfelt: </span><br /><span class='normal'>&lt;input type=&quot;text&quot; id=&quot;thetext&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>Den henter du s&#229; med: </span><br /><span class='normal'>document.getElementById(&quot;thetext&quot;).value </span><br /><span class='normal'> </span><br /><span class='normal'>.... </span><br /><span class='normal'> </span><br /><span class='normal'>/TH </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>--- </span><br /><span class='normal'>Outgoing mail is certified Virus Free. </span><br /><span class='normal'>Checked by AVG anti-virus system (<a href='http://www.grisoft.com)'>http://www.grisoft.com)</a>. </span><br /><span class='normal'>Version: 6.0.445 / Virus Database: 250 - Release Date: 21-01-2003 </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb13us0%241sq%241%40sunsite%2Edk%3E' title='w3 standarder ude i skoven'>w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;Robert&nbsp;Høegh)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e358248%240%24143%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;TH)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e35832d%240%24137%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;TH)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb141np%24n1r%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;Robert&nbsp;Høegh)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e359f79%240%24120%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;TH)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb168mi%24rsa%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Robert&nbsp;Høegh)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ckj0b3vg98iucjgfokr0aak43b00sqf69tp%40dtext%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb14179%24kco%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;Robert&nbsp;Høegh)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9310DA11DF2EEusenetsolitudedk%40130%2E225%2E247%2E90%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;Andreas&nbsp;Haugstrup&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cu6hb3vo3onfu4jjaf62g0985o4d9u07fut%404ax%2Ecom%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Mikkel&nbsp;(MZH))</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ck7gqrp4m%2Efsf%40hotpop%2Ecom%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Ca6ed3v8ehjjca55p5u6dr0sqr2mgi18qnq%404ax%2Ecom%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Mikkel&nbsp;(MZH))</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb16fm7%243t4%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Anders&nbsp;Thorsen&nbsp;Holm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1302236%2ElF7NePlrUi%40home%2Emyplace%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Clb0e3v0eq9l3tj73i3k0qtnnkenvs8p4t7%404ax%2Ecom%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Leonard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3183226%2E5U8ZRm9XYe%40home%2Emyplace%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(29-01-03&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cbeuf3vo01tc6e9unjtut8nkm7gaki81r07%404ax%2Ecom%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(29-01-03&nbsp;-&nbsp;Leonard)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb16m0f%248hk%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb15i0h%24h28%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns931174CA52487jcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb15pad%24huk%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9311854ABB0FCjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cu1fta1hs%2Efsf%40hotpop%2Ecom%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns93118CF7B778Ejcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e367d4e%240%24241%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Per&nbsp;Christoffersen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb16e5k%24om%241%40dknews%2Etiscali%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb145k7%2E4gs%2E1%40news%2Ehansen%2Dwinkel%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(27-01-03&nbsp;-&nbsp;Morten&nbsp;K.&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb15h3i%24en3%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Robert&nbsp;Høegh)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cb14e71%24k77%241%40sunsite%2Edk%3E' title='Re: w3 standarder ude i skoven'>Re: w3 standarder ude i skoven</a>&nbsp;<small class='newslist'>(28-01-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3e35832d%240%24137%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3c3e35832d$0$137$edfadb0f@dtext02.news.tele.dk%3e' method='post'><p class='pollheader'>Forsøger du at overholde W3Cs standarder i din kodning?</p><div><input type='hidden' name='tst' value='27-09-03 09:15:25' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, altid</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Så vidt det er muligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Hvad er W3Cs standarder?</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: w3 standarder ude i skoven</span></div>
+
+
+
+</body>
+</html>
+

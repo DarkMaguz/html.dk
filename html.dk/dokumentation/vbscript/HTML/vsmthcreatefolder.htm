@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CreateFolder Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthcreatefolder"></A>CreateFolder Method</H1>
+
+<P>Creates a folder.</P>
+
+<P><CODE><I>object</I>.<B>CreateFolder(</B><I>foldername</I><B>)</B></CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>foldername</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> that identifies the folder to create.</P>
+
+<H4>Remarks</H4>
+
+<P>An error occurs if the specified folder already exists.</P>
+
+<P>The following example illustrates use of the <B>CreateFolder</B> method: </P>
+
+<PRE><CODE>Function CreateFolderDemo
+&nbsp;&nbsp;&nbsp;Dim fso, f
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = <span class=cfe><B>fso.CreateFolder(</B></span>"c:\New Folder"<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;CreateFolderDemo = f.Path
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopyfolder.htm">CopyFolder Method</A> | <A HREF="vsmthdeletefolder.htm">DeleteFolder Method</A> | <A HREF="vsmthmovefolder.htm">MoveFolder Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

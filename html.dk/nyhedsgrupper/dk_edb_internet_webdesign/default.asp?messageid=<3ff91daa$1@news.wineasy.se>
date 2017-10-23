@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Re: Forskelligt udseende</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Jesper Brunholm den 5. januar 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Forskelligt udseende" />
+<meta name="language" content="dan" />
+<meta name="Date" content="05-01-2004" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=346076607705?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3ff91daa%241%40news%2Ewineasy%2Ese%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jesper&nbsp;Brunholm&nbsp;&nbsp;<a href='mailto:nospam@brunholm-scharff.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='nospam@brunholm-scharff.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 5. januar 2004 kl. 10:17</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Forskelligt udseende</strong></li></ul>
+
+<p><span class='normal'>Lasse Jensen skrev: </span><br /><span class='citat'>> Er der slet ingen forslag? :o( </span><br /><span class='normal'> </span><br /><span class='normal'>Der er sikkert adskillige som kunne komme med et par ideer i retning af  </span><br /><span class='normal'>design med div-positionering i stedet for tabeller osv. </span><br /><span class='normal'> </span><br /><span class='normal'>Det ville fra min side blive meget generelle kommentarer, fordi du har  </span><br /><span class='normal'>stillet et meget generelt sp&#248;rgsm&#229;l, uden nogen antydning af hvad du  </span><br /><span class='normal'>selv tror der kan v&#230;re galt og hvad du har pr&#248;vet. </span><br /><span class='normal'> </span><br /><span class='normal'>Dvs. den ene halvdel af grunden til at du ikke f&#229;r et regul&#230;rt svar fra  </span><br /><span class='normal'>mig er at jeg vil skulle bruge for lang tid p&#229; at rode med din kode, som  </span><br /><span class='normal'>du forh&#229;bentlig kender _meget_ bedre end os andre. Den anden halvdel  </span><br /><span class='normal'>stikker en del dybere, men det h&#230;nger lidt sammen alligevel. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg l&#230;ser dagligt mange indl&#230;g her i gruppen, og pr&#248;ver at hj&#230;lpe der  </span><br /><span class='normal'>hvor folk ikke har kunnet f&#229; hj&#230;lp. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg er blevet meget tr&#230;t af at skrive de samme svar og gode r&#229;d igen og  </span><br /><span class='normal'>igen. Der m&#229; selvf&#248;lgelig v&#230;re en vis tolerance i retning af at  </span><br /><span class='normal'>nybegyndere hj&#230;lpes igang, og f&#229;r vejledning til hvor og hvordan de skal  </span><br /><span class='normal'>finde det der allerede ligger klar til genneml&#230;sning, men jeg gider kun  </span><br /><span class='normal'>hvis jeg har p&#229; fornemmelsen at dem som f&#229;r hj&#230;lp selv arbejder p&#229; at  </span><br /><span class='normal'>videref&#248;re resultatet, l&#230;re mere, l&#230;se lidt p&#229; nettet, n&#229; frem til en  </span><br /><span class='normal'>h&#248;jere kodestandard end udgangspunktet - hvorved mange af problemerne  </span><br /><span class='normal'>l&#248;ser sig selv, osv. </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis jeg har p&#229; fornemmelsen at de givne r&#229;d f&#248;lges, men kun lige  </span><br /><span class='normal'>pr&#230;cis, og at der ikke s&#248;ges andre kilder, f&#248;lges med i andre debatter i  </span><br /><span class='normal'>gruppen hvor man kunne l&#230;re meget af det som er aktuelt &quot;i morgen&quot; osv,  </span><br /><span class='normal'>s&#229; afst&#229;r jeg fra at svare, fordi jeg f&#248;ler jeg spilder min tid, eller  </span><br /><span class='normal'>kan bruge den bedre andre steder. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Dvs - what to do? - se grundigt p&#229; din kode og find ud af hvad problemet  </span><br /><span class='normal'>  kan v&#230;re, sp&#248;rg igen, men skriv omhyggeligt hvad du har gjort, hvad du  </span><br /><span class='normal'>tror kan v&#230;re problemet, hvad du ogs&#229; har pr&#248;vet og hvorfor osv. </span><br /><span class='normal'> </span><br /><span class='normal'>Isol&#233;r gerne problemet s&#229; du er sikker p&#229; hvad der spiller med og imod. </span><br /><span class='normal'> </span><br /><span class='normal'>Allerede her vil du sikkert v&#230;re en del t&#230;ttere p&#229; en l&#248;sning fordi du  </span><br /><span class='normal'>n&#229;r frem til en mere konkret problemstilling, og m&#229;ske kan s&#230;tte ord p&#229;  </span><br /><span class='normal'>til en google-s&#248;gning eller en groups.google - s&#248;gning. </span><br /><span class='normal'> </span><br /><span class='normal'>2 timer er IKKE for lang tid at bruge p&#229; s&#229;dan et sp&#248;rgsm&#229;lsindl&#230;g, for  </span><br /><span class='normal'>det ville det sikkert tage en af os at s&#230;tte sig ind i den fremlagte  </span><br /><span class='normal'>kode med 5 stylesheets osv. </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis du vil v&#230;re rigtig grundig, s&#229; g&#229; tilbage til de tidligere svar du  </span><br /><span class='normal'>har f&#229;et og check efter at alt er som du har f&#229;et r&#229;d om at det skal  </span><br /><span class='normal'>v&#230;re, og evt. ogs&#229; l&#230;se de sidste 14 dages indl&#230;g igennem og se om der  </span><br /><span class='normal'>der ligger r&#229;d som kan bruges til at komme videre med dit problem. </span><br /><span class='normal'> </span><br /><span class='normal'>mvh </span><br /><span class='normal'> </span><br /><span class='normal'>Jesper Brunholm </span><br /><span class='normal'> </span><br /><span class='normal'>PS. hvis nogen her i gruppen synes min holdning er urimelig s&#229; modtager  </span><br /><span class='normal'>jeg gerne kritik/feedback p&#229; den (- evt i dk.amin.netikette hvor s&#229;dan  </span><br /><span class='normal'>en debat vel m&#229; h&#248;re til?) </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cbss2un%248dq%241%40sunsite%2Edk%3E' title='Forskelligt udseende'>Forskelligt udseende</a>&nbsp;<small class='newslist'>(30-12-2003&nbsp;-&nbsp;Lasse&nbsp;Jensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3CXns94625B6C8C7Cjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Forskelligt udseende'>Re: Forskelligt udseende</a>&nbsp;<small class='newslist'>(31-12-2003&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cbsthmq%241sm%241%40sunsite%2Edk%3E' title='Re: Forskelligt udseende'>Re: Forskelligt udseende</a>&nbsp;<small class='newslist'>(31-12-2003&nbsp;-&nbsp;Lasse&nbsp;Jensen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3Cbt3ro4%24661%241%40sunsite%2Edk%3E' title='Re: Forskelligt udseende'>Re: Forskelligt udseende</a>&nbsp;<small class='newslist'>(02-01-2004&nbsp;-&nbsp;Lasse&nbsp;Jensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3ff91daa%241%40news%2Ewineasy%2Ese%3E' title='Re: Forskelligt udseende'>Re: Forskelligt udseende</a>&nbsp;<small class='newslist'>(05-01-2004&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3ff91daa%241%40news%2Ewineasy%2Ese%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=125813782216?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3ff91daa%241%40news%2Ewineasy%2Ese%3E' method='post'><p class='pollheader'>Er du interesseret i foredrag om webudvikling?</p><div><input type='hidden' name='tst' value='09-09-2004 17:42:14' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, men det skal være gratis</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Ja, og jeg vil gerne betale feks. kr. 150 for det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Forskelligt udseende</span></div>
+
+
+
+</body>
+</html>
+

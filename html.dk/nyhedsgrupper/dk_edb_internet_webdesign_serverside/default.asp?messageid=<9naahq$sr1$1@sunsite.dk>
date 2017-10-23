@@ -1,0 +1,160 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Connect til DB, hvad er hurtigst?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside skrevet af Johan den 7. september 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Connect til DB, hvad er hurtigst?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="07-09-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- DoubleClick end -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside</h1><p>Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling, Serverside scipting, Serverfaciliteter og Webservere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C9naahq%24sr1%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Johan&nbsp;&nbsp;<a href='mailto:tcr480@ofir.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='tcr480@ofir.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Opensource Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 7. september 2001 kl. 13:20</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Connect til DB, hvad er hurtigst?</strong></li></ul>
+
+<p><span class='citat'>> C++ er vel rimeligt hurtigt, men eftersom det nok skal k&#248;res gennem </span><br /><span class='citat'>> det langsomme CGI*, s&#229; er PHP m&#229;ske en bedre l&#248;sning. </span><br /><span class='citat'>> </span><br /><span class='citat'>> *Jeg g&#229;r ud fra, vi taler om en webl&#248;sning, her...? </span><br /><span class='normal'> </span><br /><span class='normal'>Ja, men t&#230;nkte om der ikke var en metode hvorved jeg kunne smide hastigheden </span><br /><span class='normal'>hurtigere op end det dumme PHP. Af og til mener jeg det tager lidt for lang </span><br /><span class='normal'>tid... og kr&#230;ver for meget serverkraft. </span><br /><span class='normal'> </span><br /><span class='normal'>Kender du forholdet mellem hastigheden i det i f.eks. Python og PHP? </span><br /><span class='normal'> </span><br /><span class='normal'>mvh </span><br /><span class='normal'> </span><br /><span class='normal'>Johan </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9na9is%24q05%241%40sunsite%2Edk%3E' title='Connect til DB, hvad er hurtigst?'>Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CjT1m7%2E3221%249V5%2E204438%40news000%2Eworldonline%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9naahq%24sr1%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cggchpt848qjioidq32ujaga40f3fkbtiqc%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nabt1%242m7%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cpan%2E2001%2E09%2E07%2E13%2E47%2E52%2E820%2E1346%40ignition%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C4cdhptsout9kfvctvk2km2o80cukfomdj4%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cpan%2E2001%2E09%2E07%2E13%2E50%2E27%2E285%2E1346%40ignition%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nagej%24g0l%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbdhhptsdahgm5tuv3paa7ehro4vqai1bbn%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nahgl%24jug%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C4hihpt8t9p0d2uo5ih16knv43b2b0m0n64%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nain7%24oa3%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Ctq1en8p001%2DBFB27A%2E22595307092001%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Jakob&nbsp;Færch)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CkLgm7%2E3627%249V5%2E240219%40news000%2Eworldonline%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(08-09-01&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cpan%2E2001%2E09%2E08%2E13%2E57%2E10%2E322%2E623%40ignition%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(08-09-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CIPxm7%2E8510%24sk1%2E262930%40news010%2Eworldonline%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(09-09-01&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cpan%2E2001%2E09%2E09%2E14%2E56%2E59%2E983%2E774%40ignition%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(09-09-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cpan%2E2001%2E09%2E07%2E15%2E47%2E13%2E736%2E6927%40ignition%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9najh1%24q9e%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9najnr%24qiu%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C4nkhptguhnoa3t6ef7rj7o6p9ga4prlmj2%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C999878797%2E235726%40kollegiegaarden%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(07-09-01&nbsp;-&nbsp;Rune&nbsp;Skou&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nhneq%24337%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Johan)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C87bsklxpwg%2Efsf%40onion%2Evalueclick%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(08-09-01&nbsp;-&nbsp;Ask&nbsp;Bjoern&nbsp;Hansen)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9ncgo2%24pti%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(08-09-01&nbsp;-&nbsp;Stig&nbsp;Johansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cpan%2E2001%2E09%2E08%2E13%2E45%2E28%2E560%2E623%40ignition%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(08-09-01&nbsp;-&nbsp;Anders&nbsp;Johannsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9ndgku%241em%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(08-09-01&nbsp;-&nbsp;Stig&nbsp;Johansen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nhnq1%243tc%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbttopt4shgqiprnjulc34f2bu3qutbrcji%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9ni3ar%24t8i%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cjh4pptkn68dsi9t6cpgpmk11pfrr44bsns%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9ni4pg%243gd%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C916ppt84msvo1amskv7h1l2kj40i85499b%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Thomas&nbsp;Jensen&nbsp;-&nbsp;pil.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cqo71qt4s5cioi3ekv1gl52u5gg8sd0hbjc%404ax%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(13-09-01&nbsp;-&nbsp;Jonas&nbsp;Häggqvist)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nj2k5%24h81%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(10-09-01&nbsp;-&nbsp;Stig&nbsp;Johansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cqoin7%2E1069%24NL%2E3179424781%40news%2Eeuroconnect%2Enet%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(11-09-01&nbsp;-&nbsp;Soren&nbsp;'Disky'&nbsp;Reinke)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nps6g%2449d%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(13-09-01&nbsp;-&nbsp;Johan)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9nuote%24hgt%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(15-09-01&nbsp;-&nbsp;Stig&nbsp;Johansen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C9o1631%2481b%241%40sunsite%2Edk%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(16-09-01&nbsp;-&nbsp;Stig&nbsp;Johansen)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C87elphxpzs%2Efsf%40onion%2Evalueclick%2Ecom%3E' title='Re: Connect til DB, hvad er hurtigst?'>Re: Connect til DB, hvad er hurtigst?</a>&nbsp;<small class='newslist'>(08-09-01&nbsp;-&nbsp;Ask&nbsp;Bjoern&nbsp;Hansen)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C9naahq%24sr1%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor.gif' height="125" width="125" alt='Edit your editor' /></a>
+<br /><br /></div>
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3c9naahq$sr1$1@sunsite.dk%3e' method='post'><p class='pollheader'>Hvor ofte besøger du udenlandske websites om Internetudvikling eller webdesign?</p><div><input type='hidden' name='tst' value='05-05-02 19:52:47' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Hver dag</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Ugentligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Månedligt</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Sjældnere</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp' title='Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling' class='navibox'>dk.edb.internet.webdesign.serverside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Connect til DB</span></div>
+
+</body>
+</html>
+

@@ -1,0 +1,59 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>TimeReceived Property (CDONTS Message Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_timereceived_property_cdonts_message_object_"></a>TimeReceived Property (CDONTS Message Object)  <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>TimeReceived</b> property sets or returns the date and time the message was received as a <b>vbDate</b> variant data type. Read-only. </p>
+<h4>Syntax </h4>
+<pre><i>objMessage</i>.<b>TimeReceived 
+ </b></pre>
+<h4>Data Type </h4>
+<p>
+Variant (<b>vbDate</b> format) </p>
+<h4>Remarks </h4>
+<p>
+If the time of reception is not available, the <b>TimeReceived</b> property returns the date and time the message was sent. </p>
+<p>
+The <b>TimeReceived</b> and <a href="amsm38m7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm38m7.htm"><b>TimeSent</b></a> properties set and return dates and times as the local time for the user's system. </p>
+<h4>Example </h4>
+<p>
+This code fragment displays the date and time a message was sent and received: </p>
+<pre>' from the sample function Message_TimeSentAndReceived 
+' verify that objMessage is valid, then ... 
+With objMessage 
+&nbsp;  strMsg = &quot;Message sent &quot; &amp; Format(.TimeSent, &quot;Short Date&quot;) 
+&nbsp;  strMsg = strMsg &amp; &quot;, &quot; &amp; Format(.TimeSent, &quot;Long Time&quot;) 
+&nbsp;  strMsg = strMsg &amp; &quot;; received &quot; 
+&nbsp;  strMsg = strMsg &amp; Format(.TimeReceived, &quot;Short Date&quot;) &amp; &quot;, &quot; 
+&nbsp;  strMsg = strMsg &amp; Format(.TimeReceived, &quot;Long Time&quot;) 
+&nbsp;  MsgBox strMsg 
+End With 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>ChooseContent</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_choosecontent"></a>ChooseContent</h2>
+<p>
+The <b>ChooseContent </b>method retrieves an HTML content string from the <a href="cont0mw5.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/cont0mw5.htm"><b>Content Schedule file</b></a> and displays it on the current page. The method retrieves a new content string each time the script is run, such as when a user opens or reloads a page.</p>
+<h3>Syntax</h3>
+<pre><b>ChooseContent(</b><i>content-schedule-path</i><b>) 
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>content-schedule-path</i></dt>
+<dd>
+Specifies the location of the Content Schedule file. <p>
+This parameter can be specified either as a relative or virtual path. For example, if the Content Schedule file, Content.txt, and the .asp file that called <b>ChooseContent</b> both resided in the directory /MyApp/Tips/, where MyApp is a virtual directory on the server, then either the full virtual path (/MyApp/Tips/Content.txt) or the relative path (Content.txt) could be specified for <i>content-schedule-path</i>.</p>
+<p>
+The <b>ContentRotator</b> object calls the <b>Server.MapPath</b> method to map the specified path to a physical directory. For more information, see the <a href="intr7838.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr7838.htm"><b>Server Object</b></a> reference pages.</p>
+</dd>
+</dl>
+<h3>Return Value</h3>
+<p>
+Returns an HTML content string from the Content Schedule file. </p>
+<h3>Applies To</h3>
+<p>
+<a href="cont09dg.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/cont09dg.htm"><b>Content Rotator Component</b></a> </p>
+<h3>Remarks</h3>
+<p>
+Because the <b>ContentRotator</b> object uses a random generator to select which of the weighted content strings is displayed, a string may be repeated. This is most likely to occur if there are few entries in the Content Schedule file, or if one entry is weighted much higher than the others.</p>
+<h3>Example</h3>
+<p>
+The following example gets a new tip from the content.txt file in the /Tips/ virtual directory.</p>
+<pre>&lt;% Set NextTip = Server.CreateObject(&quot;MSWC.ContentRotator&quot;) %&gt;
+&lt;%= NextTip.ChooseContent(&quot;/Tips/Content.txt&quot;) 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

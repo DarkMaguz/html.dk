@@ -1,0 +1,151 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<html>
+<head>
+<title>EPOF - European Privacy Officers' Forum</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+
+<style type="text/css">
+/* ------------------------------------------------------------- */          
+/* CSS til EPOF - version 1.1									 */          
+/* Lest edited 3 August 2003 by Jonas Astrup --- jonas@html.net	 */          
+/* ------------------------------------------------------------- */          
+          
+a, abbr, acronym, address, b, bdo, big, blockquote, body, button, caption, center, cite, dd, del, dfn, dir, div, dl, dt, em, fieldset, font, h1, h2, h3, h4, h5, h6, hr, i, img, input, ins, isindex, kbd, label, legend, li, link, map, menu, meta, ol, optgroup, option, p, pre, q, s, samp, select, small, strike, strong, style, sub, sup, table, td, textarea, th, tr, tt, u, ul, var          
+	{          
+	font-family: Verdana, Myriad Web, Syntax, helvetica, arial, sans-serif;          
+	}          
+          
+/* ------------------------------------------------------------- */          
+/* Body								 */          
+/* ------------------------------------------------------------- */          
+          
+body	          
+	{          
+	font-size: .8em;          
+	color : #000000;           
+	background : #FFFFFF url("/epof.bg.png") repeat-x 0px 0px;           
+	margin : 75px 5px 0px 170px;           
+	padding : 0px 0px 0px 0px;          
+	}          
+          
+/* ------------------------------------------------------------- */          
+/* Søgefelt (style gemt væk for version 4 browsere)		 */          
+/* ------------------------------------------------------------- */          
+          
+#lmbox          
+	{          
+	position:absolute;          
+	left: 10px;          
+	top:115px;          
+	}          
+          
+form          
+	{          
+	padding:0px;          
+	margin: 0px;          
+	}        
+a         
+	{          
+	color:#44456A;          
+	}
+
+@media screen{
+/* ------------------------------------------------------------- */          
+/* CSS til EPOF - version 1.1									 */          
+/* Lest edited 3 August 2003 by Jonas Astrup --- jonas@html.net	 */          
+/* ------------------------------------------------------------- */          
+          
+a, abbr, acronym, address, b, bdo, big, blockquote, body, button, caption, center, cite, dd, del, dfn, dir, div, dl, dt, em, fieldset, font, h1, h2, h3, h4, h5, h6, hr, i, img, input, ins, isindex, kbd, label, legend, li, link, map, menu, meta, ol, optgroup, option, p, pre, q, s, samp, select, small, strike, strong, style, sub, sup, table, td, textarea, th, tr, tt, u, ul, var          
+	{          
+	font-family: Verdana, Myriad Web, Syntax, helvetica, arial, sans-serif;          
+	}          
+          
+/* ------------------------------------------------------------- */          
+/* Body								 */          
+/* ------------------------------------------------------------- */          
+          
+body	          
+	{          
+	font-size: .8em;          
+	color : #000000;           
+	background : #FFFFFF url("/epof.bg.png") repeat-x 0px 0px;           
+	margin : 75px 5px 0px 170px;           
+	padding : 0px 0px 0px 0px;          
+	}          
+          
+/* ------------------------------------------------------------- */          
+/* Søgefelt (style gemt væk for version 4 browsere)		 */          
+/* ------------------------------------------------------------- */          
+          
+#lmbox          
+	{          
+	position:absolute;          
+	left: 10px;          
+	top:115px;          
+	}          
+          
+form          
+	{          
+	padding:0px;          
+	margin: 0px;          
+	}        
+a         
+	{          
+	color:#44456A;          
+	}
+}
+
+
+</style>
+
+
+</head>
+
+<body>
+<p>&nbsp;</p>
+
+<TABLE cellSpacing=1 cellPadding=1 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top><H1 align=center>EPOF</H1> 
+<H1 align=center>(European Privacy Officers' Forum)</H1> 
+<P>The European Privacy Officers' Forum (EPOF) is composed of European-based data protection compliance officers and corporate legal counsel in charge of data protection from approximately thirty companies. EPOF meets three times a year to exchange views and discuss issues of current interest.<BR><BR>This website is a private resource for EPOF members. For further information about EPOF, please contact <A href="mailto:ckuner@hunton.com">Christopher Kuner</A>, Hunton &amp; Williams, Brussels, or <A href="mailto:rosa.barcelo@dla.com">Rosa Barcelo</A>, DLA, Brussels.</A></P></TD>
+<TD valign=top align=right width=332><IMG alt=Europe src="http://www.output.dk/log/image00231.gif" align=middle border=0></TD></TR></TBODY></TABLE></P>
+
+
+
+
+
+
+
+
+<div id="lmbox" style="padding-left:8px;">
+
+
+
+<img src="/epof.dotted.png"><br /><br />
+
+<form action="/epof.login.asp" method="post">
+<img src="/epof.login.png"><br />
+<input type="text" name="login" size="10" style="border: 1px solid #8B6829;width:110px"><br />
+<img src="/epof.password.png"><br />
+<input type="text" name="password" size="10" style="border: 1px solid #8B6829;width:110px"><br />
+<input type="image" src="/epof.submit.png">
+</form>
+
+<br /><img src="/epof.dotted.png"><br /><br />
+
+<div><a href='/doc.asp?id=24&lang=en'><img src='/log/image00235.gif' border=0 alt='Public documents'></a></div>
+
+<br /><img src="/epof.dotted.png"><br />
+
+
+
+</div>
+
+
+</body>
+</html>

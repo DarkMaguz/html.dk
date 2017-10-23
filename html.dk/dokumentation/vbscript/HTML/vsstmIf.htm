@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>If...Then...Else Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmif"></A>If...Then...Else Statement</H1>
+
+<P>Conditionally executes a group of statements, depending on the value of an expression.</P>
+
+<P><CODE><B>If</B> condition <B>Then</B> statements [<B>Else</B> elsestatements ] </CODE></P>
+
+<P>Or, you can use the block form syntax: </P>
+
+<P><CODE><B>If</B> <I>condition </I><B>Then</B><BR>
+&nbsp;&nbsp;&nbsp;[<I>statements</I>]<BR>
+[<B>ElseIf</B> <I>condition-n</I> <B>Then</B><BR>
+&nbsp;&nbsp;&nbsp;[<I>elseifstatements</I>]] <B>. . .</B><BR>
+[<B>Else</B><BR>
+&nbsp;&nbsp;&nbsp;[<I>elsestatements</I>]]<BR>
+<B>End If</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>condition</I></P>
+
+<P class=indent>One or more of the following two types of expressions:</P>
+
+<P class=indent>A <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric</A> or <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> that evaluates to <B>True</B> or <B>False</B>. If <I>condition</I> is <A HREF="vtglossary.htm#defnullvbs">Null</A>, <I>condition</I> is treated as <B>False</B>.</P>
+
+<P class=indent>An expression of the form <B>TypeOf</B> <I>objectname</I> <B>Is</B> <I>objecttype</I>. The <I>objectname</I> is any object reference and <I>objecttype</I> is any valid object type. The expression is <B>True</B> if <I>objectname</I> is of the object type specified by <I>objecttype</I>; otherwise it is <B>False</B>.</P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>One or more statements separated by colons; executed if <I>condition</I> is <B>True</B>.</P>
+
+<P class=dt><I>condition-n</I></P>
+
+<P class=indent>Same as <I>condition</I>.</P>
+
+<P class=dt><I>elseifstatements</I></P>
+
+<P class=indent>One or more statements executed if the associated <I>condition-n</I> is <B>True</B>.</P>
+
+<P class=dt><I>elsestatements</I></P>
+
+<P class=indent>One or more statements executed if no previous <I>condition</I> or <I>condition-n</I> expression is <B>True</B>.</P>
+
+<H4>Remarks</H4>
+
+<P>You can use the single-line form (first syntax) for short, simple tests. However, the block form (second syntax) provides more structure and flexibility than the single-line form and is usually easier to read, maintain, and debug.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>With the single-line syntax, it is possible to have multiple statements executed as the result of an <B>If...Then</B> decision, but they must all be on the same line and separated by colons, as in the following statement: </P>
+
+<PRE><CODE><span class=cfe><B>If</B></span> A &gt; 10 <span class=cfe><B>Then </B></span>A = A + 1 : B = B + A : C = C + B</CODE></PRE>
+
+<P>When executing a block <B>If</B> (second syntax), <I>condition </I>is tested. If <I>condition</I> is <B>True</B>, the statements following <B>Then</B> are executed. If <I>condition</I> is <B>False</B>, each <B>ElseIf</B> (if any) is evaluated in turn. When a <B>True</B> condition is found, the statements following the associated <B>Then</B> are executed. If none of the <B>ElseIf</B> statements are <B>True</B> (or there are no <B>ElseIf</B> clauses), the statements following <B>Else</B> are executed. After executing the statements following <B>Then</B> or <B>Else</B>, execution continues with the statement following <B>End If</B>.</P>
+
+<P>The <B>Else</B> and <B>ElseIf</B> clauses are both optional. You can have as many <B>ElseIf</B> statements as you want in a block <B>If</B>, but none can appear after the <B>Else</B> clause. Block <B>If</B> statements can be nested; that is, contained within one another.</P>
+
+<P>What follows the <B>Then</B> keyword is examined to determine whether or not a statement is a block <B>If</B>. If anything other than a comment appears after <B>Then</B> on the same line, the statement is treated as a single-line <B>If</B> statement.</P>
+
+<P>A block <B>If</B> statement must be the first statement on a line. The block <B>If</B> must end with an <B>End If</B> statement.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

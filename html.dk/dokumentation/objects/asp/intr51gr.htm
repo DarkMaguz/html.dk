@@ -1,0 +1,55 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Unlock</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_unlock"></a>Unlock</h2>
+<p>
+The <b>Unlock </b>method enables other clients to modify the variables stored in the <b>Application </b>object after it has been locked using the <a href="intr84h7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr84h7.htm"><b>Lock</b></a> method. If you do not call this method explicitly, the Web server unlocks the <a href="intr8zw4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8zw4.htm"><b>Application</b></a> object when the .asp file ends or times out.</p>
+<h4>Syntax</h4>
+<pre><b>Application.Unlock
+ </b></pre>
+<h4>Example</h4>
+<pre>&lt;% 
+Application.Lock
+Application(&quot;NumVisits&quot;) = Application(&quot;NumVisits&quot;) + 1
+Application.Unlock
+%&gt; 
+ 
+This application page has been visited 
+&lt;%= Application(&quot;NumVisits&quot;) %&gt;  times!
+ </pre>
+<p>
+In the preceding example the <b>Unlock </b>method releases the locked object so that the next client can increment <code>NumVisits</code>.</p>
+<h4>Applies To</h4>
+<p>
+<a href="intr8zw4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8zw4.htm"><b>Application Object</b></a> </p>
+<h4>See Also</h4>
+<p>
+<a href="intr84h7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr84h7.htm"><b>Lock</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Match Object</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsobjmatch"></A>Match Object</H1>
+
+<P>Provides access to the read-only properties of a regular expression match. </P>
+
+<H4>Remarks</H4>
+
+<P>A <B>Match</B> object can be only created using the <B>Execute</B> method of the <B>RegExp</B> object, which actually returns a <A HREF="vtglossary.htm#defcollectionvbs">collection</A> of <B>Match</B> objects. All <B>Match</B> object properties are read-only.</P>
+
+<P>When a regular expression is executed, zero or more <B>Match</B> objects can result. Each <B>Match</B> object provides access to the string found by the regular expression, the length of the string, and an index to where the match was found.</P>
+
+<P>The following code illustrates the use of the <B>Match</B> object: </P>
+
+<PRE><CODE>Function RegExpTest(patrn, strng)
+&nbsp;&nbsp;&nbsp;Dim regEx, Match, Matches&nbsp;&nbsp;&nbsp;' Create variable.
+&nbsp;&nbsp;&nbsp;Set regEx = New RegExp&nbsp;&nbsp;&nbsp;' Create regular expression.
+&nbsp;&nbsp;&nbsp;regEx.Pattern = patrn&nbsp;&nbsp;&nbsp;' Set pattern.
+&nbsp;&nbsp;&nbsp;regEx.IgnoreCase = True&nbsp;&nbsp;&nbsp;' Set case insensitivity.
+&nbsp;&nbsp;&nbsp;regEx.Global = True&nbsp;&nbsp;&nbsp;' Set global applicability.
+&nbsp;&nbsp;&nbsp;Set Matches = regEx.Execute(strng)&nbsp;&nbsp;&nbsp;' Execute search.
+&nbsp;&nbsp;&nbsp;For Each Match in Matches&nbsp;&nbsp;&nbsp;' Iterate Matches collection.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RetStr = RetStr &amp; "Match " &amp; I &amp; " found at position "
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RetStr = RetStr &amp; <span class=cfe><B>Match</B></span>.FirstIndex &amp; ". Match Value is "'
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RetStr = RetStr &amp; <span class=cfe><B>Match</B></span>.Value &amp; "'." &amp; vbCRLF
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;RegExpTest = RetStr
+End Function
+MsgBox(RegExpTest("is.", "IS1 is2 IS3 is4"))</CODE></PRE>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsprofirstindex.htm">FirstIndex Property</A> | <A HREF="vsprolength.htm">Length Property</A> | <A HREF="vsprovalue.htm">Value Property</A></P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vscolmatches.htm">Matches Collection</A> | <A HREF="vsobjregexp.htm">RegExp Object</A> | <A HREF="vscolsubmatches.htm">SubMatches Colleciton</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

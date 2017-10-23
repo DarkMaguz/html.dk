@@ -1,0 +1,87 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>WriteToFile Method (CDONTS Attachment Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_writetofile_method_cdonts_attachment_object_"></a>WriteToFile Method (CDONTS Attachment Object)  <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>WriteToFile</b> method saves the attachment to a file in the file system. </p>
+<h4>Syntax </h4>
+<pre><i>objAttach</i>.<b>WriteToFile(</b><i>fileName</i><b>) 
+ </b></pre>
+<dl>
+<dt>
+<i>objAttach </i></dt>
+<dd>
+Required. The Attachment object. <br>
+</dd>
+<dt>
+<i>fileName </i></dt>
+<dd>
+Required. String. The full path and file name for the saved attachment, for example C:\DOCUMENT\BUDGET.XLS. </dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+The <b>WriteToFile</b> method overwrites the file without warning if a file of that name already exists. Your application should check for the existence of the file before calling <b>WriteToFile</b>. </p>
+<p>
+The <b>WriteToFile</b> method operates differently, depending on the value of the Attachment object's <a href="amsm73a7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm73a7.htm"><b>Type</b></a> property. The following table describes its operation: </p>
+<table>
+<tr valign="top">
+<td>
+<b>Attachment Type property </b></td>
+<td>
+<b>WriteToFile operation </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoFileData </b></td>
+<td>
+Copies the contents of the attachment to the specified file. </td>
+</tr>
+<tr valign="top">
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top">
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoEmbeddedMessage </b></td>
+<td>
+(Not supported) </td>
+</tr>
+</table><br>
+<p>
+<b>Note</b>  The current version of the CDO for NTS Library does not support <b>WriteToFile</b> for <b>CdoEmbeddedMessage</b> attachments. These calls generate the run-time error <b>CdoE_NO_SUPPORT</b>. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

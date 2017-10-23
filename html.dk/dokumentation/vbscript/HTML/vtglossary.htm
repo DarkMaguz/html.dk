@@ -1,0 +1,411 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>VBScript Glossary</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vtglossary"></A>VBScript Glossary</H1>
+
+
+
+<P class="label"><B><A NAME="defactivexctrlvbs"></A>ActiveX control</B></P>
+
+<P>An object that you place on a form to enable or enhance a user's interaction with an application. ActiveX controls have events and can be incorporated into other controls. The controls have an .ocx file name extension.</P>
+
+
+
+<P class="label"><B><A NAME="defactivexobjvbs"></A>ActiveX object</B></P>
+
+<P>An object that is exposed to other applications or programming tools through Automation interfaces.</P>
+
+
+
+<P class="label"><B><A NAME="defargumentvbs"></A>argument</B></P>
+
+<P>A constant, variable, or expression passed to a procedure.</P>
+
+
+
+<P class="label"><B><A NAME="defarrayvbs"></A>array</B></P>
+
+<P>A set of sequentially indexed elements having the same type of data. Each element of an array has a unique identifying index number. Changes made to one element of an array do not affect the other elements.</P>
+
+
+
+<P class="label"><B><A NAME="defasciivbs"></A>ASCII Character Set</B></P>
+
+<P>American Standard Code for Information Interchange (ASCII) 7-bit character set widely used to represent letters and symbols found on a standard U.S. keyboard. The ASCII character set is the same as the first 128 characters (0–127) in the ANSI character set.</P>
+
+
+
+<P class="label"><B><A NAME="defautomationvbs"></A>Automation object</B></P>
+
+<P>An object that is exposed to other applications or programming tools through Automation interfaces.</P>
+
+
+
+<P class="label"><B><A NAME="defbitwisevbs"></A>bitwise comparison</B></P>
+
+<P>A bit-by-bit comparison of identically positioned bits in two numeric expressions.</P>
+
+
+
+<P class="label"><B><A NAME="defbooleanvbs"></A>Boolean expression</B></P>
+
+<P>An expression that evaluates to either True or False.</P>
+
+
+
+<P class="label"><B><A NAME="defbyreferencevbs"></A>by reference</B></P>
+
+<P>A way of passing the address, rather than the value, of an argument to a procedure. This allows the procedure to access the actual variable. As a result, the variable's actual value can be changed by the procedure to which it is passed.</P>
+
+
+
+<P class="label"><B><A NAME="defbyvaluevbs"></A>by value</B></P>
+
+<P>A way of passing the value, rather than the address, of an argument to a procedure. This allows the procedure to access a copy of the variable. As a result, the variable's actual value can't be changed by the procedure to which it is passed.</P>
+
+
+
+<P class="label"><B><A NAME="defcharactercodevbs"></A>character code</B></P>
+
+<P>A number that represents a particular character in a set, such as the ASCII character set.</P>
+
+
+
+<P class="label"><B><A NAME="defclassvbs"></A>class</B></P>
+
+<P>The formal definition of an object. The class acts as the template from which an instance of an object is created at run time. The class defines the properties of the object and the methods used to control the object's behavior.</P>
+
+
+
+<P class="label"><B><A NAME="defclassmodulevbs"></A>class module</B></P>
+
+<P>A module containing the definition of a class (its property and method definitions).</P>
+
+
+
+<P class="label"><B><A NAME="defcollectionvbs"></A>collection</B></P>
+
+<P>An object that contains a set of related objects. An object's position in the collection can change whenever a change occurs in the collection; therefore, the position of any specific object in the collection may vary.</P>
+
+
+
+<P class="label"><B><A NAME="defcommentvbs"></A>comment</B></P>
+
+<P>Text added to code by a programmer that explains how the code works. In Visual Basic Scripting Edition, a comment line generally starts with an apostrophe ('), or you can use the keyword Rem followed by a space.</P>
+
+
+
+<P class="label"><B><A NAME="defcomparisonoperatorvbs"></A>comparison operator</B></P>
+
+<P>A character or symbol indicating a relationship between two or more values or expressions. These operators include less than (&lt;), less than or equal to (&lt;=), greater than (&gt;), greater than or equal to (&gt;=), not equal (&lt;&gt;), and equal (=).</P>
+
+<P>It is also a comparison operator, but it is used exclusively for determining if one object reference is the same as another.</P>
+
+
+
+<P class="label"><B><A NAME="defconstantvbs"></A>constant</B></P>
+
+<P>A named item that retains a constant value throughout the execution of a program. Constants can be used anywhere in your code in place of actual values. A constant can be a string or numeric literal, another constant, or any combination that includes arithmetic or logical operators except Is and exponentiation. For example:</P>
+
+<PRE><span class=ce><CODE>Const A = "MyString"</CODE></span></PRE>
+
+
+
+<P class="label"><B><A NAME="defdatarangesvbs"></A>data ranges</B></P>
+
+<P>Each Variant subtype has a specific range of allowed values: </P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=29%>Subtype</TH>
+<TH width=71%>Range</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Byte</TD>
+<TD width=71%>0 to 255.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Boolean</TD>
+<TD width=71%>True or False.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Integer</TD>
+<TD width=71%>-32,768 to 32,767.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Long</TD>
+<TD width=71%>-2,147,483,648 to 2,147,483,647.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Single</TD>
+<TD width=71%>-3.402823E38 to -1.401298E-45 for negative values; 1.401298E-45 to 3.402823E38 for positive values.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Double</TD>
+<TD width=71%>-1.79769313486232E308 to -4.94065645841247E-324 for negative values; 4.94065645841247E-324 to 1.79769313486232E308 for positive values.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Currency</TD>
+<TD width=71%>-922,337,203,685,477.5808 to 922,337,203,685,477.5807.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Date</TD>
+<TD width=71%>January 1, 100 to December 31, 9999, inclusive.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>Object</TD>
+<TD width=71%>Any Object reference.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=29%>String</TD>
+<TD width=71%>Variable-length strings may range in length from 0 to approximately 2 billion characters.</TD>
+</TR>
+</TABLE><BR>
+
+
+
+<P class="label"><B><A NAME="defdateexpressionvbs"></A>date expression</B></P>
+
+<P>Any expression that can be interpreted as a date. This includes any combination of date literals, numbers that look like dates, strings that look like dates, and dates returned from functions. A date expression is limited to numbers or strings, in any combination, that can represent a date from January 1, 100 through December 31, 9999.</P>
+
+<P>Dates are stored as part of a real number. Values to the left of the decimal represent the date; values to the right of the decimal represent the time. Negative numbers represent dates prior to December 30, 1899.</P>
+
+
+
+<P class="label"><B><A NAME="defdateliteralvbs"></A>date literal</B></P>
+
+<P>Any sequence of characters with a valid format that is surrounded by number signs (#). Valid formats include the date format specified by the locale settings for your code or the universal date format. For example, #12/31/99# is the date literal that represents December 31, 1999, where English-U.S. is the locale setting for your application.</P>
+
+<P>VBScript always interprets a date literal as US-ENGLISH if it is possible to do so. If a date literal cannot be interpreted as a date, an error occurs.</P>
+
+
+
+<P class="label"><B><A NAME="defdateseparatorsvbs"></A>date separators</B></P>
+
+<P>Characters used to separate the day, month, and year when date values are formatted.</P>
+
+
+
+<P class="label"><B><A NAME="defemptyvbs"></A>Empty</B></P>
+
+<P>A value that indicates that no beginning value has been assigned to a variable. Empty variables are 0 in a numeric context, or zero-length in a string context.</P>
+
+
+
+<P class="label"><B><A NAME="deferrornumbervbs"></A>error number</B></P>
+
+<P>A whole number in the range 0 to 65,535, inclusive, that corresponds to the Number property of the Err object. When combined with the Name property of the Err object, this number represents a particular error message.</P>
+
+
+
+<P class="label"><B><A NAME="defexpressionvbs"></A>expression</B></P>
+
+<P>A combination of keywords, operators, variables, and constants that yield a string, number, or object. An expression can perform a calculation, manipulate characters, or test data.</P>
+
+
+
+<P class="label"><B><A NAME="defintrinsicconstantvbs"></A>intrinsic constant</B></P>
+
+<P>A constant provided by an application. Because you can't disable intrinsic constants, you can't create a user-defined constant with the same name.</P>
+
+
+
+<P class="label"><B><A NAME="defkeywordvbs"></A>keyword</B></P>
+
+<P>A word or symbol recognized as part of the VBScript language; for example, a statement, function name, or operator.</P>
+
+
+
+<P class="label"><B><A NAME="deflocalevbs"></A>locale</B></P>
+
+<P>The set of information that corresponds to a given language and country. A locale affects the language of predefined programming terms and locale-specific settings. There are two contexts where locale information is important:</P>
+
+<P>The code locale affects the language of terms such as keywords and defines locale-specific settings such as the decimal and list separators, date formats, and character sorting order.</P>
+
+<P>The system locale affects the way locale-aware functionality behaves, for example, when you display numbers or convert strings to dates. You set the system locale using the Control Panel utilities provided by the operating system.</P>
+
+
+
+<P class="label"><B><A NAME="defnothingvbs"></A>Nothing</B></P>
+
+<P>The special value that indicates that an object variable is no longer associated with any actual object.</P>
+
+
+
+<P class="label"><B><A NAME="defnullvbs"></A>Null</B></P>
+
+<P>A value indicating that a variable contains no valid data. Null is the result of:</P>
+
+<P>An explicit assignment of Null to a variable.</P>
+
+<P>Any operation between expressions that contain Null.</P>
+
+
+
+<P class="label"><B><A NAME="defnumericexpressionvbs"></A>numeric expression</B></P>
+
+<P>Any expression that can be evaluated as a number. Elements of the expression can include any combination of keywords, variables, constants, and operators that result in a number.</P>
+
+
+
+<P class="label"><B><A NAME="defobjecttypevbs"></A>object type</B></P>
+
+<P>A type of object exposed by an application, for example, Application, File, Range, and Sheet. Refer to the application's documentation (Microsoft Excel, Microsoft Project, Microsoft Word, and so on) for a complete listing of available objects.</P>
+
+
+
+<P class="label"><B><A NAME="defpivbs"></A>pi</B></P>
+
+<P>Pi is a mathematical constant equal to approximately 3.1415926535897932.</P>
+
+
+
+<P class="label"><B><A NAME="defprivatevbs"></A>Private</B></P>
+
+<P>Variables that are visible only to the script in which they are declared.</P>
+
+
+
+<P class="label"><B><A NAME="defprocedurevbs"></A>procedure</B></P>
+
+<P>A named sequence of statements executed as a unit. For example, Function and Sub are types of procedures.</P>
+
+
+
+<P class="label"><B><A NAME="defprocedurelevelvbs"></A>procedure level</B></P>
+
+<P>Describes statements located within a Function or Sub procedure. Declarations are usually listed first, followed by assignments and other executable code. For example:</P>
+
+<P><span class=ce><CODE>Sub MySub() ' This statement declares a sub procedure block.</CODE></span></P>
+
+<P><span class=ce><CODE>&nbsp;&nbsp;&nbsp;Dim A ' This statement starts the procedure block.</CODE></span></P>
+
+<P><span class=ce><CODE>&nbsp;&nbsp;&nbsp;A = "My variable" ' Procedure-level code.</CODE></span></P>
+
+<P><span class=ce><CODE>&nbsp;&nbsp;&nbsp;Debug.Print A ' Procedure-level code.</CODE></span></P>
+
+<P><span class=ce><CODE>End Sub ' This statement ends a sub procedure block.</CODE></span></P>
+
+<P>Note that script-level code resides outside any procedure blocks.</P>
+
+
+
+<P class="label"><B><A NAME="defpropertyvbs"></A>property</B></P>
+
+<P>A named attribute of an object. Properties define object characteristics such as size, color, and screen location, or the state of an object, such as enabled or disabled.</P>
+
+
+
+<P class="label"><B><A NAME="defpublicvbs"></A>Public</B></P>
+
+<P>Variables declared using the Public Statement are visible to all procedures in all modules in all applications.</P>
+
+
+
+<P class="label"><B><A NAME="defruntimevbs"></A>run time</B></P>
+
+<P>The time when code is running. During run time, you can't edit the code.</P>
+
+
+
+<P class="label"><B><A NAME="defruntimeerrorvbs"></A>run-time error</B></P>
+
+<P>An error that occurs when code is running. A run-time error results when a statement attempts an invalid operation.</P>
+
+
+
+<P class="label"><B><A NAME="defscopevbs"></A>scope</B></P>
+
+<P>Defines the visibility of a variable, procedure, or object. For example, a variable declared as Public is visible to all procedures in all modules. Variables declared in procedures are visible only within the procedure and lose their value between calls.</P>
+
+
+
+<P class="label"><B><A NAME="defscodevbs"></A>SCODE</B></P>
+
+<P>A long integer value that is used to pass detailed information to the caller of an interface member or API function. The status codes for OLE interfaces and APIs are defined in FACILITY_ITF.</P>
+
+
+
+<P class="label"><B><A NAME="defscriptlevelvbs"></A>script level</B></P>
+
+<P>Any code outside a procedure is referred to as script-level code.</P>
+
+
+
+<P class="label"><B><A NAME="defseedvbs"></A>seed</B></P>
+
+<P>An initial value used to generate pseudorandom numbers. For example, the Randomize statement creates a seed number used by the Rnd function to create unique pseudorandom number sequences.</P>
+
+
+
+<P class="label"><B><A NAME="defstringcomparisonvbs"></A>string comparison</B></P>
+
+<P>A comparison of two sequences of characters. Unless specified in the function making the comparison, all string comparisons are binary. In English, binary comparisons are case-sensitive; text comparisons are not.</P>
+
+
+
+<P class="label"><B><A NAME="defstringexpressionvbs"></A>string expression</B></P>
+
+<P>Any expression that evaluates to a sequence of contiguous characters. Elements of a string expression can include a function that returns a string, a string literal, a string constant, or a string variable.</P>
+
+
+
+<P class="label"><B><A NAME="deftypelibraryvbs"></A>type library</B></P>
+
+<P>A file or component within another file that contains standard descriptions of exposed objects, properties, and methods.</P>
+
+
+
+<P class="label"><B><A NAME="defvariablevbs"></A>variable</B></P>
+
+<P>A named storage location that can contain data that can be modified during program execution. Each variable has a name that uniquely identifies it within its level of scope.</P>
+
+<P>Variable names:
+
+<UL type=disc>
+	<LI>Must begin with an alphabetic character.</li>
+
+	<LI>Can't contain an embedded period or type-declaration character.</li>
+
+	<LI>Must be unique within the same scope.</li>
+
+	<LI>Must be no longer than 255 characters.</li>
+</UL>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

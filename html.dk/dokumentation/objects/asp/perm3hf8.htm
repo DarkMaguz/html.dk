@@ -1,0 +1,105 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Permission Checker Component</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_permission_checker_component"></a>Permission Checker Component</h1>
+<p>
+The Permission Checker component creates a <b>PermissionChecker</b> object that uses the password authentication protocols provided in Microsoft&reg; Internet Information Server (IIS) to determine whether a Web user has been granted permissions to read a file. </p>
+<p>
+You can use the Permission Checker component to customize an ASP-based page for different types of users. For example, if a Web page contains hyperlinks, you can use the Permission Checker component to test whether the user has permissions for the target Web pages. If the user does not have the proper permissions, you can then omit or alter the hyperlinks to those pages the user may not access.</p>
+<h3>Syntax</h3>
+<pre><b>Set</b> <i>oVar</i> <b>= Server.CreateObject(&quot;MSWC.PermissionChecker&quot;)
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>oVar</i></dt>
+<dd>
+Specifies the name of the <b>PermissionChecker</b> object created by the call to <b>Server.CreateObject</b>. </dd>
+</dl>
+<h3>Registry Entries</h3>
+<p>
+None.</p>
+<h3>Methods</h3>
+<table>
+<tr valign=top>
+<td>
+<a href="perm87ub.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/perm87ub.htm"><b>HasAccess</b></a></td>
+<td>
+Determines whether the user has permissions to access a specified file.</td>
+</tr>
+</table><br>
+<h3>Examples</h3>
+<p>
+The following example uses the <b>HasAccess</b> method to test whether the current user has access to a specified file. Note that you can specify either a physical or virtual path.</p>
+<pre>&lt;% Set pmck = Server.CreateObject(&quot;MSWC.PermissionChecker&quot;) %&gt;
+ 
+Physical Path Access = &lt;%= pmck.HasAccess(&quot;c:\pages\abc\default.htm&quot;) %&gt;
+Virtual Path  Access = &lt;%= pmck.HasAccess(&quot;/abc/default.htm&quot;) %&gt;
+ </pre>
+<h3>Remarks</h3>
+<p>
+IIS supports the following three types of password authentication in any combination:
+<ul>
+<li>
+Anonymous<br><br></li>
+<li>
+Basic<br><br></li>
+<li>
+Windows NT&reg; Challenge/Response (NTLM)</li>
+</ul>
+<p>
+When anonymous password authentication is enabled, all users are initially logged on under the IIS anonymous user account. Because anonymous users all share the same account, the Permissions Checker component cannot authenticate individual users when anonymous access is allowed.</p>
+<p>
+For applications where all users have individual accounts, such as intranet-only Web sites, it is recommended that you disable anonymous authentication so that the Permissions Checker component can authenticate individual users.</p>
+<p>
+For applications where some pages must be available to anonymous users and other pages need to be secure, such as mixed Internet and intranet Web sites, you should enable anonymous authentication and at least one other password authentication method, either NTLM or Basic. Then if you deny anonymous access to a specific page, the server will attempt to authenticate the user by using either NTLM or Basic password authentication.</p>
+<p>
+You can use either of the following two methods to deny anonymous access to a specific page.
+<ul>
+<li>
+Set the Access Control List for the ASP-based file to exclude the anonymous user account.<br><br></li>
+<li>
+In the ASP script, check for the anonymous user account (if the LOGON_USER server variable is empty) and set <b>Response.Status</b> to the <code>401 Unauthorized </code>error message. This will cause IIS to attempt to identify the user by using NTLM or Basic authentication. <p>
+This is illustrated in the following example.</p>
+<pre>&lt;% 
+If Request(&quot;LOGON_USER&quot;) = &quot;&quot; Then
+    Response.Status = &quot;401 Unauthorized&quot;
+End if
+%&gt;
+ </pre>
+</li>
+</ul>
+<p>
+If all the files in your application must be available to anonymous users, the Permission Checker component will not able to distinguish individual user accounts. You can still use it, however, to ensure that the specified Web page exists and test whether the anonymous user account has access permissions for that page.</p>
+<p>
+<b>Note</b>  NTLM password authentication is currently supported only by Microsoft Internet Explorer, and may not work over a proxy server. Thus, if users connect to your site with browsers other than Internet Explorer or through a proxy server and your application requires a non-anonymous user context, you must also enable Basic password authentication.</p>
+<p>
+<b>Note</b>  This component is not installed with IIS. You can install it from the Microsoft Web site at: <a href="javascript:if(confirm('http://www.microsoft.com/iis/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.microsoft.com/iis/'" tppabs="http://www.microsoft.com/iis/"><b>http://www.microsoft.com/iis/</b></a>, or from the CD included with the IIS Resource Kit.</p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

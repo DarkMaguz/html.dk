@@ -1,0 +1,144 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: IIS PWS og Windows me</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Claus den 21. februar 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: IIS PWS og Windows me" />
+<meta name="language" content="dan" />
+<meta name="Date" content="21-02-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=200152574232513?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=200152574232513?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=200152574232513?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C97113k%241u03%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Claus&nbsp;&nbsp;<a href='mailto:ClausOlsen@NOSPAMhotmail.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='ClausOlsen@NOSPAMhotmail.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> CyberCity Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 21. februar 2001 kl. 19:24</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: IIS PWS og Windows me</strong></li></ul>
+
+<p><span class='normal'>&quot;pl&quot; &lt;<a href='http://pl@kursus.viborhs.dk'>pl@kursus.viborhs.dk</a>> wrote </span><br /><span class='normal'> </span><br /><span class='citat'>> Windows me indeholder s&#229; vidt jeg kan se ikke PWS, kan man evt k&#248;re med IIS </span><br /><span class='citat'>> og hvilken version er s&#229; fornuftig. Jeg har netop m&#229;ttes formattere om fordi </span><br /><span class='citat'>> jeg fors&#248;gte at afinstallere PWS under Win98, s&#229; jeg ville gerne kunne </span><br /><span class='citat'>> opgradere og anvender IIS p&#229; mit arbejde. mvh Pia Lauritzen </span><br /><span class='citat'>> </span><br /><span class='normal'>IIS k&#248;rer p&#229; NT og 2000 og ikke andre. </span><br /><span class='normal'>Claus </span><br /><span class='normal'> </span><br /><span class='normal'>ps: Jeg har ikke pr&#248;vet PWS p&#229; winME, men l&#230;st det kan give problemer: L&#230;s evt. her: </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://support.microsoft.com/support/kb/articles/Q266/4/56.ASP'>http://support.microsoft.com/support/kb/articles/Q266/4/56.ASP</a> </span><br /><span class='normal'><a href='http://www.microsoft.com/ntserver/nts/downloads/recommended/nt4optpk/default.asp'>http://www.microsoft.com/ntserver/nts/downloads/recommended/nt4optpk/default.asp</a> </span><br /><span class='normal'> </span><br /><span class='normal'>For those who have been unable to get PWS to run on WinMe, here's the process </span><br /><span class='normal'>that worked for me: </span><br /><span class='normal'> </span><br /><span class='normal'>1) Download the newest version of PWS from </span><br /><span class='normal'>   <a href='http://download.microsoft.com/msdownload/ntoptionpack/en/x86/win.95/download.exe'>http://download.microsoft.com/msdownload/ntoptionpack/en/x86/win.95/download.exe</a>. </span><br /><span class='normal'>   Yes, this is the NT 4.0 Option Pack, but it includes the version of PWS for </span><br /><span class='normal'>   Win95 which can be used on WinMe with the following tweaks.  After </span><br /><span class='normal'>   downloading Download.exe, run it and select the option to download PWS for </span><br /><span class='normal'>   Win95. </span><br /><span class='normal'> </span><br /><span class='normal'>2) See <a href='http://support.microsoft.com/support/kb/articles/q246/0/81.asp'>http://support.microsoft.com/support/kb/articles/q246/0/81.asp</a>. </span><br /><span class='normal'>   Download the patch and implement per the instruction in this KB article. </span><br /><span class='normal'> </span><br /><span class='normal'>3) Important!  Do a Custom install of PWS, installing only the Transaction </span><br /><span class='normal'>   Server component.  To do this, uncheck all the options, then check </span><br /><span class='normal'>   Transaction Server - it will add checks to the other components needed for </span><br /><span class='normal'>   it, but not the Personal Web Server option. </span><br /><span class='normal'> </span><br /><span class='normal'>4) After Setup completes and a reboot, re-run Setup and add PWS.  Reboot after </span><br /><span class='normal'>   Setup completes. </span><br /><span class='normal'> </span><br /><span class='normal'>5) PWS should now work.  Easiest way to implement using it for local copies of </span><br /><span class='normal'>   your web pages is to copy the contents of the entire local folder structure </span><br /><span class='normal'>   of your web site to C:\Inetpub\wwwroot (or the folder you selected during </span><br /><span class='normal'>   PWS setup).  To clarify, if the local copy of your web site is in </span><br /><span class='normal'>   D:\MyWebSite, with the default start page and all sub-folders located </span><br /><span class='normal'>   there, you copy all the files and sub-folders, but not the D:\MyWebSite </span><br /><span class='normal'>   folder itself. </span><br /><span class='normal'> </span><br /><span class='normal'>6) If you are using ASP and your start page is default.asp, allow your file to </span><br /><span class='normal'>   overwrite the default.asp file already in C:\Inetpub\wwwroot.  If you are </span><br /><span class='normal'>   using index.htm or some other start page, you need to rename the PWS </span><br /><span class='normal'>   default.asp file so it is not the default page for the local site. </span><br /><span class='normal'> </span><br /><span class='normal'>7) In your web browser address bar, type... </span><br /><span class='normal'> </span><br /><span class='normal'>     localhost </span><br /><span class='normal'> </span><br /><span class='normal'>   ...to bring up your start page. </span><br /><span class='normal'> </span><br /><span class='normal'>Other installation issues I encountered: </span><br /><span class='normal'> </span><br /><span class='normal'>1) PWS Setup replaced regsvr32.exe with an old version.  Extract regsvr32.exe </span><br /><span class='normal'>   from the WinMe Setup files to C:\Windows\System to replace the old version </span><br /><span class='normal'>   that PWS installed there. </span><br /><span class='normal'> </span><br /><span class='normal'>2) My linked .js files would not work at first because they were in a folder </span><br /><span class='normal'>   called &quot;Scripts&quot;, but PWS comes pre-configured with a Virtual Directory by </span><br /><span class='normal'>   that same name.  So, references to that folder were actually going to the </span><br /><span class='normal'>   Virtual Folder, and the requested .js file did not exist there. </span><br /><span class='normal'>   Solution: Open the Advanced Options page of PWS manager and remove or rename </span><br /><span class='normal'>   the &quot;Scripts&quot; Virtual Directory. </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9710g4%24arg%241%40news%2Enet%2Euni%2Dc%2Edk%3E' title='IIS PWS og Windows me'>IIS PWS og Windows me</a>&nbsp;<small class='newslist'>(21-02-01&nbsp;-&nbsp;pl)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C97113k%241u03%241%40news%2Ecybercity%2Edk%3E' title='Re: IIS PWS og Windows me'>Re: IIS PWS og Windows me</a>&nbsp;<small class='newslist'>(21-02-01&nbsp;-&nbsp;Claus)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C97113k%241u03%241%40news%2Ecybercity%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik om persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: IIS PWS og Windows me</span></div>
+
+</body>
+</html>
+

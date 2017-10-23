@@ -1,0 +1,52 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Send Method (CDONTS Message Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_send_method_cdonts_message_object_"></a>Send Method (CDONTS Message Object)  <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Send</b> method sends the message to the recipients through the messaging system. </p>
+<h4>Syntax </h4>
+<pre><i>objMessage</i>.<b>Send( ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objMessage </i></dt>
+<dd>
+Required. The Message object. </dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+The <b>Send</b> method saves all changes to the message in the messaging system and moves the message to the current user's Outbox folder. Messaging systems retrieve messages from the Outbox and transport them to the recipients. After it is transported, a message is removed from the Outbox and deleted. </p>
+<p>
+You must compose your new messages in your Outbox. The Send method only deals with messages located in the Outbox and returns <b>CdoE_NO_ACCESS</b> for any attempt to create a message in the Inbox. </p>
+<p>
+The <b>Send</b> method invalidates the composed Message object but does not remove it from memory. The programmer should <b>Set</b> the invalidated object to <b>Nothing</b> to remove it from memory, or reassign it to another message. Attempted access to a sent message results in a return of <b>CdoE_INVALID_OBJECT</b>. </p>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

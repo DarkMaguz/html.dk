@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CreateObject Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctcreateobject"></A>CreateObject Function</H1>
+
+<P>Creates and returns a reference to an <A HREF="vtglossary.htm#defautomationvbs">Automation object</A>.</P>
+
+<P><CODE><B>CreateObject(</B>servername.typename [<B>,</B> location]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>servername</I></P>
+
+<P class=indent>Required. The name of the application providing the object.</P>
+
+<P class=dt><I>typename</I></P>
+
+<P class=indent>Required.The type or class of the object to create.</P>
+
+<P class=dt><I>location</I></P>
+
+<P class=indent>Optional. The name of the network server where the object is to be created.</P>
+
+<H4>Remarks</H4>
+
+<P>Automation servers provide at least one type of object. For example, a word-processing application may provide an application object, a document object, and a toolbar object.</P>
+
+<P>To create an Automation object, assign the object returned by <B>CreateObject</B> to an object variable: </P>
+
+<PRE><CODE>Dim ExcelSheet
+Set ExcelSheet = <span class=cfe><B>CreateObject(</B></span>"Excel<span class=cfe><B>.</B></span>Sheet"<span class=cfe><B>)</B></span></CODE></PRE>
+
+<P>This code starts the application that creates the object (in this case, a Microsoft Excel spreadsheet). Once an object is created, refer to it in code using the object variable you defined. As shown in the following example, you can access properties and methods of the new object using the object variable, <CODE>ExcelSheet</CODE>, and other Excel objects, including the Application object and the ActiveSheet.Cells collection: </P>
+
+<PRE><CODE>' Make Excel visible through the Application object.
+ExcelSheet.Application.Visible = True
+' Place some text in the first cell of the sheet.
+ExcelSheet.ActiveSheet.Cells(1,1).Value = "This is column A, row 1"
+' Save the sheet.
+ExcelSheet.SaveAs "C:\DOCS\TEST.XLS"
+' Close Excel with the Quit method on the Application object.
+ExcelSheet.Application.Quit
+' Release the object variable.
+Set ExcelSheet = Nothing</CODE></PRE>
+
+<P>Creating an object on a remote server can only be accomplished when Internet security is turned off. You can create an object on a remote networked computer by passing the name of the computer to the <I>servername</I> argument of <B>CreateObject</B>. That name is the same as the machine name portion of a sharename. For a network share named "\\myserver\public", the <I>servername</I> is "myserver". In addition, you can specify <I>servername</I> using DNS format or an IP address.</P>
+
+<P>The following code returns the version number of an instance of Excel running on a remote network computer named "myserver":</P>
+
+<PRE><CODE>Function GetVersion
+&nbsp;&nbsp;&nbsp;Dim XLApp
+&nbsp;&nbsp;&nbsp;Set XLApp = CreateObject("Excel.Application", "MyServer")
+&nbsp;&nbsp;&nbsp;GetVersion = XLApp.Version
+End Function</CODE></PRE>
+
+<P>An error occurs if the specified remote server does not exist or cannot be found.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctgetobject.htm">GetObject Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Err</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsobjerr"></A>Err</H1>
+
+<P>Contains information about <A HREF="vtglossary.htm#defruntimeerrorvbs">run-time errors</A>. Accepts the <B>Raise</B> and <B>Clear </B>methods for generating and clearing run-time errors.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>Err </B>object is an intrinsic object with global <A HREF="vtglossary.htm#defscopevbs">scope</A> — there is no need to create an instance of it in your code. The properties of the <B>Err</B> object are set by the generator of an error — Visual Basic, an Automation object, or the VBScript programmer.</P>
+
+<P>The default property of the <B>Err </B>object is <B>Number</B>. <B>Err.Number</B> contains an integer and can be used by an <A HREF="vtglossary.htm#defautomationvbs">Automation object</A> to return an <A HREF="vtglossary.htm#defscodevbs">SCODE</A>.</P>
+
+<P>When a run-time error occurs, the properties of the <B>Err</B> object are filled with information that uniquely identifies the error and information that can be used to handle it. To generate a run-time error in your code, use the <B>Raise </B>method.</P>
+
+<P>The <B>Err</B> object's properties are reset to zero or zero-length strings ("") after an <B>On Error Resume</B> <B>Next</B> statement. The <B>Clear</B> method can be used to explicitly reset <B>Err</B>.</P>
+
+<P>The following example illustrates use of the <B>Err</B> object: </P>
+
+<PRE><CODE>On Error Resume Next
+<span class=cfe><B>Err.Raise</B></span> 6&nbsp;&nbsp;&nbsp;' Raise an overflow error.
+MsgBox ("Error # " &amp; CStr(<span class=cfe><B>Err.Number</B></span>) &amp; " " &amp; <span class=cfe><B>Err.Description</B></span>)
+<span class=cfe><B>Err.Clear</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Clear the error.</CODE></PRE>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsprodescription.htm">Description Property</A> | <A HREF="vsprohelpcontext.htm">HelpContext Property</A> | <A HREF="vsprohelpfile.htm">HelpFile Property</A> | <A HREF="vspronumber.htm">Number Property</A> | <A HREF="vsprosource.htm">Source Property</A></P>
+
+<H4>Methods</H4>
+
+<P><A HREF="vsmthclear.htm">Clear Method</A> | <A HREF="vsmthraise.htm">Raise Method</A></P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmonerror.htm">On Error Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

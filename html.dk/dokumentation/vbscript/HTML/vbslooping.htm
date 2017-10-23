@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Looping Through Code</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vbslooping"></A>Looping Through Code</H1>
+
+<P>Looping allows you to run a group of statements repeatedly. Some loops repeat statements until a condition is <B>False</B>; others repeat statements until a condition is <B>True</B>. There are also loops that repeat statements a specific number of times.</P>
+
+<P>The following looping statements are available in VBScript: 
+
+<UL type=disc>
+	<LI><A HREF="vsstmdo.htm">Do...Loop</A>: Loops while or until a condition is <B>True</B>. </li>
+
+	<LI><A HREF="vsstmwhile.htm">While...Wend</A>: Loops while a condition is <B>True</B>. </li>
+
+	<LI><A HREF="vsstmfor.htm">For...Next</A>: Uses a counter to run statements a specified number of times. </li>
+
+	<LI><A HREF="vsstmforeach.htm">For Each...Next</A>: Repeats a group of statements for each item in a collection or each element of an array. </li>
+</UL>
+
+<H2>Using Do Loops</H2>
+
+<P>You can use <B>Do...Loop</B> statements to run a block of statements an indefinite number of times. The statements are repeated either while a condition is <B>True</B> or until a condition becomes <B>True</B>. </P>
+
+<H4>Repeating Statements While a Condition is True</H4>
+
+<P>Use the <B>While </B>keyword to check a condition in a <B>Do...Loop</B> statement. You can check the condition before you enter the loop (as shown in the following ChkFirstWhile example), or you can check it after the loop has run at least once (as shown in the ChkLastWhile example). In the ChkFirstWhile procedure, if <CODE>myNum</CODE> is set to 9 instead of 20, the statements inside the loop will never run. In the ChkLastWhile procedure, the statements inside the loop run only once because the condition is already <B>False</B>. </P>
+
+<PRE><CODE>Sub ChkFirstWhile()
+&nbsp;&nbsp;&nbsp;Dim counter, myNum
+&nbsp;&nbsp;&nbsp;counter = 0
+&nbsp;&nbsp;&nbsp;myNum = 20
+&nbsp;&nbsp;&nbsp;Do While myNum &gt; 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myNum = myNum - 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter = counter + 1
+&nbsp;&nbsp;&nbsp;Loop
+&nbsp;&nbsp;&nbsp;MsgBox "The loop made " &amp; counter &amp; " repetitions."
+End Sub
+
+Sub ChkLastWhile()
+&nbsp;&nbsp;&nbsp;Dim counter, myNum
+&nbsp;&nbsp;&nbsp;counter = 0
+&nbsp;&nbsp;&nbsp;myNum = 9
+&nbsp;&nbsp;&nbsp;Do
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myNum = myNum - 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter = counter + 1
+&nbsp;&nbsp;&nbsp;Loop While myNum &gt; 10
+&nbsp;&nbsp;&nbsp;MsgBox "The loop made " &amp; counter &amp; " repetitions."
+End Sub</CODE></PRE>
+
+<H4>Repeating a Statement Until a Condition Becomes True</H4>
+
+<P>There are two ways to use the <B>Until</B> keyword to check a condition in a <B>Do...Loop</B> statement. You can check the condition before you enter the loop (as shown in the following ChkFirstUntil example), or you can check it after the loop has run at least once (as shown in the ChkLastUntil example). As long as the condition is <B>False</B>, the looping occurs. </P>
+
+<PRE><CODE>Sub ChkFirstUntil()
+&nbsp;&nbsp;&nbsp;Dim counter, myNum
+&nbsp;&nbsp;&nbsp;counter = 0
+&nbsp;&nbsp;&nbsp;myNum = 20
+&nbsp;&nbsp;&nbsp;Do Until myNum = 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myNum = myNum - 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter = counter + 1
+&nbsp;&nbsp;&nbsp;Loop
+&nbsp;&nbsp;&nbsp;MsgBox "The loop made " &amp; counter &amp; " repetitions."
+End Sub
+
+Sub ChkLastUntil()
+&nbsp;&nbsp;&nbsp;Dim counter, myNum
+&nbsp;&nbsp;&nbsp;counter = 0
+&nbsp;&nbsp;&nbsp;myNum = 1
+&nbsp;&nbsp;&nbsp;Do
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myNum = myNum + 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter = counter + 1
+&nbsp;&nbsp;&nbsp;Loop Until myNum = 10
+&nbsp;&nbsp;&nbsp;MsgBox "The loop made " &amp; counter &amp; " repetitions."
+End Sub</CODE></PRE>
+
+<H4>Exiting a Do...Loop Statement from Inside the Loop</H4>
+
+<P>You can exit a <B>Do...Loop</B> by using the <B>Exit Do</B> statement. Because you usually want to exit only in certain situations, such as to avoid an endless loop, you should use the <B>Exit Do</B> statement in the <B>True</B> statement block of an <B>If...Then...Else</B> statement. If the condition is <B>False</B>, the loop runs as usual.</P>
+
+<P>In the following example, <CODE>myNum</CODE> is assigned a value that creates an endless loop. The <B>If...Then...Else</B> statement checks for this condition, preventing the endless repetition. </P>
+
+<PRE><CODE>Sub ExitExample()
+&nbsp;&nbsp;&nbsp;Dim counter, myNum
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter = 0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myNum = 9
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Do Until myNum = 10
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;myNum = myNum - 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;counter = counter + 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If myNum &lt; 10 Then Exit Do
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Loop
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MsgBox "The loop made " &amp; counter &amp; " repetitions."
+End Sub</CODE></PRE>
+
+<H2>Using While...Wend</H2>
+
+<P>The <B>While...Wend</B> statement is provided in VBScript for those who are familiar with its usage. However, because of the lack of flexibility in <B>While...Wend</B>, it is recommended that you use <B>Do...Loop</B> instead. </P>
+
+<H2>Using For...Next</H2>
+
+<P>You can use <B>For...Next</B> statements to run a block of statements a specific number of times. For loops, use a counter variable whose value increases or decreases with each repetition of the loop.</P>
+
+<P>The following example causes a procedure called <CODE>MyProc</CODE> to execute 50 times. The <B>For</B> statement specifies the counter variable x and its start and end values. The <B>Next</B> statement increments the counter variable by 1. </P>
+
+<PRE><CODE>Sub DoMyProc50Times()
+&nbsp;&nbsp;&nbsp;Dim x
+&nbsp;&nbsp;&nbsp;For x = 1 To 50
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MyProc
+&nbsp;&nbsp;&nbsp;Next
+End Sub</CODE></PRE>
+
+<P>Using the <B>Step</B> keyword, you can increase or decrease the counter variable by the value you specify. In the following example, the counter variable j is incremented by 2 each time the loop repeats. When the loop is finished, the total is the sum of 2, 4, 6, 8, and 10. </P>
+
+<PRE><CODE>Sub TwosTotal()
+&nbsp;&nbsp;&nbsp;Dim j, total
+&nbsp;&nbsp;&nbsp;For j = 2 To 10 Step 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total = total + j
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;MsgBox "The total is " &amp; total
+End Sub</CODE></PRE>
+
+<P>To decrease the counter variable, use a negative <B>Step</B> value. You must specify an end value that is less than the start value. In the following example, the counter variable <CODE>myNum</CODE> is decreased by 2 each time the loop repeats. When the loop is finished, total is the sum of 16, 14, 12, 10, 8, 6, 4, and 2.</P>
+
+<PRE><CODE>Sub NewTotal()
+&nbsp;&nbsp;&nbsp;Dim myNum, total
+&nbsp;&nbsp;&nbsp;For myNum = 16 To 2 Step -2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total = total + myNum
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;MsgBox "The total is " &amp; total
+End Sub</CODE></PRE>
+
+<P>You can exit any <B>For...Next</B> statement before the counter reaches its end value by using the <B>Exit For</B> statement. Because you usually want to exit only in certain situations, such as when an error occurs, you should use the <B>Exit For</B> statement in the <B>True</B> statement block of an <B>If...Then...Else</B> statement. If the condition is <B>False</B>, the loop runs as usual.</P>
+
+<H2>Using For Each...Next</H2>
+
+<P>A <B>For Each...Next</B> loop is similar to a <B>For...Next</B> loop. Instead of repeating the statements a specified number of times, a <B>For Each...Next</B> loop repeats a group of statements for each item in a collection of objects or for each element of an array. This is especially helpful if you don't know how many elements are in a collection.</P>
+
+<P>In the following HTML code example, the contents of a <B>Dictionary</B> object is used to place text in several text boxes. </P>
+
+<PRE><CODE>&lt;HTML&gt;
+&lt;HEAD&gt;&lt;TITLE&gt;Forms and Elements&lt;/TITLE&gt;&lt;/HEAD&gt;
+&lt;SCRIPT LANGUAGE="VBScript"&gt;
+&lt;!--
+Sub cmdChange_OnClick
+&nbsp;&nbsp;&nbsp;Dim d&nbsp;&nbsp;&nbsp;'Create a variable 
+&nbsp;&nbsp;&nbsp;Set d = CreateObject("Scripting.Dictionary")
+&nbsp;&nbsp;&nbsp;d.Add "0", "Athens"&nbsp;&nbsp;&nbsp;'Add some keys and items
+&nbsp;&nbsp;&nbsp;d.Add "1", "Belgrade"
+&nbsp;&nbsp;&nbsp;d.Add "2", "Cairo"
+
+&nbsp;&nbsp;&nbsp;For Each I in d
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Document.frmForm.Elements(I).Value = D.Item(I)
+&nbsp;&nbsp;&nbsp;Next
+End Sub
+--&gt;
+&lt;/SCRIPT&gt;
+&lt;BODY&gt;
+&lt;CENTER&gt;
+&lt;FORM NAME="frmForm"
+
+&lt;Input Type = "Text"&gt;&lt;p&gt;
+&lt;Input Type = "Text"&gt;&lt;p&gt;
+&lt;Input Type = "Text"&gt;&lt;p&gt;
+&lt;Input Type = "Text"&gt;&lt;p&gt;
+&lt;Input Type = "Button" NAME="cmdChange" VALUE="Click Here"&gt;&lt;p&gt;
+&lt;/FORM&gt;
+&lt;/CENTER&gt;
+&lt;/BODY&gt;
+&lt;/HTML&gt;</CODE></PRE>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

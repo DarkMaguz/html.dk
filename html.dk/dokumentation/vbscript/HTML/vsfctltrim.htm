@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>LTrim;  RTrim;  and Trim Functions</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctltrim"></A>LTrim; RTrim; and Trim Functions</H1>
+
+<P>Returns a copy of a string without leading spaces (<B>LTrim</B>), trailing spaces (<B>RTrim</B>), or both leading and trailing spaces (<B>Trim</B>).</P>
+
+<P><CODE><B>LTrim(</B>string<B>)</B></CODE></P>
+
+<P><CODE><B>RTrim(</B>string<B>)</B></CODE></P>
+
+<P><CODE><B>Trim(</B>string<B>)</B></CODE></P>
+
+<P>The <I>string</I> argument is any valid <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A>. If <I>string</I> contains <A HREF="vtglossary.htm#defnullvbs">Null</A>, <B>Null</B> is returned. </P>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>LTrim</B>, <B>RTrim</B>, and <B>Trim</B> functions to trim leading spaces, trailing spaces, and both leading and trailing spaces, respectively: </P>
+
+<PRE><CODE>Dim MyVar
+MyVar = <span class=cfe><B>LTrim(</B></span>"&nbsp;&nbsp;&nbsp;vbscript "<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' MyVar contains "vbscript ".
+MyVar = <span class=cfe><B>RTrim(</B></span>"&nbsp;&nbsp;&nbsp;vbscript "<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' MyVar contains "&nbsp;&nbsp;&nbsp;vbscript".
+MyVar = <span class=cfe><B>Trim(</B></span>"&nbsp;&nbsp;&nbsp;vbscript "<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' MyVar contains "vbscript".</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctleft.htm">Left Function</A> | <A HREF="vsfctright.htm">Right Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Count Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprocount"></A>Count Property</H1>
+
+<P>Returns the number of items in a collection or <B>Dictionary</B> object. Read-only. </P>
+
+<P><CODE><I>object</I><B>.Count</B> </CODE></P>
+
+<P>The <I>object</I> is always the name of one of the items in the Applies To list. </P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates use of the <B>Count</B> property: </P>
+
+<PRE><CODE>Function ShowKeys
+&nbsp;&nbsp;&nbsp;Dim a, d, i, s&nbsp;&nbsp;&nbsp;' Create some variables.
+&nbsp;&nbsp;&nbsp;Set d = CreateObject("Scripting.Dictionary")
+&nbsp;&nbsp;&nbsp;d.Add "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some keys and items.
+&nbsp;&nbsp;&nbsp;d.Add "b", "Belgrade"
+&nbsp;&nbsp;&nbsp;d.Add "c", "Cairo"
+&nbsp;&nbsp;&nbsp;a = d.Keys&nbsp;&nbsp;&nbsp;' Get the keys.
+&nbsp;&nbsp;&nbsp;For i = 0 To <span class=cfe><B>d.Count</B></span> -1 ' Iterate the array.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s = s &amp; a(i) &amp; "&lt;BR&gt;" ' Create return string.
+&nbsp;&nbsp;&nbsp;Next
+&nbsp;&nbsp;&nbsp;ShowKeys = s
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprocomparemode.htm">CompareMode Property</A> | <A HREF="vsproitem.htm">Item Property</A> | <A HREF="vsprokey.htm">Key Property</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A> | <A HREF="vscoldrives.htm">Drives Collection</A> | <A HREF="vscolfiles.htm">Files Collection</A> | <A HREF="vscolfolders.htm">Folders Collection</A> | <A HREF="vscolmatches.htm">Matches Collection</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

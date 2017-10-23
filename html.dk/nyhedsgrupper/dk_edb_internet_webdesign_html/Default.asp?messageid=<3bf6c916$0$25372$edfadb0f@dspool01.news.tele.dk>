@@ -1,0 +1,170 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Hj&#230;lp med tabel</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Nenad Dragic den 17. november 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Hj&#230;lp med tabel" />
+<meta name="language" content="dan" />
+<meta name="Date" content="17-11-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<script language="JavaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+   </a>
+</noscript>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3bf6c916%240%2425372%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Nenad&nbsp;Dragic&nbsp;&nbsp;<a href='mailto:nenad@dragic.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='nenad@dragic.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 17. november 2001 kl. 22:31</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Hj&#230;lp med tabel</strong></li></ul>
+
+<p><span class='normal'>Hejsa </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg pr&#248;ver p&#229; at lave min hjemside engang for alle, men er kommer inde i </span><br /><span class='normal'>problemmer. </span><br /><span class='normal'> </span><br /><span class='normal'>Som du kan se p&#229; <a href='http://www.dragic.com/admin/test/empty.asp'>http://www.dragic.com/admin/test/empty.asp</a> s&#229; der hvor </span><br /><span class='normal'>indeholdet skal v&#230;re ser det ikke godt ud. </span><br /><span class='normal'> </span><br /><span class='normal'>Indeholdelt vil v&#230;re billeder,tekst, anden tabel men jeg kan ikke for det </span><br /><span class='normal'>til at fungere. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg vil ikke have mellemrum i siderne. </span><br /><span class='normal'>Hvordan for jeg den h&#248;jere side til at v&#230;re helt ud til h&#248;jere? </span><br /><span class='normal'>Hvordan for jeg ventstre og h&#248;jere side til at vokse n&#229;r min indehold bliver </span><br /><span class='normal'>st&#248;rer? </span><br /><span class='normal'>Venstre og h&#248;jere side skal starte der hvor rammen ogs&#229; starter og ikke lidt </span><br /><span class='normal'>inde som de g&#248;r p&#229; eksemplet. </span><br /><span class='normal'> </span><br /><span class='normal'>Her er koden.: </span><br /><span class='normal'>&lt;% </span><br /><span class='normal'> Option Explicit </span><br /><span class='normal'> Response.Buffer = True </span><br /><span class='normal'> Response.Expires = 1 </span><br /><span class='normal'>%> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;!-- </span><br /><span class='normal'>**************************************************************************** </span><br /><span class='normal'>********************************** </span><br /><span class='normal'>* File Name    : Empty.asp </span><br /><span class='normal'>* File Created   : 17-11-2001 </span><br /><span class='normal'>* File Last Change  : </span><br /><span class='normal'>* File Description  : Empty file for use on <a href='http://Dragic.com'>Dragic.com</a> </span><br /><span class='normal'>*      : </span><br /><span class='normal'>*      : </span><br /><span class='normal'>*      : </span><br /><span class='normal'>**************************************************************************** </span><br /><span class='normal'>********************************** </span><br /><span class='normal'>--> </span><br /><span class='normal'> &lt;Html> </span><br /><span class='normal'>  &lt;Body BgColor=&quot;FFFFFF&quot;> </span><br /><span class='normal'>   &lt;Head> </span><br /><span class='normal'>          &lt;Title> </span><br /><span class='normal'>     ::: D r a g i c . C o m ::: </span><br /><span class='normal'>    &lt;/Title> </span><br /><span class='normal'>    &lt;Meta Name=&quot;Author&quot; Content=&quot;Nenad Dragic&quot;> </span><br /><span class='normal'>    &lt;Meta Name=&quot;Keywords&quot; Content=&quot;Nenad, Dragic, CV, Datamekaniker, </span><br /><span class='normal'>Spinning, BodyBike, Sv&#248;mning, Swimming, Serbian, Srpski, Jugoslavija, </span><br /><span class='normal'>Danmark, Danish, Danski, Single, VB, C, C++, Crystal Reports, ASM, Linux, </span><br /><span class='normal'>Redhat, Access, Sql, Microsoft, ICQ, SSLUG&quot;> </span><br /><span class='normal'>        &lt;/Head> </span><br /><span class='normal'>   &lt;Table Border =&quot;0&quot; Align=&quot;Center&quot; Width=&quot;800&quot; CellSpacing=&quot;0&quot; </span><br /><span class='normal'>CellPadding=&quot;0&quot; NoWrap> </span><br /><span class='normal'>    &lt;Tr> </span><br /><span class='normal'>     &lt;Td> </span><br /><span class='normal'>      &lt;Table Border =&quot;0&quot; Align=&quot;Center&quot; Width=&quot;800&quot; CellSpacing=&quot;0&quot; </span><br /><span class='normal'>CellPadding=&quot;0&quot; NoWrap> </span><br /><span class='normal'>       &lt;Tr> </span><br /><span class='normal'>        &lt;Td Nowrap Valign=&quot;Baseline&quot; Width=&quot;12&quot;> </span><br /><span class='normal'>         &lt;img src=&quot;..\..\img\tl.bmp&quot;> </span><br /><span class='normal'>        &lt;/Td> </span><br /><span class='normal'>        &lt;Td Nowrap Valign=&quot;Baseline&quot; Width=&quot;638&quot;> </span><br /><span class='normal'>         &lt;img src=&quot;..\..\img\top638.bmp&quot;> </span><br /><span class='normal'>        &lt;/Td> </span><br /><span class='normal'>        &lt;Td Nowrap Valign=&quot;Baseline&quot; Width=&quot;150&quot;> </span><br /><span class='normal'>         &lt;img src=&quot;..\..\img\dragic.bmp&quot;> </span><br /><span class='normal'>        &lt;/Td> </span><br /><span class='normal'>       &lt;/Tr> </span><br /><span class='normal'>       &lt;Tr> </span><br /><span class='normal'>        &lt;Td ColSpan=&quot;3&quot;> </span><br /><span class='normal'>        &lt;img src=&quot;..\..\img\LR.bmp&quot; Align=&quot;Left&quot;> </span><br /><span class='normal'>        Her skal indeholdet v&#230;re </span><br /><span class='normal'>        &lt;img src=&quot;..\..\img\LR.bmp&quot; Align=&quot;Rigth&quot;> </span><br /><span class='normal'>        &lt;/td> </span><br /><span class='normal'>       &lt;/Td> </span><br /><span class='normal'>       &lt;Tr> </span><br /><span class='normal'>        &lt;Td Nowrap Valign=&quot;Baseline&quot; Width=&quot;12&quot;> </span><br /><span class='normal'>         &lt;img src=&quot;..\..\img\bl.bmp&quot;> </span><br /><span class='normal'>        &lt;/Td> </span><br /><span class='normal'>        &lt;Td Nowrap Valign=&quot;Baseline&quot; Width=&quot;638&quot;> </span><br /><span class='normal'>         &lt;img src=&quot;..\..\img\But638.bmp&quot;> </span><br /><span class='normal'>        &lt;/Td> </span><br /><span class='normal'>        &lt;Td Nowrap Valign=&quot;Baseline&quot; Width=&quot;150&quot;> </span><br /><span class='normal'>         &lt;img src=&quot;..\..\img\br.bmp&quot;> </span><br /><span class='normal'>        &lt;/Td> </span><br /><span class='normal'>       &lt;/Tr> </span><br /><span class='normal'>      &lt;/Table> </span><br /><span class='normal'>     &lt;/Td> </span><br /><span class='normal'>    &lt;/Tr> </span><br /><span class='normal'>   &lt;/Table> </span><br /><span class='normal'>  &lt;/Body> </span><br /><span class='normal'> &lt;/Html> </span><br /><span class='normal'> </span><br /><span class='normal'>P&#229; forh&#229;nd tak </span><br /><span class='normal'>Nenad </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3bf6c916%240%2425372%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Hj&#230;lp med tabel'>Hj&#230;lp med tabel</a>&nbsp;<small class='newslist'>(17-11-01&nbsp;-&nbsp;Nenad&nbsp;Dragic)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C9t6i4m%24749%241%40egon%2Eworldonline%2Edk%3E' title='Re: Hj&#230;lp med tabel'>Re: Hj&#230;lp med tabel</a>&nbsp;<small class='newslist'>(17-11-01&nbsp;-&nbsp;Andreas&nbsp;Falck)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3bf78cd2%240%2487717%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hj&#230;lpmed tabel'>Re: Hj&#230;lpmed tabel</a>&nbsp;<small class='newslist'>(18-11-01&nbsp;-&nbsp;Nenad&nbsp;Dragic)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C9t8euo%24ltd%242%40egon%2Eworldonline%2Edk%3E' title='Re: Hj&#230;lp med tabel'>Re: Hj&#230;lp med tabel</a>&nbsp;<small class='newslist'>(18-11-01&nbsp;-&nbsp;Andreas&nbsp;Falck)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C9t6qq6%247s5%241%40sunsite%2Edk%3E' title='Re: Hj&#230;lp med tabel'>Re: Hj&#230;lp med tabel</a>&nbsp;<small class='newslist'>(18-11-01&nbsp;-&nbsp;Emerik)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3bf6c916%240%2425372%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" tabindex="1" class="menulink" title="Lær at kode HTML, CSS og ASP" tabindex="1">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" tabindex="2" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" tabindex="3" class="menulink" title="Bliv gratis medlem af HTML.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" tabindex="4" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" tabindex="5" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" tabindex="6" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" tabindex="7" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" tabindex="8" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" tabindex="9" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" tabindex="10" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3c3bf6c916$0$25372$edfadb0f@dspool01.news.tele.dk%3e' method='post'><p class='pollheader'>Skal Danmark udskifte kronen med euro?</p><div><input type='hidden' name='tst' value='29-01-02 22:06:32' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+						<!-- DoubleClick start -->
+
+						<center>
+						<script language="JavaScript">
+						<!--
+						   var time = new Date();
+						   randnum = (time.getTime());
+						   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+						   document.write('<\/scr'+'ipt>');
+						//-->
+						</script>
+						<noscript>
+						   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+						   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+						   </a>
+						</noscript>
+						</center>
+
+						<!-- DoubleClick end -->
+
+						
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<a href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=2" /></a>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Hj&#230;lp med tabel</span></div>
+
+</body>
+</html>
+

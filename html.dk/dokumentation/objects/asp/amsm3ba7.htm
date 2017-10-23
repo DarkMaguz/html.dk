@@ -1,0 +1,84 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Source Property (CDONTS Attachment Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_source_property_cdonts_attachment_object_"></a>Source Property (CDONTS Attachment Object)  <a href="amsm8hpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8hpb.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Source</b> property returns or sets information specifying the location of the data for the attachment. Read/write (read-only for an attachment on a message in the Inbox). </p>
+<h4>Syntax </h4>
+<pre><i>objAttach</i>.<b>Source</b> 
+ </pre>
+<h4>Data Type </h4>
+<p>
+String or Object (Message) </p>
+<h4>Remarks </h4>
+<p>
+The <b>Source</b> property is not used for <b>CdoFileData</b> attachments. For <b>CdoEmbeddedMessage</b> attachments, the <b>Source</b> property returns or sets the <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object to be embedded. An embedded message is copied into the attachment at creation time. </p>
+<p>
+<b>Note</b>  The <b>Source</b> property is a string except when it returns the source of a <b>CdoEmbeddedMessage</b> attachment. </p>
+<p>
+The return value or setting of the <b>Source</b> property depends on the value of the <a href="amsm73a7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm73a7.htm"><b>Type</b></a> property, as described in the following table: </p>
+<table>
+<tr valign="top">
+<td>
+<b>Type property </b></td>
+<td>
+<b>Source property </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoFileData </b></td>
+<td>
+Not used; contains an empty string. The source for this type of attachment must be specified in the call to the <a href="amsm2vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2vhb.htm"><b>Add</b></a> method. </td>
+</tr>
+<tr valign="top">
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top">
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoEmbeddedMessage </b></td>
+<td>
+Specifies the <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object to be embedded. </td>
+</tr>
+</table><br>
+<p>
+<b>Note</b>  You must set <a href="amsm73a7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm73a7.htm"><b>Type</b></a> before you set <b>Source</b>. Failure to do this can result in a return of <b>CdoE_NOT_FOUND</b> from the <a href="amsm6zj3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6zj3.htm"><b>ReadFromFile</b></a> or <a href="amsm86hr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm86hr.htm"><b>WriteToFile</b></a> method. </p>
+<p>
+The <b>Source</b> property can also be set at the time of creation of the attachment by supplying the <i>source</i> parameter to the <a href="amsm2vhb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm2vhb.htm"><b>Add</b></a> method of the <a href="amsm18db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm18db.htm">Attachments</a> collection. For attachments of type <b>CdoFileData</b>, the <b>Add</b> method is the only place the source file can be specified. However, you can reset it later with the Attachment object's <a href="amsm6zj3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6zj3.htm"><b>ReadFromFile</b></a> method. </p>
+<pre> </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

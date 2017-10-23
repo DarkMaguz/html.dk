@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Attributes Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsproattributes"></A>Attributes Property</H1>
+
+<P>Sets or returns the attributes of files or folders. Read/write or read-only, depending on the attribute.</P>
+
+<P><CODE>object.<B>Attributes</B> [= newattributes] </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>File</B> or <B>Folder</B> object.</P>
+
+<P class=dt><I>newattributes</I></P>
+
+<P class=indent>Optional. If provided, <I>newattributes</I> is the new value for the attributes of the specified <I>object</I>.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>newattributes</I> argument can have any of the following values or any logical combination of the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=24%>Constant</TH>
+<TH width=9%>Value</TH>
+<TH width=67%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Normal</TD>
+<TD width=9%>0</TD>
+<TD width=67%>Normal file. No attributes are set.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>ReadOnly</TD>
+<TD width=9%>1</TD>
+<TD width=67%>Read-only file. Attribute is read/write.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Hidden</TD>
+<TD width=9%>2</TD>
+<TD width=67%>Hidden file. Attribute is read/write.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>System</TD>
+<TD width=9%>4</TD>
+<TD width=67%>System file. Attribute is read/write.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Directory</TD>
+<TD width=9%>16</TD>
+<TD width=67%>Folder or directory. Attribute is read-only.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Archive</TD>
+<TD width=9%>32</TD>
+<TD width=67%>File has changed since last backup. Attribute is read/write.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Alias</TD>
+<TD width=9%>1024</TD>
+<TD width=67%>Link or shortcut. Attribute is read-only.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=24%>Compressed</TD>
+<TD width=9%>2048</TD>
+<TD width=67%>Compressed file. Attribute is read-only.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>Attempts to change any of the read-only attributes (Alias, Compressed, or Directory) are ignored. </P>
+
+<P>When setting attributes, it is generally a good idea to first read the current attributes, then change the individual attributes as desired, and finally write the attributes back.</P>
+
+<P>The following code illustrates the use of the <B>Attributes</B> property with a file: </P>
+
+<PRE><CODE>Function ToggleArchiveBit(filespec)
+&nbsp;&nbsp;&nbsp;Dim fso, f
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.GetFile(filespec)
+&nbsp;&nbsp;&nbsp;If <span class=cfe><B>f.attributes</B></span> and 32 Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f.attributes = f.attributes - 32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ToggleArchiveBit = "Archive bit is cleared."
+&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f.attributes = f.attributes + 32
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ToggleArchiveBit = "Archive bit is set."
+&nbsp;&nbsp;&nbsp;End If
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprodatecreated.htm">DateCreated Property</A> | <A HREF="vsprodatelastaccessed.htm">DateLastAccessed Property</A> | <A HREF="vsprodatelastmodified.htm">DateLastModified Property</A> | <A HREF="vsprodrive.htm">Drive Property</A> | <A HREF="vsprofiles.htm">Files Property</A> | <A HREF="vsproisrootfolder.htm">IsRootFolder Property</A> | <A HREF="vsproname.htm">Name Property</A> | <A HREF="vsproparentfolder.htm">ParentFolder Property</A> | <A HREF="vspropath.htm">Path Property</A> | <A HREF="vsproshortname.htm">ShortName Property</A> | <A HREF="vsproshortpath.htm">ShortPath Property</A> | <A HREF="vsprosize.htm">Size Property</A> | <A HREF="vsprosubfolders.htm">SubFolders Property</A> | <A HREF="vsprotype.htm">Type Property</A></P>
+
+<P>Applies To: <A HREF="vsobjfile.htm">File Object</A> | <A HREF="vsobjfolder.htm">Folder Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

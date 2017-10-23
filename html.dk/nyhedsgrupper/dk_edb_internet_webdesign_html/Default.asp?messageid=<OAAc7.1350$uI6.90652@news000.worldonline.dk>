@@ -1,0 +1,170 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>CountUp</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Janus Høi den 9. august 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="CountUp" />
+<meta name="language" content="dan" />
+<meta name="Date" content="09-08-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<script language="JavaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+   </a>
+</noscript>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3COAAc7%2E1350%24uI6%2E90652%40news000%2Eworldonline%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Janus&nbsp;Høi&nbsp;&nbsp;<a href='mailto:hoi@ØØØjagi.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='hoi@ØØØjagi.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Customer of Tiscali A/S (World Online)</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 9. august 2001 kl. 20:20</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>CountUp</strong></li></ul>
+
+<p><span class='normal'>Hej </span><br /><span class='normal'>Jeg har fundet en Countup. </span><br /><span class='normal'> </span><br /><span class='normal'>I husker nok alle de der nedt&#230;llinger omkring &#229;rtusindskiftet. Men denne g&#248;r </span><br /><span class='normal'>det modsatte. </span><br /><span class='normal'> </span><br /><span class='normal'>Mit problem er bare at den t&#230;ller fra klokken 0:00 den dag man definerer. </span><br /><span class='normal'> </span><br /><span class='normal'>Man kan ikke indstille et klokkesl&#230;t. </span><br /><span class='normal'> </span><br /><span class='normal'>Kan du hj&#230;lpe mig? </span><br /><span class='normal'> </span><br /><span class='normal'>Tiden skal indstilles til 27/7 2001 klokken 19:52 </span><br /><span class='normal'> </span><br /><span class='normal'>Det bliver nok hurtigt uoverskueligt p&#229; NG med linieombrydning og s&#229;dan, s&#229; </span><br /><span class='normal'>jeg har lige vist koden p&#229;: </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://hjerteknuser.dk/countup.htm'>http://hjerteknuser.dk/countup.htm</a> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>J@nus_H&#248;i </span><br /><span class='normal'>Hysterisk Cindy-fanside: </span><br /><span class='normal'><a href='http://hjerteknuser.dk'>http://hjerteknuser.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;Script begynder her> </span><br /><span class='normal'>------------------------ </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;script language=&quot;JavaScript1.2&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>//Dynamic countup Script- &#169; Dynamic Drive (www.dynamicdrive.com) </span><br /><span class='normal'>//For full source code, 100's more DHTML scripts, and TOS, </span><br /><span class='normal'>//visit <a href='http://www.dynamicdrive.com'>http://www.dynamicdrive.com</a> </span><br /><span class='normal'> </span><br /><span class='normal'>function setcountup(theyear,themonth,theday){ </span><br /><span class='normal'>yr=theyear;mo=themonth;da=theday </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>//////////CONFIGURE THE countup SCRIPT HERE////////////////// </span><br /><span class='normal'> </span><br /><span class='normal'>//STEP 1: Configure the date to count up from, in the format year, month, </span><br /><span class='normal'>day: </span><br /><span class='normal'>//This date should be less than today </span><br /><span class='normal'>setcountup(1999,3,2) </span><br /><span class='normal'> </span><br /><span class='normal'>//STEP 2: Configure text to be attached to count up </span><br /><span class='normal'>var displaymessage=&quot;have passed since the debut of our site!&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>//STEP 3: Configure the below 5 variables to set the width, height, </span><br /><span class='normal'>background color, and text style of the countup area </span><br /><span class='normal'>var countupwidth='95%' </span><br /><span class='normal'>var countupheight='20px' //applicable only in NS4 </span><br /><span class='normal'>var countupbgcolor='lightyellow' </span><br /><span class='normal'>var opentags='&lt;font face=&quot;Verdana&quot;>&lt;small>' </span><br /><span class='normal'>var closetags='&lt;/small>&lt;/font>' </span><br /><span class='normal'> </span><br /><span class='normal'>//////////DO NOT EDIT PASS THIS LINE////////////////// </span><br /><span class='normal'> </span><br /><span class='normal'>var montharray=new </span><br /><span class='normal'>Array(&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;,&quot;Sep&quot;,&quot;Oct&quot;,&quot;Nov&quot;,&quot;Dec </span><br /><span class='normal'>&quot;) </span><br /><span class='normal'>var crosscount='' </span><br /><span class='normal'> </span><br /><span class='normal'>function start_countup(){ </span><br /><span class='normal'>if (document.layers) </span><br /><span class='normal'>document.countupnsmain.visibility=&quot;show&quot; </span><br /><span class='normal'>else if (document.alldocument.getElementById) </span><br /><span class='normal'>crosscount=document.getElementById&amp;&amp;!document.all?document.getElementById(&quot;c </span><br /><span class='normal'>ountupie&quot;) : countupie </span><br /><span class='normal'>countup() </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>if (document.alldocument.getElementById) </span><br /><span class='normal'>document.write('&lt;span id=&quot;countupie&quot; style=&quot;width:'+countupwidth+'; </span><br /><span class='normal'>background-color:'+countupbgcolor+'&quot;>&lt;/span>') </span><br /><span class='normal'> </span><br /><span class='normal'>window.onload=start_countup </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>function countup(){ </span><br /><span class='normal'>var today=new Date() </span><br /><span class='normal'>var todayy=today.getYear() </span><br /><span class='normal'>if (todayy &lt; 1000) </span><br /><span class='normal'>todayy+=1900 </span><br /><span class='normal'>var todaym=today.getMonth() </span><br /><span class='normal'>var todayd=today.getDate() </span><br /><span class='normal'>var todayh=today.getHours() </span><br /><span class='normal'>var todaymin=today.getMinutes() </span><br /><span class='normal'>var todaysec=today.getSeconds() </span><br /><span class='normal'>var todaystring=montharray[todaym]+&quot; &quot;+todayd+&quot;, &quot;+todayy+&quot; </span><br /><span class='normal'>&quot;+todayh+&quot;:&quot;+todaymin+&quot;:&quot;+todaysec </span><br /><span class='normal'>paststring=montharray[mo-1]+&quot; &quot;+da+&quot;, &quot;+yr </span><br /><span class='normal'>dd=Date.parse(todaystring)-Date.parse(paststring) </span><br /><span class='normal'>dday=Math.floor(dd/(60*60*1000*24)*1) </span><br /><span class='normal'>dhour=Math.floor((dd%(60*60*1000*24))/(60*60*1000)*1) </span><br /><span class='normal'>dmin=Math.floor(((dd%(60*60*1000*24))%(60*60*1000))/(60*1000)*1) </span><br /><span class='normal'>dsec=Math.floor((((dd%(60*60*1000*24))%(60*60*1000))%(60*1000))/1000*1) </span><br /><span class='normal'> </span><br /><span class='normal'>if (document.layers){ </span><br /><span class='normal'>document.countupnsmain.document.countupnssub.document.write(opentags+dday+ &quot; </span><br /><span class='normal'>days, &quot;+dhour+&quot; hours, &quot;+dmin+&quot; minutes, and &quot;+dsec+&quot; seconds </span><br /><span class='normal'>&quot;+displaymessage+closetags) </span><br /><span class='normal'>document.countupnsmain.document.countupnssub.document.close() </span><br /><span class='normal'>} </span><br /><span class='normal'>else if (document.alldocument.getElementById) </span><br /><span class='normal'>crosscount.innerHTML=opentags+dday+ &quot; days, &quot;+dhour+&quot; hours, &quot;+dmin+&quot; </span><br /><span class='normal'>minutes, and &quot;+dsec+&quot; seconds &quot;+displaymessage+closetags </span><br /><span class='normal'> </span><br /><span class='normal'>setTimeout(&quot;countup()&quot;,1000) </span><br /><span class='normal'>} </span><br /><span class='normal'>&lt;/script> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;ilayer id=&quot;countupnsmain&quot; width=&amp;{countupwidth}; height=&amp;{countupheight}; </span><br /><span class='normal'>bgColor=&amp;{countupbgcolor}; visibility=hide>&lt;layer id=&quot;countupnssub&quot; </span><br /><span class='normal'>width=&amp;{countupwidth}; height=&amp;{countupheight}; left=0 </span><br /><span class='normal'>top=0>&lt;/layer>&lt;/ilayer> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>------------------------ </span><br /><span class='normal'>&lt;Script Slutter her> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3COAAc7%2E1350%24uI6%2E90652%40news000%2Eworldonline%2Edk%3E' title='CountUp'>CountUp</a>&nbsp;<small class='newslist'>(09-08-01&nbsp;-&nbsp;Janus&nbsp;Høi)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3qn5ntcognaqij45hflkn6fdrk6f6tmlep%40news%2Etele%2Edk%3E' title='Re: CountUp'>Re: CountUp</a>&nbsp;<small class='newslist'>(09-08-01&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3COAAc7%2E1350%24uI6%2E90652%40news000%2Eworldonline%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" tabindex="1" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" tabindex="2" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" tabindex="3" class="menulink" title="Bliv gratis medlem af HTML.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" tabindex="4" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" tabindex="5" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" tabindex="6" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" tabindex="7" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" tabindex="8" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" tabindex="9" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" tabindex="10" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3cOAAc7.1350$uI6.90652@news000.worldonline.dk%3e' method='post'><p class='pollheader'>Skal Danmark udskifte kronen med euro?</p><div><input type='hidden' name='tst' value='30-01-02 04:09:28' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+						<!-- DoubleClick start -->
+
+						<center>
+						<script language="JavaScript">
+						<!--
+						   var time = new Date();
+						   randnum = (time.getTime());
+						   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+						   document.write('<\/scr'+'ipt>');
+						//-->
+						</script>
+						<noscript>
+						   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+						   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+						   </a>
+						</noscript>
+						</center>
+
+						<!-- DoubleClick end -->
+
+						
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<a href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=2" /></a>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: CountUp</span></div>
+
+</body>
+</html>
+

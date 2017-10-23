@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN">
+<html>
+<head>
+<title>Banner</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-language" content="da" />
+
+<script type="text/javascript">
+<!--
+if (self == top)
+  self.location.replace("index.htm");
+// -->
+</script>
+
+</head>
+<body>
+
+<div style="text-align: center">Dette er banner-framen (banner.htm)</div>
+
+<script type="text/javascript">
+<!--
+function addBookmark()
+{
+  frameset = parent.location.href;
+  if (frameset.indexOf("?") != -1)
+    frameset = frameset.substring(0, frameset.indexOf("?"));
+
+  page = frameset + "?" + parent.content.location.href;
+
+  pagename = parent.content.document.title;
+
+  if (confirm('Føj siden   "' + pagename + '"   til "Foretrukne" ?'))
+    window.external.AddFavorite(page, pagename);
+}
+
+if (window.external)
+  document.writeln('<div><a href="javascript: addBookmark()">Føj hovedsiden til foretrukne<\/a><\/div>');
+// -->
+</script>
+
+<div style="text-align: right"><a href="view-source:http://www.html.dk/artikler/00019/frameset/side1.htm">vis koden</a> til denne side.</div>
+
+</body>
+</html>

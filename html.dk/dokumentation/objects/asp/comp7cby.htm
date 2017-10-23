@@ -1,0 +1,53 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>GetNextDescription</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h4><a name="_getnextdescription"></a>GetNextDescription</h4>
+<p>
+The <b>GetNextDescription </b>method retrieves the text description of the next item in the Content Linking List file. </p>
+<h5>Syntax</h5>
+<pre><b>GetNextDescription(</b><i>listURL</i><b>)</b> 
+ </pre>
+<h5>Parameters</h5>
+<dl>
+<dt>
+<i>listURL</i></dt>
+<dd>
+The location of the Content Linking List file. </dd>
+</dl>
+<h5>Return Values</h5>
+<p>
+The <b>GetNextDescription</b> method returns an ASCII string describing the next item in the Content Linking List file. If the current page is not found in the list file, <b>GetNextDescription </b>returns the string description of the last page on the list. </p>
+<h5>Applies To</h5>
+<p>
+<a href="comp7pmc.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp7pmc.htm"><b>Content Linking Component</b></a> </p>
+<h5>See Also</h5>
+<p>
+<a href="comp34a4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp34a4.htm"><b>GetNextURL</b></a>,<b> </b><a href="comp1j8u.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp1j8u.htm"><b>GetPreviousDescription</b></a>,<b> </b><a href="comp2wby.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp2wby.htm"><b>GetNthDescription</b></a></p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

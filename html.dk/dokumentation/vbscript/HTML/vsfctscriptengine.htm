@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>ScriptEngine Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctscriptengine"></A>ScriptEngine Function</H1>
+
+<P>Returns a string representing the scripting language in use.</P>
+
+<P><CODE>ScriptEngine</CODE></P>
+
+<H4>Return Values</H4>
+
+<P>The <B>ScriptEngine</B> function can return any of the following strings:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=20%>String</TH>
+<TH width=80%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%>VBScript</TD>
+<TD width=80%>Indicates that Microsoft<SUP>®</SUP> Visual Basic<SUP>®</SUP> Scripting Edition is the current scripting engine.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%>JScript</TD>
+<TD width=80%>Indicates that Microsoft JScript<SUP>®</SUP> is the current scripting engine.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=20%>VBA</TD>
+<TD width=80%>Indicates that Microsoft Visual Basic for Applications is the current scripting engine.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>ScriptEngine</B> function to return a string describing the scripting language in use: </P>
+
+<PRE><CODE>Function GetScriptEngineInfo
+&nbsp;&nbsp;&nbsp;Dim s
+&nbsp;&nbsp;&nbsp;s = ""&nbsp;&nbsp;&nbsp;' Build string with necessary info.
+&nbsp;&nbsp;&nbsp;s = <span class=cfe><B>ScriptEngine</B></span> &amp; " Version "
+&nbsp;&nbsp;&nbsp;s = s &amp; ScriptEngineMajorVersion &amp; "."
+&nbsp;&nbsp;&nbsp;s = s &amp; ScriptEngineMinorVersion &amp; "."
+&nbsp;&nbsp;&nbsp;s = s &amp; ScriptEngineBuildVersion 
+&nbsp;&nbsp;&nbsp;GetScriptEngineInfo = s&nbsp;&nbsp;&nbsp;' Return the results.
+End Function</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctscriptenginebuildversion.htm">ScriptEngineBuildVersion Function</A> | <A HREF="vsfctscriptenginemajorversion.htm">ScriptEngineMajorVersion Function</A> | <A HREF="vsfctscriptengineminorversion.htm">ScriptEngineMinorVersion Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

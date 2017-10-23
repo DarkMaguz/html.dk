@@ -1,0 +1,132 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>AttachURL Method (CDONTS NewMail Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_attachurl_method_cdonts_newmail_object_"></a>AttachURL Method (CDONTS NewMail Object)  <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>AttachURL</b> method adds an attachment to the message and associates a Uniform Resource Locator (URL) with the attachment. </p>
+<h4>Syntax </h4>
+<pre><i>objNewMail</i>.<b>AttachURL(</b><i>Source, ContentLocation</i><b> [</b><i>, ContentBase</i><b>] [</b><i>, EncodingMethod</i><b>] ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objNewMail </i></dt>
+<dd>
+Required. This NewMail object. <br>
+</dd>
+<dt>
+<i>Source </i></dt>
+<dd>
+Required. <b>IStream</b> object or String. The full path and file name of the resource to be attached to the message, or a pointer to an <b>IStream</b> object containing the file data. <br>
+</dd>
+<dt>
+<i>ContentLocation </i></dt>
+<dd>
+Required. String. The absolute or relative prefix for the URL that the rendering client can use to reference this attachment. <br>
+</dd>
+<dt>
+<i>ContentBase </i></dt>
+<dd>
+Optional. String. A base for the URL used to reference this attachment. <br>
+</dd>
+<dt>
+<i>EncodingMethod </i></dt>
+<dd>
+Optional. Long. The manner of encoding the attachment. The following values are possible: <table>
+<tr valign="top">
+<td>
+<b><i>EncodingMethod</i> setting </b></td>
+<td>
+<b>Value </b></td>
+<td>
+<b>Description </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoEncodingUUencode </b></td>
+<td>
+0 </td>
+<td>
+The attachment is to be in UUEncode format (default). </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoEncodingBase64 </b></td>
+<td>
+1 </td>
+<td>
+The attachment is to be in base 64 format. </td>
+</tr>
+</table><br>
+</dd>
+</dl>
+<p>
+ </p>
+<h4>Remarks </h4>
+<p>
+You must supply at least the <i>ContentLocation</i> parameter to specify a URL for the attachment. If you also supply the <i>ContentBase</i> parameter, it is combined with the <i>ContentLocation</i> parameter to define the full URL path by which this attachment is to be referenced. For more information on constructing URL paths, see the <a href="amsm55gf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm55gf.htm"><b>ContentLocation</b></a> property. </p>
+<p>
+The default value for the <i>EncodingMethod</i> parameter can change if you set the <a href="amsm9mn3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9mn3.htm"><b>MailFormat</b></a> property. If <b>MailFormat</b> is set to <b>CdoMailFormatText</b>, the default value is <b>CdoEncodingUUencode</b>. If <b>MailFormat</b> is set to <b>CdoMailFormatMime</b>, the default value is <b>CdoEncodingBase64</b>. However, if you add an attachment encoded in base 64 format, the value of the <b>MailFormat</b> property is automatically set to <b>CdoMailFormatMime</b>. </p>
+<p>
+Only C/C++ and Java programs can use an <b>IStream</b> object for the <i>Source</i> parameter. They should pass an <b>IUnknown</b> object that returns an <b>IStream</b> interface in response to <b>QueryInterface</b>. Microsoft® Visual Basic® supports the <b>IDispatch</b> interface and not <b>IUnknown</b>, so it cannot use an <b>IStream</b> object. </p>
+<h4>Example </h4>
+<p>
+This code fragment illustrates the preparation and sending of an MHTML (MIME HTML) message and attachment using the <b>AttachURL</b> method: </p>
+<pre>Dim myMail 
+Set myMail = CreateObject(&quot;CDONTS.NewMail&quot;) 
+ 
+HTML = &quot;&lt;!DOCTYPE HTML PUBLIC &quot;&quot;-//IETF//DTD HTML//EN&quot;&quot;&gt;&quot; &amp; NL 
+HTML = HTML &amp; &quot;&lt;html&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;head&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;meta http-equiv=&quot;&quot;Content-Type&quot;&quot;&quot; 
+HTML = HTML &amp; &quot;content=&quot;&quot;text/html; charset=iso-8859-1&quot;&quot;&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;meta name=&quot;&quot;GENERATOR&quot;&quot; content=&quot;&quot;Microsoft FrontPage 2.0&quot;&quot;&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;title&gt;Exchange CDO Example&lt;/title&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;/head&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;body bgcolor=&quot;&quot;#FFFFFF&quot;&quot;&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;p&gt;&lt;font size=&quot;&quot;6&quot;&quot; face=&quot;&quot;Arial Black&quot;&quot;&gt;&lt;strong&gt;Exchange CDO &quot; 
+HTML = HTML &amp; &quot;Sample&lt;img src=CDO.gif&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;p&gt;CDO for NTS allows an easy way to send mail.&quot; 
+HTML = HTML &amp; &quot;This example shows how the content can be an HTML page&quot; 
+HTML = HTML &amp; &quot;which allows you to send rich text and inline graphics.&lt;/p&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;/body&gt;&quot; 
+HTML = HTML &amp; &quot;&lt;/html&gt;&quot; 
+ 
+myMail.AttachURL &quot;D:\wwwroot\CDO.gif&quot;, &quot;CDO.gif&quot; 
+myMail.From = &quot;Example@Microsoft.com&quot; 
+myMail.To = &quot;Someone@Microsoft.com&quot; 
+myMail.Subject = &quot;Sample Message&quot; 
+myMail.BodyFormat = 0 
+myMail.MailFormat = 0 
+myMail.Body = HTML 
+myMail.Send </pre>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

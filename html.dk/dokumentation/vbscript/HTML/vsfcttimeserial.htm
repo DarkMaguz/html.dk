@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>TimeSerial Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfcttimeserial"></A>TimeSerial Function</H1>
+
+<P>Returns a <B>Variant</B> of subtype <B>Date</B> containing the time for a specific hour, minute, and second.</P>
+
+<P><CODE><B>TimeSerial(</B><I>hour</I><B>, </B><I>minute</I><B>, </B><I>second</I><B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>hour</I></P>
+
+<P class=indent>Number between 0 (12:00 A.M.) and 23 (11:00 P.M.), inclusive, or a <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expression</A>.</P>
+
+<P class=dt><I>minute</I></P>
+
+<P class=indent>Any numeric expression.</P>
+
+<P class=dt><I>second</I></P>
+
+<P class=indent>Any numeric expression.</P>
+
+<H4>Remarks</H4>
+
+<P>To specify a time, such as 11:59:59, the range of numbers for each <B>TimeSerial</B> argument should be in the accepted range for the unit; that is, 0–23 for hours and 0–59 for minutes and seconds. However, you can also specify relative times for each argument using any numeric expression that represents some number of hours, minutes, or seconds before or after a certain time. </P>
+
+<P>The following example uses expressions instead of absolute time numbers. The <B>TimeSerial</B> function returns a time for 15 minutes before (-15) six hours before noon (12 - 6), or 5:45:00 A.M. </P>
+
+<PRE><CODE>Dim MyTime1
+MyTime1 = <span class=cfe><B>TimeSerial(</B></span>12 - 6<span class=cfe><B>,</B></span> -15<span class=cfe><B>, </B></span>0<span class=cfe><B>)</B></span> ' Returns 5:45:00 AM.</CODE></PRE>
+
+<P>When any argument exceeds the accepted range for that argument, it increments to the next larger unit as appropriate. For example, if you specify 75 minutes, it is evaluated as one hour and 15 minutes. However, if any single argument is outside the range -32,768 to 32,767, or if the time specified by the three arguments, either directly or by expression, causes the date to fall outside the acceptable range of dates, an error occurs.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctdateserial.htm">DateSerial Function</A> | <A HREF="vsfctdatevalue.htm">DateValue Function</A> | <A HREF="vsfcthour.htm">Hour Function</A> | <A HREF="vsfctminute.htm">Minute Function</A> | <A HREF="vsfctnow.htm">Now Function</A> | <A HREF="vsfctsecond.htm">Second Function</A> | <A HREF="vsfcttimevalue.htm">TimeValue Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

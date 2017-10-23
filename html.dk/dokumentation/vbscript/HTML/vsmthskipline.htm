@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>SkipLine Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthskipline"></A>SkipLine Method</H1>
+
+<P>Skips the next line when reading a <B>TextStream</B> file.</P>
+
+<P><CODE><I>object</I>.<B>SkipLine</B></CODE></P>
+
+<P>The <I>object</I> is always the name of a <B>TextStream</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>Skipping a line means reading and discarding all characters in a line up to and including the next newline character. An error occurs if the file is not open for reading.</P>
+
+<P>The following example illustrates use of the <B>SkipLine</B> method: </P>
+
+<PRE><CODE>Function SkipLineInFile
+&nbsp;&nbsp;&nbsp;Const ForReading = 1, ForWriting = 2
+&nbsp;&nbsp;&nbsp;Dim fso, f
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForWriting, True)
+&nbsp;&nbsp;&nbsp;f.Write "Hello world!" &amp; vbCrLf &amp; "VB Script is fun!"
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForReading)
+&nbsp;&nbsp;&nbsp;f.SkipLine
+&nbsp;&nbsp;&nbsp;SkipLineInFile = f.ReadLine
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthclose.htm">Close Method</A> | <A HREF="vsmthread.htm">Read Method</A> | <A HREF="vsmthreadall.htm">ReadAll Method</A> | <A HREF="vsmthreadline.htm">ReadLine Method</A> | <A HREF="vsmthskip.htm">Skip Method</A> | <A HREF="vsmthwrite.htm">Write Method</A> | <A HREF="vsmthwriteline.htm">WriteLine Method</A> | <A HREF="vsmthwriteblanklines.htm">WriteBlankLines Method</A></P>
+
+<P>Applies To: <A HREF="vsobjtextstream.htm">TextStream Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

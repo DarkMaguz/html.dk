@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Chr Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctchr"></A>Chr Function</H1>
+
+<P>Returns the character associated with the specified ANSI character code.</P>
+
+<P><CODE><B>Chr(</B>charcode<B>)</B></CODE></P>
+
+<P>The <I>charcode</I> argument is a number that identifies a <A HREF="vtglossary.htm#defcharactercodevbs">character</A>.</P>
+
+<H4>Remarks</H4>
+
+<P>Numbers from 0 to 31 are the same as standard, nonprintable <A HREF="vtglossary.htm#defasciivbs">ASCII</A> codes. For example, <B>Chr(</B>10<B>)</B> returns a linefeed character.</P>
+
+<P>The following example uses the <B>Chr</B> function to return the character associated with the specified character code: </P>
+
+<PRE><CODE>Dim MyChar
+MyChar = <span class=cfe><B>Chr(</B></span>65<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns A.
+MyChar = <span class=cfe><B>Chr(</B></span>97<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns a.
+MyChar = <span class=cfe><B>Chr(</B></span>62<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns &gt;.
+MyChar = <span class=cfe><B>Chr(</B></span>37<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns %.</CODE></PRE>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>The <B>ChrB</B> function is used with byte data contained in a string. Instead of returning a character, which may be one or two bytes, <B>ChrB</B> always returns a single byte. <B>ChrW</B> is provided for 32-bit platforms that use Unicode characters. Its argument is a Unicode (wide) character code, thereby avoiding the conversion from ANSI to Unicode.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctasc.htm">Asc Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

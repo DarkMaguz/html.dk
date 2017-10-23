@@ -1,0 +1,60 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>FileExists</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_fileexists"></a>FileExists</h1>
+<p>
+The <b>FileExists </b>method checks the existence of a file. It returns <font face="Symbol"><span style="font-family:symbol">&#45;</span></font>1 if the specified URL exists within a published directory. If the file does not exist, it returns 0. </p>
+<h2>Syntax</h2>
+<pre>Tools.FileExists(<i>URL</i>)
+ </pre>
+<h2>Parameters</h2>
+<dl>
+<dt>
+<i>URL </i></dt>
+<dd>
+A string that specifies the relative URL of the file you are checking.</dd>
+</dl>
+<h2>Remarks</h2>
+<p>
+<b>FileExists</b> only checks the existence of files published on your site. Therefore, it takes a relative URL rather than an absolute URL. </p>
+<h2>Example</h2>
+<p>
+The following code is derived from the default.asp page used by Microsoft&reg; Personal Web Server for Macintosh.</p>
+<pre>&lt;%If Tools.FileExists(&quot;ie_animated.gif&quot;) then %&gt;
+    &lt;p&gt; &lt;a href=&quot;http://www.microsoft.Com/ie/&quot;&gt;&lt;img src=&quot;ie_animated.gif&quot;&gt;&lt;/a&gt;
+&lt;% End If %&gt;
+ </pre>
+<h2>Applies To</h2>
+<p>
+<a href="macc7g8k.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc7g8k.htm">Tools Component</a> </p>
+<h2>See Also</h2>
+<p>
+<a href="macc0gkt.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc0gkt.htm"><b>ProcessForm</b></a>, <a href="macc8kdp.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc8kdp.htm"><b>Random</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

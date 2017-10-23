@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Key Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprokey"></A>Key Property</H1>
+
+<P>Sets a <I>key</I> in a <B>Dictionary</B> object. </P>
+
+<P><CODE>object<B>.Key(</B>key<B>)</B> = newkey</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>Dictionary</B> object.</P>
+
+<P class=dt><I>key</I></P>
+
+<P class=indent>Required. <I>Key</I> value being changed.</P>
+
+<P class=dt><I>newkey</I></P>
+
+<P class=indent>Required. New value that replaces the specified <I>key</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>key</I> is not found when changing a <I>key</I>, a <A HREF="vtglossary.htm#defruntimeerrorvbs">run-time error</A> will occur. </P>
+
+<P>The following example illustrates the use of the <B>Key</B> property: </P>
+
+<PRE><CODE>Function DicDemo
+&nbsp;&nbsp;&nbsp;Dim d&nbsp;&nbsp;&nbsp;' Create some variables.
+&nbsp;&nbsp;&nbsp;Set d = CreateObject("Scripting.Dictionary")
+&nbsp;&nbsp;&nbsp;d.Add "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some keys and items.
+&nbsp;&nbsp;&nbsp;d.Add "b", "Belgrade"
+&nbsp;&nbsp;&nbsp;d.Add "c", "Cairo"
+&nbsp;&nbsp;&nbsp;<span class=cfe><B>d.Key(</B></span>"c"<span class=cfe><B>)</B></span> = "d"&nbsp;&nbsp;&nbsp;' Set key for "c" to "d".
+&nbsp;&nbsp;&nbsp;DicDemo = d.Item("d")&nbsp;&nbsp;&nbsp;' Return associate item.
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprocomparemode.htm">CompareMode Property</A> | <A HREF="vsprocount.htm">Count Property</A> | <A HREF="vsproitem.htm">Item Property</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

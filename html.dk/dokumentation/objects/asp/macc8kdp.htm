@@ -1,0 +1,56 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Random</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h1><a name="_random"></a>Random</h1>
+<p>
+The <b>Random </b>method returns an integer between <font face="Symbol"><span style="font-family:symbol">&#45;</span></font>32768 to 32767. </p>
+<h2>Syntax</h2>
+<pre><b>Tools.random
+ </b></pre>
+<h2>Remarks</h2>
+<p>
+This method is similar to the <b>Rnd</b> function but returns an integer.</p>
+<p>
+To get a positive random integer, use the <b>Abs</b> function. </p>
+<p>
+To get a random integer below a specific value, use the <b>Mod</b> function. </p>
+<h2>Example</h2>
+<p>
+<code>&lt;% = Tools.Random %&gt; will display a random integer between </code><font face="Symbol"><span style="font-family:symbol">&#45;</span></font><code>32768 to 32767. For example, -13067.</code></p>
+<pre>&lt;% = ( Abs( Tools.Random ) ) %&gt; will display a positive random integer. For example, 23054.
+&lt;% = ( Abs( Tools.Random ) ) Mod 100 %&gt; will display a random integer between 0 and 99. For example, 63.
+ </pre>
+<h2>Applies To</h2>
+<p>
+<a href="macc7g8k.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc7g8k.htm">Tools Component</a> </p>
+<h2>See Also</h2>
+<p>
+<a href="macc1d9v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc1d9v.htm"><b>FileExists</b></a>, <a href="macc0gkt.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/macc0gkt.htm"><b>ProcessForm</b></a> </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

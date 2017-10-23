@@ -1,0 +1,38 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Session Events</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_session_events"></a>Session Events</h2>
+<p>
+The Web server automatically creates a session when a user, who did not previously have a session, opens a Web page in the application. The server destroys the session either when it times out or when the server calls the <a href="intr5tpq.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5tpq.htm"><b>Abandon</b></a> method.</p>
+<p>
+The session has two events, a <a href="glob6t84.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob6t84.htm"><b>Session_OnStart</b></a> event and a <a href="glob2y90.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob2y90.htm"><b>Session_OnEnd</b></a> event. </p>
+<p>
+You can specify script for these events in the global file, Global.asa. When the session starts, the server looks in the Global.asa file and processes the <b>Session_OnStart</b> event script. This script is processed before the Web page that the user requested is processed. When the session ends, the server processes the <b>Session_OnEnd</b> event script. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

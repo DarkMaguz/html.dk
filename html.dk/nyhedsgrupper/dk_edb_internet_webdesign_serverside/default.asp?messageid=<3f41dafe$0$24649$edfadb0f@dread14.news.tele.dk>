@@ -1,0 +1,188 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: php, asp eller hvad</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside skrevet af Harald den 19. august 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: php, asp eller hvad" />
+<meta name="language" content="dan" />
+<meta name="Date" content="19-08-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside</h1><p>Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling, Serverside scipting, Serverfaciliteter og Webservere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C3f41dafe%240%2424649%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Harald&nbsp;&nbsp;<a href='mailto:news@kroning.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='news@kroning.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 19. august 2003 kl. 10:08</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: php, asp eller hvad</strong></li></ul>
+
+<p><span class='normal'>&quot;Jesper Stocholm&quot; &lt;jespers@stocholm.invalid> skrev i en meddelelse </span><br /><span class='normal'>news:Xns93DC54CA4C975stocholmdk@130.226.1.34... </span><br /><span class='citat'>> Harald wrote : </span><br /><span class='citat'>> </span><br /><span class='citat'>> > &quot;Jesper Stocholm&quot; &lt;jespers@stocholm.invalid> skrev i en meddelelse </span><br /><span class='citat'>> > news:Xns93DBE45B49371stocholmdk@130.226.1.34... </span><br /><span class='citat'>> >> Johan Holst Nielsen wrote : </span><br /><span class='citat'>> > </span><br /><span class='citat'>> >>Man kunne s&#229; sp&#248;rge &quot;Hvorfor _vil_ han k&#248;re Apache?&quot;. Er det pga et </span><br /><span class='citat'>> >>kvalificeret valg baseret p&#229; erfaring med produktet fra tidligere og </span><br /><span class='citat'>> >>lignende, eller er det blot fordi en af hans venner har sagt, at </span><br /><span class='citat'>> >>Apache er det fedeste i hele verden? </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > &lt;klip en v&#230;ldig masse> </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > Jeg k&#248;rer Windows XP fordi jeg har nogle programmer k&#248;rende p&#229; </span><br /><span class='citat'>> > serveren som kun findes til windows. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Husk p&#229; at for hver gang du installerer et program p&#229; en </span><br /><span class='citat'>> produktionsserver, for&#248;ger du muligheden for fejl og dermed ustabiliteten </span><br /><span class='citat'>> p&#229; serveren. </span><br /><span class='citat'>> </span><br /><span class='citat'>>  Grunden til at jeg har valgt </span><br /><span class='citat'>> > Apache, php og MySQL er: </span><br /><span class='citat'>> > 1. De er ikke lavet af Microsoft </span><br /><span class='citat'>> </span><br /><span class='citat'>> OK. </span><br /><span class='citat'>> </span><br /><span class='citat'>> > 2. Apache skulle v&#230;re en af de bedste web servere der findes (har jeg </span><br /><span class='citat'>> > h&#248;rt) og den har da ogs&#229; k&#248;rt problemfri i et &#229;rs tid. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg har ogs&#229; indtryk af at Apache er en ganske glimrende webserver. </span><br /><span class='citat'>> </span><br /><span class='citat'>> > 3. php skulle have en god underst&#248;ttelse af MySQL </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg tror det du mener er at en del af PHPs funktionsbibliotek er rettet </span><br /><span class='citat'>> direkte imod MySql. Det er ikke mit indtryk at PHP underst&#248;tter MySql </span><br /><span class='citat'>> _bedre_ end andre sprog - det er blot nemmere hvis man ikke kender en </span><br /><span class='citat'>> masse til SQL (ret mig endelig hvis jeg tager fejl). </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg ved nok mindre om det en du g&#248;r, jeg er f&#248;rst lige begyndt p&#229; at l&#230;se </span><br /><span class='normal'>PHP manualen. </span><br /><span class='normal'> </span><br /><span class='citat'>> > 4. MySQL og php er gratis </span><br /><span class='citat'>> </span><br /><span class='citat'>> Se, det er er pudsigt argument. Jeg mener jo at du i dit tilf&#230;lde - hvor </span><br /><span class='citat'>> du har k&#248;bt licensen til Windows XP - ikke har yderligere omkostninger </span><br /><span class='citat'>> forbundet med at anvende fx ASP eller <a href='http://ASP.Net'>ASP.Net</a> (MySql k&#248;rer ogs&#229; glimrende </span><br /><span class='citat'>> p&#229; Windows). Til geng&#230;ld er der en ting du ikke har overvejet. Jvf dine </span><br /><span class='citat'>> licensbetingelser for Windows XP, s&#229; kan du ikke (lovligt) forbinde flere </span><br /><span class='citat'>> end 5 samtidige brugere til din maskine [1]. Dette er en begr&#230;nsning b&#229;de </span><br /><span class='citat'>> i licensen og i selve Windows-softwaren. Du skriver at du vil udvikle </span><br /><span class='citat'>> noget e-handel p&#229; din maskine - men ikke om hvor mange brugere du regner </span><br /><span class='citat'>> med at f&#229; - men hvis du med sikkerhed regner med at f&#229; flere end 5 </span><br /><span class='citat'>> samtidige brugere p&#229; dit site, s&#229; kunne det v&#230;re et argument for at du </span><br /><span class='citat'>> allerede nu overvejede at smide din Apache p&#229; en *Nix-box i stedet. </span><br /><span class='citat'>> Begr&#230;nsningen i Windows er uafh&#230;ngig af hvordan du v&#230;lger at samle dine </span><br /><span class='citat'>> forbindelser (connection-pooling) og om dine brugere tilg&#229;r din Windows- </span><br /><span class='citat'>> boks via Apache. </span><br /><span class='normal'> </span><br /><span class='normal'>Nu er jeg ikke 100% klar over hvordan man benytter connection pooling og om </span><br /><span class='normal'>man blot kan lade v&#230;re med at benytte det, men hvis det bliver et problem s&#229; </span><br /><span class='normal'>skrotter jeg Windows XP og benytter Linux i stedet. Men jeg tror alts&#229; ikke </span><br /><span class='normal'>at jeg f&#229;r nogle problemer her, jeg har en lille server som indtil nu hoster </span><br /><span class='normal'>5 meget sm&#229; dom&#230;ner, nu kommer der s&#229; en lille e-handel side som m&#229;ske med </span><br /><span class='normal'>tiden kan g&#229; hen og blive stor men den tid den sorg og n&#229;r det hele k&#248;rer p&#229; </span><br /><span class='normal'>php, MySQL og Apache s&#229; er det jo let at skifte til Linux. </span><br /><span class='normal'> </span><br /><span class='citat'>> > Mht. 1 s&#229; har jeg det nu bedst med at ikke alt jeg har k&#248;rende er fra </span><br /><span class='citat'>> > Microsoft, men jeg er dog meget glad for min Windows XP som jeg syntes </span><br /><span class='citat'>> > k&#248;rer ganske fint. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Hvis det du &#248;nsker at udvikle er &quot;alle e-handel sites' moder&quot;, s&#229; ville </span><br /><span class='citat'>> jeg personligt v&#230;re forbeholden overfor at bruge webserveren til </span><br /><span class='citat'>> personlig computer (som jeg l&#230;ser det du skriver). </span><br /><span class='normal'> </span><br /><span class='normal'>Nej jeg bruges ikke webserveren til personlig computer. </span><br /><span class='normal'> </span><br /><span class='normal'>Mvh </span><br /><span class='normal'>HK </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3f3f8371%240%2424691%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='php, asp eller hvad'>php, asp eller hvad</a>&nbsp;<small class='newslist'>(17-08-03&nbsp;-&nbsp;Harald)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Coprt1xxrvj3cya22%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(17-08-03&nbsp;-&nbsp;Morten&nbsp;Wulff)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3f3f8d83%240%2424637%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(17-08-03&nbsp;-&nbsp;Harald)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbho3ae%24cae%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(17-08-03&nbsp;-&nbsp;Johan&nbsp;Holst&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3f4125f9%240%2424637%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Harald)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbhr8vr%246g2%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Johan&nbsp;Holst&nbsp;Nielsen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbhr6gu%24mg2%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Kim&nbsp;Bach&nbsp;Petersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbhr81g%24c1%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Johan&nbsp;Holst&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CXns93DBDF1C51049stocholmdk%40130%2E226%2E1%2E34%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Jesper&nbsp;Stocholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbhrbe7%24ig8%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Johan&nbsp;Holst&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CXns93DBE45B49371stocholmdk%40130%2E226%2E1%2E34%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Jesper&nbsp;Stocholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbhrdd4%24t7c%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Johan&nbsp;Holst&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CXns93DBEC4D5E48Estocholmdk%40130%2E226%2E1%2E34%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Jesper&nbsp;Stocholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbhsamh%24sr0%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(19-08-03&nbsp;-&nbsp;Johan&nbsp;Holst&nbsp;Nielsen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3f413ea0%240%2424665%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(18-08-03&nbsp;-&nbsp;Harald)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3CXns93DC54CA4C975stocholmdk%40130%2E226%2E1%2E34%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(19-08-03&nbsp;-&nbsp;Jesper&nbsp;Stocholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3f41dafe%240%2424649%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(19-08-03&nbsp;-&nbsp;Harald)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbht7ke%242s0%241%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(19-08-03&nbsp;-&nbsp;Kim&nbsp;Bach&nbsp;Petersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cbhtj5v%24nei%242%40sunsite%2Edk%3E' title='Re: php, asp eller hvad'>Re: php, asp eller hvad</a>&nbsp;<small class='newslist'>(19-08-03&nbsp;-&nbsp;Johan&nbsp;Holst&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C3f41dafe%240%2424649%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3c3f41dafe$0$24649$edfadb0f@dread14.news.tele.dk%3e' method='post'><p class='pollheader'>Forsøger du at overholde W3Cs standarder i din kodning?</p><div><input type='hidden' name='tst' value='27-09-03 03:56:55' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, altid</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Så vidt det er muligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Hvad er W3Cs standarder?</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp' title='Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling' class='navibox'>dk.edb.internet.webdesign.serverside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: php</span></div>
+
+
+
+</body>
+</html>
+

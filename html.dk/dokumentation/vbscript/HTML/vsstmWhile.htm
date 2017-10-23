@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>While...Wend Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmwhile"></A>While...Wend Statement</H1>
+
+<P>Executes a series of statements as long as a given condition is <B>True</B>.</P>
+
+<P><CODE><B>While</B> <I>condition</I><BR>
+&nbsp;&nbsp;&nbsp;Version [<I>statements</I>]<BR>
+<B>Wend</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>condition</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defnumericexpressionvbs">Numeric</A> or <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> that evaluates to <B>True</B> or <B>False</B>. If <I>condition</I> is <A HREF="vtglossary.htm#defnullvbs">Null</A>, <I>condition</I> is treated as <B>False</B>.</P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>One or more statements executed while condition is <B>True</B>.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>condition</I> is <B>True</B>, all statements in <I>statements</I> are executed until the <B>Wend</B> statement is encountered. Control then returns to the <B>While</B> statement and <I>condition</I> is again checked. If <I>condition</I> is still <B>True</B>, the process is repeated. If it is not <B>True</B>, execution resumes with the statement following the <B>Wend</B> statement. </P>
+
+<P><B>While...Wend</B> loops can be nested to any level. Each <B>Wend</B> matches the most recent <B>While</B>.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>The <B>Do...Loop</B> statement provides a more structured and flexible way to perform looping.</P>
+
+<P>The following example illustrates use of the <B>While...Wend</B> statement: </P>
+
+<PRE><CODE>Dim Counter
+Counter = 0&nbsp;&nbsp;&nbsp;' Initialize variable.
+<span class=cfe><B>While</B></span> Counter &lt; 20&nbsp;&nbsp;&nbsp;' Test value of Counter.
+&nbsp;&nbsp;&nbsp;Counter = Counter + 1&nbsp;&nbsp;&nbsp;' Increment Counter.
+&nbsp;&nbsp;&nbsp;Alert Counter
+<span class=cfe><B>Wend</B></span>&nbsp;&nbsp;&nbsp;' End While loop when Counter &gt; 19.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdo.htm">Do...Loop Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

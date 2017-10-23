@@ -1,0 +1,73 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Server Object</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_server_object"></a>Server Object</h2>
+<p>
+The <b>Server</b> object provides access to methods and properties on the server. Most of these methods and properties serve as utility functions.</p>
+<h4>Syntax </h4>
+<pre><b>Server.</b><i>property|method
+ </i></pre>
+<h4>Properties</h4>
+<table>
+<tr valign=top>
+<td>
+<a href="intr246s.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr246s.htm"><b>ScriptTimeout</b></a></td>
+<td>
+The amount of time that a script can run before it times out.</td>
+</tr>
+</table><br>
+<h4>Methods</h4>
+<table>
+<tr valign=top>
+<td>
+<a href="intr0ss4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr0ss4.htm"><b>CreateObject</b></a></td>
+<td>
+Creates an instance of a server component.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="intr9aat.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr9aat.htm"><b>HTMLEncode</b></a></td>
+<td>
+Applies HTML encoding to the specified string. </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="intr98iw.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr98iw.htm"><b>MapPath</b></a></td>
+<td>
+Maps the specified virtual path, either the absolute path on the current server or the path relative to the current page, into a physical path.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="intr0wkl.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr0wkl.htm"><b>URLEncode</b></a></td>
+<td>
+Applies URL encoding rules, including escape characters, to the string. </td>
+</tr>
+</table><br>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

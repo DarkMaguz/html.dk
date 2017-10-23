@@ -1,0 +1,74 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Browser Capabilities Component</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_browser_capabilities_component"></a>Browser Capabilities Component</h2>
+<p>
+The<b> </b>Browser Capabilities<b> </b>component creates a <b>BrowserType</b> object that provides your scripts with a description of the capabilities of the client's Web browser.</p>
+<p>
+When a browser connects to the Web server, it automatically sends a User Agent HTTP header. This header is an ASCII string that identifies the browser and its version number. The <b>BrowserType </b>object compares the header to entries in the Browscap.ini file. </p>
+<p>
+If it finds a match, the <b>BrowserType </b>object assumes the properties of the browser listing that matched the User Agent header. </p>
+<p>
+If the object does not find a match for the header in the browscap.ini file, it takes on the default browser properties. If the object does not find a match and default browser settings have not been specified in the browscap.ini file, it sets every property to the string &quot;UNKNOWN&quot;. </p>
+<p>
+You can add properties or new browser definitions to this component simply by updating the browscap.ini file.</p>
+<h5>File Names</h5>
+<table>
+<tr valign=top>
+<td>
+browscap.dll</td>
+<td>
+The Browser Capabilities component.</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="comp1g11.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/comp1g11.htm"><b>browscap.ini</b></a></td>
+<td>
+A text file that maps browser capabilities to the HTTP User Agent header. This file must be in the same directory as browscap.dll.</td>
+</tr>
+</table><br>
+<h5>Syntax</h5>
+<pre><b>Set </b><i>BrowserType </i><b>= Server.CreateObject(&quot;MSWC.BrowserType&quot;) </b></pre>
+<h5>Parameters</h5>
+<dl>
+<dt>
+<i>BrowserType </i></dt>
+<dd>
+Specifies the name of the <b>BrowserType </b>object created by the call to <b>Server.CreateObject</b>.</dd>
+</dl>
+<h5>Registry Entries</h5>
+<p>
+None. </p>
+<h5>Example</h5>
+<p>
+The following example uses the <b>BrowserType</b> object to display a table showing some of the capabilities of the current browser. </p>
+<pre>&lt;%  Set bc = Server.CreateObject(&quot;MSWC.BrowserType&quot;) %&gt;  <BR>&lt;table border=1&gt; <BR>&lt;tr&gt;&lt;td&gt;Browser&lt;/td&gt;&lt;td&gt;  &lt;%= bc.browser  %&gt;  <BR>&lt;tr&gt;&lt;td&gt;Version&lt;/td&gt;&lt;td&gt;  &lt;%= bc.version  %&gt;  &lt;/td&gt;&lt;/TR&gt; <BR>&lt;tr&gt;&lt;td&gt;Frames&lt;/td&gt;&lt;td&gt;<BR>&lt;%  if (bc.frames = TRUE) then  %&gt;  TRUE<BR>&lt;%  else  %&gt;  FALSE<BR>&lt;%  end if  %&gt; &lt;/td&gt;&lt;/TR&gt; <BR>&lt;tr&gt;&lt;td&gt;Tables&lt;/td&gt;&lt;td&gt;<BR>&lt;%  if (bc.tables = TRUE) then  %&gt;  TRUE <BR>&lt;%  else  %&gt; FALSE<BR>&lt;%  end if  %&gt; &lt;/td&gt;&lt;/TR&gt; <BR>&lt;tr&gt;&lt;td&gt;BackgroundSounds&lt;/td&gt;&lt;td&gt; <BR>&lt;%  if (bc.BackgroundSounds = TRUE) then  %&gt;  TRUE <BR>&lt;%  else  %&gt; FALSE<BR>&lt;%  end if  %&gt; &lt;/td&gt;&lt;/TR&gt; <BR>&lt;tr&gt;&lt;td&gt;VBScript&lt;/td&gt;&lt;td&gt; <BR>&lt;%  if (bc.vbscript = TRUE) then  %&gt;  TRUE <BR>&lt;%  else  %&gt; FALSE<BR>&lt;%  end if  %&gt; &lt;/td&gt;&lt;/TR&gt; <BR>&lt;tr&gt;&lt;td&gt;JScript&lt;/td&gt;&lt;td&gt; <BR>&lt;%  if (bc.javascript = TRUE) then  %&gt;  TRUE <BR>&lt;%  else  %&gt; FALSE<BR>&lt;%  end if  %&gt; &lt;/td&gt;&lt;/TR&gt; <BR>&lt;/table&gt; 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

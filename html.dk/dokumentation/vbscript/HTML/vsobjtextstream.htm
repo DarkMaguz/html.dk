@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>TextStream Object</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsobjtextstream"></A>TextStream</H1>
+
+<P>Facilitates sequential access to a file.</P>
+
+<H4>Remarks</H4>
+
+<P>In the following code, <CODE>a</CODE> is the <B>TextStream</B> object returned by the <B>CreateTextFile</B> method on the <B>FileSystemObject</B>: </P>
+
+<PRE><CODE>Dim fso, MyFile
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set <span class=cfe><B>MyFile</B></span>= fso.CreateTextFile("c:\testfile.txt", True)
+<span class=cfe><B>MyFile.</B></span>WriteLine("This is a test.")
+MyFile.Close</CODE></PRE>
+
+<P><B>WriteLine</B> and <B>Close</B> are two methods of the <B>TextStream</B> Object. </P>
+
+
+
+<H4><A NAME="vsobjtextstreamp"></A>Properties</H4>
+
+<P><A HREF="vsproatendofline.htm">AtEndOfLine Property</A> | <A HREF="vsproatendofstream.htm">AtEndOfStream Property</A> | <A HREF="vsprocolumn.htm">Column Property</A> | <A HREF="vsproline.htm">Line Property</A></P>
+
+
+
+<H4><A NAME="vsobjtextstreamm"></A>Methods</H4>
+
+<P><A HREF="vsmthclose.htm">Close Method</A> | <A HREF="vsmthread.htm">Read Method</A> | <A HREF="vsmthreadall.htm">ReadAll Method</A> | <A HREF="vsmthreadline.htm">ReadLine Method</A> | <A HREF="vsmthskip.htm">Skip Method</A> | <A HREF="vsmthskipline.htm">SkipLine Method</A> | <A HREF="vsmthwrite.htm">Write Method</A> | <A HREF="vsmthwriteline.htm">WriteLine Method</A> | <A HREF="vsmthwriteblanklines.htm">WriteBlankLines Method</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjdictionary.htm">Dictionary Object</A> | <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

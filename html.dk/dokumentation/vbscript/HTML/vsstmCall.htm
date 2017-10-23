@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Call Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmcall"></A>Call Statement</H1>
+
+<P>Transfers control to a <B>Sub</B> or <B>Function</B> procedure.</P>
+
+<P><CODE>[<B>Call</B>] name [argumentlist]</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>Call</I></P>
+
+<P class=indent>Optional keyword. If specified, you must enclose <I>argumentlist</I> in parentheses. For example:</P>
+
+<P class=indent>Call MyProc(0)</P>
+
+<P class=dt><I>name</I></P>
+
+<P class=indent>Required. Name of the procedure to call.</P>
+
+<P class=dt><I>argumentlist</I></P>
+
+<P class=indent>Optional. Comma-delimited list of variables, <A HREF="vtglossary.htm#defarrayvbs">arrays</A>, or <A HREF="vtglossary.htm#defexpressionvbs">expressions</A> to pass to the procedure. </P>
+
+<H4>Remarks</H4>
+
+<P>You are not required to use the <B>Call</B> keyword when calling a procedure. However, if you use the <B>Call</B> keyword to call a procedure that requires arguments, <I>argumentlist</I> must be enclosed in parentheses. If you omit the <B>Call</B> keyword, you also must omit the parentheses around <I>argumentlist</I>. If you use either <B>Call</B> syntax to call any intrinsic or user-defined function, the function's return value is discarded. </P>
+
+<PRE><CODE><span class=cfe><B>Call</B></span> MyFunction("Hello World")
+Function MyFunction(text)
+&nbsp;&nbsp;&nbsp;MsgBox text
+End Function</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,182 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: udvikler Netscape stadig ?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Stig Nygaard den 23. februar 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: udvikler Netscape stadig ?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="23-02-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C3C779F0A%2E1050006%40rockland%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Stig&nbsp;Nygaard&nbsp;&nbsp;<a href='mailto:stig@rockland.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='stig@rockland.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 23. februar 2002 kl. 15:54</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: udvikler Netscape stadig ?</strong></li></ul>
+
+<p><span class='normal'>Hej Morten </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Morten Lykke Andersen wrote: </span><br /><span class='normal'> > Jeg sidder og er kommet i tvivl om Netscapes aktivitet med hensyn </span><br /><span class='normal'> > til udvikling af browsere. </span><br /><span class='normal'> > Udvikler Netscape stadig browsere, eller er de stoppet ? </span><br /><span class='normal'> </span><br /><span class='normal'>Det g&#248;r de bestemt, og Netscape 6.21 (dec.2001) er teknisk set nok den </span><br /><span class='normal'>bedste browser p&#229; markedet i dag (ja jeg ved godt der sikkert er nogen </span><br /><span class='normal'>der ikke er enige, men det er i hvert fald min mening). Specielt hvad </span><br /><span class='normal'>ang&#229;r underst&#248;ttelse af W3C (b&#229;de HTML, CSS, DOM, mm) standarder er den </span><br /><span class='normal'>klart foran IE. </span><br /><span class='normal'> </span><br /><span class='normal'>Ok, Netscape's 6.x serie bygger p&#229; Mozilla, s&#229; i virkeligheden er det </span><br /><span class='normal'>vel nyeste version af d&#233;n som er f&#248;rende (Nyeste Mozilla er version </span><br /><span class='normal'>0.9.8.  Netscape 6.2x bygger p&#229; Mozilla 0.9.4), men lad os nu holde os </span><br /><span class='normal'>til de rimelig kendte browsere for en nemheds skyld... </span><br /><span class='normal'> </span><br /><span class='normal'>N&#230;ste version af Netscape forventes til for&#229;r/sommer, og kommer </span><br /><span class='normal'>formodentlig til at hedde Netscape 6.5 (og vil nok bygge p&#229; Mozilla </span><br /><span class='normal'>version 1.0). </span><br /><span class='normal'> </span><br /><span class='normal'>Det der har har skabt forvirring omkring Netscapes fremtid er nok den </span><br /><span class='normal'>udmelding firmaet kom med for et halvt &#229;r siden, der sagde at firmaet </span><br /><span class='normal'>snart ikke mere ville v&#230;re kendt som et &quot;browser-firma&quot;. Det blev </span><br /><span class='normal'>misforst&#229;et mange steder som at Netscape stoppede udviklingen af deres </span><br /><span class='normal'>browser, selvom det de i virkeligheden bare mente var at de ogs&#229; ville </span><br /><span class='normal'>profilere sig p&#229; andre omr&#229;der (ligesom Microsoft jo heller ikke er </span><br /><span class='normal'>kendt som et &quot;browser-firma&quot;). </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis nu bare udviklere ville kode efter standarderne, s&#229; alle websider </span><br /><span class='normal'>virker i Netscape 6.x. Der er desv&#230;rre mange sites der endnu ikke k&#248;rer </span><br /><span class='normal'>i Netscape 6.x, f.eks. min netbank <img src='/site/graphics/smileys/smiley2.gif' alt=':-(' /> Det er typisk DHTML sites der er </span><br /><span class='normal'>problemer med, og det er vist prim&#230;rt fordi udviklerne ikke har fundet </span><br /><span class='normal'>ud af at bruge W3C funktionerne document.getElementById(), </span><br /><span class='normal'>document.getElementsByName() og document.getElementsByTagName() i stedet </span><br /><span class='normal'>for document.all[] og document.layers[]. N&#230;vnte W3C funktioner er </span><br /><span class='normal'>underst&#248;ttet af browsere som. Internet Explorer 5+, Netscape 6+, Opera </span><br /><span class='normal'>5+, Konqueror 2+, Mozilla, K-Meleon, Galeon og flere. Kun hvis bagud </span><br /><span class='normal'>kompatibilitet med Internet Explorer 4 og Netscape 4.x er p&#229;kr&#230;vet </span><br /><span class='normal'>beh&#248;ver man at bruge de gamle document.all[] og document.layers[] </span><br /><span class='normal'>arrays. Desv&#230;rre er der mange der stadig KUN koder til document.all[] og </span><br /><span class='normal'>document.layers[], og m&#229;ske er de slet ikke klar over at Netscape 6.x </span><br /><span class='normal'>IKKE er bagud kompatibel med document.layers fra Netscape 4.x ?! </span><br /><span class='normal'> </span><br /><span class='normal'>N&#229;, nok om det <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Mvh. Stig </span><br /><span class='normal'><a href='http://stig@rockland.dk'>stig@rockland.dk</a> </span><br /><span class='normal'>* Bedre (D)HTML ? --> <a href='http://www.rockland.dk/stig/upghtml.html'>http://www.rockland.dk/stig/upghtml.html</a> * </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Ca530fu%242nf%241%40sunsite%2Edk%3E' title='udvikler Netscape stadig ?'>udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(21-02-02&nbsp;-&nbsp;Morten&nbsp;Lykke&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cqv7d7u4emfp0c55ivp5ftajkmorcdfmnav%40dtext%2Enews%2Etele%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(22-02-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C22ue7u0b2i3oie4muljg7a7h01h54ri2me%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns91BEBEDC9966Bhstidsen%40212%2E54%2E64%2E135%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMPG%2E16e21b132acc13189896c4%40sunsite%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Rune&nbsp;Glerup)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Ccp5g7u4jkem438spskf65fsgiplv6nt1ra%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C20020226194255%2E680a67c3%2Ekim%40schulz%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(26-02-02&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cqv7d7u4emfp0c55ivp5ftajkmorcdfmnav%40dtext%2Enews%2Etele%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(22-02-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C22ue7u0b2i3oie4muljg7a7h01h54ri2me%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns91BEBEDC9966Bhstidsen%40212%2E54%2E64%2E135%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMPG%2E16e21b132acc13189896c4%40sunsite%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Rune&nbsp;Glerup)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Ccp5g7u4jkem438spskf65fsgiplv6nt1ra%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C20020226194255%2E680a67c3%2Ekim%40schulz%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(26-02-02&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3C779F0A%2E1050006%40rockland%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Stig&nbsp;Nygaard)</small></li></ul></li></ul><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Ca530fu%242nf%241%40sunsite%2Edk%3E' title='udvikler Netscape stadig ?'>udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(21-02-02&nbsp;-&nbsp;Morten&nbsp;Lykke&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cqv7d7u4emfp0c55ivp5ftajkmorcdfmnav%40dtext%2Enews%2Etele%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(22-02-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C22ue7u0b2i3oie4muljg7a7h01h54ri2me%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns91BEBEDC9966Bhstidsen%40212%2E54%2E64%2E135%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMPG%2E16e21b132acc13189896c4%40sunsite%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Rune&nbsp;Glerup)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Ccp5g7u4jkem438spskf65fsgiplv6nt1ra%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C20020226194255%2E680a67c3%2Ekim%40schulz%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(26-02-02&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cqv7d7u4emfp0c55ivp5ftajkmorcdfmnav%40dtext%2Enews%2Etele%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(22-02-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C22ue7u0b2i3oie4muljg7a7h01h54ri2me%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CXns91BEBEDC9966Bhstidsen%40212%2E54%2E64%2E135%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMPG%2E16e21b132acc13189896c4%40sunsite%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Rune&nbsp;Glerup)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Ccp5g7u4jkem438spskf65fsgiplv6nt1ra%404ax%2Ecom%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Jens&nbsp;Peter&nbsp;Karlsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C20020226194255%2E680a67c3%2Ekim%40schulz%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(26-02-02&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3C779F0A%2E1050006%40rockland%2Edk%3E' title='Re: udvikler Netscape stadig ?'>Re: udvikler Netscape stadig ?</a>&nbsp;<small class='newslist'>(23-02-02&nbsp;-&nbsp;Stig&nbsp;Nygaard)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C3C779F0A%2E1050006%40rockland%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html_125x125'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_anim.gif' alt='Link til IT-Jobank' /></a>
+<br /><br />
+<!--
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3c3C779F0A.1050006@rockland.dk%3e' method='post'><p class='pollheader'>Hvad synes du om forbruger­- ombudsmandens forslag om at forbyde visse typer annoncer på internettet?</p><div><input type='hidden' name='tst' value='30-11-02 22:09:11' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;God idé</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Dårlig idé</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: udvikler Netscape stadig ?</span></div>
+
+
+
+</body>
+</html>
+

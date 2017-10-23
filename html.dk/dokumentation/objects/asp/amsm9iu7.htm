@@ -1,0 +1,158 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>AddressEntry Object (CDONTS Library)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_denali_addressentry_object_cdonts_library_"></a>AddressEntry Object (CDONTS Library)</h2>
+<p>
+The AddressEntry object defines addressing information valid for a given messaging system. </p>
+<h4>At a Glance </h4>
+<table>
+<tr valign=top>
+<td>
+Specified in type library: </td>
+<td>
+CDONTS.DLL </td>
+</tr>
+<tr valign=top>
+<td>
+First available in: </td>
+<td>
+CDO for NTS Library version 1.2 </td>
+</tr>
+<tr valign=top>
+<td>
+Parent objects: </td>
+<td>
+<a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> (obtainable through <a href="amsm4y1r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4y1r.htm"><b>Sender</b></a> property of Message object) </td>
+</tr>
+<tr valign=top>
+<td>
+Child objects: </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+Default property: </td>
+<td>
+<a href="amsm1x0f.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1x0f.htm"><b>Name</b></a> </td>
+</tr>
+</table><br>
+<h4>Properties </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Type </b></td>
+<td>
+<b> <BR>Access </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm49y7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm49y7.htm"><b>Address</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String</td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm23rz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm23rz.htm"><b>Application</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm1x0f.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm1x0f.htm"><b>Name</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String</td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8snz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8snz.htm"><b>Parent</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Message object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6iov.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6iov.htm"><b>Session</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Session object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm19b3.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm19b3.htm"><b>Type</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String</td>
+<td>
+Read-only </td>
+</tr>
+</table><br>
+<h4>Methods </h4>
+<p>
+(None.) </p>
+<h4>Remarks </h4>
+<p>
+An address usually represents a person or process to which the messaging system can deliver messages. </p>
+<p>
+The AddressEntry object is only available through the <a href="amsm4y1r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4y1r.htm"><b>Sender</b></a> property of a <a href="amsm3odb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3odb.htm">Message</a> object. It is used to obtain the sender's name, e-mail address, and address type for use in constructing a new <a href="amsm50nz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm50nz.htm">Recipient</a> object on an outbound message. </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

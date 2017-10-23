@@ -1,0 +1,211 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>FlashMX - &#230;&#248;&#229;&#198;&#216;&#197; mangler. (bruger eksterne *.as og *.xml)</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.flash skrevet af Flemming Frederiksen den 17. juni 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="FlashMX - &#230;&#248;&#229;&#198;&#216;&#197; mangler. (bruger eksterne *.as og *.xml)" />
+<meta name="language" content="dan" />
+<meta name="Date" content="17-06-2004" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=884833931923?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.flash</h1><p>Gruppen er til spørgsmål/diskussion af de problemer, der opstår ved fremstillingen af hjemmesider med flash</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?mode=form&amp;ReplyID=%3C40d179fc%240%24300%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp'>dk.edb.internet.webdesign.flash</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Flemming&nbsp;Frederiksen&nbsp;&nbsp;<a href='mailto:faf@NOSPAMimage.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='faf@NOSPAMimage.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Totalloesninger</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 17. juni 2004 kl. 13:01</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>FlashMX - &#230;&#248;&#229;&#198;&#216;&#197; mangler. (bruger eksterne *.as og *.xml)</strong></li></ul>
+
+<p><span class='normal'>Hej </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg arbejder p&#229; en lille quiz, hvor sp&#248;rgsm&#229;lene bliver hentet ind via et XML dokument. </span><br /><span class='normal'> </span><br /><span class='normal'>Desv&#230;rre kan jeg ikke f&#229; &#230;&#248;&#229; frem i test movie, eller export. Er der noget jeg har overset? </span><br /><span class='normal'> </span><br /><span class='normal'>Her er mit XML dokument: (mQuiz2.xml) </span><br /><span class='normal'>------------start---------------- </span><br /><span class='normal'>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;MainElement> </span><br /><span class='normal'> </span><br /><span class='normal'> &lt;Question answer=&quot;B&quot; Value=&quot;1. Hvilket PRINCE2-produkt anvendes til at definere den information, der berettiger start, forts&#230;ttelse eller afslutning af et projekt? &quot;>  </span><br /><span class='normal'>  &lt;Answers value=&quot;Projektinitieringsdokumentet&quot;/> </span><br /><span class='normal'>  &lt;Answers value=&quot;Business Casen&quot;/> </span><br /><span class='normal'>  &lt;Answers value=&quot;Godkendelse af faseafslutning&quot;/> </span><br /><span class='normal'>  &lt;Answers value=&quot;Projektgrundlaget&quot;/> </span><br /><span class='normal'> &lt;/Question> </span><br /><span class='normal'>  </span><br /><span class='normal'> &lt;Question answer=&quot;D&quot; Value=&quot;2. Hvilket produkt holder styr p&#229; &#198;ndrings&#248;nsker? &quot;> </span><br /><span class='normal'>  &lt;Answers value=&quot;Loggen for &#198;ndrings&#248;nsker&quot;/> </span><br /><span class='normal'>  &lt;Answers value=&quot;Dagbogen&quot;/> </span><br /><span class='normal'>  &lt;Answers value=&quot;Kvalitetsloggen&quot;/> </span><br /><span class='normal'>  &lt;Answers value=&quot;Emneloggen&quot;/> </span><br /><span class='normal'> &lt;/Question> </span><br /><span class='normal'> </span><br /><span class='normal'>osv... </span><br /><span class='normal'>-------------slut--------------- </span><br /><span class='normal'> </span><br /><span class='normal'>Har pr&#248;vet b&#229;de UTF-8, UTF-16, ISO-8859-1, mm, men ingen held. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Her er ActionScript dokumentet: (myQuiz.as) </span><br /><span class='normal'>------------start---------------- </span><br /><span class='normal'> </span><br /><span class='normal'>_global.XMLfileName=&quot;mQuiz2.xml&quot; //global variable for XML filename  </span><br /><span class='normal'> </span><br /><span class='normal'>//---function for intialising quiz starts................ </span><br /><span class='normal'>function init()  </span><br /><span class='normal'>{ </span><br /><span class='normal'> </span><br /><span class='normal'>//variable decleration section................ </span><br /><span class='normal'> arrQuestions=new Array();  //array for questions  </span><br /><span class='normal'> quizCounter=0;      //variable for question no tracking  </span><br /><span class='normal'> score=0,attempt=0;         //variable for score and attempt tracking  </span><br /><span class='normal'> totalQuestion=0;     //variable for Total no of question  in xml </span><br /><span class='normal'> answer='';                 //answer value for current question  </span><br /><span class='normal'> ansExplain='';             //answer explaination for current question  </span><br /><span class='normal'> popupTxt=''       //Feedback for current question </span><br /><span class='normal'> myXML;                     //xml variable for XML object </span><br /><span class='normal'> _global.arrMcQuiz=new Array() //array for quiz elemnts attaching dynamically </span><br /><span class='normal'>//variable decleration section................ </span><br /><span class='normal'> </span><br /><span class='normal'> myXML=new XML();         //Declaring XML type variable </span><br /><span class='normal'> myXML.ignoreWhite = true; //ignoring  white space </span><br /><span class='normal'> myXML.load(_global.XMLfileName)  //loading xml from XML file </span><br /><span class='normal'> </span><br /><span class='normal'> myXML.onLoad=function(success) //checking success for loading </span><br /><span class='normal'> { </span><br /><span class='normal'>  if(success) </span><br /><span class='normal'>  { </span><br /><span class='normal'>   initXML(); //calling intiXML function </span><br /><span class='normal'>  } </span><br /><span class='normal'> </span><br /><span class='normal'> } </span><br /><span class='normal'> btn_next.onRelease=nextQ; </span><br /><span class='normal'>} </span><br /><span class='normal'>//---function for intialising quiz ends................ </span><br /><span class='normal'>init(); </span><br /><span class='normal'> </span><br /><span class='normal'>function initXML() </span><br /><span class='normal'>{ </span><br /><span class='normal'>totalQuestion=myXML.childNodes[0].childNodes.length; //total no of questions </span><br /><span class='normal'>generateQ(); //calling generate question </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>function generateQ() </span><br /><span class='normal'>{ </span><br /><span class='normal'>// trace(myXML) </span><br /><span class='normal'> var myNode=myXML.childNodes[0]; //storing node refrence in variable </span><br /><span class='normal'> answer=myNode.childNodes[quizCounter].attributes.answer; //storing current answer value </span><br /><span class='normal'> questionTxt.text=myNode.childNodes[quizCounter].attributes.Value; //storing current question </span><br /><span class='normal'> var arrABC=['A','B','C','D','E'] //array of option of answer (assumed max options will be 5 i.e can increase options in each question just add other values in array) </span><br /><span class='normal'> var nodeLen=myNode.childNodes[quizCounter].childNodes.length; //no of options avilable for current question </span><br /><span class='normal'> </span><br /><span class='normal'> for(var i=0;i&lt;nodeLen;i++) //looping through current question answer Options </span><br /><span class='normal'> { </span><br /><span class='normal'>  arrMcQuiz[i]=this.dummy_mc.attachMovie('ansRow','Q'+i,i) //attaching row from library </span><br /><span class='normal'>  arrMcQuiz[i]._y=arrMcQuiz[i-1]._y+arrMcQuiz[i-1]._height+15; //setting y of each row </span><br /><span class='normal'>  arrMcQuiz[i].myBox.multiline=true;                          //setting property of textfield to multiline </span><br /><span class='normal'>  if(answer==arrABC[i])   //if answer matches a option then store explaination in ansExplain variable </span><br /><span class='normal'>  { </span><br /><span class='normal'>   ansExplain=myNode.childNodes[quizCounter].childNodes[i].attributes.value; </span><br /><span class='normal'>  } </span><br /><span class='normal'>  arrMcQuiz[i].myBox.autosize=true;  //setting property of textfield to autosize </span><br /><span class='normal'>  arrMcQuiz[i].myBox.text=arrABC[i] +'. '+(myNode.childNodes[quizCounter].childNodes[i].attributes.value)//setting text in answer row template attached </span><br /><span class='normal'> </span><br /><span class='normal'>  arrMcQuiz[i].noTxt.text=arrABC[i]; //stroing ref of row in small textbox </span><br /><span class='normal'>  arrMcQuiz[i].chk.gotoAndStop(1); //making all custom checkbox to off stage </span><br /><span class='normal'> </span><br /><span class='normal'>  arrMcQuiz[i].chk.onRelease=function() //adding event to each checkbox and associating result function on click </span><br /><span class='normal'>  { </span><br /><span class='normal'>   result(this); </span><br /><span class='normal'>  } </span><br /><span class='normal'>  updateAfterEvent(); //updating all stuff if req. </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'>  attempt++; //adding one in attempt </span><br /><span class='normal'>  scoreTxt.text=attempt +&quot; / &quot;+totalQuestion; //diplaying score </span><br /><span class='normal'>} </span><br /><span class='normal'>//----------------------------------------------------------------------- </span><br /><span class='normal'> </span><br /><span class='normal'>//--Result function for diplaying the feedback of current question </span><br /><span class='normal'>function result(param) </span><br /><span class='normal'>{ </span><br /><span class='normal'> var optionClicked=param._parent.noTxt.text; //passing option checked by getting through small text field in row template </span><br /><span class='normal'> param.gotoAndStop(2); //clicking that particular checkbox </span><br /><span class='normal'> </span><br /><span class='normal'> popupTxt='' //making empty this variable </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> if(answer==optionClicked) //checking for correct answer.. </span><br /><span class='normal'> { </span><br /><span class='normal'>  popupTxt=&quot;Rigtigt!&quot;+newline+newline+&quot;Du f&#229;r 1 Point.&quot; </span><br /><span class='normal'>  popupColor=0x006600 //setting color </span><br /><span class='normal'>  popupTxtExp='' </span><br /><span class='normal'>  score++; //adding score if success </span><br /><span class='normal'>  scoreFinalTxt.text=score*1;  </span><br /><span class='normal'> } </span><br /><span class='normal'> else </span><br /><span class='normal'> { </span><br /><span class='normal'>  popupTxt=&quot;Desv&#230;rre! Det er forkert.&quot;+newline+newline+&quot;Det rigtige svar er &quot;+answer </span><br /><span class='normal'>  popupTxtExp=ansExplain; //if wrong setting explaination </span><br /><span class='normal'>  popupColor=0xff0000//setting color </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'> this.myPop.gotoAndPlay(2); //showing feedback movie  </span><br /><span class='normal'>} </span><br /><span class='normal'>//------------------------------------------------------------------------- </span><br /><span class='normal'>//This fucntion is called from next button clicked on movie appeared when feedback movie comes </span><br /><span class='normal'>_global.nextQ=function() </span><br /><span class='normal'>{ </span><br /><span class='normal'> </span><br /><span class='normal'> quizCounter=quizCounter+1;  //quiz main counter for counting current question in parsing node </span><br /><span class='normal'> </span><br /><span class='normal'> for(var i=0;i&lt;arrMcQuiz.length;i++) //looping through array to removing clips </span><br /><span class='normal'> { </span><br /><span class='normal'>  arrMcQuiz[i].removeMovieClip(); </span><br /><span class='normal'> } </span><br /><span class='normal'>  </span><br /><span class='normal'> if(quizCounter&lt;totalQuestion)//if current question &lt; total question then generate next question </span><br /><span class='normal'> { </span><br /><span class='normal'>  generateQ();  </span><br /><span class='normal'> } </span><br /><span class='normal'> else //IF limit reached to final node then show all results in new movie clips </span><br /><span class='normal'> { </span><br /><span class='normal'>  quizCounter=totalQuestion;  </span><br /><span class='normal'>  var res; </span><br /><span class='normal'>  if(score&lt;2){res='L&#230;s venligst manualen.'}else{res=''} </span><br /><span class='normal'>  finalPopText=&quot;Du fik &quot;+ score +&quot; rigtige svar ud af &quot;+attempt+newline+ &quot;Din score er &quot;+(score*1)+&quot; point.&quot;+newline+newline+res; </span><br /><span class='normal'>  finalPop_mc.gotoAndPlay(2) </span><br /><span class='normal'>  arrMcQuiz=new Array()   </span><br /><span class='normal'>  break; </span><br /><span class='normal'> } </span><br /><span class='normal'>} </span><br /><span class='normal'>-------------slut--------------- </span><br /><span class='normal'> </span><br /><span class='normal'>Tak for hj&#230;lpen. </span><br /><span class='normal'> </span><br /><span class='normal'>/FAF </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?messageid=%3C40d179fc%240%24300%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='FlashMX - &#230;&#248;&#229;&#198;&#216;&#197; man...'>FlashMX - &#230;&#248;&#229;&#198;&#216;&#197; man...</a>&nbsp;<small class='newslist'>(17-06-2004&nbsp;-&nbsp;Flemming&nbsp;Frederiksen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?messageid=%3C7shAc%2E14575%24Vf%2E811692%40news000%2Eworldonline%2Edk%3E' title='Re: FlashMX - &#230;&#248;&#229;&#198;&#216;&#197;...'>Re: FlashMX - &#230;&#248;&#229;&#198;&#216;&#197;...</a>&nbsp;<small class='newslist'>(17-06-2004&nbsp;-&nbsp;Flashfactor&nbsp;v/Michael&nbsp;Jensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?messageid=%3C40d2e6c4%240%24272%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' title='Re: FlashMX - &#230;&#248;&#229;&#198;&#216;&#197;...'>Re: FlashMX - &#230;&#248;&#229;&#198;&#216;&#197;...</a>&nbsp;<small class='newslist'>(18-06-2004&nbsp;-&nbsp;Flemming&nbsp;Frederiksen)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?mode=form&amp;ReplyID=%3C40d179fc%240%24300%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp'>dk.edb.internet.webdesign.flash</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=664571106434?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp?messageid=%3C40d179fc%240%24300%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E' method='post'><p class='pollheader'>Følger du med i nyhedsgrupperne her på HTML.dk?</p><div><input type='hidden' name='tst' value='30-06-2004 12:00:46' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_flash/Default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer' class='navibox'>dk.edb.internet.webdesign.flash</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: FlashMX - &#230;&#248;&#229;&#198;&#216;&#197;...</span></div>
+
+
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  bw = document.body.clientWidth;
+  bh = document.body.clientHeight;				
+} else {
+  bw = window.innerWidth;
+  bh = window.innerHeight;    
+}
+sw  = screen.width
+sh = screen.height
+document.write ('<img height="1" width="1" ')
+document.write ('src="survey.asp?bw=' + bw + '&bh=' + bh + '&sh=' + sh + '&sw=' + sw + '&site=HTML.dk">')
+
+// Slut -->
+</script>
+
+
+</body>
+</html>
+

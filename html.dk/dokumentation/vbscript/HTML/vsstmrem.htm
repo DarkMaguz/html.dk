@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Rem Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmrem"></A>Rem Statement</H1>
+
+<P>Includes explanatory remarks in a program.</P>
+
+<P><CODE><B>Rem</B> comment</CODE></P>
+
+<P>-or-</P>
+
+<P><CODE><B>'</B> comment</CODE></P>
+
+<P>The <I>comment</I> argument is the text of any comment you want to include. After the <B>Rem</B> keyword, a space is required before <I>comment</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>As shown in the syntax section, you can use an apostrophe (<B>'</B>) instead of the <B>Rem</B> keyword. If the <B>Rem</B> keyword follows other statements on a line, it must be separated from the statements by a colon. However, when you use an apostrophe, the colon is not required after other statements.</P>
+
+<P>The following example illustrates the use of the <B>Rem</B> statement. </P>
+
+<PRE><CODE>Dim MyStr1, MyStr2
+MyStr1 = "Hello" <span class=cfe><B>: Rem</B></span> Comment after a statement separated by a colon.
+MyStr2 = "Goodbye"&nbsp;<span class=cfe><B>'</B></span> This is also a comment; no colon is needed.
+<span class=cfe><B>Rem</B></span> Comment on a line with no code; no colon is needed.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,182 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: DropDown/FoldeUd-menu</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.frontpage skrevet af Arne Hertzsprung Wilstrup den 29. april 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: DropDown/FoldeUd-menu" />
+<meta name="language" content="dan" />
+<meta name="Date" content="29-04-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.frontpage</h1><p>Nyhedsgruppen er til diskussion af problemer, der er ved at fremstille og publicere websider ved brug af produktet Microsoft FrontPage samt diverse WebServere med FrontPage-extensions. Gruppen er ikke beregnet til reklame for produktet, egne websider og lign.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form&amp;ReplyID=%3C3ccdc854%240%2449204%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp'>dk.edb.internet.webdesign.frontpage</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Arne&nbsp;Hertzsprung&nbsp;Wilstrup&nbsp;&nbsp;<a href='mailto:ahw@ahw.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='ahw@ahw.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 30. april 2002 kl. 00:25</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: DropDown/FoldeUd-menu</strong></li></ul>
+
+<p><span class='normal'>&quot;Helle Skals&quot; &lt;<a href='http://heskpe@kbhamt.dk'>heskpe@kbhamt.dk</a>> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:aajgjk$8b8$1@sunsite.dk'>news:aajgjk$8b8$1@sunsite.dk</a>... </span><br /><span class='citat'>> Camilla Scharff wrote in dk.edb.internet.webdesign.frontpage: </span><br /><span class='citat'>> > &quot;Helle Skals&quot; &lt;<a href='http://heskpe@kbhamt.dk'>heskpe@kbhamt.dk</a>> skrev... </span><br /><span class='citat'>> > > <a href='http://www.pedalklubben.dk'>www.pedalklubben.dk</a> er lige pr&#230;cis hvad jeg &#248;nsker mig. </span><br /><span class='citat'>> > > S&#229; hvis du har lidt mere tid til at hj&#230;lpe ville jeg blive GLAD! </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > Hej Helle </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > Det kan godt v&#230;re, at det er mig, der er blind - men menu'en p&#229; </span><br /><span class='citat'>> > <a href='http://pedalklubben.dk'>pedalklubben.dk</a> bliver da ikke foldet ud nogen steder...?! </span><br /><span class='citat'>> > Det er bare et billede med hotspots til links (andre html-sider). </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > Mvh. Camilla </span><br /><span class='citat'>> > </span><br /><span class='normal'> </span><br /><span class='normal'>All right - hvis du har FrontPage 2002 kan det g&#248;res (det kan ogs&#229; g&#248;res i </span><br /><span class='normal'>FrontPage 2000, men der er nogle ulemper ved det, som ikke ser ud til at </span><br /><span class='normal'>v&#230;re de samme som i FP2002. </span><br /><span class='normal'>Jeg har sakset fra hj&#230;lpemenuen i FP 2002 - og tilf&#248;jet noget her: </span><br /><span class='normal'>Oprette en disposition eller en opstilling i flere niveauer </span><br /><span class='normal'>  1.. Placer inds&#230;tningspunktet p&#229; det sted i sidevisning, du vil oprette en </span><br /><span class='normal'>disposition. </span><br /><span class='normal'>  2.. Klik p&#229; Punktopstilling i menuen Formater, og klik derefter p&#229; fanen </span><br /><span class='normal'>Tal og bogstaver. </span><br /><span class='normal'>  3.. Klik i boksen med den typografi for tal eller bogstaver, du vil </span><br /><span class='normal'>begynde med, og klik p&#229; OK. </span><br /><span class='normal'>  4.. Skriv punktet, og tryk derefter p&#229; ENTER for hvert punkt, der skal med </span><br /><span class='normal'>i dispositionen, uanset niveauet. </span><br /><span class='normal'>  5.. Tryk to gange p&#229; ENTER for at afslutte opstillingen, n&#229;r du har </span><br /><span class='normal'>skrevet det sidste punkt. </span><br /><span class='normal'>  6.. Benyt en af f&#248;lgende fremgangsm&#229;der for at placere de enkelte punkter </span><br /><span class='normal'>p&#229; det korrekte niveau: </span><br /><span class='normal'>    a.. Marker punkterne, og klik derefter to gange p&#229; For&#248;g indrykning  for </span><br /><span class='normal'>at flytte punkter ned p&#229; n&#230;ste nummererede niveau. </span><br /><span class='normal'>    b.. Marker punkterne, og klik derefter &#233;n gang p&#229; For&#248;g indrykning  for </span><br /><span class='normal'>at formatere punkter som et afsnit p&#229; det aktuelle niveau. </span><br /><span class='normal'>    c.. Marker punkterne, og klik derefter en eller flere gange p&#229; Formindsk </span><br /><span class='normal'>indrykning  for at flytte punkter op p&#229; det forrige niveau. </span><br /><span class='normal'>  7.. Marker et punkt p&#229; et niveau eller underniveau, h&#248;jreklik, og klik </span><br /><span class='normal'>derefter p&#229; Egenskaber for punktopstilling i genvejsmenuen for at anvende </span><br /><span class='normal'>typografier for tal, bogstaver eller punkttegn p&#229; de forskellige niveauer. </span><br /><span class='normal'>  8.. Klik i boksen med den typografi, der skal anvendes, under fanen Tal og </span><br /><span class='normal'>bogstaver. </span><br /><span class='normal'> </span><br /><span class='normal'> Men jeg vil gerne tilf&#248;je noget: n&#229;r du g&#229;r ind i menuen efter nr. 2, s&#229; </span><br /><span class='normal'>v&#230;lg med det samme at s&#230;tte hak i boksen &quot;skjul som standard&quot; - du kan ikke </span><br /><span class='normal'>g&#248;re det efterf&#248;lgende. S&#230;t ogs&#229; hak i &quot;tillad dispositioner som kan </span><br /><span class='normal'>skjules. Derefter kan  du f&#248;lge ovenst&#229;ende. </span><br /><span class='normal'> </span><br /><span class='normal'>Du vil ikke umiddelbart kunne se resultatet i FrontPage redigeringen: f&#248;rst </span><br /><span class='normal'>n&#229;r du gemmer det og udgiver det via en browser, vil du kunne se forskellen. </span><br /><span class='normal'>Med andre ord: pr&#248;v at f&#248;lge ovenst&#229;ende slavisk (og omhyggeligt, men blot </span><br /><span class='normal'>med den ene tilf&#248;jelse, som jeg har skrevet),&#180;s&#229; vil du kunne lave en masse </span><br /><span class='normal'>folde-ud-menuer. Du kan s&#229; give dem et link, og de vil s&#229; kunne henvise til </span><br /><span class='normal'>de sider, du &#248;nsker at de skal henvise til. </span><br /><span class='normal'> </span><br /><span class='normal'>Men - for der er desv&#230;rre et MEN - jeg har i FP 2000 fors&#248;gt det samme, og </span><br /><span class='normal'>det virkede da nogenlunde, men kun hvis man anvendte temaer. </span><br /><span class='normal'>(tilsyneladende). I FrontPage 2002 er fanen Almindelige punkttegn ikke </span><br /><span class='normal'>tilg&#230;ngelig, hvis man anvender temaer. </span><br /><span class='normal'>Det andet MEN er at det fungerede fint i MSIE, men ikke i Netscape - i hvert </span><br /><span class='normal'>fald ikke umiddelbart. </span><br /><span class='normal'>Og derfor er det, jeg tidligere har sagt, at du kan anvende java eller </span><br /><span class='normal'>javascript. </span><br /><span class='normal'> </span><br /><span class='normal'>Pr&#248;v at se p&#229; f&#248;lgende: <a href='http://www.matt.dk'>www.matt.dk</a> - her vil du finde folde-ud-menu, der er </span><br /><span class='normal'>lavet dels med javascript, dels med java- Du kan ikke se scriptet med mindre </span><br /><span class='normal'>du henter siden ind i FrontPage. </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Med venlig hilsen </span><br /><span class='normal'>Arne H. Wilstrup </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Ca9jjnn%24ksl%241%40sunsite%2Edk%3E' title='DropDown/FoldeUd-menu'>DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(17-04-02&nbsp;-&nbsp;Helle&nbsp;Skals)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C1ef5e8b196465e93c8c429b10845134d%2E24903%40mygate%2Emailgate%2Eorg%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(18-04-02&nbsp;-&nbsp;Henrik&nbsp;Jensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Caa0bhq%242er%241%40sunsite%2Edk%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(22-04-02&nbsp;-&nbsp;Helle&nbsp;Skals)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C9472adf27fc190546f09094dea5fa3b4%2E24903%40mygate%2Emailgate%2Eorg%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(22-04-02&nbsp;-&nbsp;Henrik&nbsp;Jensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Ce5580e5a%2E0204231335%2E5798a4d3%40posting%2Egoogle%2Ecom%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(23-04-02&nbsp;-&nbsp;Alan&nbsp;Malligsen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Caa9bch%243tg%241%40news%2Ecybercity%2Edk%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(25-04-02&nbsp;-&nbsp;Camilla&nbsp;Scharff)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3cc83239%240%2478798%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(25-04-02&nbsp;-&nbsp;Arne&nbsp;Hertzsprung&nbsp;Wilstrup)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3Caajgjk%248b8%241%40sunsite%2Edk%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(29-04-02&nbsp;-&nbsp;Helle&nbsp;Skals)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3C3ccdc854%240%2449204%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: DropDown/FoldeUd-menu'>Re: DropDown/FoldeUd-menu</a>&nbsp;<small class='newslist'>(29-04-02&nbsp;-&nbsp;Arne&nbsp;Hertzsprung&nbsp;Wilstrup)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form&amp;ReplyID=%3C3ccdc854%240%2449204%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp'>dk.edb.internet.webdesign.frontpage</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+
+<!--
+<a href='http://www.wannafind.dk/job/1.asp'><img src='/site/graphics/sponsorater/wannafind.gif' height="60" width="125" alt='Jobannonce' /></a>
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp?messageid=%3c3ccdc854$0$49204$edfadb0f@dspool01.news.tele.dk%3e' method='post'><p class='pollheader'>Hvad synes du om forbruger­- ombudsmandens forslag om at forbyde visse typer annoncer på internettet?</p><div><input type='hidden' name='tst' value='15-11-02 11:34:45' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;God idé</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Dårlig idé</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_frontpage/default.asp' title='Nyhedsgruppen er til diskussion af problemer' class='navibox'>dk.edb.internet.webdesign.frontpage</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: DropDown/FoldeUd-menu</span></div>
+
+
+
+</body>
+</html>
+

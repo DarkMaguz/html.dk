@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>GetObject Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctgetobject"></A>GetObject Function</H1>
+
+<P>Returns a reference to an <A HREF="vtglossary.htm#defautomationvbs">Automation object</A> from a file. </P>
+
+<P><CODE><B>GetObject(</B>[<I>pathname</I>] [<B>,</B> <I>class</I>]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>pathname</I></P>
+
+<P class=indent>Optional; String. Full path and name of the file containing the object to retrieve. If <I>pathname</I> is omitted, <I>class</I> is required.</P>
+
+<P class=dt><I>class</I></P>
+
+<P class=indent>Optional; String. <A HREF="vtglossary.htm#defclassvbs">Class</A> of the object.</P>
+
+<P>The <I>class </I><A HREF="vtglossary.htm#defargumentvbs">argument</A> uses the syntax <I>appname.objectype</I> and has these parts:</P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>appname</I></P>
+
+<P class=indent>Required; String. Name of the application providing the object.</P>
+
+<P class=dt><I>objectype</I></P>
+
+<P class=indent>Required; String. Type or class of object to create.</P>
+
+<H4>Remarks</H4>
+
+<P>Use the <B>GetObject</B> function to access an Automation object from a file and assign the object to an object variable. Use the <B>Set</B> statement to assign the object returned by <B>GetObject</B> to the object variable. For example: </P>
+
+<PRE><CODE>Dim CADObject
+Set CADObject = <span class=cfe><B>GetObject(</B></span>"C:\CAD\SCHEMA.CAD"<span class=cfe><B>)</B></span></CODE></PRE>
+
+<P>When this code is executed, the application associated with the specified pathname is started and the object in the specified file is activated. If <I>pathname</I> is a zero-length string (""), <B>GetObject</B> returns a new object instance of the specified type. If the <I>pathname</I> argument is omitted, <B>GetObject</B> returns a currently active object of the specified type. If no object of the specified type exists, an error occurs.</P>
+
+<P>Some applications allow you to activate part of a file. Add an exclamation point (!) to the end of the file name and follow it with a string that identifies the part of the file you want to activate. For information on how to create this string, see the documentation for the application that created the object.</P>
+
+<P>For example, in a drawing application you might have multiple layers to a drawing stored in a file. You could use the following code to activate a layer within a drawing called <CODE>SCHEMA.CAD</CODE>: </P>
+
+<PRE><CODE>Set LayerObject = <span class=cfe><B>GetObject(</B></span>"C:\CAD\SCHEMA<span class=cfe><B>.</B></span>CAD!Layer3"<span class=cfe><B>)</B></span></CODE></PRE>
+
+<P>If you don't specify the object's class, Automation determines the application to start and the object to activate, based on the file name you provide. Some files, however, may support more than one class of object. For example, a drawing might support three different types of objects: an Application object, a Drawing object, and a Toolbar object, all of which are part of the same file. To specify which object in a file you want to activate, use the optional <I>class</I> argument. For example: </P>
+
+<PRE><CODE>Dim MyObject
+Set MyObject = <span class=cfe><B>GetObject(</B></span>"C:\DRAWINGS\SAMPLE.DRW", "FIGMENT.DRAWING"<span class=cfe><B>)</B></span></CODE></PRE>
+
+<P>In the preceding example, <CODE>FIGMENT</CODE> is the name of a drawing application and <CODE>DRAWING</CODE> is one of the object types it supports. Once an object is activated, you reference it in code using the object variable you defined. In the preceding example, you access <A HREF="vtglossary.htm#defpropertyvbs">properties</A> and methods of the new object using the object variable <CODE>MyObject</CODE>. For example: </P>
+
+<PRE><CODE>MyObject.Line 9, 90
+MyObject.InsertText 9, 100, "Hello, world."
+MyObject.SaveAs "C:\DRAWINGS\SAMPLE.DRW"</CODE></PRE>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>Use the <B>GetObject</B> function when there is a current instance of the object or if you want to create the object with a file already loaded. If there is no current instance, and you don't want the object started with a file loaded, use the <B>CreateObject</B> function.</P>
+
+<P>If an object has registered itself as a single-instance object, only one instance of the object is created, no matter how many times <B>CreateObject</B> is executed. With a single-instance object, <B>GetObject</B> always returns the same instance when called with the zero-length string ("") syntax, and it causes an error if the <I>pathname</I> argument is omitted. </P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcreateobject.htm">CreateObject Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

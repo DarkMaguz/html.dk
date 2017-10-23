@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Source Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprosource"></A>Source Property</H1>
+
+<P>Returns or sets the name of the object or application that originally generated the error.</P>
+
+<P><CODE>object<B>.Source </B>[<B>= </B>stringexpression]</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Always the <B>Err</B> object.</P>
+
+<P class=dt><I>stringexpression</I></P>
+
+<P class=indent>A <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> representing the application that generated the error.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>Source</B> property specifies a string expression that is usually the <A HREF="vtglossary.htm#defclassvbs">class</A> name or programmatic ID of the object that caused the error. Use <B>Source</B> to provide your users with information when your code is unable to handle an error generated in an accessed object. For example, if you access Microsoft Excel and it generates a <I>Division by zero</I> error, Microsoft Excel sets <B>Err.Number</B> to its error code for that error and sets <B>Source</B> to Excel.Application. Note that if the error is generated in another object called by Microsoft Excel, Excel intercepts the error and sets <B>Err.Number</B> to its own code for <I>Division by zero</I>. However, it leaves the other <B>Err </B>object (including <B>Source</B>) as set by the object that generated the error. </P>
+
+<P><B>Source </B>always contains the name of the object that originally generated the error — your code can try to handle the error according to the error documentation of the object you accessed. If your error handler fails, you can use the <B>Err</B> object information to describe the error to your user, using <B>Source </B>and the other <B>Err</B> to inform the user which object originally caused the error, its description of the error, and so forth.</P>
+
+<P>When generating an error from code, <B>Source</B> is your application's programmatic ID.</P>
+
+<P>The following code illustrates use of the <B>Source</B> property. </P>
+
+<PRE><CODE>On Error Resume Next
+Err.Raise 6&nbsp;&nbsp;&nbsp;' Raise an overflow error.
+MsgBox ("Error # " &amp; CStr(Err.Number) &amp; " " &amp; Err.Description &amp; <span class=cfe><B>Err.Source</B></span>)
+Err.Clear&nbsp;&nbsp;&nbsp;' Clear the error.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprodescription.htm">Description Property</A> | <A HREF="vsobjerr.htm">Err Object</A> | <A HREF="vsprohelpcontext.htm">HelpContext Property</A> | <A HREF="vsprohelpfile.htm">HelpFile Property</A> | <A HREF="vspronumber.htm">Number Property</A> | <A HREF="vsstmonerror.htm">On Error Statement</A></P>
+
+<P>Applies To: <A HREF="vsobjerr.htm">Err Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

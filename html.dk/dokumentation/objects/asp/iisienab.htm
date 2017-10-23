@@ -1,0 +1,58 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Enabling Server-Side Includes</title>
+
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Explains how to enable server-side include directives."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">
+
+
+<h1><a name="H1_37753133">Enabling Server-Side Includes</a></h1>
+
+<p>The Web server must know that a file contains server-side include commands before it processes the file.  By default, the Web server is set up to process files with the .stm, .shtm, or .shtml file name extensions.   You can disable the processing of server-side include directives for the entire Web server, for a Web site, for an application, or for an individual directory.</p>
+
+<big>To enable server-side includes</big><!--</p>--><br>
+
+<ol>
+<li>Give files that contain SSI directives an SSI file name extension (.stm, .shtm, or .shtml).</li>
+<p>You can add additional extensions; see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm">Setting Application Mappings</a>.<!--</p>--><br>
+<li>Put SSI files into a directory with Script or Execute access permissions.  For more information, see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iidfpsc.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iidfpsc.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iidfpsc.htm">Setting Access Permissions for a Directory</a>.</li>
+</ol>
+
+<p class="bigfix">&nbsp;</p>
+<big>To disable server-side includes</big><!--</p>--><br>
+
+<ol>
+<li>In Internet Service Manager, select a Web site or directory, open its property sheets, and then click the <strong>Home Directory</strong> or <strong>Directory</strong> tab.  To disable SSI for an application, select the application starting point directory.</li>
+<li>Click the <strong>Configuration</strong> button, and then click the <strong>Application Mappings</strong> tab.</li>
+<li>Select the extension, and then click the <strong>Remove</strong> button.  When the Web server receives a request for a page with this file name extension, it will not process server-side include directives within the page.  </li>
+</ol>
+
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+</font>
+</body>
+</html>

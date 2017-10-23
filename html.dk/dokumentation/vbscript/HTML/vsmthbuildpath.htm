@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>BuildPath Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthbuildpath"></A>BuildPath Method</H1>
+
+<P>Appends a name to an existing path.</P>
+
+<P><CODE><I>object.</I><B>BuildPath</B><I>(path, name) </I></CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>path</I></P>
+
+<P class=indent>Required. Existing path to which <I>name</I> is appended. Path can be absolute or relative and need not specify an existing folder.</P>
+
+<P class=dt><I>name</I></P>
+
+<P class=indent>Required. Name being appended to the existing <I>path</I>. </P>
+
+<H4>Remarks</H4>
+
+<P>The <B>BuildPath</B> method inserts an additional path separator between the existing path and the name, only if necessary.</P>
+
+<P>The following example illustrates use of the <B>BuildPath</B> method: </P>
+
+<PRE><CODE>Function GetBuildPath(path)
+&nbsp;&nbsp;&nbsp;Dim fso, newpath
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;newpath = <span class=cfe><B>fso.BuildPath(</B></span>path<span class=cfe><B>,</B></span> "Sub Folder"<span class=cfe><B>)</B></span> 
+&nbsp;&nbsp;&nbsp;GetBuildPath = newpath
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthgetabsolutepathname.htm">GetAbsolutePathName Method</A> | <A HREF="vsmthgetbasename.htm">GetBaseName Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsmthgetextensionname.htm">GetExtensionName Method</A> | <A HREF="vsmthgetfilename.htm">GetFileName Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthgettempname.htm">GetTempName Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

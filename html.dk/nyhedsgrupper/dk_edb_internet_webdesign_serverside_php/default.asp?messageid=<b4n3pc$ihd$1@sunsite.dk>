@@ -1,0 +1,187 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: scheduleret service?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.php skrevet af Jonas Koch Bentzen den 12. marts 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: scheduleret service?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="12-03-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3Cb4n3pc%24ihd%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jonas&nbsp;Koch&nbsp;Bentzen&nbsp;&nbsp;<a href='mailto:ingen.email@eksempel.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='ingen.email@eksempel.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Open Source Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 12. marts 2003 kl. 12:56</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: scheduleret service?</strong></li></ul>
+
+<p><span class='normal'>David Konrad wrote: </span><br /><span class='normal'> </span><br /><span class='citat'>> &quot;Jonas Koch Bentzen&quot; &lt;<a href='http://ingen.email@eksempel.dk'>ingen.email@eksempel.dk</a>> skrev i en meddelelse </span><br /><span class='citat'>> <a href='http://news:b4mufa$80k$1@sunsite.dk'>news:b4mufa$80k$1@sunsite.dk</a>... </span><br /><span class='citat'>>  </span><br /><span class='citat'>>> >> Vel heller ikke et kompileret sprog? </span><br /><span class='citat'>>> > </span><br /><span class='citat'>>> > Joda. </span><br /><span class='citat'>>> </span><br /><span class='citat'>>> Jovist, man kan lave programmet som et serverprogram, </span><br /><span class='citat'>>  </span><br /><span class='citat'>> PHP er og kan da ikke v&#230;re andet end server-programmel...? </span><br /><span class='normal'> </span><br /><span class='normal'>Vi misforst&#229;r vist hinanden. Du taler om HTTP (at PHP k&#248;rer som en  </span><br /><span class='normal'>integreret del af en webserver, f.eks. Apache). Jeg taler om, at PHP kan  </span><br /><span class='normal'>k&#248;re som et almindeligt serverprogram (&quot;d&#230;mon&quot; i Linux-/Unix-sprog,  </span><br /><span class='normal'>&quot;service&quot; i Windows-sprog), der k&#248;rer konstant (som serverprogrammer jo  </span><br /><span class='normal'>g&#248;r), tjekker klokkesl&#230;ttet og g&#248;r noget bestemt, n&#229;r klokken er noget  </span><br /><span class='normal'>bestemt. </span><br /><span class='normal'> </span><br /><span class='citat'>> I det her tilf&#230;lde er det en r&#230;kke forskellige ting der skal g&#248;res p&#229; alle </span><br /><span class='citat'>> mulige klokkeslet, der ikke er kendt p&#229; forh&#229;nd. </span><br /><span class='normal'> </span><br /><span class='normal'>Okay. Det lyder s&#229; som om, du skal lave et serverprogram, f.eks. i PHP. P&#229;  </span><br /><span class='normal'>de fleste webhoteller er det dog ikke muligt at k&#248;re et s&#229;dant program. </span><br /><span class='normal'> </span><br /><span class='citat'>> Helt enig - men i de fleste &quot;rigtige&quot; programmeringssprog har man alts&#229; </span><br /><span class='citat'>> nogle faciliteter til r&#229;dighed der ikke eksisterer i PHP. </span><br /><span class='normal'> </span><br /><span class='normal'>PHP er et &quot;rigtigt&quot; programmeringssprog. Det er et fortolket sprog, ja, men  </span><br /><span class='normal'>det g&#248;r ikke den store forskel. De fleste fortolkede sprog kan (via mindre  </span><br /><span class='normal'>eller mindre obskure programmer) faktisk godt kompileres - ligesom der  </span><br /><span class='normal'>vistnok ogs&#229; findes en slags runtime-fortolkere til visse sprog, der ellers  </span><br /><span class='normal'>normalt er kompilerede. Derfor b&#248;r man ikke foretage en al for skarp  </span><br /><span class='normal'>skelnen mellem fortolkede og ikke-fortolkede sprog. </span><br /><span class='normal'> </span><br /><span class='citat'>> &#216;h - ja, det er PHP's socketfacilitet der muligg&#248;r TCP/IP og, g&#229;r jeg ud </span><br /><span class='citat'>> fra, UDP. </span><br /><span class='normal'> </span><br /><span class='normal'>Du har ret, det er selvf&#248;lgelig ikke n&#248;dvendigt at lytte p&#229; en port for at  </span><br /><span class='normal'>f&#229; et program til at k&#248;re som en server. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg g&#229;r ud fra, du skal lave noget a la (st&#230;rkt forenklet): </span><br /><span class='normal'> </span><br /><span class='normal'>while (TRUE) { </span><br /><span class='normal'>        if (klokkeslaet() == &quot;noget bestemt&quot;) goerNoget(); </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='citat'>> Ja, med mindre man alts&#229; har lavet et program der g&#248;r dette selv - f.eks </span><br /><span class='citat'>> kan man i windows lave en integreret service der g&#248;r pr&#230;cist hvad man har </span><br /><span class='citat'>> brug for - hvad jeg har brug for er ikke et program der startes p&#229; et </span><br /><span class='citat'>> bestemt tidspunkt - desv&#230;rre, ellers havde det v&#230;ret nemt nok - men et </span><br /><span class='citat'>> program der &quot;lever&quot; p&#229; serveren og g&#248;r forskellige ting p&#229; forskellige </span><br /><span class='citat'>> tidspunkter. </span><br /><span class='normal'> </span><br /><span class='normal'>Okay - det er s&#229; (hvis jeg forst&#229;r din beskrivelse rigtigt) en  </span><br /><span class='normal'>&quot;d&#230;mon&quot;/&quot;service&quot; (og kan sikkert ogs&#229; kaldes et serverprogram), og den  </span><br /><span class='normal'>slags kan man godt lave med PHP. </span><br /><span class='normal'> </span><br /><span class='citat'>> Desv&#230;rre kan jeg ikke s&#230;tte min lid til, eller arbejde ud fra, at serveren </span><br /><span class='citat'>> er en linux. En ren PHP-l&#248;sning ville v&#230;re bedst, men det er desv&#230;rre ikke </span><br /><span class='citat'>> muligt, kan jeg forst&#229;. </span><br /><span class='normal'> </span><br /><span class='normal'>Jo, det vil jeg mene. Nok bare ikke p&#229; et webhotel. </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Jonas Koch Bentzen </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://findhim.com/'>http://findhim.com/</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4ld49%24nuf%241%40sunsite%2Edk%3E' title='scheduleret service?'>scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C20030311202928%2E2a430f64%2Ekim%40schulz%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Kim&nbsp;Schulz)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4ldns%24cs%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C20030311203629%2E58d8c795%2Ekim%40schulz%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4lglg%24ocn%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4ks6vsstp1jlc2i0m8ni13s2og45lbciq%404ax%2Ecom%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Martin&nbsp;Mouritzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Css22k%2Dup6%2Eln1%40goliath%2Egeek%2Elinux%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Esben&nbsp;Skov&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C20030311230819%2E6ec0db8b%2Ekim%40schulz%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Kim&nbsp;Schulz)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4lrlj%24er4%242%40dknews%2Etiscali%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4msoo%24nuc%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4mufa%2480k%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4n0ho%24o7g%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4n3pc%24ihd%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4n9af%248o2%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4ncv3%24ate%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4negc%24mpa%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4nftc%245m3%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4ngjj%24ccn%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C0i7u6v09heqd4j4kceldo0vigeejgsretd%404ax%2Ecom%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Martin&nbsp;Mouritzen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4n8iu%243gl%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4o5fg%24aio%241%40dknews%2Etiscali%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CXns933C23F0147E0godlarz%4062%2E243%2E74%2E162%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Larz)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4mt30%24qmb%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C5QCba%2E124016%24Hl6%2E11069952%40news010%2Eworldonline%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Ulrik&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4mtu9%243pe%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cm5Dba%2E124145%24Hl6%2E11071235%40news010%2Eworldonline%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Ulrik&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C2232k%2Dup6%2Eln1%40goliath%2Egeek%2Elinux%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Esben&nbsp;Skov&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4lpab%243oo%242%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(11-03-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4mt75%24rrl%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;David&nbsp;Konrad)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb4mu1k%243g8%241%40sunsite%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cts14k%2Dl72%2Eln1%40goliath%2Egeek%2Elinux%2Edk%3E' title='Re: scheduleret service?'>Re: scheduleret service?</a>&nbsp;<small class='newslist'>(12-03-03&nbsp;-&nbsp;Esben&nbsp;Skov&nbsp;Pedersen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3Cb4n3pc%24ihd%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3cb4n3pc$ihd$1@sunsite.dk%3e' method='post'><p class='pollheader'>Har du dit eget domænenavn?</p><div><input type='hidden' name='tst' value='24-05-03 13:08:42' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: scheduleret service?</span></div>
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,142 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Selecte entry i drop-down automatisk!?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af Anders Lau Mandsholm den 27. april 2001">
+<meta name="keywords" content="">
+<meta name="title" content="Selecte entry i drop-down automatisk!?">
+<meta name="language" content="dan">
+<meta name="Date" content="27-04-01">
+<meta name="robots" content="index, follow">
+<meta name="FreeFind" content="follow">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))'>
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))'> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=2001542581123DD?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=2001542581123DD?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=2001542581123DD?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C3ae94679%2E7066798%40news%2Estofanet%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Anders&nbsp;Lau&nbsp;Mandsholm&nbsp;&nbsp;<a href='mailto:lau@mandsholm.ingenspamtak.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='lau@mandsholm.ingenspamtak.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Site M@ndsholm (www.mandsholm.dk)</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 27. april 2001 kl. 11:20</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Selecte entry i drop-down automatisk!?</strong></li></ul>
+
+<p><span class='normal'>Jeg fors&#248;ger, at lave et script, der p&#229; baggrund af en v&#230;rdi i en </span><br /><span class='normal'>variabel automatisk ved load af siden selecter den tilsvarende </span><br /><span class='normal'>v&#230;rdi/entry i en drop-down box. Med mine begr&#230;nsede evner udi </span><br /><span class='normal'>JavaScript, er det jo d&#248;mt til at g&#229; galt... :-) </span><br /><span class='normal'> </span><br /><span class='normal'>Det ser s&#229;ledes ud: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;script type=&quot;text/javascript&quot; language=&quot;JavaScript&quot;> </span><br /><span class='normal'>var DayFound = false; </span><br /><span class='normal'> </span><br /><span class='normal'>for (var i=0; (i &lt; document.opdaterAdresse.FoedselsdatoDag.length) &amp;&amp; </span><br /><span class='normal'>!DayFound; i++) </span><br /><span class='normal'>	{ </span><br /><span class='normal'>	if (document.OpdaterAdresse.FoedselsdatoDag.options[i].value == </span><br /><span class='normal'>Day) </span><br /><span class='normal'>		{ </span><br /><span class='normal'>		DayFound = true; </span><br /><span class='normal'> </span><br /><span class='normal'>document.OpdaterAdresse.FoedselsdatoDag.options[i].selected = true; </span><br /><span class='normal'>		} </span><br /><span class='normal'>	} </span><br /><span class='normal'>if (!Dayfound) </span><br /><span class='normal'>	{ </span><br /><span class='normal'>	document.OpdaterAdresse.FoedselsdatoDag.options[0].selected = </span><br /><span class='normal'>true; </span><br /><span class='normal'>	} </span><br /><span class='normal'>&lt;/script> </span><br /><span class='normal'> </span><br /><span class='normal'>Variablen Day er allerede tildelt en v&#230;rdi f&#248;r scriptet - f. eks. 10 og </span><br /><span class='normal'>navne p&#229; henholdsvis form (OpdaterAdresse) og drop-down box </span><br /><span class='normal'>(FoedselsdatoDag) er korrekte. Drop-down boxen er konstrueret p&#229; normal </span><br /><span class='normal'>vis via html. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg f&#229;r fejlen, at document.OpdaterAdresse.FoedselsdatoDag er null eller </span><br /><span class='normal'>ikke et objekt. </span><br /><span class='normal'> </span><br /><span class='normal'>Er fejlen &#229;benlys eller skal det gribes an p&#229; en anden m&#229;de? </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg har lavet (kopieret) scriptet fra <a href='http://irt.org'>irt.org</a> fra artiklen &quot;Dynamic drop </span><br /><span class='normal'>down menus #3&quot;. Nogen andre henvisninger? </span><br /><span class='normal'> </span><br /><span class='normal'>Anders Lau </span><br /><span class='normal'>--  </span><br /><span class='normal'>Anders Lau Mandsholm </span><br /><span class='normal'>Aabyhoej, Denmark </span><br /><span class='normal'><a href='http://www.mandsholm.dk'>www.mandsholm.dk</a> </span><br /><span class='normal'><a href='http://lau@mandsholm.ingenspamtak.dk'>lau@mandsholm.ingenspamtak.dk</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C3ae94679%2E7066798%40news%2Estofanet%2Edk%3E' title='Selecte entry i drop-down automatisk!?'>Selecte entry i drop-down automatisk!?</a>&nbsp;<small class='newslist'>(27-04-01&nbsp;-&nbsp;Anders&nbsp;Lau&nbsp;Mandsholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C3aeb4a62%2E61260468%40news%2Estofanet%2Edk%3E' title='Re: Selecte entry i drop-down automatisk!?'>Re: Selecte entry i drop-down automatisk!?</a>&nbsp;<small class='newslist'>(28-04-01&nbsp;-&nbsp;Anders&nbsp;Lau&nbsp;Mandsholm)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C3ae94679%2E7066798%40news%2Estofanet%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/download/" class="menulink">Download</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig nyhedsbrevet<br /> fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" /><br /><input type="submit" name="1" value="Tilmeld" class="newsletterbutton" /><input type="submit" name="2" value="Frameld" class="newsletterbutton" /></small></div>
+</form>
+</div>
+
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><strong>HTML</strong>Community</div>
+<div class="leftboxbody"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" /><br /><input type="checkbox" name="AutoLogin" checked="checked" />husk login&nbsp;&nbsp;&nbsp;<input type="submit" name="1" value="Login" /></small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/persondata.asp">Politik om persondata</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<input type="image" src="/site/graphics/misc/search.png" width="47" height="23" border="0" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Selecte entry i drop-down automatisk!?</span></div>
+<script type="text/javascript">
+<!-- Start 
+
+if (document.all) {
+  browserwidth  = document.body.clientWidth;
+  browserheight = document.body.clientHeight;				
+} else {
+  browserwidth  = window.innerWidth;
+  browserheight = window.innerHeight;      
+}
+
+screenheight = screen.height 
+screenwidth  = screen.width
+document.write ('<img height="1" width="1" src="/survey.asp?bw=' + browserwidth + '&bh=' + browserheight + '&sh=' + screenheight + '&sw=' + screenwidth + '">')
+
+// Slut -->
+</script>
+</body>
+</html>
+

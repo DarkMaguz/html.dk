@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>OpenTextFile Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthopentextfile"></A>OpenTextFile Method</H1>
+
+<P>Opens a specified file and returns a <B>TextStream</B> object that can be used to read from, write to, or append to the file.</P>
+
+<P><CODE><I>object</I><B>.OpenTextFile(</B><I>filename</I>[<B>,</B> <I>iomode</I>[<B>,</B> <I>create</I>[<B>,</B> <I>format</I>]]]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>filename</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> that identifies the file to open.</P>
+
+<P class=dt><I>iomode</I></P>
+
+<P class=indent>Optional. Indicates input/output mode. Can be one of three constants: <B>ForReading</B>, <B>ForWriting</B>, or <B>ForAppending</B>.</P>
+
+<P class=dt><I>create</I></P>
+
+<P class=indent>Optional. Boolean value that indicates whether a new file can be created if the specified <I>filename</I> doesn't exist. The value is <B>True</B> if a new file is created; <B>False</B> if it isn't created. The default is <B>False</B>.</P>
+
+<P class=dt><I>format</I></P>
+
+<P class=indent>Optional. One of three <B>Tristate</B> values used to indicate the format of the opened file. If omitted, the file is opened as ASCII. </P>
+
+<H4>Settings</H4>
+
+<P>The <I>iomode</I> argument can have either of the following settings:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=26%>Constant</TH>
+<TH width=12%>Value</TH>
+<TH width=62%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>ForReading</TD>
+<TD width=12%>1</TD>
+<TD width=62%>Open a file for reading only. You can't write to this file.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>ForWriting</TD>
+<TD width=12%>2</TD>
+<TD width=62%>Open a file for writing only. You can't read from this file.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>ForAppending</TD>
+<TD width=12%>8</TD>
+<TD width=62%>Open a file and write to the end of the file.</TD>
+</TR>
+</TABLE><BR>
+
+<P>The <I>format</I> argument can have any of the following settings:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=26%>Constant</TH>
+<TH width=12%>Value</TH>
+<TH width=62%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>TristateUseDefault</TD>
+<TD width=12%>-2</TD>
+<TD width=62%>Opens the file using the system default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>TristateTrue</TD>
+<TD width=12%>-1</TD>
+<TD width=62%>Opens the file as Unicode.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>TristateFalse</TD>
+<TD width=12%> 0</TD>
+<TD width=62%>Opens the file as ASCII.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates the use of the <B>OpenTextFile</B> method to open a file for writing text: </P>
+
+<PRE><CODE>Sub OpenTextFileTest
+&nbsp;&nbsp;&nbsp;Const ForReading = 1, ForWriting = 2, ForAppending = 8
+&nbsp;&nbsp;&nbsp;Dim fso, f
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = <span class=cfe><B>fso.OpenTextFile(</B></span>"c:\testfile.txt"<span class=cfe><B>,</B></span> ForWriting<span class=cfe><B>,</B></span> True<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;f.Write "Hello world!"
+&nbsp;&nbsp;&nbsp;f.Close
+End Sub</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthopenastextstream.htm">OpenAsTextStream Method</A> | <A HREF="vsmthcreatetextfile.htm">CreateTextFile Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

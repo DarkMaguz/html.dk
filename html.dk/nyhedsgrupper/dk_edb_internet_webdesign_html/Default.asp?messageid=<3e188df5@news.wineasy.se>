@@ -1,0 +1,188 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Frames part 2</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Jesper Brunholm den 5. januar 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Frames part 2" />
+<meta name="language" content="dan" />
+<meta name="Date" content="05-01-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3e188df5%40news%2Ewineasy%2Ese%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jesper&nbsp;Brunholm&nbsp;&nbsp;<a href='mailto:nospam@brunholm-scharff.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='nospam@brunholm-scharff.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 5. januar 2003 kl. 21:56</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Frames part 2</strong></li></ul>
+
+<p><span class='normal'>TH wrote: </span><br /><span class='citat'>> Efter tr&#229;den &quot;Frames eller ikke&quot; ville jeg starte en diskussion blandt </span><br /><span class='citat'>> designere og programm&#248;rer i firmaet. Der kom mange svar. Hovedargumenterne </span><br /><span class='citat'>> var som taget ud af denne gruppe. </span><br /><span class='citat'>>  </span><br /><span class='citat'>> Her er s&#229; det &quot;vigtigste&quot; svar. Vigtigste fordi svaret kom fra ham med </span><br /><span class='citat'>> beslutningerne :) </span><br /><span class='citat'>> Nogen der vil kommentere? </span><br /><span class='citat'>>  </span><br /><span class='citat'>> ----------------------------------------------------- </span><br /><span class='citat'>> Det  er jo en sjov udvikling af computeren som medium. Det udvikler sig i </span><br /><span class='citat'>> generationer og hver generation starter kommunikationsm&#230;ssigt helt forfra </span><br /><span class='citat'>> ved stenalderen. I forhold til det, vi havde for 10-15 &#229;r siden er web ved </span><br /><span class='citat'>> at n&#230;rme sig broncealderen. </span><br /><span class='normal'> </span><br /><span class='normal'>Det m&#229; v&#230;re sp&#230;ndende at vide s&#229; meget s&#229; man kan udtale sig s&#229; sikkert  </span><br /><span class='normal'>om fremtiden (ja, undskyld - jeg ved du ikke kan bruge det til noget,  </span><br /><span class='normal'>men alts&#229;...) </span><br /><span class='normal'> </span><br /><span class='citat'>> Det er efter min mening ikke afg&#248;rende, hvad folk gerne vil have. Vi er ikke </span><br /><span class='citat'>> sat i verden for at lave det, folk gerne vil have (MacDonald og Giro413), </span><br /><span class='citat'>> men for at argumentere for vores egen opfattelse og for at flytte </span><br /><span class='citat'>> hegnsp&#230;lene. </span><br /><span class='normal'> </span><br /><span class='normal'>S&#229; l&#230;nge det ikke er et reklamebureau, kan det let v&#230;re sandt nok <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> </span><br /><span class='normal'> </span><br /><span class='citat'>> I gamle dage var der ogs&#229; argumenter om, at hvis man gjorde tingene p&#229; en </span><br /><span class='citat'>> bestemt m&#229;de, kunne man g&#248;re det dobbelt s&#229; hurtigt. Vi lavede en gang en </span><br /><span class='citat'>> unders&#248;gelse p&#229; et par konkrete projekter, som viste at selve tiden til </span><br /><span class='citat'>> programmeringen af en aplikation var 5-7 % af den samlede udviklingstid. </span><br /><span class='citat'>> Hvis denne udviklingstid kunne halveres, ville man alts&#229; spare et par </span><br /><span class='citat'>> procent af udviklingstiden. Det skal man naturligvis g&#248;re, hvis man ikke </span><br /><span class='citat'>> forringer noget andet ved det, men vil man spare, er det antageligt mere </span><br /><span class='citat'>> hensigtsm&#230;ssigt at se p&#229; andre ting - projektstyringen f.eks. </span><br /><span class='citat'>> Lige nu et tingene lidt anderledes fordi programmeringen er s&#229; primitiv. I </span><br /><span class='citat'>> &#248;jeblikket tager programmeringen m&#229;ske op til 30-40% af udviklingstiden, men </span><br /><span class='citat'>> det er efter min mening kun en overgang, s&#229; bliver kravene til </span><br /><span class='citat'>> kommunikationen igen st&#248;rre og programmeringen mere effektiv. (Og s&#229; kommer </span><br /><span class='citat'>> der en helt ny generation og web forsvinder og erstattes af noget andet) </span><br /><span class='normal'> </span><br /><span class='normal'>Det er lige akkurat s&#229; sv&#230;vende og upr&#230;cist s&#229; n&#230;sten alt kan v&#230;re  </span><br /><span class='normal'>sandt. Det lyder dog mest som dogmatik fra en 58-&#229;rig der er overbevist  </span><br /><span class='normal'>om at han har l&#230;rt det han skal l&#230;re her i livet, efter min mening. </span><br /><span class='normal'> </span><br /><span class='normal'>Ligesom faren til en af mine veninder som afgjort mente at dat-tech'er  </span><br /><span class='normal'>var nogle dovne, hunde som ikke kunne noget som helst, han havde nemlig  </span><br /><span class='normal'>selv haft en ansat p&#229; et tidspunkt. </span><br /><span class='normal'> </span><br /><span class='citat'>> Selve begrebet frames er jeg temmelig ligeglad med. Det afg&#248;rende er, at </span><br /><span class='citat'>> tingene udvikler sig hensigtsm&#230;ssigt p&#229; sk&#230;rmen. Det betyder, at n&#229;r man </span><br /><span class='citat'>> beder om en ny sk&#230;rm, s&#229; f&#229;r man en ny sk&#230;rm og n&#229;r man beder om en detalje, </span><br /><span class='citat'>> s&#229; f&#229;r man en detalje og ikke andet. Det, som ikke &#230;ndres p&#229; sk&#230;rmen, m&#229; </span><br /><span class='citat'>> ikke blinke s&#229; meget som 1/10 sek, for ethvert blink flytter iagtagerens </span><br /><span class='citat'>> fokus. Blink kan derfor benyttes aktivt som i et fjernsynsinterview, hvor </span><br /><span class='citat'>> det skal vises, at der er klippet noget ud, men blink - eller ventepauser - </span><br /><span class='citat'>> skal netop altid have en betydning. </span><br /><span class='citat'>> Jeg er enig med dig i at frames i sin nuv&#230;rende form er (eller var) en </span><br /><span class='citat'>> overgang. Det afg&#248;rende er, at vi kan styre det, der sker p&#229; sk&#230;rmen, uden </span><br /><span class='citat'>> at skulle opdatere andet end netop det, der skal opdateres. M&#229;let er, at </span><br /><span class='citat'>> kunne udnytte computersk&#230;rmens egne s&#230;rlige kommunikationsmuligheder, s&#229; det </span><br /><span class='citat'>> ikke bliver en erstatning for at have bogen eller bladet eller filmen. </span><br /><span class='normal'> </span><br /><span class='normal'>Hvis det skal tages helt bogstaveligt, kan det godt v&#230;re sv&#230;rt at leve  </span><br /><span class='normal'>op til. Og dog, det er jo en intranet-l&#248;sning, s&#229; alle sidder  </span><br /><span class='normal'>sandsynligvis med 10+ mbit forbindelse til serverne, s&#229; egentlig kan jeg  </span><br /><span class='normal'>ikke se at ovenst&#229;ende skulle v&#230;re nogen hindring for en  </span><br /><span class='normal'>serverside-scriptet l&#248;sning med includes etc. </span><br /><span class='normal'>H.C. Andersen-centrets sider (<a href='http://www.andersen.sdu.dk)'>http://www.andersen.sdu.dk)</a>, og et internt  </span><br /><span class='normal'>projekt jeg lige har siddet med, kan godt opfylde de krav, s&#229; l&#230;nge jeg  </span><br /><span class='normal'>sidder p&#229; intranet med serveren (faktisk m&#229;tte jeg s&#230;tte en &quot;sidst  </span><br /><span class='normal'>opdateret&quot; med sekund-angivelse p&#229; en af  </span><br /><span class='normal'>intranet-administrationsfunktionerne for at sikre at brugerne f&#248;lte at  </span><br /><span class='normal'>der var sket noget n&#229;r de trykkede p&#229; knappen). </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg har set p&#229; Lego, Maersk og TV2 og jeg m&#229; sige, at jeg mener, at de </span><br /><span class='citat'>> virker ualmindeligt d&#229;rligt. </span><br /><span class='normal'> </span><br /><span class='normal'>Ja - der var den igen - *ironi* jeg er helt enig med ham, Maersk is&#230;r,  </span><br /><span class='normal'>er et lille skod-firma hvis in-house web/data afdeling er nogle  </span><br /><span class='normal'>halvamat&#248;rer, de ved garanteret ikke hvordan man laver tingene rigtigt  </span><br /><span class='normal'>godt */ironi*. </span><br /><span class='normal'>Hastigheden p&#229; deres websites kan godt nok ikke helt leve op til  </span><br /><span class='normal'>ovenn&#230;vnte krav her p&#229; min maskine, men mon ikke det skyldes forbindelsen? </span><br /><span class='normal'> </span><br /><span class='citat'>> S&#229; er der jo sv&#230;rt at undg&#229; frames ikke? Jeg mener....ovenst&#229;ende er bossens </span><br /><span class='citat'>> mening. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg mener ikke at de er sv&#230;rere at undg&#229; end de altid har v&#230;ret, men det  </span><br /><span class='normal'>er sv&#230;rt at udtale sig om en opgave som vi trods alt ved s&#229; relativt  </span><br /><span class='normal'>lidt om. </span><br /><span class='normal'> </span><br /><span class='normal'>Det at det er en intranet-l&#248;sning (s&#229;dan forst&#229;r jeg det p&#229; dig), g&#248;r jo  </span><br /><span class='normal'>ogs&#229; at man kan stille nogle andre krav til brugernes kendskab til  </span><br /><span class='normal'>system-funktionalitet i stedet for at skulle forlade sig p&#229; intuitivt  </span><br /><span class='normal'>anvendbare interfaces. </span><br /><span class='normal'>Da I ydermere (s&#229;vidt jeg har forst&#229;et) har brugt frames-l&#248;sninger i  </span><br /><span class='normal'>lang tid er det n&#230;ppe ny teknologi for brugerne <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' />. </span><br /><span class='normal'> </span><br /><span class='normal'>Short of long, s&#229; _er_ frames da muligvis den rette l&#248;sning for jer,  </span><br /><span class='normal'>prisen i en intranetl&#248;sning er vel prim&#230;rt referentialiteten. Hvis det  </span><br /><span class='normal'>ikke betyder noget at s&#230;lge den fra, er der vel ikke s&#229; meget at diskutere. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg har sv&#230;rt ved at forholde mig til at referentialitet kan skippes  </span><br /><span class='normal'>uden at nedbryde muligheden for at medarbejdere som arbejder i systemet  </span><br /><span class='normal'>f&#229;r kompliceret bla. arbejdsudviklings-situationer v&#230;sentligt. </span><br /><span class='normal'>Hvis man mener at der ikke er noget at udvikle... nej - s&#229; forstokket  </span><br /><span class='normal'>ledelse har de kun i rusland <img src='/site/graphics/smileys/smiley1.gif' alt=':-)' /> </span><br /><span class='normal'> </span><br /><span class='normal'>mvh </span><br /><span class='normal'> </span><br /><span class='normal'>Jesper Brunholm </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e186dea%240%2447059%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Frames part 2'>Frames part 2</a>&nbsp;<small class='newslist'>(05-01-03&nbsp;-&nbsp;TH)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CMPG%2E18829b34c4939dcc9896e1%40News%2ECIS%2EDFN%2EDE%3E' title='Re: Frames part 2'>Re: Frames part 2</a>&nbsp;<small class='newslist'>(05-01-03&nbsp;-&nbsp;Toke&nbsp;Eskildsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CVi%25R9%2E25465%24Hl6%2E2902045%40news010%2Eworldonline%2Edk%3E' title='Re: Frames part 2'>Re: Frames part 2</a>&nbsp;<small class='newslist'>(05-01-03&nbsp;-&nbsp;Martin&nbsp;L.&nbsp;&nbsp;Johansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CMPG%2E1882b25bc64bc22f9896e3%40News%2ECIS%2EDFN%2EDE%3E' title='Re: Frames part 2'>Re: Frames part 2</a>&nbsp;<small class='newslist'>(05-01-03&nbsp;-&nbsp;Toke&nbsp;Eskildsen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e18832d%240%2447052%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: Frames part 2'>Re: Frames part 2</a>&nbsp;<small class='newslist'>(05-01-03&nbsp;-&nbsp;TH)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CMPG%2E1882b1e5cdc2859896e2%40News%2ECIS%2EDFN%2EDE%3E' title='Re: Frames part 2'>Re: Frames part 2</a>&nbsp;<small class='newslist'>(06-01-03&nbsp;-&nbsp;Toke&nbsp;Eskildsen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e188df5%40news%2Ewineasy%2Ese%3E' title='Re: Frames part 2'>Re: Frames part 2</a>&nbsp;<small class='newslist'>(05-01-03&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e18aaea%240%2447058%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E' title='Re: Frames part 2'>Re: Frames part 2</a>&nbsp;<small class='newslist'>(05-01-03&nbsp;-&nbsp;TH)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3e188df5%40news%2Ewineasy%2Ese%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3c3e188df5@news.wineasy.se%3e' method='post'><p class='pollheader'>Forsøger du at overholde W3Cs standarder i din kodning?</p><div><input type='hidden' name='tst' value='27-09-03 07:41:47' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja, altid</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Så vidt det er muligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Hvad er W3Cs standarder?</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Frames part 2</span></div>
+
+
+
+</body>
+</html>
+

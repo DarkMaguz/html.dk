@@ -1,0 +1,62 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Hits</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_hits"></a>Hits</h2>
+<p>
+The <b>Hits</b> method returns the number of times that a specified Web page has been opened.</p>
+<h3>Syntax</h3>
+<pre><b>Object.Hits(</b>[<i>pathInfo</i>]<b>)
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>pathInfo</i></dt>
+<dd>
+Optional parameter that specifies the PATH_INFO of the Web page using the format /<i>virtualdirectoryname</i>/<i>filename</i>.<i>asp</i>. If this parameter is not specified, the hit count for the current page is displayed.</dd>
+</dl>
+<h3>Return Values</h3>
+<p>
+A LONG indicating the number of times that the specified Web page has been opened.</p>
+<h3>Examples</h3>
+<p>
+The following example uses the <b>Hits</b> method to display the number of times that the current Web page has been opened.</p>
+<pre>&lt;% Set MyPageCounter = Server.CreateObject(&quot;MSWC.PageCounter&quot;) %&gt;
+
+This Web page has been viewed &lt;%= MyPageCount.Hits %&gt; times.
+&lt;P&gt;
+Page Myscript.asp has been viewed &lt;%= MyPageCounter.Hits(&quot;/VirtualDir1/Myscript.asp&quot;) %&gt; times.
+ </pre>
+<h3>Applies To</h3>
+<p>
+<a href="page00vo.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page00vo.htm"><b>Page Counter Component</b></a></p>
+<h3>See Also</h3>
+<p>
+<a href="page2qic.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page2qic.htm"><b>Reset</b></a>, <a href="page2bhw.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page2bhw.htm"><b>PageHit</b></a></p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

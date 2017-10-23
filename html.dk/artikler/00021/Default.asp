@@ -1,0 +1,328 @@
+
+<!DOCTYPE html PUBLIC 
+"-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+    <title>Artikel: Farvecirklen - HTML.dk</title>
+
+    <meta name="description" content="I denne artikel kan du læse om hvilke farver der harmonerer og hvilke der ikke gør." />
+    <meta name="keywords" content="farver, farvecirklen, farvehjulet, farvesammensætning, farveteori, farvelære, design, grafik" />
+    <meta name="title" content="Artikel: Farvecirklen" />
+    <meta name="language" content="dan" />
+    <meta name="Date" content="23-01-01" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+    <meta name="CZ.Type" content="Article" />
+    <meta name="CZ.Category" content="Other" />
+
+    
+    <link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+    <link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign" href="http://www.html.dk/rss/dk.edb.internet.webdesign.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.html" href="http://www.html.dk/rss/dk.edb.internet.webdesign.html.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.clientside" href="http://www.html.dk/rss/dk.edb.internet.webdesign.clientside.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.frontpage" href="http://www.html.dk/rss/dk.edb.internet.webdesign.frontpage.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.flash" href="http://www.html.dk/rss/dk.edb.internet.webdesign.flash.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside.asp" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.asp.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside.php" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.php.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.ris+ros" href="http://www.html.dk/rss/dk.edb.internet.webdesign.ris+ros.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.udbydere.webhotel" href="http://www.html.dk/rss/dk.edb.internet.udbydere.webhotel.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.programmering.dotnet" href="http://www.html.dk/rss/dk.edb.programmering.dotnet.xml" />
+
+    <link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+    
+</head>
+
+<body>
+
+    <div style="text-align:center;position:absolute;top:90px;left:0px;width:100%;" id="banner728x90" class="noprint">
+        
+        <!-- "DK-html.dk_728x90" (section "DK-html.dk") -->
+        <iframe src="http://eas.apm.emediate.eu/eas?cu=362;cre=mu;target=_blank" width="728" height="90" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">
+        </iframe>
+    </div>
+
+        <div id="bodybx">
+
+            <div id="skyscraper" class="noprint">
+            
+            <!-- "DK-html.dk_140x350" (section "DK-html.dk") -->
+            <iframe src="http://eas.apm.emediate.eu/eas?cu=363;cre=mu;target=_blank" width="140" height="350" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">
+            </iframe>
+            </div>
+
+
+<!-- start page content -->
+
+
+
+
+
+<h1>Farvecirklen</h1>
+
+<p><em>af <a href="/about/kontakt.asp?who=andreas" title="Send mail til Andreas">Andreas Astrup</a>, HTML.dk</em><br />
+Sidst opdateret 23. februar 2001</p>
+
+<p style="background:#D6EAF7;padding:1em;">Synes du også, at det er svært at få farverne på dit websted til at spille? I denne artikel kan du læse om, hvilke farver der harmonerer og hvilke der ikke gør.</p>    
+
+<p>Farveteori er en egentlig videnskab med prominente navne som Goethe (ham med Faust) og Newton (ham med æblet) involveret. I denne artikel vil vi dog nøjes med at give en kort introduktion til farvecirklen.</p>
+
+<h2>Hvad er farvecirklen?</h2>
+
+<p>Farvecirklen er en grafisk fremstilling af forholdet mellem forskellige farver. Cirklen bygger på de tre <strong>primærfarver</strong>, der ikke kan skabes ved at blande andre farver: Rød, gul og blå:</p>
+
+<img src="primary.gif" alt="primærfarver" />
+
+<p><strong>Sekundærfarverne</strong> er de farver, der fremkommer ved at blande primærfarverne: rød+gul=orange, rød+blå=violet, gul+blå=grøn:</p>
+
+<img src="secondary.gif" alt="primær- og secondærfarver" />
+
+<p>Og endelig er der <strong>tertiærfarverne</strong>, der fremkommer ved igen at blande sekundærfarverne med en primærfarve:</p> 
+
+<img src="intermediate.gif" alt="primær- secondær, og tertiærfarver" />
+
+<p>Desuden er der de såkaldte <strong>neutrale farver</strong>: sort, hvid og grå, som ikke er en del af farvecirklen, men bestemt er vigtige alligevel.</p>
+
+<h2>Hvad er forholdet mellem farverne så?</h2>
+
+<h3>Kontraster</h3>
+
+<p>At farver kontraster vil sige, at de fremhæver hinanden.</p>
+
+<p>Et vigtig begreb i forhold til farvecirklen er komplementærfarver. Komplementærfarver er farver, der ligger modsat hinanden i farvecirklen. F.eks. er rød og grøn komplementærfarver ligesom blå og orange er det.</p>
+
+<img src="komplementaer.gif" alt="Komplementærfarver" />
+
+<p>Komplementærfarver står i kontrast til hinanden, men der findes også andre kontraster. F.eks. er primærfarverne (rød, gul og blå) kontraster, ligesom der opstår en kontrast ved at sammensætte en lys farve (dvs. tilsat meget hvid) med en mørk farve (tilsat meget sort). Desuden kan farvecirklen deles op i varme og kolde farver, der ligeledes danner kontraster, når de sættes sammen.</p>
+
+<img src="varmekolde.gif" alt="Varme og kolde farver" />
+
+<h3>Harmoni</h3>
+
+<p>At farver harmonerer vil sige, at de er i balance med hinanden. Ligesom der findes forskellige typer kontraster, findes der også forskellige typer harmoni.</p>
+
+<p>En type harmoni forekommer ved at sammensætte en farve med den samme farve tilsat hvid eller sort (kaldet monokromatisk harmoni):</p>
+
+<img src="skala.gif" alt="Rød farveskala" />
+
+<p>Analog harmoni fremkommer ved at vælge en hvilken som helst farve på farvecirklen og den farve der ligger enten til højre eller til venstre for denne. Disse farver minder om hinanden uden at være ens på samme måde som græsset på en græsplæne eller pelsen på en kat.</p>
+
+<img src="analog.gif" alt="Analog harmoni" />
+
+<p>Udover at kunne skabe kontrast kan komplementærfarver også skabe harmoni (komplementær harmoni), og andre harmonier kan findes ved at lægge forskellige geometriske figurer ind i farvecirklen. Uanset hvordan nedenstående figurer drejes, vil de farver, spidserne peger på, tilsammen skabe harmoni.</p>
+
+<img src="geomatri.gif" alt="geomatriske figure der skaber harmoni" />
+
+<h2>Brugen af farvecirklen</h2>
+
+<p>Her er en række gode råd i forbindelse med brugen farvecirklen:</p>
+
+<h3>Brug komplementærfarverne - med omtanke</h3>
+
+<p>Komplementærfarver er hinandens modsætninger, og en sammensætning af sådan to farver er med til at skabe dynamik, men pas på - det er stærke sager. En smule komplementærfarver skaber liv, men over et stort areal vil det virke forstyrrende. Kontrasten mellem komlementærfarver bliver stærkest, hvis der bruges meget af den ene og kun lidt af den anden.</p>
+
+<p>Hvis en farve er blevet for dominerende, kan man neutralisere dens dominans ved at tilsætte dens komplementærfarve. Har man f.eks. en meget blå side vil det hjælpe at tilsætte orange på siden. Mange professionelle designere bruger split-komplementærfarver, dvs. at de istedet for at vælge den egentlige komplementærfarve vælger den farve der ligger lige til højre eller venstre for den i farvecirklen.</p> 
+
+<h3>Overvej hvad din side skal signalere</h3>
+
+<p>Farvesammensætningen har stor betydning for, hvordan din side vil virke på de besøgende. Overvej, hvordan du gerne vil have dem til at opleve siden.</p>
+
+<p>Bruger du monokromatisk harmoni (den samme farve i forskellige nuancer), får siden et ensartet udseende:</p>
+<img src="signal1.gif" alt="monokromatisk harmoni" />
+
+<p>Ved analog harmoni (farver der ligger lige op af hinanden på farvecirklen) skabes rolighed og siden kommer til at virke afslappende.</p>
+<img src="signal2.gif" alt="analog harmoni" />
+
+<p>Bruges komplementærfarver skabes blikfang, men siden kan let komme til at virke forstyrrende.</p>
+<img src="signal3.gif" alt="komplementærfarver" />
+
+<h3>Ton dine farver</h3>
+
+<p>Sammensætning af rene klare farver kan virke meget skarp. Nedenfor er vist fire komplementærharmonier. I den første række er farverne rene klare farver, mens de er tonet (tilsat sort/hvid) i den anden række.</p> 
+
+<p><strong>Rene klare farver:</strong></p>
+<img src="utone.gif" alt="komplementærharmonier i rene klare farver" />
+<p><strong>Tonede farver:</strong></p>
+<img src="mtone.gif" alt="tonede komplementærharmonier" />
+
+<h3>Undgå at bruge mange farver</h3> 
+
+<p>Mange farver skaber kaos for øjet, der ikke ved hvor det skal fokusere. Prøv at nøjes med 1-4 forskellige farver - disse farver kan tones (tilsættes sort/hvid), og du vil stadig have rigeligt med muligheder.</p> 
+
+<p>Farver er det stærkeste grafiske virkemiddel og bør bruges som et krydderi - lidt er lækkert, men det bliver hurtigt for meget.</p>
+
+<p>&nbsp;</p>
+
+<dl><dt></dt><dd></dd><dt>Relateret materiale på HTML.dk</dt><dd><ul class='linklist'><li><a href='http://www.html.dk/dokumentation/farver/' title='Farveskema over de 216 såkaldte websikre farver (non-dithering colors)'>216 websikre farver</a></li></ul></dd><dt>Relaterede nyhedsgrupper på Usenet</dt><dd><ul class='usenetlist'><li><a href='http://www.html.dk/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider'>dk.edb.internet.webdesign</a></li></ul></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+	<div id="leftmenu">
+	<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/rss/" class="menulink" title="RSS-feeds fra HTML.dk">RSS-feeds</a></div>
+	
+	<br />
+	
+	<div id="newsletterbox">
+		<form action="/nyhedsbrev/default.asp" method="post">
+		<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+		<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+		<br />
+		<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+		</form>
+	</div>
+
+	<br />
+	<form action='/artikler/00021/Default.asp?' method='post'><p class='pollheader'>Har du installeret, og bruger du, Microsoft Internet Explorer 7?</p><div><input type='hidden' name='tst' value='10-06-2007 21:53:07' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form>
+	<br />
+
+
+
+	<div id="communitybox">
+		<form action="/community/login.asp" method="post">
+		<div class="leftboxheader">&nbsp;Community</div>
+		<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+		</form>
+	</div>
+
+
+
+	<div class="menuitem" style="margin-top:20px;">
+		<img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a><br />
+		<img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="http://www.html.net/?leftmenu" class="menulink" title="HTML.net">HTML.net</a><br />
+	</div>
+
+	</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+
+
+	<div style="text-align:center;margin-top:20px;margin-bottom:20px;" class="noprint">
+        
+        <!-- "DK-html.dk_300x250" (section "DK-html.dk") -->
+        <iframe src="http://eas.apm.emediate.eu/eas?cu=364;cre=mu;target=_blank" width="300" height="250" scrolling="no" frameborder="0" marginheight="0" marginwidth="0">
+        </iframe>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" class="noprint" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/">RSS</a>
+	</div>
+	<hr style="margin-right:5px;" class="noprint"/>
+
+	<div style="float:right;width:280px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+	<a href="http://www.scannet.dk"><img src="/site/graphics/logo_scannet.gif" alt="Powered by Scannet" height="31" width="88" /></a>
+
+	<!-- chart.dk unified trackercode - v1 -->
+	<script type="text/javascript" src='http://www.chart.dk/js/unified.asp'></script>
+	<script type="text/javascript">
+	 track_visitor(32234, '');
+	</script>
+	<noscript>
+		<div>
+		<a href="http://www.chart.dk/ref.asp?id=32234">
+		<img src="http://cluster.chart.dk/chart.asp?id=32234" alt="Chart.dk" />
+		</a>
+		</div>
+	</noscript>
+	<!-- chart.dk unified trackercode - v1 -->
+
+	</div>
+</div>
+
+<div id="searchbox">
+
+<!-- SiteSearch Google -->
+    <form method="get" action="http://www.html.dk/search">
+        <div>
+            <input type="hidden" name="domains" value="www.html.dk" />
+
+            <label for="sbi" style="display: none">Indtast dine søgetermer</label>
+            <input type="text" name="q" size="20" maxlength="255" value="" id="sbi" style="border:1px solid black;" />
+
+            <label for="sbb" style="display: none">Indsend søgeformular</label>
+            <input type="submit" name="sa" value="Søg med Google" id="sbb" /><br />
+
+            <input type="radio" name="sitesearch" value="www.html.dk" checked="checked" id="ss1" />
+            <label for="ss1" title="Søg www.html.dk"><span style="color:#E5E5E5;font-size:90%;font-weight:bold;">HTML.dk</span></label>
+
+            <input type="radio" name="sitesearch" value="" id="ss0" />
+            <label for="ss0" title="Søg på internettet"><span style="color:#E5E5E5;font-size:90%;font-weight:bold;">WWW</span></label>
+
+            <input type="hidden" name="client" value="pub-8472339862020162" />
+            <input type="hidden" name="forid" value="1" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <input type="hidden" name="oe" value="ISO-8859-1" />
+            <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:0;LW:0;L:http://www.html.net/site/gfx/logo.for.googlesearch.png;S:http://www.html.net;LP:1;FORID:11" />
+            <input type="hidden" name="hl" value="da" />
+            </div>
+    </form>
+<!-- SiteSearch Google -->
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/artikler/default.asp' title='Oversigt over artikler' class='navibox'>Artikler</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Farvecirklen</span></div>
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+<!-- 
+var sc_project=1234240; 
+var sc_invisible=1; 
+var sc_partition=11; 
+var sc_security="2abf5711"; 
+var sc_remove_link=1; 
+//-->
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><img class="statcounter" src="http://c12.statcounter.com/counter.php?sc_project=1234240&amp;java=0&amp;security=2abf5711&amp;invisible=1" alt="hit counter" /></div></noscript>
+<!-- End of StatCounter Code -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-1093983-2";
+urchinTracker();
+</script>
+
+</body>
+</html>
+
+

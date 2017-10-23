@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Copy Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthcopy"></A>Copy Method</H1>
+
+<P>Copies a specified file or folder from one location to another.</P>
+
+<P><CODE><I>object</I><B>.Copy</B> <I>destination</I>[, <I>overwrite</I>] </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>File</B> or <B>Folder</B> object.</P>
+
+<P class=dt><I>destination</I></P>
+
+<P class=indent>Required. Destination where the file or folder is to be copied. Wildcard characters are not allowed.</P>
+
+<P class=dt><I>overwrite</I></P>
+
+<P class=indent>Optional. Boolean value that is <B>True</B> (default) if existing files or folders are to be overwritten; <B>False</B> if they are not.</P>
+
+<H4>Remarks</H4>
+
+<P>The results of the <B>Copy</B> method on a <B>File</B> or <B>Folder</B> are identical to operations performed using <B>FileSystemObject.CopyFile</B> or <B>FileSystemObject.CopyFolder</B> where the file or folder referred to by <I>object</I> is passed as an argument. You should note, however, that the alternative methods are capable of copying multiple files or folders.</P>
+
+<P>The following example illustrates use of the <B>Copy</B> method: </P>
+
+<PRE><CODE>Dim fso, MyFile
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set MyFile = fso.CreateTextFile("c:\testfile.txt", True)
+MyFile.WriteLine("This is a test.")
+MyFile.Close
+Set MyFile = fso.GetFile("c:\testfile.txt")
+<span class=cfe><B>MyFile.Copy (</B></span>"c:\windows\desktop\test2.txt"<span class=cfe><B>)</B></span></CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopyfile.htm">CopyFile Method</A> | <A HREF="vsmthcopyfolder.htm">CopyFolder Method</A> | <A HREF="vsmthdelete.htm">Delete Method</A> | <A HREF="vsmthmove.htm">Move Method</A> | <A HREF="vsmthopenastextstream.htm">OpenAsTextStream Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfile.htm">File Object</A> | <A HREF="vsobjfolder.htm">Folder Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

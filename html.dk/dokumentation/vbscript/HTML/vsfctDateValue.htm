@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DateValue Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctdatevalue"></A>DateValue Function</H1>
+
+<P>Returns a <B>Variant</B> of subtype <B>Date</B>.</P>
+
+<P><CODE>DateValue(<I>date</I>)</CODE></P>
+
+<P>The <I>date</I> argument is normally a <A HREF="vtglossary.htm#defstringexpressionvbs">string expression</A> representing a date from January 1, 100 through December 31, 9999. However, <I>date</I> can also be any expression that can represent a date, a time, or both a date and time, in that range.</P>
+
+<H4>Remarks</H4>
+
+<P>If the <I>date</I> argument includes time information, <B>DateValue</B> doesn't return it. However, if <I>date</I> includes invalid time information (such as "89:98"), an error occurs.</P>
+
+<P>If <I>date</I> is a string that includes only numbers separated by valid <A HREF="vtglossary.htm#defdateseparatorsvbs">date separators</A>, <B>DateValue</B> recognizes the order for month, day, and year according to the short date format you specified for your system. <B>DateValue</B> also recognizes unambiguous dates that contain month names, either in long or abbreviated form. For example, in addition to recognizing 12/30/1991 and 12/30/91, <B>DateValue</B> also recognizes December 30, 1991 and Dec 30, 1991.</P>
+
+<P>If the year part of <I>date</I> is omitted, <B>DateValue</B> uses the current year from your computer's system date.</P>
+
+<P>The following example uses the <B>DateValue</B> function to convert a string to a date. You can also use date literals to directly assign a date to a <B>Variant</B> variable, for example, MyDate = #9/11/63#. </P>
+
+<PRE><CODE>Dim MyDate
+MyDate = <span class=cfe><B>DateValue(</B></span>"September 11, 1963"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Return a date.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcdate.htm">CDate Function</A> | <A HREF="vsfctdateserial.htm">DateSerial Function</A> | <A HREF="vsfctday.htm">Day Function</A> | <A HREF="vsfctmonth.htm">Month Function</A> | <A HREF="vsfctnow.htm">Now Function</A> | <A HREF="vsfcttimeserial.htm">TimeSerial Function</A> | <A HREF="vsfcttimevalue.htm">TimeValue Function</A> | <A HREF="vsfctweekday.htm">Weekday Function</A> | <A HREF="vsfctyear.htm">Year Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

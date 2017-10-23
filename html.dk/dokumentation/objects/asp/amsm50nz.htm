@@ -1,0 +1,179 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Recipient Object (CDONTS Library)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_denali_recipient_object_cdonts_library_"></a>Recipient Object (CDONTS Library)</h2>
+<p>
+The Recipient object represents a recipient of a message. </p>
+<h4>At a Glance </h4>
+<table>
+<tr valign=top>
+<td>
+Specified in type library: </td>
+<td>
+CDONTS.DLL </td>
+</tr>
+<tr valign=top>
+<td>
+First available in: </td>
+<td>
+CDO for NTS Library version 1.2 </td>
+</tr>
+<tr valign=top>
+<td>
+Parent objects: </td>
+<td>
+<a href="amsm9zbz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm9zbz.htm">Recipients</a> collection </td>
+</tr>
+<tr valign=top>
+<td>
+Child objects: </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+Default property: </td>
+<td>
+<a href="amsm02u7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm02u7.htm"><b>Name</b></a> </td>
+</tr>
+</table><br>
+<p>
+No modifications are permitted to messages in the Inbox, except for message deletion. Therefore, all properties on a Recipient object are treated as read-only when the grandparent Message object is in the Inbox. When the access is described as read/write in the following table, that access applies only to recipients on messages in the Outbox. </p>
+<h4>Properties </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Type </b></td>
+<td>
+<b> <BR>Access </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm36fz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm36fz.htm"><b>Address</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String</td>
+<td>
+Read/write</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm23rz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm23rz.htm"><b>Application</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm02u7.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm02u7.htm"><b>Name</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String</td>
+<td>
+Read/write</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8snz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8snz.htm"><b>Parent</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Recipients collection object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6iov.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6iov.htm"><b>Session</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Session object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm3v4v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3v4v.htm"><b>Type</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long</td>
+<td>
+Read/write</td>
+</tr>
+</table><br>
+<h4>Methods </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Parameters </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm825b.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm825b.htm"><b>Delete</b></a> </td>
+<td>
+1.2 </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table><br>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Session og Logbog</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Jørgen Müller den 30. november 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Session og Logbog" />
+<meta name="language" content="dan" />
+<meta name="Date" content="30-11-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form&amp;ReplyID=%3Casacsi%244ge%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Jørgen&nbsp;Müller&nbsp;&nbsp;<a href='mailto:j.muller@mail.tele.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='j.muller@mail.tele.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Opensource Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 30. november 2002 kl. 15:02</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Session og Logbog</strong></li></ul>
+
+<p><span class='normal'>Hej Gruppe (Jacob) </span><br /><span class='citat'>>Har du ikke adgang til serverens logfiler? Det er lidt dumt at opfinde den </span><br /><span class='normal'>dybe tallerken 2 gange. </span><br /><span class='normal'>Jo da, men den er ikke tilfredsstillende, kan kun vise de 10 sider der har </span><br /><span class='normal'>flest bes&#248;g, og da jeg k&#248;rer med frame bliver de 4 sider vist hele tiden, s&#229; </span><br /><span class='normal'>derfor? </span><br /><span class='normal'> </span><br /><span class='citat'>>Sker dette mens du &quot;piller&quot; ved dine filer, og er du sikker p&#229; at din </span><br /><span class='normal'>session timeout ikke er sat til 5 min. </span><br /><span class='normal'>Det sker n&#229;r jeg surfer rundt p&#229; siderne, der vel og m&#230;rke ligger p&#229; min </span><br /><span class='normal'>egen computer. Har nu fundet ud af, at det specielt er en fil, der laver </span><br /><span class='normal'>balladen, for n&#229;r jeg har haft den &#229;ben et par gange, eller har benyttet mig </span><br /><span class='normal'>af formularen og afsendt et bud, s&#229; er min Session(&quot;PersonID&quot;) slettet? </span><br /><span class='normal'>Jeg var ikke klar over, at en session variabel udl&#248;b efter det antal </span><br /><span class='normal'>minutter man satte den til i session_on_start. Troede at det f&#248;rst talte n&#229;r </span><br /><span class='normal'>sessionen var inaktiv? </span><br /><span class='normal'>Har lavet en ny session timeout p&#229; 50 min og genstartet men det hj&#230;lper </span><br /><span class='normal'>ikke? </span><br /><span class='normal'> </span><br /><span class='normal'>Her er koden i Bid.asp der laver balladen. </span><br /><span class='normal'>&lt;!-- #include file=&quot;Clssfd.asp&quot; --> </span><br /><span class='normal'>&lt;META NAME=&quot;Generator&quot; CONTENT=&quot;Stone's WebWriter 3.5&quot;> </span><br /><span class='normal'>&lt;BASEFONT FACE=&quot;Verdana&quot; BGCOLOR=&quot;Black&quot;> </span><br /><span class='normal'>&lt;HTML> </span><br /><span class='normal'>&lt;HEAD> </span><br /><span class='normal'>&lt;TITLE>Salgsbud&lt;/TITLE> </span><br /><span class='normal'>&lt;/HEAD> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;BODY BGCOLOR=&quot;White&quot;> </span><br /><span class='normal'>&lt;% </span><br /><span class='normal'>Response.Write &quot;&lt;H1 align=center>Velkommen &quot; &amp; &quot;nr. &quot; &amp;_ </span><br /><span class='normal'>         Session(&quot;PersonID&quot;) &amp; &quot; &quot; &amp; Session(&quot;Fornavn&quot;) &amp; &quot;&lt;/H1>&quot; </span><br /><span class='normal'> </span><br /><span class='normal'>Dim rsItem, strItemName, strDescription </span><br /><span class='normal'>Set rsItem = Server.CreateObject(&quot;ADODB.Recordset&quot;) </span><br /><span class='normal'>strSQL = &quot;SELECT T_Varer.VareNavn, T_Varer.Beskrivelse, T_Varer.Mindstepris, </span><br /><span class='normal'>&quot; &amp;_ </span><br /><span class='normal'>     &quot;T_Varer.Billede &quot; &amp;_ </span><br /><span class='normal'>     &quot;FROM T_Varer &quot; &amp;_ </span><br /><span class='normal'>     &quot;WHERE T_Varer.VareID = &quot; &amp; Request(&quot;Item&quot;) </span><br /><span class='normal'> </span><br /><span class='normal'>rsItem.Open strSQL, objConn </span><br /><span class='normal'>strItemName = rsItem(&quot;VareNavn&quot;) </span><br /><span class='normal'>strDescription = rsItem(&quot;Beskrivelse&quot;) </span><br /><span class='normal'>strMindstePris = rsItem(&quot;Mindstepris&quot;) </span><br /><span class='normal'>strBillede = rsItem(&quot;Billede&quot;) </span><br /><span class='normal'>rsItem.Close </span><br /><span class='normal'>Set rsItem = Nothing </span><br /><span class='normal'> </span><br /><span class='normal'>Dim rsBid </span><br /><span class='normal'>Set rsBid = Server.CreateObject(&quot;ADODB.Recordset&quot;) </span><br /><span class='normal'>strSQL = &quot;SELECT  T_Bud.VareID, T_Bud.ByderID, T_Bud.BudDato, &quot; &amp;_ </span><br /><span class='normal'>     &quot;T_Bud.BudPris, T_Bud.BudForskel &quot; &amp;_ </span><br /><span class='normal'>     &quot;FROM T_Bud &quot; &amp;_ </span><br /><span class='normal'>     &quot;WHERE VareID =&quot; &amp; Request(&quot;Item&quot;) &amp;_ </span><br /><span class='normal'>     &quot; ORDER BY BudPris DESC&quot; </span><br /><span class='normal'>rsBid.Open strSQL, objConn </span><br /><span class='normal'> </span><br /><span class='normal'>%> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;CENTER>&lt;H1>Danmarks Sm&#229;b&#229;dsfiskeklubber&lt;BR>Bud p&#229; &lt;%= strItemName </span><br /><span class='normal'>%>&lt;/H1>&lt;/Center> </span><br /><span class='normal'>&lt;P> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;% </span><br /><span class='normal'>Dim varHighBid </span><br /><span class='normal'>varHighBid = 0 </span><br /><span class='normal'>If rsBid.EOF Then </span><br /><span class='normal'> Response.Write &quot;Indtil nu er der ikke blevet budt p&#229; denne vare!&quot; </span><br /><span class='normal'>Else </span><br /><span class='normal'> </span><br /><span class='normal'> Response.Write &quot;Bud History (h&#248;jeste bud f&#248;rst)&quot; &amp;_ </span><br /><span class='normal'>         &quot;&lt;TABLE BORDER=&quot;&quot;2&quot;&quot; CELLSPACING=&quot;&quot;3&quot;&quot; CELLPADDING=&quot;&quot;3&quot;&quot;>&quot; &amp;_ </span><br /><span class='normal'>         &quot;&lt;TR>&quot; &amp;_ </span><br /><span class='normal'>          &quot;&lt;TH>Byder ID&lt;/TH>&quot; &amp;_ </span><br /><span class='normal'>          &quot;&lt;TH>Bud Dato&lt;/TH>&quot; &amp;_ </span><br /><span class='normal'>          &quot;&lt;TH>Bud&lt;/TH>&quot; &amp;_ </span><br /><span class='normal'>          &quot;&lt;TH>Bud forskel&lt;/TH>&quot; &amp;_ </span><br /><span class='normal'>         &quot;&lt;/TR>&quot; </span><br /><span class='normal'>    Do While Not rsBid.EOF </span><br /><span class='normal'>      Response.Write _ </span><br /><span class='normal'>      &quot;  &lt;TR>&quot; &amp; _ </span><br /><span class='normal'>      &quot;    &lt;TD>&quot; &amp; rsBid(&quot;ByderID&quot;) &amp; &quot;&lt;/TD>&quot; &amp; _ </span><br /><span class='normal'>      &quot;    &lt;TD>&quot; &amp; rsBid(&quot;BudDato&quot;) &amp; &quot;&lt;/TD>&quot; &amp; _ </span><br /><span class='normal'>      &quot;    &lt;TD ALIGN=RIGHT>&quot; &amp; FormatCurrency(rsBid(&quot;BudPris&quot;)) &amp; &quot;&lt;/TD>&quot; &amp; </span><br /><span class='normal'>_ </span><br /><span class='normal'>      &quot;    &lt;TD ALIGN=RIGHT>&quot; &amp; FormatCurrency(rsBid(&quot;BudForskel&quot;)) &amp; &quot;&lt;/TD>&quot; </span><br /><span class='normal'>&amp; _ </span><br /><span class='normal'>      &quot;  &lt;/TR>&quot; </span><br /><span class='normal'>      If varhighBid = 0 Then varHighBid = rsBid(&quot;BudForskel&quot;) </span><br /><span class='normal'>      rsBid.MoveNext </span><br /><span class='normal'>    Loop </span><br /><span class='normal'>    rsBid.Close </span><br /><span class='normal'>Set rsBid = Nothing </span><br /><span class='normal'>Response.Write &quot;&lt;/TABLE>&quot; </span><br /><span class='normal'>End If </span><br /><span class='normal'>%> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;FORM NAME=&quot;frmBid&quot; ACTION=&quot;prv.asp&quot; METHOD=&quot;Post&quot; onSubmit=&quot;return </span><br /><span class='normal'>VerifyData()&quot;> </span><br /><span class='normal'> &lt;INPUT TYPE=&quot;Hidden&quot; NAME=&quot;ItemID&quot; VALUE=&quot;&lt;%= Request(&quot;Item&quot;) %>&quot;> </span><br /><span class='normal'> &lt;P> </span><br /><span class='normal'> &lt;TABLE WIDTH=&quot;80%&quot; BORDER=&quot;0&quot;> </span><br /><span class='normal'>  &lt;TR> </span><br /><span class='normal'>   &lt;TD ROWSPAN=&quot;6&quot;>&lt;IMG src=&quot;&lt;%= strBillede %>&quot;>&lt;/TD> </span><br /><span class='normal'>  &lt;/TR> </span><br /><span class='normal'>  &lt;TR> </span><br /><span class='normal'>   &lt;TD WIDTH=&quot;20%&quot;>&lt;B>Vare:&lt;/B>&lt;/TD> </span><br /><span class='normal'>   &lt;TD>&lt;%= strItemName %>&lt;/TD> </span><br /><span class='normal'>  &lt;/TR> </span><br /><span class='normal'>  &lt;TR> </span><br /><span class='normal'>   &lt;TD WIDTH=&quot;20%&quot;>&lt;B>Mindstepris:&lt;/B>&lt;/TD> </span><br /><span class='normal'>   &lt;TD>&lt;%= FormatCurrency(strMindstepris) %>&lt;/TD> </span><br /><span class='normal'>  &lt;/TR> </span><br /><span class='normal'>  &lt;TR> </span><br /><span class='normal'>   &lt;TD>&lt;B>Beskrivelse:&lt;/B>&lt;/TD> </span><br /><span class='normal'>   &lt;TD>&lt;%= Replace(strDescription, vbcrlf, &quot;&lt;BR>&quot;) %>&lt;/TD> </span><br /><span class='normal'>  &lt;/TR> </span><br /><span class='normal'>  &lt;TR> </span><br /><span class='normal'>   &lt;TD>&lt;B>Dit bud >>>>>&lt;/B>&lt;/TD> </span><br /><span class='normal'>   &lt;TD>&lt;INPUT TYPE=&quot;text&quot; NAME=&quot;Bid&quot; SIZE=&quot;40&quot;>&lt;/TD> </span><br /><span class='normal'>  &lt;/TR> </span><br /><span class='normal'>  &lt;TR> </span><br /><span class='normal'>   &lt;TD>&lt;/TD> </span><br /><span class='normal'>   &lt;TD ALIGN=&quot;center&quot; COLSPAN=&quot;2&quot;>&lt;BR> </span><br /><span class='normal'>    &lt;INPUT TYPE=&quot;Submit&quot; VALUE=&quot;Byd p&#229; vare&quot;>&amp;nbsp;&amp;nbsp; </span><br /><span class='normal'>    &lt;INPUT TYPE=&quot;Reset&quot;>&lt;/TD> </span><br /><span class='normal'>   &lt;/TR> </span><br /><span class='normal'>  &lt;/TABLE> </span><br /><span class='normal'> &lt;/FORM> </span><br /><span class='normal'>&lt;HR> </span><br /><span class='normal'>&lt;TABLE BORDER=&quot;0&quot; WIDTH=&quot;100%> </span><br /><span class='normal'> &lt;TR Align=&quot;Center&quot;> </span><br /><span class='normal'>  &lt;TD WIDTH=&quot;33%&quot;>&lt;A HREF=&quot;BrowseListings.asp&quot;>Gennemse tilbuddene&lt;/A>&lt;/TD> </span><br /><span class='normal'>  &lt;TD WIDTH=&quot;33%&quot;>Tilf&#248;j vare til salg&lt;/TD> </span><br /><span class='normal'>  &lt;TD WIDTH=&quot;33%&quot;>&lt;A HREF=&quot;Register.asp?Update=True&quot;>&#198;ndre </span><br /><span class='normal'>Registreringsdata&lt;/A>&lt;/TD> </span><br /><span class='normal'> &lt;/TR> </span><br /><span class='normal'> &lt;/TABLE> </span><br /><span class='normal'>&lt;/BODY> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;SCRIPT language=&quot;JavaScript&quot;> </span><br /><span class='normal'>&lt;!-- </span><br /><span class='normal'>function VerifyData() </span><br /><span class='normal'>{ </span><br /><span class='normal'>  if (document.frmBid.Bid.value &lt;= &lt;%= varHighBid %>) </span><br /><span class='normal'>  { </span><br /><span class='normal'>    alert (&quot;Du bliver n&#248;dsaget til at byde h&#248;jre end &quot; + </span><br /><span class='normal'>           &quot;&lt;%= FormatCurrency(varHighBid) %>.&quot;); </span><br /><span class='normal'>    return false; </span><br /><span class='normal'>  } </span><br /><span class='normal'>  else </span><br /><span class='normal'>    return true; </span><br /><span class='normal'>} </span><br /><span class='normal'>--> </span><br /><span class='normal'>&lt;/SCRIPT> </span><br /><span class='normal'>&lt;/HTML> </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Med Venlig Hilsen </span><br /><span class='normal'> </span><br /><span class='normal'>J&#248;rgen M&#252;ller </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3Casa1jc%245dt%241%40sunsite%2Edk%3E' title='Session og Logbog'>Session og Logbog</a>&nbsp;<small class='newslist'>(30-11-02&nbsp;-&nbsp;Jørgen&nbsp;Müller)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3Casa78s%242m5h%241%40news%2Ecybercity%2Edk%3E' title='Re: Session og Logbog'>Re: Session og Logbog</a>&nbsp;<small class='newslist'>(30-11-02&nbsp;-&nbsp;Jakob&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3Casacsi%244ge%241%40sunsite%2Edk%3E' title='Re: Session og Logbog'>Re: Session og Logbog</a>&nbsp;<small class='newslist'>(30-11-02&nbsp;-&nbsp;Jørgen&nbsp;Müller)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3Casam5a%24n41%241%40sunsite%2Edk%3E' title='Re: Session og Logbog'>Re: Session og Logbog</a>&nbsp;<small class='newslist'>(30-11-02&nbsp;-&nbsp;Jørgen&nbsp;Müller)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form&amp;ReplyID=%3Casacsi%244ge%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+<!--
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp?messageid=%3casacsi$4ge$1@sunsite.dk%3e' method='post'><p class='pollheader'>Hvornår har du sidst brugt dit betalingskort på nettet?</p><div><input type='hidden' name='tst' value='08-05-03 07:39:04' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Inden for den sidste måned</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Inden for det sidste ½ år</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Længere tid siden</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Aldrig</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/Default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Session og Logbog</span></div>
+
+
+
+</body>
+</html>
+

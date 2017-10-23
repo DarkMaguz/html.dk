@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>ScriptEngineMinorVersion Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctscriptengineminorversion"></A>ScriptEngineMinorVersion Function</H1>
+
+<P>Returns the minor version number of the scripting engine in use.</P>
+
+<P><CODE>ScriptEngineMinorVersion</CODE></P>
+
+<H4>Remarks</H4>
+
+<P>The return value corresponds directly to the version information contained in the DLL for the scripting language in use.</P>
+
+<P>The following example uses the <B>ScriptEngineMinorVersion</B> function to return the minor version number of the scripting engine: </P>
+
+<PRE><CODE>Function GetScriptEngineInfo
+&nbsp;&nbsp;&nbsp;Dim s
+&nbsp;&nbsp;&nbsp;s = ""&nbsp;&nbsp;&nbsp;' Build string with necessary info.
+&nbsp;&nbsp;&nbsp;s = ScriptEngine &amp; " Version "
+&nbsp;&nbsp;&nbsp;s = s &amp; ScriptEngineMajorVersion &amp; "."
+&nbsp;&nbsp;&nbsp;s = s &amp; ScriptEngineMinorVersion &amp; "."
+&nbsp;&nbsp;&nbsp;s = s &amp; ScriptEngineBuildVersion 
+&nbsp;&nbsp;&nbsp;GetScriptEngineInfo = s&nbsp;&nbsp;&nbsp;' Return the results.
+End Function</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctscriptengine.htm">ScriptEngine Function</A> | <A HREF="vsfctscriptenginebuildversion.htm">ScriptEngineBuildVersion Function</A> | <A HREF="vsfctscriptenginemajorversion.htm">ScriptEngineMajorVersion Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

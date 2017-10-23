@@ -1,0 +1,184 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Adgangsbeskyttelse - test sikkerheden i mit script</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.php skrevet af Morten Jørgensen den 23. februar 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Adgangsbeskyttelse - test sikkerheden i mit script" />
+<meta name="language" content="dan" />
+<meta name="Date" content="23-02-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3e58dfab%240%244293%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Morten&nbsp;Jørgensen&nbsp;&nbsp;<a href='mailto:admin@startlinket.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='admin@startlinket.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 23. februar 2003 kl. 16:50</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Adgangsbeskyttelse - test sikkerheden i mit script</strong></li></ul>
+
+<p><span class='normal'>&quot;Niels Andersen&quot; &lt;<a href='http://niels-usenet@myplace.dk'>niels-usenet@myplace.dk</a>> skrev i en meddelelse </span><br /><span class='normal'><a href='http://news:1263982.178TDY3bXU@home.myplace.dk'>news:1263982.178TDY3bXU@home.myplace.dk</a>... </span><br /><span class='citat'>> Og der har vi s&#229; nok k&#230;dens svageste led. Kodeordet s&#229; som rent tekst i en </span><br /><span class='citat'>> fil. Ofte vil det enda v&#230;re en fil, som er relativt let at f&#229; fat i. </span><br /><span class='citat'>> </span><br /><span class='citat'>> S&#248;rg for at filen ligger uden for &quot;webscope&quot;. Hvis overhovedet muligt (og </span><br /><span class='citat'>> det er det her), s&#229; lad v&#230;re med at opbevare kodeordet som &quot;plaintext&quot;. </span><br /><span class='normal'>L&#230;g </span><br /><span class='citat'>> fx. i stedet en md5sum af kodeordet. </span><br /><span class='citat'>> N&#229;r du s&#229; skal kontrollere kodeord laver du en md5sum af det indtastede </span><br /><span class='citat'>> kodeord, og s&#229; sammenligner du denne md5sum med den i filen. </span><br /><span class='citat'>> </span><br /><span class='citat'>> S&#229; kan folk l&#230;se samtlige dine filer uden at finde kodeordet. Den eneste </span><br /><span class='citat'>> m&#229;de at finde kodeordet bliver at k&#248;re bruteforce p&#229; md5summen. Hvis du </span><br /><span class='normal'>har </span><br /><span class='citat'>> et godt kodeord er det noget der kommer til at tage tid. Dit kodeord og </span><br /><span class='citat'>> hackerens udstyr bestemmer hvor lang tid. M&#229;ske nogle timer, m&#229;ske flere </span><br /><span class='citat'>> &#229;r. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg kender ikke lige hacker-v&#230;rkt&#248;jerne osv. godt nok til at s&#230;tte tid p&#229; </span><br /><span class='normal'>et </span><br /><span class='citat'>> bestemt kodeord, men s&#248;rg for at have b&#229;de store og sm&#229; bogstaver, tal og </span><br /><span class='citat'>> specialtegn (som fx. punktum og komma). </span><br /><span class='normal'> </span><br /><span class='normal'>Det samme kodeord bruges jo af scriptet til at oprette forbindelse til </span><br /><span class='normal'>databasen, s&#229; det skal jo v&#230;re d&#233;r, men det kunne jo godt l&#230;gges udenfor </span><br /><span class='normal'>webscope. </span><br /><span class='normal'>Men nu er det jo ikke bare s&#229;dan at folk vil se indholdet af filen, hvis de </span><br /><span class='normal'>g&#230;tter sig til hvilken &#233;n det er, for det er jo en .php fil og indholdet af </span><br /><span class='normal'>den er kun variabler. Men det er korrekt, at g&#229;r PHP ned, s&#229; vil man kunne </span><br /><span class='normal'>se indholdet og ogs&#229; korrekt at hvis man f&#229;r direkte adgang til filen, s&#229; </span><br /><span class='normal'>kan man se den - det vil man altid kunne... S&#229; jeg kan ikke rigtig se at det </span><br /><span class='normal'>skulle kunne g&#248;res bedre, andet lige end at l&#230;gge det udenfor webscope. </span><br /><span class='normal'> </span><br /><span class='citat'>> Med din metode kan man se kodeordet b&#229;de i din includefil og i </span><br /><span class='normal'>sessionsdata. </span><br /><span class='citat'>> Dvs. hvis f&#248;rst man er kommet ind i din server har man gode chancer. </span><br /><span class='normal'> </span><br /><span class='normal'>Ja, det er jo korrekt at det g&#248;res sv&#230;rrere at komme ind, hvis det ikke </span><br /><span class='normal'>ligger i sessionen. Men det jeg spurgte til, var jo om jeg s&#229; bare skulle </span><br /><span class='normal'>lave noget jeg tjekker p&#229; i sessionen, om man er logget ind? </span><br /><span class='normal'>Det har garanteret den samme sikkerhed, som hvis jeg lagde brugernavn og </span><br /><span class='normal'>adgangskode derind, men du m&#229; kunne f&#248;lge mig, at det umiddelbart lyder som </span><br /><span class='normal'>tjekkede man kun n&#229;r man loggede ind - ved godt det ikke har noget at sige. </span><br /><span class='normal'>:) </span><br /><span class='normal'> </span><br /><span class='citat'>> Man kan s&#229; argumentere for at hvis nogen f&#248;rst er kommet ind, s&#229; er det </span><br /><span class='normal'>ikke </span><br /><span class='citat'>> kodeordet der er problemet. <img src='/site/graphics/smileys/smiley3.gif' alt=';-)' /> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Lige nu (hvor jeg har en masse andre ting i hovedet) har jeg lidt sv&#230;rt </span><br /><span class='normal'>ved </span><br /><span class='citat'>> at overskue alle detaljerne i de to muligheder. Men den med at huske </span><br /><span class='citat'>> kodeordet, og kontrollere det for hvert &quot;klik&quot; synes jeg ikke lyder s&#230;rlig </span><br /><span class='citat'>> smart. </span><br /><span class='normal'> </span><br /><span class='normal'>Nej, det er korrekt, s&#229; vi m&#229; vel drage den konklusion, at jeg &quot;bare&quot; gemmer </span><br /><span class='normal'>noget information, som jeg efterf&#248;lgende kan tjekke p&#229;? ... og det skulle </span><br /><span class='normal'>der s&#229; ikke v&#230;re nogle sikkerhedshuller i, andet end hvad &quot;PHP-folket&quot; nok </span><br /><span class='normal'>skal rette. :P </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e58b0b4%240%244232%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Adgangsbeskyttelse - test sikkerheden i mit script'>Adgangsbeskyttelse - test sikkerheden i mit script</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CXns932B921E448C5HS235DK%40130%2E225%2E247%2E90%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Henrik&nbsp;Stidsen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C1802568%2Evh39HMgTr7%40home%2Emyplace%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e58d8ab%240%244315%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C1263982%2E178TDY3bXU%40home%2Emyplace%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e58dfab%240%244293%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C23775219%2EBRJGBbCr80%40home%2Emyplace%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e58e6f2%240%244277%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e58ff89%240%244266%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(23-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e5a2a77%240%244260%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(24-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3E5A3310%2E1020009%40brunholm%2Dscharff%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(24-02-03&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e5a3763%240%244284%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(24-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e5b8793%240%244237%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(25-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C06M6a%2E95692%24Hl6%2E9231534%40news010%2Eworldonline%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(25-02-03&nbsp;-&nbsp;Ulrik&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e5b974a%240%244212%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(25-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CXns932DE646CEC65thomasitsnedkerendk%4062%2E243%2E74%2E162%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(25-02-03&nbsp;-&nbsp;Thomas&nbsp;Lindgaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e5c610e%240%244321%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(26-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3CTx%5F6a%2E97036%24Hl6%2E9321410%40news010%2Eworldonline%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(26-02-03&nbsp;-&nbsp;Ulrik&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3e5ccb4c%240%244318%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E' title='Re: Adgangsbeskyttelse - test sikkerheden i mit sc...'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</a>&nbsp;<small class='newslist'>(26-02-03&nbsp;-&nbsp;Morten&nbsp;Jørgensen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3e58dfab%240%244293%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Job</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<!--
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html_125x125'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_anim.gif' alt='Link til IT-Jobank' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3c3e58dfab$0$4293$edfadb0f@dread14.news.tele.dk%3e' method='post'><p class='pollheader'>Har du en PDA?</p><div><input type='hidden' name='tst' value='13-03-03 19:32:34' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Adgangsbeskyttelse - test sikkerheden i mit sc...</span></div>
+
+
+
+</body>
+</html>
+

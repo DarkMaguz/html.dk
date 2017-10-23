@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Class Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmclass"></A>Class Statement</H1>
+
+<P>Declares the name of a <A HREF="vtglossary.htm#defclassvbs">class</A>, as well as a definition of the variables, properties, and methods that comprise the class.</P>
+
+<P><CODE><B>Class</B> <I>name</I><BR>
+&nbsp;&nbsp;&nbsp;<I>statements</I><BR>
+<B>End Class</B> </CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>name</I></P>
+
+<P class=indent>Required. Name of the <B>Class</B>; follows standard <A HREF="vtglossary.htm#defvariablevbs">variable</A> naming conventions.</P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>Required. One or more statements that define the variables, <A HREF="vtglossary.htm#defpropertyvbs">properties</A>, and methods of the <B>Class</B>.</P>
+
+<H4>Remarks</H4>
+
+<P>Within a <B>Class</B> block, members are declared as either <B>Private</B> or <B>Public</B> using the appropriate declaration statements. Anything declared as <A HREF="vtglossary.htm#defprivatevbs">Private</A> is visible only within the <B>Class</B> block. Anything declared as <A HREF="vtglossary.htm#defpublicvbs">Public</A> is visible within the <B>Class</B> block, as well as by code outside the <B>Class</B> block. Anything not explicitly declared as either <B>Private</B> or <B>Public</B> is <B>Public</B> by default. <A HREF="vtglossary.htm#defprocedurevbs">Procedures</A> (either <B>Sub</B> or <B>Function</B>) declared <B>Public</B> within the class block become methods of the class. <B>Public</B> variables serve as properties of the class, as do properties explicitly declared using <B>Property Get</B>, <B>Property Let</B>, and <B>Property Set</B>. Default properties and methods for the class are specified in their declarations using the <B>Default</B> keyword. See the individual declaration statement topics for information on how this <A HREF="vtglossary.htm#defkeywordvbs">keyword</A> is used. </P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

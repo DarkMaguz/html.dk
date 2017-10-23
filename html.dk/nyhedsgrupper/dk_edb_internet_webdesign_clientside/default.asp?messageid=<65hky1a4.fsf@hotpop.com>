@@ -1,0 +1,196 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Re: Javascript brugt til scroll</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af Lasse Reichstein Nielsen den 16. november 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Javascript brugt til scroll" />
+<meta name="language" content="dan" />
+<meta name="Date" content="16-11-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=485160470009?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C65hky1a4%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Lasse&nbsp;Reichstein&nbsp;Nielsen&nbsp;&nbsp;<a href='mailto:lrn@hotpop.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='lrn@hotpop.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 16. november 2003 kl. 13:56</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Javascript brugt til scroll</strong></li></ul>
+
+<p><span class='normal'>&quot;Thomas Lindgaard&quot; &lt;<a href='http://thomas@it-snedkeren.BLACK_HOLE.dk'>thomas@it-snedkeren.BLACK_HOLE.dk</a>> writes: </span><br /><span class='normal'> </span><br /><span class='citat'>> P&#229; <a href='http://www.tpfurniture.dk/version2/udstillinger.php'>http://www.tpfurniture.dk/version2/udstillinger.php</a> har jeg sat noget </span><br /><span class='citat'>> javascript ind s&#229; man kan scrolle i teksten ved at holde musen hen over to </span><br /><span class='citat'>> sm&#229; pile.  </span><br /><span class='normal'> </span><br /><span class='normal'>Du synes sikkert det er p&#230;nt, men det er ganske besv&#230;rligt at bruge </span><br /><span class='normal'>for folk uden mus, for folk med mus tillader det ikke at man bruger </span><br /><span class='normal'>scroll-wheel, man kan ikke bestemme hastigheden, og koden er, som du </span><br /><span class='normal'>ser, besv&#230;rlig at f&#229; rigtigt. Med usability-&#248;jne er det en katastrofe. </span><br /><span class='normal'>Brug dog CSS-egenskaben &quot;overflow:auto;&quot; og f&#229; en scrollbar, og s&#229; kan </span><br /><span class='normal'>du style den scrollbar med CSS hvis den ikke passer til siden ellers. </span><br /><span class='normal'> </span><br /><span class='citat'>> Det fungerer fint s&#229; l&#230;nge der ikke er nogen doctype-angivelse p&#229; </span><br /><span class='citat'>> siden. Hvis jeg s&#230;tter en doctype ind, s&#229; fungerer det stadig fint i IE men </span><br /><span class='citat'>> ikke i Mozilla Firebird. </span><br /><span class='normal'> </span><br /><span class='normal'>Umiddelbart g&#230;t: du glemmer at putte enheder (typisk &quot;px&quot;) p&#229; de </span><br /><span class='normal'>CSS-egenskaber du s&#230;tter.  </span><br /><span class='normal'> </span><br /><span class='normal'>Det ser ogs&#229; r&#230;dselsfuldt ud i Opera 7. </span><br /><span class='normal'> </span><br /><span class='normal'>Har du et link til en side *med* DOCTYPE (alts&#229; den side er *ikke* virker)? </span><br /><span class='normal'> </span><br /><span class='citat'>> Er der en haj der kan fort&#230;lle mig hvilke dele af scriptet der ikke er &quot;p&#230;n&quot; </span><br /><span class='citat'>> kode? (det er noget jeg har downloadet - personligt hader jeg at rode i </span><br /><span class='citat'>> javascript :)) </span><br /><span class='normal'> </span><br /><span class='normal'>S&#229; lad v&#230;re. Det kan klares meget bedre med CSS. </span><br /><span class='normal'>Ok, lad mig kigge p&#229; koden: </span><br /><span class='normal'> </span><br /><span class='normal'>- F&#248;rste advarselstegn:  </span><br /><span class='normal'>   function lib_bwcheck(){ //Browsercheck (needed) </span><br /><span class='normal'>At g&#230;tte browseren ud fra nogle mere eller mindre tilf&#230;ldige egenskaber, </span><br /><span class='normal'>som andre browsere kan efterligne (og g&#248;r det) er ikke stabil programmering. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg ser fx at browsertjekket ikke genkender Opera over version 5. Jeg bruge </span><br /><span class='normal'>Opera 7, som, s&#229; vidt jeg kan se, bliver genkendt som b&#229;de opera5 og ns6. </span><br /><span class='normal'>Det forklarer m&#229;ske hvorfor det ser ud som om den st&#229;r og hopper mellem </span><br /><span class='normal'>to forskellige m&#229;der at scrolle p&#229;. </span><br /><span class='normal'> </span><br /><span class='normal'>Logikken i browsertjekket viser en forfatter der ikke forst&#229;r Javascript. </span><br /><span class='normal'>Der bruges &quot;1&quot; og &quot;0&quot; i stedet for &quot;true&quot; og &quot;false&quot;, og man ser endda </span><br /><span class='normal'>konstruktionen </span><br /><span class='normal'> (betingelse)?1:0 </span><br /><span class='normal'>som mindst lige s&#229; godt kunne n&#248;jes med at v&#230;re </span><br /><span class='normal'> betingelse </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Personligt ville jeg mene at dette browsertjek er diskvalificerende </span><br /><span class='normal'>for koden, men jeg stiller ogs&#229; krav til min kode. </span><br /><span class='normal'> </span><br /><span class='normal'>- n&#230;ste advarselstegn: </span><br /><span class='normal'>   eval(this.obj + &quot;=this&quot;) ; </span><br /><span class='normal'>Man skal ikke bruge eval! Der er undtagelser, men de er sj&#230;ldne og </span><br /><span class='normal'>specifikke, og de optr&#230;der med altovervejende sandsynlighed ikke i </span><br /><span class='normal'>almindeligt web-design. Eval er til geng&#230;ld langsom og </span><br /><span class='normal'>ressourcekr&#230;vende (den starter en compiler hver gang den k&#248;rer) og g&#248;r </span><br /><span class='normal'>det sv&#230;rt at finde fejl.  </span><br /><span class='normal'> </span><br /><span class='normal'>- Det jeg regner med er problement: </span><br /><span class='normal'>Ret disse linjer </span><br /><span class='normal'>    this.css.left=this.x;  </span><br /><span class='normal'>    this.css.top=this.y; </span><br /><span class='normal'>til </span><br /><span class='normal'>    this.css.left=this.x+&quot;px&quot;;  </span><br /><span class='normal'>    this.css.top=this.y+&quot;px&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>Ok, har lige testet, og *bingo*, det var det! </span><br /><span class='normal'> </span><br /><span class='normal'>/L </span><br /><span class='normal'>--  </span><br /><span class='normal'>Lasse Reichstein Nielsen  -  <a href='http://lrn@hotpop.com'>lrn@hotpop.com</a> </span><br /><span class='normal'> DHTML Death Colors: &lt;URL:<a href='http://www.infimum.dk/HTML/rasterTriangleDOM.html'>http://www.infimum.dk/HTML/rasterTriangleDOM.html</a>> </span><br /><span class='normal'>  'Faith without judgement merely degrades the spirit divine.'</span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbp7jhb%24quf%241%40sunsite%2Edk%3E' title='Javascript brugt til scroll'>Javascript brugt til scroll</a>&nbsp;<small class='newslist'>(16-11-03&nbsp;-&nbsp;Thomas&nbsp;Lindgaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C65hky1a4%2Efsf%40hotpop%2Ecom%3E' title='Re: Javascript brugt til scroll'>Re: Javascript brugt til scroll</a>&nbsp;<small class='newslist'>(16-11-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbp812s%24fdr%241%40sunsite%2Edk%3E' title='Re: Javascript brugt til scroll'>Re: Javascript brugt til scroll</a>&nbsp;<small class='newslist'>(16-11-03&nbsp;-&nbsp;Thomas&nbsp;Lindgaard)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C3fb7d021%240%2495036%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Re: Javascript brugt til scroll'>Re: Javascript brugt til scroll</a>&nbsp;<small class='newslist'>(16-11-03&nbsp;-&nbsp;Benny&nbsp;Nissen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbphv4c%24217%241%40sunsite%2Edk%3E' title='Re: Javascript brugt til scroll'>Re: Javascript brugt til scroll</a>&nbsp;<small class='newslist'>(20-11-03&nbsp;-&nbsp;Thomas&nbsp;Lindgaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C3fbc824e%240%2495084%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Re: Javascript brugt til scroll'>Re: Javascript brugt til scroll</a>&nbsp;<small class='newslist'>(20-11-03&nbsp;-&nbsp;Benny&nbsp;Nissen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3C65hky1a4%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=988469421864?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3C65hky1a4%2Efsf%40hotpop%2Ecom%3E' method='post'><p class='pollheader'>Hvor mange spam-mails modtager du dagligt?</p><div><input type='hidden' name='tst' value='11-03-04 06:41:57' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ingen</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;1 til 10</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;10 til 30</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Flere end 30</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<!-- Imagine Cup banner: start -->
+<div style="text-align:center;"><hr /><a href="http://www.imaginecup.com/"><img src="/site/graphics/imaginecup.gif" style="border:0px;" alt="Imagine Cup" /></a><br /></div>
+
+<!-- Imagine Cup banner: end -->
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Javascript brugt til scroll</span></div>
+
+
+
+</body>
+</html>
+

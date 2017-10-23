@@ -1,0 +1,22 @@
+<html>
+<title>George</title>
+<head>
+</head>
+<body>
+
+<h1>Hi, my name is George</h1>
+<div><img src="george.jpg" alt="George" width="108" height="137"></div>
+
+<p>Hej, mit navn er George - Jeg er en doven dreng,
+så jeg bruger SSI til at inkludere adressen på alle mine sider.</p>
+
+<hr>
+<address>
+George - 1600 Pennsylvania Avenue NW - Washington, DC 20500
+</address>
+
+
+
+</body>
+</html>
+

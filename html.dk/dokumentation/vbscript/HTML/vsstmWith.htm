@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>With Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmwith"></A>With Statement</H1>
+
+<P>Executes a series of statements on a single object.</P>
+
+<P><CODE><B>With</B> <I>object</I><BR>
+&nbsp;&nbsp;&nbsp;<I>statements</I><BR>
+<B>End With</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Name of an object or a function that returns an object.</P>
+
+<P class=dt><I>statements</I></P>
+
+<P class=indent>Required. One or more statements to be executed on <I>object</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>The <B>With</B> statement allows you to perform a series of statements on a specified object without requalifying the name of the object. For example, to change a number of different <A HREF="vtglossary.htm#defpropertyvbs">properties</A> on a single object, place the property assignment statements within the <B>With</B> control structure, referring to the object once instead of referring to it with each property assignment. The following example illustrates use of the <B>With</B> statement to assign values to several properties of the same object.</P>
+
+<PRE><CODE>With MyLabel
+&nbsp;&nbsp;&nbsp;.Height = 2000
+&nbsp;&nbsp;&nbsp;.Width = 2000
+&nbsp;&nbsp;&nbsp;.Caption = "This is MyLabel"
+End With</CODE></PRE>
+
+<P>While property manipulation is an important aspect of <B>With</B> functionality, it is not the only use. Any legal code can be used within a <B>With</B> block.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>Once a <B>With</B> block is entered, <I>object</I> can't be changed. As a result, you can't use a single <B>With</B> statement to affect a number of different objects. </P>
+
+<P>You can nest <B>With</B> statements by placing one <B>With</B> block within another. However, because members of outer <B>With</B> blocks are masked within the inner <B>With</B> blocks, you must provide a fully qualified object reference in an inner <B>With</B> block to any member of an object in an outer <B>With</B> block.</P>
+
+<P><B>Important </B>Do not jump into or out of <B>With</B> blocks. If statements in a <B>With</B> block are executed, but either the <B>With</B> or <B>End With</B> statement is not executed, you may get errors or unpredictable behavior. </P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmset.htm">Set Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

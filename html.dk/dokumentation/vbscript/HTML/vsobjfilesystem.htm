@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>FileSystemObject Object</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsobjfilesystem"></A>FileSystemObject Object</H1>
+
+<P>Provides access to a computer's file system. </P>
+
+<H4>Remarks</H4>
+
+<P>The following code illustrates how the <B>FileSystemObject</B> is used to return a <B>TextStream</B> object that can be read from or written to: </P>
+
+<PRE><CODE>Dim fso, MyFile
+Set fso = CreateObject("<span class=cfe><B>Scripting.FileSystemObject</B></span>")
+Set MyFile = fso.CreateTextFile("c:\testfile.txt", True)
+MyFile.WriteLine("This is a test.")
+MyFile.Close</CODE></PRE>
+
+<P>In the preceding code, the <B>CreateObject</B> function returns the <B>FileSystemObject</B> (<CODE>fso</CODE>). The <B>CreateTextFile</B> method then creates the file as a <B>TextStream</B> object (<CODE>a</CODE>) and the <B>WriteLine</B> method writes a line of text to the created text file. The <B>Close</B> method flushes the buffer and closes the file. </P>
+
+<H4>Properties</H4>
+
+<P><A HREF="vsprodrives.htm">Drives Property</A></P>
+
+<H4>Methods</H4>
+
+<P><A HREF="vsmthbuildpath.htm">BuildPath Method</A> | <A HREF="vsmthcopyfile.htm">CopyFile Method</A> | <A HREF="vsmthcopyfolder.htm">CopyFolder Method</A> | <A HREF="vsmthcreatefolder.htm">CreateFolder Method</A> | <A HREF="vsmthcreatetextfile.htm">CreateTextFile Method</A> | <A HREF="vsmthdeletefile.htm">DeleteFile Method</A> | <A HREF="vsmthdeletefolder.htm">DeleteFolder Method</A> | <A HREF="vsmthdriveexists.htm">DriveExists Method</A> | <A HREF="vsmthfileexists.htm">FileExists Method</A> | <A HREF="vsmthfolderexists.htm">FolderExists Method</A> | <A HREF="vsmthgetabsolutepathname.htm">GetAbsolutePathName Method</A> | <A HREF="vsmthgetbasename.htm">GetBaseName Method</A> | <A HREF="vsmthgetdrive.htm">GetDrive Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsmthgetextensionname.htm">GetExtensionName Method</A> | <A HREF="vsmthgetfile.htm">GetFile Method</A> | <A HREF="vsmthgetfilename.htm">GetFileName Method</A> | <A HREF="vsmthgetfolder.htm">GetFolder Method</A> | <A HREF="vsmthgetparentfoldername.htm">GetParentFolderName Method</A> | <A HREF="vsmthgetspecialfolder.htm">GetSpecialFolder Method</A> | <A HREF="vsmthgettempname.htm">GetTempName Method</A> | <A HREF="vsmthmovefile.htm">MoveFile Method</A> | <A HREF="vsmthmovefolder.htm">MoveFolder Method</A> | <A HREF="vsmthopentextfile.htm">OpenTextFile Method</A></P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcreateobject.htm">CreateObject Function</A> | <A HREF="vsobjdictionary.htm">Dictionary Object</A> | <A HREF="vsobjdrive.htm">Drive Object</A> | <A HREF="vscoldrives.htm">Drives Collection</A> | <A HREF="vsobjfile.htm">File Object</A> | <A HREF="vsprofilesystem.htm">FileSystem Property</A> | <A HREF="vscolfiles.htm">Files Collection</A> | <A HREF="vsobjfolder.htm">Folder Object</A> | <A HREF="vscolfolders.htm">Folders Collection</A> | <A HREF="vsobjtextstream.htm">TextStream Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

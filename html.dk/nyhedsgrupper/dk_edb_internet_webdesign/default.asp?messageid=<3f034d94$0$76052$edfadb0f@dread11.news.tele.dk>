@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>menu..?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign skrevet af Rune Thougaard den 2. juli 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="menu..?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="02-07-2003" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper" class="noprint">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;" class="noprint"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=630607247353?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3f034d94%240%2476052%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Rune&nbsp;Thougaard&nbsp;&nbsp;<a href='mailto:rune@vinperlen.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='rune@vinperlen.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 2. juli 2003 kl. 23:24</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>menu..?</strong></li></ul>
+
+<p><span class='normal'><a href='http://www.hh-indretning.dk'>www.hh-indretning.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'>hvad skal jeg g&#248;re for at lave et menu punkt mere i min menu...?? </span><br /><span class='normal'>koden ser s&#229;dan her ud...!! </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;html> </span><br /><span class='normal'>&lt;head> </span><br /><span class='normal'>&lt;script language=&quot;JavaScript1.2&quot;> </span><br /><span class='normal'>function makevisible(cur,which){ </span><br /><span class='normal'>if (which==0) </span><br /><span class='normal'>cur.filters.alpha.opacity=100 </span><br /><span class='normal'>else </span><br /><span class='normal'>cur.filters.alpha.opacity=20 </span><br /><span class='normal'>} </span><br /><span class='normal'>&lt;/script> </span><br /><span class='normal'>&lt;style type=&quot;text/css&quot;> </span><br /><span class='normal'>#divCont {position:absolute; z-index:1; left:5px; top:75px; height:400px; </span><br /><span class='normal'>width:170px; visibility:hidden;} </span><br /><span class='normal'>..clTop   {position:absolute; z-index:1; width:170px; line-height:17px;} </span><br /><span class='normal'>..clSub   {position:absolute; z-index:1; left:0px; top:20px; width:170px; </span><br /><span class='normal'>line-height:15px;} </span><br /><span class='normal'> </span><br /><span class='normal'>/*** This sets the style for the links inside the menu. ***/ </span><br /><span class='normal'>#divCont .clTop a {color:#E8E4E4; </span><br /><span class='normal'>font-family:verdana,arial,helvetica,sans-serif; font-size:14px; </span><br /><span class='normal'>font-weight:bold; text-decoration:none;} </span><br /><span class='normal'>#divCont .clTop a:hover {color:#ffffff; text-decoration:none;} </span><br /><span class='normal'>#divCont .clTop .clSub a {color:#E8E4E4; </span><br /><span class='normal'>font-family:verdana,arial,helvetica,sans-serif; font-size:12px; </span><br /><span class='normal'>font-weight:normal; text-decoration:none;} </span><br /><span class='normal'>#divCont .clTop .clSub a:hover {color:#ffffff; text-decoration:none;} </span><br /><span class='normal'>&lt;/style> </span><br /><span class='normal'>&lt;script language=&quot;JavaScript&quot; type=&quot;text/javascript&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>function lib_bwcheck(){ //Browsercheck (needed) </span><br /><span class='normal'> this.ver=navigator.appVersion </span><br /><span class='normal'> this.agent=navigator.userAgent </span><br /><span class='normal'> this.dom=document.getElementById?1:0 </span><br /><span class='normal'> this.opera5=this.agent.indexOf(&quot;Opera 5&quot;)>-1 </span><br /><span class='normal'> this.ie5=(this.ver.indexOf(&quot;MSIE 5&quot;)>-1 &amp;&amp; this.dom &amp;&amp; !this.opera5)?1:0; </span><br /><span class='normal'> this.ie6=(this.ver.indexOf(&quot;MSIE 6&quot;)>-1 &amp;&amp; this.dom &amp;&amp; !this.opera5)?1:0; </span><br /><span class='normal'> this.ie4=(document.all &amp;&amp; !this.dom &amp;&amp; !this.opera5)?1:0; </span><br /><span class='normal'> this.ie=this.ie4this.ie5this.ie6 </span><br /><span class='normal'> this.mac=this.agent.indexOf(&quot;Mac&quot;)>-1 </span><br /><span class='normal'> this.ns6=(this.dom &amp;&amp; parseInt(this.ver) >= 5) ?1:0; </span><br /><span class='normal'> this.ns4=(document.layers &amp;&amp; !this.dom)?1:0; </span><br /><span class='normal'> this.bw=(this.ie6  this.ie5  this.ie4  this.ns4  this.ns6  </span><br /><span class='normal'>this.opera5) </span><br /><span class='normal'> return this </span><br /><span class='normal'>} </span><br /><span class='normal'>var bw=new lib_bwcheck() </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>/*** variables you can configure ***/ </span><br /><span class='normal'> </span><br /><span class='normal'>FoldNumber = 6     //How many toplinks do you have? </span><br /><span class='normal'>var stayFolded = false           //Stay open when you click a new toplink? </span><br /><span class='normal'>foldImg = 1     //Do you want images (if not set to 0 and remove the images </span><br /><span class='normal'>from the body)? </span><br /><span class='normal'>mainOffsetY = 0     //Vertical space adjustment between the main items, in </span><br /><span class='normal'>pixels. </span><br /><span class='normal'> </span><br /><span class='normal'>//This is the default image. </span><br /><span class='normal'>//Remember to change the actual images in the page as well, but remember to </span><br /><span class='normal'>keep the name of the image. </span><br /><span class='normal'>var unImg=new Image(); </span><br /><span class='normal'>unImg.src='foldoutmenu_arrow.gif' </span><br /><span class='normal'> </span><br /><span class='normal'>var exImg=new Image();     //Making an image variable... </span><br /><span class='normal'>exImg.src='foldoutmenu_arrow_open.gif' //...this is the source of the image </span><br /><span class='normal'>that it changes to when the menu expands. </span><br /><span class='normal'> </span><br /><span class='normal'>// NOTE: if you change the position of divCont from absolute to relative, </span><br /><span class='normal'>you can put the foldoutmenu in a table. </span><br /><span class='normal'>// HOWEVER it will no longer work in netscape 4. If you wish to support </span><br /><span class='normal'>netscape 4, you have to use absolute positioning. </span><br /><span class='normal'> </span><br /><span class='normal'>/*** There should be no need to change anything beyond this. ***/ </span><br /><span class='normal'> </span><br /><span class='normal'>// A unit of measure that will be added when setting the position of a </span><br /><span class='normal'>layer. </span><br /><span class='normal'>var px = bw.ns4window.opera?&quot;&quot;:&quot;px&quot;; </span><br /><span class='normal'> </span><br /><span class='normal'>if(navigator.userAgent.indexOf('Opera')>-1 &amp;&amp; document.getElementById){ </span><br /><span class='normal'>//Opera 5 resize fix. </span><br /><span class='normal'> scrX= innerWidth; scrY= innerHeight; </span><br /><span class='normal'> document.onmousemove= function(){ </span><br /><span class='normal'>  if(scrX&lt;innerWidth-10  scrY&lt;innerHeight-10  scrX>innerWidth+10  </span><br /><span class='normal'>scrY>innerHeight+10){ </span><br /><span class='normal'>   scrX = innerWidth; </span><br /><span class='normal'>   scrY = innerHeight; </span><br /><span class='normal'>   initFoldout(); </span><br /><span class='normal'>  } </span><br /><span class='normal'> }; </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>//object constructor... </span><br /><span class='normal'>function makeMenu(obj,nest){ </span><br /><span class='normal'> nest= (!nest)?&quot;&quot;:'document.'+nest+'.'; </span><br /><span class='normal'> this.el= </span><br /><span class='normal'>bw.ie4?document.all[obj]:bw.ns4?eval(nest+'document.'+obj):document.getEleme </span><br /><span class='normal'>ntById(obj); </span><br /><span class='normal'>    this.css= bw.ns4?this.el:this.el.style; </span><br /><span class='normal'> this.ref= bw.ns4?this.el.document:document; </span><br /><span class='normal'> this.x= (bw.ns4bw.opera5)?this.css.left:this.el.offsetLeft; </span><br /><span class='normal'> this.y= (bw.ns4bw.opera5)?this.css.top:this.el.offsetTop; </span><br /><span class='normal'> this.h= </span><br /><span class='normal'>(bw.iebw.ns6)?this.el.offsetHeight:bw.ns4?this.ref.height:bw.opera5?this.c </span><br /><span class='normal'>ss.pixelHeight:0; </span><br /><span class='normal'>    this.vis= b_vis; </span><br /><span class='normal'> this.hideIt= b_hideIt; </span><br /><span class='normal'>    this.showIt= b_showIt; </span><br /><span class='normal'>    this.moveIt= b_moveIt; </span><br /><span class='normal'> return this </span><br /><span class='normal'>} </span><br /><span class='normal'>//object methods... </span><br /><span class='normal'>function b_showIt(){this.css.visibility='visible'} </span><br /><span class='normal'>function b_hideIt(){this.css.visibility='hidden'} </span><br /><span class='normal'>function b_vis(){if(this.css.visibility=='hidden'  </span><br /><span class='normal'>this.css.visibility=='HIDDEN'  this.css.visibility=='hide') return true;} </span><br /><span class='normal'>function b_moveIt(x,y){this.x=x; this.y=y; this.css.left=this.x+px; </span><br /><span class='normal'>this.css.top=this.y+px} </span><br /><span class='normal'> </span><br /><span class='normal'>/*************************************************************************** </span><br /><span class='normal'>********* </span><br /><span class='normal'>This is the function that changes the sub menus to folded or unfolded state. </span><br /><span class='normal'>**************************************************************************** </span><br /><span class='normal'>********/ </span><br /><span class='normal'>function menu(num){ </span><br /><span class='normal'> if(bw.bw){ </span><br /><span class='normal'>  if (!stayFolded){ </span><br /><span class='normal'>   for (var i=0; i&lt;oSub.length; i++){ </span><br /><span class='normal'>    if (i!=num){ </span><br /><span class='normal'>     oSub[i].hideIt() </span><br /><span class='normal'>     if (foldImg)oTop[i].ref[&quot;imgA&quot;+i].src = unImg.src </span><br /><span class='normal'>    } </span><br /><span class='normal'>   } </span><br /><span class='normal'>   for(var i=1; i&lt;oTop.length; i++){ </span><br /><span class='normal'>    oTop[i].moveIt(0,oTop[i-1].y+oTop[i-1].h) </span><br /><span class='normal'>   } </span><br /><span class='normal'>  } </span><br /><span class='normal'>  if (oSub[num].vis()){ </span><br /><span class='normal'>   oSub[num].showIt() </span><br /><span class='normal'>   if (foldImg)oTop[num].ref[&quot;imgA&quot;+num].src = exImg.src </span><br /><span class='normal'>  }else{ </span><br /><span class='normal'>   oSub[num].hideIt() </span><br /><span class='normal'>   if(foldImg)oTop[num].ref[&quot;imgA&quot;+num].src = unImg.src </span><br /><span class='normal'>  } </span><br /><span class='normal'>  for(var i=1; i&lt;oTop.length; i++){ </span><br /><span class='normal'>   if (!oSub[i-1].vis()) </span><br /><span class='normal'>oTop[i].moveIt(0,oTop[i-1].y+oTop[i-1].h+oSub[i-1].h+mainOffsetY) </span><br /><span class='normal'>   else oTop[i].moveIt(0,oTop[i-1].y+oTop[i-1].h+mainOffsetY) </span><br /><span class='normal'>  } </span><br /><span class='normal'> } </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>/********************************************************************* </span><br /><span class='normal'>The init function... there should be no need to change anything here. </span><br /><span class='normal'>*********************************************************************/ </span><br /><span class='normal'>function initFoldout(){ </span><br /><span class='normal'> //Fixing the browsercheck for opera... this can be removed if the </span><br /><span class='normal'>browsercheck has been updated!! </span><br /><span class='normal'> bw.opera5 = (navigator.userAgent.indexOf(&quot;Opera&quot;)>-1 &amp;&amp; </span><br /><span class='normal'>document.getElementById)?true:false </span><br /><span class='normal'> if (bw.opera5) bw.ns6 = 0 </span><br /><span class='normal'> </span><br /><span class='normal'> oTop = new Array() </span><br /><span class='normal'> oSub = new Array() </span><br /><span class='normal'> //Making the objects and hiding the subs... </span><br /><span class='normal'> for (var i=0; i&lt;FoldNumber; i++){ </span><br /><span class='normal'>  oTop[i] = new makeMenu('divTop'+i,'divCont') </span><br /><span class='normal'>  oSub[i] = new makeMenu('divSub'+i,'divCont.document.divTop'+i) </span><br /><span class='normal'>  oSub[i].hideIt() </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'> //Positioning the top objects... </span><br /><span class='normal'> oTop[0].moveIt(0,0) </span><br /><span class='normal'> for (var i=1; i&lt;oTop.length; i++){ </span><br /><span class='normal'>  oTop[i].moveIt(0, oTop[i-1].y+oTop[i-1].h+mainOffsetY) </span><br /><span class='normal'> } </span><br /><span class='normal'> </span><br /><span class='normal'> //Making the containing menu object and showing it... </span><br /><span class='normal'> oCont = new makeMenu('divCont') </span><br /><span class='normal'> oCont.showIt() </span><br /><span class='normal'>} </span><br /><span class='normal'> </span><br /><span class='normal'>// If the browser is ok, the script is started onload... </span><br /><span class='normal'>if(bw.bw) onload = initFoldout; </span><br /><span class='normal'>&lt;/script> </span><br /><span class='normal'>&lt;/head> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;body marginleft=&quot;0&quot; marginheight=&quot;0&quot; bgcolor=#660404> </span><br /><span class='normal'>&lt;base target=&quot;2&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;divCont&quot;> &lt;!-- These are the contents of the foldoutmenu. --> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;divTop0&quot; class=&quot;clTop&quot;>&lt;a </span><br /><span class='normal'>href=&quot;../links/forsiden/forsiden.htm&quot;>&lt;img src=&quot;foldoutmenu_arrow.gif&quot; </span><br /><span class='normal'>name=&quot;imgA0&quot; width=12 height=12 alt=&quot;&quot; border=&quot;0&quot;> Forsiden&lt;/a> </span><br /><span class='normal'>&lt;div id=&quot;divSub0&quot; class=&quot;clSub&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/div>&lt;br> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;divTop1&quot; class=&quot;clTop&quot;>&lt;a href=&quot;../links/mig/mig.htm&quot;>&lt;img </span><br /><span class='normal'>src=&quot;foldoutmenu_arrow.gif&quot; name=&quot;imgA1&quot; width=12 height=12 alt=&quot;&quot; </span><br /><span class='normal'>border=&quot;0&quot;> Lidt om mig&lt;/a> </span><br /><span class='normal'>&lt;div id=&quot;divSub1&quot; class=&quot;clSub&quot;> </span><br /><span class='normal'> &lt;a href=&quot;#&quot;>This is a link&lt;/a>&lt;br> </span><br /><span class='normal'> &lt;a href=&quot;#&quot;>This is a link&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;/div>&lt;br> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;divTop2&quot; class=&quot;clTop&quot;>&lt;a href=&quot;#&quot; onclick=&quot;menu(2); return false&quot; </span><br /><span class='normal'>onfocus=&quot;this.blur()&quot;>&lt;img src=&quot;foldoutmenu_arrow.gif&quot; name=&quot;imgA2&quot; width=12 </span><br /><span class='normal'>height=12 alt=&quot;&quot; border=&quot;0&quot;> Boligindretning&lt;/a> </span><br /><span class='normal'>&lt;div id=&quot;divSub2&quot; class=&quot;clSub&quot;> </span><br /><span class='normal'> &lt;a href=&quot;../links/indretning/neofengshui/neofengshui.htm&quot;>Hvad er Neo Feng </span><br /><span class='normal'>Shui&lt;/a>&lt;br> </span><br /><span class='normal'> &lt;a href=&quot;../links/indretning/bolig/bolig.htm&quot;>Boligindretning&lt;/a>&lt;br> </span><br /><span class='normal'> &lt;a href=&quot;../links/indretning/butik/butik.htm&quot;>Butiksindretning&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;/div>&lt;br> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;divTop3&quot; class=&quot;clTop&quot;>&lt;a href=&quot;#&quot; onclick=&quot;menu(3); return false&quot; </span><br /><span class='normal'>onfocus=&quot;this.blur()&quot;>&lt;img src=&quot;foldoutmenu_arrow.gif&quot; name=&quot;imgA3&quot; width=12 </span><br /><span class='normal'>height=12 alt=&quot;&quot; border=&quot;0&quot;> Kurser&lt;/a> </span><br /><span class='normal'>&lt;div id=&quot;divSub3&quot; class=&quot;clSub&quot;> </span><br /><span class='normal'> &lt;a href=&quot;../links/kurser/kurser.htm&quot;>Tegning&lt;/a>&lt;br> </span><br /><span class='normal'> &lt;a href=&quot;../links/kurser/kurser3.htm&quot;>Neo Feng Shui&lt;/a>&lt;br> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/div>&lt;br> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;divTop4&quot; class=&quot;clTop&quot;>&lt;a href=&quot;#&quot; onclick=&quot;menu(4); return false&quot; </span><br /><span class='normal'>onfocus=&quot;this.blur()&quot;>&lt;img src=&quot;foldoutmenu_arrow.gif&quot; name=&quot;imgA4&quot; width=12 </span><br /><span class='normal'>height=12 alt=&quot;&quot; border=&quot;0&quot;> Galleri&lt;/a> </span><br /><span class='normal'>&lt;div id=&quot;divSub4&quot; class=&quot;clSub&quot;> </span><br /><span class='normal'> &lt;a href=&quot;../links/galleri/akavareller/side1.htm&quot;>Akavareller&lt;/a>&lt;br> </span><br /><span class='normal'> &lt;a href=&quot;../links/galleri/Oliemalerier/side1.htm&quot;>Oliemalerier&lt;/a>&lt;br> </span><br /><span class='normal'> &lt;a href=&quot;../links/galleri/blyant/side1.htm&quot;>Blyant&lt;/a>&lt;br> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/div>&lt;br> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;divTop5&quot; class=&quot;clTop&quot;>&lt;a href=&quot;../links/kontakt/kontakt.htm&quot;>&lt;img </span><br /><span class='normal'>src=&quot;foldoutmenu_arrow.gif&quot; name=&quot;imgA5&quot; width=12 height=12 alt=&quot;&quot; </span><br /><span class='normal'>border=&quot;0&quot;> Kontakt&lt;/a> </span><br /><span class='normal'>&lt;div id=&quot;divSub5&quot; class=&quot;clSub&quot;> </span><br /><span class='normal'> &lt;a href=&quot;#&quot;>&lt;/a>&lt;br> </span><br /><span class='normal'> &lt;a href=&quot;#&quot;>&lt;/a>&lt;br> </span><br /><span class='normal'>&lt;/div>&lt;br> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/div> &lt;!-- Here ends the foldoutmenu. --> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br> </span><br /><span class='normal'>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br>&lt;br> </span><br /><span class='normal'>&lt;!-- besogsteller --> </span><br /><span class='normal'>&lt;script language=&quot;JavaScript&quot;> </span><br /><span class='normal'>&lt;!-- </span><br /><span class='normal'>  document.write('&lt;a href=&quot;<a href='http://www.nope.dk/lb.php3?id=11975&quot;'>http://www.nope.dk/lb.php3?id=11975&quot;</a> </span><br /><span class='normal'>target=&quot;_blank&quot;>'); </span><br /><span class='normal'>  document.write('&lt;img </span><br /><span class='normal'>src=&quot;<a href='http://counter.nope.dk/counter.php3?id=11975style=3&amp;secID=''>http://counter.nope.dk/counter.php3?id=11975style=3&amp;secID='</a> + </span><br /><span class='normal'>Math.random()*10000000 + '&amp;ref=' + escape(document.referrer) + '&quot; border=&quot;0&quot; </span><br /><span class='normal'>onmouseover=&quot;makevisible(this,0)&quot; style=&quot;FILTER: alpha(opacity=20)&quot; </span><br /><span class='normal'>onmouseout=&quot;makevisible(this,1)&quot;>'); </span><br /><span class='normal'>  document.write('&lt;/a>'); </span><br /><span class='normal'>//--> </span><br /><span class='normal'>&lt;/script> </span><br /><span class='normal'>&lt;/body> </span><br /><span class='normal'>&lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>mvh. Rune Thougaard </span><br /><span class='normal'>--  </span><br /><span class='normal'><a href='http://www.vinperlen.dk'>http://www.vinperlen.dk</a> </span><br /><span class='normal'><a href='http://www.hh-indretning.dk'>http://www.hh-indretning.dk</a> </span><br /><span class='normal'><a href='http://www.dalgaards.dk'>http://www.dalgaards.dk</a> </span><br /><span class='normal'>MSN: <a href='http://rune@vinperlen.dk'>rune@vinperlen.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f034d94%240%2476052%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='menu..?'>menu..?</a>&nbsp;<small class='newslist'>(02-07-2003&nbsp;-&nbsp;Rune&nbsp;Thougaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C38r6gvcbbpslj4o6sjm5f254b7mr76c4fi%40dtext%2Enews%2Etele%2Edk%3E' title='Re: menu..?'>Re: menu..?</a>&nbsp;<small class='newslist'>(03-07-2003&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f03722b%240%2476149%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' title='Re: menu..?'>Re: menu..?</a>&nbsp;<small class='newslist'>(03-07-2003&nbsp;-&nbsp;Rune&nbsp;Thougaard)</small></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form&amp;ReplyID=%3C3f034d94%240%2476052%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp'>dk.edb.internet.webdesign</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 125x125 --> 
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=125x125;tile=1;ord=410344421864?"></script>
+<br />
+<br />
+<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 125x125  --> 
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp?messageid=%3C3f034d94%240%2476052%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E' method='post'><p class='pollheader'>Følger du med i nyhedsgrupperne her på HTML.dk?</p><div><input type='hidden' name='tst' value='12-08-2004 20:39:59' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+	<div id="bannertextlinkcontainer">
+		<div id="bannertextlink">
+			<!-- Start of Ad'LINK ADJ Tag - Javascript Format , size : 250x60 -->
+
+						<script type="text/javascript">
+							<!--
+							if(typeof(adlink_randomnumber)=="undefined"){var adlink_randomnumber=Math.floor(Math.random()*10000000000)}
+								document.write('<scr'+'ipt language="JavaScript" src="http://ad.dk.doubleclick.net/adj/html.rr.dk/;sz=250x60;tile=1;ord='+adlink_randomnumber+'?"><\/scr'+'ipt>');
+							//-->
+						</script>
+						<noscript>
+							<div><a href="http://ad.dk.doubleclick.net/jump/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?">
+							<img src="http://ad.dk.doubleclick.net/ad/html.rr.dk/;sz=250x60;tile=1;ord=1234567890?" width="250" height="60" alt="Annonce" /></a></div>
+						</noscript>
+
+			<!-- End of Ad'LINK ADJ Tag - Javascript Format, size : 250x60 -->
+		</div>
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/"><img src="/site/graphics/icons/rss.xml.gif" alt="RSS-feeds fra HTML.dk" /></a>
+	</div>
+	<hr style="margin-right:5px;"/>
+
+	<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+	<script type="text/javascript">
+	<!--
+	  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+	  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+	  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+	//-->
+	</script>
+	<noscript>
+	  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+	</noscript>
+	</div>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">Powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der opstår ved fremstillingen af hjemmesider. Hovedvægten i gruppen lægges på debat af designløsninger og opbygning af websitet.' class='navibox'>dk.edb.internet.webdesign</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: menu..?</span></div>
+
+
+
+</body>
+</html>
+

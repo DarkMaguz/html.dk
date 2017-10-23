@@ -1,0 +1,256 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Session Object (CDONTS Library)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_denali_session_object_cdonts_library_"></a>Session Object (CDONTS Library)</h2>
+<p>
+The Session object contains session-wide settings and options. </p>
+<h4>At a Glance </h4>
+<table>
+<tr valign=top>
+<td>
+Specified in type library: </td>
+<td>
+CDONTS.DLL </td>
+</tr>
+<tr valign=top>
+<td>
+First available in: </td>
+<td>
+CDO for NTS Library version 1.2 </td>
+</tr>
+<tr valign=top>
+<td>
+Parent objects: </td>
+<td>
+ (none) </td>
+</tr>
+<tr valign=top>
+<td>
+Child objects: </td>
+<td>
+<a href="amsm4vmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4vmn.htm">Folder</a> </td>
+</tr>
+<tr valign=top>
+<td>
+Default property: </td>
+<td>
+<a href="amsm8gyn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8gyn.htm"><b>Name</b></a> </td>
+</tr>
+</table><br>
+<h4>Properties </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Type </b></td>
+<td>
+<b> <BR>Access </b></td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm23rz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm23rz.htm"><b>Application</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm5h5r.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm5h5r.htm"><b>Class</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm39wf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm39wf.htm"><b>Inbox</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Folder object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6acf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6acf.htm"><b>MessageFormat</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Long </td>
+<td>
+Read/write </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8gyn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8gyn.htm"><b>Name</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String</td>
+<td>
+Read-only</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm0cpr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0cpr.htm"><b>Outbox</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Folder object </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm8snz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm8snz.htm"><b>Parent</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Object; set to <b>Nothing</b> </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm6iov.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm6iov.htm"><b>Session</b></a> </td>
+<td>
+1.2 </td>
+<td>
+Session object (itself) </td>
+<td>
+Read-only </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm3xpb.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3xpb.htm"><b>Version</b></a> </td>
+<td>
+1.2 </td>
+<td>
+String </td>
+<td>
+Read-only </td>
+</tr>
+</table><br>
+<h4>Methods </h4>
+<table>
+<tr valign=top>
+<td>
+<b> <BR>Name </b></td>
+<td>
+<b>Available since version </b></td>
+<td>
+<b> <BR>Parameters </b></td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm55jz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm55jz.htm"><b>GetDefaultFolder</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<i>folderType</i> as <b>Long</b> </td>
+</tr>
+<tr valign=top>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm7yzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7yzj.htm"><b>Logoff</b></a> </td>
+<td>
+1.2 </td>
+<td>
+(none) </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm3yvz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3yvz.htm"><b>LogonSMTP</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<i>DisplayName</i> as <b>String</b>, <BR><i>Address</i> as <b>String</b> </td>
+</tr>
+<tr valign=top>
+<td>
+<a href="amsm21nj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm21nj.htm"><b>SetLocaleIDs</b></a> </td>
+<td>
+1.2 </td>
+<td>
+<i>CodePageID</i> as <b>Long</b> </td>
+</tr>
+</table><br>
+<h4>Remarks </h4>
+<p>
+A Session object is considered a top-level object, meaning it can be created directly from a Microsoft&reg; Visual Basic&reg; program. In the CDO for NTS Library it has a ProgID of CDONTS.Session. This code fragment creates a Session object through early binding: </p>
+<pre>Dim objSession As CDONTS.Session 
+Set objSession = CreateObject (&quot;CDONTS.Session&quot;) 
+objSession.LogonSMTP 
+ </pre>
+<p>
+This code fragment creates a Session object through late binding: </p>
+<pre>Dim objSession As Object 
+Set objSession = CreateObject (&quot;CDONTS.Session&quot;) 
+objSession.LogonSMTP 
+ </pre>
+<p>
+Generally, early binding is preferable, because it enforces type checking and generates more efficient code. Note that you specify the full ProgID &quot;CDONTS.Session&quot; instead of just &quot;Session&quot; in order to distinguish a CDO application from other types of applications available to a Visual Basic program through other object libraries. </p>
+<p>
+In both cases, after you create a new Session object, you call its <a href="amsm3yvz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3yvz.htm"><b>LogonSMTP</b></a> method to initialize it. No other activities with the CDO for NTS Library are permitted prior to a successful <b>LogonSMTP</b> call. The only exception to this rule is the Session object's <a href="amsm21nj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm21nj.htm"><b>SetLocaleIDs</b></a> method. </p>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

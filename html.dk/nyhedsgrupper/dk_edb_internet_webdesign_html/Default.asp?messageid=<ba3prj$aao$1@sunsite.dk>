@@ -1,0 +1,201 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Hvorfor er 2 + 2 ikke 4?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Erik Ginnerskov den 16. maj 2003" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Hvorfor er 2 + 2 ikke 4?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="16-05-03" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<!--
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/page/all_140x350;sz=140x350;tile=1;ord=810859322548?"></script>
+
+</td></tr></table>
+
+</div>
+-->
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cba3prj%24aao%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Erik&nbsp;Ginnerskov&nbsp;&nbsp;<a href='mailto:egin@SPAMKILLoncable.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='egin@SPAMKILLoncable.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Open Source Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 17. maj 2003 kl. 00:48</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Hvorfor er 2 + 2 ikke 4?</strong></li></ul>
+
+<p><span class='normal'>&quot;Martin Hintzmann Andersen&quot; &lt;<a href='http://no@spam.dk'>no@spam.dk</a>> skrev </span><br /><span class='citat'>> Knud Gert Ellentoft wrote: </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > Erik bruger iflg, tidl. udsagn og iflg. OE-versionen IE 5.5, s&#229; </span><br /><span class='citat'>> > derfor vil IE altid v&#230;re i quirks mode. </span><br /><span class='citat'>> > </span><br /><span class='citat'>> > Og s&#229; er der ikke noget at g&#248;re. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jo, han kan opgradere sin browser <img src='/site/graphics/smileys/smiley3.gif' alt=';-)' /> </span><br /><span class='normal'> </span><br /><span class='normal'>Der er faktisk en - synes jeg selv - god grund til, at jeg tester i IE 5.5, </span><br /><span class='normal'>i Ns 6.2, i Mz 1.2.1 og i Op 6.05: </span><br /><span class='normal'>Jeg &#248;nsker at sikre en smule bagudkompatibilitet i det jeg laver. Hvis jeg </span><br /><span class='normal'>tester alt i kun de nyeste browsere, lader jeg uforvarende en del mennesker </span><br /><span class='normal'>i stikken. </span><br /><span class='normal'> </span><br /><span class='normal'>Din annonce er nu bragt p&#229; den &#248;nskede side </span><br /><span class='normal'>Med venlig hilsen </span><br /><span class='normal'>Erik Ginnerskov </span><br /><span class='normal'>Webmaster </span><br /><span class='normal'><a href='http://lb3net@lille-birkholm.dk'>lb3net@lille-birkholm.dk</a> </span><br /><span class='normal'><a href='http://www.lille-birkholm.dk'>http://www.lille-birkholm.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2iop%24crf%241%40sunsite%2Edk%3E' title='Hvorfor er 2 + 2 ikke 4?'>Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns937D8EF97E4FBjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2mar%24a9q%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns937D977B35DCAusenetsolitudedk%40130%2E225%2E247%2E90%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Andreas&nbsp;Haugstrup&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2o6l%24qch%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cissbdni5%2Efsf%40hotpop%2Ecom%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2sbt%24s8m%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns937E82249889usenetsolitudedk%40130%2E225%2E247%2E90%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Andreas&nbsp;Haugstrup&nbsp;Pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns937EA0A4B2DBjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba3pts%24ntl%241%40dknews%2Etiscali%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Peter&nbsp;Brodersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba5p7o%24bga%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(17-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns937D90F3DDB77jcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2qev%24edj%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2tj0%248d8%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2u96%24d1m%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2ud7%24eje%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba2ukt%24gat%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba30tu%2443h%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C65oaeuvf%2Efsf%40hotpop%2Ecom%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C8e6acv4g71fgpqhk8hn5i2ssq12u9g9h5h%40dtext%2Enews%2Etele%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba36ul%24khv%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba3prj%24aao%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns937E9BE9125jcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba3rht%24kqn%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(17-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba3tfp%242cu%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(17-05-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba32ik%24eog%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns937DF03A436CCjcdmfdk%40gyrosmod%2Ecybercity%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(16-05-03&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba4073%24hv9%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(17-05-03&nbsp;-&nbsp;Martin&nbsp;Hintzmann&nbsp;Andersen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba5p53%24b1h%241%40sunsite%2Edk%3E' title='Re: Hvorfor er 2 + 2 ikke 4?'>Re: Hvorfor er 2 + 2 ikke 4?</a>&nbsp;<small class='newslist'>(17-05-03&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cba3prj%24aao%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+<!--
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cba3prj%24aao%241%40sunsite%2Edk%3E' method='post'><p class='pollheader'>Hvor meget betaler du om måneden for dit webhotel?</p><div><input type='hidden' name='tst' value='20-01-04 17:30:17' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;0 - 10 kr.</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;10 - 50 kr.</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;50 - 100 kr.</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;100 - 200 kr.</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;over 200 kr.</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Har ikke webhotel</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Hvorfor er 2 + 2 ikke 4?</span></div>
+
+
+
+</body>
+</html>
+

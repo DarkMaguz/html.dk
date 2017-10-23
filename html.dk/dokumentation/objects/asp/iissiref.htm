@@ -1,0 +1,55 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Server-Side Includes Reference</title>
+
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Welcome page for server-side include directives reference pages."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">
+
+<h1><a name="scriptingreference">Server-Side Includes Reference</a></h1>
+
+<p>Welcome to the reference pages for server-side include directives. You can use server-side include directives to include the contents of a file into an HTML page and to include information about a file, such as its size.  You can also use some server-side include directives in ASP pages.</p>
+
+<p>This section contains:</p>
+
+<ul>
+<li><strong>#config</strong>: Specifies the format used for error messages, dates, and file sizes returned to the client browser.</li>
+<li><strong>#echo</strong>: Inserts the value of an environment variable into an HTML page.</li>
+<li><strong>#exec</strong>: Runs an application or a shell command and inserts the output into an HTML page.</li>
+<li><strong>#flastmod</strong>: Inserts the file modification time into an HTML page.</li>
+<li><strong>#fsize</strong>:  Inserts the file size into an HTML page.</li>
+<li><strong>#include</strong>:  Includes a file in an HTML or ASP page.</li>
+</ul>
+
+<p>This section does <em>not</em> contain information on:</p>
+
+<ul>
+<li>Procedures that describe how to enable the processing of SSI directives and how to insert them into a file; see <a href="iisiwelc.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisiwelc.htm">Server-Side Includes</a>.</li>
+</ul>
+
+<hr class="iis" size="1"><p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+</font>
+</body>
+</html>

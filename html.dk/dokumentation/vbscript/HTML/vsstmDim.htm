@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Dim Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmdim"></A>Dim Statement</H1>
+
+<P>Declares variables and allocates storage space.</P>
+
+<P><CODE><B>Dim</B> varname[<B>(</B>[subscripts]<B>)</B>][<B>, </B>varname[<B>(</B>[subscripts]<B>)</B>]] <B>. . .</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>varname</I></P>
+
+<P class=indent>Name of the variable; follows standard <A HREF="vtglossary.htm#defvariablevbs">variable</A> naming conventions.</P>
+
+<P class=dt><I>subscripts</I></P>
+
+<P class=indent>Dimensions of an <A HREF="vtglossary.htm#defarrayvbs">array</A> variable; up to 60 multiple dimensions may be declared. The <I>subscripts</I> argument uses the following syntax: </P>
+
+<P class=indent>upperbound [<B>,</B>upperbound] <B>. . .</B> </P>
+
+<P class=indent></P>
+
+<P class=indent>The lower bound of an array is always zero.</P>
+
+<H4>Remarks</H4>
+
+<P>Variables declared with <B>Dim</B> at the <A HREF="vtglossary.htm#defscriptlevelvbs">script level</A> are available to all procedures within the script. At the <A HREF="vtglossary.htm#defprocedurelevelvbs">procedure level</A>, variables are available only within the procedure. </P>
+
+<P>You can also use the <B>Dim</B> statement with empty parentheses to declare a dynamic array. After declaring a dynamic array, use the <B>ReDim</B> statement within a procedure to define the number of dimensions and elements in the array. If you try to redeclare a dimension for an array variable whose size was explicitly specified in a <B>Dim </B>statement, an error occurs.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;</B></B>When you use the <B>Dim</B> statement in a procedure, you generally put the <B>Dim</B> statement at the beginning of the procedure.</P>
+
+<P>The following examples illustrate the use of the <B>Dim</B> statement: </P>
+
+<PRE><CODE><span class=cfe><B>Dim</B></span> Names(9)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Declare an array with 10 elements.
+<span class=cfe><B>Dim</B></span> Names()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Declare a dynamic array.
+<span class=cfe><B>Dim</B></span> MyVar, MyNum&nbsp;&nbsp;&nbsp;' Declare two variables.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmprivate.htm">Private Statement</A> | <A HREF="vsstmpublic.htm">Public Statement</A> | <A HREF="vsstmredim.htm">ReDim Statement</A> | <A HREF="vsstmset.htm">Set Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

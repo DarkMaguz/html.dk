@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DatePart Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctdatepart"></A>DatePart Function</H1>
+
+<P>Returns the specified part of a given date.</P>
+
+<P><CODE><B>DatePart(</B>interval<B>,</B> date[<B>,</B> firstdayofweek[<B>,</B> firstweekofyear]]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>interval</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> that is the interval of time you want to return. See Settings section for values.</P>
+
+<P class=dt><I>date</I></P>
+
+<P class=indent>Required. Date expression you want to evaluate.</P>
+
+<P class=dt><I>firstdayof week</I></P>
+
+<P class=indent>Optional. Constant that specifies the day of the week. If not specified, Sunday is assumed. See Settings section for values.</P>
+
+<P class=dt><I>firstweekofyear</I></P>
+
+<P class=indent>Optional. Constant that specifies the first week of the year. If not specified, the first week is assumed to be the week in which January 1 occurs. See Settings section for values.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>interval</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=26%>Setting</TH>
+<TH width=74%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>yyyy</TD>
+<TD width=74%>Year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>q</TD>
+<TD width=74%>Quarter</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>m</TD>
+<TD width=74%>Month</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>y</TD>
+<TD width=74%>Day of year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>d</TD>
+<TD width=74%>Day</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>w</TD>
+<TD width=74%>Weekday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>ww</TD>
+<TD width=74%>Week of year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>h</TD>
+<TD width=74%>Hour</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>n</TD>
+<TD width=74%>Minute</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>s</TD>
+<TD width=74%>Second</TD>
+</TR>
+</TABLE><BR>
+
+<P>The <I>firstdayofweek</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=26%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=63%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbUseSystem</TD>
+<TD width=11%>0</TD>
+<TD width=63%>Use National Language Support (NLS) API setting.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbSunday</TD>
+<TD width=11%>1</TD>
+<TD width=63%>Sunday (default)</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbMonday</TD>
+<TD width=11%>2</TD>
+<TD width=63%>Monday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbTuesday</TD>
+<TD width=11%>3</TD>
+<TD width=63%>Tuesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbWednesday</TD>
+<TD width=11%>4</TD>
+<TD width=63%>Wednesday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbThursday</TD>
+<TD width=11%>5</TD>
+<TD width=63%>Thursday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbFriday</TD>
+<TD width=11%>6</TD>
+<TD width=63%>Friday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbSaturday</TD>
+<TD width=11%>7</TD>
+<TD width=63%>Saturday</TD>
+</TR>
+</TABLE><BR>
+
+<P>The <I>firstweekofyear</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=26%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=63%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbUseSystem</TD>
+<TD width=11%>0</TD>
+<TD width=63%>Use National Language Support (NLS) API setting.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbFirstJan1</TD>
+<TD width=11%>1</TD>
+<TD width=63%>Start with the week in which January 1 occurs (default).</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbFirstFourDays</TD>
+<TD width=11%>2</TD>
+<TD width=63%>Start with the week that has at least four days in the new year.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=26%>vbFirstFullWeek</TD>
+<TD width=11%>3</TD>
+<TD width=63%>Start with the first full weekof the new year.</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>You can use the <B>DatePart</B> function to evaluate a date and return a specific interval of time. For example, you might use <B>DatePart</B> to calculate the day of the week or the current hour.</P>
+
+<P>The <I>firstdayofweek</I> argument affects calculations that use the "w" and "ww" interval symbols.</P>
+
+<P>If <I>date</I> is a date literal, the specified year becomes a permanent part of that date. However, if <I>date</I> is enclosed in quotation marks (" "), and you omit the year, the current year is inserted in your code each time the <I>date</I> expression is evaluated. This makes it possible to write code that can be used in different years.</P>
+
+<P>This example takes a date and, using the <B>DatePart</B> function, displays the quarter of the year in which it occurs. </P>
+
+<PRE><CODE>Function GetQuarter(TheDate)
+&nbsp;&nbsp;&nbsp;GetQuarter = <span class=cfe><B>DatePart(</B></span>"q"<span class=cfe><B>,</B></span> TheDate<span class=cfe><B>)</B></span>
+End Function</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctdateadd.htm">DateAdd Function</A> | <A HREF="vsfctdatediff.htm">DateDiff Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

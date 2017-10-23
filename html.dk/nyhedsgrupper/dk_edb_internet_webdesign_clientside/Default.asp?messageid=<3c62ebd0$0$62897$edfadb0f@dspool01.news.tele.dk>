@@ -1,0 +1,182 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af StartLinket.dk den 7. februar 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Rul ned banner som p&#229; kontaktnet.dk ?..." />
+<meta name="language" content="dan" />
+<meta name="Date" content="07-02-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+
+<!-- DoubleClick start -->
+
+<center>
+<script language="JavaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+   </a>
+</noscript>
+</center>
+
+<!-- DoubleClick end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form&amp;ReplyID=%3C3c62ebd0%240%2462897%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> StartLinket.dk&nbsp;&nbsp;<a href='mailto:admin@startlinket.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='admin@startlinket.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 7. februar 2002 kl. 23:04</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</strong></li></ul>
+
+<p><span class='normal'>&quot;Allan Vebel&quot; &lt;<a href='http://allan@vebel.dk'>allan@vebel.dk</a>> wrote in message </span><br /><span class='citat'>> Det er bare dette du skal rette til s&#229; det passer til dit eget form&#229;l. </span><br /><span class='citat'>> Husk at det skal st&#229; p&#229; &#233;n lang linie: </span><br /><span class='citat'>> </span><br /><span class='citat'>> document.write('&lt;script>\n  var advertiser = </span><br /><span class='normal'>\'DanskTipstjeneste_468x248_ver01_070202_bb.gif\';\n  var adsrc = </span><br /><span class='normal'>\'<a href='http://netgravity.jubii.dk/creative/DanskTipstjeneste/feb_02/Lotto_BB_Bann'>http://netgravity.jubii.dk/creative/DanskTipstjeneste/feb_02/Lotto_BB_Bann</a> </span><br /><span class='normal'>ere_03.gif\';\n  var adlink = \'\' ;\n  var feq = 1;\n  var TimeBeforeShow = </span><br /><span class='normal'>700 ;\n  var TimeDown = 3000 ;\n  \n </span><br /><span class='citat'>> function GC(name){var </span><br /><span class='normal'>dc=document.cookie,start=dc.indexOf(name+&quot;=&quot;),len=start+name.length+1;if </span><br /><span class='normal'>(!start&amp;&amp;name!=dc.substring(0,name.length)) return null;if (start==-1)return </span><br /><span class='normal'>null;var end=dc.indexOf(&quot;;&quot;,len);if (end==-1)end=dc.length;return </span><br /><span class='normal'>unescape(dc.substring(len,end))}\n  function </span><br /><span class='citat'>> SC(name,value,expires){document.cookie=name+&quot;=&quot;+escape(value) + </span><br /><span class='normal'>&quot;;expires=&quot; + expires.toGMTString() }\n  \n  function BB_Start(){\n   var xy </span><br /><span class='normal'>= getDim(KATEGORIER);xy.x++;xy.y++\n   var kX = xy.x + 378, aY = xy.y - </span><br /><span class='normal'>BB_ADD.height, exp=new Date()\n   onresize=BB_Resize\n   BB_Clip = </span><br /><span class='normal'>BB_ADD.height\n </span><br /><span class='citat'>> var h = \'&lt;img src=\' + BB_KNAP.src + \' </span><br /><span class='normal'>style=&quot;position:absolute;cursor:hand;\'\n   h += \'width:\' + BB_KNAP.width </span><br /><span class='normal'>+ \'px;height:\' + BB_KNAP.height + \'px;\'\n   h += \'left:\' + kX + </span><br /><span class='normal'>\'px;top:\' + xy.y + \'px&quot; id=&quot;BB_A&quot; onclick=&quot;BB_Click()&quot;>\'\n   h += \'&lt;img </span><br /><span class='normal'>src=\' + BB_ADD.src + \' </span><br /><span class='citat'>> style=&quot;position:absolute;\'\n   h += \'width:\' + BB_ADD.width + </span><br /><span class='normal'>\'px;height:\' + BB_Clip + \'px;\'\n   h += \'clip:rect(\' + BB_Clip + \' </span><br /><span class='normal'>auto auto auto);\'\n   h += \'left:\' + xy.x + \'px;top:\' + aY + \'px&quot; </span><br /><span class='normal'>id=&quot;BB_B&quot;>\'\n   document.body.insertAdjacentHTML(&quot;beforeEnd&quot;,h)\n   BB_AS = </span><br /><span class='normal'>BB_A.style; </span><br /><span class='citat'>> BB_BS = BB_B.style\n   var C = GC(advertiser), showIT = false\n   var </span><br /><span class='normal'>today = &quot;&quot; + exp.getDate() + exp.getMonth() + &quot;,&quot;;\n   if (C!=null){\n    if </span><br /><span class='normal'>(C.indexOf(today)==-1){\n     today = C + today\n     showIT = </span><br /><span class='normal'>ue\n    }\n   } else { showIT = true }\n   if (showIT){\n </span><br /><span class='citat'>> setTimeout(&quot;if(BB_Dir&lt;0)BB_Click();&quot;,TimeBeforeShow)\n </span><br /><span class='normal'>exp.setDate(exp.getDate()+7)\n    SC(advertiser,today,exp)\n   }\n  } </span><br /><span class='normal'>\n\nfunction BB_Click(){\n if (BB_Moving) return;\n BB_Dir *= -1\n BB_Steps </span><br /><span class='normal'>= 0\n if (window.BB_Int) clearInterval(BB_Int)\n BB_Moving = true\n BB_Int = </span><br /><span class='citat'>> setInterval(&quot;BB_Next()&quot;,50)\n}\n\nfunction BB_Next(){\n var add = BB_Dir * </span><br /><span class='normal'>(++BB_Steps&lt;16 ? 16 : 8)\n BB_Clip -= add\n BB_BS.clip = \'rect(\' + BB_Clip </span><br /><span class='normal'>+ \' auto auto auto)\'\n BB_BS.posTop += add\n if (BB_Dir&lt;0) BB_Adjust();\n </span><br /><span class='normal'>if (BB_Clip&lt;=0  BB_Clip>=BB_ADD.height){\n  clearInterval(BB_Int);\n </span><br /><span class='citat'>> setTimeout(&quot;BB_Adjust()&quot;,50)\n  if (BB_Dir>0) setTimeout(&quot;BB_Moving = </span><br /><span class='normal'>false;BB_Click()&quot;,TimeDown); else BB_Moving=false;\n }\n}\nfunction </span><br /><span class='normal'>BB_Adjust(){\n BB_AS.posTop = BB_B.offsetTop + </span><br /><span class='normal'>BB_B.offsetHeight\n}\nfunction BB_Resize(){\n var xy = </span><br /><span class='normal'>getDim(KATEGORIER);xy.x++;xy.y++\n BB_BS.posLeft = xy.x\n </span><br /><span class='citat'>> BB_AS.posLeft = xy.x + 378\n}\n\nfunction getDim(el){\n   var rd = </span><br /><span class='normal'>{x:el.offsetLeft,y:el.offsetTop}, tEl=el.offsetParent\n   while (tEl){\n </span><br /><span class='normal'>rd.x += tEl.offsetLeft\n    rd.y += tEl.offsetTop\n    tEl = </span><br /><span class='normal'>tEl.offsetParent\n   }\n   return rd\n}\n\nif (document.all){\n BB_ADD = new </span><br /><span class='normal'>Image; BB_ADD.src = </span><br /><span class='citat'>> adsrc\n BB_KNAP = new Image; BB_KNAP.src = </span><br /><span class='normal'>\'<a href='http://i.jubii.dk/www/reklame.gif\'\n'>http://i.jubii.dk/www/reklame.gif\'\n</a> BB_Steps = 0\n BB_Moving = false\n </span><br /><span class='normal'>BB_Dir = -1\n onload = BB_Start;\n\n}\n  \n&lt;/script>'); </span><br /><span class='normal'> </span><br /><span class='normal'>Det fatter jeg jo ikke en skid af... Det kan da ikke passe at det ikke m&#229; </span><br /><span class='normal'>opdeles p&#229; flere linier... </span><br /><span class='normal'>Det er jo ogs&#229; ulovligt at stj&#230;le fra <a href='http://Jubii.dk'>Jubii.dk</a>.... </span><br /><span class='normal'>Og jeg kan ikke f&#229; det til at virke heller... </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>M.v.h. Morten J&#248;rgensen </span><br /><span class='normal'> Bytte Program &amp; Portal </span><br /><span class='normal'>  <a href='http://www.StartLinket.dk'>www.StartLinket.dk</a> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c629913%240%2489090%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Rul ned banner som p&#229; kontaktnet.dk ?...'>Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;StartLinket.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c62a314%240%2417213%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;FB)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c62aee7%240%24232%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;StartLinket.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3Ca3uetr%24lji%241%40sunsite%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;Janus&nbsp;Klok&nbsp;Lauritsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c62c4f0%240%2462899%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;StartLinket.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3ClYz88%2E203%249Q3%2E3376%40news%2Eget2net%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c62db40%240%24232%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;StartLinket.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3Ca3umco%24ffr%241%40sunsite%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;Carsten&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c62e5bb%240%2462876%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;StartLinket.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3CtLB88%2E238%249Q3%2E4171%40news%2Eget2net%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c62ebd0%240%2462897%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;StartLinket.dk)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3CdgD88%2E271%249Q3%2E5432%40news%2Eget2net%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk?'>Re: Rul ned banner som p&#229; kontaktnet.dk?</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3Ca3v71i%24mjp%241%40sunsite%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(08-02-02&nbsp;-&nbsp;Carsten&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3c636e24%240%24221%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(08-02-02&nbsp;-&nbsp;StartLinket.dk)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3C3GB88%2E237%249Q3%2E4241%40news%2Eget2net%2Edk%3E' title='Re: Rul ned banner som p&#229; kontaktnet.dk ?...'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</a>&nbsp;<small class='newslist'>(07-02-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form&amp;ReplyID=%3C3c62ebd0%240%2462897%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp'>dk.edb.internet.webdesign.clientside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor.gif' height="125" width="125" alt='Edit your editor' /></a>
+<br /><br /></div>
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp?messageid=%3c3c62ebd0$0$62897$edfadb0f@dspool01.news.tele.dk%3e' method='post'><p class='pollheader'>Hvilken teksteditor er din foretrukne?</p><div><input type='hidden' name='tst' value='18-03-02 02:18:12' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Notepad</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;EditPlus</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;UltraEdit</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;CuteHTML</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;WebCoder Int.</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Stones WebWriter</small><br /><input type='radio' name='vote_id' value='7' /><small class='boxtext'>&nbsp;NoteTab</small><br /><input type='radio' name='vote_id' value='8' /><small class='boxtext'>&nbsp;CoffeeCup</small><br /><input type='radio' name='vote_id' value='9' /><small class='boxtext'>&nbsp;Anden</small><br /><input type='radio' name='vote_id' value='10' /><small class='boxtext'>&nbsp;Bruger ikke teksteditor</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+						<!-- DoubleClick start -->
+
+						<center>
+						<script language="JavaScript">
+						<!--
+						   var time = new Date();
+						   randnum = (time.getTime());
+						   document.write('<scr'+'ipt languge="JavaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord='+randnum+'?">');
+						   document.write('<\/scr'+'ipt>');
+						//-->
+						</script>
+						<noscript>
+						   <a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" target="_top">
+						   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;dcopt=ist;sz=468x60;ord=6288830041?" border="0" width="468" height="60"> 
+						   </a>
+						</noscript>
+						</center>
+
+						<!-- DoubleClick end -->
+
+						
+
+<hr style="clear:both" />
+
+<div style="text-align:center" class="noprint"><a href="/about/">Om&nbsp;dette&nbsp;websted</a> | <a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a></div>
+<hr />
+
+<div style="float:right;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?id=32234" target="_blank">');
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&style=3&secID=' + Math.random()*10000000 + '&ref=' + escape(document.referrer) + '&tref=&pref=" border="0">');
+  document.write('</a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?id=32234">
+  <img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3" alt="chart" />
+  </a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/Default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Rul ned banner som p&#229; kontaktnet.dk ?...</span></div>
+
+</body>
+</html>
+

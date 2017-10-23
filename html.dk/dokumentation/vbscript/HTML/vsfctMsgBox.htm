@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>MsgBox Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctmsgbox"></A>MsgBox Function</H1>
+
+<P>Displays a message in a dialog box, waits for the user to click a button, and returns a value indicating which button the user clicked.</P>
+
+<P><CODE><B>MsgBox(</B>prompt[<B>, </B>buttons][<B>, </B>title][<B>, </B>helpfile<B>, </B>context]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>prompt</I></P>
+
+<P class=indent>&nbsp;<A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> displayed as the message in the dialog box. The maximum length of <I>prompt</I> is approximately 1024 characters, depending on the width of the characters used. If <I>prompt</I> consists of more than one line, you can separate the lines using a carriage return character (<B>Chr(</B>13<B>)</B>), a linefeed character (<B>Chr(</B>10<B>)</B>), or carriage return–linefeed character combination (<B>Chr(</B>13<B>) &amp; Chr(</B>10<B>)</B>) between each line.</P>
+
+<P class=dt><I>buttons</I></P>
+
+<P class=indent>&nbsp;<A HREF="vtglossary.htm#defnumericexpressionvbs">Numeric expression</A> that is the sum of values specifying the number and type of buttons to display, the icon style to use, the identity of the default button, and the modality of the message box. See Settings section for values. If omitted, the default value for <I>buttons</I> is 0.</P>
+
+<P class=dt><I>title</I></P>
+
+<P class=indent>String expression displayed in the title bar of the dialog box. If you omit <I>title</I>, the application name is placed in the title bar.</P>
+
+<P class=dt><I>helpfile</I></P>
+
+<P class=indent>String expression that identifies the Help file to use to provide context-sensitive Help for the dialog box. If <I>helpfile</I> is provided, <I>context</I> must also be provided. Not available on 16-bit platforms.</P>
+
+<P class=dt><I>context</I></P>
+
+<P class=indent>Numeric expression that identifies the Help context number assigned by the Help author to the appropriate Help topic. If <I>context</I> is provided, <I>helpfile</I> must also be provided. Not available on 16-bit platforms.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>buttons</I> argument settings are:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=33%>Constant</TH>
+<TH width=10%>Value</TH>
+<TH width=57%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbOKOnly</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;0</TD>
+<TD width=57%>Display <B>OK</B> button only.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbOKCancel</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;1</TD>
+<TD width=57%>Display <B>OK</B> and <B>Cancel</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbAbortRetryIgnore</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;2</TD>
+<TD width=57%>Display <B>Abort</B>, <B>Retry</B>, and <B>Ignore</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbYesNoCancel</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;3</TD>
+<TD width=57%>Display <B>Yes</B>, <B>No</B>, and <B>Cancel</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbYesNo</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;4</TD>
+<TD width=57%>Display <B>Yes</B> and <B>No</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbRetryCancel</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;5</TD>
+<TD width=57%>Display <B>Retry</B> and <B>Cancel</B> buttons.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbCritical</TD>
+<TD width=10%> 16</TD>
+<TD width=57%>Display Critical Message icon. </TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbQuestion</TD>
+<TD width=10%> 32</TD>
+<TD width=57%>Display Warning Query icon.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbExclamation</TD>
+<TD width=10%> 48</TD>
+<TD width=57%>Display Warning Message icon.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbInformation</TD>
+<TD width=10%> 64</TD>
+<TD width=57%>Display Information Message icon.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton1</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;0</TD>
+<TD width=57%>First button is default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton2</TD>
+<TD width=10%>&nbsp;256</TD>
+<TD width=57%>Second button is default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton3</TD>
+<TD width=10%>&nbsp;512</TD>
+<TD width=57%>Third button is default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbDefaultButton4</TD>
+<TD width=10%>&nbsp;768</TD>
+<TD width=57%>Fourth button is default.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbApplicationModal</TD>
+<TD width=10%>&nbsp;&nbsp;&nbsp;0</TD>
+<TD width=57%>Application modal; the user must respond to the message box before continuing work in the current application.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>vbSystemModal</TD>
+<TD width=10%>4096</TD>
+<TD width=57%>System modal; all applications are suspended until the user responds to the message box.</TD>
+</TR>
+</TABLE><BR>
+
+<P>The first group of values (0–5) describes the number and type of buttons displayed in the dialog box; the second group (16, 32, 48, 64) describes the icon style; the third group (0, 256, 512, 768) determines which button is the default; and the fourth group (0, 4096) determines the modality of the message box. When adding numbers to create a final value for the argument <I>buttons</I>, use only one number from each group. </P>
+
+<H4>Return Values</H4>
+
+<P>The <B>MsgBox</B> function has the following return values:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=22%>Constant</TH>
+<TH width=11%>Value</TH>
+<TH width=67%>Button</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbOK</TD>
+<TD width=11%>1</TD>
+<TD width=67%>OK</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbCancel</TD>
+<TD width=11%>2</TD>
+<TD width=67%>Cancel</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbAbort</TD>
+<TD width=11%>3</TD>
+<TD width=67%>Abort</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbRetry</TD>
+<TD width=11%>4</TD>
+<TD width=67%>Retry</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbIgnore</TD>
+<TD width=11%>5</TD>
+<TD width=67%>Ignore</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbYes</TD>
+<TD width=11%>6</TD>
+<TD width=67%>Yes</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>vbNo</TD>
+<TD width=11%>7</TD>
+<TD width=67%>No</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>When both <I>helpfile</I> and <I>context</I> are provided, the user can press <B>F1</B> to view the Help topic corresponding to the context.</P>
+
+<P>If the dialog box displays a <B>Cancel</B> button, pressing the <B>ESC</B> key has the same effect as clicking <B>Cancel</B>. If the dialog box contains a <B>Help</B> button, context-sensitive Help is provided for the dialog box. However, no value is returned until one of the other buttons is clicked.</P>
+
+<P>When the <B>MsgBox</B> function is used with Microsoft Internet Explorer, the title of any dialog presented always contains "VBScript:" to differentiate it from standard system dialogs.</P>
+
+<P>The following example uses the <B>MsgBox</B> function to display a message box and return a value describing which button was clicked: </P>
+
+<PRE><CODE>Dim MyVar
+MyVar = <span class=cfe><B>MsgBox (</B></span>"Hello World!"<span class=cfe><B>,</B></span> 65<span class=cfe><B>,</B></span> "MsgBox Example"<span class=cfe><B>)</B></span>
+&nbsp;&nbsp;&nbsp;' MyVar contains either 1 or 2, depending on which button is clicked.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctinputbox.htm">InputBox Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

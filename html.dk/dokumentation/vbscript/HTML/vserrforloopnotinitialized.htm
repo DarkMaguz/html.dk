@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>For loop not initialized</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vserrforloopnotinitialized"></A>For loop not initialized</H1>
+
+<P>The sequence of execution in your script jumped into the middle of a <B>For…Next</B> loop. This causes an error because <B>For…Next</B> loop counters must be initialized. The following demonstrates the correct structure of a <B>For…Next </B>loop.</P>
+
+<PRE><CODE><B>For</B> <I>counter</I> = <I>start</I> <B>To</B> <I>end</I> [<B>Step</B> <I>step</I>]
+    [<I>statements</I>]
+    [<B>Exit</B> <B>For</B>]
+    [<I>statements</I>]
+<B>Next</B></CODE></PRE>
+
+<P class=label><B>To correct this error</B>
+
+<UL>
+	<LI>Remove the jump into the <B>For…Next</B> loop.</li>
+
+	<LI>Make sure that the <B>For…Next </B>loop includes all the necessary parts.</li>
+</UL>
+
+<H4>See Also</H4>
+
+<P><A HREF="vbslooping.htm">Looping Through Code</A> | <A HREF="vsstmfor.htm">For...Next Statement</A> | <A HREF="vsstmdo.htm">Do...Loop Statement</A> | <A HREF="vsstmexit.htm">Exit Statement</A> | <A HREF="vsstmforeach.htm">For Each...Next Statement</A> | <A HREF="vsstmwhile.htm">While...Wend Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

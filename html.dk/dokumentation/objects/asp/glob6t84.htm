@@ -1,0 +1,82 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Session_OnStart</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_session_onstart"></a>Session_OnStart</h2>
+<p>
+The <b>Session_OnStart </b>event occurs when the server creates a new session. The server processes this script prior to executing the requested page. The <b>Session_OnStart</b> event is a good time for you to set any session-wide variables, because they will be set before any pages are accessed. All the built-in objects (<a href="intr8zw4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8zw4.htm"><b>Application</b></a>, <a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc4tpw.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc4tpw.htm'" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/sdk/crtc4tpw.htm"><b>ObjectContext</b></a>, <a href="intr5ulw.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5ulw.htm"><b>Request</b></a>, <a href="intr5sj8.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr5sj8.htm"><b>Response</b></a>, <a href="intr7838.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr7838.htm"><b>Server</b></a>, and <a href="intr12d0.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr12d0.htm"><b>Session</b></a>) are available and can be referenced in the <b>Session_OnStart </b>event script. </p>
+<h3>Syntax</h3>
+<pre><b>&lt;SCRIPT LANGUAGE=</b><i>ScriptLanguage</i> <b>RUNAT=Server&gt; </b><BR><b>Sub Session_OnStart</b><BR>. . .<BR><b>End Sub
+ 
+&lt;/SCRIPT&gt;
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>ScriptLanguage</i></dt>
+<dd>
+Specifies the scripting language used to write the event script. It may be any supported scripting language, such as VBScript or JScript. If more than one event uses the same scripting language, they can be combined under a single set of &lt;SCRIPT&gt; tags.</dd>
+</dl>
+<h3>Example</h3>
+<p>
+Although the <b>Session </b>object persists if the <b>Session_OnStart </b>event contains a call to the <a href="intr8h10.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8h10.htm"><b>Redirect</b></a> or <a href="intr2sis.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr2sis.htm"><b>End</b></a> methods, the server stops processing the script in both the Global.asa file and in the file that triggered the <b>Session_OnStart </b>event. </p>
+<p>
+You can call the <a href="intr8h10.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8h10.htm"><b>Redirect</b></a> method in the <b>Session_OnStart</b> event, for example, to ensure that users always start a session at a particular Web page. When the user enters the application, the server creates a session for that user and processes the <b>Session_OnStart </b>event script. You can include script in this event to check whether the page opened by the user is the starting page and, if not, direct the user to the starting page by calling the <b>Response.Redirect</b> method. This is demonstrated in the following example.</p>
+<pre>&lt;SCRIPT RUNAT=Server Language=VBScript&gt;
+Sub Session_OnStart
+    ' Make sure that new users start on the correct
+    ' page of the ASP application.
+
+    ' Replace the value given to startPage below
+    ' with the virtual path to your application's
+    ' start page.
+
+    startPage = &quot;/MyApp/StartHere.asp&quot;
+    currentPage = Request.ServerVariables(&quot;SCRIPT_NAME&quot;)
+
+    ' Do a case-insensitive compare, and if they
+    ' don't match, send the user to the start page.<BR>
+    if strcomp(currentPage,startPage,1) then<BR>        Response.Redirect(startPage)<BR>    end if<BR>End Sub<BR>&lt;/SCRIPT&gt;</pre>
+<p>
+The preceding example only works for browsers that support cookies. Because a noncookie browser does not return the <b>SessionID</b> cookie, the server creates a new session each time the user requests a page. Thus for each request, the server processes the <b>Session_OnStart</b> script and redirects the user to the starting page. If you use the script below, it is recommended that you put a notice on your starting page to inform users that the site requires a cookie-enabled browser.</p>
+<h3>Remarks</h3>
+<p>
+You should note that any <b>Session_OnStart</b> event script that follows a call to the <a href="intr8h10.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8h10.htm"><b>Redirect</b></a> method is not executed. For this reason, you should call the <b>Redirect</b> method last in your event script. This is demonstrated in the following example. </p>
+<pre>&lt;SCRIPT LANGUAGE=VBScript RUNAT=Server&gt; 
+   Sub Session_OnStart
+      ' Session initialization script  
+      Response.Redirect &quot;http:/server/app/StartHere.asp&quot;
+   End sub
+&lt;/SCRIPT&gt;</pre>
+<p>
+In the preceding example the <a href="intr8h10.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8h10.htm"><b>Redirect</b></a> method hides any text displayed to the client during the session-initialization script. </p>
+<h3>See Also</h3>
+<p>
+<a href="glob2y90.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob2y90.htm"><b>Session_OnEnd</b></a>, <a href="glob4f78.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob4f78.htm"><b>Application_OnStart</b></a></p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

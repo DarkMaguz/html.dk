@@ -1,0 +1,103 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>GetDefaultFolder Method (CDONTS Session Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_getdefaultfolder_method_cdonts_session_object_"></a>GetDefaultFolder Method (CDONTS Session Object)  <a href="amsm3qcf.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm3qcf.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>GetDefaultFolder</b> method returns a <a href="amsm4vmn.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm4vmn.htm">Folder</a> object from a message store. </p>
+<h4>Syntax </h4>
+<pre><b>Set </b><i>objFolder = objSession</i>.<b>GetDefaultFolder(</b><i>folderType</i><b>) 
+ </b></pre>
+<dl>
+<dt>
+<i>objFolder </i></dt>
+<dd>
+On successful return, contains the store's default Folder object of the specified type. When the folder does not exist, <b>GetDefaultFolder</b> returns <b>Nothing</b>. <br>
+</dd>
+<dt>
+<i>objSession </i></dt>
+<dd>
+Required. The Session object. <br>
+</dd>
+<dt>
+<i>folderType </i></dt>
+<dd>
+Required. Long. The folder type. This parameter can have exactly one of the following values: <table>
+<tr valign="top">
+<td>
+<b> <br>folderType setting </b></td>
+<td>
+<b>Decimal <br>value </b></td>
+<td>
+<b> <br>Meaning </b></td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoDefaultFolderInbox </b></td>
+<td>
+1 </td>
+<td>
+The CDO for NTS Library's Inbox. </td>
+</tr>
+<tr valign="top">
+<td>
+<b>CdoDefaultFolderOutbox </b></td>
+<td>
+2 </td>
+<td>
+The CDO for NTS Library's Outbox. </td>
+</tr>
+</table><br>
+</dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+The <b>GetDefaultFolder</b> method allows you to obtain the message store's default Inbox or Outbox folder. No other folders are accessible through this method. </p>
+<h4>Example </h4>
+<p>
+This code fragment uses the <b>GetDefaultFolder</b> method to obtain the Inbox folder from a message store: </p>
+<pre>Dim objSession As Session 
+Dim objInbox As Folder ' default Inbox or Outbox 
+Dim collMessages As Messages ' messages in folder 
+ 
+Set objSession = CreateObject (&quot;CDONTS.Session&quot;) 
+objSession.LogonSMTP(&quot;My Name&quot;, &quot;myaddress@mycompany.com&quot;) 
+Set objInbox = objSession.GetDefaultFolder(CdoDefaultFolderInbox) 
+If objInbox Is Nothing Then 
+    Set collMessages = Nothing 
+    MsgBox &quot;Unable to retrieve default folder&quot; 
+    Exit Function 
+Else 
+    Set collMessages = objInbox.Messages 
+    MsgBox &quot;Folder set to &quot; &amp; objInbox.Name 
+End If 
+ </pre>
+<p>
+ </p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

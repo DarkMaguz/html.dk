@@ -1,0 +1,174 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Hel ny! lille database!</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.php skrevet af John Larsen den 30. april 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Hel ny! lille database!" />
+<meta name="language" content="dan" />
+<meta name="Date" content="30-04-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.php</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3cceec7a%240%2449091%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> John&nbsp;Larsen&nbsp;&nbsp;<a href='mailto:jola_at_get2net_dot_dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='jola_at_get2net_dot_dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 30. april 2002 kl. 21:09</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Hel ny! lille database!</strong></li></ul>
+
+<p><span class='normal'>&quot;Jacob Bunk Nielsen&quot; &lt;spam@bunk.cc> skrev i en meddelelse </span><br /><span class='normal'>news:spamdrop+m3ofg1ayi7.fsf@paven.bunk.cc... </span><br /><span class='citat'>> &quot;John Larsen&quot; &lt;jola_at_get2net_dot_dk> writes: </span><br /><span class='citat'>> </span><br /><span class='citat'>> > Jacob - min 16 &#229;rige s&#248;n, har lavet en konkurranceside, han bruger mySQL </span><br /><span class='normal'>med </span><br /><span class='citat'>> > 3 tabeller - jeg har lige spurgt ham hvilken relationsdatabase han ville </span><br /><span class='citat'>> > foretr&#230;kke, hvis han havde frit valg p&#229; alle hylder, samt hvilken </span><br /><span class='normal'>normalform </span><br /><span class='citat'>> > han ville anbefale - han svarede : Jeg aner IKKE hvad fanden du snakker </span><br /><span class='normal'>om </span><br /><span class='citat'>> > <img src='/site/graphics/smileys/smiley1.gif' alt=':o)'> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jamen han er da dygtig. Da jeg var 16 skulle der stadig g&#229; nogle &#229;r </span><br /><span class='citat'>> f&#248;r jeg skrev min f&#248;rste SQL-statement. </span><br /><span class='normal'> </span><br /><span class='normal'>Nej han er SKADET af at jeg har arbejdet med de ting siden 1976. </span><br /><span class='normal'> </span><br /><span class='citat'>> Du kommer dog ikke uden om at han ville g&#248;re mange ting lettere for </span><br /><span class='citat'>> sig selv ved at vide lidt mere om teorien bag, og man kan slet ikke </span><br /><span class='citat'>> opbygge st&#248;rre l&#248;sninger uden at kende teorien. </span><br /><span class='normal'> </span><br /><span class='normal'>Min opfattelse er IKKE at Mette er i gang med at opbygge et st&#248;rre system, i </span><br /><span class='normal'>&#248;vrigt mener jeg at man sagtens kan opbygge ogs&#229; et endog STORT system uden </span><br /><span class='normal'>at kende de grundl&#230;ggende teorier, sp&#248;rg Brdr. Damgaard, hvordan de startede </span><br /><span class='normal'><img src='/site/graphics/smileys/smiley1.gif' alt=':o)'> </span><br /><span class='normal'> </span><br /><span class='normal'>Det ER alts&#229; kun en civilingeni&#248;r der har brug for at kende teorien bag </span><br /><span class='normal'>forbr&#230;ndingsmotoren, for at k&#248;re sig en tur <img src='/site/graphics/smileys/smiley1.gif' alt=':o)'> </span><br /><span class='normal'> </span><br /><span class='citat'>> > Man beh&#248;ver IKKE kende hele teorien bag databaser, relationsdatabaser, </span><br /><span class='citat'>> > flatfile databaser mm for at sm&#230;kke en hjemmeside sammen der g&#248;r *brug* </span><br /><span class='normal'>af </span><br /><span class='citat'>> > disse, man kan g&#248;re som Mette, sp&#248;rge HER, sp&#248;rge i dk.edb.databaser, </span><br /><span class='normal'>s&#248;ge </span><br /><span class='citat'>> > viden p&#229; WebCafe o.s.v. </span><br /><span class='citat'>> </span><br /><span class='citat'>> De fleste af de hjemmesider jeg ser omtalt her i gruppen er ganske </span><br /><span class='citat'>> simple, og kr&#230;ver ofte ikke kendskab til en stor m&#230;ngde teori, det kan </span><br /><span class='citat'>> vi sagtens v&#230;re enige om. </span><br /><span class='normal'> </span><br /><span class='normal'>Og MIN ringe opfattelse af HVAD det er Mette vil, er pr&#230;cis dette. </span><br /><span class='normal'> </span><br /><span class='citat'>> Men pr&#248;v at kigge i news:dk.edb.database og se om der ikke er et par </span><br /><span class='citat'>> af de tr&#229;de der somme tider k&#248;rer d&#233;r, som kr&#230;ver at man ved lidt om </span><br /><span class='citat'>> hvad der ligger bagved det hele. </span><br /><span class='normal'> </span><br /><span class='normal'>Ja selvf&#248;lgelig, der er hardcore og ikke hardcore, hvis JEG taler med mine </span><br /><span class='normal'>kollegaer er der da ikke en k&#230;ft der fatter en fis, men hvis jeg skal </span><br /><span class='normal'>forklare chefen det samme, er s&#229;gu da n&#248;dt til at finde ud af HVAD chefen </span><br /><span class='normal'>ved og ikke ved, ellers ender jeg med et system som AMANDA. </span><br /><span class='normal'> </span><br /><span class='citat'>> > Lighten up - din uddannelse er sikkert god nok, fin nok, udm&#230;rket </span><br /><span class='citat'>> </span><br /><span class='citat'>> S&#229;dan kan du tale til din s&#248;n, hvis han ellers gider at h&#248;re p&#229; </span><br /><span class='citat'>> dig. S&#229;dan en gang talen ned til gider jeg ikke at h&#248;re p&#229;! </span><br /><span class='citat'>> </span><br /><span class='citat'>> Hvis det er dit niveau, s&#229; stopper vi bare her. </span><br /><span class='normal'> </span><br /><span class='normal'>Mit niveau er : Jeg kunne godt t&#230;nke mig at HJ&#198;LPE Mette, ikke skr&#230;mme hende </span><br /><span class='normal'>v&#230;k fra en i &#248;vrigt ret simpel opgave, som hun selv har defineret rimeligt </span><br /><span class='normal'>klart. </span><br /><span class='normal'> </span><br /><span class='citat'>> </span><br /><span class='citat'>> > og egner sig ganske bestemt til at f&#229; en hjemmeside op at st&#229; </span><br /><span class='citat'>> </span><br /><span class='citat'>> ... og du kender tydeligvis stadig intet til indholdet af den. </span><br /><span class='normal'> </span><br /><span class='normal'>Og du checker ikke dine logfiler <img src='/site/graphics/smileys/smiley1.gif' alt=':o)'> </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg har stadig mit f&#248;rste kursus i HTML/webdesign/hjemmeside-strikning </span><br /><span class='citat'>> til gode, og jeg f&#229;r det nok heller ikke mens jeg l&#230;ser der hvor jeg </span><br /><span class='citat'>> g&#248;r. </span><br /><span class='citat'>> </span><br /><span class='citat'>> > men man kan klarer sig uden, jeg HAR kikket indenfor hos b&#229;de dig OG </span><br /><span class='citat'>> > Mette, og MIN vurdering er at Mette synes det er sjovt og sp&#230;ndende </span><br /><span class='citat'>> > at pr&#248;ve kr&#230;fter med mediet, ikke at uddanne sig til hverken </span><br /><span class='citat'>> > datalog, datanom, IT-tekniker, SystemAdministrator eller </span><br /><span class='citat'>> > civilingeni&#248;r <img src='/site/graphics/smileys/smiley1.gif' alt=':o)'> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Der er heller ingen der har sagt at Mette skal tage en lang uddannelse </span><br /><span class='citat'>> for at lave en hjemmeside. Jeg - og faktisk ogs&#229; Jesper - har blot </span><br /><span class='citat'>> peget p&#229; at det kan v&#230;re til nytte at kende til lidt &quot;database-teori </span><br /><span class='citat'>> for dummies&quot; n&#229;r man skal til at bestemme sig for hvordan man vil </span><br /><span class='citat'>> gemme ting i sin database, s&#229; man undg&#229;r at skyde sig selv i foden. </span><br /><span class='normal'> </span><br /><span class='normal'>[Snippet fra Jesper] </span><br /><span class='normal'> </span><br /><span class='normal'>alt er muligt <img src='/site/graphics/smileys/smiley1.gif' alt=':-)'>. Du skal kunne noget php og noget mysql - og ikke </span><br /><span class='normal'>mindst s&#229; er det en stor fidus at v&#230;re godt hjemme i html-forms... </span><br /><span class='normal'> </span><br /><span class='normal'>[Snippe slut] </span><br /><span class='normal'> </span><br /><span class='normal'>Dette er klar besked, l&#230;s manualen og du kan IKKE g&#229; helt galt i byen <img src='/site/graphics/smileys/smiley1.gif' alt=':o)'> </span><br /><span class='normal'>s&#229;dan udl&#230;gger jeg Jespers tekst - jeg ser ingen indikation p&#229; at Mette </span><br /><span class='normal'>burde l&#230;se teorierne bag database design, men selvf&#248;lgelig som fanden l&#230;ser </span><br /><span class='normal'>biblen <img src='/site/graphics/smileys/smiley1.gif' alt=':o)'> </span><br /><span class='normal'> </span><br /><span class='citat'>> Jeg kendte tilf&#230;ldigvis lige en tekst, fordi en af mine venner har </span><br /><span class='citat'>> skrevet den, og *jeg* synes den forklarer tingene kort, godt og </span><br /><span class='citat'>> pr&#230;cist. Det synes du s&#229; tilsyneladende ikke. </span><br /><span class='normal'> </span><br /><span class='normal'>Korrekt. </span><br /><span class='normal'> </span><br /><span class='normal'>John </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caak88j%24cf7%241%40sunsite%2Edk%3E' title='Hel ny! lille database!'>Hel ny! lille database!</a>&nbsp;<small class='newslist'>(29-04-02&nbsp;-&nbsp;Mette&nbsp;Frederiksen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3znzmcjox%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(29-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cb0669732%2E0204292343%2E7990cf71%40posting%2Egoogle%2Ecom%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3adrlcpyl%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3cceadb8%240%2418634%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;John&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caamb7f%24lud%241%40sunsite%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jonas&nbsp;Koch&nbsp;Bentzen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm31ycxci7p%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3cceccfb%240%2418639%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;John&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3ofg1ayi7%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3cceec7a%240%2449091%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;John&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3adrlklkf%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3ccf0022%240%2449078%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;John&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm36628lwh0%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cni3ucuk6vh4nsfq2qjsb3l7secdscqf1o1%404ax%2Ecom%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;-Martin-)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3ccfc0e9%240%2411928%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;John&nbsp;Larsen)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3CCF9BEC%2E8080001%40brunholm%2Dscharff%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3ccf9d7c%240%2478794%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Thomas&nbsp;Schulz)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3CCEBCC0%2E2060506%40brunholm%2Dscharff%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3sn5db2an%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3CCF985B%2E9070400%40brunholm%2Dscharff%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3ccfc1c6%240%2411935%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;John&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caap5al%24e1m%241%40sunsite%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Mette&nbsp;Frederiksen)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3u1psvsmt%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3cce8b1a%240%2449084%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;John&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3elgxcqia%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(30-04-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3CCF3FD3%2E5070804%40telescopium%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Christian&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Cspamdrop%2Bm3lmb4kb5k%2Efsf%40paven%2Ebunk%2Ecc%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Jacob&nbsp;Bunk&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caao2bd%24e4j%241%40sunsite%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Mette&nbsp;Frederiksen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3C3ccfc2a4%240%2411939%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;John&nbsp;Larsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3Caap4na%24c49%241%40sunsite%2Edk%3E' title='Re: Hel ny! lille database!'>Re: Hel ny! lille database!</a>&nbsp;<small class='newslist'>(01-05-02&nbsp;-&nbsp;Mette&nbsp;Frederiksen)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form&amp;ReplyID=%3C3cceec7a%240%2449091%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp'>dk.edb.internet.webdesign.serverside.php</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet.jpg' height="125" width="125" alt='Link til IT-Jobbank' /></a>
+<br />
+
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp?messageid=%3c3cceec7a$0$49091$edfadb0f@dspool01.news.tele.dk%3e' method='post'><p class='pollheader'>Hvordan fandt du første gang HTML.dk?</p><div><input type='hidden' name='tst' value='02-07-02 07:32:18' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Søgemaskine /-index</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Link fra anden side</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Link i Nyhedsgruppe</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Anbefaling fra ven</small><br /><input type='radio' name='vote_id' value='5' /><small class='boxtext'>&nbsp;Gennem undervisning</small><br /><input type='radio' name='vote_id' value='6' /><small class='boxtext'>&nbsp;Bannerreklame</small><br /><input type='radio' name='vote_id' value='7' /><small class='boxtext'>&nbsp;Andet</small><br /><input type='radio' name='vote_id' value='8' /><small class='boxtext'>&nbsp;Kan ikke huske</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_php/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af PHP.' class='navibox'>dk.edb.internet.webdesign.serverside.php</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Hel ny! lille database!</span></div>
+
+
+
+</body>
+</html>
+

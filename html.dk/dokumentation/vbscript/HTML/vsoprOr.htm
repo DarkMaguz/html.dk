@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Or Operator</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsopror"></A>Or Operator</H1>
+
+<P>Performs a logical disjunction on two expressions.</P>
+
+<P><CODE>result <B>=</B> expression1 <B>Or</B> expression2</CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>result</I></P>
+
+<P class=indent>Any numeric variable.</P>
+
+<P class=dt><I>expression1</I></P>
+
+<P class=indent>Any <A HREF="vtglossary.htm#defexpressionvbs">expression</A>.</P>
+
+<P class=dt><I>expression2</I></P>
+
+<P class=indent>Any expression. </P>
+
+<H4>Remarks</H4>
+
+<P>If either or both expressions evaluate to <B>True</B>, <I>result</I> is <B>True</B>. The following table illustrates how <I>result</I> is determined:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=33%>If expression1 is</TH>
+<TH width=33%>And expression2 is</TH>
+<TH width=34%>Then <I>result </I>is</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>True</TD>
+<TD width=33%>True</TD>
+<TD width=34%>True</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>True</TD>
+<TD width=33%>False</TD>
+<TD width=34%>True</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>True</TD>
+<TD width=33%><A HREF="vtglossary.htm#defnullvbs">Null</A></TD>
+<TD width=34%>True</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>False</TD>
+<TD width=33%>True</TD>
+<TD width=34%>True</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>False</TD>
+<TD width=33%>False</TD>
+<TD width=34%>False</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>False</TD>
+<TD width=33%>Null</TD>
+<TD width=34%>Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>Null</TD>
+<TD width=33%>True</TD>
+<TD width=34%>True</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>Null</TD>
+<TD width=33%>False</TD>
+<TD width=34%>Null</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>Null</TD>
+<TD width=33%>Null</TD>
+<TD width=34%>Null</TD>
+</TR>
+</TABLE><BR>
+
+<P>The <B>Or</B> operator also performs a <A HREF="vtglossary.htm#defbitwisevbs">bitwise comparison</A> of identically positioned bits in two <A HREF="vtglossary.htm#defnumericexpressionvbs">numeric expressions</A> and sets the corresponding bit in <I>result</I> according to the following table:</P>
+
+<TABLE border=1 cellspacing=0 cols=3 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=33%>If bit in <I>expression1 </I>is</TH>
+<TH width=33%>And bit in <I>expression2 </I>is</TH>
+<TH width=34%>Then <I>result </I>is</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>0</TD>
+<TD width=33%>0</TD>
+<TD width=34%>0</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>0</TD>
+<TD width=33%>1</TD>
+<TD width=34%>1</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>1</TD>
+<TD width=33%>0</TD>
+<TD width=34%>1</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=33%>1</TD>
+<TD width=33%>1</TD>
+<TD width=34%>1</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsoprand.htm">And Operator</A> | <A HREF="vsidxlogical.htm">Logical Operators</A> | <A HREF="vsoprnot.htm">Not Operator</A> | <A HREF="vsgrpoperatorprecedence.htm">Operator Precedence</A> | <A HREF="vsgrpoperatorsummary.htm">Operator Summary</A> | <A HREF="vsoprxor.htm">Xor Operator</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

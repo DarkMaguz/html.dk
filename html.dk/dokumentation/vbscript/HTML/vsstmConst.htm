@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Const Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmconst"></A>Const Statement</H1>
+
+<P>Declares <A HREF="vtglossary.htm#defconstantvbs">constants</A> for use in place of literal values. </P>
+
+<P><CODE>[<B>Public </B>| <B>Private</B>]<B> Const</B> <I>constname</I> = <I>expression</I></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>Public</I></P>
+
+<P class=indent>Optional. Keyword used at <A HREF="vtglossary.htm#defscriptlevelvbs">script level</A> to declare constants that are available to all procedures in all scripts. Not allowed in procedures.</P>
+
+<P class=dt><I>Private</I></P>
+
+<P class=indent>Optional. Keyword used at script level to declare constants that are available only within the script where the declaration is made. Not allowed in procedures.</P>
+
+<P class=dt><I>constname</I></P>
+
+<P class=indent>Required. Name of the constant; follows standard <A HREF="vtglossary.htm#defvariablevbs">variable</A> naming conventions.</P>
+
+<P class=dt><I>expression</I></P>
+
+<P class=indent>Required. Literal or other constant, or any combination that includes all arithmetic or logical operators except <B>Is</B>.</P>
+
+<H4>Remarks</H4>
+
+<P>Constants are public by default. Within procedures, constants are always private; their visibility can't be changed. Within a script, the default visibility of a script-level constant can be changed using the <B>Private</B> keyword.</P>
+
+<P>To combine several constant declarations on the same line, separate each constant assignment with a comma. When constant declarations are combined in this way, the <B>Public</B> or<B> Private</B> keyword, if used, applies to all of them.</P>
+
+<P>You can't use variables, user-defined functions, or intrinsic VBScript functions (such as <B>Chr</B>) in constant declarations. By definition, they can't be constants. You also can't create a constant from any expression that involves an operator, that is, only simple constants are allowed. Constants declared in a <B>Sub</B> or <B>Function</B> procedure are local to that procedure. A constant declared outside a procedure is defined throughout the script in which it is declared. You can use constants anywhere you can use an expression. The following code illustrates the use of the <B>Const</B> statement: </P>
+
+<PRE><CODE><span class=cfe><B>Const</B></span> MyVar = 459&nbsp;&nbsp;&nbsp;' Constants are Public by default.
+Private <span class=cfe><B>Const</B></span> MyString = "HELP"&nbsp;&nbsp;&nbsp;' Declare Private constant.
+<span class=cfe><B>Const</B></span> MyStr = "Hello", MyNumber = 3.4567&nbsp;&nbsp;&nbsp;' Declare multiple constants on same line.</CODE></PRE>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>Constants can make your scripts self-documenting and easy to modify. Unlike variables, constants cannot be inadvertently changed while your script is running.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vsstmfunction.htm">Function Statement</A> | <A HREF="vsstmprivate.htm">Private Statement</A> | <A HREF="vsstmpublic.htm">Public Statement</A> | <A HREF="vsstmsub.htm">Sub Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

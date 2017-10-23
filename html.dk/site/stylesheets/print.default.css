@@ -1,0 +1,47 @@
+/* ------------------------------------------------------------- */
+/* Fordi Netscape4 ikke nedarver fonte fra body			 */
+/* ------------------------------------------------------------- */
+
+p, h1, h2, h3, h4, h5, h6, em, strong, b, td, th, caption, blockquote, ul, ol, li, dl, dt, dd, div, span, table, tr, td, a  {font-family: Times New Roman, Times;}
+
+body {font-family: Times New Roman, Times;color : black; background : white;}
+
+
+/* ------------------------------------------------------------- */
+/*	Topmenu - logo - banner					 */
+/* ------------------------------------------------------------- */
+
+#adframe {position:absolute;top:0px;left:0px;visibility:hidden;}
+#adpic {position:absolute;top:0px;left:0px;visibility:hidden;}
+#logoparagraph	{position:absolute;top:0px;left:0px;visibility:hidden;}
+#navigationbox {position:absolute;top:0px;left:0px;visibility:hidden;}
+
+#skyscraper {position:absolute;top:0px;left:0px;visibility:hidden;}
+
+iframe {visibility:hidden;position:absolute;top:0px;left:0px;}
+iframe {visibility:hidden;position:absolute;top:0px;left:0px;}
+
+/* ------------------------------------------------------------- */
+/*	Indhold og venstremenu					 */
+/* ------------------------------------------------------------- */
+
+#menubox  {position:absolute;top:0px;left:0px;visibility:hidden;}
+#searchbox {position:absolute;top:0px;left:0px;visibility:hidden;}
+#footerbox {position:absolute;top:0px;left:0px;visibility:hidden;}
+
+/* ------------------------------------------------------------- */
+/*	artikler, tutorials. m.v.					 */
+/* ------------------------------------------------------------- */
+
+.pagenavi {position:absolute;top:0px;left:0px;visibility:hidden;}
+.examplelink {position:absolute;top:0px;left:0px;visibility:hidden;}
+.codebox {border: 1px solid gray;padding:15px;page-break-inside: avoid;}
+.noprint {position:absolute;top:0px;left:0px;visibility:hidden;}
+
+/* ------------------------------------------------------------- */
+/*	elementer					 */
+/* ------------------------------------------------------------- */
+
+table {width:100%;border-spacing:0px }
+th {border:3px solid black;}
+td {border:1px solid black;}

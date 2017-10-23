@@ -1,0 +1,90 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Send Method (CDONTS NewMail Object)</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h3><a name="_denali_send_method_cdonts_newmail_object_"></a>Send Method (CDONTS NewMail Object)  <a href="amsm0qzj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm0qzj.htm"><img src="art/group.gif" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/art/group.gif" border="0" WIDTH="81" HEIGHT="22"></a></h3>
+<p>
+The <b>Send</b> method sends the NewMail object to the specified recipients. </p>
+<h4>Syntax </h4>
+<pre><i>objNewMail</i>.<b>Send( [</b><i>From</i><b>] [</b><i>, To</i><b>] [</b><i>, Subject</i><b>] [</b><i>, Body</i><b>] [</b><i>, Importance</i><b>] ) 
+ </b></pre>
+<dl>
+<dt>
+<i>objNewMail </i></dt>
+<dd>
+Required. This NewMail object. <br>
+</dd>
+<dt>
+<i>From </i></dt>
+<dd>
+Optional. String. The full messaging address to be identified as the sender. <br>
+</dd>
+<dt>
+<i>To </i></dt>
+<dd>
+Optional. String. A list of full messaging addresses of recipients. The individual recipient addresses are separated by semicolons. <br>
+</dd>
+<dt>
+<i>Subject </i></dt>
+<dd>
+Optional. String. The subject line for the message. <br>
+</dd>
+<dt>
+<i>Body </i></dt>
+<dd>
+Optional. <b>IStream</b> object or String. The text of the message. <br>
+</dd>
+<dt>
+<i>Importance </i></dt>
+<dd>
+Optional. Long. The importance associated with the message. </dd>
+</dl>
+<h4>Remarks </h4>
+<p>
+The <i>From</i>, <i>To</i>, <i>Subject</i>, <i>Body</i>, and <i>Importance</i> parameters correspond to the <a href="amsm7tnj.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm7tnj.htm"><b>From</b></a>, <a href="amsm62fz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm62fz.htm"><b>To</b></a>, <a href="amsm34db.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm34db.htm"><b>Subject</b></a>, <a href="amsm00gv.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm00gv.htm"><b>Body</b></a>, and <a href="amsm53dr.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm53dr.htm"><b>Importance</b></a> properties on the NewMail object. </p>
+<p>
+If both the <a href="amsm62fz.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/amsm62fz.htm"><b>To</b></a> property and the <i>To</i> parameter of the <b>Send</b> method are supplied, the NewMail object is sent to all recipients on both lists. </p>
+<p>
+Only C/C++ and Java programs can use an <b>IStream</b> object for the <i>Body</i> parameter. They should pass an <b>IUnknown</b> object that returns an <b>IStream</b> interface in response to <b>QueryInterface</b>. Microsoft® Visual Basic® supports the <b>IDispatch</b> interface and not <b>IUnknown</b>, so it cannot use an <b>IStream</b> object. </p>
+<p>
+The NewMail object becomes invalid upon successful completion of the <b>Send</b> method, and you cannot reuse it for another message. You should <b>Set</b> it to <b>Nothing</b> to release the memory. Attempted access to a sent NewMail object results in a return of <b>CdoE_INVALID_OBJECT</b>. </p>
+<h4>Example </h4>
+<p>
+This code fragment demonstrates a simple usage of the NewMail object and its <b>Send</b> method: </p>
+<pre>Dim myMail 
+Set myMail = CreateObject(&quot;CDONTS.NewMail&quot;) 
+myMail.From = &quot;Example@Microsoft.com&quot; 
+myMail.To = &quot;Someone@company.com&quot; 
+myMail.Subject = &quot;Sample Message&quot; 
+myMail.Body = &quot;This is a sample message.&quot; 
+myMail.AttachFile &quot;d:\sample.txt&quot; 
+myMail.Send 
+Set myMail = Nothing 
+ </pre>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

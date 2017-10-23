@@ -1,0 +1,20 @@
+Arbejdsministeriet,www.am.dk
+By- og Boligministeriet,www.bm.dk
+Erhvervsministeriet,www.em.dk
+Finansministeriet,www.fm.dk
+Forsvarsministeriet,www.fmn.dk
+Fødevareministeriet,www.fvm.dk
+Indenrigsministeriet,www.im.dk
+IT- og Forskningsministeriet,www.fsk.dk
+Justitsministeriet,www.jm.dk
+Kirkeministeriet,www.km.dk
+Kulturministeriet,www.kum.dk
+Miljø- og Energiministeriet,www.mem.dk
+Skatteministeriet,www.skm.dk
+Socialministeriet,www.sm.dk
+Statsministeriet,www.stm.dk
+Sundhedsministeriet,www.sum.dk
+Trafikministeriet,www.trm.dk
+Udenrigsministeriet,www.um.dk
+Undervisningsministeriet,www.uvm.dk
+Økonomiministeriet,www.oem.dk

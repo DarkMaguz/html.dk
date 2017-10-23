@@ -1,0 +1,77 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>HasAccess</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_hasaccess"></a>HasAccess</h2>
+<p>
+The <b>HasAccess</b> method tests whether a user has permission to access a specified file.</p>
+<h3>Syntax</h3>
+<pre><b>HasAccess(</b><i>FilePath</i><b>)
+ </b></pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>FilePath</i></dt>
+<dd>
+A string that specifies the path and name of the file; this can be either a physical or virtual path. </dd>
+</dl>
+<h3>Return Values</h3>
+<p>
+Returns a BOOLEAN value that indicates whether the Web user has access to the specified file. If the file does not exist, the <b>PermissionChecker</b> object returns False.</p>
+<h3>Examples</h3>
+<p>
+The following example uses the <b>PermissionChecker</b> object to test whether the Web user has access to the file C:\pages\private\default.htm. If the user has access, the script creates a hyperlink to that file; otherwise it writes a message. This example uses a virtual path.</p>
+<pre>&lt;% 
+Set pmck = Server.CreateObject(&quot;MSWC.PermissionChecker&quot;) 
+UserHasAccess = pmck.HasAccess(&quot;/private/default.htm&quot;)
+ 
+If UserHasAccess 
+%&gt;
+  &lt;A HREF=&quot;/private/default.htm&quot;&gt;Go to the Clubhouse!&lt;/A&gt;
+&lt;% Else %&gt;
+  Sorry, you are not a member.
+&lt;% End If %&gt;
+ </pre>
+<p>
+The following example repeats the preceding one but uses a physical path to determine the user's permissions.</p>
+<pre>&lt;% 
+Set pmck = Server.CreateObject(&quot;MSWC.PermissionChecker&quot;) 
+UserHasAccess = pmck.HasAccess(&quot;c:\pages\private\default.htm&quot;)
+ 
+If UserHasAccess 
+%&gt;
+  &lt;A HREF=&quot;/private/default.htm&quot;&gt;Go to the Clubhouse!&lt;/A&gt;
+&lt;% Else %&gt;
+  Sorry, you are not a member.
+&lt;% End If %&gt;
+ </pre>
+<p>
+ </p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

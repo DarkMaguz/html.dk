@@ -1,0 +1,52 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>Application_OnEnd</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_application_onend"></a>Application_OnEnd</h2>
+<p>
+The <b>Application_OnEnd </b>event occurs when the application quits, after the <b>Session_OnEnd</b> event. Only the <a href="intr8zw4.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr8zw4.htm"><b>Application</b></a> and <a href="intr7838.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr7838.htm"><b>Server</b></a> built-in objects are available. </p>
+<h3>Syntax</h3>
+<pre><b>&lt;SCRIPT LANGUAGE=</b><i>ScriptLanguage </i><b>RUNAT=Server&gt;</b> <BR><b>Sub Application_OnEnd</b><BR>. . . <BR><b>End Sub
+ 
+&lt;/SCRIPT&gt;</b> 
+ </pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>ScriptLanguage</i></dt>
+<dd>
+Specifies the scripting language used to write the event script. It may be any supported scripting language, such as VBScript or JScript. If more than one event uses the same scripting language, they can be combined under a single set of &lt;SCRIPT&gt; tags.</dd>
+</dl>
+<h3>Remarks</h3>
+<p>
+You cannot call the <a href="intr98iw.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/intr98iw.htm"><b>MapPath</b></a> method in the <b>Application_OnEnd</b> script. </p>
+<h3>See Also</h3>
+<p>
+<a href="glob4f78.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob4f78.htm"><b>Application_OnStart</b></a>, <a href="glob2y90.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/glob2y90.htm"><b>Session_OnEnd</b></a></p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

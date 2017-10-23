@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CStr Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctcstr"></A>CStr Function</H1>
+
+<P>Returns an expression that has been converted to a <B>Variant</B> of subtype <B>String</B>.</P>
+
+<P><CODE><B>CStr(</B>expression<B>)</B></CODE></P>
+
+<P>The <I>expression</I> argument is any valid expression.</P>
+
+<H4>Remarks</H4>
+
+<P>In general, you can document your code using the data type conversion functions to show that the result of some operation should be expressed as a particular data type rather than the default data type. For example, use <B>CStr</B> to force the result to be expressed as a <B>String</B>.</P>
+
+<P>You should use the <B>CStr</B> function instead of <B>Str</B> to provide internationally aware conversions from any other data type to a <B>String</B> subtype. For example, different decimal separators are properly recognized depending on the <A HREF="vtglossary.htm#deflocalevbs">locale</A> setting of your system.</P>
+
+<P>The data in <I>expression</I> determines what is returned according to the following table:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=27%>If expression is</TH>
+<TH width=73%>CStr returns</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>Boolean</TD>
+<TD width=73%>A <B>String</B> containing <B>True</B> or <B>False</B>. </TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>Date</TD>
+<TD width=73%>A <B>String</B> containing a date in the short-date format of your system.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>Null</TD>
+<TD width=73%>A run-time error.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>Empty</TD>
+<TD width=73%>A zero-length <B>String</B> ("").</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>Error</TD>
+<TD width=73%>A <B>String</B> containing the word Error followed by the error number.</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=27%>Other numeric</TD>
+<TD width=73%>A <B>String</B> containing the number.</TD>
+</TR>
+</TABLE><BR>
+
+<P>The following example uses the <B>CStr</B> function to convert a numeric value to a <B>String</B>: </P>
+
+<PRE><CODE>Dim MyDouble, MyString
+MyDouble = 437.324&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' MyDouble is a Double.
+MyString = <span class=cfe><B>CStr(</B></span>MyDouble<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' MyString contains "437.324".</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcbool.htm">CBool Function</A> | <A HREF="vsfctcbyte.htm">CByte Function</A> | <A HREF="vsfctccur.htm">CCur Function</A> | <A HREF="vsfctcdate.htm">CDate Function</A> | <A HREF="vsfctcdbl.htm">CDbl Function</A> | <A HREF="vsfctcint.htm">CInt Function</A> | <A HREF="vsfctclng.htm">CLng Function</A> | <A HREF="vsfctcsng.htm">CSng Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

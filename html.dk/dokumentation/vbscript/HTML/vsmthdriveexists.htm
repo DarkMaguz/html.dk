@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DriveExists Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthdriveexists"></A>DriveExists Method</H1>
+
+<P>Returns <B>True</B> if the specified drive exists; <B>False</B> if it does not.</P>
+
+<P><CODE><I>object</I>.<B>DriveExists(</B><I>drivespec</I><B>)</B> </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>drivespec</I></P>
+
+<P class=indent>Required. A drive letter or a complete path specification. </P>
+
+<H4>Remarks</H4>
+
+<P>For drives with removable media, the <B>DriveExists</B> method returns <B>True</B> even if there are no media present. Use the <B>IsReady</B> property of the <B>Drive</B> object to determine if a drive is ready.</P>
+
+<P>The following example illustrates use of the <B>DriveExists</B> method: </P>
+
+<PRE><CODE>Function ReportDriveStatus(drv)
+&nbsp;&nbsp;&nbsp;Dim fso, msg
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;If fso.DriveExists(drv) Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg = ("Drive " &amp; UCase(drv) &amp; " exists.")
+&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;msg = ("Drive " &amp; UCase(drv) &amp; " doesn't exist.")
+&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;ReportDriveStatus = msg
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsobjdrive.htm">Drive Object</A> | <A HREF="vscoldrives.htm">Drives Collection</A> | <A HREF="vsmthfileexists.htm">FileExists Method</A> | <A HREF="vsmthfolderexists.htm">FolderExists Method</A> | <A HREF="vsmthgetdrive.htm">GetDrive Method</A> | <A HREF="vsmthgetdrivename.htm">GetDriveName Method</A> | <A HREF="vsproisready.htm">IsReady Property</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

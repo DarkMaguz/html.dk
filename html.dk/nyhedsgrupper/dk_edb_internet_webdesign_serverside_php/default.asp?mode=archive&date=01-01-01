@@ -1,0 +1,6 @@
+ <font face="Arial" size=2>
+<p>Microsoft VBScript runtime </font> <font face="Arial" size=2>error '800a005e'</font>
+<p>
+<font face="Arial" size=2>Invalid use of Null: 'Replace'</font>
+<p>
+<font face="Arial" size=2>/site/includes/function.newsgroups.main.inc.asp</font><font face="Arial" size=2>, line 532</font> 

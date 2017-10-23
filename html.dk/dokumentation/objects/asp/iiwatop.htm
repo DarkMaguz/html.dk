@@ -1,0 +1,62 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Web Applications</title>
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Welcome page for Web applications topics."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">
+
+
+<h1><a NAME="H1_22057158">Web Applications</a></h1>
+
+<p>The Windows NT Option Pack provides a platform for building Web applications for the Internet or intranet.   Web applications can be delivered as a combination of  Web pages that provide the user interface to the application and ActiveX components that encapsulate business logic and provide access to the databases where critical business information is stored.   With Active Server Pages, you can create HTML pages with embedded scripts that are processed by the Web server instead of by the browser.  With Microsoft® Transaction Server, you can create distributed applications that support transactions.  With Internet Information Server, you can deploy your applications on a fast, easy-to-administer, and secure Web server.</p>
+
+<p>Internet Information Server and Personal Web Server also support Common Gateway Interface (CGI) applications, Internet Database Connector (IDC) applications, and Internet Information Server Application Interface (ISAPI) applications.   This section explains how to write ASP scripts and create ASP applications.  It also explains how to write IDC applications. </p>
+
+<p>Personal Web Server on Windows® 95 (or later) provides support for running ASP applications and supports the development of ASP applications.  It is intended as a personal publishing server, however, and not as a production Web server.  You can develop ASP applications for your own use, or you can deploy applications on a computer running Windows NT Server.  For a richer development environment, consider using either Windows NT Workstation or Windows NT Server.</p>
+
+<p>Internet Service Manager and Microsoft Script Debugger are application development and administration features available on Personal Web Server on Windows&nbsp;NT Workstation or on Internet Information Server.  They are not available on Windows 95.</p> 
+
+<p>What this section contains:</p>
+
+<ul>
+<li><strong>Active Server Pages</strong>: Explains how to write ASP scripts and applications.</li>
+<li><strong>ASP Tutorial</strong>: Provides a step-by-step introduction to creating ASP scripts.</li>
+<li><strong>VBScript Tutorial</strong>: Provides an  introduction to using the VBScript language.</li>
+<li><strong>JScript Tutorial</strong>: Provides an introduction to using the JScript language.</li>
+<li><strong>Server-Side Includes</strong>: Explains how to use server-side include directives to include files.</li>
+<li><strong>Internet Database Connector</strong>: Explains how to use Internet Database Connector to access a database.</li>
+</ul>
+
+<p>This section does <em>not</em> contain information on:</p>
+<ul>
+<li>Administering applications; see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iisvadm.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iisvadm.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iisvadm.htm">Server Administration</a>.</li>
+<li>Reference pages for the ASP objects and components and for VBScript and JScript; see <a href="iiscrref.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iiscrref.htm">Scripter's Reference</a>.</li>
+</ul>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+</font>
+</body>
+</html>

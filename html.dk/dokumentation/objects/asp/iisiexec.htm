@@ -1,0 +1,89 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>#exec</title>
+
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Reference page for #exec directive."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">
+
+<h1><a name="H1_37753544">#exec</a></h1>
+
+<p>The <strong>#exec</strong> directive instructs the Web server to run the specified application or shell command and send the output (standard output or ISAPI <strong>WriteClient</strong> data) to the client browser. You must surround a directive with HTML comment delimiters.</p>
+
+<p>This directive can be used only in HTML pages; it cannot be used in ASP pages.</p>
+
+<h4><a name="H4_37754175">Syntax</a></h4>
+
+<p><strong>&lt;!-- #exec </strong><em>CommandType</em><strong> = </strong><em>CommandDescription</em> <strong>--&gt;</strong></p>
+
+<h4><a name="H4_37754331">Parameters</a></h4>
+
+<p><em>CommandType</em></p>
+
+<p>Specifies the type of command.  The command type can be one of the following:</p>
+
+<table border="1" cellpadding="4" cellspacing="1" width="100%">
+<tr>
+<th width="25%" bgcolor="#C0C0C0" align="Left" valign="top">Command Type</th>
+<th width="75%" bgcolor="#C0C0C0" align="Left" valign="top">Meaning</th>
+</tr>
+<tr>
+<td width="25%" valign="Top">CGI</td>
+<td width="75%" valign="Top">Runs an application, such as a CGI script, ASP application, or ISAPI application.  The <em>CommandDescription</em> parameter is a string that contains the virtual path of the application, followed by a question mark (?) and any parameters passed to the application.  Parameters are separated by plus signs (+).  Because running an ISAPI application is only part of processing the SSI document, an ISAPI application is restricted as follows:
+
+<ul>
+<li>Any application attempting to send a URL or redirect through <strong>ServerSupportFunction</strong> will cause a message to be placed in the HTML stream, but the send-redirect will not be performed.</li>
+<li>The SSI interpreter (Ssinc.dll) will wait indefinitely for applications returning HSE_STATUS_PENDING unless <strong>ServerSupportFunction</strong> is called to finish the session. 
+</ul> </td>
+</tr>
+<tr>
+<td width="25%" valign="Top">CMD</td>
+<td width="75%" valign="Top">Runs a shell command.  The <em>CommandDescription</em> parameter is a string that contains the full, physical path of the shell program, followed by any command-line parameters separated by spaces.  If the full path is not specified, the Web server searches the system path.  This directive is disabled by default because it poses a security risk to your Web site; for example, a user could run the <strong>format</strong> command to erase your hard disk.  To enable it, add the SSIEnableCmdDirective entry to the registry and set the value to TRUE.  For general information on using the registry, see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iiregtop.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iiregtop.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iiregtop.htm">Registry</a>.</td>
+</tr>
+</table>
+
+<h4><a name="H4_37756502">Remarks</a></h4>
+
+<p>The file containing the <strong>#exec</strong> directives must use a file name extension that is mapped to the SSI interpreter; otherwise, the Web server will not process the directives.  By default, the extensions .stm, .shtm, and .shtml are mapped to the interpreter (Ssinc.dll).  If you have Internet Service Manager installed, you can modify the default extension mappings and add new mappings; see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iiwarndf.htm">Setting Application Mappings</a>.</p>
+
+<p>Allowing <strong>#exec </strong>directives in HTML documents poses a security risk.  You can disable the use of <strong>#exec</strong> statements while still allowing files to contain the other SSI directives, such as <a href="iisiincl.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisiincl.htm"><strong>#include</strong></a>.  To disable <strong>#exec</strong>, modify the SSIExecDisable metabase property (see <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iimbfile.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iimbfile.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iimbfile.htm">File Properties</a>).  For general information on using the metabase, see  <a href="javascript:if(confirm('http://www.activeserverpages.dk/iis/htm/core/iimbstop.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iis/htm/core/iimbstop.htm'" tppabs="http://www.activeserverpages.dk/iis/htm/core/iimbstop.htm">Metabase</a>.</p>
+
+<h4><a name="H4_37757563">Examples</a></h4>
+
+<pre><font face="courier" size="3">&lt;!-- The following line invokes a guestbook program. --&gt;
+&lt;!-- #exec cgi=&quot;/scripts/guestbook.exe?firstname+lastname&quot; --&gt;
+
+&lt;!-- The following line invokes W3test.dll. --&gt;
+&lt;!-- #exec cgi=&quot;/scripts/w3test.dll?SimulatePendingIO&quot; --&gt;
+
+&lt;!-- The following line invokes the DOS RM command. --&gt;
+&lt;!-- #exec cmd=&quot;c:\tools\mstools\rm.exe -?&quot; --&gt;</font></pre>
+
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+</font>
+</body>
+</html>

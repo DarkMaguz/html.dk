@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CBool Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctcbool"></A>CBool Function</H1>
+
+<P>Returns an expression that has been converted to a <B>Variant</B> of subtype <B>Boolean</B>.</P>
+
+<P><CODE><B>CBool(</B>expression<B>)</B></CODE></P>
+
+<P>The <I>expression</I> argument is any valid expression.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>expression</I> is zero, <B>False</B> is returned; otherwise, <B>True</B> is returned. If <I>expression</I> can't be interpreted as a numeric value, a <A HREF="vtglossary.htm#defruntimeerrorvbs">run-time error</A> occurs.</P>
+
+<P>The following example uses the <B>CBool</B> function to convert an expression to a <B>Boolean</B>. If the expression evaluates to a nonzero value, <B>CBool</B> returns <B>True</B>; otherwise, it returns <B>False</B>. </P>
+
+<PRE><CODE>Dim A, B, Check
+A = 5: B = 5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Initialize variables.
+Check = <span class=cfe><B>CBool(</B></span>A = B<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Check contains True.
+A = 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Define variable.
+Check = <span class=cfe><B>CBool(</B></span>A<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Check contains False.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcbyte.htm">CByte Function</A> | <A HREF="vsfctccur.htm">CCur Function</A> | <A HREF="vsfctcdate.htm">CDate Function</A> | <A HREF="vsfctcdbl.htm">CDbl Function</A> | <A HREF="vsfctcint.htm">CInt Function</A> | <A HREF="vsfctclng.htm">CLng Function</A> | <A HREF="vsfctcsng.htm">CSng Function</A> | <A HREF="vsfctcstr.htm">CStr Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

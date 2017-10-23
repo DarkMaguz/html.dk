@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Clear Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthclear"></A>Clear Method</H1>
+
+<P>Clears all property settings of the <B>Err</B> object.</P>
+
+<P><CODE><I>object</I><B>.Clear</B> </CODE></P>
+
+<P>The object is always the <B>Err</B> object.</P>
+
+<H4>Remarks</H4>
+
+<P>Use <B>Clear</B> to explicitly clear the <B>Err</B> object after an error has been handled. This is necessary, for example, when you use deferred error handling with <B>On Error Resume Next</B>. VBScript calls the <B>Clear </B>method automatically whenever any of the following statements is executed: 
+
+<UL type=disc>
+	<LI>On Error Resume Next </li>
+
+	<LI>Exit Sub </li>
+
+	<LI>Exit Function </li>
+</UL>
+
+<P>The following example illustrates use of the <B>Clear</B> method. </P>
+
+<PRE><CODE>On Error Resume Next
+Err.Raise 6  ' Raise an overflow error.
+MsgBox ("Error # " &amp; CStr(Err.Number) &amp; " " &amp; Err.Description)
+Err.Clear    ' Clear the error.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsprodescription.htm">Description Property</A> | <A HREF="vsobjerr.htm">Err Object</A> | <A HREF="vspronumber.htm">Number Property</A> | <A HREF="vsstmonerror.htm">OnError Statement</A> | <A HREF="vsmthraise.htm">Raise Method</A> | <A HREF="vsprosource.htm">Source Property</A></P>
+
+<P>Applies To: <A HREF="vsobjerr.htm">Err Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

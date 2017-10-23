@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Add Method (Dictionary)</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthadd"></A>Add Method (Dictionary)</H1>
+
+<P>Adds a key and item pair to a <B>Dictionary</B> object.</P>
+
+<P><CODE><I>object</I>.<B>Add</B></CODE> <I><CODE>key</CODE></I>, <I><CODE>item</CODE></I></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>Dictionary</B> object.</P>
+
+<P class=dt><I>key</I></P>
+
+<P class=indent>Required. The <I>key</I> associated with the <I>item</I> being added.</P>
+
+<P class=dt><I>item</I></P>
+
+<P class=indent>Required. The <I>item</I> associated with the <I>key</I> being added.</P>
+
+<H4>Remarks</H4>
+
+<P>An error occurs if the <I>key</I> already exists.</P>
+
+<P>The following example illustrates the use of the <B>Add</B> method: </P>
+
+<PRE><CODE>Dim d&nbsp;&nbsp;&nbsp;' Create a variable.
+Set d = CreateObject("Scripting.Dictionary")
+d.<span class=cfe><B>Add</B></span> "a", "Athens"&nbsp;&nbsp;&nbsp;' Add some keys and items.
+d.<span class=cfe><B>Add</B></span> "b", "Belgrade"
+d.<span class=cfe><B>Add</B></span> "c", "Cairo"</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthaddfolders.htm">Add Method (Folders)</A> | <A HREF="vsmthexists.htm">Exists Method</A> | <A HREF="vsmthitems.htm">Items Method</A> | <A HREF="vsmthkeys.htm">Keys Method</A> | <A HREF="vsmthremove.htm">Remove Method</A> | <A HREF="vsmthremoveall.htm">RemoveAll Method</A></P>
+
+<P>Applies To: <A HREF="vsobjdictionary.htm">Dictionary Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

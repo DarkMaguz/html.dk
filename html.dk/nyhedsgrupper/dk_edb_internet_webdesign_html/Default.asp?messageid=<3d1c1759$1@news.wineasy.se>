@@ -1,0 +1,174 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&quot;</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Oscar Eg Gensmann den 28. juni 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&quot;" />
+<meta name="language" content="dan" />
+<meta name="Date" content="28-06-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3d1c1759%241%40news%2Ewineasy%2Ese%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Oscar&nbsp;Eg&nbsp;Gensmann&nbsp;&nbsp;<a href='mailto:Oscar@Gensmann.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='Oscar@Gensmann.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> </li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 28. juni 2002 kl. 09:59</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&quot;</strong></li></ul>
+
+<p><span class='normal'>&quot;Martin Nystrup Rasmussen&quot; &lt;<a href='http://martinnr@mail.dk'>martinnr@mail.dk</a>> wrote in message </span><br /><span class='normal'><a href='http://news:3d1b5eb5$0$198$edfadb0f@dspool01.news.tele.dk'>news:3d1b5eb5$0$198$edfadb0f@dspool01.news.tele.dk</a>... </span><br /><span class='normal'> </span><br /><span class='citat'>> For mig handler det om, at lave hjemmesiden p&#229; en s&#229;dan m&#229;de, at flest </span><br /><span class='citat'>> mennesker kan se den uanset browser-valg - og s&#229; skal det selvf&#248;lgelig </span><br /><span class='normal'>v&#230;re </span><br /><span class='citat'>> en forn&#248;jelse at arbejde med siden. Alts&#229; mindst mulig kode-forvirring. </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>Hejsa Martin </span><br /><span class='normal'> </span><br /><span class='normal'>Ud fra dine bev&#230;g grunde s&#229; kunne noget tyde p&#229; at du har gjort det rigtige </span><br /><span class='normal'>valg :) </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg smidder lige lidt flere links til dig i tilf&#230;lde af at du ikke skulle </span><br /><span class='normal'>have set dem f&#248;r. Det kunne jo godt v&#230;re du kunne f&#229; noget ud af dem i </span><br /><span class='normal'>forbindelse med din videref&#230;rd i mark-up og style sprogenes verden. :) </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/betterliving'>http://www.alistapart.com/stories/betterliving</a> </span><br /><span class='normal'>Lidt om XHTML og dets fordele </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/n4switch/'>http://www.alistapart.com/stories/n4switch/</a> </span><br /><span class='normal'>En bagudkompatible style skifter </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/netscape/'>http://www.alistapart.com/stories/netscape/</a> </span><br /><span class='normal'>Lidt om Netscape :) </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/succeed/'>http://www.alistapart.com/stories/succeed/</a> </span><br /><span class='normal'>Lidt om URL's </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/circlejerk/'>http://www.alistapart.com/stories/circlejerk/</a> </span><br /><span class='normal'>Lidt of topic men rigtig fornuftig l&#230;sestof :) </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/journey/'>http://www.alistapart.com/stories/journey/</a> </span><br /><span class='normal'>Klassisk historie n&#229;r det kommer til at skifte fra browserhacks til standard </span><br /><span class='normal'>compliant kode. </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/fear/index.html'>http://www.alistapart.com/stories/fear/index.html</a> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/fear2/index.html'>http://www.alistapart.com/stories/fear2/index.html</a> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/fear3/index.html'>http://www.alistapart.com/stories/fear3/index.html</a> </span><br /><span class='normal'><a href='http://www.alistapart.com/stories/fear4/'>http://www.alistapart.com/stories/fear4/</a> </span><br /><span class='normal'>Lidt god l&#230;sning omkring Style Sheets </span><br /><span class='normal'> </span><br /><span class='normal'>Generelt finder du ret meget interessant l&#230;sestof om webudvikling og dets </span><br /><span class='normal'>lige p&#229; f&#248;lgende sites: </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://www.alistapart.com'>www.alistapart.com</a> </span><br /><span class='normal'><a href='http://www.zeldman.com'>www.zeldman.com</a> </span><br /><span class='normal'><a href='http://www.bluerobot.com'>www.bluerobot.com</a> </span><br /><span class='normal'><a href='http://www.thenoodleincident.com/tutorials/box_lesson/index.html'>http://www.thenoodleincident.com/tutorials/box_lesson/index.html</a> </span><br /><span class='normal'> </span><br /><span class='normal'>S&#229; burde der v&#230;re lidt hyggel&#230;sning til de n&#230;ste par dage s&#229;fremt du ikke </span><br /><span class='normal'>skulle kende til disse :) </span><br /><span class='normal'> </span><br /><span class='normal'>God forn&#248;jelse! </span><br /><span class='normal'>De Bedste Hilsner </span><br /><span class='normal'>Oscar Eg Gensmann </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d187421%240%241531%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Websiden h&#230;rget af &quot;jordsk&#230;lv&quot;'>Websiden h&#230;rget af &quot;jordsk&#230;lv&quot;</a>&nbsp;<small class='newslist'>(25-06-02&nbsp;-&nbsp;Martin&nbsp;Nystrup&nbsp;Rasmussen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns9238A8E2C2FCFthomasitsnedkerendk%40193%2E88%2E15%2E201%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(25-06-02&nbsp;-&nbsp;Thomas&nbsp;Lindgaard)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cafa4ti%24pod%241%40sunsite%2Edk%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(25-06-02&nbsp;-&nbsp;Jimmi&nbsp;Storgaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d197af4%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d19807f%240%24691%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Michael&nbsp;Kjærgård)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d1984e9%241%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d198714%240%24675%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Michael&nbsp;Kjærgård)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d1997cc%241%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d199e89%240%24687%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Michael&nbsp;Kjærgård)</small></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cafcvqd%24fsu%241%40sunsite%2Edk%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Jimmi&nbsp;Storgaard)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d1ad6a4%241%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(27-06-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cafeonj%24t59%241%40sunsite%2Edk%3E' title='Du f&#229;r mit svar...'>Du f&#229;r mit svar...</a>&nbsp;<small class='newslist'>(27-06-02&nbsp;-&nbsp;Jimmi&nbsp;Storgaard)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C8osrhug05o93ldtho05jhfp9s6i8sodi3o%404ax%2Ecom%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(29-06-02&nbsp;-&nbsp;Jens&nbsp;Tønnesen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d200e98%241%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(01-07-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d19809f%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(26-06-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d1b5eb5%240%24198%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(27-06-02&nbsp;-&nbsp;Martin&nbsp;Nystrup&nbsp;Rasmussen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d1c1759%241%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(28-06-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3D1C27EC%2E10105%40brunholm%2Dscharff%2Edk%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(28-06-02&nbsp;-&nbsp;Jesper&nbsp;Brunholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3d2012d2%40news%2Ewineasy%2Ese%3E' title='Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</a>&nbsp;<small class='newslist'>(01-07-02&nbsp;-&nbsp;Oscar&nbsp;Eg&nbsp;Gensmann)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3C3d1c1759%241%40news%2Ewineasy%2Ese%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.wannafind.dk/job/1.asp'><img src='/site/graphics/sponsorater/wannafind.gif' height="60" width="125" alt='Jobannonce' /></a>
+<br />
+
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3c3d1c1759$1@news.wineasy.se%3e' method='post'><p class='pollheader'>Har du dit eget firma?</p><div><input type='hidden' name='tst' value='24-08-02 09:19:10' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Overvejer</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Websiden h&#230;rget af &quot;jordsk&#230;lv&q...</span></div>
+
+
+
+</body>
+</html>
+

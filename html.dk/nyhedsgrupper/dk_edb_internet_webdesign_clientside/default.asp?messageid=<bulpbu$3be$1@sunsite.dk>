@@ -1,0 +1,188 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+<title>Mouseover der virker - uden preload og script...!</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.clientside skrevet af Michael von Bülow den 21. januar 2004" />
+<meta name="keywords" content="" />
+<meta name="title" content="Mouseover der virker - uden preload og script...!" />
+<meta name="language" content="dan" />
+<meta name="Date" content="21-01-04" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+<div id="skyscraper">
+<table cellspacing="0" cellpadding="0" style="height:350px;width:140px;border:none;"><tr>
+<td valign="top" style="height:350px;width:140px;border:none;">
+
+<script type="text/javascript" src="http://ad.dk.doubleclick.net/adj/html.dk/;sz=140x350;tile=1;ord=320884346962?"></script>
+
+</td></tr></table>
+
+</div>
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.clientside</h1><p>Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget, og scriptsprogets samspil med forskellige browsere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3Cbulpbu%243be%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Michael&nbsp;von&nbsp;Bülow&nbsp;&nbsp;<a href='mailto:bulow@journalist.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='bulow@journalist.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> HTML.dk - søg / læs de danske nyhedsgrupper om webdesign</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 21. januar 2004 kl. 13:55</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Mouseover der virker - uden preload og script...!</strong></li></ul>
+
+<p><span class='normal'>Tak for de venlige og hurtige svar p&#229; mit indl&#230;g vedr. det </span><br /><span class='normal'>&quot;klassiske&quot; problem med java-mouseover, der ikke virker i visse </span><br /><span class='normal'>browsere. </span><br /><span class='normal'> </span><br /><span class='normal'>Som foresl&#229;et af Erik Ginnerskov pr&#248;vede jeg straks tricket med </span><br /><span class='normal'>at bypasse preload ved at gemme billederne i en skjult div. Men </span><br /><span class='normal'>den hoppede min browser ikke p&#229; (IE6/WinXP i standardops&#230;tning). </span><br /><span class='normal'>Den insisterede fortsat p&#229; at hente hver enkelt gif helt ude p&#229; </span><br /><span class='normal'>serveren ved hver eneste mouseover. </span><br /><span class='normal'> </span><br /><span class='normal'>Men s&#229; blev jeg st&#230;dig, og efter at have brugt et par sene </span><br /><span class='normal'>aftentimer p&#229; forskellige n&#230;r-ved-og-n&#230;sten-fors&#248;g, n&#229;ede jeg </span><br /><span class='normal'>frem til en l&#248;sning, som jeg faktisk tror er skudsikker og </span><br /><span class='normal'>universelt anvendelig. Og s&#229; virker den helt uden preload og </span><br /><span class='normal'>script i HEAD-feltet...!! </span><br /><span class='normal'> </span><br /><span class='normal'>Der er vel n&#230;rmest tale om en CSS-l&#248;sning, som man kunne kalde </span><br /><span class='normal'>SKJUL OG VIS, og princippet er s&#229;re enkelt. I stedet for at </span><br /><span class='normal'>SKIFTE billede ved mouseover SKJULER man simpelthen billede nr. 2 </span><br /><span class='normal'>direkte under billede nr. 1. N&#229;r musen s&#229; k&#248;rer hen over linket, </span><br /><span class='normal'>lader man onMouseOver kalde en klassifikation i stylesheetet, der </span><br /><span class='normal'>&quot;aflyser&quot; billede nr. 1 og i samme splitsekund VISER billede nr. </span><br /><span class='normal'>2. S&#229; nemt er det. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg har valgt at illustrere princippet med en sort og en gul gif </span><br /><span class='normal'>som hhv. billede nr. 1 og 2. Den sorte gif (billede nr. 1) ligger </span><br /><span class='normal'>som et helt normalt &lt;img>-tag i selve linket. Den gule gif </span><br /><span class='normal'>(billede nr. 2) er lagt ind i CSS-koden som et baggrundsbillede i </span><br /><span class='normal'>den div, der omslutter linket. </span><br /><span class='normal'> </span><br /><span class='normal'>Begge billeder er s&#229;ledes aktive fra det &#248;jeblik, websiden er </span><br /><span class='normal'>downloadet. Billede nr. 2 er blot skjult, indtil musen k&#248;rer hen </span><br /><span class='normal'>over billede nr. 1. Ergo nul preload. </span><br /><span class='normal'> </span><br /><span class='normal'>Koden stilles hermed til r&#229;dighed for de mange, der </span><br /><span class='normal'>tilsyneladende har v&#230;ret ved at g&#229; op i s&#248;mmene over det samme </span><br /><span class='normal'>problem som mig: </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; </span><br /><span class='normal'>&quot;<a href='http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;'>http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;</a>> </span><br /><span class='normal'>&lt;html> </span><br /><span class='normal'>&lt;head> </span><br /><span class='normal'>&lt;title>Mouseover demo&lt;/title> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;meta name=&quot;Generator&quot; content=&quot;Stone's WebWriter 4&quot;>&lt;/meta> </span><br /><span class='normal'>&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; </span><br /><span class='normal'>charset=iso-8859-1&quot; /> </span><br /><span class='normal'>&lt;meta name=&quot;author&quot; content=&quot;Michael von B&#252;low&quot; /> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;style type=&quot;text/css&quot;> </span><br /><span class='normal'> </span><br /><span class='normal'>a { </span><br /><span class='normal'>	display: block; </span><br /><span class='normal'>	width: 100px; </span><br /><span class='normal'>	height: 100px; </span><br /><span class='normal'>	} </span><br /><span class='normal'> </span><br /><span class='normal'>div#linkdiv { </span><br /><span class='normal'>	background: url(gulgif.gif) no-repeat; </span><br /><span class='normal'>	} </span><br /><span class='normal'> </span><br /><span class='normal'>a.hover img { </span><br /><span class='normal'>	display: none; </span><br /><span class='normal'>	} </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/style> </span><br /><span class='normal'>&lt;/head> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;body> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;div id=&quot;linkdiv&quot;>  </span><br /><span class='normal'>	&lt;a class=&quot;link&quot; href=&quot;enwebside&quot; </span><br /><span class='normal'>onMouseOver=&quot;this.className='hover';&quot; </span><br /><span class='normal'>onMouseOut=&quot;this.className='link';&quot;> </span><br /><span class='normal'>	&lt;img src=&quot;sortgif.gif&quot; height=&quot;100&quot; width=&quot;100&quot; border=&quot;0&quot; </span><br /><span class='normal'>/>&lt;/a> </span><br /><span class='normal'>&lt;/div> </span><br /><span class='normal'> </span><br /><span class='normal'>&lt;/body> </span><br /><span class='normal'>&lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'>Klik her for at se det virke i praksis: </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://web-wise.dk/testside2.html'>http://web-wise.dk/testside2.html</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg forventer ikke at f&#229; Nobel-prisen, men jeg m&#229; indr&#248;mme, at </span><br /><span class='normal'>jeg som relativt gr&#248;n web-n&#248;rd var en smule euforisk over min </span><br /><span class='normal'>&quot;opfindelse&quot; i aftes. </span><br /><span class='normal'> </span><br /><span class='normal'>I eksemplet har jeg ladet de to giffer v&#230;re lige store, men det </span><br /><span class='normal'>er ingen foruds&#230;tning. I de fleste tilf&#230;lde vil det selvf&#248;lgelig </span><br /><span class='normal'>v&#230;re mest praktisk, hvis billede nr. 1 d&#230;kker helt af for billede </span><br /><span class='normal'>nr. 2 (og ikke er transparent!), men det kan man som regel klare </span><br /><span class='normal'>ved at give billede nr. 1 en st&#248;rre &quot;bagplade&quot; i samme farve som </span><br /><span class='normal'>sidens baggrund. Omvendt kan man ogs&#229; lade billede nr. 1 v&#230;re et </span><br /><span class='normal'>lille udsnit af billede nr. 2, s&#229;dan som jeg har gjort i min </span><br /><span class='normal'>piano-grafik: </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://web-wise.dk/testside.html'>http://web-wise.dk/testside.html</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Indtil i g&#229;r kunne klaveret kun spille ultralangsomme menuetter, </span><br /><span class='normal'>men nu kan det klare selv de hurtigste Chopin-kadencer..! </span><br /><span class='normal'> </span><br /><span class='normal'>Piano-eksemplet demonstrerer ogs&#229;, at SKJUL OG VIS-princippet </span><br /><span class='normal'>sagtens kan bruges, n&#229;r man har flere links p&#229; stribe som i </span><br /><span class='normal'>f.eks. menuer. Den eneste ekstra omkostning i html'en er, at </span><br /><span class='normal'>hvert link skal l&#230;gges ind i sin egen div, som s&#229; kan nummereres </span><br /><span class='normal'>fortl&#248;bende. Til geng&#230;ld sparer man som sagt b&#229;de preload og </span><br /><span class='normal'>javascript i HEAD - for ikke at tale om endel&#248;se &#230;rgrelser, n&#229;r </span><br /><span class='normal'>skidtet ikke virker. </span><br /><span class='normal'> </span><br /><span class='normal'>mvh. Michael </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>--  </span><br /><span class='normal'>Vil du l&#230;re at kode HTML, XHTML, CSS, SSI eller ASP? </span><br /><span class='normal'> - P&#230;dagogiske tutorials p&#229; dansk </span><br /><span class='normal'> - Kom godt i gang med koderne </span><br /><span class='normal'>KLIK HER! => <a href='http://www.html.dk/tutorials'>http://www.html.dk/tutorials</a></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbulpbu%243be%241%40sunsite%2Edk%3E' title='Mouseover der virker - uden preload og script...!'>Mouseover der virker - uden preload og script...!</a>&nbsp;<small class='newslist'>(21-01-04&nbsp;-&nbsp;Michael&nbsp;von&nbsp;Bülow)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbum6vi%24nc4%241%40sunsite%2Edk%3E' title='Re: Mouseover der virker - uden preload og script....'>Re: Mouseover der virker - uden preload og script....</a>&nbsp;<small class='newslist'>(21-01-04&nbsp;-&nbsp;Erik&nbsp;Ginnerskov)</small></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form&amp;ReplyID=%3Cbulpbu%243be%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp'>dk.edb.internet.webdesign.clientside</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div class="sponsor"><br />
+
+
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><div id='pollboxcontent'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp?messageid=%3Cbulpbu%243be%241%40sunsite%2Edk%3E' method='post'><p class='pollheader'>Koder du i ASP?</p><div><input type='hidden' name='tst' value='25-02-04 17:37:18' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej, men overvejer at lære det</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_clientside/default.asp' title='Diskussion af Javascript (ECMA-script) og andre script-sprog anvendt i web-browsere. De primære emner i gruppen er syntaks og semantik for scriptsproget' class='navibox'>dk.edb.internet.webdesign.clientside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Mouseover der virker - uden preload og script....</span></div>
+
+
+
+</body>
+</html>
+

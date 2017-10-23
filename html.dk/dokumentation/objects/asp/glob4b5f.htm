@@ -1,0 +1,141 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>TypeLibrary Declarations</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<meta NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></head>
+<body BGCOLOR="#FFFFFF" TEXT="#000000">
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_typelibrary_declarations"></a>TypeLibrary Declarations</h2>
+<p>
+It is very common for ActiveX components to describe any constants that the component supports in a type library. A type library is a file that contains information about objects and types supported by an ActiveX component. If your Web application relies on ActiveX objects that have declared data types in type libraries, you can declare the type libraries in Global.asa. Doing so will make it possible to refer to the data types declared in the type libraries from any script within the application boundary.</p>
+<p>
+For more information about using constants in ASP, see <a href="iiwavar.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iiwavar.htm"><b>Using Variables and Constants</b></a> </p>
+<h3>Syntax</h3>
+<pre>&lt;!--<b>METADATA TYPE</b>=&quot;TypeLib&quot;
+<b>FILE</b>=&quot;<i>file</i>&quot;
+<b>UUID</b>=&quot;<i>typelibraryuuid</i>&quot;
+<b>VERSION</b>=&quot;<i>majorversionnumber.minorversionnumber&quot;
+</i><b>LCID</b>=&quot;<i>localeid</i>&quot;
+--&gt;</pre>
+<h3>Parameters</h3>
+<dl>
+<dt>
+<i>file</i></dt>
+<dd>
+Absolute path to a type library. If this parameter and the <i>typelibraryuuid </i>parameter<i> </i>are provided, <i>file</i> is used to identify the type library. Either the <i>file</i> parameter or the <i>typelibraryuuid</i> parameter is required.<br>
+</dd>
+<dt>
+<i>typelibraryuuid</i></dt>
+<dd>
+Universally unique identifer for the type library. Either the <i>file</i> parameter or the <i>typelibraryuuid</i> parameter is required.<br>
+</dd>
+<dt>
+<i>majorversionnumber</i></dt>
+<dd>
+Used for selecting version. If the requested version is not found, then an error is returned (optional).<br>
+</dd>
+<dt>
+<i>minorversionnumber</i></dt>
+<dd>
+Used for selecting version. If the requested version is not found, then an error is returned (optional).<br>
+</dd>
+<dt>
+<i>localeid</i></dt>
+<dd>
+The locale identifier to be used for the type library. If the requested locale is not found, then an error is returned (optional)</dd>
+</dl>
+<h3>Error Values</h3>
+<p>
+The server can return one of the following error messages.</p>
+<table>
+<tr valign="top">
+<td>
+<b>Error</b></td>
+<td>
+<b>Description</b></td>
+</tr>
+<tr valign="top">
+<td>
+ASP 0222</td>
+<td>
+Invalid type library specification. The METADATA tag contains an invalid type library specification.</td>
+</tr>
+<tr valign="top">
+<td>
+ASP 0223</td>
+<td>
+Type library not found. The METADATA tag contains a type library specification that does not match any registry entry.</td>
+</tr>
+<tr valign="top">
+<td>
+ASP 0224</td>
+<td>
+Type library cannot be loaded. ASP cannot load the type library specified in the METADATA tag.</td>
+</tr>
+<tr valign="top">
+<td>
+ASP 0225</td>
+<td>
+Type library cannot be wrapped. ASP cannot create a <b>Type Library Wrapper</b> object from the type libraries specified in the METADATA tag.</td>
+</tr>
+</table><br>
+<h3>Remarks</h3>
+<p>
+It is recommended that METADATA tags appear near the top of the Global.asa file. However, these tags can appear anywhere inside of the Global.asa file, including both inside and outside the SCRIPT tags.</p>
+<p>
+You can avoid ambiguous references to constants by adding the type library name as a prefix for the constant. For example, <b>ADODB.adErrItemNotFound</b> would be less ambiguous than <b>adErrItemNotFound</b>.</p>
+<p>
+If you use Microsoft Visual InterDev to create your global.asa file, the METADATA tags will include the optional STARTSPAN and ENDSPAN keywords. These keywords are ignored by IIS. </p>
+<h3>Example</h3>
+<p>
+<code>MyComponent</code> in the following example was developed with Visual Basic 5.0. <code>MyComponent</code> defines the constant <code>MyError</code> with the following statement.</p>
+<pre>Public Const MyError = &quot;You are not using MyComponent correctly.&quot;
+</pre>
+<p>
+The type library is contained in mycomponent.lib, which you have installed in the following directory.</p>
+<pre>C:\MyComponent
+</pre>
+<p>
+The following METADATA tag is included in the global.asa file for the MyApp application. This example uses the optional STARTSPAN and ENDSPAN tags. These tags are not required by IIS.</p>
+<pre>&lt;!--METADATA TYPE=&quot;TypeLib&quot;
+FILE=&quot;<i>MyComponent.lib</i>&quot;
+--&gt;
+ </pre>
+<p>
+Any ASP in the MyApp application can now include the following script:</p>
+<pre>&lt;%
+    Dim MyVar
+    Set MyVar = Server.CreateObject(&quot;MyComponent.MyClass&quot;)
+    Currentreturn = MyVar.MyMethod
+    If Currentreturn = False
+       Response.Write(MyError)
+    End If
+%&gt;
+</pre>
+<p>
+ </p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</body>
+</html>

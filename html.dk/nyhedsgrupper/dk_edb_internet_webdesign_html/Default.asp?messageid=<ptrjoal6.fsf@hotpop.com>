@@ -1,0 +1,187 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>Re: download af doc fra webside</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af Lasse Reichstein Nielsen den 30. december 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: download af doc fra webside" />
+<meta name="language" content="dan" />
+<meta name="Date" content="30-12-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;sz=468x60;dcopt=ist;tile=1;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+<!-- Start of AdLINK DART ADJ Tag, size : 140x350 -->
+
+<!-- End of AdLINK DART ADJ Tag, size : 140x350  -->
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cptrjoal6%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Lasse&nbsp;Reichstein&nbsp;Nielsen&nbsp;&nbsp;<a href='mailto:lrn@hotpop.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='lrn@hotpop.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 30. december 2002 kl. 16:17</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: download af doc fra webside</strong></li></ul>
+
+<p><span class='normal'>&quot;tina pedersen&quot; &lt;<a href='http://tipederfjern@hotmail.com'>tipederfjern@hotmail.com</a>> writes: </span><br /><span class='normal'> </span><br /><span class='citat'>> nu har jeg lagt den ud s&#229; I kan teste den... vil v&#230;re glad for evt andre </span><br /><span class='citat'>> kommentarer til opl&#230;gget </span><br /><span class='citat'>>  </span><br /><span class='citat'>> <a href='http://www.danishjunioropen.com'>www.danishjunioropen.com</a> </span><br /><span class='normal'> </span><br /><span class='normal'>Den er rigtig flot (ogs&#229; i Opera :) </span><br /><span class='normal'>Du kunne m&#229;ske skifte uret om til dansk notation i stedet for amerikansk. </span><br /><span class='normal'>  </span><br /><span class='citat'>> jeg f&#229;r selv en &quot;udefinerlig scriptfejl - og hvis jeg fjerner &quot;dato+ur&quot; er </span><br /><span class='citat'>> fejlen v&#230;k - men hvis den samme side bruges med det direkte link </span><br /><span class='citat'>> <a href='http://www.farumbadminton.dk/junioropen2003/hidden/dansk/'>http://www.farumbadminton.dk/junioropen2003/hidden/dansk/</a> s&#229; kommer der </span><br /><span class='citat'>> ingen scriptfejl - selvom det er den samme side...??? </span><br /><span class='normal'> </span><br /><span class='normal'>Scriptet ser ud til at v&#230;re Internet Explorer-specifikt. Du bruger </span><br /><span class='normal'>innerHTML (som andre dog har taget til sig) og referererer til et </span><br /><span class='normal'>element med id=&quot;h2text&quot; blot som &quot;h2text&quot; (og ikke den mere </span><br /><span class='normal'>standardiserede og udbredte &quot;document.getElementById['h2text']&quot;). Jeg </span><br /><span class='normal'>f&#229;r dog ingen udefineret scriptfejl i nogen browser (IE6+Office97 </span><br /><span class='normal'>&#229;bner bare word-dokumentet direkte i browseren ... kan problemet v&#230;re </span><br /><span class='normal'>med din Office-integration?) </span><br /><span class='normal'> </span><br /><span class='citat'>> domainet <a href='http://junioropen.com'>junioropen.com</a> og 4 andre domainer peger deres a-record ned i en </span><br /><span class='citat'>> undermappe i <a href='http://farumbadminton.dk'>farumbadminton.dk</a> og n&#229;r domainadr bruges kommer s&#229; den </span><br /><span class='citat'>> udefinerbare scriptfejl.... ihvertfald hos mig - f&#229;r I den ogs&#229;??? men kun </span><br /><span class='citat'>> f&#248;rste gang man pr&#248;ver at hente en tilmelding... </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg f&#229;r den ikke, hverken i IE6, Opera7 eller Mozilla. (M&#229;ske g&#248;r jeg </span><br /><span class='normal'>noget galt :) </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg er ikke helt stiv i DNS, men en a-record, peger den ikke kun p&#229; et </span><br /><span class='normal'>ip-nummer? S&#229; det er serveren der bruger host-headeren til at pege ned </span><br /><span class='normal'>i et bestemt directory, ved at bruge en anden document root for det dom&#230;ne? </span><br /><span class='normal'> </span><br /><span class='citat'>> har i&#248;vrigt bem&#230;rket at n&#229;r domainet peger ned i en mappe under et andet </span><br /><span class='citat'>> domaine - er det som en slags frames - man kan ikke skrive hele stien.... er </span><br /><span class='citat'>> der en vej undenom dette? hader frames og vil gerne have hele stien p&#229;...... </span><br /><span class='normal'> </span><br /><span class='normal'>Stien er relativ til roden for det dom&#230;ne. Hvis du blot vil omdirigere til </span><br /><span class='normal'>et andet dom&#230;ne, s&#229; skal serveren nok sende en redirect-header istedet </span><br /><span class='normal'>(hvis jeg forst&#229;r det rigtigt alts&#229;, inds&#230;t selv standard-disclaimer). </span><br /><span class='normal'> </span><br /><span class='normal'>/L </span><br /><span class='normal'>--  </span><br /><span class='normal'>Lasse Reichstein Nielsen  -  <a href='http://lrn@hotpop.com'>lrn@hotpop.com</a>  </span><br /><span class='normal'>'Faith without judgement merely degrades the spirit divine.'</span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Caukmfl%2430kq%241%40news%2Ecybercity%2Edk%3E' title='download af doc fra webside'>download af doc fra webside</a>&nbsp;<small class='newslist'>(28-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1y427zw0%2Efsf%40hotpop%2Ecom%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(28-12-02&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cauldav%2418r3%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(29-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CXns92F39381940DCjcdmfdk%40gyrosmod%2Edtext%2Enews%2Etele%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(29-12-02&nbsp;-&nbsp;Jens&nbsp;GyldenkærneClausen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CmqRP9%2E18108%24Hl6%2E2014329%40news010%2Eworldonline%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CDtRP9%2E18117%24Hl6%2E2014475%40news010%2Eworldonline%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Caup6vr%24kiq%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3CprVP9%2E18818%24Hl6%2E2030985%40news010%2Eworldonline%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3e102a96%240%2488620%24bc7fd3c%40news%2Esonofon%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Allan&nbsp;Vebel)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Caupff1%24uj8%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C1AXP9%2E18866%24Hl6%2E2043945%40news010%2Eworldonline%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Niels&nbsp;Andersen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cauph7e%2410ig%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cpan%2E2002%2E12%2E30%2E13%2E34%2E57%2E231277%40datanom%2Enet%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Michael&nbsp;Rasmussen)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cptrjoal6%2Efsf%40hotpop%2Ecom%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C84n01volvbv3iombkptfrmndbu8mjaiuoq%40dtext%2Enews%2Etele%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Caupmd4%24167m%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cisxbo6na%2Efsf%40hotpop%2Ecom%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C5vm01v0se3bven4gg25j7avbnjj9ngfe91%40dtext%2Enews%2Etele%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Caupocg%2418j6%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Cel7zo6bj%2Efsf%40hotpop%2Ecom%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C06s01voi17vt19m4shcu4fjpj97c7a0pbt%40dtext%2Enews%2Etele%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Caupt9s%241fal%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(30-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3C3coe2q85%2Efsf%40hotpop%2Ecom%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(31-12-02&nbsp;-&nbsp;Lasse&nbsp;Reichstein&nbsp;Nielsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3Causbfm%2419rh%241%40news%2Ecybercity%2Edk%3E' title='Re: download af doc fra webside'>Re: download af doc fra webside</a>&nbsp;<small class='newslist'>(31-12-02&nbsp;-&nbsp;tina&nbsp;pedersen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form&amp;ReplyID=%3Cptrjoal6%2Efsf%40hotpop%2Ecom%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp'>dk.edb.internet.webdesign.html</a></div><br /><div style='text-align:center;'>Adgangen til Usenet sker gennem <a href='http://www.sunsite.dk'>SunSITE.dk</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.1984.dk'><img src='/site/graphics/sponsorater/125x125_1984.jpg' alt='Link til 1984.dk' /></a>
+<br /><br />
+
+<!--
+<a href='http://www.3dmaxer.dk'><img src='/site/graphics/sponsorater/3dmaxer.gif' alt='Link til 3DMaxer' /></a>
+<br /><br />
+
+<br />
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br />
+-->
+
+</div>
+
+
+
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's månedlige nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp?messageid=%3cptrjoal6.fsf@hotpop.com%3e' method='post'><p class='pollheader'>Har du dit eget domænenavn?</p><div><input type='hidden' name='tst' value='29-05-03 08:08:57' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:5px;" />
+
+<div style="text-align:center;margin-right:5px;" class="noprint">
+<a href="/about/">Om&nbsp;HTML.dk</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:5px;"/>
+
+<div style="float:right;width:270px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=6&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/Default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: download af doc fra webside</span></div>
+
+
+
+</body>
+</html>
+

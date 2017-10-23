@@ -1,0 +1,174 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da">
+<head>
+
+<title>&lt;tr&gt;</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.html skrevet af jopa den 27. maj 2002" />
+<meta name="keywords" content="" />
+<meta name="title" content="&lt;tr&gt;" />
+<meta name="language" content="dan" />
+<meta name="Date" content="27-05-02" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- AdLink start -->
+
+<div style="text-align:center">
+<script type="text/javaScript">
+<!--
+   var time = new Date();
+   randnum = (time.getTime());
+   document.write('<scr'+'ipt type="text/javaScript" src="http://ad.dk.doubleclick.net/adj/www.html.dk/forside;dcopt=ist;sz=468x60;ord='+randnum+'?" />');
+   document.write('<\/scr'+'ipt>');
+//-->
+</script>
+<noscript>
+   <div><a href="http://ad.dk.doubleclick.net/jump/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?">
+   <img src="http://ad.dk.doubleclick.net/ad/www.html.dk/forside;dcopt=ist;sz=468x60;ord=6288830041?" width="468" height="60" alt="Banner" /> 
+   </a></div>
+</noscript>
+</div>
+<!-- AdLink end -->
+
+
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.html</h1><p>Gruppen er beregnet til diskussion af HTML-koder, praktisk anvendelse, syntax, faldgruber, browserinkompabilitetsproblemer etc. Spørgsmål vedrørende opbygning og anvendelse af stylesheets (CSS) er også ontopic i denne gruppe.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C3cf279f5%240%2418425%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> jopa&nbsp;&nbsp;<a href='mailto:j@jp-web.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' alt='j@jp-web.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> TDC Internet</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 27. maj 2002 kl. 20:25</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>&lt;tr&gt;</strong></li></ul>
+
+<p><span class='normal'>a.. Hejsa har et lille problem med nedenst&#229;ende. Fjerner jeg det eller </span><br /><span class='normal'>s&#230;tter et end tag </span><br /><span class='normal'>f&#229;r jeg blot en masse andre fejl. Har nok gloet mig tosset p&#229; det, s&#229; det </span><br /><span class='normal'>kan v&#230;re et par friske &#248;jne kan klare det. </span><br /><span class='normal'>a.. </span><br /><span class='normal'>a.. Line 12, column 3: </span><br /><span class='normal'>  &lt;tr> </span><br /><span class='normal'>     ^ </span><br /><span class='normal'>Error: element &quot;TR&quot; not allowed here; check which elements this element may </span><br /><span class='normal'>be contained within </span><br /><span class='normal'> </span><br /><span class='normal'>Her selve koden : </span><br /><span class='normal'> </span><br /><span class='normal'>1: &lt;!doctype HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;> </span><br /><span class='normal'>   2: </span><br /><span class='normal'>   3: &lt;html> </span><br /><span class='normal'>   4: </span><br /><span class='normal'>   5: &lt;head> </span><br /><span class='normal'>   6: &lt;title>jp&lt;/title> </span><br /><span class='normal'>   7: &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; </span><br /><span class='normal'>charset=windows-1252&quot;> </span><br /><span class='normal'>   8: &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;css/1.css&quot;> </span><br /><span class='normal'>   9: &lt;/head> </span><br /><span class='normal'>  10: &lt;body> </span><br /><span class='normal'>  11: &lt;SPAN CLASS = &quot;tabel&quot;> </span><br /><span class='normal'>  12: &lt;tr> </span><br /><span class='normal'>  13: &lt;td> </span><br /><span class='normal'>  14: &lt;p>&lt;div style=&quot;float:left;&quot; class=&quot;top&quot;> </span><br /><span class='normal'>  15: &lt;/div> </span><br /><span class='normal'>  16:  &lt;p>&lt;br style=&quot;clear:both;&quot; /> </span><br /><span class='normal'>  17: &lt;div style=&quot;float:left;&quot;> </span><br /><span class='normal'>  18:  &lt;div class=&quot;links&quot;> </span><br /><span class='normal'>  19: &lt;h2> MENU&lt;/h2> </span><br /><span class='normal'>  20: &lt;/div> </span><br /><span class='normal'>  21: &lt;/div> </span><br /><span class='normal'>  22: &lt;div style=&quot;float:left;&quot; class=&quot;midt&quot;> </span><br /><span class='normal'>  23: &lt;h1>Velkommen til mine sider&lt;/h1> </span><br /><span class='normal'>  24: &lt;h3>Siderne er under udvikling, og vil indeholde </span><br /><span class='normal'>  25: lidt om Tyrkiet. Specielt Alanya omr&#229;det, samt tips til &lt;br> </span><br /><span class='normal'>  26: udflugter derfra. Desuden lidt om den Tyrkiske mad, samt en hurtig </span><br /><span class='normal'>guide i det Tyrkiske sprog..&lt;br>&lt;br> </span><br /><span class='normal'>  27: Med tiden vil der komme lidt tips/tutorials samt actions til de </span><br /><span class='normal'>Photoshop interesserede. </span><br /><span class='normal'>  28: &lt;br>Desuden Logoer, knapper med videre, som jeg har lavet. &lt;br>&lt;br> </span><br /><span class='normal'>  29: S&#229; kig ind igen ved lejlighed, der arbejdes p&#229; siderne...... &lt;/h3> </span><br /><span class='normal'>  30: &lt;br> </span><br /><span class='normal'>  31: &lt;br>&lt;h3>Siderne crasher en smule i Netscape, men jeg har valgt Valid </span><br /><span class='normal'>kode,&lt;br> fremfor at tilfredsstille  f&#229; Netscape brugere..&lt;/h3> </span><br /><span class='normal'>  32: &lt;br> </span><br /><span class='normal'>  33: &lt;br> </span><br /><span class='normal'>  34: &lt;h4>&lt;script type=&quot;text/JavaScript&quot;> </span><br /><span class='normal'>  35: 		&lt;!-- </span><br /><span class='normal'>  36:        var DayOfWeek = new </span><br /><span class='normal'>Array('S&#216;NDAG.','MANDAG.','TIRSDAG.','ONSDAG.','TORSDAG.','FREDAG.','L&#216;RDAG. </span><br /><span class='normal'>'); </span><br /><span class='normal'>  37:        var MonthName = new </span><br /><span class='normal'>Array('JANUAR','FEBRUAR','MARTS','APRIL','MAJ','JUNI','JULI','AUGUST','SEPTE </span><br /><span class='normal'>MBER', </span><br /><span class='normal'>  38:                           'OKTOBER','NOVEMBER','DECEMBER'); </span><br /><span class='normal'>  39:        var theDate = new Date(); </span><br /><span class='normal'>  40: </span><br /><span class='normal'>  41:        document.write(DayOfWeek[theDate.getDay()] + ' ' + </span><br /><span class='normal'>MonthName[theDate.getMonth()] + ' ' + </span><br /><span class='normal'>  42:                theDate.getDate() + ', ' + (theDate.getYear() &lt; 100 ? </span><br /><span class='normal'>theDate.getYear() + 1900 : theDate.getYear())); </span><br /><span class='normal'>  43:         //-->&lt;/script> COPYRIGHT &amp;copy; 2001 JP-WEB . All RIGHTS </span><br /><span class='normal'>&amp;nbsp;RESERVED&lt;/h4> </span><br /><span class='normal'>  44: &lt;br> </span><br /><span class='normal'>  45: &lt;br> </span><br /><span class='normal'>  46: &lt;br> </span><br /><span class='normal'>  47: </span><br /><span class='normal'>  48: &lt;/div> </span><br /><span class='normal'>  49: &lt;/td> </span><br /><span class='normal'>  50: &lt;/tr> </span><br /><span class='normal'>  51: &lt;/SPAN> </span><br /><span class='normal'>  52: &lt;/body> </span><br /><span class='normal'>  53: &lt;/html> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'>jopa </span><br /><span class='normal'><a href='http://www.jp-web.dk'>www.jp-web.dk</a> </span><br /><span class='normal'><a href='http://web-templates.dk/'>http://web-templates.dk/</a> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3cf279f5%240%2418425%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='&lt;tr&gt;'>&lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;jopa)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C270520022033504568%25spamthis%40verture%2Enet%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;Jonas&nbsp;Voss)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3cf283eb%240%2413623%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;jopa)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C270520022129083643%25spamthis%40verture%2Enet%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;Jonas&nbsp;Voss)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3cf28d07%240%2423812%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;jopa)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C270520022148383861%25spamthis%40verture%2Enet%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;Jonas&nbsp;Voss)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C2h45fuku63djfapedhj3c9j2df19kup7gp%40dtext%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3cf297ea%240%2458748%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;jopa)</small></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3cf287e6%240%2418592%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;Michael&nbsp;Kjærgård)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3cf28c11%240%2483509%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;jopa)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4r65fushqgvlhn8fbheuu5due0glbvlama%40dtext%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;Knud&nbsp;Gert&nbsp;Ellentoft)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C3cf2a04e%240%2411917%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E' title='Re: &lt;tr&gt;'>Re: &lt;tr&gt;</a>&nbsp;<small class='newslist'>(27-05-02&nbsp;-&nbsp;Michael&nbsp;Kjærgård)</small></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form&amp;ReplyID=%3C3cf279f5%240%2418425%24edfadb0f%40dspool01%2Enews%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp'>dk.edb.internet.webdesign.html</a></div><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på HTML.dk">Annoncer</a></div>
+
+<div id="sponsor"><br />
+<a href='http://www.it-jobbank.dk/referrer.asp?referrer=html'><img src='http://www.it-jobbank.dk/images/partner_images/125x125headhuntet_3.gif' height="125" width="125" alt='Link til IT-Jobbank' /></a>
+<br />
+
+<br />
+<a href='http://www.html.dk/editor'><img src='/site/graphics/sponsorater/125x125editor2.gif' height="60" width="125" alt='Den perfekte editor' /></a>
+<br /></div>
+
+
+<p>&nbsp;</p>
+
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><small class="boxtext">Tilmeld dig månedligt nyhedsbrev fra HTML.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+</form>
+</div>
+<div id='pollbox'><form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3c3cf279f5$0$18425$edfadb0f@dspool01.news.tele.dk%3e' method='post'><p class='pollheader'>Hvor ofte opdaterer du din viden ved at tage til konferencer, messer, udstillinger, workshops og lignende?</p><div><input type='hidden' name='tst' value='20-06-02 10:50:40' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ugentligt</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Månedtligt</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Et par gange om året</small><br /><input type='radio' name='vote_id' value='4' /><small class='boxtext'>&nbsp;Sjældnere</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form></div>
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader">&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div class="menuitem" style="margin-top:20px;"><img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a></div>
+
+</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+
+
+<hr style="clear:both;margin-right:150px;" />
+
+<div style="text-align:center;margin-right:150px;" class="noprint">
+<a href="/about/">Om&nbsp;dette&nbsp;websted</a> | 
+<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondatabeskyttelse</a> | 
+<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a>
+</div>
+<hr style="margin-right:150px;"/>
+
+<div style="float:right;width:420px;text-align:left;" class="noprint">
+
+<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml11.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+
+
+<script type="text/javascript">
+<!--
+  document.write('<a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234">');
+  var myref; myref=document.referrer; if(top.document.referrer!=null) myref=top.document.referrer;
+  document.write('<img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=' + Math.random()*10000000 + '&amp;ref=' + escape(myref) + '" alt="Chart.dk" /></a>');
+//-->
+</script>
+<noscript>
+  <div><a href="http://www.chart.dk/ref.asp?ct=v003&amp;id=32234"><img src="http://cluster.chart.dk/chart.asp?id=32234&amp;style=3&amp;secID=1" alt="Chart.dk" /></a></div>
+</noscript>
+</div>
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<div><input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</div></form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp' title='Gruppen er beregnet til diskussion af HTML-koder' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: &lt;tr&gt;</span></div>
+
+
+
+</body>
+</html>
+

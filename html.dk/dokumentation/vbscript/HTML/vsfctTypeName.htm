@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>TypeName Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfcttypename"></A>TypeName Function</H1>
+
+<P>Returns a string that provides <B>Variant</B> subtype information about a variable.</P>
+
+<P><CODE>TypeName(<I>varname</I>)</CODE></P>
+
+<P>The required <I>varname</I> argument can be any variable.</P>
+
+<H4>Return Values</H4>
+
+<P>The <B>TypeName</B> function has the following return values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=28%>Value</TH>
+<TH width=72%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Byte</TD>
+<TD width=72%>Byte value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Integer</TD>
+<TD width=72%>Integer value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Long</TD>
+<TD width=72%>Long integer value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Single</TD>
+<TD width=72%>Single-precision floating-point value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Double</TD>
+<TD width=72%>Double-precision floating-point value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Currency</TD>
+<TD width=72%>Currency value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Decimal</TD>
+<TD width=72%>Decimal value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Date</TD>
+<TD width=72%>Date or time value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>String</TD>
+<TD width=72%>Character string value</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Boolean</TD>
+<TD width=72%>Boolean value; <B>True</B> or <B>False</B></TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Empty</TD>
+<TD width=72%>Unitialized</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Null</TD>
+<TD width=72%>No valid data</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>&amp;ltobject type&gt;</TD>
+<TD width=72%>Actual type name of an object</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Object</TD>
+<TD width=72%>Generic object</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Unknown</TD>
+<TD width=72%>Unknown object type</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Nothing</TD>
+<TD width=72%>Object variable that doesn't yet refer to an object instance</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=28%>Error</TD>
+<TD width=72%>Error</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>The following example uses the <B>TypeName</B> function to return information about a variable: </P>
+
+<PRE><CODE>Dim ArrayVar(4), MyType
+NullVar = Null&nbsp;&nbsp;&nbsp;' Assign Null value.
+
+MyType = <span class=cfe><B>TypeName(</B></span>"VBScript"<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns "String".
+MyType = <span class=cfe><B>TypeName(</B></span>4<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Returns "Integer".
+MyType = <span class=cfe><B>TypeName(</B></span>37.50<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Returns "Double".
+MyType = <span class=cfe><B>TypeName(</B></span>NullVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Returns "Null".
+MyType = <span class=cfe><B>TypeName(</B></span>ArrayVar<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Returns "Variant()".</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctisarray.htm">IsArray Function</A> | <A HREF="vsfctisdate.htm">IsDate Function</A> | <A HREF="vsfctisempty.htm">IsEmpty Function</A> | <A HREF="vsfctisnull.htm">IsNull Function</A> | <A HREF="vsfctisnumeric.htm">IsNumeric Function</A> | <A HREF="vsfctisobject.htm">IsObject Function</A> | <A HREF="vsfctvartype.htm">VarType Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

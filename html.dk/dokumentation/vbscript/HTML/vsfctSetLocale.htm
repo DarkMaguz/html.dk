@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>SetLocale Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctsetlocale"></A>SetLocale Function</H1>
+
+<P>Sets the global locale and returns the previous locale.</P>
+
+<P><CODE>SetLocale(<I>lcid</I>)</CODE></P>
+
+<P>The <I>lcid</I> argument can be any valid 32-bit value or short string that uniquely identifies a geographical locale. Recognized values can be found in the <A HREF="vsmsclcid.htm">Locale ID</A> chart.</P>
+
+<H4>Remarks</H4>
+
+<P>If <I>lcid</I> is zero, the locale is set to match the current system setting.</P>
+
+<P>A locale is a set of user preference information related to the user's language, country, and cultural conventions. The locale determines such things as keyboard layout, alphabetic sort order, as well as date, time, number, and currency formats.</P>
+
+<P>The following example illustrates the use of the <B>SetLocale</B> function. To use this code, paste the entire example between the &lt;BODY&gt; tags of a standard HTML page.</P>
+
+<PRE><CODE>Enter Date in UK format: &lt;input type="text" id="UKDate" size="20"&gt;&lt;p&gt;
+Here's the US equivalent: &lt;input type="text" id="USdate" size="20"&gt;&lt;p&gt;
+&lt;input type="button" value="Convert" id="button1"&gt;&lt;p&gt;
+Enter a price in German: &amp;nbsp; &lt;input type="text" id="GermanNumber" size="20"&gt;
+&lt;p&gt;
+Here's the UK equivalent: &lt;input type="text" id="USNumber" size="20"&gt;&lt;p&gt;
+&lt;input type="button" value="Convert" id="button2"&gt;&lt;p&gt;
+
+&lt;script language="vbscript"&gt;
+Dim currentLocale
+' Get the current locale
+currentLocale = GetLocale
+
+Sub Button1_onclick
+  Dim original
+  original = <span class=cfe><B>SetLocale(</B></span>"en-gb"<span class=cfe><B>)</B></span>
+  mydate = CDate(UKDate.value)
+  ' IE always sets the locale to US English so use the
+  ' currentLocale variable to set the locale to US English
+  original = <span class=cfe><B>SetLocale(</B></span>currentLocale<span class=cfe><B>)</B></span>
+  USDate.value = FormatDateTime(mydate,vbShortDate)
+End Sub
+
+Sub button2_onclick
+  Dim original
+  original = <span class=cfe><B>SetLocale(</B></span>"de"<span class=cfe><B>)</B></span>
+  myvalue = CCur(GermanNumber.value)
+  original = <span class=cfe><B>SetLocale(</B></span>"en-gb"<span class=cfe><B>)</B></span>
+  USNumber.value = FormatCurrency(myvalue)
+End Sub
+
+&lt;/script&gt; </CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctgetlocale.htm">GetLocale Function</A> | <A HREF="vsmsclcid.htm">Locale ID (LCID) Chart</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

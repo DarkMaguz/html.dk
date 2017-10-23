@@ -1,0 +1,253 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da">
+
+<head>
+
+    <title>Arkiv for nyhedsgruppen dk.edb.internet.webdesign.html - HTML.dk</title>
+
+    <meta name="description" content="Danske nyhedsgrupper på HTML.dk" />
+    <meta name="keywords" content="" />
+    <meta name="title" content="Arkiv for nyhedsgruppen dk.edb.internet.webdesign.html" />
+    <meta name="language" content="dan" />
+    <meta name="Date" content="02-06-00" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+    <meta name="CZ.Type" content="" />
+    <meta name="CZ.Category" content="" />
+
+    
+    <link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="projection" />
+    <link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign" href="http://www.html.dk/rss/dk.edb.internet.webdesign.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.html" href="http://www.html.dk/rss/dk.edb.internet.webdesign.html.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.clientside" href="http://www.html.dk/rss/dk.edb.internet.webdesign.clientside.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.frontpage" href="http://www.html.dk/rss/dk.edb.internet.webdesign.frontpage.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.flash" href="http://www.html.dk/rss/dk.edb.internet.webdesign.flash.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside.asp" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.asp.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.serverside.php" href="http://www.html.dk/rss/dk.edb.internet.webdesign.serverside.php.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.webdesign.ris+ros" href="http://www.html.dk/rss/dk.edb.internet.webdesign.ris+ros.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.udbydere.webhotel" href="http://www.html.dk/rss/dk.edb.internet.udbydere.webhotel.xml" />
+    <link rel="alternate" type="application/rss+xml" title="dk.edb.programmering.dotnet" href="http://www.html.dk/rss/dk.edb.programmering.dotnet.xml" />
+
+    <link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+    <!-- BEGIN: AdSolution-Tag 4.3: Global-Code -->
+    <script type="text/javascript" src="http://a.as-eu.falkag.net/dat/dlv/aslmain.js"></script>
+    <!-- END: AdSolution-Tag 4.3: Global-Code -->
+
+
+</head>
+
+<body>
+
+    <div style="text-align:center;position:absolute;top:90px;left:0px;width:100%;" id="banner728x90" class="noprint">
+    <!-- BEGIN: AdSolution-Website-Tag 4.3 : DK-html.dk / 728x90 -->
+        <script type="text/javascript">
+            Ads_kid=0;Ads_bid=0;Ads_xl=728;Ads_yl=90;Ads_xp='';Ads_yp='';Ads_xp1='';Ads_yp1='';Ads_opt=0;Ads_par='';Ads_cnturl='';
+        </script>
+        <script type="text/javascript" src="http://a.as-eu.falkag.net/dat/cjf/00/69/41/74.js"></script>
+        <noscript>
+	        <div><a href="http://sel.as-eu.falkag.net/sel?cmd=lnk&amp;dat=694174&amp;opt=0&amp;rdm=[timestamp]"><img src="http://sel.as-eu.falkag.net/sel?cmd=ban&amp;dat=694174&amp;opt=0&amp;rdm=[timestamp]" width="728" height="90" alt="Please click here." /></a></div>
+        </noscript>
+    <!-- END:AdSolution-Tag 4.3 -->
+    </div>
+
+        <div id="bodybx">
+
+            <div id="skyscraper" class="noprint">
+            <!-- BEGIN: AdSolution-Website-Tag 4.3 : DK-html.dk / 140x350 -->
+                <script type="text/javascript">
+                    Ads_kid=0;Ads_bid=0;Ads_xl=140;Ads_yl=350;Ads_xp='';Ads_yp='';Ads_xp1='';Ads_yp1='';Ads_opt=0;Ads_par='';Ads_cnturl='';
+                </script>
+                <script type="text/javascript" src="http://a.as-eu.falkag.net/dat/cjf/00/69/41/80.js"></script>
+                <noscript>
+	                <div><a href="http://sel.as-eu.falkag.net/sel?cmd=lnk&amp;dat=694180&amp;opt=0&amp;rdm=[timestamp]"><img src="http://sel.as-eu.falkag.net/sel?cmd=ban&amp;dat=694180&amp;opt=0&amp;rdm=[timestamp]" width="140" height="350" alt="Please click here." /></a></div>
+                </noscript>
+            <!-- END:AdSolution-Tag 4.3 -->
+            </div>
+
+
+<!-- start page content -->
+
+
+
+<!-- FreeFind No Index Page -->
+<h1>dk.edb.internet.webdesign.html</h1><p>Arkiv for november 2005.</p><hr /><ul><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438e1ad1%240%2415788%2414726298%40news%2Esunsite%2Edk%3E'>&lt;h3&gt; og &lt;h4&gt; p&#229; samme linje</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C7bsro1dfi6s5ikf8oj0arm52fc1u5n3ul1%404ax%2Ecom%3E'>Sorterbar tabel med faste overskrifter</a> - (11 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438dab51%240%2415789%2414726298%40news%2Esunsite%2Edk%3E'>Behandles div'er anderledes i mozilla?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438da309%240%2415789%2414726298%40news%2Esunsite%2Edk%3E'>Er det muligt at lave kalkulationer i html?</a> - (16 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438d9403%240%2415784%2414726298%40news%2Esunsite%2Edk%3E'>Tekst forsvinder i css-layout med IE</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438d757f%240%2415795%2414726298%40news%2Esunsite%2Edk%3E'>Problemer med linieskift i &lt;table&gt;</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438d7557%240%2415781%2414726298%40news%2Esunsite%2Edk%3E'>Layout problem&amp;#44; tabel vs css</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CgAlmHQCaRwr83DRLmark%40ezpc%2Ecom%2Eau%3E'>Dreamweaver Extensions - WA SiteAssist -  WA DataAssist  - WA SiteImport etc...</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438ce629%240%241853%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Friske &#248;jne s&#248;ges</a> - (11 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438ce1d9%240%2415793%2414726298%40news%2Esunsite%2Edk%3E'>Problem med venstre-menu</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMQ4jf%2E250%24Uh3%2E151%40news%2Eget2net%2Edk%3E'>html eller xhtml</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438c28c8%240%2415792%2414726298%40news%2Esunsite%2Edk%3E'>Forskellige links henviser til v&#230;rdi i dropdown</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CgmLif%2E608%24Xw%2E259%40news%2Eget2net%2Edk%3E'>Tekst p&#229; knapper</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438a03db%240%2411053%2414726298%40news%2Esunsite%2Edk%3E'>problem med float ved udprintning</a> - (13 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C47yfn4ihu5sw%2Edlg%40arning%2Edk%3E'>CSS i de forskellige browsere</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4389e143%240%2411059%2414726298%40news%2Esunsite%2Edk%3E'>target=&quot;_blank&quot; ... w3c</a> - (21 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CAPiif%2E45%24o53%2E1%40news%2Eget2net%2Edk%3E'>css</a> - (32 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cop%2Es0vclafx31yabe%40pc%3E'>Hvorfor virker dette css ikke.</a> - (19 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4388cbd0%240%2411059%2414726298%40news%2Esunsite%2Edk%3E'>Link ud af siden?</a> - (28 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4388c183%240%2411049%2414726298%40news%2Esunsite%2Edk%3E'>en &quot;fast&quot; menu uden brug af frames?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43884290%240%2441139%2414726298%40news%2Esunsite%2Edk%3E'>links og billeder med CSS</a> - (10 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4387c04f%240%2484027%24edfadb0f%40dtext01%2Enews%2Etele%2Edk%3E'>z-index eller hvad??</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43878803%240%2441139%2414726298%40news%2Esunsite%2Edk%3E'>Hj&#230;lp til Frames</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43873986%240%24187%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>Bredde p&#229; side ??</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43873901%240%2478283%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>Frame og baggrundsfarve</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43871fe1%240%2438670%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>synlig p&#229; google ?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43871f81%240%2441138%2414726298%40news%2Esunsite%2Edk%3E'>Min menu flytter sig&amp;#44; alt efter hvilken opl&#248;sning.. mangler hj&#230;lp</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43861a9d%240%2467263%24157c6196%40dreader2%2Ecybercity%2Edk%3E'>Frame og billeder....</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4385ef90%240%2441141%2414726298%40news%2Esunsite%2Edk%3E'>Valign p&#229; alle ens td's</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4385e5d6%240%2441150%2414726298%40news%2Esunsite%2Edk%3E'>Design-fejl</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4385e08f%240%2441147%2414726298%40news%2Esunsite%2Edk%3E'>hj&#230;lp med html</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4384f09a%240%248777%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>Dropdown menubar - nyt problem</a> - (20 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CGH4hf%2E602%248H6%2E235%40news%2Eget2net%2Edk%3E'>sk&#230;rm opl&#248;sning</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4384a445%240%2441142%2414726298%40news%2Esunsite%2Edk%3E'>Automatisk hentning af billeder</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43844211%240%2441140%2414726298%40news%2Esunsite%2Edk%3E'>Usynlige horisontale scrollbar i IE?</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43843f1f%240%2441146%2414726298%40news%2Esunsite%2Edk%3E'>Hvorfor virker den ikke?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43838a3b%240%2478284%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>Genbrug af kode</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4383680e%240%2447073%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>&quot;Bog&quot; p&#229; nettet men kun download en side pr. gang - hvorda??</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43835a70%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>Problemer med h&#248;jde p&#229; &lt;div&gt;</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43835034%240%248848%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>Dropdown navbar - undermenuernes bredde</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438319f0%240%2441145%2414726298%40news%2Esunsite%2Edk%3E'>Printvenlighed</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43830252%240%2441145%2414726298%40news%2Esunsite%2Edk%3E'>Tekst over Flash movie</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43822b72%240%2441148%2414726298%40news%2Esunsite%2Edk%3E'>problemer med fload:</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43822af4%240%2441142%2414726298%40news%2Esunsite%2Edk%3E'>For mange bytes...?</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4381fc45%240%2441146%2414726298%40news%2Esunsite%2Edk%3E'>S&#230;t transperant med CSS</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43819c26%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>viser ikke billede i opera</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438199e2%240%2478286%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>hente inline css ud af html</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4380dd4c%240%2441143%2414726298%40news%2Esunsite%2Edk%3E'>CCS der bare ikke virker</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4380db6f%240%24183%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>css og javascript?</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43808616%240%2441139%2414726298%40news%2Esunsite%2Edk%3E'>Fjern h&#248;jre scroll i browservinduet</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C438009d7%240%24183%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>[CSS] Lidt problemer med divs</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437fd53e%240%2484013%24edfadb0f%40dtext01%2Enews%2Etele%2Edk%3E'>grafisk listemenu</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1132432421%2E783211%2E171400%40o13g2000cwo%2Egooglegroups%2Ecom%3E'>mere end en style p&#229; link</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437f7a21%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>Nestede div-tags som lige brede og sidestillede spalter</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437f5a49%240%2441151%2414726298%40news%2Esunsite%2Edk%3E'>en boks med en ramme?</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437e577e%240%2441144%2414726298%40news%2Esunsite%2Edk%3E'>Hover-udskiftning af baggrundsbillede: Problemer i Opera</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437e4d76%240%2441141%2414726298%40news%2Esunsite%2Edk%3E'>Image border p&#229; div bokse...</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437e34cc%240%2441137%2414726298%40news%2Esunsite%2Edk%3E'>Div bokse inde i div bokse...</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437e0c4f%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>Flere billeder i en css fil</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437de07d%240%2441147%2414726298%40news%2Esunsite%2Edk%3E'>vedh&#230;ft fil i kontakt formular</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437db0d1%240%2441150%2414726298%40news%2Esunsite%2Edk%3E'>CSS placering</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437d13eb%240%2441139%2414726298%40news%2Esunsite%2Edk%3E'>Kan i forklare mig ...</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1h67166%2Eoxfcw9resi1mN%25Mich%40noget%2Einvalid%3E'>&#197;bneog lukke vindue - html</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437cfa05%240%2441148%2414726298%40news%2Esunsite%2Edk%3E'>CSS og positionering eller ?</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437cdefe%240%24164%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>Dynamisk load af HTML-side inde i en anden</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437caebe%240%2441146%2414726298%40news%2Esunsite%2Edk%3E'>&amp;caption=your+caption'&amp;#44;'</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437c9002%240%241854%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Punktopstilling - punkt p&#229; to linier?</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437c83df%240%2467264%24157c6196%40dreader2%2Ecybercity%2Edk%3E'>Scrollbars p&#229; et &lt;textarea&gt;</a> - (37 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437c69a0%240%2441148%2414726298%40news%2Esunsite%2Edk%3E'>Problem med tabeller - skal have flyttet tekst..</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437bd0ad%240%2478283%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>formbutton som link</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437bbfa5%240%2478282%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>align af formbox</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437b77d5%240%2438644%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>div i div</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437b6c68%240%2467255%24157c6196%40dreader2%2Ecybercity%2Edk%3E'>Kan kun indskrive X antal tegn i formular?</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437afd90%240%2441150%2414726298%40news%2Esunsite%2Edk%3E'>hj&#230;lp til forskellige CSS i IE og FF</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437a5aa3%240%2447045%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>Hvad er galt i min html?</a> - (36 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1132086045%2E132556%2E53550%40g43g2000cwa%2Egooglegroups%2Ecom%3E'>linieskift</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4379ea6c%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>kode til kalender?</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43799401%240%2446995%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>Hvordan laves en include-menu?</a> - (10 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4379045b%240%2441141%2414726298%40news%2Esunsite%2Edk%3E'>serverplads</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437900c5%240%241768%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>hold indholdet i indholds diven.</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMPG%2E1de31e3697c2e8a4989704%40news%2Etele%2Edk%3E'>H&#248;jre border forsvinder i FF</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CMPG%2E1de1e423d4861009989702%40news%2Etele%2Edk%3E'>Conditional comment til margin i IE</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43789ff4%240%2478285%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>Store eller sm&#229; bogstaver i html...</a> - (14 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4377a6ef%240%2441144%2414726298%40news%2Esunsite%2Edk%3E'>kan ikke f&#229; min html til at vise et billede</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43779dbb%240%2441145%2414726298%40news%2Esunsite%2Edk%3E'>Visning af baggrundsbillede</a> - (38 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437723ea%240%241812%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>browserh&#248;jde i procent.</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43771fcd%240%2441141%2414726298%40news%2Esunsite%2Edk%3E'>&lt;br/&gt; eller &lt;br /&gt; + title=&quot;&quot; i &lt;a&gt;</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4376ffe5%240%2441151%2414726298%40news%2Esunsite%2Edk%3E'>Runde hj&#248;rner med CSS</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43764b3b%240%2441151%2414726298%40news%2Esunsite%2Edk%3E'>Fejl i Safari</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43760d2a%240%2441151%2414726298%40news%2Esunsite%2Edk%3E'>Knap sender &quot;text&quot; til en textbox</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4376016c%240%2441139%2414726298%40news%2Esunsite%2Edk%3E'>Automatisk forl&#230;ngelse af divs</a> - (54 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4375dd59%240%2441151%2414726298%40news%2Esunsite%2Edk%3E'>Color mix</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4375bec6%240%24114%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>r&#230;kkef&#248;lgen i CSS</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43758826%240%2441137%2414726298%40news%2Esunsite%2Edk%3E'>Warnings....?</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43753d88%240%2441145%2414726298%40news%2Esunsite%2Edk%3E'>div?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4374f7f4%240%24160%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>Video streaming - syntaks?</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4374e95e%240%241756%24edfadb0f%40dread11%2Enews%2Etele%2Edk%3E'>hj&#230;lp til div + simpelt valuesp&#248;rgsm&#229;l</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4374e7d0%240%2499998%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>Error og/eller warning</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4374e119%240%2441139%2414726298%40news%2Esunsite%2Edk%3E'>Hj&#230;lp til Stylesheet</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4374e8e4%240%242096%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>Problemer med feed</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4374d34a%240%2441140%2414726298%40news%2Esunsite%2Edk%3E'>Framespacing i W3C</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4374aab5%240%242089%24edfadb0f%40dtext02%2Enews%2Etele%2Edk%3E'>fjerne border-bottom i www.webdesign101.dk/www/cssmenu/dropdownmenu.php</a> - (24 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C0MZcf%2E273%242t6%2E151%40news%2Eget2net%2Edk%3E'>hj&#230;lp til at finde javascript</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cdl0gaj%24u41%241%40news%2Eorange%2Edk%3E'>text-align(css) og xhtml.. valider! hvordan?</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43736761%240%24169%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>H&#248;jde p&#229; celler</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43735b72%240%2499994%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>Valid CSS...</a> - (14 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437349b7%240%2441150%2414726298%40news%2Esunsite%2Edk%3E'>Hj&#230;lp til placering af site p&#229; midten</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43728bc0%240%2441150%2414726298%40news%2Esunsite%2Edk%3E'>Centrering ved hj&#230;lp af CSS</a> - (10 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43726e0e%240%2441140%2414726298%40news%2Esunsite%2Edk%3E'>Lidt hj&#230;lp til w3c...</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4372574d%240%24149%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>Lille valideringshj&#230;lp...</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43724df1%240%2441148%2414726298%40news%2Esunsite%2Edk%3E'>valign = midle (page)</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437245b1%240%2441145%2414726298%40news%2Esunsite%2Edk%3E'>Frameset? W3C?</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43721679%240%2478287%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>Problemer med forms</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4371eba2%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>Post via anden side</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4371e282%240%2441148%2414726298%40news%2Esunsite%2Edk%3E'>Tabellen forts&#230;tter n&#229;r jeg skriver</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C437140e9%240%2441142%2414726298%40news%2Esunsite%2Edk%3E'>Hj&#230;lp til optimering i IE og Firefox</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4370c580%240%2441146%2414726298%40news%2Esunsite%2Edk%3E'>Eksternt stylesheet</a> - (11 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cqe31n1lnc7i2ko3od7k7ivsk1jp46h7ab0%404ax%2Ecom%3E'>Css-menu</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43706ba5%240%2441144%2414726298%40news%2Esunsite%2Edk%3E'>css&amp;#44; indhold i td's</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43705c02%240%2438632%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>CSS - Baggrundsbillede</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436fb965%240%24141%24edfadb0f%40dread16%2Enews%2Etele%2Edk%3E'>Streaming</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1131392518%2E257600%2E230040%40z14g2000cwz%2Egooglegroups%2Ecom%3E'>side p&#229; mobil. evt ot</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CJvOdnf3KDLjcEPLeRVnzvA%40telenor%2Ecom%3E'>coding&amp;#44; rekkef&#248;lge i oppsett av CSS</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436f6a07%240%2441142%2414726298%40news%2Esunsite%2Edk%3E'>Iframe og hvid kant jeg ikke kan f&#229; v&#230;k</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436f4f31%240%2446995%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>forst&#229;r ikke lige min valiation.</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436f4ea9%240%2478285%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>CSS: Absolute positionering...</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436f1ac8%240%2441148%2414726298%40news%2Esunsite%2Edk%3E'>En news block</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436e7ea6%240%2411700%24ba624c82%40nntp02%2Edk%2Etelia%2Enet%3E'>Sjov FF opf&#248;rsel</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436e2f81%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>2 punktummer efter link i hover.</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436e0a63%240%2441138%2414726298%40news%2Esunsite%2Edk%3E'>Farvet boks i CSS</a> - (4 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436e077d%240%2441142%2414726298%40news%2Esunsite%2Edk%3E'>St&#248;rrelse p&#229; billedet...</a> - (11 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436e01f8%240%2441151%2414726298%40news%2Esunsite%2Edk%3E'>Skrive en tekst i HTML</a> - (5 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436db8a0%240%2441147%2414726298%40news%2Esunsite%2Edk%3E'>IE: 2 absolute positionerede bokse forsvinder!</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436d3127%240%2441147%2414726298%40news%2Esunsite%2Edk%3E'>Formular</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3Cpa4qm192ldi8a6pm1nvgspt4g8d8qe89hl%404ax%2Ecom%3E'>CSS textarea</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436cf385%240%2438664%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>webside tilmeldt til google ?</a> - (10 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436cb325%240%2467256%24157c6196%40dreader2%2Ecybercity%2Edk%3E'>DIV rykker i IE</a> - (15 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436c96ce%240%2441141%2414726298%40news%2Esunsite%2Edk%3E'>Hj&#230;lp ang. xml-xsl+css</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436bcb37%240%2441150%2414726298%40news%2Esunsite%2Edk%3E'>Musik p&#229; hjemmesiden ?</a> - (23 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3CdQPaf%2E285707%24o8%2E192279%40twister%2Eauna%2Ecom%3E'>www.vivepc.com Tu tienda de ordenadores discos duros impresoras memorias&amp;#44; Lo + barato . 79Y5</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436b73dc%240%2441141%2414726298%40news%2Esunsite%2Edk%3E'>Cursor i input felt?</a> - (3 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436b58f2%240%247637%24ba624c82%40nntp02%2Edk%2Etelia%2Enet%3E'>&quot;Aktivt indhold&quot; vises</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436b5666%240%2441143%2414726298%40news%2Esunsite%2Edk%3E'>a:visited er det samme over alt&amp;#44; hvordan forandre det</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436a3f77%240%248858%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>code mark&#248;ren</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436a18c0%240%2441139%2414726298%40news%2Esunsite%2Edk%3E'>Fixering af gif-billede</a> - (9 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436a0af7%240%248882%24edfadb0f%40dread14%2Enews%2Etele%2Edk%3E'>code-mark&#248;ren</a> - (1 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4369d7b6%240%2441141%2414726298%40news%2Esunsite%2Edk%3E'>Gode r&#229;d om password beskyttet hjemmeside</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4369bf63%240%2447001%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>Godt r&#229;d s&#248;ges</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43694e54%240%2438684%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Firefox og mellemrum</a> - (10 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C436946e5%240%2438709%24edfadb0f%40dread12%2Enews%2Etele%2Edk%3E'>Iframe og W3C</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43690863%240%2441149%2414726298%40news%2Esunsite%2Edk%3E'>Iframes h&#248;jde !!!! hj&#230;lp !!!</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4368eeed%240%2412400%24ba624c82%40nntp02%2Edk%2Etelia%2Enet%3E'>Formularvalidering</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4368c10f%240%2478286%24157c6196%40dreader1%2Ecybercity%2Edk%3E'>CSS problem...</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4368b44f%240%2441143%2414726298%40news%2Esunsite%2Edk%3E'>Menuen forsvinder f&#248;rst n&#229;r musen fjernes fra den</a> - (7 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4368a1a5%240%2467262%24157c6196%40dreader2%2Ecybercity%2Edk%3E'>menuen f&#248;lger ikke med :-(</a> - (8 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C1130899449%2E653872%2E274840%40g44g2000cwa%2Egooglegroups%2Ecom%3E'>I need to keep some web links&amp;#44; I don't want that link to appear on address line</a> - (6 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4367afcc%240%2441147%2414726298%40news%2Esunsite%2Edk%3E'>Ikke-blok&#233;rbar popup</a> - (12 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C4367a9e3%240%2441146%2414726298%40news%2Esunsite%2Edk%3E'>Slet midlertidige internetfiler</a> - (2 indlæg)</li><li><a href='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?messageid=%3C43671eaa%240%2447057%24edfadb0f%40dread15%2Enews%2Etele%2Edk%3E'>font size styring med CSS ?</a> - (7 indlæg)</li></ul><dl><dt></dt><dd></dd></dl>
+
+
+</div>
+
+
+
+
+<div id="menubox">
+
+	<div id="leftmenu">
+	<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/job/" class="menulink" title="Søg nyt job i Danmarks største specialiserede IT jobdatabase">Jobsektion</a></div>
+
+	<div class="menuitem"><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/rss/" class="menulink" title="RSS-feeds fra HTML.dk">RSS-feeds</a></div>
+	
+	<br />
+	
+	<div id="newsletterbox">
+		<form action="/nyhedsbrev/default.asp" method="post">
+		<div class="leftboxheader">&nbsp;Nyhedsbrev</div>
+		<div class="leftboxbody"><small class="boxtext">Tilmeld dig HTML.dk's nyhedsbrev<br /><input type="text" id="newsletterinput" size="10" name="Email" value="" />
+		<br />
+		<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&amp;2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></div>
+		</form>
+	</div>
+
+	<br />
+	<form action='/nyhedsgrupper/dk_edb_internet_webdesign_html/default.asp?mode=archive&date=01-11-2005' method='post'><p class='pollheader'>Har du installeret, og bruger du, Microsoft Internet Explorer 7?</p><div><input type='hidden' name='tst' value='15-04-2007 08:28:20' /><input type='radio' name='vote_id' value='1' /><small class='boxtext'>&nbsp;Ja</small><br /><input type='radio' name='vote_id' value='2' /><small class='boxtext'>&nbsp;Nej</small><br /><input type='radio' name='vote_id' value='3' /><small class='boxtext'>&nbsp;Ved ikke</small><br /></div><div style='text-align:right;padding:15px 7px 10px 0px'><input type='image' alt='Afgiv din stemme!' src='/site/graphics/poll/vote2.png' /></div><div><small class='boxtext'>Se det foreløbige resultat når du har stemt!</small></div><div><br /><br /><small class='boxtext'>Se <a href='/afstemninger/'>tidligere afstemninger</a></small></div></form>
+	<br />
+
+
+
+	<div id="communitybox">
+		<form action="/community/login.asp" method="post">
+		<div class="leftboxheader">&nbsp;Community</div>
+		<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" />Husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+		</form>
+	</div>
+
+
+
+	<div class="menuitem" style="margin-top:20px;">
+		<img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="/validator/" class="menulink" title="Validér dine dokumenter hos markedets førende validatorer">Validator&nbsp;service</a><br />
+		<img src="/site/graphics/arrows/service.arrow.gif" alt=" * " />&nbsp;<a href="http://www.html.net/?leftmenu" class="menulink" title="HTML.net">HTML.net</a><br />
+	</div>
+
+	</div>
+</div>
+
+<hr style="clear:both;color:white;" />
+
+<div style="margin-right:160px;">
+
+
+
+	<div style="text-align:center;margin-top:20px;margin-bottom:20px;" class="noprint">
+        
+        <!-- BEGIN: AdSolution-Website-Tag 4.3 : DK-html.dk / 468x60 -->
+        <script type="text/javascript">
+        Ads_kid=0;Ads_bid=0;Ads_xl=468;Ads_yl=60;Ads_xp='';Ads_yp='';Ads_xp1='';Ads_yp1='';Ads_opt=0;Ads_par='';Ads_cnturl='';
+        </script>
+        <script type="text/javascript" src="http://a.as-eu.falkag.net/dat/cjf/00/69/41/88.js"></script>
+        <noscript>
+	        <div><a href="http://sel.as-eu.falkag.net/sel?cmd=lnk&amp;dat=694188&amp;opt=0&amp;rdm=[timestamp]"><img src="http://sel.as-eu.falkag.net/sel?cmd=ban&amp;dat=694188&amp;opt=0&amp;rdm=[timestamp]" width="468" height="60" alt="Please click here." /></a></div>
+        </noscript>
+        <!-- END:AdSolution-Tag 4.3 -->
+
+	</div>
+
+	<hr style="clear:both;margin-right:5px;" class="noprint" />
+
+	<div style="text-align:center;margin-right:5px;" class="noprint">
+	<a href="/about/">Om&nbsp;HTML.dk</a> | 
+	<a href="/about/ophavsret.asp">Oplysninger&nbsp;om&nbsp;ophavsret</a> | 
+	<a href="/about/Persondatabeskyttelse.asp">Politik&nbsp;om&nbsp;persondata</a> | 
+	<a href="/about/annoncering.asp">Annoncer&nbsp;på&nbsp;HTML.dk</a> | 
+	<a href="/rss/">RSS</a>
+	</div>
+	<hr style="margin-right:5px;" class="noprint"/>
+
+	<div style="float:right;width:280px;text-align:left;" class="noprint">
+
+	<a href="http://validator.w3.org/check/referer"><img src="/site/graphics/w3/xhtml10.png" alt="Valid XHTML 1.1!" height="31" width="88" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fwww.html.dk%2Fsite%2Fstylesheets%2Fscreen.default.css&amp;warning=0&amp;profile=css2"><img src="/site/graphics/w3/css.png" alt="Valid CSS!" height="31" width="88" /></a>
+	<a href="http://www.scannet.dk"><img src="/site/graphics/logo_scannet.gif" alt="Powered by Scannet" height="31" width="88" /></a>
+
+	<!-- chart.dk unified trackercode - v1 -->
+	<script type="text/javascript" src='http://www.chart.dk/js/unified.asp'></script>
+	<script type="text/javascript">
+	 track_visitor(32234, '');
+	</script>
+	<noscript>
+		<div>
+		<a href="http://www.chart.dk/ref.asp?id=32234">
+		<img src="http://cluster.chart.dk/chart.asp?id=32234" alt="Chart.dk" />
+		</a>
+		</div>
+	</noscript>
+	<!-- chart.dk unified trackercode - v1 -->
+
+	</div>
+</div>
+
+<div id="searchbox">
+
+<!-- SiteSearch Google -->
+    <form method="get" action="http://www.html.dk/search">
+        <div>
+            <input type="hidden" name="domains" value="www.html.dk" />
+
+            <label for="sbi" style="display: none">Indtast dine søgetermer</label>
+            <input type="text" name="q" size="20" maxlength="255" value="" id="sbi" style="border:1px solid black;" />
+
+            <label for="sbb" style="display: none">Indsend søgeformular</label>
+            <input type="submit" name="sa" value="Søg med Google" id="sbb" /><br />
+
+            <input type="radio" name="sitesearch" value="www.html.dk" checked="checked" id="ss1" />
+            <label for="ss1" title="Søg www.html.dk"><span style="color:#E5E5E5;font-size:90%;font-weight:bold;">HTML.dk</span></label>
+
+            <input type="radio" name="sitesearch" value="" id="ss0" />
+            <label for="ss0" title="Søg på internettet"><span style="color:#E5E5E5;font-size:90%;font-weight:bold;">WWW</span></label>
+
+            <input type="hidden" name="client" value="pub-8472339862020162" />
+            <input type="hidden" name="forid" value="1" />
+            <input type="hidden" name="ie" value="ISO-8859-1" />
+            <input type="hidden" name="oe" value="ISO-8859-1" />
+            <input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:0;LW:0;L:http://www.html.net/site/gfx/logo.for.googlesearch.png;S:http://www.html.net;LP:1;FORID:11" />
+            <input type="hidden" name="hl" value="da" />
+            </div>
+    </form>
+<!-- SiteSearch Google -->
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>HTML.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='dk.edb.internet.webdesign.html.asp' title='Gruppen er beregnet til diskussion af HTML' class='navibox'>dk.edb.internet.webdesign.html</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>arkiv</span></div>
+
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+<!-- 
+var sc_project=1234240; 
+var sc_invisible=1; 
+var sc_partition=11; 
+var sc_security="2abf5711"; 
+var sc_remove_link=1; 
+//-->
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><img class="statcounter" src="http://c12.statcounter.com/counter.php?sc_project=1234240&amp;java=0&amp;security=2abf5711&amp;invisible=1" alt="hit counter" /></div></noscript>
+<!-- End of StatCounter Code -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-1093983-2";
+urchinTracker();
+</script>
+
+</body>
+</html>
+
+

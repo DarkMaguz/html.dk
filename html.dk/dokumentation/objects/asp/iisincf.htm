@@ -1,0 +1,67 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Using Server-Side Include Directives</title>
+
+
+<script LANGUAGE="JavaScript">
+	TempString = navigator.appVersion
+	if (navigator.appName == "Microsoft Internet Explorer"){	
+// Check to see if browser is Microsoft
+		if (TempString.indexOf ("4.") >= 0){
+// Check to see if it is IE 4
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+		}
+		else {
+			document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+		}
+	}
+	else if (navigator.appName == "Netscape") {						
+// Check to see if browser is Netscape
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/coua.css">');
+	}
+	else
+		document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/cocss.css">');
+</script> 
+
+
+<meta NAME="DESCRIPTION" CONTENT="Explains how to insert SSI directives into an HTML file."></head>
+
+<body bgcolor="#FFFFFF" text="#000000"><font face="Verdana,Arial,Helvetica">
+
+
+<h1><a name="H1_37754921">Using Server-Side Include Directives</a></h1>
+
+<p>You use server-side include (SSI) directives to instruct the Web server to add text, graphic, or application information to an HTML page just before sending the page to a user. SSI provides special preprocessing directives that enable you to get information about a file or display the value of a CGI variable.  SSI also provides a directive that you can use to insert the output from an application or a shell command into an HTML page.</p>
+
+<h2><a name="includingfiles">Including Files</a></h2>
+
+<p>To include a file, use the <a href="iisiincl.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisiincl.htm"><strong>#include</strong></a> directive.  For example, to insert a file named Copyright.inc into an HTML page when it is requested, use the following directive in the HTML page:</p>
+
+<pre><font face="courier" size="3">&lt;!-- #include file=&quot;copyright.inc&quot; --&gt;</font></pre>
+
+<p>In this example, the file Copyright.inc must be in the same directory as the including file.  The HTML file that contains the <strong>#include</strong> directive must be a published file in your Web site.</p>
+
+<p>To locate the included file by specifying a path relative to the current directory, use the <strong>file</strong> argument.  For example, if the including file is in a directory named Documents, and the included file is in a subdirectory named Documents\Common, use the following directive:</p>
+
+<pre><font face="courier" size="3">&lt;!-- #include file=&quot;common/copyright.inc&quot; --&gt;</font></pre>
+
+<p>When you are working with documents in a Web site, you might want to store shared files in a special virtual directory.  To locate the included file by specifying the full virtual path to the file, use the <strong>virtual</strong> argument.  For example, to include a file from the /Common virtual directory, use the following directive:</p>
+
+<pre><font face="courier" size="3">&lt;!-- #include virtual=&quot;/common/copyright.inc&quot; --&gt;</font></pre>
+
+<h2><a name="H2_37756964"> Including Output from Applications</a></h2>
+
+<p>In addition to simply including the contents of a file, you can run an application or a shell command by using an SSI directive and include the output in your HTML page.  To run an application or a shell command, use the <a href="iisiexec.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisiexec.htm"><strong>#exec</strong></a> directive.  The application can be a CGI program, an ASP application, or an ISAPI application.  For example:</p>
+
+<pre><font face="courier" size="3">&lt;!-- #exec cgi=/scripts/guestbook.exe?FirstName+LastName&gt;</font></pre>
+
+<p>The path to the application must be a full virtual path, or URL.  You can pass parameters to the application by following the application's file name with a question mark (?) and a list of parameters joined by plus signs (+).</p>
+
+<p>Allowing HTML files to run applications presents a security risk.  You can disable the <strong>#exec</strong> directive while still allowing HTML pages to use the other SSI directives.  For more information, see the <a href="iisiexec.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/iisiexec.htm"><strong>#exec</strong></a> reference page.</p>
+
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/common/colegal.htm">© 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+
+
+</font>
+</body>
+</html>

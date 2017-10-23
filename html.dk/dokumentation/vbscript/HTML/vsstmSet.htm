@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Set Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmset"></A>Set Statement</H1>
+
+<P>Assigns an object reference to a variable or property, or associates a procedure reference with an event.</P>
+
+<P><CODE><B>Set</B> <I>objectvar</I> = {<I>objectexpression</I> | <B>New</B> <I>classname</I> | <B>Nothing</B>}</CODE></P>
+
+<P>-or-</P>
+
+<P><CODE><B>Set</B> <I>object.eventname</I> = <B>GetRef</B>(<I>procname</I>)</CODE></P>
+
+<H4>Parameters</H4>
+
+<P class=dt><I>objectvar</I></P>
+
+<P class=indent>Required. Name of the variable or property; follows standard variable naming conventions.</P>
+
+<P class=dt><I>objectexpression</I></P>
+
+<P class=indent>Optional. Expression consisting of the name of an object, another declared variable of the same object type, or a function or method that returns an object of the same object type.</P>
+
+<P class=dt><B>New</B></P>
+
+<P class=indent>Keyword used to create a new instance of a class. If <I>objectvar</I> contained a reference to an object, that reference is released when the new one is assigned. The <B>New</B> keyword can only be used to create an instance of a class.</P>
+
+<P class=dt><I>classname</I></P>
+
+<P class=indent>Optional. Name of the class being created. A class and its members are defined using the <B>Class</B> statement.</P>
+
+<P class=dt><B>Nothing</B></P>
+
+<P class=indent>Optional. Discontinues association of <I>objectvar</I> with any specific object or class. Assigning <I>objectvar</I> to <B>Nothing</B> releases all the system and memory resources associated with the previously referenced object when no other variable refers to it.</P>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Name of the object with which <I>event</I> is associated.</P>
+
+<P class=dt><I>event</I></P>
+
+<P class=indent>Required. Name of the event to which the function is to be bound.</P>
+
+<P class=dt><I>procname</I></P>
+
+<P class=indent>Required. String containing the name of the <B>Sub</B> or <B>Function</B> being associated with the <I>event</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>To be valid, <I>objectvar</I> must be an object type consistent with the object being assigned to it. </P>
+
+<P>The <B>Dim</B>, <B>Private</B>, <B>Public</B>, or <B>ReDim</B> statements only declare a variable that refers to an object. No actual object is referred to until you use the <B>Set</B> statement to assign a specific object. </P>
+
+<P>Generally, when you use <B>Set</B> to assign an object reference to a variable, no copy of the object is created for that variable. Instead, a reference to the object is created. More than one object variable can refer to the same object. Because these variables are references to (rather than copies of) the object, any change in the object is reflected in all variables that refer to it. </P>
+
+<PRE><CODE>Function ShowFreeSpace(drvPath)
+&nbsp;&nbsp;&nbsp;Dim fso, d, s
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set d = fso.GetDrive(fso.GetDriveName(drvPath))
+&nbsp;&nbsp;&nbsp;s = "Drive " &amp; UCase(drvPath) &amp; " - " 
+&nbsp;&nbsp;&nbsp;s = s &amp; d.VolumeName  &amp; "&lt;BR&gt;"
+&nbsp;&nbsp;&nbsp;s = s &amp; "Free Space: " &amp; FormatNumber(d.FreeSpace/1024, 0) 
+&nbsp;&nbsp;&nbsp;s = s &amp; " Kbytes"
+&nbsp;&nbsp;&nbsp;ShowFreeSpace = s
+End Function</CODE></PRE>
+
+<P>Using the <B>New</B> keyword allows you to concurrently create an instance of a class and assign it to an object reference variable. The variable to which the instance of the class is being assigned must already have been declared with the <B>Dim</B> (or equivalent) statement. </P>
+
+<P>Refer to the documentation for the <B>GetRef</B> function for information on using <B>Set</B> to associate a procedure with an event.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A>  </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsoprassignment.htm">= Operator</A> | <A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vsfctgetref.htm">GetRef Function</A> | <A HREF="vsstmredim.htm">ReDim Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DateAdd Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctdateadd"></A>DateAdd Function</H1>
+
+<P>Returns a date to which a specified time interval has been added. </P>
+
+<P><CODE><B>DateAdd(</B>interval<B>, </B>number<B>, </B>date<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>interval</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> that is the interval you want to add. See Settings section for values.</P>
+
+<P class=dt><I>number</I></P>
+
+<P class=indent>Required. <A HREF="vtglossary.htm#defnumericexpressionvbs">Numeric expression</A> that is the number of interval you want to add. The numeric expression can either be positive, for dates in the future, or negative, for dates in the past.</P>
+
+<P class=dt><I>date</I></P>
+
+<P class=indent>Required. <B>Variant</B> or literal representing the date to which <I>interval</I> is added.</P>
+
+<H4>Settings</H4>
+
+<P>The <I>interval</I> argument can have the following values:</P>
+
+<TABLE border=1 cellspacing=0 cols=2 frame=box rules=all>
+
+<TR VALIGN="top">
+<TH width=22%>Setting</TH>
+<TH width=78%>Description</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>yyyy</TD>
+<TD width=78%>Year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>q</TD>
+<TD width=78%>Quarter</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>m</TD>
+<TD width=78%>Month</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>y</TD>
+<TD width=78%>Day of year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>d</TD>
+<TD width=78%>Day</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>w</TD>
+<TD width=78%>Weekday</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>ww</TD>
+<TD width=78%>Week of year</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>h</TD>
+<TD width=78%>Hour</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>n</TD>
+<TD width=78%>Minute</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD width=22%>s</TD>
+<TD width=78%>Second</TD>
+</TR>
+</TABLE><BR>
+
+<H4>Remarks</H4>
+
+<P>You can use the <B>DateAdd</B> function to add or subtract a specified time interval from a date. For example, you can use <B>DateAdd</B> to calculate a date 30 days from today or a time 45 minutes from now. To add days to <I>date</I>, you can use Day of Year ("y"), Day ("d"), or Weekday ("w").</P>
+
+<P>The <B>DateAdd</B> function won't return an invalid date. The following example adds one month to January 31: </P>
+
+<PRE><CODE>NewDate = <span class=cfe><B>DateAdd(</B></span>"m"<span class=cfe><B>, </B></span>1<span class=cfe><B>, </B></span>"31-Jan-95"<span class=cfe><B>)</B></span></CODE></PRE>
+
+<P>In this case, <B>DateAdd</B> returns 28-Feb-95, not 31-Feb-95. If <I>date</I> is 31-Jan-96, it returns 29-Feb-96 because 1996 is a leap year.</P>
+
+<P>If the calculated date would precede the year 100, an error occurs.</P>
+
+<P>If number isn't a <B>Long</B> value, it is rounded to the nearest whole number before being evaluated. </P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctdatediff.htm">DateDiff Function</A> | <A HREF="vsfctdatepart.htm">DatePart Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

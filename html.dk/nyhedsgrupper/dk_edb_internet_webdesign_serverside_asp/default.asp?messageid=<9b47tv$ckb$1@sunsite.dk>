@@ -1,0 +1,144 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: Man kan programmere ASP i... ?</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside.asp skrevet af Hendrik Hansen den 12. april 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: Man kan programmere ASP i... ?" />
+<meta name="language" content="dan" />
+<meta name="Date" content="12-04-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=2001522225115CB8?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=2001522225115CB8?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=2001522225115CB8?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside.asp</h1><p>Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C9b47tv%24ckb%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Hendrik&nbsp;Hansen&nbsp;&nbsp;<a href='mailto:hcwh@yahoo.com'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='hcwh@yahoo.com' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> SunSITE.dk - Supporting Opensource Software</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 12. april 2001 kl. 13:44</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: Man kan programmere ASP i... ?</strong></li></ul>
+
+<p><span class='normal'>&quot;Niels Andersen&quot; &lt;<a href='http://niels-usenet@myplace.dk'>niels-usenet@myplace.dk</a>> wrote in message </span><br /><span class='normal'><a href='http://news:2PgB6.34912$o4.2616177@news010.worldonline.dk'>news:2PgB6.34912$o4.2616177@news010.worldonline.dk</a>... </span><br /><span class='citat'>> &quot;Hendrik Hansen&quot; &lt;<a href='http://hcwh@yahoo.com'>hcwh@yahoo.com</a>> skrev i en meddelelse </span><br /><span class='citat'>> <a href='http://news:9b3tqa$2hq$1@sunsite.dk'>news:9b3tqa$2hq$1@sunsite.dk</a>... </span><br /><span class='citat'>> </span><br /><span class='citat'>> statement: </span><br /><span class='citat'>> </span><br /><span class='citat'>> ASP g&#248;r det muligt at bruge et hvilket som helst sprog til at programmere </span><br /><span class='citat'>> &quot;serverside&quot; i, bla. ved at stille nogle objekter til r&#229;dighed. </span><br /><span class='citat'>> Der er bare ingen der ved hvordan man g&#248;r, lige bortset fra VBScript og </span><br /><span class='citat'>> JScript, som f&#248;lger med. </span><br /><span class='citat'>> Dog er der nogen der har fundet ud af at bruge Perl, og deres l&#248;sning kan </span><br /><span class='citat'>> man s&#229; downloade. </span><br /><span class='citat'>> </span><br /><span class='citat'>> if (statement == true) { </span><br /><span class='citat'>>     Er ideen med ASP s&#229; ikke g&#229;et tabt? </span><br /><span class='citat'>> } else { </span><br /><span class='citat'>>     Hvordan g&#248;r man s&#229;? Eller har jeg misforst&#229;et ideen med ASP? </span><br /><span class='citat'>> } </span><br /><span class='normal'> </span><br /><span class='normal'>Som udgangspunkt stiller Microsoft en platform hvorp&#229; 3. part kan lave deres </span><br /><span class='normal'>egne scripting engines, og to scripting sprog out-of-the-box til r&#229;dighed </span><br /><span class='normal'>(VBScript og JScript). Hvad 3. part s&#229; g&#248;r er, ligesom med stort set alt </span><br /><span class='normal'>andet, en sag mellem leverand&#248;ren og de brugere der &#248;nsker at g&#248;re brug af </span><br /><span class='normal'>det leverede. Der er ikke det store marked for disse 3. parts engines, fordi </span><br /><span class='normal'>de ikke kan noget udover de allerede eksisterende, der er en standard stort </span><br /><span class='normal'>set overalt og er meget veldokumenterede. </span><br /><span class='normal'> </span><br /><span class='normal'>Sagen er ligeledes den, at n&#229;r man skal arbejde professionelt med </span><br /><span class='normal'>komplicerede l&#248;sninger, l&#230;gger man udelukkende pr&#230;sentationslogik i sine </span><br /><span class='normal'>ASP-scripts, mens forretningslogik l&#230;gges i COM-objekter, der kan laves i </span><br /><span class='normal'>mange forskellige sprog, f.eks. Visual Basic, C++, Java, Delphi osv. Der er </span><br /><span class='normal'>s&#229;ledes ikke det store pres fra professionelle for at f&#229; lavet scripting </span><br /><span class='normal'>engines i alle mulige obskure sprog, som de m&#229;tte have en fork&#230;rlighed for, </span><br /><span class='normal'>da kun en lille del af l&#248;sningen l&#230;gges i ASP-scripts, mens den tunge del </span><br /><span class='normal'>l&#230;gges i COM-objekter. </span><br /><span class='normal'> </span><br /><span class='normal'>Du er s&#229;ledes kommet ud i et behov, som stort set ingen andre har - og </span><br /><span class='normal'>derfor f&#248;ler du dig lidt p&#229; herrens mark. Men s&#229;dan vil det v&#230;re med alt </span><br /><span class='normal'>muligt andet - forestil bare hvordan det ville v&#230;re hvis nogen fik den id&#233; </span><br /><span class='normal'>at de ville lave PHP-scripts i VBScript. S&#229; til sp&#248;rgsm&#229;let om hvad du s&#229; </span><br /><span class='normal'>g&#248;r, der har jeg flere forskellige bud: </span><br /><span class='normal'> </span><br /><span class='normal'>1. V&#230;lg PerlScript. Det er relativt veldokumenteret og minder en hel del om </span><br /><span class='normal'>PHP. </span><br /><span class='normal'>2. Fors&#248;g at f&#229; bash/PHP til at fungere. Du er meget alene, m&#229; sikkert bruge </span><br /><span class='normal'>lang tid og f&#229;r det m&#229;ske alligevel ikke til at fungere - men du bliver helt </span><br /><span class='normal'>sikker klogere. </span><br /><span class='normal'>3. V&#230;lg et af de &quot;anerkendte&quot; scriptingsprog, allerhelst VBScript. Der </span><br /><span class='normal'>findes uanede m&#230;ngder af information og folk der kan komme med hurtig hj&#230;lp </span><br /><span class='normal'>p&#229; newsgroups, du f&#229;r ingen problemer med datatyper og sprogene er meget </span><br /><span class='normal'>nemme at l&#230;re for folk, der allerede har programmeringserfaring. </span><br /><span class='normal'> </span><br /><span class='citat'>> > Jeg m&#229; indr&#248;mme at jeg ikke har nogen praktisk er faring med ASP-scripts </span><br /><span class='normal'>i </span><br /><span class='citat'>> > andet end VBScript, s&#229; instruktioner til de konkrete sprog kan jeg ikke </span><br /><span class='citat'>> > hj&#230;lpe med. Det du skal have fat p&#229; er @Language direktivet, der s&#230;tter </span><br /><span class='citat'>> > hvilket scriptingsprog der bruges i ASP-scriptet. </span><br /><span class='citat'>> </span><br /><span class='citat'>> Jeg pr&#248;vede f&#248;lgende: </span><br /><span class='citat'>> &lt;%@Language=php%> </span><br /><span class='citat'>> </span><br /><span class='citat'>> Bare for at se hvad den sagde. Den sagde noget med at den ikke kunne finde </span><br /><span class='citat'>> php p&#229; serveren. </span><br /><span class='normal'> </span><br /><span class='normal'>Jeg tvivler, efter at have t&#230;nkt lidt over det, at det du har fundet er en </span><br /><span class='normal'>scripting engine til PHP. Der er for mange ting, der ligger ud over hvad et </span><br /><span class='normal'>scriptingsprog, som f.eks. PerlScript, normalt kan, der skal implementeres. </span><br /><span class='normal'> </span><br /><span class='citat'>> S&#229; pr&#248;vede jeg at skrive &quot;jscript&quot; i stedet, og s&#229; kom der ingen svar fra </span><br /><span class='citat'>> serveren. </span><br /><span class='normal'> </span><br /><span class='normal'>Den brokker sig ikke, hvis den finder en scriptingengine, der modsvarer </span><br /><span class='normal'>@Language-direktivet. </span><br /><span class='normal'> </span><br /><span class='citat'>> S&#229; pr&#248;vede jeg at fjerne linjen, og nu virker serveren slet ikke. </span><br /><span class='citat'>> Jeg har pr&#248;vet at stoppe og starte PWS mange gange, uden det hj&#230;lper. </span><br /><span class='normal'>Wee... </span><br /><span class='citat'>> Jeg pr&#248;ver lige at genstarte maskinen senere, n&#229;r den ikke har gang i alt </span><br /><span class='citat'>> muligt. </span><br /><span class='normal'> </span><br /><span class='normal'>PWS er temmelig ustabil i forhold til en rigtig IIS - det kan jeg godt </span><br /><span class='normal'>huske. Jeg tror du skal have stoppet og startet processen, den hedder </span><br /><span class='normal'>&quot;inetinfo.exe&quot;. </span><br /><span class='normal'> </span><br /><span class='citat'>> > M&#229;ske kan det hj&#230;lpe dig lidt p&#229; vej. Det er den 3. parts leverand&#248;r, </span><br /><span class='normal'>der </span><br /><span class='citat'>> > har lavet de omtalte scriptingengines, der bestemmer hvilket navn der </span><br /><span class='normal'>skal </span><br /><span class='citat'>> > st&#229; i @Language direktivet, s&#229; m&#229;ske kan du finde svar i dokumentationen </span><br /><span class='citat'>> til </span><br /><span class='citat'>> > disse? </span><br /><span class='citat'>> </span><br /><span class='citat'>> Hmm... Jeg skal alts&#229; hente et produkt fra en 3. parts leverand&#248;r, for at </span><br /><span class='citat'>> finde ud af hvordan man g&#248;r det mest essensielle i ASP? Hmm... </span><br /><span class='normal'> </span><br /><span class='normal'>Nej ASP er det samme for _alle_ scriptingsprog, nemlig nogle indbyggede </span><br /><span class='normal'>objekter. Om du skriver Response.Write &quot;Hello World!&quot; i VBScript eller </span><br /><span class='normal'>Response->Write('Hello World!'); i PerlScript er for s&#229;vidt ASP </span><br /><span class='normal'>uvedkommende. Hvis du leder efter dokumentationen til de indbyggede </span><br /><span class='normal'>ASP-objekter, kan du finde den her: </span><br /><span class='normal'> </span><br /><span class='normal'><a href='http://msdn.microsoft.com/library/default.asp?URL=/library/psdk/iisref/iiwao'>http://msdn.microsoft.com/library/default.asp?URL=/library/psdk/iisref/iiwao</a> </span><br /><span class='normal'>bb.htm </span><br /><span class='normal'> </span><br /><span class='normal'>Mvh. Hendrik </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CY63B6%2E34100%24o4%2E2469870%40news010%2Eworldonline%2Edk%3E' title='Man kan programmere ASP i... ?'>Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(11-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9b2f0u%24fn0%241%40sunsite%2Edk%3E' title='Re: Man kan programmere ASP i... ?'>Re: Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(11-04-01&nbsp;-&nbsp;Hendrik&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CJDeB6%2E34726%24o4%2E2594548%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i... ?'>Re: Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9b3tqa%242hq%241%40sunsite%2Edk%3E' title='Re: Man kan programmere ASP i... ?'>Re: Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Hendrik&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C2PgB6%2E34912%24o4%2E2616177%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i... ?'>Re: Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9b47tv%24ckb%241%40sunsite%2Edk%3E' title='Re: Man kan programmere ASP i... ?'>Re: Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Hendrik&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C1bjB6%2E35870%24o4%2E2646713%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i... ?'>Re: Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9b4g1o%24bsu%241%40sunsite%2Edk%3E' title='Re: Man kan programmere ASP i... ?'>Re: Man kan programmere ASP i... ?</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Hendrik&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CCwkB6%2E36028%24o4%2E2659186%40news010%2Eworldonline%2Edk%3E' title='Man kan programmere ASP i VBScript, JScript og evt...'>Man kan programmere ASP i VBScript, JScript og evt...</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9b4s98%24ha8%241%40sunsite%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Hendrik&nbsp;Hansen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9b5391%24ldu%241%40news%2Ecybercity%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Claus&nbsp;O)</small></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3Ce9qB6%2E36368%24o4%2E2714257%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(12-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns9082D50A620B2spamstocholmdk%40194%2E182%2E148%2E146%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(13-04-01&nbsp;-&nbsp;Jesper&nbsp;Stocholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CVUKB6%2E37859%24o4%2E2891461%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(13-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9b8sg2%242fq7%241%40news%2Ecybercity%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(14-04-01&nbsp;-&nbsp;James&nbsp;Olsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C3w%25B6%2E39148%24o4%2E3017583%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(14-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C9ba9jm%2420l8%241%40news%2Ecybercity%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(14-04-01&nbsp;-&nbsp;James&nbsp;Olsen)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C%25f4C6%2E39378%24o4%2E3067649%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(14-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3CXns908370C301608spamstocholmdk%40194%2E182%2E148%2E146%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(14-04-01&nbsp;-&nbsp;Jesper&nbsp;Stocholm)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?messageid=%3C6w%25B6%2E39149%24o4%2E3017993%40news010%2Eworldonline%2Edk%3E' title='Re: Man kan programmere ASP i VBScript, JScript og...'>Re: Man kan programmere ASP i VBScript, JScript og...</a>&nbsp;<small class='newslist'>(14-04-01&nbsp;-&nbsp;Niels&nbsp;Andersen)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form&amp;ReplyID=%3C9b47tv%24ckb%241%40sunsite%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp'>dk.edb.internet.webdesign.serverside.asp</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/persondata.asp">Politik om persondata</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside_asp/default.asp' title='Gruppen er til spørgsmål/diskussion af de problemer der er ved at fremstille websider ved brug af Active Server Pages.' class='navibox'>dk.edb.internet.webdesign.serverside.asp</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: Man kan programmere ASP i VBScript</span></div>
+
+</body>
+</html>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Option Explicit Statement</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsstmoptionexplicit"></A>Option Explicit Statement</H1>
+
+<P>Forces explicit declaration of all variables in a script. </P>
+
+<P><CODE>Option Explicit </CODE></P>
+
+<H4>Remarks</H4>
+
+<P>If used, the <B>Option Explicit</B> statement must appear in a script before any other statements.</P>
+
+<P>When you use the <B>Option Explicit</B> statement, you must explicitly declare all variables using the <B>Dim</B>, <B>Private</B>, <B>Public</B>, or <B>ReDim</B> statements. If you attempt to use an undeclared variable name, an error occurs.</P>
+
+<P class=indent><B><B>Tip&nbsp;&nbsp;&nbsp;</B></B>Use <B>Option Explicit</B> to avoid incorrectly typing the name of an existing variable or to avoid confusion in code where the scope of the variable is not clear.</P>
+
+<P>The following example illustrates use of the <B>Option Explicit</B> statement. </P>
+
+<PRE><CODE><span class=cfe><B>Option Explicit</B></span>&nbsp;&nbsp;&nbsp;' Force explicit variable declaration.
+Dim MyVar&nbsp;&nbsp;&nbsp;' Declare variable.
+MyInt = 10&nbsp;&nbsp;&nbsp;' Undeclared variable generates error.
+MyVar = 10&nbsp;&nbsp;&nbsp;' Declared variable does not generate error.</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

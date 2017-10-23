@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CopyFile Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthcopyfile"></A>CopyFile Method</H1>
+
+<P>Copies one or more files from one location to another.</P>
+
+<P><CODE><I>object</I>.<B>CopyFile</B> <I>source</I>, <I>destination</I>[, <I>overwrite</I>] </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. The <I>object</I> is always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>source</I></P>
+
+<P class=indent>Required. Character string file specification, which can include wildcard characters, for one or more files to be copied.</P>
+
+<P class=dt><I>destination</I></P>
+
+<P class=indent>Required. Character string destination where the file or files from <I>source</I> are to be copied. Wildcard characters are not allowed.</P>
+
+<P>overwrite</P>
+
+<P>Optional. Boolean value that indicates if existing files are to be overwritten. If <B>True</B>, files are overwritten; if <B>False</B>, they are not. The default is <B>True</B>. Note that <B>CopyFile</B> will fail if <I>destination</I> has the read-only attribute set, regardless of the value of <I>overwrite</I>.</P>
+
+<H4>Remarks</H4>
+
+<P>Wildcard characters can only be used in the last path component of the <I>source</I> argument. For example, you can use: </P>
+
+<PRE><CODE>FileSystemObject.CopyFile "c:\mydocuments\letters\*.doc", "c:\tempfolder\"</CODE></PRE>
+
+<P>But you can't use: </P>
+
+<PRE><CODE>FileSystemObject.CopyFile "c:\mydocuments\*\R1???97.xls", "c:\tempfolder"</CODE></PRE>
+
+<P>If <I>source</I> contains wildcard characters or <I>destination</I> ends with a path separator (\), it is assumed that <I>destination</I> is an existing folder in which to copy matching files. Otherwise, <I>destination</I> is assumed to be the name of a file to create. In either case, three things can happen when an individual file is copied. 
+
+<UL type=disc>
+	<LI>If <I>destination</I> does not exist, <I>source</I> gets copied. This is the usual case. </li>
+
+	<LI>If <I>destination</I> is an existing file, an error occurs if <I>overwrite</I> is <B>False</B>. Otherwise, an attempt is made to copy <I>source</I> over the existing file. </li>
+
+	<LI>If <I>destination</I> is a directory, an error occurs. </li>
+</UL>
+
+<P>An error also occurs if a <I>source</I> using wildcard characters doesn't match any files. The <B>CopyFile</B> method stops on the first error it encounters. No attempt is made to roll back or undo any changes made before an error occurs. </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopy.htm">Copy Method</A> | <A HREF="vsmthcopyfolder.htm">CopyFolder Method</A> | <A HREF="vsmthcreatetextfile.htm">CreateTextFile Method</A> | <A HREF="vsmthdeletefile.htm">DeleteFile Method</A> | <A HREF="vsmthmovefile.htm">MoveFile Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

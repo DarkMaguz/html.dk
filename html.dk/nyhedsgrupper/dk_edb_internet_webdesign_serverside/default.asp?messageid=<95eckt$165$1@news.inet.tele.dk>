@@ -1,0 +1,144 @@
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da" lang="da">
+<head>
+
+<title>Re: [Apache] Virtual hosts</title>
+
+<meta name="description" content="Indlæg i nyhedsgruppen dk.edb.internet.webdesign.serverside skrevet af Morten Bakkedal den 2. februar 2001" />
+<meta name="keywords" content="" />
+<meta name="title" content="Re: [Apache] Virtual hosts" />
+<meta name="language" content="dan" />
+<meta name="Date" content="02-02-01" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.classify.org/safesurf/" l gen true for "http://www.html.dk/" r (SS~~000 1))' />
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true for "http://www.html.dk" r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.html.dk" r (n 0 s 0 v 0 l 0))' /> 
+
+
+
+<link rel="stylesheet" href="/site/stylesheets/screen.default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
+
+<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+
+</head>
+<body>
+
+<div id="bodybx">
+
+<!-- DoubleClick start -->
+
+<center>
+<iframe src="http://ad.dk.doubleclick.net/adi/www.html.dk/nyhedsgrupper;ord=20015291032351F87?" width="468" height="60" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
+<a href="http://ad.dk.doubleclick.net/jump/www.html.dk/nyhedsgrupper;ord=20015291032351F87?"> 
+<img src="http://ad.dk.doubleclick.net/ad/www.html.dk/nyhedsgrupper;ord=20015291032351F87?" width="468" height="60" border="0" alt="Click here to find out more!" /></a> 
+</iframe>
+</center>
+
+<!-- DoubleClick end -->
+
+<!-- start page content -->
+
+
+<!-- FreeFind Begin No Index -->
+
+<h1>Nyhedsgruppen dk.edb.internet.webdesign.serverside</h1><p>Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling, Serverside scipting, Serverfaciliteter og Webservere.</p><hr /><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C95eckt%24165%241%40news%2Einet%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div>
+
+<!-- FreeFind End No Index -->
+
+<ul class='messageheaderlist'><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Afsender:</span></strong> Morten&nbsp;Bakkedal&nbsp;&nbsp;<a href='mailto:nospam@bakkeland.dk'><img src='/site/graphics/icons/icon.newsgroups.mail.gif' border='0' alt='nospam@bakkeland.dk' /></a></li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Organisation:</span></strong> Posted Courtesy of Tele Danmark or one of its European Subsidiaries</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Dato:</span></strong> 2. februar 2001 kl. 14:27</li><li class='messageheaderlist'><strong class='diff'><span class='messageheader'>Emne:</span></strong> <strong>Re: [Apache] Virtual hosts</strong></li></ul>
+
+<p><span class='normal'>Jonathan Stein wrote: </span><br /><span class='normal'> </span><br /><span class='citat'>> Havde jeg ogs&#229; indtryk af - h&#229;bede jeg tog fejl... ;-) </span><br /><span class='normal'> </span><br /><span class='normal'>Hvordan ville du s&#229; angive indstillinger, der skal v&#230;re standard for alle </span><br /><span class='normal'>virtuelle servere? </span><br /><span class='normal'> </span><br /><span class='citat'>> Kan jeg definere den til at svare p&#229; alle host-names, som ikke specifikt </span><br /><span class='citat'>> defineres senere? </span><br /><span class='normal'> </span><br /><span class='normal'>F&#248;rste virtuelle server har den egenskab. </span><br /><span class='normal'> </span><br /><span class='normal'>Bem&#230;rk desuden at du kan bruge wildcards sammen med ServerAlias: </span><br /><span class='normal'> </span><br /><span class='normal'>I min ops&#230;tning har jeg sat en sekund&#230;r virtuel server op med </span><br /><span class='normal'>indstillingerne: </span><br /><span class='normal'> </span><br /><span class='normal'>ServerName <a href='http://ftp.bakkeland.dk'>ftp.bakkeland.dk</a> </span><br /><span class='normal'>ServerAlias ftp.* </span><br /><span class='normal'> </span><br /><span class='normal'>Derved sendes alle foresp&#248;rgsler startende med &quot;ftp.&quot; til <a href='http://ftp.bakkeland.dk'>ftp.bakkeland.dk</a> i </span><br /><span class='normal'>stedet for til min prim&#230;re virtuelle server. </span><br /><span class='normal'> </span><br /><span class='normal'>-- </span><br /><span class='normal'>Morten Bakkedal </span><br /><span class='normal'><a href='http://www.bakkeland.dk/'>http://www.bakkeland.dk/</a> </span><br /><span class='normal'> </span><br /><span class='normal'> </span><br /><span class='normal'></span><br /></p><hr /><ul class='newslist'><li class='newslist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A79DCAF%2EF21EA604%40image%2Edk%3E' title='[Apache] Virtual hosts'>[Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(01-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cqile6%2E19378%24fa3%2E1040872%40news010%2Eworldonline%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(01-02-01&nbsp;-&nbsp;SoulMate)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A79ED33%2E5D576546%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(02-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C95eckt%24165%241%40news%2Einet%2Etele%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(02-02-01&nbsp;-&nbsp;Morten&nbsp;Bakkedal)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7AC4D5%2E9E1D4D5A%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(02-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C95etql%24d00%241%40news%2Einet%2Etele%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(02-02-01&nbsp;-&nbsp;Morten&nbsp;Bakkedal)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7C5C2C%2EB030E197%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(03-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C95jv4l%24fbp%241%40news%2Einet%2Etele%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Morten&nbsp;Bakkedal)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7D9DE7%2E513030AB%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C95kapl%24qnl%241%40news%2Einet%2Etele%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Morten&nbsp;Bakkedal)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7DC4D1%2E25D539FC%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7DB88B%2EBB40B149%40asdf%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Hroi&nbsp;Sigurdsson)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7DC634%2E3FA10510%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small></li></ul></li></ul></li></ul></li></ul><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C95jvku%24h6s%241%40news%2Einet%2Etele%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Morten&nbsp;Bakkedal)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7DA542%2E2C451761%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3Cxdif6%2E23324%24fa3%2E1268103%40news010%2Eworldonline%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Mickey)</small><ul class='relist'><li class='relist'><a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?messageid=%3C3A7DC129%2EA5C6C940%40image%2Edk%3E' title='Re: [Apache] Virtual hosts'>Re: [Apache] Virtual hosts</a>&nbsp;<small class='newslist'>(04-02-01&nbsp;-&nbsp;Jonathan&nbsp;Stein)</small></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><div class='newsbox'><img src='/site/graphics/icons/icon_reply.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form&amp;ReplyID=%3C95eckt%24165%241%40news%2Einet%2Etele%2Edk%3E'>Svar på dette indlæg</a>&nbsp;<img src='/site/graphics/icons/icon_new.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp?mode=form'>Skriv et nyt indlæg</a>&nbsp;&nbsp;<img src='/site/graphics/icons/icon_list.gif' alt=' | ' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp'>dk.edb.internet.webdesign.serverside</a></div><dl><dt></dt><dd></dd></dl>
+
+
+
+</div>
+
+
+
+<div id="menubox">
+
+<div id="leftmenu">
+
+<div class="firstmenuitem"><br /><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/tutorials/" class="menulink" title="Lær at kode HTML, CSS og ASP">Tutorials</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/artikler/" class="menulink" title="Læs baggrundsartikler om webudvikling">Artikler</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/community/" class="menulink" title="Bliv gratis medlem af html.dk">Community</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/scripts/" class="menulink" title="Færdige scripts og eksempler">Scripts</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/software/" class="menulink" title="Download software">Software</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/dokumentation/" class="menulink" title="Find hurtigt relevante oversigter og standarder">Dokumentation</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/nyhedsgrupper/" class="menulink" title="Få hurtigt kompetente svar på dine spørgsmål">Nyhedsgrupper</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/faq/" class="menulink" title="Ofte Stillede Spørgsmål">FAQ</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/books/" class="menulink" title="Find den bog du mangler - og køb den direkte hos bol.dk">Bøger</a></div>
+<div class="menuitem"><img src="/site/graphics/test_temp/menu.bullet.png" alt=" * " />&nbsp;<a href="/about/annoncering.asp" class="menulink" title="Læs om de mange muligheder for at annoncere på html.dk">Annoncer</a></div>
+
+
+<p>&nbsp;</p>
+<script type="text/javascript">
+<!-- Dette script og mange flere --> 
+<!-- findes hos http://www.html.dk --> 
+<!-- Start 
+
+billede1 = new Image();
+billede1.src = "/site/graphics/misc/leftbox.arrow.down.png";
+
+billede2 = new Image();
+billede2.src = "/site/graphics/misc/leftbox.arrow.up.png";
+
+function skiftbillede(img_name,img_src) {
+document[img_name].src=img_src;
+}
+
+// Slut -->
+</script>
+
+<div id="newsletterbox">
+<form action="/nyhedsbrev/default.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/nyhedsbrev/" onmouseover="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('newsletterinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="newsletterinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om nyhedsbrevet" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Nyhedsbrev</div>
+<div class="leftboxbody"><center><small class="boxtext">Tilmeld dig månedtligt nyhedsbrev fra html.dk<br /><input type="text" id="newsletterinput" size="10" name="Email" value="@" />
+<br />
+<input type="image" src="/site/graphics/misc/tilmeld.png" style="margin-right:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&1=Tilmeld';return false" alt="tilmeld nyhedsbrevet" /><input type="image" src="/site/graphics/misc/frameld.png" style="margin-left:1px;" onclick="location.href='/nyhedsbrev/default.asp?Email=' + this.form.Email.value + '&2=Frameld';return false" alt="frameld nyhedsbrevet" /></small></center></div>
+</form>
+</div>
+
+
+
+<div id="communitybox">
+<form action="/community/login.asp" method="post">
+<div class="leftboxheader"><span style="float:right;"><a href="/community/" onmouseover="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.up.png')" onmouseout="skiftbillede('communityinfo','/site/graphics/misc/leftbox.arrow.down.png')"><img height="20" width="20" name="communityinfo" src="/site/graphics/misc/leftbox.arrow.down.png" alt="Information om community" style="border:none;vertical-align:middle;" /></a></span>&nbsp;Community</div>
+<div class="leftboxbody" style="padding-left:4px;"><small class="boxtext">Brugernavn<br /><input type="text" size="10" name="UserLogin" value="" style="width:136px" /><br />Adgangskode<br /><input type="password" size="10" name="UserPassword" value="" style="width:136px" /><br /><span style="float:right;margin-right:10px;"><input type="image" src="/site/graphics/misc/login.png" alt="login til community" /></span><input type="checkbox" name="AutoLogin" checked="checked" />husk</small><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " style="clear:both;" />&nbsp;<a href="/community/signup.asp">Bliv medlem her</a><br /><img src="/site/graphics/test_temp/black_square_arrow.png" alt=" * " />&nbsp;<a href="/community/lostpassword.asp">Glemt password?</a></div>
+</form>
+</div>
+
+
+
+<div id="chartbox"><a target="_blank" href="http://www.chart.dk/ref.asp?id=32234"><img alt="chart.dk" border="0" src="http://cluster.chart.dk/chart.asp?id=32234" /></a></div>
+
+</div>
+</div>
+
+<hr style="clear:both" />
+
+<div style="text-align:center"><a href="/about/">Om html.dk</a> | <a href="/about/ophavsret.asp">Oplysninger om ophavsret</a> | <a href="/about/Persondatabeskyttelse.asp">Politik om persondatabeskyttelse</a> | <a href="/about/annoncering.asp">Annoncer</a></div>
+<hr />
+
+<div id="searchbox">
+<form action="http://search.freefind.com/find.html" method="get">
+<input type="hidden" name="id" size="-1" value="1996047" />
+<input type="hidden" name="pageid" size="-1" value="r" />
+<input type="hidden" name="n" value="0" />
+<input type="text" name="query" size="20" id="leftsearch" />
+<select name="mode"><option selected="selected" value="Match ALL words">Søg alle ord</option><option value="Match ANY word">Søg nogle ord</option></select>
+<input type="image" src="/site/graphics/misc/search.png" value="Søg" alt="Søg" id="searchpic" />
+</form>
+<div id="freefind">powered by <a href="http://www.freefind.com" title="Få en gratis søgefunktion til dit website" class="freefind">FreeFind</a></div>
+</div>
+
+<div id="navigationbox">&nbsp;<a href='/default.asp' class='navibox'>html.dk</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/default.asp' title='Oversigt over nyhedsgrupper' class='navibox'>Nyhedsgrupper</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<a href='/nyhedsgrupper/dk_edb_internet_webdesign_serverside/default.asp' title='Gruppen er til spørgsmål til - og diskussion af - de problemer og faciliteter der er ved at fremstille websider ved brug af serverside teknikker. Serverside teknikker og faciliteter er bla.: CGI udvikling' class='navibox'>dk.edb.internet.webdesign.serverside</a>&nbsp;<img src='/site/graphics/icons/icon.navigation.arrow.white.gif' height='8' width='8' alt='-&gt;' />&nbsp;<span style='color:white'>Re: [Apache] Virtual hosts</span></div>
+
+</body>
+</html>
+

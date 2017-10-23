@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>RGB Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctrgb"></A>RGB Function</H1>
+
+<P>Returns a whole number representing an RGB color value.</P>
+
+<P><CODE><B>RGB(</B>red, green, blue<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>red</I></P>
+
+<P class=indent>Required. Number in the range 0-255 representing the red component of the color.</P>
+
+<P class=dt><I>green</I></P>
+
+<P class=indent>Required. Number in the range 0-255 representing the green component of the color.</P>
+
+<P class=dt><I>blue</I></P>
+
+<P class=indent>Required. Number in the range 0-255 representing the blue component of the color.</P>
+
+<H4>Remarks</H4>
+
+<P>Application methods and properties that accept a color specification expect that specification to be a number representing an RGB color value. An RGB color value specifies the relative intensity of red, green, and blue to cause a specific color to be displayed. </P>
+
+<P>The low-order byte contains the value for red, the middle byte contains the value for green, and the high-order byte contains the value for blue. </P>
+
+<P>For applications that require the byte order to be reversed, the following function will provide the same information with the bytes reversed: </P>
+
+<PRE><CODE>Function RevRGB(red, green, blue)
+&nbsp;&nbsp;&nbsp;RevRGB= CLng(blue + (green * 256) + (red * 65536))
+End Function</CODE></PRE>
+
+<P>The value for any argument to RGB that exceeds 255 is assumed to be 255.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 2</A> </P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

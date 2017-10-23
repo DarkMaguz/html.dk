@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Right Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctright"></A>Right Function</H1>
+
+<P>Returns a specified number of characters from the right side of a string.</P>
+
+<P><CODE><B>Right(</B>string<B>, </B>length<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>string</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> from which the rightmost characters are returned. If <I>string</I> contains <A HREF="vtglossary.htm#defnullvbs">Null</A>, <B>Null</B> is returned.</P>
+
+<P class=dt><I>length</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defnumericexpressionvbs">Numeric expression</A> indicating how many characters to return. If 0, a zero-length string is returned. If greater than or equal to the number of characters in <I>string</I>, the entire string is returned.</P>
+
+<H4>Remarks</H4>
+
+<P>To determine the number of characters in <I>string</I>, use the <B>Len</B> function.</P>
+
+<P>The following example uses the <B>Right</B> function to return a specified number of characters from the right side of a string: </P>
+
+<PRE><CODE>Dim AnyString, MyStr
+AnyString = "Hello World"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' Define string.
+MyStr = <span class=cfe><B>Right(</B></span>AnyString<span class=cfe><B>,</B></span> 1<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;' Returns "d".
+MyStr = <span class=cfe><B>Right(</B></span>AnyString<span class=cfe><B>,</B></span> 6<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;&nbsp;' Returns " World".
+MyStr = <span class=cfe><B>Right(</B></span>AnyString<span class=cfe><B>,</B></span> 20<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Returns "Hello World".</CODE></PRE>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>The <B>RightB</B> function is used with byte data contained in a string. Instead of specifying the number of characters to return, <I>length</I> specifies the number of bytes.</P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctleft.htm">Left Function</A> | <A HREF="vsfctlen.htm">Len Function</A> | <A HREF="vsfctmid.htm">Mid Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

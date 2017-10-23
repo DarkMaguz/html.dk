@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>DeleteFile Method</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsmthdeletefile"></A>DeleteFile Method</H1>
+
+<P>Deletes a specified file.</P>
+
+<P><CODE><I>object</I>.<B>DeleteFile</B> <I>filespec</I>[, <I>force</I>] </CODE></P>
+
+<H4>Arguments<I> </I></H4>
+
+<P class=dt><I>object</I></P>
+
+<P class=indent>Required. Always the name of a <B>FileSystemObject</B>.</P>
+
+<P class=dt><I>filespec</I></P>
+
+<P class=indent>Required. The name of the file to delete. The <I>filespec</I> can contain wildcard characters in the last path component.</P>
+
+<P class=dt><I>force</I></P>
+
+<P class=indent>Optional. Boolean value that is <B>True</B> if files with the read-only attribute set are to be deleted; <B>False</B> (default) if they are not.</P>
+
+<H4>Remarks</H4>
+
+<P>An error occurs if no matching files are found. The <B>DeleteFile</B> method stops on the first error it encounters. No attempt is made to roll back or undo any changes that were made before an error occurred.</P>
+
+<P>The following example illustrates use of the <B>DeleteFile</B> method: </P>
+
+<PRE><CODE>Sub DeleteAFile(filespec)
+&nbsp;&nbsp;&nbsp;Dim fso
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;fso.DeleteFile(filespec)
+End Sub</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsmthcopyfile.htm">CopyFile Method</A> | <A HREF="vsmthcreatetextfile.htm">CreateTextFile Method</A> | <A HREF="vsmthdelete.htm">Delete Method</A> | <A HREF="vsmthdeletefolder.htm">DeleteFolder Method</A> | <A HREF="vsmthmovefile.htm">MoveFile Method</A></P>
+
+<P>Applies To: <A HREF="vsobjfilesystem.htm">FileSystemObject Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

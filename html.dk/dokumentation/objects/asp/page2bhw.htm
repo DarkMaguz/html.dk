@@ -1,0 +1,51 @@
+<html><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text-html; charset=Windows-1252">
+<title>PageHit</title>
+<script language="JavaScript">
+
+    szNavVersion = navigator.appVersion
+
+    if (navigator.appName == "Microsoft Internet Explorer") {
+	if (szNavVersion.indexOf ("4.") >= 0) {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+	} else {
+	    document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+	}
+    }
+    else if (navigator.appName == "Netscape") {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie4.css">');
+    }
+    else {
+	document.writeln('<link rel="stylesheet" type="text/css" href="/iishelp/common/spidie3.css">');
+    }
+
+</script>
+<META NAME="DESCRIPTION" CONTENT="Internet Information Server reference information"></HEAD>
+<BODY BGCOLOR=#FFFFFF TEXT=#000000>
+<font face="Verdana, Arial, Helvetica">
+<h2><a name="_pagehit"></a>PageHit</h2>
+<p>
+The PageHit method increments the hit count for the current Web page.</p>
+<h3>Syntax</h3>
+<pre><b>Object.PageHit()
+ </b></pre>
+<h3>Example</h3>
+<p>
+The following example uses the <b>PageHit</b> method to increment the number of times that the current Web page has been opened.</p>
+<pre>&lt;% Set MyPageCounter = Server.CreateObject(&quot;MSWC.PageCounter&quot;) 
+MyPageCounter.PageHit
+%&gt;
+
+This Web page has been viewed &lt;%= MyPageCount.Hits %&gt; times.</pre>
+<h3>Applies To</h3>
+<p>
+<a href="page00vo.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page00vo.htm"><b>Page Counter Component</b></a></p>
+<h3>See Also</h3>
+<p>
+<a href="page2qic.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page2qic.htm"><b>Reset</b></a>, <a href="page559v.htm" tppabs="http://www.activeserverpages.dk/iishelp/iis/htm/asp/page559v.htm"><b>Hits</b></a></p>
+<hr class="iis" size="1">
+<p align="center"><em><a href="javascript:if(confirm('http://www.activeserverpages.dk/iishelp/common/colegal.htm  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.activeserverpages.dk/iishelp/common/colegal.htm'" tppabs="http://www.activeserverpages.dk/iishelp/common/colegal.htm">&copy; 1997 by Microsoft Corporation. All rights reserved.</a></em></p>
+</BODY>
+</HTML>

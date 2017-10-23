@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>This array is fixed or temporarily locked</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vserrarrayfixedortemporarilylocked"></A>This array is fixed or temporarily locked</H1>
+
+<P>You attempted to use <B>ReDim </B>to change the number of elements in an array of constant size. Arrays declared as dynamic, or arrays within <B>Variant</B> variables can be temporarily locked.</P>
+
+<P class=label><B>To correct this error</B>
+
+<UL>
+	<LI>If the array is declared within a procedure, use the function <B>ReDim </B>to change it from static to dynamic.</li>
+
+	<LI>If the array is declared at the module level, declare the array without specifying the number of elements.</li>
+</UL>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctarray.htm">Array Function</A> | <A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vsstmredim.htm">ReDim Statement</A> | <A HREF="vsstmset.htm">Set Statement</A> | <A HREF="vsstmprivate.htm">Private Statement</A> | <A HREF="vsstmpublic.htm">Public Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>InputBox Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctinputbox"></A>InputBox Function</H1>
+
+<P>Displays a prompt in a dialog box, waits for the user to input text or click a button, and returns the contents of the text box.</P>
+
+<P><CODE><B>InputBox(</B>prompt[<B>, </B>title][<B>, </B>default][<B>, </B>xpos][<B>, </B>ypos][<B>, </B>helpfile<B>, </B>context]<B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>prompt</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defstringexpressionvbs">String expression</A> displayed as the message in the dialog box. The maximum length of <I>prompt</I> is approximately 1024 characters, depending on the width of the characters used. If <I>prompt</I> consists of more than one line, you can separate the lines using a carriage return character (<B>Chr(</B>13<B>)</B>), a linefeed character (<B>Chr(</B>10<B>)</B>), or carriage return–linefeed character combination (<B>Chr(</B>13<B>) &amp; Chr(</B>10<B>)</B>) between each line.</P>
+
+<P class=dt><I>title</I></P>
+
+<P class=indent>String expression displayed in the title bar of the dialog box. If you omit <I>title</I>, the application name is placed in the title bar.</P>
+
+<P class=dt><I>default</I></P>
+
+<P class=indent>String expression displayed in the text box as the default response if no other input is provided. If you omit <I>default</I>, the text box is displayed empty.</P>
+
+<P class=dt><I>xpos</I></P>
+
+<P class=indent><A HREF="vtglossary.htm#defnumericexpressionvbs">Numeric expression</A> that specifies, in twips, the horizontal distance of the left edge of the dialog box from the left edge of the screen. If <I>xpos</I> is omitted, the dialog box is horizontally centered.</P>
+
+<P class=dt><I>ypos</I></P>
+
+<P class=indent>Numeric expression that specifies, in twips, the vertical distance of the upper edge of the dialog box from the top of the screen. If <I>ypos</I> is omitted, the dialog box is vertically positioned approximately one-third of the way down the screen.</P>
+
+<P class=dt><I>helpfile</I></P>
+
+<P class=indent>String expression that identifies the Help file to use to provide context-sensitive Help for the dialog box. If <I>helpfile</I> is provided, <I>context</I> must also be provided.</P>
+
+<P class=dt><I>context</I></P>
+
+<P class=indent>Numeric expression that identifies the Help context number assigned by the Help author to the appropriate Help topic. If <I>context</I> is provided, <I>helpfile</I> must also be provided.</P>
+
+<H4>Remarks</H4>
+
+<P>When both <I>helpfile</I> and <I>context</I> are supplied, a Help button is automatically added to the dialog box.</P>
+
+<P>If the user clicks <B>OK</B> or presses <B>ENTER</B>, the <B>InputBox</B> function returns whatever is in the text box. If the user clicks <B>Cancel</B>, the function returns a zero-length string ("").</P>
+
+<P>The following example uses the <B>InputBox</B> function to display an input box and assign the string to the variable Input: </P>
+
+<PRE><CODE>Dim Input
+Input = <span class=cfe><B>InputBox(</B></span>"Enter your name"<span class=cfe><B>)</B></span> 
+MsgBox ("You entered: " &amp; Input)</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctmsgbox.htm">MsgBox Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Column Property</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsprocolumn"></A>Column Property</H1>
+
+<P>Read-only property that returns the column number of the current character position in a <B>TextStream</B> file. </P>
+
+<P><CODE><I>object</I>.Column</CODE></P>
+
+<P>The <I>object</I> is always the name of a <B>TextStream</B> object. </P>
+
+<H4>Remarks</H4>
+
+<P>After a newline character has been written, but before any other character is written, <B>Column</B> is equal to 1.</P>
+
+<P>The following example illustrates use of the <B>Column</B> property:</P>
+
+<PRE><CODE>Function GetColumn
+&nbsp;&nbsp;&nbsp;Const ForReading = 1, ForWriting = 2
+&nbsp;&nbsp;&nbsp;Dim fso, f, m
+&nbsp;&nbsp;&nbsp;Set fso = CreateObject("Scripting.FileSystemObject")
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForWriting, True)
+&nbsp;&nbsp;&nbsp;f.Write "Hello world!" 
+&nbsp;&nbsp;&nbsp;f.Close
+&nbsp;&nbsp;&nbsp;Set f = fso.OpenTextFile("c:\testfile.txt", ForReading)
+&nbsp;&nbsp;&nbsp;m =&nbsp;&nbsp;&nbsp;f.ReadLine
+&nbsp;&nbsp;&nbsp;GetColumn = <span class=cfe><B>f.Column</B></span>
+End Function</CODE></PRE>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsproatendofline.htm">AtEndOfLine Property</A> | <A HREF="vsproatendofstream.htm">AtEndOfStream Property</A> | <A HREF="vsproline.htm">Line Property</A></P>
+
+<P>Applies To: <A HREF="vsobjtextstream.htm">TextStream Object</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

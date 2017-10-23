@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>CCur Function</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfctccur"></A>CCur Function</H1>
+
+<P>Returns an expression that has been converted to a <B>Variant</B> of subtype <B>Currency</B>.</P>
+
+<P><CODE><B>CCur(</B>expression<B>)</B></CODE></P>
+
+<P>The <I>expression</I> argument is any valid expression.</P>
+
+<H4>Remarks</H4>
+
+<P>In general, you can document your code using the subtype conversion functions to show that the result of some operation should be expressed as a particular data type rather than the default data type. For example, use <B>CCur</B> to force currency arithmetic in cases where integer arithmetic normally would occur.</P>
+
+<P>You should use the <B>CCur</B> function to provide internationally aware conversions from any other data type to a <B>Currency</B> subtype. For example, different decimal separators and thousands separators are properly recognized depending on the <A HREF="vtglossary.htm#deflocalevbs">locale</A> setting of your system.</P>
+
+<P>The following example uses the <B>CCur</B> function to convert an expression to a Currency: </P>
+
+<PRE><CODE>Dim MyDouble, MyCurr
+MyDouble = 543.214588&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' MyDouble is a Double.
+MyCurr = <span class=cfe><B>CCur(</B></span>MyDouble * 2<span class=cfe><B>)</B></span>&nbsp;&nbsp;&nbsp;' Convert result of MyDouble * 2 (1086.429176) to a Currency (1086.4292).</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 1</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsfctcbool.htm">CBool Function</A> | <A HREF="vsfctcbyte.htm">CByte Function</A> | <A HREF="vsfctcdate.htm">CDate Function</A> | <A HREF="vsfctcdbl.htm">CDbl Function</A> | <A HREF="vsfctcint.htm">CInt Function</A> | <A HREF="vsfctclng.htm">CLng Function</A> | <A HREF="vsfctcsng.htm">CSng Function</A> | <A HREF="vsfctcstr.htm">CStr Function</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Class Object</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsobjclass"></A>Class Object</H1>
+
+<P>The object created using the <B>Class</B> statement. Provides access to the events of the <A HREF="vtglossary.htm#defclassvbs">class</A>. </P>
+
+<H4>Remarks</H4>
+
+<P>You cannot explicitly declare a <A HREF="vtglossary.htm#defvariablevbs">variable</A> to be of type Class. In the VBScript context, the term "class object" refers to any object defined using the VBScript <B>Class</B> statement.</P>
+
+<P>Once you have created a class definition using the <B>Class</B> statement, you can create an instance of the class using the following form:</P>
+
+<PRE><CODE>Dim X
+Set X = New <I>classname</I></CODE></PRE>
+
+<P>Because VBScript is a late-bound language, you cannot do any of the following:</P>
+
+<PRE><CODE>Dim X as New <I>classname</I></CODE></PRE>
+
+<P>-or-</P>
+
+<PRE><CODE>Dim X
+X = New classname</CODE></PRE>
+
+<P>-or-</P>
+
+<PRE><CODE>Set X = New Scripting.FileSystemObject</CODE></PRE>
+
+<H4>Events</H4>
+
+<P><A HREF="vsevtinitialize.htm">Initialize Event</A> | <A HREF="vsevtterminate.htm">Terminate Event</A></P>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmclass.htm">Class Statement</A> | <A HREF="vsstmdim.htm">Dim Statement</A> | <A HREF="vsstmset.htm">Set Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>

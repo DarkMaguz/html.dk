@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=Windows-1252">
+<TITLE>Eval</TITLE>
+<!--CSS_START-->
+<style>@import url(../html-vss/msdnie4a.css);</style>
+<link disabled rel="stylesheet" href="../html-vss/msdn_ie3.css">
+<!--CSS_END-->
+</HEAD>
+<BODY>
+
+
+<!--Start Head-->
+<TABLE class="banner" width="100%" CELLSPACING=0>
+<TR>
+<TD class="bannerleft" nowrap>Visual&nbsp;Basic&nbsp;Scripting&nbsp;Edition</TD>
+<TD class="bannerright" nowrap><a href="../html-vss/vbsTOC.htm">Language Reference</a></TD>
+</TR>
+</TABLE>
+<HR>
+<!--End Head-->
+
+<H1><A NAME="vsfcteval"></A>Eval</H1>
+
+<P>Evaluates an <A HREF="vtglossary.htm#defexpressionvbs">expression</A> and returns the result.</P>
+
+<P><CODE>[result = ]<B>Eval(</B><I>expression</I><B>)</B></CODE></P>
+
+<H4>Arguments</H4>
+
+<P class=dt><I>result</I></P>
+
+<P class=indent>Optional. <A HREF="vtglossary.htm#defvariablevbs">Variable</A> to which return value assignment is made. If <I>result</I> is not specified, consider using the <B>Execute</B> statement instead.</P>
+
+<P class=dt><I>expression</I></P>
+
+<P class=indent>Required. String containing any legal VBScript expression. </P>
+
+<H4>Remarks</H4>
+
+<P>In VBScript, <I>x = y</I> can be interpreted two ways. The first is as an assignment statement, where the value of <I>y</I> is assigned to <I>x</I>. The second interpretation is as an expression that tests if <I>x</I> and <I>y</I> have the same value. If they do, <I>result</I> is <B>True</B>; if they are not, <I>result</I> is <B>False</B>. The <B>Eval</B> method always uses the second interpretation, whereas the <B>Execute</B> statement always uses the first.</P>
+
+<P class=indent><B><B>Note&nbsp;&nbsp;&nbsp;</B></B>In Microsoft<SUP>®</SUP> JScript™, no confusion exists between assignment and comparison, because the assignment operator (=) is different from the <A HREF="vtglossary.htm#defcomparisonoperatorvbs">comparison operator</A> (==).</P>
+
+<P>The following example illustrates the use of the <B>Eval</B> function: </P>
+
+<PRE><CODE>Sub GuessANumber
+&nbsp;&nbsp;&nbsp;Dim Guess, RndNum
+&nbsp;&nbsp;&nbsp;RndNum = Int((100) * Rnd(1) + 1)
+&nbsp;&nbsp;&nbsp;Guess = CInt(InputBox("Enter your guess:",,0))
+&nbsp;&nbsp;&nbsp;Do
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If <span class=cfe><B>Eval(</B></span>"Guess = RndNum"<span class=cfe><B>)</B></span> Then
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MsgBox "Congratulations! You guessed it!"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exit Sub
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Else
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guess = CInt(InputBox("Sorry! Try again.",,0))
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;End If
+&nbsp;&nbsp;&nbsp;Loop Until Guess = 0
+End Sub</CODE></PRE>
+
+<H4>Requirements</H4>
+
+<P><A HREF="vtoriversioninformation.htm">Version 5</A> </P>
+
+<H4>See Also</H4>
+
+<P><A HREF="vsstmexecute.htm">Execute Statement</A></P>
+<!--Copyright_START-->
+<DIV CLASS="footer">
+<HR><a href="vbscopy.htm">&copy;2000 Microsoft Corporation. All rights reserved.</a><br>
+</DIV> <!--Copyright_END-->
+
+</BODY>
+</HTML>
