@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="/site/stylesheets/print.default.css" type="text/css" media="print" />
 <link rel="stylesheet" href="/site/stylesheets/aural.default.css" type="text/css" media="aural" />
 
-<link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+<link rel="shortcut icon" href="/favicon/favicon.ico" />
 
 </head>
 <body>

@@ -39,7 +39,7 @@
     <link rel="alternate" type="application/rss+xml" title="dk.edb.internet.udbydere.webhotel" href="http://www.html.dk/rss/dk.edb.internet.udbydere.webhotel.xml" />
     <link rel="alternate" type="application/rss+xml" title="dk.edb.programmering.dotnet" href="http://www.html.dk/rss/dk.edb.programmering.dotnet.xml" />
 
-    <link rel="shortcut icon" href="http://www.html.dk/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
 
     <!-- BEGIN: AdSolution-Tag 4.3: Global-Code -->
     <script type="text/javascript" src="http://a.as-eu.falkag.net/dat/dlv/aslmain.js"></script>
