@@ -1,12 +1,11 @@
 FROM debian:buster
 
-
 # Install services
 RUN apt-get update && apt-get install -y apache2 libapache2-mod-php7.1 php7.1 nano
 
-# Install app
+# Install html.dk
 RUN rm -rf /var/www/*
-COPY html.dk /var/www/apa
+RUN mkdir -p /var/www/html.dk
 RUN rm -rf /etc/apache2/sites-available
 COPY sites-available /etc/apache2/sites-available
 
@@ -14,7 +13,7 @@ COPY sites-available /etc/apache2/sites-available
 RUN a2enmod rewrite
 RUN a2enmod headers
 RUN a2dissite 000-default
-RUN a2ensite app
+RUN a2ensite html.dk
 RUN apache2ctl restart
 #RUN chown -R www-data:www-data /var/www
 ENV APACHE_RUN_USER www-data

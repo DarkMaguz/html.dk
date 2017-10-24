@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Clean up
-docker rm -f apache-php-app
+docker rm -f html.dk
 
 # Build the docker image
-docker build -t codingpirates/apache-php-app .
+docker build -t codingpirates/html.dk .
 
 # Run the docker image
-docker run -ti --name apache-php-app -p 80:80 -v html.dk:/var/www/apa/ codingpirates/apache-php-app
+docker run -ti --name html.dk -v ${PWD}/html.dk:/var/www/html.dk -p 8899:80 codingpirates/html.dk
